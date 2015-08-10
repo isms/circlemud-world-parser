@@ -112,6 +112,28 @@ $
         }
         self.assertIn(expected, thunderbolt['extra_effects'])
 
+    def test_parsing_object_with_non_stock_flag(self):
+        text = """#42
+thing~
+thing~
+A thing is here.~
+~
+5 abcM 8193
+0 4 6 6
+22 100000 25000
+$
+"""
+        objs = parse_objects_from_string(text)
+        thing = objs.pop()
+
+        self.assertEqual(len(thing['extra_effects']), 4)
+
+        expected = {
+            'value': 274877906944,
+            'flag': None
+        }
+        self.assertIn(expected, thing['extra_effects'])
+
 
 if __name__ == '__main__':
     unittest.main()

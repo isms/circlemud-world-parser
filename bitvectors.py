@@ -34,5 +34,6 @@ def bitvector_to_numbers(value):
 
 def bitvector_to_flags(bitvector, flag_dict):
     numbers = bitvector_to_numbers(bitvector)
-    flags = [{'value': number, 'flag': flag_dict[number]} for number in numbers]
+    flags = [{'value': number,'flag': flag_dict.get(number, None)}
+             for number in numbers]
     return flags
