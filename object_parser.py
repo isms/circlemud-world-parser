@@ -2,6 +2,7 @@
 import json
 import os
 import sys
+import traceback
 
 from bitvectors import bitvector_to_flags
 from bitvectors import clean_bitvector
@@ -47,7 +48,7 @@ def parse_affects(extra_fields):
                 flag = OBJECT_AFFECT_LOCATION_FLAGS.get(location, None)
                 d = {
                     'location': location,
-                    'location_flag': flag,
+                    'note': flag,
                     'value': value,
                 }
                 yield d
@@ -75,7 +76,7 @@ def parse_object(object_text):
         # type flag is always an int
         item['type'] = {
             'value': int(type_flag),
-            'flag': OBJECT_TYPE_FLAGS.get(int(type_flag), None)
+            'note': OBJECT_TYPE_FLAGS.get(int(type_flag), None)
         }
 
         # parse the bitvectors
@@ -98,7 +99,8 @@ def parse_object(object_text):
             item['extra_descs'] = list(parse_extra_descs(extra_fields))
 
     except ValueError as e:
-        print 'error parsing item:', e, fields,
+        print 'error parsing item:', object_text
+        traceback.print_exc(file=sys.stdout)
         return None
 
     return item

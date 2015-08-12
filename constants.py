@@ -89,3 +89,41 @@ OBJECT_AFFECT_LOCATION_FLAGS = {
     23: 'SAVING_BREATH',  # Apply to save throw: breath
     24: 'SAVING_SPELL',  # Apply to save throw: spells
 }
+
+ROOM_FLAGS = {
+    1: 'DARK',  # Room is dark.
+    2: 'DEATH',  # Room is a death trap; char `dies' (no xp lost).
+    4: 'NOMOB',  # MOBs (monsters) cannot enter room.
+    8: 'INDOORS',  # Room is indoors.
+    16: 'PEACEFUL',  # Room is peaceful (violence not allowed).
+    32: 'SOUNDPROOF',  # Shouts, gossips, etc. won't be heard in room.
+    64: 'NOTRACK',  # `track' can't find a path through this room.
+    128: 'NOMAGIC',  # All magic attempted in this room will fail.
+    256: 'TUNNEL',  # Only one person allowed in room at a time.
+    512: 'PRIVATE',  # Cannot teleport in or GOTO if two people here.
+    1024: 'GODROOM',  # Only LVL_GOD and above allowed to enter.
+    2048: 'HOUSE',  # Reserved for internal use. Do not set.
+    4096: 'HOUSE_CRASH',  # Reserved for internal use. Do not set.
+    8192: 'ATRIUM',  # Reserved for internal use. Do not set.
+    16384: 'OLC',  # Reserved for internal use. Do not set.
+    32768: 'BFS_MARK',  # Reserved for internal use. Do not set.
+}
+
+ROOM_SECTOR_TYPES = {
+    0: 'INSIDE',  # Indoors (small number of move points needed).
+    1: 'CITY',  # The streets of a city.
+    2: 'FIELD',  # An open field.
+    3: 'FOREST',  # A dense forest.
+    4: 'HILLS',  # Low foothills.
+    5: 'MOUNTAIN',  # Steep mountain regions.
+    6: 'WATER_SWIM',  # Water (swimmable).
+    7: 'WATER_NOSWIM',  # Unswimmable water - boat required for passage.
+    8: 'FLYING',  # Wheee!
+    9: 'UNDERWATER',  # Underwater.
+}
+
+ROOM_DOOR_FLAGS = {
+    0: 'NO_DOOR',
+    1: 'DOOR',
+    2: 'PICKPROOF',
+}

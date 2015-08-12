@@ -5,6 +5,7 @@ from bitvectors import bitvector_letters_to_numbers
 from bitvectors import bitvector_number_to_numbers
 from bitvectors import bitvector_to_flags
 from object_parser import parse_objects_from_string
+from room_parser import parse_rooms_from_string
 
 
 class BitvectorParsingTests(unittest.TestCase):
@@ -36,8 +37,8 @@ class BitvectorParsingTests(unittest.TestCase):
 
         bitvector = 6
         expected = [
-            {"flag": "BUZZING", "value": 2},
-            {"flag": "OOZING", "value": 4}
+            {"note": "BUZZING", "value": 2},
+            {"note": "OOZING", "value": 4}
         ]
         actual = bitvector_to_flags(bitvector, test_flags)
         self.assertListEqual(actual, expected)
@@ -92,7 +93,7 @@ $
         effects = thunderbolt['extra_effects']
         self.assertEqual(len(effects), 5)
 
-        effect_flags = [effect['flag'] for effect in effects]
+        effect_flags = [effect['note'] for effect in effects]
         expected = ['HUM', 'MAGIC', 'ANTI_EVIL', 'ANTI_MAGIC_USER', 'ANTI_CLERIC']
         self.assertListEqual(effect_flags, expected)
 
@@ -107,7 +108,7 @@ $
 
         self.assertEqual(len(telescope['extra_effects']), 0)
         expected = {
-            "flag": "ANTI_EVIL",
+            "note": "ANTI_EVIL",
             "value": 1024
         }
         self.assertIn(expected, thunderbolt['extra_effects'])
@@ -130,10 +131,72 @@ $
 
         expected = {
             'value': 274877906944,
-            'flag': None
+            'note': None
         }
         self.assertIn(expected, thing['extra_effects'])
 
+
+class RoomParsingTests(unittest.TestCase):
+    def setUp(self):
+        self.text = """#3028
+The Thieves' Bar~
+   The bar of the thieves.  Once upon a time this place was beautifully
+furnished, but now it seems almost empty.  To the south is the yard, and to
+the west is the entrance hall.
+   (Maybe the furniture has been stolen?!)
+~
+30 cdh 0
+D2
+You see the secret yard.
+~
+~
+0 -1 3029
+D3
+You see the entrance hall to the thieves' guild.
+~
+~
+0 -1 3027
+E
+furniture~
+As you look at the furniture, the chair you sit on disappears.
+Also with multiple lines.
+~
+E
+other~
+A different thing.
+~
+S
+#3029
+The Secret Yard~
+   The secret practice yard of thieves and assassins.  To the north is the
+bar.  A well leads down into darkness.
+~
+30 cd 0
+D0
+You see the bar.
+~
+~
+0 -1 3028
+D5
+You can't see what is down there, it is too dark.  Looks like it would be
+impossible to climb back up.
+~
+~
+0 -1 7043
+S
+"""
+
+    def test_parsing_rooms(self):
+        rooms = parse_rooms_from_string(self.text)
+        self.assertEqual(len(rooms), 2)
+
+        bar, yard = rooms
+
+        self.assertEqual(len(bar['exits']), 2)
+        self.assertEqual(len(yard['exits']), 2)
+
+        self.assertEqual(len(bar['extra_descs']), 2)
+        self.assertEqual(len(yard['extra_descs']), 0)
 
 if __name__ == '__main__':
     unittest.main()
