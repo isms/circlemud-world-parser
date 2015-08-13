@@ -48,8 +48,11 @@ def lookup_value_to_dict(value, flag_dict):
 
 
 def split_on_vnums(file_text):
-    # this is important because some room descriptions can
-    # (and do) start with '#'
+    """
+    function specifically to split the file on lines like in the form
+    of a vnum (e.g. the entire line is something like '#1234'). this is
+    important because lines within entries can (and do) start with '#'
+    """
     split_re = r"""^\#(\d+)"""
     split_pattern = re.compile(split_re, re.MULTILINE)
 
@@ -62,8 +65,15 @@ def split_on_vnums(file_text):
         yield ''.join((vnum, text))
 
 
-def parse_from_string(file_text, parse_function):
-    texts = split_on_vnums(file_text)
+def parse_from_string(file_text, parse_function, splitter):
+    """
+    given the text of a file, split it up into individual entries using
+    the passed splitting function, then feed each piece into the
+    individual entry parser, accumulating all results into an array.
+
+     returns the resulting array of dictionaries.
+    """
+    texts = splitter(file_text)
 
     dicts = []
     for text in texts:
@@ -79,12 +89,16 @@ def parse_from_string(file_text, parse_function):
     return dicts
 
 
-def parse_from_file(filename, parse_function):
+def parse_from_file(filename, parse_function, splitter=split_on_vnums):
+    """
+    given a filename and an individual item parsing function, read the
+    file contents and pass to the string parser.
+    """
     # read in the file
     with open(filename) as f:
         file_text = f.read().rstrip('$\n')
 
-    return parse_from_string(file_text, parse_function)
+    return parse_from_string(file_text, parse_function, splitter=splitter)
 
 
 def parse_dice_roll_string_to_tuple(roll_string):

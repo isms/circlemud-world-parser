@@ -8,6 +8,7 @@ from utils import bitvector_letters_to_numbers
 from utils import bitvector_number_to_numbers
 from utils import bitvector_to_flags
 from utils import parse_from_string
+from utils import split_on_vnums
 
 
 class BitvectorParsingTests(unittest.TestCase):
@@ -83,7 +84,7 @@ $
 """
 
     def test_parsing_objects(self):
-        objs = parse_from_string(self.text, parse_object)
+        objs = parse_from_string(self.text, parse_object, split_on_vnums)
         self.assertEqual(len(objs), 2)
 
         thunderbolt, telescope = objs
@@ -126,7 +127,7 @@ A thing is here.~
 22 100000 25000
 $
 """
-        objs = parse_from_string(text, parse_object)
+        objs = parse_from_string(text, parse_object, split_on_vnums)
         thing = objs.pop()
 
         self.assertEqual(len(thing['extra_effects']), 4)
@@ -189,7 +190,7 @@ S
 """
 
     def test_parsing_rooms(self):
-        rooms = parse_from_string(self.text, parse_room)
+        rooms = parse_from_string(self.text, parse_room, split_on_vnums)
         self.assertEqual(len(rooms), 2)
 
         bar, yard = rooms
