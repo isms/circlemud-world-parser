@@ -15,8 +15,6 @@ from utils import parse_from_file
 
 
 def parse_mob(text):
-    d = {}
-
     fields = [line.rstrip() for line in text.strip().split('\n')]
 
     d = {}

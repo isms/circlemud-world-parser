@@ -1,6 +1,7 @@
 # coding: utf-8
 import unittest
 
+from mob_parser import parse_mob
 from object_parser import parse_object
 from room_parser import parse_room
 from utils import bitvector_to_numbers
@@ -200,6 +201,74 @@ S
 
         self.assertEqual(len(bar['extra_descs']), 2)
         self.assertEqual(len(yard['extra_descs']), 0)
+
+
+class MobParsingTests(unittest.TestCase):
+    def setUp(self):
+        self.text = """#3000
+wizard~
+the wizard~
+A wizard walks around behind the counter, talking to himself.
+~
+The wizard looks old and senile, and yet he looks like a very powerful
+wizard.  He is equipped with fine clothing, and is wearing many fine
+rings and bracelets.
+~
+ablno d 900 S
+33 2 2 1d1+30000 2d8+18
+30000 160000
+8 8 1"""
+
+    def test_parsing_type_s_mob(self):
+        mob = parse_from_string(self.text, parse_mob, split_on_vnums).pop()
+
+        expected = ['SPEC', 'SENTINEL', 'MEMORY', 'NOCHARM', 'NOSUMMON']
+        actual = [d['note'] for d in mob["action_flags"]]
+        self.assertListEqual(actual, expected)
+
+        expected = ['DETECT_INVIS']
+        actual = [d['note'] for d in mob["affect_flags"]]
+        self.assertListEqual(actual, expected)
+
+        self.assertListEqual(mob["aliases"], ['wizard'])
+
+        self.assertEqual(mob["alignment"], 900)
+        self.assertEqual(mob["armor_class"], 2)
+
+        expected = dict(n_dice=2, n_sides=8, bonus=18)
+        self.assertEqual(mob["bare_hand_damage"], expected)
+
+        expected = """The wizard looks old and senile, and yet he looks like a very powerful
+wizard.  He is equipped with fine clothing, and is wearing many fine
+rings and bracelets."""
+        self.assertEqual(mob["detail_desc"], expected)
+
+        self.assertDictEqual(mob["extra_spec"], {})
+
+        self.assertEqual(mob["gender"]['note'], 'M')
+        self.assertEqual(mob["gold"], 30000)
+        self.assertEqual(mob["level"], 33)
+
+        expected = 'A wizard walks around behind the counter, talking to himself.'
+        self.assertEqual(mob["long_desc"], expected)
+
+        expected = dict(n_dice=1, n_sides=1, bonus=30000)
+        self.assertDictEqual(mob["max_hit_points"], expected)
+
+        self.assertEqual(mob["mob_type"], 'S')
+        self.assertEqual(mob["position"]['default']['value'], 8)
+        self.assertEqual(mob["position"]['load']['value'], 8)
+        self.assertEqual(mob["short_desc"], 'the wizard')
+        self.assertEqual(mob["thac0"], 2)
+        self.assertEqual(mob["vnum"], 3000)
+        self.assertEqual(mob["xp"], 160000)
+
+    def test_parsing_type_e_mob(self):
+        e_type = self.text.replace('ablno d 900 S', 'ablno d 900 E')
+        e_type += '\nBareHandAttack: 4\nInt: 25\nE'
+        mob = parse_from_string(e_type, parse_mob, split_on_vnums).pop()
+        expected = dict(BareHandAttack=4, Int=25)
+        self.assertDictEqual(mob['extra_spec'], expected)
 
 if __name__ == '__main__':
     unittest.main()
