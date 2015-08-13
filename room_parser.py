@@ -143,6 +143,6 @@ if __name__ == '__main__':
         print('Usage: python object_parser.py [file]')
         sys.exit(1)
 
-    objects = parse_objects_from_file(sys.argv[1])
-    payload = json.dumps(objects, indent=2, sort_keys=True)
+    dicts = parse_rooms_from_file(sys.argv[1])
+    payload = json.dumps(dicts, indent=2, sort_keys=True)
     print(payload)
