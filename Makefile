@@ -1,5 +1,8 @@
 clean:
 	rm *.pyc
 
-PHONY:
-	.clean
+test:
+	python tests.py
+
+.PHONY:
+	clean test

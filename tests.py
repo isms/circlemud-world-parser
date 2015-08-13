@@ -1,11 +1,13 @@
+# coding: utf-8
 import unittest
 
 from bitvectors import bitvector_to_numbers
 from bitvectors import bitvector_letters_to_numbers
 from bitvectors import bitvector_number_to_numbers
 from bitvectors import bitvector_to_flags
-from object_parser import parse_objects_from_string
-from room_parser import parse_rooms_from_string
+from object_parser import parse_object
+from room_parser import parse_room
+from utils import parse_from_string
 
 
 class BitvectorParsingTests(unittest.TestCase):
@@ -81,7 +83,7 @@ $
 """
 
     def test_parsing_objects(self):
-        objs = parse_objects_from_string(self.text)
+        objs = parse_from_string(self.text, parse_object)
         self.assertEqual(len(objs), 2)
 
         thunderbolt, telescope = objs
@@ -124,7 +126,7 @@ A thing is here.~
 22 100000 25000
 $
 """
-        objs = parse_objects_from_string(text)
+        objs = parse_from_string(text, parse_object)
         thing = objs.pop()
 
         self.assertEqual(len(thing['extra_effects']), 4)
@@ -187,7 +189,7 @@ S
 """
 
     def test_parsing_rooms(self):
-        rooms = parse_rooms_from_string(self.text)
+        rooms = parse_from_string(self.text, parse_room)
         self.assertEqual(len(rooms), 2)
 
         bar, yard = rooms

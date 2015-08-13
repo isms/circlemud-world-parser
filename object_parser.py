@@ -10,6 +10,7 @@ from constants import OBJECT_AFFECT_LOCATION_FLAGS
 from constants import OBJECT_EXTRA_EFFECTS_FLAGS
 from constants import OBJECT_TYPE_FLAGS
 from constants import OBJECT_WEAR_FLAGS
+from utils import parse_from_file
 
 
 def parse_extra_descs(extra_fields):
@@ -107,34 +108,12 @@ def parse_object(object_text):
     return item
 
 
-def parse_objects_from_string(file_text):
-    # ignore short artifacts
-    object_texts = [t for t in file_text.split('#')
-                    if t and t != '$\n']
-
-    objects = []
-    for obj_text in object_texts:
-        obj = parse_object(obj_text)
-        if obj:
-            objects.append(obj)
-
-    return objects
-
-
-def parse_objects_from_file(obj_filename):
-    # read in the file
-    with open(obj_filename) as f:
-        file_text = f.read()
-
-    return parse_objects_from_string(file_text)
-
-
 if __name__ == '__main__':
     if len(sys.argv) < 2 or not os.path.exists(sys.argv[1]):
         print('Usage: python object_parser.py [file]')
         sys.exit(1)
 
     filename = sys.argv[1]
-    dicts = parse_objects_from_file(filename)
+    dicts = parse_from_file(filename, parse_object)
     payload = json.dumps(dicts, indent=2, sort_keys=True)
     print(payload)
