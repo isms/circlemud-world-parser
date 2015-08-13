@@ -13,14 +13,6 @@ from utils import lookup_value_to_dict
 from utils import parse_from_file
 
 
-# ROOM_RE = r"""^\#(\d+)
-# (.*?)~
-# (.*?)
-# ~
-# (\S+?) (\S+?)\ (\S+?)
-# (.*?)
-# S"""
-
 EXIT_RE = r"""D(\d+)
 (.*?)
 ~
