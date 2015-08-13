@@ -3,12 +3,13 @@ import json
 import os
 import sys
 
-from bitvectors import bitvector_to_flags
-from bitvectors import clean_bitvector
 from constants import OBJECT_AFFECT_LOCATION_FLAGS
 from constants import OBJECT_EXTRA_EFFECTS_FLAGS
 from constants import OBJECT_TYPE_FLAGS
 from constants import OBJECT_WEAR_FLAGS
+from utils import bitvector_to_flags
+from utils import clean_bitvector
+from utils import lookup_value_to_dict
 from utils import parse_from_file
 
 
@@ -57,48 +58,45 @@ def parse_affects(extra_fields):
             break
 
 
-def parse_object(object_text):
-    fields = object_text.strip().split('\n')
+def parse_object(text):
+    fields = [line.rstrip() for line in text.strip().split('\n')]
 
-    item = {}
+    d = {}
 
     # easy fields
-    item['vnum'] = int(fields[0])
-    item['aliases'] = fields[1].rstrip('~').split()
-    item['short_desc'] = fields[2].rstrip('~')
-    item['long_desc'] = fields[3].rstrip('~')
-    item['values'] = map(int, fields[6].split())
-    item['weight'], item['cost'], item['rent_per_day'] = map(int, fields[7].split())
+    d['vnum'] = int(fields[0])
+    d['aliases'] = fields[1].rstrip('~').split()
+    d['short_desc'] = fields[2].rstrip('~')
+    d['long_desc'] = fields[3].rstrip('~')
+    d['values'] = map(int, fields[6].split())
+    d['weight'], d['cost'], d['rent_per_day'] = map(int, fields[7].split())
 
     type_flag, extra_effects_bitvector, wear_bitvector = fields[5].split()
 
     # type flag is always an int
-    item['type'] = {
-        'value': int(type_flag),
-        'note': OBJECT_TYPE_FLAGS.get(int(type_flag), None)
-    }
+    d['type'] = lookup_value_to_dict(int(type_flag), OBJECT_TYPE_FLAGS)
 
     # parse the bitvectors
     extra_effects_bitvector = clean_bitvector(extra_effects_bitvector)
     extra_effects = bitvector_to_flags(extra_effects_bitvector, OBJECT_EXTRA_EFFECTS_FLAGS)
-    item['extra_effects'] = extra_effects
+    d['extra_effects'] = extra_effects
 
     wear_bitvector = clean_bitvector(wear_bitvector)
-    item['wear_flags'] = bitvector_to_flags(wear_bitvector, OBJECT_WEAR_FLAGS)
+    d['wear_flags'] = bitvector_to_flags(wear_bitvector, OBJECT_WEAR_FLAGS)
 
     action_desc = fields[4].rstrip('~')
     if action_desc:
-        item['action_desc'] = action_desc
+        d['action_desc'] = action_desc
 
-    item['affects'] = []
-    item['extra_descs'] = []
+    d['affects'] = []
+    d['extra_descs'] = []
     if len(fields) > 8:
         extra_fields = fields[8:]
 
-        item['affects'] = list(parse_affects(extra_fields))
-        item['extra_descs'] = list(parse_extra_descs(extra_fields))
+        d['affects'] = list(parse_affects(extra_fields))
+        d['extra_descs'] = list(parse_extra_descs(extra_fields))
 
-    return item
+    return d
 
 
 if __name__ == '__main__':

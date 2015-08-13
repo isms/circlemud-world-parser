@@ -3,13 +3,13 @@ import json
 import re
 import os
 import sys
-import traceback
 
-from bitvectors import bitvector_to_flags
-from bitvectors import clean_bitvector
 from constants import ROOM_DOOR_FLAGS
 from constants import ROOM_FLAGS
 from constants import ROOM_SECTOR_TYPES
+from utils import bitvector_to_flags
+from utils import clean_bitvector
+from utils import lookup_value_to_dict
 from utils import parse_from_file
 
 
@@ -67,36 +67,32 @@ def parse_extra_descs(text):
     return extra_descs
 
 
-def parse_room(room_text):
-    parts = room_text.split('~')
+def parse_room(text):
+    parts = text.split('~')
     vnum, name = parts[0].split('\n')
     desc = parts[1].strip()
     zone, flags, sector = parts[2].strip() \
         .split('\n')[0].strip().split(' ')
-    extra_string = parts[2]
 
-    room = {}
-    room['vnum'] = int(vnum)
-    room['name'] = name.strip()
-    room['desc'] = desc.strip('\n')
-    room['zone_number'] = int(zone)
+    d = {}
+    d['vnum'] = int(vnum)
+    d['name'] = name.strip()
+    d['desc'] = desc.strip('\n')
+    d['zone_number'] = int(zone)
 
     flags = clean_bitvector(flags)
-    room['flags'] = []
+    d['flags'] = []
     if flags:
-        room['flags'] = bitvector_to_flags(flags, ROOM_FLAGS)
+        d['flags'] = bitvector_to_flags(flags, ROOM_FLAGS)
 
     # sector type flag is always an int
-    room['sector_type'] = {
-        'value': int(sector),
-        'note': ROOM_SECTOR_TYPES.get(int(sector), None),
-    }
+    d['sector_type'] = lookup_value_to_dict(int(sector), ROOM_SECTOR_TYPES)
 
     bottom_matter = '~'.join(parts[2:])
-    room['exits'] = parse_exits(bottom_matter)
-    room['extra_descs'] = parse_extra_descs(bottom_matter)
+    d['exits'] = parse_exits(bottom_matter)
+    d['extra_descs'] = parse_extra_descs(bottom_matter)
 
-    return room
+    return d
 
 
 if __name__ == '__main__':

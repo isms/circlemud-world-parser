@@ -1,10 +1,53 @@
 # coding: utf-8
 import re
+import string
 import sys
 import traceback
 
 
-def split(file_text):
+def clean_bitvector(bitvector):
+    try:
+        return int(bitvector)
+    except ValueError:
+        return bitvector
+
+
+def bitvector_letter_to_number(letter):
+    index = string.ascii_letters.index(letter)
+    return 2 ** index
+
+
+def bitvector_letters_to_numbers(letters):
+    for letter in letters:
+        yield bitvector_letter_to_number(letter)
+
+
+def bitvector_number_to_numbers(value):
+    bin_string = bin(value)[2:]  # e.g.: 129 -> '10000001'
+    for i, v in enumerate(reversed(bin_string)):
+        if v == '1':
+            yield 2 ** i
+
+
+def bitvector_to_numbers(value):
+    if type(value) == int:
+        return list(bitvector_number_to_numbers(value))
+    return list(bitvector_letters_to_numbers(value))
+
+
+def bitvector_to_flags(bitvector, flag_dict):
+    numbers = bitvector_to_numbers(bitvector)
+    flags = [{'value': number, 'note': flag_dict.get(number, None)}
+             for number in numbers]
+    return flags
+
+
+def lookup_value_to_dict(value, flag_dict):
+    note = flag_dict.get(value, None)
+    return dict(value=value, note=note)
+
+
+def split_on_vnums(file_text):
     # this is important because some room descriptions can
     # (and do) start with '#'
     split_re = r"""^\#(\d+)"""
@@ -20,7 +63,7 @@ def split(file_text):
 
 
 def parse_from_string(file_text, parse_function):
-    texts = split(file_text)
+    texts = split_on_vnums(file_text)
 
     dicts = []
     for text in texts:
@@ -42,3 +85,29 @@ def parse_from_file(filename, parse_function):
         file_text = f.read().rstrip('$\n')
 
     return parse_from_string(file_text, parse_function)
+
+
+def parse_dice_roll_string_to_tuple(roll_string):
+    """
+    given a dice roll string, e.g. 4d6+20, return tuple of number of dice,
+    number sides of each die, bonus, e.g. (4, 6, 20)
+    """
+    dice, bonus = roll_string.split('+')
+    n_dice, n_sides = dice.split('d')
+    result = map(int, (n_dice, n_sides, bonus))
+    return result
+
+
+def parse_dice_roll_string_to_dict(roll_string):
+    """
+    given a dice roll string, e.g. 4d6+20, return dict of number of dice,
+    number sides of each die, bonus, e.g.:
+    {
+        "n_dice": 4,
+        "n_sides": 6,
+        "bonus": 20
+    }
+    """
+    names = ['n_dice', 'n_sides', 'bonus']
+    values = parse_dice_roll_string_to_tuple(roll_string)
+    return dict(zip(names, values))

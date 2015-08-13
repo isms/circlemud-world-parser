@@ -1,12 +1,12 @@
 # coding: utf-8
 import unittest
 
-from bitvectors import bitvector_to_numbers
-from bitvectors import bitvector_letters_to_numbers
-from bitvectors import bitvector_number_to_numbers
-from bitvectors import bitvector_to_flags
 from object_parser import parse_object
 from room_parser import parse_room
+from utils import bitvector_to_numbers
+from utils import bitvector_letters_to_numbers
+from utils import bitvector_number_to_numbers
+from utils import bitvector_to_flags
 from utils import parse_from_string
 
 

@@ -201,3 +201,42 @@ MOB_AFFECT_FLAGS = {
     1048576: 'UNUSED20',  # Unused (room for future expansion).
     2097152: 'CHARM',  # Reserved for internal use. Do not set.
 }
+
+MOB_POSITION = {
+    0: 'POSITION_DEAD',  # Reserved for internal use. Do not set.
+    1: 'POSITION_MORTALLYW',  # Reserved for internal use. Do not set.
+    2: 'POSITION_INCAP',  # Reserved for internal use. Do not set.
+    3: 'POSITION_STUNNED',  # Reserved for internal use. Do not set.
+    4: 'POSITION_SLEEPING',  # The monster is sleeping.
+    5: 'POSITION_RESTING',  # The monster is resting.
+    6: 'POSITION_SITTING',  # The monster is sitting.
+    7: 'POSITION_FIGHTING',  # Reserved for internal use. Do not set.
+    8: 'POSITION_STANDING',  # The monster is standing.
+}
+
+MOB_GENDER = {
+    0: 'N',  # (it/its)
+    1: 'M',  # (he/his)
+    2: 'F',  # (she/her)
+}
+
+MOB_EQUIP = {
+    0: 'LIGHT',  # Used as light
+    1: 'RING_R',  # Worn on right finger
+    2: 'RING_L',  # Worn on left finger
+    3: 'NECK_1',  # First object worn around neck
+    4: 'NECK_2',  # Second object worn around neck
+    5: 'BODY',  # Worn on body
+    6: 'HEAD',  # Worn on head
+    7: 'LEGS',  # Worn on legs
+    8: 'FEET',  # Worn on feet
+    9: 'HANDS',  # Worn on hands
+    10: 'ARMS',  # Worn on arms
+    11: 'SHIELD',  # Worn as shield
+    12: 'BODY',  # Worn about body
+    13: 'WAIST',  # Worn around waist
+    14: 'WRIST_R',  # Worn around right wrist
+    15: 'WRIST_L',  # Worn around left wrist
+    16: 'WIELD',  # Wielded as a weapon
+    17: 'HOLD',  # Held
+}
