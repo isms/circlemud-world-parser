@@ -2,7 +2,6 @@
 import json
 import os
 import sys
-import traceback
 
 from bitvectors import bitvector_to_flags
 from bitvectors import clean_bitvector
@@ -61,49 +60,43 @@ def parse_affects(extra_fields):
 def parse_object(object_text):
     fields = object_text.strip().split('\n')
 
-    try:
-        item = {}
+    item = {}
 
-        # easy fields
-        item['vnum'] = int(fields[0])
-        item['aliases'] = fields[1].rstrip('~').split()
-        item['short_desc'] = fields[2].rstrip('~')
-        item['long_desc'] = fields[3].rstrip('~')
-        item['values'] = map(int, fields[6].split())
-        item['weight'], item['cost'], item['rent_per_day'] = map(int, fields[7].split())
+    # easy fields
+    item['vnum'] = int(fields[0])
+    item['aliases'] = fields[1].rstrip('~').split()
+    item['short_desc'] = fields[2].rstrip('~')
+    item['long_desc'] = fields[3].rstrip('~')
+    item['values'] = map(int, fields[6].split())
+    item['weight'], item['cost'], item['rent_per_day'] = map(int, fields[7].split())
 
-        type_flag, extra_effects_bitvector, wear_bitvector = fields[5].split()
+    type_flag, extra_effects_bitvector, wear_bitvector = fields[5].split()
 
-        # type flag is always an int
-        item['type'] = {
-            'value': int(type_flag),
-            'note': OBJECT_TYPE_FLAGS.get(int(type_flag), None)
-        }
+    # type flag is always an int
+    item['type'] = {
+        'value': int(type_flag),
+        'note': OBJECT_TYPE_FLAGS.get(int(type_flag), None)
+    }
 
-        # parse the bitvectors
-        extra_effects_bitvector = clean_bitvector(extra_effects_bitvector)
-        extra_effects = bitvector_to_flags(extra_effects_bitvector, OBJECT_EXTRA_EFFECTS_FLAGS)
-        item['extra_effects'] = extra_effects
+    # parse the bitvectors
+    extra_effects_bitvector = clean_bitvector(extra_effects_bitvector)
+    extra_effects = bitvector_to_flags(extra_effects_bitvector, OBJECT_EXTRA_EFFECTS_FLAGS)
+    item['extra_effects'] = extra_effects
 
-        wear_bitvector = clean_bitvector(wear_bitvector)
-        item['wear_flags'] = bitvector_to_flags(wear_bitvector, OBJECT_WEAR_FLAGS)
+    wear_bitvector = clean_bitvector(wear_bitvector)
+    item['wear_flags'] = bitvector_to_flags(wear_bitvector, OBJECT_WEAR_FLAGS)
 
-        action_desc = fields[4].rstrip('~')
-        if action_desc:
-            item['action_desc'] = action_desc
+    action_desc = fields[4].rstrip('~')
+    if action_desc:
+        item['action_desc'] = action_desc
 
-        item['affects'] = []
-        item['extra_descs'] = []
-        if len(fields) > 8:
-            extra_fields = fields[8:]
+    item['affects'] = []
+    item['extra_descs'] = []
+    if len(fields) > 8:
+        extra_fields = fields[8:]
 
-            item['affects'] = list(parse_affects(extra_fields))
-            item['extra_descs'] = list(parse_extra_descs(extra_fields))
-
-    except Exception as e:
-        print 'error parsing item:', object_text
-        traceback.print_exc(file=sys.stdout)
-        return None
+        item['affects'] = list(parse_affects(extra_fields))
+        item['extra_descs'] = list(parse_extra_descs(extra_fields))
 
     return item
 

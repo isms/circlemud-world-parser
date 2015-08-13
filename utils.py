@@ -1,5 +1,7 @@
 # coding: utf-8
 import re
+import sys
+import traceback
 
 
 def split(file_text):
@@ -22,8 +24,14 @@ def parse_from_string(file_text, parse_function):
 
     dicts = []
     for text in texts:
-        d = parse_function(text)
-        dicts.append(d)
+
+        try:
+            d = parse_function(text)
+            dicts.append(d)
+        except Exception as e:
+            print 'error parsing:', text
+            traceback.print_exc(file=sys.stdout)
+            return None
 
     return dicts
 

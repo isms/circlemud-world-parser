@@ -68,40 +68,33 @@ def parse_extra_descs(text):
 
 
 def parse_room(room_text):
-    try:
-        parts = room_text.split('~')
-        vnum, name = parts[0].split('\n')
-        desc = parts[1].strip()
-        zone, flags, sector = parts[2].strip() \
-            .split('\n')[0].strip().split(' ')
-        extra_string = parts[2]
+    parts = room_text.split('~')
+    vnum, name = parts[0].split('\n')
+    desc = parts[1].strip()
+    zone, flags, sector = parts[2].strip() \
+        .split('\n')[0].strip().split(' ')
+    extra_string = parts[2]
 
-        room = {}
-        room['vnum'] = int(vnum)
-        room['name'] = name.strip()
-        room['desc'] = desc.strip('\n')
-        room['zone_number'] = int(zone)
+    room = {}
+    room['vnum'] = int(vnum)
+    room['name'] = name.strip()
+    room['desc'] = desc.strip('\n')
+    room['zone_number'] = int(zone)
 
-        flags = clean_bitvector(flags)
-        room['flags'] = []
-        if flags:
-            room['flags'] = bitvector_to_flags(flags, ROOM_FLAGS)
+    flags = clean_bitvector(flags)
+    room['flags'] = []
+    if flags:
+        room['flags'] = bitvector_to_flags(flags, ROOM_FLAGS)
 
-        # sector type flag is always an int
-        room['sector_type'] = {
-            'value': int(sector),
-            'note': ROOM_SECTOR_TYPES.get(int(sector), None),
-        }
+    # sector type flag is always an int
+    room['sector_type'] = {
+        'value': int(sector),
+        'note': ROOM_SECTOR_TYPES.get(int(sector), None),
+    }
 
-        bottom_matter = '~'.join(parts[2:])
-        room['exits'] = parse_exits(bottom_matter)
-        room['extra_descs'] = parse_extra_descs(bottom_matter)
-
-
-    except Exception as e:
-        print 'error parsing room:', room_text
-        traceback.print_exc(file=sys.stdout)
-        return None
+    bottom_matter = '~'.join(parts[2:])
+    room['exits'] = parse_exits(bottom_matter)
+    room['extra_descs'] = parse_extra_descs(bottom_matter)
 
     return room
 
