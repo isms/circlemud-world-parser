@@ -81,7 +81,8 @@ def parse_object(object_text):
 
         # parse the bitvectors
         extra_effects_bitvector = clean_bitvector(extra_effects_bitvector)
-        item['extra_effects'] = bitvector_to_flags(extra_effects_bitvector, OBJECT_EXTRA_EFFECTS_FLAGS)
+        extra_effects = bitvector_to_flags(extra_effects_bitvector, OBJECT_EXTRA_EFFECTS_FLAGS)
+        item['extra_effects'] = extra_effects
 
         wear_bitvector = clean_bitvector(wear_bitvector)
         item['wear_flags'] = bitvector_to_flags(wear_bitvector, OBJECT_WEAR_FLAGS)
@@ -98,7 +99,7 @@ def parse_object(object_text):
             item['affects'] = list(parse_affects(extra_fields))
             item['extra_descs'] = list(parse_extra_descs(extra_fields))
 
-    except ValueError as e:
+    except Exception as e:
         print 'error parsing item:', object_text
         traceback.print_exc(file=sys.stdout)
         return None
