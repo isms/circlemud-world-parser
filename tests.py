@@ -50,8 +50,8 @@ class BitvectorParsingTests(unittest.TestCase):
 
 
 class ObjectParsingTests(unittest.TestCase):
-    def setUp(self):
-        self.text = """#12020
+    def test_parsing_objects(self):
+        text = """#12020
 thunderbolt jupiter~
 Jupiter's Thunderbolt~
 Jupiter's Thunderbolt has been left here.~
@@ -84,39 +84,123 @@ A
 19 2
 $
 """
+        expected = [
+            {
+                "weight": 22,
+                "wear_flags": [
+                    {
+                        "value": 1,
+                        "note": "WEAR_TAKE"
+                    },
+                    {
+                        "value": 8192,
+                        "note": "WEAR_WIELD"
+                    }
+                ],
+                "vnum": 12020,
+                "values": [
+                    0,
+                    4,
+                    6,
+                    6
+                ],
+                "type": {
+                    "value": 5,
+                    "note": "WEAPON"
+                },
+                "affects": [
+                    {
+                        "value": 3,
+                        "note": "HITROLL",
+                        "location": 18
+                    },
+                    {
+                        "value": 3,
+                        "note": "DAMROLL",
+                        "location": 19
+                    }
+                ],
+                "aliases": [
+                    "thunderbolt",
+                    "jupiter"
+                ],
+                "cost": 100000,
+                "extra_descs": [],
+                "extra_effects": [
+                    {
+                        "value": 2,
+                        "note": "HUM"
+                    },
+                    {
+                        "value": 64,
+                        "note": "MAGIC"
+                    },
+                    {
+                        "value": 1024,
+                        "note": "ANTI_EVIL"
+                    },
+                    {
+                        "value": 4096,
+                        "note": "ANTI_MAGIC_USER"
+                    },
+                    {
+                        "value": 8192,
+                        "note": "ANTI_CLERIC"
+                    }
+                ],
+                "long_desc": "Jupiter's Thunderbolt has been left here.",
+                "rent_per_day": 25000,
+                "short_desc": "Jupiter's Thunderbolt"
+            },
+            {
+                "weight": 0,
+                "wear_flags": [],
+                "vnum": 15005,
+                "values": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "type": {
+                    "value": 12,
+                    "note": "OTHER"
+                },
+                "affects": [
+                    {
+                        "value": 2,
+                        "note": "HITROLL",
+                        "location": 18
+                    },
+                    {
+                        "value": 2,
+                        "note": "DAMROLL",
+                        "location": 19
+                    }
+                ],
+                "aliases": [
+                    "telescope",
+                    "scope"
+                ],
+                "cost": 0,
+                "extra_descs": [
+                    {
+                        "keywords": [
+                            "telescope",
+                            "scope"
+                        ],
+                        "desc": "A small sign says:\n\nMade in Siberia.\n"
+                    }
+                ],
+                "extra_effects": [],
+                "long_desc": "There is a large telescope here, pointing at the sky.",
+                "rent_per_day": 0,
+                "short_desc": "a large telescope"
+            }
+        ]
 
-    def test_parsing_objects(self):
-        objs = parse_from_string(self.text, parse_object, split_on_vnums)
-        self.assertEqual(len(objs), 2)
-
-        thunderbolt, telescope = objs
-
-        self.assertEqual(thunderbolt['short_desc'], "Jupiter's Thunderbolt")
-        self.assertEqual(thunderbolt['long_desc'], "Jupiter's Thunderbolt has been left here.")
-        self.assertListEqual(thunderbolt['aliases'], ['thunderbolt', 'jupiter'])
-
-        effects = thunderbolt['extra_effects']
-        self.assertEqual(len(effects), 5)
-
-        effect_flags = [effect['note'] for effect in effects]
-        expected = ['HUM', 'MAGIC', 'ANTI_EVIL', 'ANTI_MAGIC_USER', 'ANTI_CLERIC']
-        self.assertListEqual(effect_flags, expected)
-
-        self.assertEqual(len(thunderbolt['affects']), 2)
-        self.assertEqual(len(telescope['affects']), 2)
-        self.assertEqual(len(thunderbolt['extra_descs']), 0)
-        self.assertEqual(len(telescope['extra_descs']), 1)
-        self.assertEqual(len(telescope['extra_descs'][0]['keywords']), 2)
-
-        expected = "A small sign says:\n\nMade in Siberia.\n"
-        self.assertEqual(telescope['extra_descs'][0]['desc'], expected)
-
-        self.assertEqual(len(telescope['extra_effects']), 0)
-        expected = {
-            "note": "ANTI_EVIL",
-            "value": 1024
-        }
-        self.assertIn(expected, thunderbolt['extra_effects'])
+        objs = parse_from_string(text, parse_object, split_on_vnums)
+        self.assertEqual(objs, expected)
 
     def test_parsing_object_with_non_stock_flag(self):
         text = """#42
@@ -142,8 +226,8 @@ $
 
 
 class RoomParsingTests(unittest.TestCase):
-    def setUp(self):
-        self.text = """#3028
+    def test_parsing_rooms(self):
+        text = """#3028
 The Thieves' Bar~
    The bar of the thieves.  Once upon a time this place was beautifully
 furnished, but now it seems almost empty.  To the south is the yard, and to
@@ -190,18 +274,118 @@ impossible to climb back up.
 0 -1 7043
 S
 """
+        expected = [
+            {
+                "zone_number": 30,
+                "vnum": 3028,
+                "sector_type": {
+                    "value": 0,
+                    "note": "INSIDE"
+                },
+                "name": "The Thieves' Bar",
+                "flags": [
+                    {
+                        "value": 4,
+                        "note": "NOMOB"
+                    },
+                    {
+                        "value": 8,
+                        "note": "INDOORS"
+                    },
+                    {
+                        "value": 128,
+                        "note": "NOMAGIC"
+                    }
+                ],
+                "extra_descs": [
+                    {
+                        "keywords": [
+                            "furniture"
+                        ],
+                        "desc": "As you look at the furniture, the chair you sit on disappears.\nAlso with multiple lines."
+                    },
+                    {
+                        "keywords": [
+                            "other"
+                        ],
+                        "desc": "A different thing."
+                    }
+                ],
+                "exits": [
+                    {
+                        "room_linked": 3029,
+                        "keywords": [],
+                        "key_number": -1,
+                        "door_flag": {
+                            "value": 0,
+                            "note": "NO_DOOR"
+                        },
+                        "dir": 2,
+                        "desc": "You see the secret yard."
+                    },
+                    {
+                        "room_linked": 3027,
+                        "keywords": [],
+                        "key_number": -1,
+                        "door_flag": {
+                            "value": 0,
+                            "note": "NO_DOOR"
+                        },
+                        "dir": 3,
+                        "desc": "You see the entrance hall to the thieves' guild."
+                    }
+                ],
+                "desc": "The bar of the thieves.  Once upon a time this place was beautifully\nfurnished, but now it seems almost empty.  To the south is the yard, and to\nthe west is the entrance hall.\n   (Maybe the furniture has been stolen?!)"
+            },
+            {
+                "zone_number": 30,
+                "vnum": 3029,
+                "sector_type": {
+                    "value": 0,
+                    "note": "INSIDE"
+                },
+                "name": "The Secret Yard",
+                "flags": [
+                    {
+                        "value": 4,
+                        "note": "NOMOB"
+                    },
+                    {
+                        "value": 8,
+                        "note": "INDOORS"
+                    }
+                ],
+                "extra_descs": [],
+                "exits": [
+                    {
+                        "room_linked": 3028,
+                        "keywords": [],
+                        "key_number": -1,
+                        "door_flag": {
+                            "value": 0,
+                            "note": "NO_DOOR"
+                        },
+                        "dir": 0,
+                        "desc": "You see the bar."
+                    },
+                    {
+                        "room_linked": 7043,
+                        "keywords": [],
+                        "key_number": -1,
+                        "door_flag": {
+                            "value": 0,
+                            "note": "NO_DOOR"
+                        },
+                        "dir": 5,
+                        "desc": "You can't see what is down there, it is too dark.  Looks like it would be\nimpossible to climb back up."
+                    }
+                ],
+                "desc": "The secret practice yard of thieves and assassins.  To the north is the\nbar.  A well leads down into darkness."
+            }
+        ]
 
-    def test_parsing_rooms(self):
-        rooms = parse_from_string(self.text, parse_room, split_on_vnums)
-        self.assertEqual(len(rooms), 2)
-
-        bar, yard = rooms
-
-        self.assertEqual(len(bar['exits']), 2)
-        self.assertEqual(len(yard['exits']), 2)
-
-        self.assertEqual(len(bar['extra_descs']), 2)
-        self.assertEqual(len(yard['extra_descs']), 0)
+        rooms = parse_from_string(text, parse_room, split_on_vnums)
+        self.assertListEqual(rooms, expected)
 
 
 class MobParsingTests(unittest.TestCase):
@@ -223,46 +407,76 @@ ablno d 900 S
     def test_parsing_type_s_mob(self):
         mob = parse_from_string(self.text, parse_mob, split_on_vnums).pop()
 
-        expected = ['SPEC', 'SENTINEL', 'MEMORY', 'NOCHARM', 'NOSUMMON']
-        actual = [d['note'] for d in mob["action_flags"]]
-        self.assertListEqual(actual, expected)
-
-        expected = ['DETECT_INVIS']
-        actual = [d['note'] for d in mob["affect_flags"]]
-        self.assertListEqual(actual, expected)
-
-        self.assertListEqual(mob["aliases"], ['wizard'])
-
-        self.assertEqual(mob["alignment"], 900)
-        self.assertEqual(mob["armor_class"], 2)
-
-        expected = dict(n_dice=2, n_sides=8, bonus=18)
-        self.assertEqual(mob["bare_hand_damage"], expected)
-
-        expected = """The wizard looks old and senile, and yet he looks like a very powerful
-wizard.  He is equipped with fine clothing, and is wearing many fine
-rings and bracelets."""
-        self.assertEqual(mob["detail_desc"], expected)
-
-        self.assertDictEqual(mob["extra_spec"], {})
-
-        self.assertEqual(mob["gender"]['note'], 'M')
-        self.assertEqual(mob["gold"], 30000)
-        self.assertEqual(mob["level"], 33)
-
-        expected = 'A wizard walks around behind the counter, talking to himself.'
-        self.assertEqual(mob["long_desc"], expected)
-
-        expected = dict(n_dice=1, n_sides=1, bonus=30000)
-        self.assertDictEqual(mob["max_hit_points"], expected)
-
-        self.assertEqual(mob["mob_type"], 'S')
-        self.assertEqual(mob["position"]['default']['value'], 8)
-        self.assertEqual(mob["position"]['load']['value'], 8)
-        self.assertEqual(mob["short_desc"], 'the wizard')
-        self.assertEqual(mob["thac0"], 2)
-        self.assertEqual(mob["vnum"], 3000)
-        self.assertEqual(mob["xp"], 160000)
+        expected = {
+            "xp": 160000,
+            "vnum": 3000,
+            "thac0": 2,
+            "extra_spec": {},
+            "detail_desc": "The wizard looks old and senile, and yet he looks like a very powerful\nwizard.  He is equipped with fine clothing, and is wearing many fine\nrings and bracelets.",
+            "bare_hand_damage": {
+                "n_sides": 8,
+                "n_dice": 2,
+                "bonus": 18
+            },
+            "armor_class": 2,
+            "alignment": 900,
+            "aliases": [
+                "wizard"
+            ],
+            "affect_flags": [
+                {
+                    "value": 8,
+                    "note": "DETECT_INVIS"
+                }
+            ],
+            "action_flags": [
+                {
+                    "value": 1,
+                    "note": "SPEC"
+                },
+                {
+                    "value": 2,
+                    "note": "SENTINEL"
+                },
+                {
+                    "value": 2048,
+                    "note": "MEMORY"
+                },
+                {
+                    "value": 8192,
+                    "note": "NOCHARM"
+                },
+                {
+                    "value": 16384,
+                    "note": "NOSUMMON"
+                }
+            ],
+            "gender": {
+                "value": 1,
+                "note": "M"
+            },
+            "gold": 30000,
+            "level": 33,
+            "long_desc": "A wizard walks around behind the counter, talking to himself.",
+            "max_hit_points": {
+                "n_sides": 1,
+                "n_dice": 1,
+                "bonus": 30000
+            },
+            "mob_type": "S",
+            "position": {
+                "load": {
+                    "value": 8,
+                    "note": "POSITION_STANDING"
+                },
+                "default": {
+                    "value": 8,
+                    "note": "POSITION_STANDING"
+                }
+            },
+            "short_desc": "the wizard"
+        }
+        self.assertEqual(mob, expected)
 
     def test_parsing_type_e_mob(self):
         e_type = self.text.replace('ablno d 900 S', 'ablno d 900 E')
@@ -381,5 +595,7 @@ S"""
             }
         ]
         self.assertListEqual(zone['remove_objects'], expected_removals)
+
+
 if __name__ == '__main__':
     unittest.main()
