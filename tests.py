@@ -4,6 +4,7 @@ import unittest
 from mob_parser import parse_mob
 from object_parser import parse_object
 from room_parser import parse_room
+from zone_parser import parse_zone
 from utils import bitvector_to_numbers
 from utils import bitvector_letters_to_numbers
 from utils import bitvector_number_to_numbers
@@ -270,5 +271,115 @@ rings and bracelets."""
         expected = dict(BareHandAttack=4, Int=25)
         self.assertDictEqual(mob['extra_spec'], expected)
 
+
+class ZoneParsingTests(unittest.TestCase):
+    def setUp(self):
+        self.text = """60
+Haon-Dor, Light Forest~
+6000 6099 13 2
+*
+* Mobiles
+M 0 6000 1 6009         John The Lumberjack
+E 1 6000 2 16                   Lumber Axe
+E 1 6001 10 5                   Chequered Shirt
+M 0 6001 6 6012         Rabbit
+G 1 6023 10                     Meat
+* Objects
+O 0 6011 10 6013        Mushroom
+R 0 6016 6011
+O 0 6017 1 6026         Corpse Of The Boar
+P 1 6018 1 6017                 Meat
+P 1 6019 1 6017                 Tusks
+* Doors
+D 0 6009 0 1            Cabin
+D 0 6010 2 1
+*
+S"""
+
+    def test_parsing_zone(self):
+        zone = parse_zone(self.text)
+
+        expected_mobs = [
+            {
+                'room': 6009,
+                'mob': 6000,
+                'max': 1,
+                'inventory': [],
+                'equipped': [
+                    {
+                        'object': 6000,
+                        'max': 2,
+                        'location': 16,
+                        'note': 'WIELD',
+                    },
+                    {
+                        'object': 6001,
+                        'max': 10,
+                        'location': 5,
+                        'note': 'BODY',
+                    }
+                ],
+            },
+            {
+                'room': 6012,
+                'mob': 6001,
+                'max': 6,
+                'inventory': [
+                    {
+                        'object': 6023,
+                        'max': 10,
+                    }
+                ],
+                'equipped': [],
+            }
+        ]
+        self.assertListEqual(zone['mobs'], expected_mobs)
+
+        expected_objects = [
+            {
+                'object': 6011,
+                'room': 6013,
+                'max': 10,
+                'contents': [],
+            },
+            {
+                'object': 6017,
+                'room': 6026,
+                'max': 1,
+                'contents': [
+                    {
+                        'object': 6018,
+                        'max': 1,
+                    },
+                    {
+                        'object': 6019,
+                        'max': 1,
+                    }
+                ],
+            },
+        ]
+        self.assertListEqual(zone['objects'], expected_objects)
+
+        expected_doors = [
+            {
+                'room': 6009,
+                'exit': 0,
+                'state': 1,
+            },
+            {
+                'room': 6010,
+                'exit': 2,
+                'state': 1,
+            }
+        ]
+        self.assertListEqual(zone['doors'], expected_doors)
+
+        expected_removals = [
+            {
+                'room': 6016,
+                'object': 6011,
+            }
+        ]
+        self.assertListEqual(zone['remove_objects'], expected_removals)
 if __name__ == '__main__':
     unittest.main()
