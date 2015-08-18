@@ -240,3 +240,18 @@ MOB_EQUIP = {
     16: 'WIELD',  # Wielded as a weapon
     17: 'HOLD',  # Held
 }
+
+SHOP_FLAGS = {
+    1: 'WILL_START_FIGHT',  # Players can try to kill shopkeeper.
+    2: 'WILL_BANK_MONEY',  # Shopkeeper will put money over 15000 coins in the bank.
+}
+
+SHOP_TRADES_WITH = {
+    1: 'NOGOOD',  # Don’t trade with positively-aligned players.
+    2: 'NOEVIL',  # Don’t trade with evilly-aligned players.
+    4: 'NONEUTRAL',  # Don’t trade with neutrally-aligned players.
+    8: 'NOMAGIC_USER',  # Don’t trade with the Mage class.
+    16: 'NOCLERIC',  # Don’t trade with the Cleric class.
+    32: 'NOTHIEF',  # Don’t trade with the Thief class.
+    64: 'NOWARRIOR',  # Don’t trade with the Warrior class.
+}

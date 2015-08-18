@@ -46,6 +46,10 @@ def lookup_value_to_dict(value, flag_dict):
     note = flag_dict.get(value, None)
     return dict(value=value, note=note)
 
+def lookup_note_to_dict(note, flag_dict):
+    reverse_dict = {v: k for k, v in flag_dict.iteritems()}
+    value = reverse_dict.get(note, None)
+    return dict(value=value, note=note)
 
 def split_on_vnums(file_text):
     """
@@ -96,7 +100,10 @@ def parse_from_file(filename, parse_function, splitter=split_on_vnums):
     """
     # read in the file
     with open(filename) as f:
-        file_text = f.read().rstrip('$\n')
+        file_text = f.read()
+
+    file_text = file_text.rstrip('$\n')  # world files
+    file_text = file_text.rstrip('$~\n')  # shop files
 
     return parse_from_string(file_text, parse_function, splitter=splitter)
 
