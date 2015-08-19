@@ -15,8 +15,8 @@ from utils import parse_from_file
 
 EXIT_RE = r"""D(\d+)
 (.*?)
-~
-(.*?)~
+~?
+(.*?)~?
 (.*?)
 """
 EXIT_PATTERN = re.compile(EXIT_RE, re.DOTALL | re.MULTILINE)
@@ -36,6 +36,7 @@ def parse_exits(text):
         direction, desc, keys, other = match
 
         flag, key_num, to = other.strip().split()
+
         exit = {}
         exit['dir'] = int(direction)
         exit['desc'] = desc
@@ -89,7 +90,7 @@ def parse_room(text):
 
 if __name__ == '__main__':
     if len(sys.argv) < 2 or not os.path.exists(sys.argv[1]):
-        print('Usage: python object_parser.py [file]')
+        print('Usage: python object.py [file]')
         sys.exit(1)
 
     filename = sys.argv[1]

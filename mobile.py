@@ -74,7 +74,7 @@ def parse_mob(text):
 
 if __name__ == '__main__':
     if len(sys.argv) < 2 or not os.path.exists(sys.argv[1]):
-        print('Usage: python object_parser.py [file]')
+        print('Usage: python object.py [file]')
         sys.exit(1)
 
     filename = sys.argv[1]

@@ -1,15 +1,18 @@
 # coding: utf-8
+import glob
+import os
 import unittest
 
-from mob_parser import parse_mob
-from object_parser import parse_object
-from room_parser import parse_room
-from shop_parser import parse_shop
-from zone_parser import parse_zone
+from mobile import parse_mob
+from object import parse_object
+from room import parse_room
+from shop import parse_shop
+from zone import parse_zone
 from utils import bitvector_to_numbers
 from utils import bitvector_letters_to_numbers
 from utils import bitvector_number_to_numbers
 from utils import bitvector_to_flags
+from utils import parse_from_file
 from utils import parse_from_string
 from utils import split_on_vnums
 
@@ -488,6 +491,8 @@ ablno d 900 S
 
 
 class ZoneParsingTests(unittest.TestCase):
+    maxDiff = None
+
     def test_parsing_zone(self):
         text = """60
 Haon-Dor, Light Forest~
@@ -499,6 +504,7 @@ E 1 6000 2 16                   Lumber Axe
 E 1 6001 10 5                   Chequered Shirt
 M 0 6001 6 6012         Rabbit
 G 1 6023 10                     Meat
+P 1 1234 1 6023                       Maggot (not a real item)
 * Objects
 O 0 6011 10 6013        Mushroom
 R 0 6016 6011
@@ -525,12 +531,14 @@ S"""
                         'max': 2,
                         'location': 16,
                         'note': 'WIELD',
+                        'contents': [],
                     },
                     {
                         'object': 6001,
                         'max': 10,
                         'location': 5,
                         'note': 'BODY',
+                        'contents': [],
                     }
                 ],
             },
@@ -542,6 +550,13 @@ S"""
                     {
                         'object': 6023,
                         'max': 10,
+                        'contents': [
+                            {
+                                'object': 1234,
+                                'max': 1,
+                                'contents': [],
+                            }
+                        ],
                     }
                 ],
                 'equipped': [],
@@ -564,10 +579,12 @@ S"""
                     {
                         'object': 6018,
                         'max': 1,
+                        'contents': [],
                     },
                     {
                         'object': 6019,
                         'max': 1,
+                        'contents': [],
                     }
                 ],
             },
@@ -685,6 +702,40 @@ POTION
         }
         shop = parse_shop(self.text)
         self.assertDictEqual(shop, expected)
+
+
+class TestParsingActualTinyworldFiles(unittest.TestCase):
+    PARSER_BY_FILE_TYPE = {
+        'mob': (parse_mob, split_on_vnums, None),
+        'obj': (parse_object, split_on_vnums, None),
+        'wld': (parse_room, split_on_vnums, None),
+        'shp': (parse_shop, split_on_vnums, None),
+        'zon': (parse_zone, split_on_vnums, None),
+    }
+
+    def get_all_filenames(self, file_type):
+        if file_type not in self.PARSER_BY_FILE_TYPE:
+            raise KeyError('No parser found for file type: "{}"'.format(file_type))
+
+        caw_path = os.path.join(os.path.abspath('.'), 'circlemud_caw')
+        pattern = os.path.join(caw_path, file_type, '*.' + file_type)
+        filenames = glob.glob(pattern)
+
+        return filenames
+
+    def test_get_all_filenames(self):
+        expected_zones = [0, 9, 12, 15, 25, 30, 31, 33, 35, 36, 40, 50, 51,
+                          52, 53, 54, 60, 61, 62, 63, 64, 65, 70, 72, 79,
+                          120, 150, 186]
+
+        get_zone_number = lambda x: int(os.path.split(x)[-1].split('.')[0])
+
+        for file_type, args in self.PARSER_BY_FILE_TYPE.iteritems():
+            filenames = self.get_all_filenames(file_type)
+
+            for filename in filenames:
+                payload = parse_from_file(filename, *args)
+                print filename, len(payload)
 
 
 if __name__ == '__main__':

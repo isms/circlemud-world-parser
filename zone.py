@@ -17,16 +17,31 @@ def get_command_fields(command, n_fields=4):
     return fields
 
 
-def parse_commands(commands, d):
-    commands = iter(commands)
+def get_contents(commands, i, curr_obj):
+    # get the current container
+    contents = []
 
+    i += 1
+    while i < len(commands) and commands[i].startswith('P'):
+        _, new_object, max, container = get_command_fields(commands[i])
+
+        # only append object if the listed container is th
+        if container == curr_obj:
+            subcontents = get_contents(commands, i, new_object)
+            contents.append(dict(object=new_object, max=max, contents=subcontents))
+
+        i += 1
+
+    return contents
+
+
+def parse_commands(commands, d):
     mobs = []
     objects = []
     remove_objects = []
     doors = []
 
-    while True:
-        curr = next(commands)
+    for i, curr in enumerate(commands):
 
         if curr == 'S':
             break  # we're done
@@ -41,33 +56,25 @@ def parse_commands(commands, d):
         elif curr.startswith('E'):
             _, obj, max, location = get_command_fields(curr)
             note = MOB_EQUIP.get(location, None)
-            eq = dict(location=location, max=max, object=obj, note=note)
-            mobs[-1]['equipped'].append(eq)
+            contents = get_contents(commands, i, obj)
+            new_obj = dict(location=location, max=max, object=obj, note=note, contents=contents)
+            mobs[-1]['equipped'].append(new_obj)
 
         # put an object in a mob's inventory
         elif curr.startswith('G'):
             _, obj, max = get_command_fields(curr, 3)
-            inv = dict(max=max, object=obj)
+            contents = get_contents(commands, i, obj)
+            new_obj = dict(max=max, object=obj, contents=contents)
 
             # give the object to the most recently parsed mob
-            mobs[-1]['inventory'].append(inv)
+            mobs[-1]['inventory'].append(new_obj)
 
         # load an object in a room
         elif curr.startswith('O'):
             _, obj, max, room = get_command_fields(curr)
-            obj = dict(max=max, object=obj, room=room, contents=list())
-            objects.append(obj)
-
-        # put an object in another object
-        elif curr.startswith('P'):
-            _, contents, max, container = get_command_fields(curr)
-            put = dict(object=contents, max=max)
-
-            # sanity check to make sure last object is the expected container
-            assert container == objects[-1]['object']
-
-            # put the contained object into the most recently parsed object
-            objects[-1]['contents'].append(put)
+            contents = get_contents(commands, i, obj)
+            new_obj = dict(max=max, object=obj, room=room, contents=contents)
+            objects.append(new_obj)
 
         # set the state of a door
         elif curr.startswith('D'):
@@ -115,7 +122,7 @@ def parse_zone(text):
 
 if __name__ == '__main__':
     if len(sys.argv) < 2 or not os.path.exists(sys.argv[1]):
-        print('Usage: python object_parser.py [file]')
+        print('Usage: python object.py [file]')
         sys.exit(1)
 
     filename = sys.argv[1]

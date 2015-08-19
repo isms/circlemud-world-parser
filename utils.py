@@ -46,10 +46,12 @@ def lookup_value_to_dict(value, flag_dict):
     note = flag_dict.get(value, None)
     return dict(value=value, note=note)
 
+
 def lookup_note_to_dict(note, flag_dict):
     reverse_dict = {v: k for k, v in flag_dict.iteritems()}
     value = reverse_dict.get(note, None)
     return dict(value=value, note=note)
+
 
 def split_on_vnums(file_text):
     """
@@ -75,7 +77,7 @@ def parse_from_string(file_text, parse_function, splitter):
     the passed splitting function, then feed each piece into the
     individual entry parser, accumulating all results into an array.
 
-     returns the resulting array of dictionaries.
+    returns the resulting array of dictionaries.
     """
     texts = splitter(file_text)
 
@@ -88,24 +90,26 @@ def parse_from_string(file_text, parse_function, splitter):
         except Exception as e:
             print 'error parsing:', text
             traceback.print_exc(file=sys.stdout)
-            return None
 
     return dicts
 
 
-def parse_from_file(filename, parse_function, splitter=split_on_vnums):
+def parse_from_file(filename, parse_function, splitter=split_on_vnums, validate=None):
     """
     given a filename and an individual item parsing function, read the
     file contents and pass to the string parser.
     """
-    # read in the file
     with open(filename) as f:
         file_text = f.read()
+
+    if validate:
+        validate(file_text)
 
     file_text = file_text.rstrip('$\n')  # world files
     file_text = file_text.rstrip('$~\n')  # shop files
 
-    return parse_from_string(file_text, parse_function, splitter=splitter)
+    dicts = parse_from_string(file_text, parse_function, splitter=splitter)
+    return dicts
 
 
 def parse_dice_roll_string_to_tuple(roll_string):
