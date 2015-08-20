@@ -55,7 +55,7 @@ def lookup_note_to_dict(note, flag_dict):
 
 def split_on_vnums(file_text):
     """
-    function specifically to split the file on lines like in the form
+    function specifically to split the file on lines in the form
     of a vnum (e.g. the entire line is something like '#1234'). this is
     important because lines within entries can (and do) start with '#'
     """
@@ -82,16 +82,19 @@ def parse_from_string(file_text, parse_function, splitter):
     texts = splitter(file_text)
 
     dicts = []
+    errors = []
+
     for text in texts:
 
         try:
             d = parse_function(text)
             dicts.append(d)
         except Exception as e:
-            print 'error parsing:', text
-            traceback.print_exc(file=sys.stdout)
+            trace = traceback.format_exc()
+            error = dict(text=text, trace=trace)
+            errors.append(error)
 
-    return dicts
+    return dicts, errors
 
 
 def parse_from_file(filename, parse_function, splitter=split_on_vnums, validate=None):
@@ -108,8 +111,7 @@ def parse_from_file(filename, parse_function, splitter=split_on_vnums, validate=
     file_text = file_text.rstrip('$\n')  # world files
     file_text = file_text.rstrip('$~\n')  # shop files
 
-    dicts = parse_from_string(file_text, parse_function, splitter=splitter)
-    return dicts
+    return parse_from_string(file_text, parse_function, splitter=splitter)
 
 
 def parse_dice_roll_string_to_tuple(roll_string):
@@ -125,13 +127,13 @@ def parse_dice_roll_string_to_tuple(roll_string):
 
 def parse_dice_roll_string_to_dict(roll_string):
     """
-    given a dice roll string, e.g. 4d6+20, return dict of number of dice,
-    number sides of each die, bonus, e.g.:
-    {
-        "n_dice": 4,
-        "n_sides": 6,
-        "bonus": 20
-    }
+    given a dice roll string such as "4d6+20", return dict of number of dice,
+    number sides of each die, and bonus:
+        {
+            "n_dice": 4,
+            "n_sides": 6,
+            "bonus": 20
+        }
     """
     names = ['n_dice', 'n_sides', 'bonus']
     values = parse_dice_roll_string_to_tuple(roll_string)

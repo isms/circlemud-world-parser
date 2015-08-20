@@ -14,9 +14,8 @@ from utils import parse_from_file
 
 
 EXIT_RE = r"""D(\d+)
-(.*?)
-~?
-(.*?)~?
+(.*?)~
+(.*?)~
 (.*?)
 """
 EXIT_PATTERN = re.compile(EXIT_RE, re.DOTALL | re.MULTILINE)
@@ -34,7 +33,7 @@ def parse_exits(text):
     matches = EXIT_PATTERN.findall(text)
     for match in matches:
         direction, desc, keys, other = match
-
+        desc = desc.rstrip('\n')
         flag, key_num, to = other.strip().split()
 
         exit = {}

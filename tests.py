@@ -203,7 +203,7 @@ $
             }
         ]
 
-        objs = parse_from_string(text, parse_object, split_on_vnums)
+        objs, errors = parse_from_string(text, parse_object, split_on_vnums)
         self.assertEqual(objs, expected)
 
     def test_parsing_object_with_non_stock_flag(self):
@@ -217,7 +217,7 @@ A thing is here.~
 22 100000 25000
 $
 """
-        objs = parse_from_string(text, parse_object, split_on_vnums)
+        objs, errors = parse_from_string(text, parse_object, split_on_vnums)
         thing = objs.pop()
 
         self.assertEqual(len(thing['extra_effects']), 4)
@@ -230,6 +230,8 @@ $
 
 
 class RoomParsingTests(unittest.TestCase):
+    maxDiff = None
+
     def test_parsing_rooms(self):
         text = """#3028
 The Thieves' Bar~
@@ -388,8 +390,32 @@ S
             }
         ]
 
-        rooms = parse_from_string(text, parse_room, split_on_vnums)
+        rooms, errors = parse_from_string(text, parse_room, split_on_vnums)
         self.assertListEqual(rooms, expected)
+
+    def test_room_with_no_exit_description(self):
+        text = """3374
+A Sloping Tunnel~
+   A bright light greets your eyes from the north, in
+direct contrast to the darkness of the tunnel overhead.
+You break  out in a sweat due to the overwhelming warmth
+of the air.  The musky odor has grown quite intense,
+drowning out everything else in the air and making it hard
+to breathe.  Something in your gut begins squirming
+uncomfortably as you wonder what's ahead...
+~
+33 adgj 4
+D0
+~
+~
+0 -1 3375
+D4
+~
+~
+0 -1 3373
+S"""
+        room = parse_room(text)
+        self.assertEqual(len(room['exits']), 2)
 
 
 class MobParsingTests(unittest.TestCase):
@@ -409,7 +435,8 @@ ablno d 900 S
 8 8 1"""
 
     def test_parsing_type_s_mob(self):
-        mob = parse_from_string(self.text, parse_mob, split_on_vnums).pop()
+        mobs, errors = parse_from_string(self.text, parse_mob, split_on_vnums)
+        mob = mobs.pop()
 
         expected = {
             "xp": 160000,
@@ -485,9 +512,9 @@ ablno d 900 S
     def test_parsing_type_e_mob(self):
         e_type = self.text.replace('ablno d 900 S', 'ablno d 900 E')
         e_type += '\nBareHandAttack: 4\nInt: 25\nE'
-        mob = parse_from_string(e_type, parse_mob, split_on_vnums).pop()
+        mobs, errors = parse_from_string(e_type, parse_mob, split_on_vnums)
         expected = dict(BareHandAttack=4, Int=25)
-        self.assertDictEqual(mob['extra_spec'], expected)
+        self.assertDictEqual(mobs[0]['extra_spec'], expected)
 
 
 class ZoneParsingTests(unittest.TestCase):
@@ -717,25 +744,28 @@ class TestParsingActualTinyworldFiles(unittest.TestCase):
         if file_type not in self.PARSER_BY_FILE_TYPE:
             raise KeyError('No parser found for file type: "{}"'.format(file_type))
 
-        caw_path = os.path.join(os.path.abspath('.'), 'circlemud_caw')
+        caw_path = os.path.join(os.path.abspath('.'), 'circlemud_world')
         pattern = os.path.join(caw_path, file_type, '*.' + file_type)
         filenames = glob.glob(pattern)
 
         return filenames
 
-    def test_get_all_filenames(self):
-        expected_zones = [0, 9, 12, 15, 25, 30, 31, 33, 35, 36, 40, 50, 51,
-                          52, 53, 54, 60, 61, 62, 63, 64, 65, 70, 72, 79,
-                          120, 150, 186]
-
-        get_zone_number = lambda x: int(os.path.split(x)[-1].split('.')[0])
-
+    def test_parse_all_files(self):
+        """
+        parse all of the stock CircleMUD files in the CAW archive
+        """
         for file_type, args in self.PARSER_BY_FILE_TYPE.iteritems():
             filenames = self.get_all_filenames(file_type)
 
             for filename in filenames:
-                payload = parse_from_file(filename, *args)
-                print filename, len(payload)
+                payload, errors = parse_from_file(filename, *args)
+
+                if os.path.split(filename)[1] == '0.obj':
+                    self.assertEqual(len(errors), 1)
+                    expected = '0\nbug~\na bug~\nThis object is BAD!'
+                    self.assertIn(expected, errors[0]['text'])
+                else:
+                    self.assertListEqual(errors, [])
 
 
 if __name__ == '__main__':
