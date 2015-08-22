@@ -1,14 +1,15 @@
 # coding: utf-8
-import json
-import os
-import sys
-
+"""
+Shops must be in CircleMUD v3.0 format. See "The CircleMUD
+Builder's Manual" by Jeremy Elson, Section 7, for an
+explanation of the different formats, and how to convert
+older Diku-format shops to Circle v3.0.
+"""
 from constants import OBJECT_TYPE_FLAGS
 from constants import SHOP_FLAGS
 from constants import SHOP_TRADES_WITH
 from utils import bitvector_to_flags
 from utils import clean_bitvector
-from utils import parse_from_file
 
 
 def buy_type_to_dict(line):
@@ -51,7 +52,7 @@ def times_to_dict(times):
 
 
 def parse_shop(text):
-    d = {}
+    d = dict()
 
     fields = [line.rstrip() for line in text.strip().split('\n')]
     delimiters = [i for i, field in enumerate(fields) if field == '-1']
@@ -89,24 +90,3 @@ def parse_shop(text):
     d['times'] = times_to_dict(times)
 
     return d
-
-
-if __name__ == '__main__':
-    if len(sys.argv) < 2 or not os.path.exists(sys.argv[1]):
-        print('Usage: python object.py [file]')
-        sys.exit(1)
-
-    filename = sys.argv[1]
-    with open(filename, 'r') as f:
-        first_line = f.readline().strip()
-
-    if not first_line == 'CircleMUD v3.0 Shop File~':
-        error = 'Shops must be in CircleMUD v3.0 format. See "The CircleMUD ' \
-                'Builder\'s Manual" by Jeremy Elson, Section 7, for an ' \
-                'explanation of the different formats, and how to convert ' \
-                'older Diku-format shops to Circle v3.0.'
-        raise NotImplementedError(error)
-
-    dicts = parse_from_file(filename, parse_shop)
-    payload = json.dumps(dicts, indent=2, sort_keys=True)
-    print(payload)

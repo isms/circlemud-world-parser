@@ -1,8 +1,4 @@
 # coding: utf-8
-import json
-import os
-import sys
-
 from constants import OBJECT_AFFECT_LOCATION_FLAGS
 from constants import OBJECT_EXTRA_EFFECTS_FLAGS
 from constants import OBJECT_TYPE_FLAGS
@@ -10,7 +6,6 @@ from constants import OBJECT_WEAR_FLAGS
 from utils import bitvector_to_flags
 from utils import clean_bitvector
 from utils import lookup_value_to_dict
-from utils import parse_from_file
 
 
 def parse_extra_descs(extra_fields):
@@ -31,7 +26,7 @@ def parse_extra_descs(extra_fields):
                     new = next(extra_iterator)
                 desc = '\n'.join(desc_lines)
 
-                yield {'keywords': keywords, 'desc': desc}
+                yield dict(keywords=keywords, desc=desc)
 
         except StopIteration:
             break
@@ -46,13 +41,8 @@ def parse_affects(extra_fields):
 
             if new == 'A':
                 loc, value = [int(v) for v in next(extra_iterator).split()]
-                flag = OBJECT_AFFECT_LOCATION_FLAGS.get(loc, None)
-                d = {
-                    'location': loc,
-                    'note': flag,
-                    'value': value,
-                }
-                yield d
+                note = OBJECT_AFFECT_LOCATION_FLAGS.get(loc, None)
+                yield dict(location=loc, note=note, value=value)
 
         except StopIteration:
             break
@@ -61,7 +51,7 @@ def parse_affects(extra_fields):
 def parse_object(text):
     fields = [line.rstrip() for line in text.strip().split('\n')]
 
-    d = {}
+    d = dict()
 
     # easy fields
     d['vnum'] = int(fields[0])
@@ -100,14 +90,3 @@ def parse_object(text):
         d['extra_descs'] = list(parse_extra_descs(extra_fields))
 
     return d
-
-
-if __name__ == '__main__':
-    if len(sys.argv) < 2 or not os.path.exists(sys.argv[1]):
-        print('Usage: python object.py [file]')
-        sys.exit(1)
-
-    filename = sys.argv[1]
-    dicts = parse_from_file(filename, parse_object)
-    payload = json.dumps(dicts, indent=2, sort_keys=True)
-    print(payload)

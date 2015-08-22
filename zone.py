@@ -1,11 +1,7 @@
 # coding: utf-8
-import json
-import os
 import re
-import sys
 
 from constants import MOB_EQUIP
-from utils import parse_from_file
 
 COMMAND_RE = r'(\d+)'
 COMMAND_PATTERN = re.compile(COMMAND_RE)
@@ -99,7 +95,7 @@ def parse_commands(commands, d):
 
 
 def parse_zone(text):
-    d = {}
+    d = dict()
 
     fields = [line.rstrip() for line in text.strip().split('\n')]
 
@@ -120,14 +116,3 @@ def parse_zone(text):
     d = parse_commands(commands, d)
 
     return d
-
-
-if __name__ == '__main__':
-    if len(sys.argv) < 2 or not os.path.exists(sys.argv[1]):
-        print('Usage: python object.py [file]')
-        sys.exit(1)
-
-    filename = sys.argv[1]
-    dicts = parse_from_file(filename, parse_zone)
-    payload = json.dumps(dicts, indent=2, sort_keys=True)
-    print(payload)

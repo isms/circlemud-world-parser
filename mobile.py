@@ -1,8 +1,4 @@
 # coding: utf-8
-import json
-import os
-import sys
-
 from constants import MOB_ACTION_FLAGS
 from constants import MOB_AFFECT_FLAGS
 from constants import MOB_GENDER
@@ -10,7 +6,6 @@ from constants import MOB_POSITION
 from utils import bitvector_to_flags
 from utils import clean_bitvector
 from utils import lookup_value_to_dict
-from utils import parse_from_file
 
 
 def parse_dice_roll_string_to_tuple(roll_string):
@@ -29,7 +24,7 @@ def parse_dice_roll_string_to_dict(roll_string):
     given a dice roll string such as "4d6+20", return dict of number of dice,
     number sides of each die, and bonus:
         {
-            "dice": 4,
+            "dice": 4,{}
             "sides": 6,
             "bonus": 20
         }
@@ -42,7 +37,7 @@ def parse_dice_roll_string_to_dict(roll_string):
 def parse_mob(text):
     fields = [line.rstrip() for line in text.strip().split('\n')]
 
-    d = {}
+    d = dict()
     d['vnum'] = int(fields[0])
     d['aliases'] = fields[1].rstrip('~').split()
     d['short_desc'] = fields[2].rstrip('~')
@@ -82,7 +77,7 @@ def parse_mob(text):
     }
     d['gender'] = lookup_value_to_dict(int(gender), MOB_GENDER)
 
-    extra_spec = {}
+    extra_spec = dict()
     if len(bottom_fields) > 4:
         assert mob_type == 'E'
         assert bottom_fields[-1] == 'E'
@@ -95,14 +90,3 @@ def parse_mob(text):
     d['extra_spec'] = extra_spec
 
     return d
-
-
-if __name__ == '__main__':
-    if len(sys.argv) < 2 or not os.path.exists(sys.argv[1]):
-        print('Usage: python object.py [file]')
-        sys.exit(1)
-
-    filename = sys.argv[1]
-    dicts = parse_from_file(filename, parse_mob)
-    payload = json.dumps(dicts, indent=2, sort_keys=True)
-    print(payload)

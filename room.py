@@ -1,8 +1,5 @@
 # coding: utf-8
-import json
 import re
-import os
-import sys
 
 from constants import ROOM_DOOR_FLAGS
 from constants import ROOM_FLAGS
@@ -10,8 +7,6 @@ from constants import ROOM_SECTOR_TYPES
 from utils import bitvector_to_flags
 from utils import clean_bitvector
 from utils import lookup_value_to_dict
-from utils import parse_from_file
-
 
 EXIT_RE = r"""D(\d+)
 (.*?)~
@@ -36,7 +31,7 @@ def parse_exits(text):
         desc = desc.rstrip('\n')
         flag, key_num, to = other.strip().split()
 
-        exit = {}
+        exit = dict()
         exit['dir'] = int(direction)
         exit['desc'] = desc
         exit['keywords'] = keys.split()
@@ -66,7 +61,7 @@ def parse_room(text):
     zone, flags, sector = parts[2].strip() \
         .split('\n')[0].strip().split(' ')
 
-    d = {}
+    d = dict()
     d['vnum'] = int(vnum)
     d['name'] = name.strip()
     d['desc'] = desc.strip('\n')
@@ -85,14 +80,3 @@ def parse_room(text):
     d['extra_descs'] = parse_extra_descs(bottom_matter)
 
     return d
-
-
-if __name__ == '__main__':
-    if len(sys.argv) < 2 or not os.path.exists(sys.argv[1]):
-        print('Usage: python object.py [file]')
-        sys.exit(1)
-
-    filename = sys.argv[1]
-    dicts = parse_from_file(filename, parse_room)
-    payload = json.dumps(dicts, indent=2, sort_keys=True)
-    print(payload)

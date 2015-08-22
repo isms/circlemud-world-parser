@@ -1,0 +1,5 @@
+click>=5.1
+flake8>=2.4.1
+mccabe>=0.3.1
+pep8>=1.5.7
+pyflakes>=0.8.1
