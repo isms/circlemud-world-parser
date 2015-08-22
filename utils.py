@@ -111,29 +111,3 @@ def parse_from_file(filename, parser, splitter=split_on_vnums, validate=None):
     file_text = file_text.rstrip('$~\n')  # shop files
 
     return parse_from_string(file_text, parser, splitter=splitter)
-
-
-def parse_dice_roll_string_to_tuple(roll_string):
-    """
-    given a dice roll string, e.g. 4d6+20, return tuple of number of dice,
-    number sides of each die, bonus, e.g. (4, 6, 20)
-    """
-    dice, bonus = roll_string.split('+')
-    n_dice, n_sides = dice.split('d')
-    result = map(int, (n_dice, n_sides, bonus))
-    return result
-
-
-def parse_dice_roll_string_to_dict(roll_string):
-    """
-    given a dice roll string such as "4d6+20", return dict of number of dice,
-    number sides of each die, and bonus:
-        {
-            "n_dice": 4,
-            "n_sides": 6,
-            "bonus": 20
-        }
-    """
-    names = ['n_dice', 'n_sides', 'bonus']
-    values = parse_dice_roll_string_to_tuple(roll_string)
-    return dict(zip(names, values))

@@ -10,8 +10,33 @@ from constants import MOB_POSITION
 from utils import bitvector_to_flags
 from utils import clean_bitvector
 from utils import lookup_value_to_dict
-from utils import parse_dice_roll_string_to_dict
 from utils import parse_from_file
+
+
+def parse_dice_roll_string_to_tuple(roll_string):
+    """
+    given a dice roll string, e.g. 4d6+20, return tuple of number of dice,
+    number sides of each die, bonus, e.g. (4, 6, 20)
+    """
+    dice, bonus = roll_string.split('+')
+    dice, sides = dice.split('d')
+    result = map(int, (dice, sides, bonus))
+    return result
+
+
+def parse_dice_roll_string_to_dict(roll_string):
+    """
+    given a dice roll string such as "4d6+20", return dict of number of dice,
+    number sides of each die, and bonus:
+        {
+            "dice": 4,
+            "sides": 6,
+            "bonus": 20
+        }
+    """
+    names = ['dice', 'sides', 'bonus']
+    values = parse_dice_roll_string_to_tuple(roll_string)
+    return dict(zip(names, values))
 
 
 def parse_mob(text):

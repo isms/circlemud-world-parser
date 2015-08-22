@@ -421,6 +421,8 @@ S"""
 
 
 class MobParsingTests(unittest.TestCase):
+    maxDiff = None
+
     def setUp(self):
         self.text = """#3000
 wizard~
@@ -447,8 +449,8 @@ ablno d 900 S
             "extra_spec": {},
             "detail_desc": "The wizard looks old and senile, and yet he looks like a very powerful\nwizard.  He is equipped with fine clothing, and is wearing many fine\nrings and bracelets.",
             "bare_hand_damage": {
-                "n_sides": 8,
-                "n_dice": 2,
+                "sides": 8,
+                "dice": 2,
                 "bonus": 18
             },
             "armor_class": 2,
@@ -492,8 +494,8 @@ ablno d 900 S
             "level": 33,
             "long_desc": "A wizard walks around behind the counter, talking to himself.",
             "max_hit_points": {
-                "n_sides": 1,
-                "n_dice": 1,
+                "sides": 1,
+                "dice": 1,
                 "bonus": 30000
             },
             "mob_type": "S",
