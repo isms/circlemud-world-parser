@@ -54,6 +54,8 @@ class BitvectorParsingTests(unittest.TestCase):
 
 
 class ObjectParsingTests(unittest.TestCase):
+    maxDiff = None
+
     def test_parsing_objects(self):
         text = """#12020
 thunderbolt jupiter~
@@ -153,7 +155,7 @@ $
                     }
                 ],
                 "long_desc": "Jupiter's Thunderbolt has been left here.",
-                "rent_per_day": 25000,
+                "rent": 25000,
                 "short_desc": "Jupiter's Thunderbolt"
             },
             {
@@ -198,7 +200,7 @@ $
                 ],
                 "extra_effects": [],
                 "long_desc": "There is a large telescope here, pointing at the sky.",
-                "rent_per_day": 0,
+                "rent": 0,
                 "short_desc": "a large telescope"
             }
         ]
@@ -744,7 +746,7 @@ class TestParsingActualTinyworldFiles(unittest.TestCase):
         if file_type not in self.PARSER_BY_FILE_TYPE:
             raise KeyError('No parser found for file type: "{}"'.format(file_type))
 
-        caw_path = os.path.join(os.path.abspath('.'), 'circlemud_world')
+        caw_path = os.path.join(os.path.abspath('.'), 'assets')
         pattern = os.path.join(caw_path, file_type, '*.' + file_type)
         filenames = glob.glob(pattern)
 
@@ -754,7 +756,7 @@ class TestParsingActualTinyworldFiles(unittest.TestCase):
         """
         parse all of the stock CircleMUD files in the CAW archive
         """
-        for file_type, args in self.PARSER_BY_FILE_TYPE.iteritems():
+        for file_type, args in self.PARSER_BY_FILE_TYPE.items():
             filenames = self.get_all_filenames(file_type)
 
             for filename in filenames:

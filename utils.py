@@ -1,7 +1,6 @@
 # coding: utf-8
 import re
 import string
-import sys
 import traceback
 
 
@@ -48,7 +47,7 @@ def lookup_value_to_dict(value, flag_dict):
 
 
 def lookup_note_to_dict(note, flag_dict):
-    reverse_dict = {v: k for k, v in flag_dict.iteritems()}
+    reverse_dict = {v: k for k, v in flag_dict.items()}
     value = reverse_dict.get(note, None)
     return dict(value=value, note=note)
 
@@ -63,7 +62,7 @@ def split_on_vnums(file_text):
     split_pattern = re.compile(split_re, re.MULTILINE)
 
     pieces = iter(split_pattern.split(file_text))
-    _ = next(pieces)
+    next(pieces)  # burn the next one, we won't use it
 
     while pieces:
         vnum = next(pieces)
@@ -89,7 +88,7 @@ def parse_from_string(file_text, parse_function, splitter):
         try:
             d = parse_function(text)
             dicts.append(d)
-        except Exception as e:
+        except Exception:  # intentionally broad
             trace = traceback.format_exc()
             error = dict(text=text, trace=trace)
             errors.append(error)
@@ -97,7 +96,7 @@ def parse_from_string(file_text, parse_function, splitter):
     return dicts, errors
 
 
-def parse_from_file(filename, parse_function, splitter=split_on_vnums, validate=None):
+def parse_from_file(filename, parser, splitter=split_on_vnums, validate=None):
     """
     given a filename and an individual item parsing function, read the
     file contents and pass to the string parser.
@@ -111,7 +110,7 @@ def parse_from_file(filename, parse_function, splitter=split_on_vnums, validate=
     file_text = file_text.rstrip('$\n')  # world files
     file_text = file_text.rstrip('$~\n')  # shop files
 
-    return parse_from_string(file_text, parse_function, splitter=splitter)
+    return parse_from_string(file_text, parser, splitter=splitter)
 
 
 def parse_dice_roll_string_to_tuple(roll_string):

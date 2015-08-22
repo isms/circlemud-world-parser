@@ -29,16 +29,16 @@ def parse_mob(text):
     bottom_fields = text[start_bottom_matter:].strip('\n').split('\n')
 
     vector_line = bottom_fields[0]
-    action_bitvector, affect_bitvector, alignment, mob_type = vector_line.split()
+    action, affect, alignment, mob_type = vector_line.split()
 
     d['mob_type'] = mob_type
     d['alignment'] = int(alignment)
 
-    action_bitvector = clean_bitvector(action_bitvector)
-    d['action_flags'] = bitvector_to_flags(action_bitvector, MOB_ACTION_FLAGS)
+    action = clean_bitvector(action)
+    d['action_flags'] = bitvector_to_flags(action, MOB_ACTION_FLAGS)
 
-    affect_bitvector = clean_bitvector(affect_bitvector)
-    d['affect_flags'] = bitvector_to_flags(affect_bitvector, MOB_AFFECT_FLAGS)
+    affect = clean_bitvector(affect)
+    d['affect_flags'] = bitvector_to_flags(affect, MOB_AFFECT_FLAGS)
 
     level, thac0, ac, max_hp, bare_hand_dmg = bottom_fields[1].split()
     gold, xp = bottom_fields[2].split()

@@ -13,7 +13,7 @@ COMMAND_PATTERN = re.compile(COMMAND_RE)
 
 def get_command_fields(command, n_fields=4):
     results = COMMAND_PATTERN.findall(command)
-    fields = map(int, results[:n_fields])
+    fields = [int(r) for r in results[:n_fields]]
     return fields
 
 
@@ -28,7 +28,8 @@ def get_contents(commands, i, curr_obj):
         # only append object if the listed container is th
         if container == curr_obj:
             subcontents = get_contents(commands, i, new_object)
-            contents.append(dict(object=new_object, max=max, contents=subcontents))
+            to_append = dict(object=new_object, max=max, contents=subcontents)
+            contents.append(to_append)
 
         i += 1
 
@@ -57,7 +58,8 @@ def parse_commands(commands, d):
             _, obj, max, location = get_command_fields(curr)
             note = MOB_EQUIP.get(location, None)
             contents = get_contents(commands, i, obj)
-            new_obj = dict(location=location, max=max, object=obj, note=note, contents=contents)
+            new_obj = dict(location=location, max=max, object=obj,
+                           note=note, contents=contents)
             mobs[-1]['equipped'].append(new_obj)
 
         # put an object in a mob's inventory
@@ -103,7 +105,7 @@ def parse_zone(text):
 
     # remove comment lines
     actual_line = lambda line: not line.startswith('*')
-    fields = filter(actual_line, fields)
+    fields = [f for f in fields if actual_line(f)]
 
     d['vnum'] = int(fields[0])
     d['name'] = fields[1].rstrip('~')

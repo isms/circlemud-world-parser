@@ -1,7 +1,6 @@
 # coding: utf-8
 import json
 import os
-import re
 import sys
 
 from constants import OBJECT_TYPE_FLAGS
@@ -24,18 +23,21 @@ def buy_type_to_dict(line):
         namelist = None
 
     # lookup the bitvector value from the flag for standardization
-    reverse = {v: k for k, v in OBJECT_TYPE_FLAGS.iteritems()}
+    reverse = {v: k for k, v in OBJECT_TYPE_FLAGS.items()}
     value = reverse.get(item_type, None)
 
     return dict(value=value, note=item_type, namelist=namelist)
 
 
 def raw_messages_to_dict(messages):
-    keys = ['buy_fails_object_does_not_exist', 'sell_fails_object_does_not_exist',
-            'sell_fails_shop_does_not_buy_object', 'sell_fails_shop_cannot_afford_object',
-            'buy_fails_player_cannot_afford_object', 'buy_succeeds', 'sell_succeeds']
-
-    messages = [m.lstrip('%s ').rstrip('~').replace('%d', '{:d}') for m in messages]
+    keys = ['buy_fails_object_does_not_exist',
+            'sell_fails_object_does_not_exist',
+            'sell_fails_shop_does_not_buy_object',
+            'sell_fails_shop_cannot_afford_object',
+            'buy_fails_player_cannot_afford_object',
+            'buy_succeeds', 'sell_succeeds']
+    clean = lambda m: m.lstrip('%s ').rstrip('~').replace('%d', '{:d}')
+    messages = [clean(m) for m in messages]
     return dict(zip(keys, messages))
 
 
@@ -97,7 +99,6 @@ if __name__ == '__main__':
     filename = sys.argv[1]
     with open(filename, 'r') as f:
         first_line = f.readline().strip()
-        print first_line
 
     if not first_line == 'CircleMUD v3.0 Shop File~':
         error = 'Shops must be in CircleMUD v3.0 format. See "The CircleMUD ' \

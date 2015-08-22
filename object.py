@@ -45,10 +45,10 @@ def parse_affects(extra_fields):
             new = next(extra_iterator)
 
             if new == 'A':
-                location, value = map(int, next(extra_iterator).split())
-                flag = OBJECT_AFFECT_LOCATION_FLAGS.get(location, None)
+                loc, value = [int(v) for v in next(extra_iterator).split()]
+                flag = OBJECT_AFFECT_LOCATION_FLAGS.get(loc, None)
                 d = {
-                    'location': location,
+                    'location': loc,
                     'note': flag,
                     'value': value,
                 }
@@ -68,18 +68,21 @@ def parse_object(text):
     d['aliases'] = fields[1].rstrip('~').split()
     d['short_desc'] = fields[2].rstrip('~')
     d['long_desc'] = fields[3].rstrip('~')
-    d['values'] = map(int, fields[6].split())
-    d['weight'], d['cost'], d['rent_per_day'] = map(int, fields[7].split())
+    d['values'] = [int(v) for v in fields[6].split()]
+    weight, cost, rent = [int(v) for v in fields[7].split()]
+    d['weight'] = weight
+    d['cost'] = cost
+    d['rent'] = rent
 
-    type_flag, extra_effects_bitvector, wear_bitvector = fields[5].split()
+    type_flag, effects_bits, wear_bitvector = fields[5].split()
 
     # type flag is always an int
     d['type'] = lookup_value_to_dict(int(type_flag), OBJECT_TYPE_FLAGS)
 
     # parse the bitvectors
-    extra_effects_bitvector = clean_bitvector(extra_effects_bitvector)
-    extra_effects = bitvector_to_flags(extra_effects_bitvector, OBJECT_EXTRA_EFFECTS_FLAGS)
-    d['extra_effects'] = extra_effects
+    effects_bits = clean_bitvector(effects_bits)
+    effects = bitvector_to_flags(effects_bits, OBJECT_EXTRA_EFFECTS_FLAGS)
+    d['extra_effects'] = effects
 
     wear_bitvector = clean_bitvector(wear_bitvector)
     d['wear_flags'] = bitvector_to_flags(wear_bitvector, OBJECT_WEAR_FLAGS)
