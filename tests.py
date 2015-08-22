@@ -3,6 +3,7 @@ import glob
 import os
 import unittest
 
+import parse
 from mobile import parse_mob
 from object import parse_object
 from room import parse_room
@@ -103,7 +104,7 @@ $
                         "note": "WEAR_WIELD"
                     }
                 ],
-                "vnum": 12020,
+                "id": 12020,
                 "values": [
                     0,
                     4,
@@ -161,7 +162,7 @@ $
             {
                 "weight": 0,
                 "wear_flags": [],
-                "vnum": 15005,
+                "id": 15005,
                 "values": [
                     0,
                     0,
@@ -285,7 +286,7 @@ S
         expected = [
             {
                 "zone_number": 30,
-                "vnum": 3028,
+                "id": 3028,
                 "sector_type": {
                     "value": 0,
                     "note": "INSIDE"
@@ -347,7 +348,7 @@ S
             },
             {
                 "zone_number": 30,
-                "vnum": 3029,
+                "id": 3029,
                 "sector_type": {
                     "value": 0,
                     "note": "INSIDE"
@@ -444,7 +445,7 @@ ablno d 900 S
 
         expected = {
             "xp": 160000,
-            "vnum": 3000,
+            "id": 3000,
             "thac0": 2,
             "extra_spec": {},
             "detail_desc": "The wizard looks old and senile, and yet he looks like a very powerful\nwizard.  He is equipped with fine clothing, and is wearing many fine\nrings and bracelets.",
@@ -558,14 +559,14 @@ S"""
                 'inventory': [],
                 'equipped': [
                     {
-                        'object': 6000,
+                        'id': 6000,
                         'max': 2,
                         'location': 16,
                         'note': 'WIELD',
                         'contents': [],
                     },
                     {
-                        'object': 6001,
+                        'id': 6001,
                         'max': 10,
                         'location': 5,
                         'note': 'BODY',
@@ -579,11 +580,11 @@ S"""
                 'max': 6,
                 'inventory': [
                     {
-                        'object': 6023,
+                        'id': 6023,
                         'max': 10,
                         'contents': [
                             {
-                                'object': 1234,
+                                'id': 1234,
                                 'max': 1,
                                 'contents': [],
                             }
@@ -597,23 +598,23 @@ S"""
 
         expected_objects = [
             {
-                'object': 6011,
+                'id': 6011,
                 'room': 6013,
                 'max': 10,
                 'contents': [],
             },
             {
-                'object': 6017,
+                'id': 6017,
                 'room': 6026,
                 'max': 1,
                 'contents': [
                     {
-                        'object': 6018,
+                        'id': 6018,
                         'max': 1,
                         'contents': [],
                     },
                     {
-                        'object': 6019,
+                        'id': 6019,
                         'max': 1,
                         'contents': [],
                     }
@@ -639,7 +640,7 @@ S"""
         expected_removals = [
             {
                 'room': 6016,
-                'object': 6011,
+                'id': 6011,
             }
         ]
         self.assertListEqual(zone['remove_objects'], expected_removals)
@@ -682,7 +683,7 @@ POTION
 
     def test_parsing_zone(self):
         expected = {
-            'vnum': 3000,
+            'id': 3000,
             'objects': [3050, 3051, 3052, 3053, 3054],
             'sell_rate': 1.15,
             'buy_rate': 0.15,
@@ -736,16 +737,8 @@ POTION
 
 
 class TestParsingActualTinyworldFiles(unittest.TestCase):
-    PARSER_BY_FILE_TYPE = {
-        'mob': (parse_mob, split_on_vnums, None),
-        'obj': (parse_object, split_on_vnums, None),
-        'wld': (parse_room, split_on_vnums, None),
-        'shp': (parse_shop, split_on_vnums, None),
-        'zon': (parse_zone, split_on_vnums, None),
-    }
-
     def get_all_filenames(self, file_type):
-        if file_type not in self.PARSER_BY_FILE_TYPE:
+        if file_type not in parse.PARSER_LOOKUP:
             raise KeyError('No parser found for file type: "{}"'.format(file_type))
 
         caw_path = os.path.join(os.path.abspath('.'), 'assets')
@@ -758,7 +751,7 @@ class TestParsingActualTinyworldFiles(unittest.TestCase):
         """
         parse all of the stock CircleMUD files in the CAW archive
         """
-        for file_type, args in self.PARSER_BY_FILE_TYPE.items():
+        for file_type, args in parse.PARSER_LOOKUP.items():
             filenames = self.get_all_filenames(file_type)
 
             for filename in filenames:

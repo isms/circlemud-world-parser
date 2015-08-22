@@ -62,7 +62,7 @@ def parse_room(text):
         .split('\n')[0].strip().split(' ')
 
     d = dict()
-    d['vnum'] = int(vnum)
+    d['id'] = int(vnum)
     d['name'] = name.strip()
     d['desc'] = desc.strip('\n')
     d['zone_number'] = int(zone)

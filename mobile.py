@@ -38,7 +38,7 @@ def parse_mob(text):
     fields = [line.rstrip() for line in text.strip().split('\n')]
 
     d = dict()
-    d['vnum'] = int(fields[0])
+    d['id'] = int(fields[0])
     d['aliases'] = fields[1].rstrip('~').split()
     d['short_desc'] = fields[2].rstrip('~')
     d['long_desc'] = text.split('~')[2].strip('\n')

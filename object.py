@@ -54,7 +54,7 @@ def parse_object(text):
     d = dict()
 
     # easy fields
-    d['vnum'] = int(fields[0])
+    d['id'] = int(fields[0])
     d['aliases'] = fields[1].rstrip('~').split()
     d['short_desc'] = fields[2].rstrip('~')
     d['long_desc'] = fields[3].rstrip('~')

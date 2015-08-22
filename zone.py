@@ -24,7 +24,7 @@ def get_contents(commands, i, curr_obj):
         # only append object if the listed container is th
         if container == curr_obj:
             subcontents = get_contents(commands, i, new_object)
-            to_append = dict(object=new_object, max=max, contents=subcontents)
+            to_append = dict(id=new_object, max=max, contents=subcontents)
             contents.append(to_append)
 
         i += 1
@@ -54,7 +54,7 @@ def parse_commands(commands, d):
             _, obj, max, location = get_command_fields(curr)
             note = MOB_EQUIP.get(location, None)
             contents = get_contents(commands, i, obj)
-            new_obj = dict(location=location, max=max, object=obj,
+            new_obj = dict(location=location, max=max, id=obj,
                            note=note, contents=contents)
             mobs[-1]['equipped'].append(new_obj)
 
@@ -62,7 +62,7 @@ def parse_commands(commands, d):
         elif curr.startswith('G'):
             _, obj, max = get_command_fields(curr, 3)
             contents = get_contents(commands, i, obj)
-            new_obj = dict(max=max, object=obj, contents=contents)
+            new_obj = dict(max=max, id=obj, contents=contents)
 
             # give the object to the most recently parsed mob
             mobs[-1]['inventory'].append(new_obj)
@@ -71,7 +71,7 @@ def parse_commands(commands, d):
         elif curr.startswith('O'):
             _, obj, max, room = get_command_fields(curr)
             contents = get_contents(commands, i, obj)
-            new_obj = dict(max=max, object=obj, room=room, contents=contents)
+            new_obj = dict(max=max, id=obj, room=room, contents=contents)
             objects.append(new_obj)
 
         # set the state of a door
@@ -83,7 +83,7 @@ def parse_commands(commands, d):
         # remove an object from a room
         elif curr.startswith('R'):
             _, room, obj = get_command_fields(curr, 3)
-            remove = dict(room=room, object=obj)
+            remove = dict(room=room, id=obj)
             remove_objects.append(remove)
 
     d['mobs'] = mobs
@@ -103,7 +103,7 @@ def parse_zone(text):
     actual_line = lambda line: not line.startswith('*')
     fields = [f for f in fields if actual_line(f)]
 
-    d['vnum'] = int(fields[0])
+    d['id'] = int(fields[0])
     d['name'] = fields[1].rstrip('~')
 
     bottom, top, lifespan, reset_mode = map(int, fields[2].split())

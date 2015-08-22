@@ -57,7 +57,7 @@ def parse_shop(text):
     fields = [line.rstrip() for line in text.strip().split('\n')]
     delimiters = [i for i, field in enumerate(fields) if field == '-1']
 
-    d['vnum'] = int(fields[0].lstrip('#').rstrip('~'))
+    d['id'] = int(fields[0].lstrip('#').rstrip('~'))
 
     objects_start, objects_stop = 1, delimiters[0]
     d['objects'] = [int(f) for f in fields[objects_start:objects_stop]]
