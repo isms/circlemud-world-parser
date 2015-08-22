@@ -37,7 +37,7 @@ def raw_messages_to_dict(messages):
             'sell_fails_shop_cannot_afford_object',
             'buy_fails_player_cannot_afford_object',
             'buy_succeeds', 'sell_succeeds']
-    clean = lambda m: m.lstrip('%s ').rstrip('~').replace('%d', '{:d}')
+    clean = lambda m: m.lstrip('%s ').rstrip('~')
     messages = [clean(m) for m in messages]
     return dict(zip(keys, messages))
 

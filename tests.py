@@ -133,7 +133,7 @@ $
                 ],
                 "cost": 100000,
                 "extra_descs": [],
-                "extra_effects": [
+                "effects": [
                     {
                         "value": 2,
                         "note": "HUM"
@@ -199,7 +199,7 @@ $
                         "desc": "A small sign says:\n\nMade in Siberia.\n"
                     }
                 ],
-                "extra_effects": [],
+                "effects": [],
                 "long_desc": "There is a large telescope here, pointing at the sky.",
                 "rent": 0,
                 "short_desc": "a large telescope"
@@ -223,13 +223,13 @@ $
         objs, errors = parse_from_string(text, parse_object, split_on_vnums)
         thing = objs.pop()
 
-        self.assertEqual(len(thing['extra_effects']), 4)
+        self.assertEqual(len(thing['effects']), 4)
 
         expected = {
             'value': 274877906944,
             'note': None
         }
-        self.assertIn(expected, thing['extra_effects'])
+        self.assertIn(expected, thing['effects'])
 
 
 class RoomParsingTests(unittest.TestCase):
@@ -459,13 +459,13 @@ ablno d 900 S
             "aliases": [
                 "wizard"
             ],
-            "affect_flags": [
+            "affects": [
                 {
                     "value": 8,
                     "note": "DETECT_INVIS"
                 }
             ],
-            "action_flags": [
+            "flags": [
                 {
                     "value": 1,
                     "note": "SPEC"
@@ -703,8 +703,8 @@ POTION
                 'sell_fails_shop_does_not_buy_object': "I don't buy such items.",
                 'sell_fails_shop_cannot_afford_object': "That is too expensive for me!",
                 'buy_fails_player_cannot_afford_object': "You can't afford it!",
-                'buy_succeeds': "That'll be {:d} coins, please.",
-                'sell_succeeds': "You'll get {:d} coins for it!",
+                'buy_succeeds': "That'll be %d coins, please.",
+                'sell_succeeds': "You'll get %d coins for it!",
             },
             'temper': 0,
             'shopkeeper': 3000,

@@ -72,7 +72,7 @@ def parse_object(text):
     # parse the bitvectors
     effects_bits = clean_bitvector(effects_bits)
     effects = bitvector_to_flags(effects_bits, OBJECT_EXTRA_EFFECTS_FLAGS)
-    d['extra_effects'] = effects
+    d['effects'] = effects
 
     wear_bitvector = clean_bitvector(wear_bitvector)
     d['wear_flags'] = bitvector_to_flags(wear_bitvector, OBJECT_WEAR_FLAGS)

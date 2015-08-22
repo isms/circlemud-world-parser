@@ -55,10 +55,10 @@ def parse_mob(text):
     d['alignment'] = int(alignment)
 
     action = clean_bitvector(action)
-    d['action_flags'] = bitvector_to_flags(action, MOB_ACTION_FLAGS)
+    d['flags'] = bitvector_to_flags(action, MOB_ACTION_FLAGS)
 
     affect = clean_bitvector(affect)
-    d['affect_flags'] = bitvector_to_flags(affect, MOB_AFFECT_FLAGS)
+    d['affects'] = bitvector_to_flags(affect, MOB_AFFECT_FLAGS)
 
     level, thac0, ac, max_hp, bare_hand_dmg = bottom_fields[1].split()
     gold, xp = bottom_fields[2].split()
