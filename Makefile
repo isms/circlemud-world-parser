@@ -6,5 +6,8 @@ test:
 	flake8
 	python tests.py
 
+all: clean
+	bash convert_all.sh assets/
+
 .PHONY:
-	clean test
+	all clean test
