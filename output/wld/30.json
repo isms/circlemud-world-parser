@@ -1,0 +1,2856 @@
+[
+  {
+    "desc": "You are in a small, simple room which is mostly empty, save a few\nwooden desks and benches.  To the east you hear the bustle of the Temple\nof Midgaard, a sharp contrast to the relative quiet of this peaceful\nroom.", 
+    "exits": [
+      {
+        "desc": "You see the Temple of Midgaard.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3001
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "PEACEFUL", 
+        "value": 16
+      }, 
+      {
+        "note": "NOMAGIC", 
+        "value": 128
+      }
+    ], 
+    "id": 3000, 
+    "name": "The Reading Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are in the southern end of the temple hall in the Temple of Midgaard.\nThe temple has been constructed from giant marble blocks, eternal in\nappearance, and most of the walls are covered by ancient wall paintings\npicturing Gods, Giants and peasants.\n   Large steps lead down through the grand temple gate, descending the huge\nmound upon which the temple is built and ends on the temple square below.\nTo the west, you see the Reading Room.  The donation room is in a small\nalcove to your east.", 
+    "exits": [
+      {
+        "desc": "At the northern end of the temple hall is a statue and a huge altar.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3054
+      }, 
+      {
+        "desc": "In the east, you see a small alcove with a rickety wooden sign which\nreads \"Midgaard Donation Room.\"", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3063
+      }, 
+      {
+        "desc": "You look down the huge stone steps at the temple square below.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3005
+      }, 
+      {
+        "desc": "You see the Reading Room.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3000
+      }, 
+      {
+        "desc": "You see the temple square.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3005
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "PEACEFUL", 
+        "value": 16
+      }, 
+      {
+        "note": "NOMAGIC", 
+        "value": 128
+      }
+    ], 
+    "id": 3001, 
+    "name": "The Temple Of Midgaard", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "This is the inner sanctum.  A picture of the mighty Thor, is hanging on\nthe wall, just above the altar which is set against the western wall.  A well\nin the middle of the floor leads down into darkness.  Vile smells waft from\nthe depths.", 
+    "exits": [
+      {
+        "desc": "You see your favorite place, the bar of divination.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3003
+      }, 
+      {
+        "desc": "You can't see what is down there, it is too dark.  Looks like it would be\nimpossible to climb back up.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7026
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 3002, 
+    "name": "The Clerics' Inner Sanctum", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "The bar is one of the finest in the land, lucky it is members only.  Fine\nfurniture is set all around the room.  A small sign is hanging on the wall.", 
+    "exits": [
+      {
+        "desc": "You see the entrance.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3004
+      }, 
+      {
+        "desc": "You see the inner sanctum.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3002
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The sign reads:\nFree instructions provided by the waiter:\n\n   Buy  - Buy something (drinkable) from the waiter.\n   List - The waiter will show you all the different drinks and\n          specialties, and tell the price of each.", 
+        "keywords": [
+          "sign"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "NOMAGIC", 
+        "value": 128
+      }
+    ], 
+    "id": 3003, 
+    "name": "The Bar Of Divination", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "The entrance hall is a small modest room, reflecting the true nature of\nthe Clerics.  The exit leads east to the temple square.  A small entrance to\nthe bar is in the northern wall.", 
+    "exits": [
+      {
+        "desc": "You see the bar, richly decorated with really stylish furniture.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3003
+      }, 
+      {
+        "desc": "You see the Temple Square.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3005
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 3004, 
+    "name": "The Entrance To The Clerics' Guild", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are standing on the temple square.  Huge marble steps lead up to the\ntemple gate.  The entrance to the Clerics' Guild is to the west, and the old\nGrunting Boar Inn, is to the east.  Just south of here you see the market\nsquare, the center of Midgaard.", 
+    "exits": [
+      {
+        "desc": "You see the temple.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3001
+      }, 
+      {
+        "desc": "You see the good old Grunting Boar Inn.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3006
+      }, 
+      {
+        "desc": "You see the Market Square.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3014
+      }, 
+      {
+        "desc": "You see the entrance to the Clerics' Guild.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3004
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3005, 
+    "name": "The Temple Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are standing in the entrance hall of the Grunting Boar Inn.  The hall\nhas been wisely decorated with simple, functional furniture.  The heavy smell\nof dust and aging paper drifts in from the Post Office to the north.  A small\nstaircase leads up to the reception and the bar is to the east.", 
+    "exits": [
+      {
+        "desc": "You see the Midgaard Post Office.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3062
+      }, 
+      {
+        "desc": "Surprise!  You see the bar.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3007
+      }, 
+      {
+        "desc": "You see the temple square.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3005
+      }, 
+      {
+        "desc": "You see the reception.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3008
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 3006, 
+    "name": "The Entrance Hall Of The Grunting Boar Inn", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are standing in the bar.  The bar is set against the northern wall, old\narchaic writing, carvings and symbols cover its top.  A fireplace is built into\nthe western wall, and through the southeastern windows you can see the temple\nsquare.  This place makes you feel like home.\nA small sign with big letters is fastened to the bar.", 
+    "exits": [
+      {
+        "desc": "You see the exit to the entrance hall.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3006
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The sign reads:\nFree instructions provided by the Grunting Boar Inn.\n\n   Buy  - Buy something (drinkable) from the bartender.\n   List - The bartender will show you all the different drinks and\n          specialties, and tell the price of each.", 
+        "keywords": [
+          "sign"
+        ]
+      }, 
+      {
+        "desc": "Although it is very hard to understand, you think it looks a lot like beer,\npoems about beer, and small beer-mugs.", 
+        "keywords": [
+          "writing", 
+          "carving", 
+          "carvings", 
+          "symbols", 
+          "symbol"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "NOMAGIC", 
+        "value": 128
+      }
+    ], 
+    "id": 3007, 
+    "name": "The Grunting Boar", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are standing in the reception.  The staircase leads down to the\nentrance hall.  An exit to the north leads to the Cryogenic Center.\nThere is a small sign on the counter.", 
+    "exits": [
+      {
+        "desc": "You see the Cryogenic Center.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3064
+      }, 
+      {
+        "desc": "You see the entrance hall.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3006
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "Rooms are expensive but good!  You may:\n\n   Offer - get an offer on a room - Time is in real life days.\n   Rent  - Rent a room (saves your stuff, and quits the game),\n           minimum charge is one day.\n\n\n                          MY WAY OR THE HIGHWAY\n                             PAY YOUR RENT!\n                WE WON'T THINK TWICE BEFORE KICKING YOU OUT.", 
+        "keywords": [
+          "sign"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 3008, 
+    "name": "The Reception", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are standing inside the small bakery.  A sweet scent of Danish and\nfine bread fills the room.  The bread and Danish are arranged in fine order\non the shelves, and seem to be of the finest quality.\nA small sign is on the counter.", 
+    "exits": [
+      {
+        "desc": "You see the main street.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3013
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "You see that this is truly delicious pastry.  Must be made by a Dane from\nDenmark (which surely is not the capital of Sweden!).  Former ruler of\nScandinavia, England, Northern Germany, Northern France, Russia, Greenland,\nIceland, Estonia etc.  etc.\n   The sight of those large, wholesome chokoladeboller makes your mouth water\nand your soul sing.", 
+        "keywords": [
+          "danish", 
+          "pastry"
+        ]
+      }, 
+      {
+        "desc": "Free instructions provided by the store:\n\n   Buy  - Will buy you some bread or pastry.\n   List - The baker will kindly tell you the price and sort of the bread in\n          his bakery.", 
+        "keywords": [
+          "sign"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "NOMAGIC", 
+        "value": 128
+      }
+    ], 
+    "id": 3009, 
+    "name": "The Bakery", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are inside the general store.  All sorts of items are stacked on shelves\nbehind the counter, safely out of your reach.\nA small note hangs on the wall.", 
+    "exits": [
+      {
+        "desc": "You see the main street.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3015
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The note reads:\n\n  List  - Show which various items are in the store.\n  Buy   - Buy an item.\n  Value - The shopkeeper will (free of charge) tell how much he will\n          pay for your item.\n  Sell  - Sell an item.", 
+        "keywords": [
+          "note"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "NOMAGIC", 
+        "value": 128
+      }
+    ], 
+    "id": 3010, 
+    "name": "The General Store", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are inside the weapon shop.  There is a small note on the counter.", 
+    "exits": [
+      {
+        "desc": "You see the main street.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3016
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The note reads:\n\n  List  - Show which various items are in the store.\n  Buy   - Buy an item.\n  Value - The shopkeeper will (free of charge) tell how much he will\n          pay for your item.\n  Sell  - Sell an item.", 
+        "keywords": [
+          "note"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "NOMAGIC", 
+        "value": 128
+      }
+    ], 
+    "id": 3011, 
+    "name": "The Weapon Shop", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are at the end of the main street of Midgaard.  South of here is the\nentrance to the Guild of Magic Users.  The street continues east towards the\nmarket square.  The magic shop is to the north and to the west is the city\ngate.", 
+    "exits": [
+      {
+        "desc": "You see the magic shop.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3033
+      }, 
+      {
+        "desc": "You see the main street.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3013
+      }, 
+      {
+        "desc": "You see the entrance to the Guild of Magic Users.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3017
+      }, 
+      {
+        "desc": "You see the city gate.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3040
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3012, 
+    "name": "Main Street", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are on the main street passing through the City of Midgaard.  South of\nhere is the entrance to the Armory, and the bakery is to the north.  East of\nhere is the market square.", 
+    "exits": [
+      {
+        "desc": "You see the bakery.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3009
+      }, 
+      {
+        "desc": "You see the market square.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3014
+      }, 
+      {
+        "desc": "You see the armory.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3020
+      }, 
+      {
+        "desc": "You see the main street.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3012
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3013, 
+    "name": "Main Street", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are standing on the market square, the famous Square of Midgaard.\nA large, peculiar looking statue is standing in the middle of the square.\nRoads lead in every direction, north to the temple square, south to the\ncommon square, east and westbound is the main street.", 
+    "exits": [
+      {
+        "desc": "You see the temple square.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3005
+      }, 
+      {
+        "desc": "You see the main street.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3015
+      }, 
+      {
+        "desc": "You see the common square.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3025
+      }, 
+      {
+        "desc": "You see the main street.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3013
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "What you see is the Midgaard Worm, stretching around the Palace of Midgaard.", 
+        "keywords": [
+          "statue"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 3014, 
+    "name": "Market Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are on the main street crossing through town.  To the north is the\ngeneral store, and the main street continues east.  To the west you see and\nhear the market place, to the south a small door leads into the Pet Shop.", 
+    "exits": [
+      {
+        "desc": "You see the general store.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3010
+      }, 
+      {
+        "desc": "You see the main street.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3016
+      }, 
+      {
+        "desc": "You see the Pet Shop.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3031
+      }, 
+      {
+        "desc": "You see the market square.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3014
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3015, 
+    "name": "Main Street", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "The main street, to the north is the weapon shop and to the south is the\nGuild of Swordsmen.  To the east you leave town and to the west the street\nleads to the market square.", 
+    "exits": [
+      {
+        "desc": "You see the weapon shop.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3011
+      }, 
+      {
+        "desc": "You see the city gate.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3041
+      }, 
+      {
+        "desc": "You see the swordsmen's guild.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3021
+      }, 
+      {
+        "desc": "You see the main street leading to the market square.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3015
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3016, 
+    "name": "Main Street", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "The entrance hall to this guild is a small, poor lighted room.", 
+    "exits": [
+      {
+        "desc": "You see the main street.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3012
+      }, 
+      {
+        "desc": "You see your favorite place, the Mages' Bar.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3018
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 3017, 
+    "name": "The Entrance To The Mages' Guild", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "The bar is one of the weirdest in the land.  Mystical images float around\nthe air.  Illusions of fine furniture appear all around the room.", 
+    "exits": [
+      {
+        "desc": "You see the lobby.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3017
+      }, 
+      {
+        "desc": "You see the laboratory.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3019
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "NOMAGIC", 
+        "value": 128
+      }
+    ], 
+    "id": 3018, 
+    "name": "The Mages' Bar", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "This is the Magical Experiments Laboratory.  Dark smoke-stained stones\narch over numerous huge oaken tables, most of these cluttered with strange-\nlooking pipes and flasks.  The floor is covered with half-erased pentagrams\nand even weirder symbols, and a blackboard in a dark corner has only been\npartially cleaned, some painful-looking letters faintly visible.  A well in\nthe middle of the floor leads down into darkness.  Vile smells waft from the\ndepths.", 
+    "exits": [
+      {
+        "desc": "You see the bar.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3018
+      }, 
+      {
+        "desc": "You can't see what is down there, it is too dark.  Looks like it would be\nimpossible to climb back up.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7017
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 3019, 
+    "name": "The Mages' Laboratory", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "The armory with all kinds of armors on the walls and in the window.  You\nsee helmets, shields and chain mails.  To the north is the main street.\nOn the wall is a small note.", 
+    "exits": [
+      {
+        "desc": "You see the main street.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3013
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "You can use these commands for trading:\n\n  value <item>     To get the price of an item in your possession.\n  sell <item>      To sell something.\n  buy <item>       To buy something (provided that the shop has it in store).\n  list             Gives you a listing of the shop's inventory.\n\n        WE DON'T GIVE CREDIT; WE DON'T EXPECT TO RECEIVE CREDIT!\n                             NO HAGGLING", 
+        "keywords": [
+          "note"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "NOMAGIC", 
+        "value": 128
+      }
+    ], 
+    "id": 3020, 
+    "name": "The Armory", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "The entrance hall to the Guild of Swordsmen.  A place where one has to be\ncareful not to say something wrong (or right).  To the east is the bar and to\nthe north is the main street.", 
+    "exits": [
+      {
+        "desc": "You see the main street.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3016
+      }, 
+      {
+        "desc": "You see the swordsmen's bar, many noises comes from there.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3022
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 3021, 
+    "name": "The Entrance Hall To The Guild Of Swordsmen", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "The bar of swordsmen, once upon a time beautifully furnished.  But now the\nfurniture is all around you in small pieces.  To the south is the yard, and\nto the west is the entrance hall.", 
+    "exits": [
+      {
+        "desc": "You see the practice yard.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3023
+      }, 
+      {
+        "desc": "You see the entrance hall to the warriors' guild.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3021
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "NOMAGIC", 
+        "value": 128
+      }
+    ], 
+    "id": 3022, 
+    "name": "The Bar Of Swordsmen", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "This is the practice yard of the fighters.  To the north is the bar.\nA well leads down into darkness.", 
+    "exits": [
+      {
+        "desc": "You see the bar.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3022
+      }, 
+      {
+        "desc": "You can't see what is down there, it is too dark.  Looks like it would be\nimpossible to climb back up.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7048
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 3023, 
+    "name": "The Tournament And Practice Yard", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are at the poor alley.  South of here is the Grubby Inn and to the\neast you see common square.  The alley continues further west.", 
+    "exits": [
+      {
+        "desc": "You see the common square.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3025
+      }, 
+      {
+        "desc": "You see the Inn.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3048
+      }, 
+      {
+        "desc": "You see the poor alley.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3044
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3024, 
+    "name": "The Eastern End Of Poor Alley", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "The common square, people pass you, talking to each other.  To the west is\nthe poor alley and to the east is the dark alley.  To the north, this square\nis connected to the market square.  From the south you notice a nasty smell.", 
+    "exits": [
+      {
+        "desc": "You see the market square.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3014
+      }, 
+      {
+        "desc": "You see the dark alley.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3026
+      }, 
+      {
+        "desc": "You see the city dump.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3030
+      }, 
+      {
+        "desc": "You see Poor Alley.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3024
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3025, 
+    "name": "The Common Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "The dark alley, to the west is the common square and to the south is the\nGuild of Thieves.  The alley continues east.", 
+    "exits": [
+      {
+        "desc": "The alley continues east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3045
+      }, 
+      {
+        "desc": "You see the entrance to the thieves' guild.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3027
+      }, 
+      {
+        "desc": "You see the common square.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3025
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is the thieves' guild, don't enter if you care about your health or money.", 
+        "keywords": [
+          "guild"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 3026, 
+    "name": "The Dark Alley", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "The entrance hall to the thieves' and assassins' guild.  A place where you\ncan lose both your life and your money, if you are not careful.  To the north\nis the dark alley and to the east is the thieves' bar.", 
+    "exits": [
+      {
+        "desc": "You see the alley.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3026
+      }, 
+      {
+        "desc": "You see the thieves bar, where everything disappears.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3028
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 3027, 
+    "name": "The Entrance Hall To The Guild Of Thieves", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "The bar of the thieves.  Once upon a time this place was beautifully\nfurnished, but now it seems almost empty.  To the south is the yard, and to\nthe west is the entrance hall.\n   (Maybe the furniture has been stolen?!)", 
+    "exits": [
+      {
+        "desc": "You see the secret yard.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3029
+      }, 
+      {
+        "desc": "You see the entrance hall to the thieves' guild.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3027
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "As you look at the furniture, the chair you sit on disappears.", 
+        "keywords": [
+          "furniture"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "NOMAGIC", 
+        "value": 128
+      }
+    ], 
+    "id": 3028, 
+    "name": "The Thieves' Bar", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "The secret practice yard of thieves and assassins.  To the north is the\nbar.  A well leads down into darkness.", 
+    "exits": [
+      {
+        "desc": "You see the bar.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3028
+      }, 
+      {
+        "desc": "You can't see what is down there, it is too dark.  Looks like it would be\nimpossible to climb back up.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7043
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 3029, 
+    "name": "The Secret Yard", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "The dump, where the people from the city drop their garbage.  Through the\ngarbage you can see a large junction of pipes, looks like the entrance to the\nsewer system.  North of here you see the common square.", 
+    "exits": [
+      {
+        "desc": "You see the common square.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3025
+      }, 
+      {
+        "desc": "You see the sewers.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 3005, 
+        "keywords": [
+          "grate"
+        ], 
+        "room_linked": 7030
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }
+    ], 
+    "id": 3030, 
+    "name": "The Dump", 
+    "sector_type": {
+      "note": "FIELD", 
+      "value": 2
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "The Pet Shop is a small crowded store, full of cages and animals of\nvarious sizes.  There is a sign on the wall.", 
+    "exits": [
+      {
+        "desc": "You see the main street.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3015
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The sign reads:\n\n  Use 'List' to see the available pets.\n  Use 'Buy <pet>' to buy yourself a pet.\n\n  Instructions for having pets:\n\n  You can use 'order <pet> <instructions>' to order your pets around.\n  If you abuse your pet, it will no longer regard you as its master.\n  If you have several pets you may use 'order followers <instructions>'\n\n  You can name the pet you buy with: 'buy <pet> <name>'\n\n Regards,\n\n The Shopkeeper\n", 
+        "keywords": [
+          "sign"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "NOMAGIC", 
+        "value": 128
+      }
+    ], 
+    "id": 3031, 
+    "name": "The Pet Shop", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "This  is the small dark room in which the Pet shop keeps his pets.\nIt is vital that this room's virtual number is exactly one larger\nthan the Pet Shop number.", 
+    "exits": [], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "GODROOM", 
+        "value": 1024
+      }
+    ], 
+    "id": 3032, 
+    "name": "Pet Shop Store", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "Behind the counter you see various items, neatly placed in racks,\npresumably most of them are magic.", 
+    "exits": [
+      {
+        "desc": "You see the main street.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3012
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "NOMAGIC", 
+        "value": 128
+      }
+    ], 
+    "id": 3033, 
+    "name": "The Magic Shop", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are by two small towers that have been built into the city wall and\nconnected with a footbridge across the heavy wooden gate.  Main Street leads\neast and Wall Road leads south from here.", 
+    "exits": [
+      {
+        "desc": "You see Main Street.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3012
+      }, 
+      {
+        "desc": "You see the road running along the inner side of the city wall.  You notice\nthat it is called Wall Road.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3042
+      }, 
+      {
+        "desc": "The city gate is to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": 3112, 
+        "keywords": [
+          "gate"
+        ], 
+        "room_linked": 3052
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is too high up to reach but it looks as if one easily could walk across it\nfrom one tower to the other.", 
+        "keywords": [
+          "bridge", 
+          "footbridge"
+        ]
+      }, 
+      {
+        "desc": "It is a set of very big double doors made from hard wood.  They have been\nreinforced with large iron bands to make them even more sturdy.  One of the\ndoors is equipped with a very big lock.", 
+        "keywords": [
+          "gate"
+        ]
+      }, 
+      {
+        "desc": "Both of the towers are built from large grey rocks that have been fastened to\neach other with some kind of mortar, just like the city wall.", 
+        "keywords": [
+          "tower", 
+          "towers"
+        ]
+      }, 
+      {
+        "desc": "It is built from large grey rocks that have been fastened to each other with\nsome kind of mortar.  It is far too high to climb.", 
+        "keywords": [
+          "wall"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 3040, 
+    "name": "Inside The West Gate Of Midgaard", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are by two small towers that have been built into the city wall and\nconnected with a footbridge across the heavy wooden gate.  Main Street leads\nwest from here.  To the south you see the Water Shop.", 
+    "exits": [
+      {
+        "desc": "You see the city gate.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": 3112, 
+        "keywords": [
+          "gate"
+        ], 
+        "room_linked": 3053
+      }, 
+      {
+        "desc": "You see the water shop.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3058
+      }, 
+      {
+        "desc": "You see Main Street.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3016
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is too high up to reach but it looks as if one easily could walk across it\nfrom one tower to the other.", 
+        "keywords": [
+          "bridge", 
+          "footbridge"
+        ]
+      }, 
+      {
+        "desc": "It is a set of very big double doors made from hard wood.  They have been\nreinforced with large iron bands to make them even more sturdy.  One of the\ndoors is equipped with a very big lock.", 
+        "keywords": [
+          "gate"
+        ]
+      }, 
+      {
+        "desc": "Both of the towers are built from large grey rocks that have been fastened to\neach other with some kind of mortar, just like the city wall.", 
+        "keywords": [
+          "tower", 
+          "towers"
+        ]
+      }, 
+      {
+        "desc": "It is built from large grey rocks that have been fastened to each other with\nsome kind of mortar.  It is far too high to climb.", 
+        "keywords": [
+          "wall"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 3041, 
+    "name": "Inside The East Gate Of Midgaard", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are walking next to the western city wall.  The road continues further\nsouth and the city gate is just north of here.", 
+    "exits": [
+      {
+        "desc": "You see the city gate.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3040
+      }, 
+      {
+        "desc": "The road continues further south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3043
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is built from large grey rocks that have been fastened to each other with\nsome kind of mortar.  It is far too high to climb.", 
+        "keywords": [
+          "wall"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 3042, 
+    "name": "Wall Road", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are walking next to the western city wall.  Wall Road continues further\nnorth and south.  A small, poor alley leads east.\nSome letters have been written on the wall here.", 
+    "exits": [
+      {
+        "desc": "The road continues further north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3042
+      }, 
+      {
+        "desc": "Poor Alley leads east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3044
+      }, 
+      {
+        "desc": "The road continues further south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3047
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It says 'Who watches the watchmen?'", 
+        "keywords": [
+          "wall", 
+          "writing", 
+          "letters"
+        ]
+      }, 
+      {
+        "desc": "It is built from large grey rocks that have been fastened to each other with\nsome kind of mortar.  It is far too high to climb.", 
+        "keywords": [
+          "wall"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 3043, 
+    "name": "Wall Road", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are on Poor Alley, which continues further east.  You see the\ncity wall to the west.", 
+    "exits": [
+      {
+        "desc": "The alley leads east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3024
+      }, 
+      {
+        "desc": "The alley leads west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3043
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3044, 
+    "name": "Poor Alley", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are standing in the alley which continues east and west.  South of\nhere you see the levee.", 
+    "exits": [
+      {
+        "desc": "The alley leads east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3046
+      }, 
+      {
+        "desc": "You see the levee.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3049
+      }, 
+      {
+        "desc": "The alley leads west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3026
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3045, 
+    "name": "The Dark Alley At The Levee", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are standing at the eastern end of the alley, the city wall is just\neast, blocking any further movement.  A small warehouse is directly south of\nhere.", 
+    "exits": [
+      {
+        "desc": "You see the warehouse.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3050
+      }, 
+      {
+        "desc": "You see the alley.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3045
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3046, 
+    "name": "The Eastern End Of The Alley", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are standing on the road next to the western city wall, which\ncontinues north.  South of here is a bridge across the river.", 
+    "exits": [
+      {
+        "desc": "You see the road.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3043
+      }, 
+      {
+        "desc": "You see the bridge.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3051
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is built from large grey rocks that have been fastened to each other with\nsome kind of mortar.  It is far too high to climb.", 
+        "keywords": [
+          "wall"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 3047, 
+    "name": "Wall Road", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are inside the old Grubby Inn.  This place has not been cleaned for\nseveral decades; vile smells make you dizzy.", 
+    "exits": [
+      {
+        "desc": "You see the alley.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3024
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "NOMAGIC", 
+        "value": 128
+      }
+    ], 
+    "id": 3048, 
+    "name": "Grubby Inn", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are at the levee.  South of here you see the river gently flowing west.\nThe river bank is very low making it possible to enter the river.", 
+    "exits": [
+      {
+        "desc": "You see the alley.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3045
+      }, 
+      {
+        "desc": "You see the river flowing west.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3203
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMAGIC", 
+        "value": 128
+      }
+    ], 
+    "id": 3049, 
+    "name": "The Levee", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are inside the warehouse.  The room is decorated with various old\nitems from ships.", 
+    "exits": [
+      {
+        "desc": "You see the alley.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3046
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 3050, 
+    "name": "The Deserted Warehouse", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are standing on the stone bridge crosses the river.  The bridge is\nbuilt out from the western city wall and the river flows west through an\nopening in the wall ten feet below the bridge.", 
+    "exits": [
+      {
+        "desc": "You see the road.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3047
+      }, 
+      {
+        "desc": "You see the Concourse.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3100
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is built from large grey rocks that have been fastened to each other with\nsome kind of mortar, just like the wall.", 
+        "keywords": [
+          "bridge"
+        ]
+      }, 
+      {
+        "desc": "You cannot really see it from here as it is somewhere beneath your feet.", 
+        "keywords": [
+          "opening"
+        ]
+      }, 
+      {
+        "desc": "It is built from large grey rocks that have been fastened to each other with\nsome kind of mortar.  It is far too high to climb.", 
+        "keywords": [
+          "wall"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 3051, 
+    "name": "On The Bridge", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are by two small towers that have been built into the city wall and\nconnected with a footbridge across the heavy wooden gate.  To the west you\ncan see the edge of a big forest.", 
+    "exits": [
+      {
+        "desc": "The city gate is to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": 3112, 
+        "keywords": [
+          "gate"
+        ], 
+        "room_linked": 3040
+      }, 
+      {
+        "desc": "The forest edge is to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6092
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is too high up to reach but it looks as if one easily could walk across it\nfrom one tower to the other.", 
+        "keywords": [
+          "bridge", 
+          "footbridge"
+        ]
+      }, 
+      {
+        "desc": "It is a set of very big double doors made from hard wood.  They have been\nreinforced with large iron bands to make them even more sturdy.  One of the\ndoors is equipped with a very big lock.", 
+        "keywords": [
+          "gate"
+        ]
+      }, 
+      {
+        "desc": "Both of the towers are built from large grey rocks that have been fastened to\neach other with some kind of mortar, just like the city wall.", 
+        "keywords": [
+          "tower", 
+          "towers"
+        ]
+      }, 
+      {
+        "desc": "It is built from large grey rocks that have been fastened to each other with\nsome kind of mortar.  It is far too high to climb.", 
+        "keywords": [
+          "wall"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 3052, 
+    "name": "Outside The West Gate Of Midgaard", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are by two small towers that have been built into the city wall and\nconnected with a footbridge across the heavy wooden gate.  To the east the\nplains stretch out in the distance.", 
+    "exits": [
+      {
+        "desc": "You see the plains.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3503
+      }, 
+      {
+        "desc": "You see the city gate.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": 3112, 
+        "keywords": [
+          "gate"
+        ], 
+        "room_linked": 3041
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is too high up to reach but it looks as if one easily could walk across it\nfrom one tower to the other.", 
+        "keywords": [
+          "bridge", 
+          "footbridge"
+        ]
+      }, 
+      {
+        "desc": "It is a set of very big double doors made from hard wood.  They have been\nreinforced with large iron bands to make them even more sturdy.  One of the\ndoors is equipped with a very big lock.", 
+        "keywords": [
+          "gate"
+        ]
+      }, 
+      {
+        "desc": "Both of the towers are built from large grey rocks that have been fastened to\neach other with some kind of mortar, just like the city wall.", 
+        "keywords": [
+          "tower", 
+          "towers"
+        ]
+      }, 
+      {
+        "desc": "It is built from large grey rocks that have been fastened to each other with\nsome kind of mortar.  It is far too high to climb.", 
+        "keywords": [
+          "wall"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 3053, 
+    "name": "Outside The East Gate Of Midgaard", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are by the temple altar in the northern end of the Temple of\nMidgaard.  A huge altar made from white polished marble is standing\nin front of you and behind it is a ten foot tall sitting statue of\nOdin, the King of the Gods.\n   To the north, steps lead out the back of the temple towards the\ncountryside.", 
+    "exits": [
+      {
+        "desc": "You see the vast Midgaard countryside.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3059
+      }, 
+      {
+        "desc": "You see the southern end of the temple.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3001
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "Even though the altar is more than ten feet long it appears to be made from\na single block of white virgin marble.", 
+        "keywords": [
+          "altar"
+        ]
+      }, 
+      {
+        "desc": "The statue represents the one-eyed Odin sitting on a his throne.  He has\nlong, grey hair and beard and a strict look on his face.  On top of the\nthrone, just above his shoulders, his two ravens Hugin and Munin are sitting\nand at his feet are his wolves Gere and Freke.", 
+        "keywords": [
+          "statue", 
+          "odin", 
+          "king", 
+          "god"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 3054, 
+    "name": "By The Temple Altar", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "This is the small dark room in which Odin keeps the player items that he\ntakes care of.  It is vital that this room's virtual number is exactly one\nlarger than the room by the temple altar.", 
+    "exits": [], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "PRIVATE", 
+        "value": 512
+      }
+    ], 
+    "id": 3055, 
+    "name": "Odin's Store", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are standing in the center of a small wooden shop whose walls are\ncovered with racks upon racks of water jugs.  Several large barrels with\nspigots are stacked in the corner.", 
+    "exits": [
+      {
+        "desc": "You see the East Gate.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3041
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "NOMAGIC", 
+        "value": 128
+      }
+    ], 
+    "id": 3058, 
+    "name": "Ye Olde Water Shoppe", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are on a dirt path leading away from the Temple Altar which is south\nof here.  To the north, the path continues through the lush contryside of\nMidgaard towards the Dragonhelm Mountains far off to the north.", 
+    "exits": [
+      {
+        "desc": "You see the lush, green countryside of Midgaard.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3060
+      }, 
+      {
+        "desc": "You see the Temple Altar.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3054
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3059, 
+    "name": "Behind The Temple Altar", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are walking on a wide dirt path through the lush, green, fresh\nMidgaard countryside.  You can see to the horizon to the north, east,\nand west; the busy city of Midgaard lies to the south.  All around you\nis healthy green grass and an occasional large oak tree.  The sun feels\nwonderful on your face and a pleasant wind blows through your hair.  Birds\nchirp quietly to themselves and you can smell the faint scent of flowers\nand freshly cut grass.  You feel like you could lie down in the grass and\nstay here forever, surrounded by powerful beauty in all directions.\n   The path you are on continues north through the field and south back\nto Midgaard.", 
+    "exits": [
+      {
+        "desc": "You see more of the path through the Great Field.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3061
+      }, 
+      {
+        "desc": "You see the path which goes back to Midgaard.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3059
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3060, 
+    "name": "The Great Field Of Midgaard", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are walking on a wide dirt path through the lush, green, fresh\nMidgaard countryside.  You can see to the horizon to the north, east,\nand west; the busy city of Midgaard lies to the south.  All around you\nis healthy green grass and an occasional large oak tree.  The sun feels\nwonderful on your face and a pleasant wind blows through your hair.  Birds\nchirp quietly to themselves and you can smell the faint scent of flowers\nand freshly cut grass.  You feel like you could lie down in the grass and\nstay here forever, surrounded by powerful beauty in all directions.\n   There is a strange structure on the eastern side of the path.  A small\ndirt path splits off of the main path and leads off to the west.", 
+    "exits": [
+      {
+        "desc": "The path continues northwards bringing you ever closer to the Dragonhelm\nMountains.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3065
+      }, 
+      {
+        "desc": "There is a strange structure to the east on the edge of the trail.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 18600
+      }, 
+      {
+        "desc": "You see more of the Field.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3060
+      }, 
+      {
+        "desc": "There is a strange path leading towards a rusty gate to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3066
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }
+    ], 
+    "id": 3061, 
+    "name": "The Great Field Of Midgaard", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are in the central post office for Midgaard.  Piles of assorted mail\nlay untouched in the corners, collecting cobwebs.  Several large crates have\nbeen pried open by curious customs agents, and are now stacked along the west\nwall, hiding plenty of 'WANTED' posters.\nThere is a sign posted on the wall here.", 
+    "exits": [
+      {
+        "desc": "You see the entrance to the Grunting Boar Inn and Tavern.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3006
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "**********************************************************\n*     \t\t\t\t\t\t\t *\n*    Mail Instructions:                                  *\n*\t\t\t\t\t\t\t *\n*      To send a note to someone:                        *\n*         MAIL <playername>\t\t\t\t *\n*     \t\t\t\t\t\t\t *\n*      To see if you have any mail:                      *\n*         CHECK\t\t\t\t\t\t *\n*\t\t\t\t\t\t\t *\n*      To get the Postmaster to give you your mail:      *\n*         RECEIVE\t\t\t\t\t *\n*\t\t\t\t\t\t\t *\n*         Stamps cost 150 coins per letter               *\n*         Type 'HELP MAIL' for more info                 *\n**********************************************************", 
+        "keywords": [
+          "sign"
+        ]
+      }, 
+      {
+        "desc": "Envelopes of all sizes are heaped into hugh piles around the room.  As you\nlook closer, you see a letter that you had posted a full week ago, laying\nunnoticed and slightly rat-chewed towards the bottom of the pile.", 
+        "keywords": [
+          "letters", 
+          "envelopes", 
+          "assorted"
+        ]
+      }, 
+      {
+        "desc": "They seem to cover everything here, even the Postmaster himself.", 
+        "keywords": [
+          "cobwebs"
+        ]
+      }, 
+      {
+        "desc": "As you know, it is illegal to send contraband items through the Midgaard\nMail.  The customs agents use this as a great excuse to seize liquor,\nrare spices, and just about anything they might find useful or profitable.", 
+        "keywords": [
+          "crates", 
+          "opened", 
+          "large"
+        ]
+      }, 
+      {
+        "desc": "Faces of various known Killers and Thieves can barely be seen behind the\ncrates on the west wall.  Some of them look quite familar, sorta like that\nguy who you saw in the Reception a minute ago... but then again, they are\nrather hard to see past the crates.", 
+        "keywords": [
+          "WANTED", 
+          "posters", 
+          "poster", 
+          "wall"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "PEACEFUL", 
+        "value": 16
+      }, 
+      {
+        "note": "NOMAGIC", 
+        "value": 128
+      }
+    ], 
+    "id": 3062, 
+    "name": "The Post Office", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are in a small, undecorated room just off of the main temple.  There\nare a couple of small wooden benches here where people occasionally sit\nwhile they wait for items to appear.  The temple is to the west.", 
+    "exits": [
+      {
+        "desc": "The busy temple is back west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3001
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "PEACEFUL", 
+        "value": 16
+      }
+    ], 
+    "id": 3063, 
+    "name": "The Midgaard Donation Room", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are standing in an impossible white sterile room with cylindrical\nbody-length canisters lined up against the walls.  The Reception is to the\nsouth.", 
+    "exits": [
+      {
+        "desc": "The Reception is to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3008
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 3064, 
+    "name": "The Cryogenic Center", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are walking on a wide dirt path through the lush, green, fresh\nMidgaard countryside.  You can see to the horizon to the north, east,\nand west; the busy city of Midgaard lies to the south.  All around you\nis healthy green grass and an occasional large oak tree.  The sun feels\nwonderful on your face and a pleasant wind blows through your hair.  Birds\nchirp quietly to themselves and you can smell the faint scent of flowers\nand freshly cut grass.  You feel like you could lie down in the grass and\nstay here forever, surrounded by powerful beauty in all directions.\n   The way north appears to be blocked by a large plot device and you cannot\nsee any way around it.", 
+    "exits": [
+      {
+        "desc": "Unfortunately the way north is blocked by a large plot device and there\ndoes not seem to be any way around it.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": -1
+      }, 
+      {
+        "desc": "The path continues through the field to the south past an odd structure\non the eastern side of the path.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3061
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "What more is a plot device than something to block a certain direction\nfor reasons beyond your comprehension.", 
+        "keywords": [
+          "plot", 
+          "device"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 3065, 
+    "name": "The Great Field Of Midgaard", 
+    "sector_type": {
+      "note": "FIELD", 
+      "value": 2
+    }, 
+    "zone_number": 30
+  }, 
+  {
+    "desc": "You are walking along a narrow dirt path through the lush, green,\nfresh Midgaard countryside.  You can see to the horizon to the north\nand east; the busy city of Midgaard lies to the south.  All around\nyou is healthy green grass and an occasional large oak tree.  The sun\nfeels wonderful on your face and a pleasant wind blows through your\nhair.  Birds chirp quietly to themselves and you can smell the faint\nscent of flowers and freshly cut grass.  You feel like you could lie\ndown in the grass and stay here forever, surrounded by powerful beauty\nin all directions.\n   There is a large rusty gate sitting in a stone archway just to the\nwest.", 
+    "exits": [
+      {
+        "desc": "The path meets up with a larger path just to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3061
+      }, 
+      {
+        "desc": "There is a large rusty gate just to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3600
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3066, 
+    "name": "The Dirt Path", 
+    "sector_type": {
+      "note": "FIELD", 
+      "value": 2
+    }, 
+    "zone_number": 30
+  }
+]

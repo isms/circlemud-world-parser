@@ -1,0 +1,110 @@
+[
+  {
+    "bottom_room": 7000, 
+    "doors": [
+      {
+        "exit": 1, 
+        "room": 7047, 
+        "state": 1
+      }, 
+      {
+        "exit": 3, 
+        "room": 7053, 
+        "state": 1
+      }
+    ], 
+    "id": 70, 
+    "lifespan": 15, 
+    "mobs": [
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 9, 
+        "mob": 7001, 
+        "room": 7041
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 9, 
+        "mob": 7001, 
+        "room": 7025
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 9, 
+        "mob": 7001, 
+        "room": 7004
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 9, 
+        "mob": 7001, 
+        "room": 7004
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 3, 
+        "mob": 7002, 
+        "room": 7049
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 3, 
+        "mob": 7002, 
+        "room": 7031
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 8, 
+        "mob": 7003, 
+        "room": 7039
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 8, 
+        "mob": 7003, 
+        "room": 7039
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 8, 
+        "mob": 7003, 
+        "room": 7039
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 8, 
+        "mob": 7003, 
+        "room": 7037
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 8, 
+        "mob": 7003, 
+        "room": 7037
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 8, 
+        "mob": 7003, 
+        "room": 7050
+      }
+    ], 
+    "name": "The Sewer, First Level", 
+    "objects": [], 
+    "remove_objects": [], 
+    "reset_mode": 2, 
+    "top_room": 7099
+  }
+]

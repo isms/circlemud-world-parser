@@ -1,0 +1,401 @@
+[
+  {
+    "affects": [], 
+    "aliases": [
+      "sword", 
+      "small"
+    ], 
+    "cost": 60, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 3500, 
+    "long_desc": "A small sword lies here.", 
+    "rent": 10, 
+    "short_desc": "a small sword", 
+    "type": {
+      "note": "WEAPON", 
+      "value": 5
+    }, 
+    "values": [
+      0, 
+      1, 
+      6, 
+      11
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WIELD", 
+        "value": 8192
+      }
+    ], 
+    "weight": 3
+  }, 
+  {
+    "affects": [
+      {
+        "location": 19, 
+        "note": "DAMROLL", 
+        "value": 2
+      }
+    ], 
+    "aliases": [
+      "sword", 
+      "long"
+    ], 
+    "cost": 600, 
+    "effects": [
+      {
+        "note": "GLOW", 
+        "value": 1
+      }, 
+      {
+        "note": "ANTI_CLERIC", 
+        "value": 8192
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 3501, 
+    "long_desc": "A long sword has been left here.", 
+    "rent": 10, 
+    "short_desc": "a fine long sword", 
+    "type": {
+      "note": "WEAPON", 
+      "value": 5
+    }, 
+    "values": [
+      0, 
+      1, 
+      9, 
+      3
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WIELD", 
+        "value": 8192
+      }
+    ], 
+    "weight": 8
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "club", 
+      "wooden"
+    ], 
+    "cost": 12, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 3502, 
+    "long_desc": "A simple looking wooden club is here.", 
+    "rent": 10, 
+    "short_desc": "a wooden club", 
+    "type": {
+      "note": "WEAPON", 
+      "value": 5
+    }, 
+    "values": [
+      0, 
+      1, 
+      3, 
+      7
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WIELD", 
+        "value": 8192
+      }
+    ], 
+    "weight": 3
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "jacket", 
+      "studded", 
+      "leather"
+    ], 
+    "cost": 500, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 3503, 
+    "long_desc": "A studded leather jacket is lying on the ground.", 
+    "rent": 10, 
+    "short_desc": "a studded leather jacket", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      5, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_BODY", 
+        "value": 8
+      }
+    ], 
+    "weight": 20
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "spear", 
+      "small"
+    ], 
+    "cost": 500, 
+    "effects": [
+      {
+        "note": "ANTI_MAGIC_USER", 
+        "value": 4096
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 3504, 
+    "long_desc": "A small spear lies here.", 
+    "rent": 120, 
+    "short_desc": "a small spear", 
+    "type": {
+      "note": "WEAPON", 
+      "value": 5
+    }, 
+    "values": [
+      0, 
+      5, 
+      1, 
+      11
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WIELD", 
+        "value": 8192
+      }
+    ], 
+    "weight": 15
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "corpse", 
+      "mutilated"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "Looks to be an aftermath of whatever caused this carnage.", 
+        "keywords": [
+          "corpse", 
+          "mutilated"
+        ]
+      }
+    ], 
+    "id": 3505, 
+    "long_desc": "A mutilated corpse has been left on the ground here.", 
+    "rent": 0, 
+    "short_desc": "a mutilated corpse", 
+    "type": {
+      "note": "CONTAINER", 
+      "value": 15
+    }, 
+    "values": [
+      20, 
+      0, 
+      -1, 
+      0
+    ], 
+    "wear_flags": [], 
+    "weight": 25
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "corpse", 
+      "mutilated"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "Looks to be an aftermath of whatever caused this carnage.", 
+        "keywords": [
+          "corpse", 
+          "mutilated"
+        ]
+      }
+    ], 
+    "id": 3506, 
+    "long_desc": "A mutilated corpse has been left on the ground here.", 
+    "rent": 0, 
+    "short_desc": "a mutilated corpse", 
+    "type": {
+      "note": "CONTAINER", 
+      "value": 15
+    }, 
+    "values": [
+      20, 
+      0, 
+      -1, 
+      0
+    ], 
+    "wear_flags": [], 
+    "weight": 25
+  }, 
+  {
+    "affects": [
+      {
+        "location": 18, 
+        "note": "HITROLL", 
+        "value": 5
+      }, 
+      {
+        "location": 19, 
+        "note": "DAMROLL", 
+        "value": -3
+      }
+    ], 
+    "aliases": [
+      "dagger", 
+      "ornate"
+    ], 
+    "cost": 1000, 
+    "effects": [
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }, 
+      {
+        "note": "INVISIBLE", 
+        "value": 32
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "NODROP", 
+        "value": 128
+      }, 
+      {
+        "note": "ANTI_EVIL", 
+        "value": 1024
+      }, 
+      {
+        "note": "ANTI_MAGIC_USER", 
+        "value": 4096
+      }, 
+      {
+        "note": "ANTI_CLERIC", 
+        "value": 8192
+      }, 
+      {
+        "note": "ANTI_WARRIOR", 
+        "value": 32768
+      }, 
+      {
+        "note": "NOSELL", 
+        "value": 65536
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The hilt of this dagger looks to be two intertwined snakes.  At the end of\nit, there is a small red ruby.", 
+        "keywords": [
+          "dagger", 
+          "ornate"
+        ]
+      }
+    ], 
+    "id": 3507, 
+    "long_desc": "A beautiful looking dagger is stuck in the ground.", 
+    "rent": 500, 
+    "short_desc": "an ornate dagger", 
+    "type": {
+      "note": "WEAPON", 
+      "value": 5
+    }, 
+    "values": [
+      0, 
+      3, 
+      3, 
+      11
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WIELD", 
+        "value": 8192
+      }
+    ], 
+    "weight": 4
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "gyroscope", 
+      "toy"
+    ], 
+    "cost": 25, 
+    "effects": [
+      {
+        "note": "HUM", 
+        "value": 2
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 3508, 
+    "long_desc": "A small toy is spinning about on the ground here.", 
+    "rent": 600, 
+    "short_desc": "the gyroscope", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      5, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_FINGER", 
+        "value": 2
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 1
+  }
+]

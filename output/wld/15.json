@@ -1,0 +1,1879 @@
+[
+  {
+    "desc": "You find yourself on a small road leading away from the edge\nof the River of Lost Souls.  The dark waters of the River can\nbe seen and heard just south of here.  Looking to the east and\nwest, you see only the walls of the rocky cliffs.  Off to the\nnorth a strange path seems to lead straight into the depths of\nthe mountain.", 
+    "exits": [
+      {
+        "desc": "A strange path leads northwards.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1501
+      }, 
+      {
+        "desc": "The River of Lost Souls flows just to the south of here.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 5619
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }
+    ], 
+    "id": 1500, 
+    "name": "A Road Leading From The Bank", 
+    "sector_type": {
+      "note": "HILLS", 
+      "value": 4
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "You stand here in spiritual emptiness, beginning a long and dangerous\npath.  Your honest submission has already been made, but the truth of your\nheart has yet to be told.  Leave here now, and do not come back until\nyou have grown.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1502
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1500
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1501, 
+    "name": "A Long Road", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "You stop for a moment, screaming in frustration.  Surely it was that one\nsin that was avoidable, of all that you regret.  The hitting and the hurting\nflash briefly before you.  Moments later the pain passes, and the straight\npath reveals itself before you.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1501
+      }, 
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1503
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1502, 
+    "name": "A Long Road", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "The road clears, the fog and pain of the first few steps left behind\nyou.  Despite the sudden clarity, your mind is still haunted, images of\nan old woman kneeling in prayer, eyes closing, smiling and crying.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1504
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1502
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1503, 
+    "name": "A Long Road", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "Looking ahead, you can see that the path you have been following will\nsoon come to an end, but something in the cold and the breeze tells you\nthat that will be only the beginning of the journey.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1505
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1503
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1504, 
+    "name": "A Long Road", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "It is here finally that decisions must be made.  The first one that\nconfronts you is simple enough, to walk in the darkness, or to walk in\nthe light.  Only the depths of your soul can decide, but remember this\nmuch: the same truth lies at the end of both paths.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1507
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1506
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1505, 
+    "name": "A Test for the Faithful", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "Even the darkest have a place on the road to the truth.  It is in this\nplace, so empty and forgotten, that God has chosen the worst, and brought\nthem close to Him for one last time.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1513
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1508
+      }, 
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1505
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1506, 
+    "name": "Halls of the Forgotten", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "It was written once, on an ancient parchment in a curious and flowing\nscript, that there is in fact no god but Allah, and that Muhammad was\nthe last of His Prophets.  With this recognition, all else became empty\nand meaningless.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1523
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1518
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1505
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1507, 
+    "name": "Shahadah", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "Whatever it carries, that rage converts into a weapon.  Wrath supplies\nall with arms.  When an angry man thirsts for blood anything will serve\nhim for a spear.  Fury turns a stick into a cudgel.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1509
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1506
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1508, 
+    "name": "Earthly Evil", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "Some have been brought here not for what they did, but what they\nfailed to do.  It is these, the poor souls that were presented the\nfair evidence and rejected it with an honest mind, that deserve our\npity the most of all.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1508
+      }, 
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1510
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1509, 
+    "name": "Misguidance", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "Old tales tell of a conversation between the devil and the Prophet\nJesus: the devil offered him a kingdom, vast riches, the temptation of\na glorious near-death saved by his angels.  Even this Messenger of God\nwas forced to stop and think.  Imagine how hard it could be for the rest.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1511
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1509
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1510, 
+    "name": "Temptation", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "He called the populace to strict religious purity, rigidly enforcing\nthe times of prayer and the most correct forms of the words of the Muezzin.\nAll of this he strengthened by his most impeccable example, shunning all\nriches and riding in tattered rags through his capital on the back of a\ndonkey.  Despite all this, remember.  Behind closed doors, all men are\nhypocrites.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1512
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1510
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1511, 
+    "name": "Hypocrisy", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "There is little in life much easier, and truthfully, little that is a\nquicker ticket to damnation.  You give brief thanks that you have come to\nthe end of these trials, but your words are drowned out by something\nmuch louder, a mechanical preaching that drowns your ears in anger.  You\nhear a steady, repetitive litany of the same phrase, over and over again:\n\"I go the way history dictates with the blind assurance of a sleep-walker.\"", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1511
+      }, 
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1528
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1512, 
+    "name": "Hate", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "Some evils are tangible, solid, so evident that they spit you right in\nthe face.  Others are more clever, more subtle, and it is these that present\nthe greatest danger.  Looking down the hall before you, a great fear fills\nyour heart, and a great, heavy longing.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1514
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1506
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1513, 
+    "name": "Spiritual Danger", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "In the beginning, he was the best, the most beautiful of all the angels,\nand God's most loved creation.  Look at your own beauty, human, and do what\nhe could not.  Look at your beauty, and learn to kneel!", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1513
+      }, 
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1515
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1514, 
+    "name": "The Fall", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "Temptation is the IF, the wondering, the second-guessing, the \"I will\nbe a better man... if...\"  And that if is usually taken, sitting alone,\nlistening to that voice, calling you, offering such an easy way, but such\na crooked one.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1516
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1514
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1515, 
+    "name": "Temptation", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "The din of a great battle shakes these halls, the moans of the earth\nerupting at the shakings of the End Time.  Be ready for that day, be very\nready, for if you are not, he will claim you for one of his own.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1515
+      }, 
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1517
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1516, 
+    "name": "The Last Day", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "Undescribable horror and pain, a blackness drowned out only by the\nburning anguish, the inextinguishable fire coming not from some burning\nwood or molten lava but from the brightness and pain of the horrible,\ntortured souls that surround, everywhere you turn.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1530
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1516
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1517, 
+    "name": "Flame", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "To slip into evil is easy, but walking this path is the hardest of\nall.  Even the four you will find here today have strayed from the line\nat least once in their lives, and there are still some living who curse\nthe very sound of their names.  Despite all this, confront them now, and\nlet their actions serve as your example.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1519
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1507
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1518, 
+    "name": "Earthly Light", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "Many believed that the Prophet would never die, but when the stark\nevidence of his body confronted them, it soon became necessary to provide\nfor the future.  The four that came after are called the Rashidun, the\nrightly-guided Caliphs that would spread the word and the light, and with\nit forge one of history's greatest empires.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1520
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1518
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1519, 
+    "name": "The Light of the Rashidun", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "The first Caliphs were chosen by consultation with a noble council\nof elders, each of whom, hoping to lead the world of Islam alone, voted\nto elect the one amongst them they thought was the weakest.  Each time,\nthey were wrong.  Each one was more noble, more upright than the one\nbefore.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1521
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1519
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1520, 
+    "name": "The Light of the Rashidun", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "Every majestic and happy tale must end, usually all too soon, and thus\nit was with the golden age of the Caliphate.  The Rashidun were pure men,\ngood men, true to the path, but their followers soon began to bicker, and\ncivil war was on the horizon.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1520
+      }, 
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1522
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1521, 
+    "name": "The Light of the Rashidun", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "The end of the Rashidun was the beginning of Schism.  The memories\nof the Prophet and the living example of the Caliphs proved to be\ninsufficient example to the faithful.  Ali died, and some say that\nwith him the Caliphate died too, a martyr, his blood still flowing in\nthe nameless river.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1531
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1521
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1522, 
+    "name": "The Light of the Rashidun", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "Behold, Allah is the Provider, the most Generous.  He would not suffer\nhis believers to walk the path of light without guidance.  He provided the\nProphets, may peace be upon them, and in the examples of their own growth,\nwe shall find the truth of our own.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1524
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1507
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1523, 
+    "name": "Spritual Reward", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "In the creation of the heavens and the earth, and in the alternation of\nnight and day, there are signs for men of sense; those that remember Allah\nsay: \"Lord, You have not created this in vain!\"", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1525
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1523
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1524, 
+    "name": "Creation", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "The Angel Gabriel came to him and said: \"Read!\"  He replied: \"But I\ncannot!\"  The order was repeated three times, until the Angel himself\nsaid: \"Read, in the name of your Lord who created man from clots of blood.\nPraise be to God, Lord of the Universe.\"", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1524
+      }, 
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1526
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1525, 
+    "name": "Revelation", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "Unbelievers, I do not worship what you worship, nor do you worship\nwhat I worship.  I shall never worship what you worship, nor will you\never worship what I worship.  You have your own religion, and I have\nmine.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1527
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1525
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1526, 
+    "name": "Conversion", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "The balance had been made, the soul placed in readiness, and the final\nmeasurement taken.  For those that have come this far, surely this is the\nday of immortality!", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1533
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1526
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1527, 
+    "name": "Deliverance", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "God forgives those who commit evil in ignorance, for He is all-knowing\nand wise.  But He will not forgive those who do evil, and when death comes\nto them, say: \"Now we repent!\"  For those We have prepared a woeful scourge.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1534
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1529
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1512
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1528, 
+    "name": "Repentance", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "It is incumbent upon all Muslims to make the pilgrimage to Mecca once\nin their lifetime, if they are able, and for those unfortunate enough to\nfollow the lives of the lower evils, such a pilgrimage with an open and\ncontrite heart shall absolve them of all.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1535
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1530
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1528
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1529, 
+    "name": "Pilgrimage", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "It is written that no one may intercede with God on behalf of another.\nNo prayers from another may save the soul of a doomed man; his only hope\nis prayers of his own.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1536
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1517
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1529
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1530, 
+    "name": "Intercession", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "You have traveled the righteous path, and you have faced the examples\nof the true models of the Prophet.  Only the final journey awaits you;\nlive like this and you shall live forever.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1522
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1532
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1534
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1531, 
+    "name": "The Upper Reaches", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "When the records of men's deeds are laid open, and heaven is stripped\nbare; when Hell burns fiercely and Paradise is brought near: then each\nsoul shall know what it has done.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1533
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1531
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1535
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1532, 
+    "name": "The Upper Reaches", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "You have traveled the righteous path, and your own journey has\nimitated the evolution of the most perfect soul.  Only one final\npath awaits you; die as the one in the room before, and your death\nwill mean nothing.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1527
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1532
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1536
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1533, 
+    "name": "The Upper Reaches", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "The last of the darkness lies behind you; only the straight path\nremains.  Go forth with a clean heart.  Only the penitent shall find\nwhat they seek.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1535
+      }, 
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1531
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1528
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1534, 
+    "name": "The Final Facing", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "The last of the darkness lies behind you; only the straight path\nremains.  Go forth with a clean heart.  Only the penitent shall find\nwhat they seek.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1537
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1534
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1536
+      }, 
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1532
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1529
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1535, 
+    "name": "The Final Facing", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "The last of the darkness lies behind you; only the straight path\nremains.  Go forth with a clean heart.  Only the penitent shall find\nwhat they seek.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1535
+      }, 
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1533
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1530
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1536, 
+    "name": "The Final Facing", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "The Compassionate, the Merciful, Sovereign of the Day of Judgment!\nYou alone we worship, and to You alone we turn for help.  Guide us to\nthe Straight Path, the path of those whom You have favored, not of\nthose who have gone astray.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1535
+      }, 
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1538
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1537, 
+    "name": "A Straight Path", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "Were We worn out by the First Creation?  Yet they are in doubt about\na new creation.  WE created man.  We know the promptings of his soul,\nand are closer to him than his jugular vein.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1539
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1537
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1538, 
+    "name": "Progression", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "Undoubtedly the shortest path is the straightest one.  Only one more\nstep awaits before a final decision is made and a home given to you for\nall eternity.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1540
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1538
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1539, 
+    "name": "Judgment", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }, 
+  {
+    "desc": "You have come at last to the resting place of the most holy.  Startling\ncrystal clarity of vision has been granted to you; seven guardians rim\nthe periphery of the throne and all is bathed in a warm and clean light.\nIt is here that the final choice is to be made, and no defiance of yours\ncan change the outcome.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 1539
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 1540, 
+    "name": "The Utmost Throne", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 15
+  }
+]

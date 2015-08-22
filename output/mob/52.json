@@ -1,0 +1,646 @@
+[
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SANCTUARY", 
+        "value": 128
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }, 
+      {
+        "note": "NOTRACK", 
+        "value": 32768
+      }
+    ], 
+    "aliases": [
+      "beholder"
+    ], 
+    "alignment": -870, 
+    "armor_class": 0, 
+    "bare_hand_damage": {
+      "bonus": 5, 
+      "dice": 6, 
+      "sides": 9
+    }, 
+    "detail_desc": "It has a large central eye that projects an anti-magic ray and ten\neyestalks atop the round body which can do anything from charm you\nto disintegrate you.  Beholders are not known for their personality.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "NOCHARM", 
+        "value": 8192
+      }, 
+      {
+        "note": "NOSUMMON", 
+        "value": 16384
+      }, 
+      {
+        "note": "NOBASH", 
+        "value": 65536
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 28560, 
+    "id": 5200, 
+    "level": 25, 
+    "long_desc": "You meet a beholder's deadly gaze!", 
+    "max_hit_points": {
+      "bonus": 450, 
+      "dice": 1, 
+      "sides": 14
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the mighty beholder", 
+    "thac0": 6, 
+    "xp": 134000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "lamia", 
+      "beast"
+    ], 
+    "alignment": -1000, 
+    "armor_class": 3, 
+    "bare_hand_damage": {
+      "bonus": 1, 
+      "dice": 2, 
+      "sides": 5
+    }, 
+    "detail_desc": "This is a creature with the upper torso of a beautiful woman, but the lower\nbody of a four-legged beast.  She licks her lips as she looks at you greedily.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SCAVENGER", 
+        "value": 4
+      }, 
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }, 
+      {
+        "note": "AGGR_GOOD", 
+        "value": 512
+      }
+    ], 
+    "gender": {
+      "note": "F", 
+      "value": 2
+    }, 
+    "gold": 1500, 
+    "id": 5201, 
+    "level": 12, 
+    "long_desc": "A strange lamia stands here waiting for her next meal. ", 
+    "max_hit_points": {
+      "bonus": 120, 
+      "dice": 1, 
+      "sides": 10
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the lamia", 
+    "thac0": 12, 
+    "xp": 10500
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "mimic", 
+      "chest"
+    ], 
+    "alignment": 10, 
+    "armor_class": 1, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 2, 
+      "sides": 7
+    }, 
+    "detail_desc": "A strong, wooden chest bound with iron straps and a heavy padlock on the\nfront.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "NOBASH", 
+        "value": 65536
+      }, 
+      {
+        "note": "NOBLIND", 
+        "value": 131072
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 5202, 
+    "level": 11, 
+    "long_desc": "A strong chest lies in one corner of the room.", 
+    "max_hit_points": {
+      "bonus": 130, 
+      "dice": 1, 
+      "sides": 20
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the mimic", 
+    "thac0": 10, 
+    "xp": 13000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "mimic", 
+      "boulder", 
+      "skeleton", 
+      "skeletons"
+    ], 
+    "alignment": -10, 
+    "armor_class": 1, 
+    "bare_hand_damage": {
+      "bonus": 1, 
+      "dice": 3, 
+      "sides": 5
+    }, 
+    "detail_desc": "This large boulder seems to have been dropped here at some point, since\nthere aren't any boulders native to this area.  The two skeletons beneath\nit are simply that, bones... no rags or anything else appears to be\nattached to them.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "NOBASH", 
+        "value": 65536
+      }, 
+      {
+        "note": "NOBLIND", 
+        "value": 131072
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 5203, 
+    "level": 14, 
+    "long_desc": "Two skeletons lie crushed under a large boulder.", 
+    "max_hit_points": {
+      "bonus": 150, 
+      "dice": 3, 
+      "sides": 15
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the mimic", 
+    "thac0": 7, 
+    "xp": 20000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "mimic", 
+      "floor"
+    ], 
+    "alignment": -140, 
+    "armor_class": 3, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 2, 
+      "sides": 6
+    }, 
+    "detail_desc": "What a mess, you wonder to yourself what could have caused this rampant\ndestruction.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "NOBASH", 
+        "value": 65536
+      }, 
+      {
+        "note": "NOBLIND", 
+        "value": 131072
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 5204, 
+    "level": 11, 
+    "long_desc": "The stone floor of this house has been ripped apart.", 
+    "max_hit_points": {
+      "bonus": 110, 
+      "dice": 2, 
+      "sides": 6
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the mimic", 
+    "thac0": 11, 
+    "xp": 10500
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "mimic", 
+      "pottery", 
+      "shards"
+    ], 
+    "alignment": 200, 
+    "armor_class": 0, 
+    "bare_hand_damage": {
+      "bonus": 3, 
+      "dice": 2, 
+      "sides": 5
+    }, 
+    "detail_desc": "The pottery shards appear to have been part of a large vase at one point,\nprobably before the city fell.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "NOBASH", 
+        "value": 65536
+      }, 
+      {
+        "note": "NOBLIND", 
+        "value": 131072
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 5205, 
+    "level": 11, 
+    "long_desc": "Some broken shards of pottery lie strewn about the floor.", 
+    "max_hit_points": {
+      "bonus": 100, 
+      "dice": 1, 
+      "sides": 8
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the mimic", 
+    "thac0": 14, 
+    "xp": 9800
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "mimic", 
+      "planks", 
+      "wooden"
+    ], 
+    "alignment": 0, 
+    "armor_class": 0, 
+    "bare_hand_damage": {
+      "bonus": 1, 
+      "dice": 4, 
+      "sides": 3
+    }, 
+    "detail_desc": "The fact that these planks still rest on this shelf leads you to believe\nthat someone has been here before you...", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "NOBASH", 
+        "value": 65536
+      }, 
+      {
+        "note": "NOBLIND", 
+        "value": 131072
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 5206, 
+    "level": 11, 
+    "long_desc": "A few wooden planks lie stacked on a low shelf.", 
+    "max_hit_points": {
+      "bonus": 110, 
+      "dice": 1, 
+      "sides": 12
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the mimic", 
+    "thac0": 9, 
+    "xp": 12000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "lizard", 
+      "horned"
+    ], 
+    "alignment": 300, 
+    "armor_class": 4, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 2, 
+      "sides": 4
+    }, 
+    "detail_desc": "A cute little lizard -- that is, if you like reptiles!", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "WIMPY", 
+        "value": 128
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 5207, 
+    "level": 3, 
+    "long_desc": "A small horned lizard flicks his tongue and slithers away.", 
+    "max_hit_points": {
+      "bonus": 30, 
+      "dice": 1, 
+      "sides": 14
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the horned lizard", 
+    "thac0": 17, 
+    "xp": 500
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SENSE_LIFE", 
+        "value": 32
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "golem", 
+      "stone"
+    ], 
+    "alignment": 800, 
+    "armor_class": -5, 
+    "bare_hand_damage": {
+      "bonus": 3, 
+      "dice": 4, 
+      "sides": 7
+    }, 
+    "detail_desc": "It is a big chunk of rock that has been magically formed into a giant stone\ncreature.  He stands here still guarding the city.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AGGR_EVIL", 
+        "value": 256
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "NOCHARM", 
+        "value": 8192
+      }, 
+      {
+        "note": "NOSUMMON", 
+        "value": 16384
+      }, 
+      {
+        "note": "NOSLEEP", 
+        "value": 32768
+      }, 
+      {
+        "note": "NOBASH", 
+        "value": 65536
+      }, 
+      {
+        "note": "NOBLIND", 
+        "value": 131072
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 4250, 
+    "id": 5208, 
+    "level": 25, 
+    "long_desc": "In the corner you see a large, stone golem faithfully standing watch.", 
+    "max_hit_points": {
+      "bonus": 500, 
+      "dice": 6, 
+      "sides": 6
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the stone golem", 
+    "thac0": 0, 
+    "xp": 145000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "SENSE_LIFE", 
+        "value": 32
+      }
+    ], 
+    "aliases": [
+      "lamia", 
+      "beast"
+    ], 
+    "alignment": -500, 
+    "armor_class": 3, 
+    "bare_hand_damage": {
+      "bonus": 5, 
+      "dice": 1, 
+      "sides": 4
+    }, 
+    "detail_desc": "This is a creature with the upper torso of a beautiful woman, but the lower\nbody of a four-legged beast.  She licks her lips as she looks at you greedily.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "F", 
+      "value": 2
+    }, 
+    "gold": 1500, 
+    "id": 5209, 
+    "level": 9, 
+    "long_desc": "A strange lamia stands here waiting for her next meal. ", 
+    "max_hit_points": {
+      "bonus": 120, 
+      "dice": 1, 
+      "sides": 12
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the lamia", 
+    "thac0": 10, 
+    "xp": 7000
+  }
+]

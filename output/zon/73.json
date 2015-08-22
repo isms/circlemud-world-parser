@@ -1,0 +1,137 @@
+[
+  {
+    "bottom_room": 7300, 
+    "doors": [
+      {
+        "exit": 2, 
+        "room": 7304, 
+        "state": 1
+      }, 
+      {
+        "exit": 0, 
+        "room": 7305, 
+        "state": 1
+      }, 
+      {
+        "exit": 2, 
+        "room": 7305, 
+        "state": 1
+      }, 
+      {
+        "exit": 0, 
+        "room": 7306, 
+        "state": 1
+      }, 
+      {
+        "exit": 0, 
+        "room": 7315, 
+        "state": 1
+      }, 
+      {
+        "exit": 2, 
+        "room": 7316, 
+        "state": 1
+      }, 
+      {
+        "exit": 3, 
+        "room": 7321, 
+        "state": 1
+      }, 
+      {
+        "exit": 1, 
+        "room": 7318, 
+        "state": 1
+      }, 
+      {
+        "exit": 0, 
+        "room": 7324, 
+        "state": 2
+      }, 
+      {
+        "exit": 2, 
+        "room": 7324, 
+        "state": 2
+      }, 
+      {
+        "exit": 1, 
+        "room": 7324, 
+        "state": 1
+      }, 
+      {
+        "exit": 3, 
+        "room": 7325, 
+        "state": 1
+      }, 
+      {
+        "exit": 3, 
+        "room": 7333, 
+        "state": 1
+      }
+    ], 
+    "id": 73, 
+    "lifespan": 25, 
+    "mobs": [
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 7040, 
+        "room": 7328
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 2, 
+        "mob": 7041, 
+        "room": 7344
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 2, 
+        "mob": 7042, 
+        "room": 7335
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 3, 
+        "mob": 7043, 
+        "room": 7339
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 6, 
+        "mob": 7044, 
+        "room": 7306
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 7045, 
+        "room": 7319
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 7046, 
+        "room": 7324
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 2, 
+        "mob": 7010, 
+        "room": 7329
+      }
+    ], 
+    "name": "The Tunnels In The Sewer", 
+    "objects": [], 
+    "remove_objects": [], 
+    "reset_mode": 2, 
+    "top_room": 7399
+  }
+]

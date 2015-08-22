@@ -1,0 +1,284 @@
+[
+  {
+    "buy_rate": 0.6, 
+    "buy_types": [
+      {
+        "namelist": null, 
+        "note": "WEAPON", 
+        "value": 5
+      }, 
+      {
+        "namelist": null, 
+        "note": "ARMOR", 
+        "value": 9
+      }
+    ], 
+    "flags": [], 
+    "id": 12011, 
+    "messages": {
+      "buy_fails_object_does_not_exist": "We are out of that item right now.", 
+      "buy_fails_player_cannot_afford_object": "NO CREDIT!", 
+      "buy_succeeds": "Here you go.  That will be %d coins.  Don't get hurt!", 
+      "sell_fails_object_does_not_exist": "You don't have that.  Stop wasting my time!", 
+      "sell_fails_shop_cannot_afford_object": "A fine weapon indeed, but more than I can afford.", 
+      "sell_fails_shop_does_not_buy_object": "This is a weapon and armour shop!  Go someplace else!", 
+      "sell_succeeds": "You'll get %d for that."
+    }, 
+    "objects": [
+      3020, 
+      3021, 
+      3022, 
+      3023, 
+      3024, 
+      3025, 
+      12008
+    ], 
+    "rooms": [
+      12006
+    ], 
+    "sell_rate": 2.25, 
+    "shopkeeper": 12011, 
+    "temper": 0, 
+    "times": [
+      {
+        "close": 28, 
+        "open": 0
+      }, 
+      {
+        "close": 0, 
+        "open": 0
+      }
+    ], 
+    "trades_with": []
+  }, 
+  {
+    "buy_rate": 0.6, 
+    "buy_types": [], 
+    "flags": [], 
+    "id": 12012, 
+    "messages": {
+      "buy_fails_object_does_not_exist": "I don't have anything like that.  Sorry.", 
+      "buy_fails_player_cannot_afford_object": "No cash, no goods!", 
+      "buy_succeeds": "Here you go.  That'll be... %d coins.", 
+      "sell_fails_object_does_not_exist": "I don't think you have that.", 
+      "sell_fails_shop_cannot_afford_object": "I can't afford to buy anything, I'm only a poor peddler.", 
+      "sell_fails_shop_does_not_buy_object": "I don't stock that stuff.  Try another shop.", 
+      "sell_succeeds": "Thank-you very much.  Here are your %d coins as payment."
+    }, 
+    "objects": [
+      12006, 
+      12007
+    ], 
+    "rooms": [
+      12032
+    ], 
+    "sell_rate": 1.2, 
+    "shopkeeper": 12012, 
+    "temper": 1, 
+    "times": [
+      {
+        "close": 13, 
+        "open": 7
+      }, 
+      {
+        "close": 19, 
+        "open": 14
+      }
+    ], 
+    "trades_with": []
+  }, 
+  {
+    "buy_rate": 0.3, 
+    "buy_types": [], 
+    "flags": [], 
+    "id": 12016, 
+    "messages": {
+      "buy_fails_object_does_not_exist": "We don't sell that.", 
+      "buy_fails_player_cannot_afford_object": "No cash, no goods!", 
+      "buy_succeeds": "Here you go.  That'll be... %d coins.", 
+      "sell_fails_object_does_not_exist": "I don't think you have that.", 
+      "sell_fails_shop_cannot_afford_object": "I can't afford to buy anything, I'm only a poor peddler.", 
+      "sell_fails_shop_does_not_buy_object": "I don't stock that stuff.  Try another shop.", 
+      "sell_succeeds": "Thank-you very much.  Here are your %d coins as payment."
+    }, 
+    "objects": [], 
+    "rooms": [
+      12003, 
+      12004, 
+      12008, 
+      12015, 
+      12022, 
+      12023
+    ], 
+    "sell_rate": 1.6, 
+    "shopkeeper": 12016, 
+    "temper": 1, 
+    "times": [
+      {
+        "close": 17, 
+        "open": 9
+      }, 
+      {
+        "close": 22, 
+        "open": 18
+      }
+    ], 
+    "trades_with": []
+  }, 
+  {
+    "buy_rate": 0.5, 
+    "buy_types": [
+      {
+        "namelist": null, 
+        "note": "SCROLL", 
+        "value": 2
+      }, 
+      {
+        "namelist": null, 
+        "note": "WAND", 
+        "value": 3
+      }
+    ], 
+    "flags": [
+      {
+        "note": "WILL_BANK_MONEY", 
+        "value": 2
+      }
+    ], 
+    "id": 12034, 
+    "messages": {
+      "buy_fails_object_does_not_exist": "We don't carry that item.", 
+      "buy_fails_player_cannot_afford_object": "Sorry, but you can't afford that.", 
+      "buy_succeeds": "Here you go.  That will cost you %d.", 
+      "sell_fails_object_does_not_exist": "You don't have that.", 
+      "sell_fails_shop_cannot_afford_object": "We are low on cash.  Come back later.", 
+      "sell_fails_shop_does_not_buy_object": "I can't buy that.  See another shop.", 
+      "sell_succeeds": "I will give you %d coins for that."
+    }, 
+    "objects": [
+      3050, 
+      3051, 
+      3052, 
+      3053, 
+      3054, 
+      12030
+    ], 
+    "rooms": [
+      12042
+    ], 
+    "sell_rate": 1.85, 
+    "shopkeeper": 12034, 
+    "temper": 2, 
+    "times": [
+      {
+        "close": 18, 
+        "open": 8
+      }, 
+      {
+        "close": 0, 
+        "open": 0
+      }
+    ], 
+    "trades_with": [
+      {
+        "note": "NOTHIEF", 
+        "value": 32
+      }, 
+      {
+        "note": "NOWARRIOR", 
+        "value": 64
+      }
+    ]
+  }, 
+  {
+    "buy_rate": 0.8, 
+    "buy_types": [], 
+    "flags": [
+      {
+        "note": "WILL_BANK_MONEY", 
+        "value": 2
+      }
+    ], 
+    "id": 12036, 
+    "messages": {
+      "buy_fails_object_does_not_exist": "We don't have that item in stock right now.", 
+      "buy_fails_player_cannot_afford_object": "NO CREDIT!  We don't even take the Renaissance Express card!", 
+      "buy_succeeds": "That will be %d coins.  Enjoy!", 
+      "sell_fails_object_does_not_exist": "I don't think you have that item.", 
+      "sell_fails_shop_cannot_afford_object": "The Emperor's tax collector just came.  I don't have the cash.  Sorry.", 
+      "sell_fails_shop_does_not_buy_object": "Hmmmm... if I was in a good mood, I'd consider it.  But I'm not.", 
+      "sell_succeeds": "You'll get %d coins for that."
+    }, 
+    "objects": [
+      3000, 
+      3001, 
+      3009, 
+      3010, 
+      3011, 
+      12006, 
+      12007
+    ], 
+    "rooms": [
+      12062
+    ], 
+    "sell_rate": 1.1, 
+    "shopkeeper": 12036, 
+    "temper": 2, 
+    "times": [
+      {
+        "close": 28, 
+        "open": 0
+      }, 
+      {
+        "close": 0, 
+        "open": 0
+      }
+    ], 
+    "trades_with": []
+  }, 
+  {
+    "buy_rate": 0.6, 
+    "buy_types": [], 
+    "flags": [
+      {
+        "note": "WILL_BANK_MONEY", 
+        "value": 2
+      }
+    ], 
+    "id": 12037, 
+    "messages": {
+      "buy_fails_object_does_not_exist": "We don't have that item on stock.", 
+      "buy_fails_player_cannot_afford_object": "No cash, no goods!", 
+      "buy_succeeds": "Here you go.  That'll be... %d coins.", 
+      "sell_fails_object_does_not_exist": "I don't think you have that.", 
+      "sell_fails_shop_cannot_afford_object": "I can't afford it right now.  Come back tomorrow.", 
+      "sell_fails_shop_does_not_buy_object": "I don't stock that stuff.  Try another shop.", 
+      "sell_succeeds": "Thank-you very much.  Here are your %d coins as payment."
+    }, 
+    "objects": [
+      3030, 
+      3031, 
+      3032, 
+      3033, 
+      3036, 
+      12003
+    ], 
+    "rooms": [
+      12063
+    ], 
+    "sell_rate": 1.75, 
+    "shopkeeper": 12037, 
+    "temper": 2, 
+    "times": [
+      {
+        "close": 20, 
+        "open": 6
+      }, 
+      {
+        "close": 0, 
+        "open": 0
+      }
+    ], 
+    "trades_with": []
+  }
+]

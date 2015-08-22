@@ -1,0 +1,244 @@
+[
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SANCTUARY", 
+        "value": 128
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "paladin", 
+      "grand", 
+      "knight"
+    ], 
+    "alignment": 1000, 
+    "armor_class": -2, 
+    "bare_hand_damage": {
+      "bonus": 16, 
+      "dice": 2, 
+      "sides": 6
+    }, 
+    "detail_desc": "The Knight is standing here, smiling at you.  He is dressed all in white,\nblue and silver.  He looks VERY strong, as he stands here, ready to help\nthe innocent.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "SCAVENGER", 
+        "value": 4
+      }, 
+      {
+        "note": "AGGR_EVIL", 
+        "value": 256
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "NOCHARM", 
+        "value": 8192
+      }, 
+      {
+        "note": "NOSUMMON", 
+        "value": 16384
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 31570, 
+    "id": 7900, 
+    "level": 26, 
+    "long_desc": "The Grand Knight is standing here, waiting for someone to help.", 
+    "max_hit_points": {
+      "bonus": 550, 
+      "dice": 10, 
+      "sides": 8
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the Grand Knight of Paladins", 
+    "thac0": 0, 
+    "xp": 170000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "rat", 
+      "large"
+    ], 
+    "alignment": -800, 
+    "armor_class": 2, 
+    "bare_hand_damage": {
+      "bonus": 2, 
+      "dice": 2, 
+      "sides": 6
+    }, 
+    "detail_desc": "The large rat is about two feet long from head to tail and has claws the\nsize of your fingers, looking very nasty.  It seems to be quite occupied\nwith all the chewed open foodstuffs lying about the room.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 2513, 
+    "id": 7901, 
+    "level": 12, 
+    "long_desc": "There is a large rat here, poking through the foodstuffs lying around.", 
+    "max_hit_points": {
+      "bonus": 150, 
+      "dice": 1, 
+      "sides": 10
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the large rat", 
+    "thac0": 9, 
+    "xp": 13000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SANCTUARY", 
+        "value": 128
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }, 
+      {
+        "note": "NOTRACK", 
+        "value": 32768
+      }
+    ], 
+    "aliases": [
+      "cleaver"
+    ], 
+    "alignment": 0, 
+    "armor_class": -1, 
+    "bare_hand_damage": {
+      "bonus": 4, 
+      "dice": 8, 
+      "sides": 4
+    }, 
+    "detail_desc": "The Cleaver is a huge spidery chittinous creature with four large\nspindly arms ending in cleaverlike talons that will surely cut you\nto ribbons.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "AWARE", 
+        "value": 16
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "NOCHARM", 
+        "value": 8192
+      }, 
+      {
+        "note": "NOSUMMON", 
+        "value": 16384
+      }, 
+      {
+        "note": "NOSLEEP", 
+        "value": 32768
+      }, 
+      {
+        "note": "NOBASH", 
+        "value": 65536
+      }, 
+      {
+        "note": "NOBLIND", 
+        "value": 131072
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 2000, 
+    "id": 7902, 
+    "level": 20, 
+    "long_desc": "The Cleaver is here eyeing you hungrily in anticipation of its next meal.", 
+    "max_hit_points": {
+      "bonus": 340, 
+      "dice": 5, 
+      "sides": 8
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the Cleaver", 
+    "thac0": 3, 
+    "xp": 65000
+  }
+]

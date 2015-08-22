@@ -1,0 +1,3348 @@
+[
+  {
+    "desc": "You stand in the midst of a small room with windows on the east and south\nwalls.  These windows provide a complete view of the competition fields.\nThere are several scorecards, pencils and other items that are used by the\njudges sitting on a table.  The only exit is a trapdoor leading down.", 
+    "exits": [
+      {
+        "desc": "There is a rickety ladder leading down.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": 12033, 
+        "keywords": [
+          "trapdoor"
+        ], 
+        "room_linked": 12002
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The cards all have been filled in with the judges evaluations of today's \ncombatants.  It seems that Sparticus is having a good day.", 
+        "keywords": [
+          "scorecards"
+        ]
+      }, 
+      {
+        "desc": "An ordinary #2 lead pencil.  Judging by the teeth marks on the shaft, the\nuser should see a dentist very soon!", 
+        "keywords": [
+          "pencils", 
+          "pencil"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12001, 
+    "name": "The Judging Booth", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "This is the best view in the house!  You can see gladiators fighting or\nthe chariot races with an unobstructed view.  The seats are upholstered in\nred velvet and are in top-notch condition.  There is a rickety ladder leading\nup and a marble staircase leading down.", 
+    "exits": [
+      {
+        "desc": "You see a rickety ladder with a trapdoor leading up.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": 12033, 
+        "keywords": [
+          "trapdoor"
+        ], 
+        "room_linked": 12001
+      }, 
+      {
+        "desc": "There is a marble staircase leading down.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12003
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12002, 
+    "name": "Caesar's Private Box", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "This is the western side commoner's seating area.  There are row upon\nrow of rough wooden benches bolted to the floor.  There is stadium garbage\neverywhere and the smell makes you want to puke.  Stairs lead up to Caesar's \nprivate box, a small ramp leads down to the playing field and a hallway \nleads south.", 
+    "exits": [
+      {
+        "desc": "You see a small hallway that leads to a larger area.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12004
+      }, 
+      {
+        "desc": "Watch your step!", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12002
+      }, 
+      {
+        "desc": "Watch your step!", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12010
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The benches are made of rough cut lumber that has dried and split over time.\nYou would probably get splinters if sat on them.  The words 'BURT WAS HERE'\nhave been carved into one of the benches with exquisite care.", 
+        "keywords": [
+          "seats", 
+          "benches"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 12003, 
+    "name": "The West Side Of The Commoner's Seating Area", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "This is the southeastern part of the common seating areas.  The benches\nhere are made of stone and are probably centuries old.  A few scratches on\none of the benches catch your eye.  An acrid smell is coming from the east\nand a tunnel leads off to the north.", 
+    "exits": [
+      {
+        "desc": "The tunnel looks like it leads to another seating area.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12003
+      }, 
+      {
+        "desc": "There is an acrid smell coming from that direction.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12011
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "They look like they form the words \"Onivel Cinemod Semaj\"  But you could be\nmistaken.", 
+        "keywords": [
+          "marks", 
+          "scratches"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 12004, 
+    "name": "The Southern Commoner's Seats", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "This used to be a gateway to and from western Rome.  There is an iron gate\nblocking your way and judging by the amount of rust and foliage growing on the\nbars, it hasn't been open for years.  Looking through the gate at the barren\nlandscape that lies beyond, you can see why.  A dirt road leads off to the \neast, and a store is directly south.", 
+    "exits": [
+      {
+        "desc": "Through the clouds of dust, you can make out a passable road.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12012
+      }, 
+      {
+        "desc": "You can barely make out a storefront through the foliage.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12006
+      }, 
+      {
+        "desc": "The gate has been permanently rusted shut and is further secured by a large \nchain and padlock.  Don't even bother THINKING about trying to open it.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "gate"
+        ], 
+        "room_linked": -1
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The gate has been permanently rusted shut and is further secured by a large \nchain and padlock.  Don't even bother THINKING about trying to open it.", 
+        "keywords": [
+          "gate"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 12005, 
+    "name": "The Abandoned Gate", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "Welcome to the weaponshop of Titus Andronicus!!  Rare halberds, whips,\nswords and other instruments of death are proudly displayed on the walls\nand in gleaming glass cases.  More common weapons are stacked like wood on\nthe floor.  To the north you can barely make out a gate.  There is a very\nsecure looking door to the south.", 
+    "exits": [
+      {
+        "desc": "You can see a city gate to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12005
+      }, 
+      {
+        "desc": "There is a very secure looking door blocking your progress.  ", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 12034, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 12007
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "Titus has enough hardware in here to outfit a large army.  Maybe that's why\nhe has a lucrative contract to sell weapons to the Emperor's armies for \noutrageous prices.", 
+        "keywords": [
+          "swords", 
+          "weapons", 
+          "armor", 
+          "halberds", 
+          "whips"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "NOMAGIC", 
+        "value": 128
+      }
+    ], 
+    "id": 12006, 
+    "name": "Swords 'R  Us", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "If you thought that there were a lot of weapons in the front of the store,\nyou haven't seen anything yet!!  There is barely enough room to walk amongst\nthe crates of armor and swords.  No wonder Rome will stand for a thousand\nyears.  The only exit is through a door to the north.", 
+    "exits": [
+      {
+        "desc": "Through the piles of weapons, you can see a door leading north to the rest of \nthe store.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 12034, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 12006
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "There are literally thousands of each.  Take your pick.", 
+        "keywords": [
+          "weapons", 
+          "swords", 
+          "crates", 
+          "armor", 
+          "weapon", 
+          "sword", 
+          "crate"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12007, 
+    "name": "The Back Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are now so high up that you begin to feel lightheaded and your nose\nfeels like it is going to start bleeding.  There aren't even benches to sit\non here; just bare dirty stone.  The view of the surrounding country is\nspectacular.  Unfortunately you can barely see the playing field.  There is\na set of steps here, leading down.", 
+    "exits": [
+      {
+        "desc": "Watch your step!", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12015
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "You can see the entire city of Rome from here.  The buildings housing the \nRoman government are to the east.  To the south east, off in the distance,\nis the massive aqueduct and further in that direction lies the Mountain of\nthe Gods.", 
+        "keywords": [
+          "landscape", 
+          "country"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 12008, 
+    "name": "Peanut Heaven", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "There are many gladiators, chariot drivers and their coaches here, warming\nup in preparation for the games.  The dust rising from the parched earth makes\nyou want to sneeze.  A short tunnel leads east and the thunder of pounding\nhooves and the clash of weapons can be heard coming from the south.", 
+    "exits": [
+      {
+        "desc": "There is a large oval dirt-track in that direction.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12016
+      }, 
+      {
+        "desc": "You can hear the clash of weapons and the thunder of hooves in that\ndirection.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12010
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "He is a big muscular man with lots of armor.  He sizes you up and decides\nthat you aren't worth his time or trouble.", 
+        "keywords": [
+          "gladiator"
+        ]
+      }, 
+      {
+        "desc": "The driver is too busy changing a wheel on his chariot to notice you.", 
+        "keywords": [
+          "driver"
+        ]
+      }, 
+      {
+        "desc": "You see a two wheeled open cart which is obviously meant to be pulled by \nhorses.  The flaming paint-job and the large '01' stenciled on the side \nidentify the chariot as belonging to Drucilis 'Lightning-whip' Octavious,\na favorite driver of the masses.", 
+        "keywords": [
+          "chariot"
+        ]
+      }, 
+      {
+        "desc": "The coach tell you \"Stop bothering my athletes and get lost!\"", 
+        "keywords": [
+          "coach", 
+          "trainer"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 12009, 
+    "name": "The Practice And Warm-up Area", 
+    "sector_type": {
+      "note": "FIELD", 
+      "value": 2
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "This is a wide open grassy plane... LOOK OUT!!!!  You are almost\nskewered by a gladiator's lance as he makes his charge.  A practicing\narea is due north.", 
+    "exits": [
+      {
+        "desc": "Through a small tunnel you can see athletes stretching and warming up for\nthe games.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12009
+      }, 
+      {
+        "desc": "You see a set of steps leading up into the spectator stands.  ", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12003
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "He is in the final stages of a charge against his opponent... THUD!  CLANG!\nCRASH!!!!... judging from the blood and the amount of distance that now\nseparates the gladiators head from the rest of his body, you can safely\nassume that this was the final combat of his life.", 
+        "keywords": [
+          "gladiator"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }
+    ], 
+    "id": 12010, 
+    "name": "The Jousting Arena", 
+    "sector_type": {
+      "note": "FIELD", 
+      "value": 2
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "This is the place to come to if one is overcome by the heat and gore.\n(Or if a lion gets loose)  You see a jar of live leeches and other barbaric\nmedical apparati lying about here.  From the west comes the roar of the\ncrowd, and a hall leads east.  The healer will be with you shortly.", 
+    "exits": [
+      {
+        "desc": "You see hundreds, perhaps thousands of people.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12018
+      }, 
+      {
+        "desc": "Rows of stone bleachers lie to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12004
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "DISGUSTING!  Each is about the size of matchbox and very slimy.  You are VERY\nglad that you have access to a cleric!", 
+        "keywords": [
+          "leech", 
+          "leeches"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12011, 
+    "name": "The First-Aid Station", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are on a parched and dusty rural road which runs east and west.  There\nis a structure lying to the south.", 
+    "exits": [
+      {
+        "desc": "Through the dust, you see a paved road.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12019
+      }, 
+      {
+        "desc": "It is difficult to see through the haze and dust.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12013
+      }, 
+      {
+        "desc": "It is difficult to see through the haze and dust.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12005
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 12012, 
+    "name": "A Dirt Road", 
+    "sector_type": {
+      "note": "FIELD", 
+      "value": 2
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are standing in the main living quarters of a common Roman citizen.\nThe furnishings are sparse and it is warm here.  A putrid odor is coming\nfrom the east and passages lead north and south.", 
+    "exits": [
+      {
+        "desc": "A dusty road lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12012
+      }, 
+      {
+        "desc": "What is that smell??!!!  It is enough to make a yak gag!!!", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12020
+      }, 
+      {
+        "desc": "You hazard a guess that a bedroom lies in that direction.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12014
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The furniture that you see is very simple and plain.  It is made of rough hewn\nwood and fastened together with nails.  It looks very uncomfortable.", 
+        "keywords": [
+          "furnishings", 
+          "furniture"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12013, 
+    "name": "The Commoner's House", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "This is the bedroom.  There is a hard and lumpy bed in the far corner.\nIt looks like the commoner's wife has been shirking her duties lately, as\nthere is a big pile of soiled laundry here.  The only way out is from where\nyou came.", 
+    "exits": [
+      {
+        "desc": "You see the living quarters to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12013
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It smells of sweat and is covered with mud.", 
+        "keywords": [
+          "laundry", 
+          "wash", 
+          "clothing"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12014, 
+    "name": "The Bedchamber", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "These are the 'better' seats used primarily by the upper class of Rome.\nThere is a large seating area to the east and a staircase leading up here.\nThe view of the chariot track is pretty good.", 
+    "exits": [
+      {
+        "desc": "Rows upon rows of bleachers lie to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12022
+      }, 
+      {
+        "desc": "The stairs look safe enough.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12008
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 12015, 
+    "name": "The Noblemans' Box", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "This is a hard dirt track about a quarter of a mile long.  There are hoof\nprints everywhere, and you see a large cloud of dust approaching.  You had\nbetter move before you get run over.  A small tunnel leads west, you can see\nthe crowd to the east.  You can hear loud snarls and roars coming from below.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12023
+      }, 
+      {
+        "desc": "Do you like lots of live lions that haven't been fed for a few days?", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12017
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 12016, 
+    "name": "The Race Track", 
+    "sector_type": {
+      "note": "FIELD", 
+      "value": 2
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "As you land at the bottom of this dirt-walled pit, the realization that a\npit full of lions is NOT a good thing to be hanging around in.  Several of\nthe gladiators gather around the edge of the pit to watch your demise.  You\nlook around you, and all you see is tawny fur and gaping jaws... it is too\nlate to run, too late to hide.\n   Twelve lions rip you and your belongings into a gory mass of bloodied\nleather, bronze, and bone.\n\n   What's that old saying? \n   Cats killed the curious?  Something like that, I'm sure...", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12010
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12016
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DEATH", 
+        "value": 2
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12017, 
+    "name": "The Lion Pit", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are standing at the south entrance to the Coliseum.  There are\ncitizens of Rome everywhere, apparently in a mad rush to get in.  A\nstatue of Caligula the Mad Emperor overlooks the area.  There are long\nlines standing to the east, and an acrid smell is coming from the west.\nA busy road lies to the south.", 
+    "exits": [
+      {
+        "desc": "The lines are very long and people look impatient.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12025
+      }, 
+      {
+        "desc": "A road lies in that direction.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12019
+      }, 
+      {
+        "desc": "An acrid, almost medicinal smell is coming from that direction.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12011
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "A larger than life stone statue of Caligula, the Mad Emperor, looks at you.\nIt looks like it is holding a phallus.  He has got a grin on his face that\nseems to say 'My horse would like you, I bet...'", 
+        "keywords": [
+          "statue", 
+          "caligula"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }
+    ], 
+    "id": 12018, 
+    "name": "The South Entrance To The Coliseum", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "This is a well built and heavily traveled road running from east to west\nand there is a large structure built entirely of stone to the north.", 
+    "exits": [
+      {
+        "desc": "You can hear the roar of a large crowd of people coming from that direction.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12018
+      }, 
+      {
+        "desc": "The highway continues to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12026
+      }, 
+      {
+        "desc": "The highway continues to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12012
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 12019, 
+    "name": "The Main Highway", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "PEEEEEEEEEEEEEEEE-YEEEEEWWWWWWWW!!!!!  Boy does it stink in here!!!  You\ntaste bile in your mouth and your eyes begin to water.  As you wipe away your\ntears, you see that this is a small room, in the far corner of which a hole\nis dug.  The odor intensifies as you move closer and there is a roll of toilet\npaper sitting on the ground.  The only exit is to the west and your nose and\nstomach are strongly suggesting that you use it.", 
+    "exits": [
+      {
+        "desc": "The living quarters lie in that direction.  Why don't you stop pussyfooting \naround and go that way??!!  Please?", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12013
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "You walk over to the hole and see that there is a large turd floating in a \npool black water about 2 feet below the surface of the ground.  As you lean\ncloser to get a better look, your nose catches a concentrated dose of the \nfragrant aroma wafting upwards.  Your stomach decides that it has had enough\nof this shoddy treatment and you puke until it is empty.", 
+        "keywords": [
+          "hole", 
+          "toilet"
+        ]
+      }, 
+      {
+        "desc": "Hey!!  This is first-class stuff!! - White Cloud brand with lotion.  The roll\nis about half-used.", 
+        "keywords": [
+          "roll", 
+          "paper"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12020, 
+    "name": "The Outhouse", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "This is where the slaves sleep.  There are hard boards set out for use\nas beds and not much else.  The only exit is to the east.", 
+    "exits": [
+      {
+        "desc": "To the east, a well manicured path winds through the nobleman's estate.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12027
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12021, 
+    "name": "The Slave Quarters", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "This is where many of the common Roman citizens are seated during the\ngames.  These are the cheapest seats in the house, as glare from the sun\nis usually a problem during the afternoon.  Like the other common seating\nareas, this place could stand extensive renovation and a thorough cleaning.\nThis area extends to the south and a much more elegant seating area can be\nseen to the west.", 
+    "exits": [
+      {
+        "desc": "The seating gets much fancier and elegant in that direction.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12015
+      }, 
+      {
+        "desc": "The common seating area continues.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12023
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 12022, 
+    "name": "The Common Seating", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "This is where many of the common Roman citizens are seated during the\ngames.  Like the other commoners' areas in the coliseum, it could use\nextensive renovation and cleaning.  This area extends to the north and\nlots of noise can be heard coming from the south.", 
+    "exits": [
+      {
+        "desc": "The common seating area continues.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12022
+      }, 
+      {
+        "desc": "You see hundreds, perhaps thousands of people.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12024
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 12023, 
+    "name": "The Common Seating", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are standing at the east entrance to the Coliseum.  There are people \neverywhere, apparently in a mad rush to get in.  A statue of Tiberius, an \nEmperor of a time long since passed, stands here looking out over the crowd.  \nThere is a passage to the north, the ticket booth is to the south and a gate \nopening to the city lies to the east.", 
+    "exits": [
+      {
+        "desc": "You see rows upon rows of dilapidated wooden bleachers.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12023
+      }, 
+      {
+        "desc": "There are VERY long lines standing outside the ticket booth.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12025
+      }, 
+      {
+        "desc": "Nero Drive lies in that direction.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12031
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The statue of Tiberius, made of iron, stands here.", 
+        "keywords": [
+          "statue", 
+          "tiberius"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }
+    ], 
+    "id": 12024, 
+    "name": "The East Entrance To The Coliseum", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "Long lines are standing here, waiting to buy tickets.  There are three\nvendors working furiously.  Ticket stubs litter the ground and you can see\nthat the people are getting very impatient.  There is a large, open cashbox\nhere.  Main entrances to the Coliseum are to the north and west.", 
+    "exits": [
+      {
+        "desc": "You see hundreds, if not thousands of people.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12024
+      }, 
+      {
+        "desc": "You see hundreds, if not thousands of people.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12018
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is a shame that the exchange rate for Roman money is so low.  What amounts\nto a fortune in Rome isn't even worth one gold coin.  The contents of the box\nadd up to about... well forget it.  It isn't worth your time or trouble to\ncarry it around.", 
+        "keywords": [
+          "cashbox"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12025, 
+    "name": "The Ticket Booth", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are on a paved road that runs east to west.  You can see an elaborate\nlooking estate to the south and to the north-west, off in the distance, you\ncan see a very large stone structure.", 
+    "exits": [
+      {
+        "desc": "It looks like a Nobleman's estate.  We are talking RICH nobleman's estate.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "estate", 
+          "house"
+        ], 
+        "room_linked": 12027
+      }, 
+      {
+        "desc": "The road leads west towards the highway.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12019
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "That would probably be the Coliseum.  There are a few good matches scheduled\nfor today.", 
+        "keywords": [
+          "structure"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 12026, 
+    "name": "A Paved Road", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are on the grounds of a nobleman's estate which is hundreds of times\nthe size and splendor of anything that a common citizen of Rome would ever\nhope to own.  Everything is lush and green.  The grass is perfectly manicured\nand the trees are all bearing fruit.  Ornamental plants are in perfectly\nsituated to enhance and adorn the three statues of dedicated to gods Jupiter,\nVenus and Neptune.  A tranquil path leads east and west, there is a paved road\nto the north and an extravagant house lies to the south.", 
+    "exits": [
+      {
+        "desc": "You see a paved road in the distance.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12026
+      }, 
+      {
+        "desc": "The path leads east through the estate.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12034
+      }, 
+      {
+        "desc": "You see an incredible house off in the distance.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12028
+      }, 
+      {
+        "desc": "Off through the trees, you see a small, plain hut.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12021
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "Venus, the Roman goddess of beauty and knowledge is displayed in a all of her\nsplendor.", 
+        "keywords": [
+          "Venus"
+        ]
+      }, 
+      {
+        "desc": "A statue made of pure gold depicts Jupiter sitting on his throne.  The throne\nlooks like it is made of silver.", 
+        "keywords": [
+          "Jupiter"
+        ]
+      }, 
+      {
+        "desc": "The statue of Neptune is made of pure jade and is holding a crystal trident.\nIt is sitting in the center of a small pond which has hundreds of beautiful\nfish swimming in it.", 
+        "keywords": [
+          "Neptune"
+        ]
+      }, 
+      {
+        "desc": "All of the plants, trees and shrubs are perfectly trimmed, without so much\nas a dead leaf anywhere to be seen.  You welcome the shade that they give\nfrom the harsh sun above.", 
+        "keywords": [
+          "trees", 
+          "tree", 
+          "shrubs", 
+          "shrub", 
+          "plants", 
+          "plant"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 12027, 
+    "name": "A Noble Estate", 
+    "sector_type": {
+      "note": "FIELD", 
+      "value": 2
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You stand in a house, the size and splendor of which almost defies the\nimagination.  The floor is done with hand crafted marble tile with silver\nand jeweled inlays.  The light coming through the exquisitely crafted stained\nglass windows bathes the room in splendor and the furniture looks as though\nit was made by master craftsmen from all over the empire.  A path through the\nestate is north of here.", 
+    "exits": [
+      {
+        "desc": "You see a well manicured path that winds through the estate.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12027
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "Very expensive!  A lot of master craftsmen labored long and hard to produce\nsuch a work of art.", 
+        "keywords": [
+          "floor", 
+          "tile"
+        ]
+      }, 
+      {
+        "desc": "They are intricate and the scenes that they depict cast honor on several of\nthe gods.", 
+        "keywords": [
+          "windows"
+        ]
+      }, 
+      {
+        "desc": "You hope to eventually be able to own a piece of furniture just like these \nsomeday.  These are only dreams, of course.", 
+        "keywords": [
+          "furniture"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12028, 
+    "name": "An Opulent House", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "This is the northern gateway to the city of Rome.  The huge gate appears\nto be closed and locked against intrusion.  A large road muddy road runs\nthrough the gate and into the countryside.  Nero Drive runs south from here.", 
+    "exits": [
+      {
+        "desc": "The gate is made of solid iron and is well maintained.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "gate"
+        ], 
+        "room_linked": -1
+      }, 
+      {
+        "desc": "Nero Drive continues in that direction.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12030
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The gate is made of solid iron and is well maintained.", 
+        "keywords": [
+          "gate"
+        ]
+      }, 
+      {
+        "desc": "The road is wide and very muddy.", 
+        "keywords": [
+          "road"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 12029, 
+    "name": "The Great North Gate", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are walking on a paved road that runs south through the city of Rome.\nA great gate is directly north of here.  The Roman citizens are very friendly\nand tip their hats or say hello as you pass.", 
+    "exits": [
+      {
+        "desc": "To the north, you can see a gate leading out of the city.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12029
+      }, 
+      {
+        "desc": "Nero Drive continues in that direction.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12031
+      }, 
+      {
+        "desc": "You see the bakery of Rome.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12062
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 12030, 
+    "name": "Nero Drive", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are walking on a great paved road that runs north and south through\nthe city.  People are hurrying from one place to another, but always stop\nto say hello.  Most of the people are either coming from or going to the\ntown square.  Nero Drive continues to the north, and you can see a large\nopen area to the south.", 
+    "exits": [
+      {
+        "desc": "Nero drive continues in that direction.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12030
+      }, 
+      {
+        "desc": "It looks like the town square.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12032
+      }, 
+      {
+        "desc": "You see the an opulent estate.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12024
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 12031, 
+    "name": "Nero Drive", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are standing in the middle of a large open area which is the common\narea of Rome.  During the day, this place is alive with the hustle and\nbustle of all of the citizens of Rome and everyone in the city is sure to\nstop by at some time or another.  There are several street vendors peddling\ntheir wares and the overall atmosphere is carnival-like in nature.  To the\nsoutheast, off in the distance, you can see the aqueduct and the buildings\nof the Roman government lie to the northwest.  Nero Drive leads north and\nsouth from here and Clay Avenue runs east.", 
+    "exits": [
+      {
+        "desc": "Nero Drive heads in the direction of the northern gate.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12031
+      }, 
+      {
+        "desc": "A street made of hard packed clay runs in that direction towards the\naqueduct and buildings of the Roman government.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12033
+      }, 
+      {
+        "desc": "Nero Drive heads in the direction of the south gate.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12039
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "There are several sidewalk vendors here, selling fresh fruits and vegetables,\nhome baked goods, fine jewelry and other items.  Most of the items for sale\nare of very high quality.", 
+        "keywords": [
+          "vendor", 
+          "vendors"
+        ]
+      }, 
+      {
+        "desc": "To the southeast, off in the distance, stands a large stone structure that\nis used to channel water into the city.", 
+        "keywords": [
+          "aqueduct"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 12032, 
+    "name": "The Town Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are walking on a paved road that runs north and south through the\ncity of Rome.  There are many people here, as polite as always.  Most of\nthem are either coming from or going to the town square which lies to the\nnorth.  Nero Drive continues to the south.  There is an observation area\noverlooking the aqueduct to the east and a paved road leads west.", 
+    "exits": [
+      {
+        "desc": "The town square lies in that direction.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12032
+      }, 
+      {
+        "desc": "The aqueduct and mountain of the gods are in that direction.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12040
+      }, 
+      {
+        "desc": "Nero Drive continues toward the South Gate.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12034
+      }, 
+      {
+        "desc": "A paved road runs west through the city.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12026
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 12033, 
+    "name": "Nero Drive", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "This is a busy paved road that runs north through the city.  The people\nof Rome are very friendly and say hello as you pass.  A gate leading out of\nthe city lies to the south and a small path goes west towards a nobleman's\nestate.  To the east, off in the distance, lies the great mountain.  It is\nrumored that the Gods watch over and protect the empire from there.", 
+    "exits": [
+      {
+        "desc": "Nero Drive leads in that direction.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12033
+      }, 
+      {
+        "desc": "You see many people entering and leaving the city through a large gate in the\nwalls protecting the city.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12035
+      }, 
+      {
+        "desc": "It looks like a nobleman's estate.  We are talking RICH nobleman's estate.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12027
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 12034, 
+    "name": "Nero Drive", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "This is the southern gateway to the city of Rome.  The bronze gate is\nclosed and locked.  Looking through the bars, you see a heavily traveled\nroad leading out of the city.  Nero Drive starts here and runs north and\na wizard's shop lies to the east.", 
+    "exits": [
+      {
+        "desc": "Nero Drive leads towards the center of town.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12034
+      }, 
+      {
+        "desc": "A small store, from which an occasional detonation can be heard, lies off\nin that direction.  It appears to be surrounded by a rolling pink mist.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12042
+      }, 
+      {
+        "desc": "The gate appears to be closed and locked against intruders.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "gate"
+        ], 
+        "room_linked": -1
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The gate appears to be closed and locked against intruders.", 
+        "keywords": [
+          "gate"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 12035, 
+    "name": "The South Gate", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are standing in the Emperor's private office.  The room is richly\nfurnished with the finest of the loot brought back from conquests of far\naway lands.  There is a massive, intricately carved desk here, upon which\nare important documents, decrees and other paperwork involved in running\nthe empire.  On the far wall, there is a marble bookcase that is well\nstocked with the works of Homer, Plato, Socrates and other wise men.\nFurther, it seems that the current Emperor likes flowers as there are\nmany potted and cut specimens throughout the room.  There is a french\ndoor leading to the waiting room and a wooden door to the south.", 
+    "exits": [
+      {
+        "desc": "Through the door, you see a waiting room.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 12035, 
+        "keywords": [
+          "doors", 
+          "french"
+        ], 
+        "room_linked": 12043
+      }, 
+      {
+        "desc": "The south door leads directly to the senate chambers.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 12035, 
+        "keywords": [
+          "door", 
+          "wooden"
+        ], 
+        "room_linked": 12037
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The desk is made of solid walnut and gold inlay.  It is exquisitely carved\nwith superior craftsmanship, the likes of which has rarely been seen.  It\nwas probably brought to Rome from Gaul.", 
+        "keywords": [
+          "desk"
+        ]
+      }, 
+      {
+        "desc": "The documents are all written on reed scrolls made in Egypt and have been\nsealed with wax.  ", 
+        "keywords": [
+          "documents", 
+          "decrees", 
+          "paperwork", 
+          "document", 
+          "decree", 
+          "papers", 
+          "paper"
+        ]
+      }, 
+      {
+        "desc": "The books are very old and contain the wisdom of wise men from throughout the\nentire Roman empire.  They appear to be collecting dust.", 
+        "keywords": [
+          "bookcase", 
+          "books"
+        ]
+      }, 
+      {
+        "desc": "The plants contribute to a very relaxing atmosphere.  ", 
+        "keywords": [
+          "flowers", 
+          "plants", 
+          "flower", 
+          "plant"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12036, 
+    "name": "The Emperor's Private Office", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "This is the working room where elected senators from all over the empire\ngather to advise the Emperor.  An official seal of the Emperor is hanging on\nthe far wall.  There is a wooden door to the north and a bronze door to the\neast and doublehung door to the south.", 
+    "exits": [
+      {
+        "desc": "The door is made of thick walnut.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 12035, 
+        "keywords": [
+          "door", 
+          "wooden"
+        ], 
+        "room_linked": 12036
+      }, 
+      {
+        "desc": "The door leads to the foyer.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": 12036, 
+        "keywords": [
+          "door", 
+          "bronze"
+        ], 
+        "room_linked": 12044
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": 12037, 
+        "keywords": [
+          "door", 
+          "doublehung"
+        ], 
+        "room_linked": 12038
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12037, 
+    "name": "The Senate Chambers", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "This is the lower house of the advising body to the Emperor.  Common men\nfrom all parts of Rome work here to further assist the senators in advising\nthe Emperor on critical matters of state.  The seal of the Emperor is painted\non the far wall.  The only exit is to the north.", 
+    "exits": [
+      {
+        "desc": "You see that the doublehung door leads to the senate chambers.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": 12104, 
+        "keywords": [
+          "door", 
+          "doublehung"
+        ], 
+        "room_linked": 12037
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12038, 
+    "name": "The House Of Commons", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are on a wide well traveled road running east and west through the\nheart of Rome.  There are large crowds of people to the west and the road\ncontinues to the east.  The aqueduct is directly south of here.", 
+    "exits": [
+      {
+        "desc": "Clay Avenue continues in that direction.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12046
+      }, 
+      {
+        "desc": "You see an entrance to the aqueduct.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12041
+      }, 
+      {
+        "desc": "There are large crowds of people in that direction.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12032
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It looks like some kind of bizarre or festival is occurring to the west.\nThere are hundreds of people of all classes shopping, talking or eating.", 
+        "keywords": [
+          "crowds", 
+          "people"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 12039, 
+    "name": "Clay Avenue", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are on a platform overlooking a massive aqueduct.  There is a\ntelescope mounted to the railing that surrounds the area and you can\nhear the gurgle of water as it is channeled into the city.  Off in\nthe distance, you can see the Mountain of the Gods.\nThere is a sign mounted to the railing and a ramp leads west.", 
+    "exits": [
+      {
+        "desc": "You can see a busy street in that direction.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12033
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "If it were operational, it would offer a spectacular view of the Mountain of \nthe Gods.  Unfortunately, it appears to have been vandalized.", 
+        "keywords": [
+          "telescope"
+        ]
+      }, 
+      {
+        "desc": "The aqueduct is a massive stone structure that channels water into Rome from\nthe Mountain of the Gods.  During the rainy season, it is filled to the top.\nHowever, due to recent drought, the water level appears to be very low.", 
+        "keywords": [
+          "aqueduct"
+        ]
+      }, 
+      {
+        "desc": "     \n         ********************************************\n         *                                          *\n         *      The Roman Aquarian and Mountain     *\n         *            Observation Platform          *\n         *                                          *\n         *      Designed and built by the Froboz    *\n         *           Magic Platform Company         *\n         *                                          *\n         ********************************************\n", 
+        "keywords": [
+          "sign"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 12040, 
+    "name": "The Observation Lookout", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are in a massive stone structure that has been designed to channel\nwater into the city of Rome.  Due to the recent drought, the water level\nis low, allowing passage without a boat.  The walls and floor are covered\nwith algae and slime producing treacherous footing conditions.  There are\nexits to the north, south and east.", 
+    "exits": [
+      {
+        "desc": "You see more aqueduct.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12048
+      }, 
+      {
+        "desc": "You see more aqueduct.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12041
+      }, 
+      {
+        "desc": "You see more aqueduct.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12054
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "Due to the availability of moisture and nutrients, a green, viscous slime has \ngrown and covered everything with a slippery coating.  It seems to go out of\nits way to drip on you.", 
+        "keywords": [
+          "slime", 
+          "algae"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12041, 
+    "name": "The Aqueduct", 
+    "sector_type": {
+      "note": "WATER_SWIM", 
+      "value": 6
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are standing in the mage's shop.  Magical ointments, charms and\npotions are sitting on shelves and behind a glass counter.  There is a\ndense neon blue fog hugging the floor here, making it impossible to see\nbelow your knees.  You suddenly hear mutterings coming from the back\nroom, possibly from...\nKKKKKAAAAAABBBBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMM!!!!!!\nYou are deafened by the noise from a tremendous explosion and the\nconcussion from the blast staggers you!  The shopkeeper seems to pay\nno heed to this. The door to the back room opens and an older man,\nwearing a pointed hat, whose face is smudged with soot sticks his head\nout.  'Is everyone alright?  Sorry about that.  I was testing a new\nspell.  I'll try to give advance notice next time.', he says.  The door\nthen closes.", 
+    "exits": [
+      {
+        "desc": "The door is reinforced with steel and looks VERY sturdy.  Considering the\n'test' that you just witnessed, you are glad that it stands between you and\nwhatever is going on in the back room.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 12038, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 12049
+      }, 
+      {
+        "desc": "You see the south gate through the door.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12035
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "This is some really strange stuff!  You have never seen anything this color\nbefore.  Your legs are totally obscured from the knee down.", 
+        "keywords": [
+          "fog", 
+          "mist"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12042, 
+    "name": "The Mage's Shop", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are standing in a very large room with a high ceiling and there\nare a few people waiting here to see the Emperor on urgent matters.  The\nmaster scheduler tells you to have a seat and sends a page to inform the\nhis highness of your arrival.  There are large doors to the east and west\nand an exit leads south to the foyer.", 
+    "exits": [
+      {
+        "desc": "There is a sign on the door that says:  MUNICIPAL COURT OF ROME.  It appears \nto be open.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12050
+      }, 
+      {
+        "desc": "The foyer is directly to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12044
+      }, 
+      {
+        "desc": "There is a large door to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 12035, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 12036
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12043, 
+    "name": "The Waiting Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You have just entered the main government building of the Roman Empire\nand are standing in a massive room with an elaborately decorated domed roof.\nThere are many people here; messengers and senators being the most numerous.\nThere is a large, ornate door to the west, a hallway leads north and marble\nstairs that lead out of the building are to the south.", 
+    "exits": [
+      {
+        "desc": "You see a hallway leading north to what looks like a waiting room.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12043
+      }, 
+      {
+        "desc": "There is a large door to the west that blocks your path.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": 12036, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 12037
+      }, 
+      {
+        "desc": "You see a stairway leading out of the building.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12045
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12044, 
+    "name": "The Entrance Foyer", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You stand on white marble steps that lead up and into the Capitol\nBuilding.  There are several statues, none of any real significance,\nat the entrance to the building.  The main entrance to the building\nis at the top of the steps.", 
+    "exits": [
+      {
+        "desc": "The steps lead into the Capitol Building.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12044
+      }, 
+      {
+        "desc": "The steps terminate onto Clay Avenue.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12046
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The stairs are immaculately polished and made of white marble.", 
+        "keywords": [
+          "stairs", 
+          "stairway", 
+          "steps"
+        ]
+      }, 
+      {
+        "desc": "There is really nothing noteworthy about them.", 
+        "keywords": [
+          "statue", 
+          "statues"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 12045, 
+    "name": "Outside The Capitol Building", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are standing on a wide, heavily traveled road that runs east and\nwest through the heart of the city.  There are marble steps leading up.\nTo the south, off in the distance, you can see a large stone structure\nand a mountain that is partially obscured by the haze.  There is a\ngeneral store to the north.", 
+    "exits": [
+      {
+        "desc": "The general store lies in that direction.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12063
+      }, 
+      {
+        "desc": "There is what appears to be a large gate in that direction.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12051
+      }, 
+      {
+        "desc": "Clay Avenue continues.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12039
+      }, 
+      {
+        "desc": "There are some white marble steps leading up.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12045
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "You see a massive stone structure, built several centuries ago, that is used\nto channel water into the city.", 
+        "keywords": [
+          "stone", 
+          "structure", 
+          "aqueduct"
+        ]
+      }, 
+      {
+        "desc": "Off to the southwest, you can see  a huge mountain that is partially obscured\nby the haze.  It is rumored that the gods reside there and protect the city.", 
+        "keywords": [
+          "mountain"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 12046, 
+    "name": "Clay Avenue", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are at the summit of a very high mountain and are standing above\nthe clouds.  The sun is shining brilliantly here and the clouds below\nlook like balls of cotton.  The path that you have been walking on is\ndamp and the scent of lilac is in the air.", 
+    "exits": [
+      {
+        "desc": "You see a damp path leading back down the mountain.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12052
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 12047, 
+    "name": "The Summit Of The Mountain Of The Gods", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are in a massive stone structure that has been designed to channel\nwater into the city of Rome.  Due to the recent drought, the water level\nis low, allowing passage without a boat.  The walls and floor are covered\nwith algae and slime, producing treacherous footing conditions.  There are\nexits in all four cardinal directions.", 
+    "exits": [
+      {
+        "desc": "The aqueduct continues.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12057
+      }, 
+      {
+        "desc": "The aqueduct continues.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12041
+      }, 
+      {
+        "desc": "The aqueduct continues.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12041
+      }, 
+      {
+        "desc": "The aqueduct continues.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12048
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "Due to the availability of moisture and nutrients, a green viscous slime has\ngrown and covered everything with a slippery coating.  It seems to go out of\nits way to drip on you.", 
+        "keywords": [
+          "slime", 
+          "algae"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12048, 
+    "name": "The Aqueduct", 
+    "sector_type": {
+      "note": "WATER_SWIM", 
+      "value": 6
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are standing in the workshop of Froboz the Great, the most powerful and\nfamous mage that Rome has ever known.  Workbenches line the walls and are\ncovered with various test tubes, beakers, petri dishes and crucibles and\nthere is an odor in here that can best be described as a combination of old\nsweat socks and burning tires.  The only exit is back through the door\nthrough which you came.  In the middle of the room, you see a pile of ashes\nthat looks like it once was a body and Froboz is is busy making adjustments\non a new type of magic wand... possibly the one responsible for the explosion\na few minutes ago.  He removes a jeweler's loupe from his eye as he turns\naround.  'How in the name of Merlin did you get in here??!!' he asks.  'Oh,\nnevermind!  Since you are here, you can serve as witnesses to the final test\nof the new mages' spell:  \"ectowatt\".'  With this he makes a magical gesture\nand a paladin appears.  Crossing his fingers, Froboz waves the wand his\ndirection and what happens next is incredible!  The Paladin is enveloped in\nwhat appears to be a small, well contained, thermonuclear explosion.  When\nthe smoke clears you can see that the paladin and all of equipment has been\nreduced to a large pile of flaming cinders.  Froboz throws his head back and\ncackles with insane glee.  'Now, my young friends, what can I do for you?',\nhe asks.", 
+    "exits": [
+      {
+        "desc": "There is a door, reinforced with steel, in that direction.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 12038, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 12042
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "These are all tools of great power.  You cannot even begin to understand what\nany of this stuff does.", 
+        "keywords": [
+          "workbench", 
+          "workbenches", 
+          "tubes", 
+          "beakers", 
+          "crucibles", 
+          "dishes"
+        ]
+      }, 
+      {
+        "desc": "The ashes are a very fine grayish white powder that seems to be the only \nworldly remains of Froboz's \"test specimens\". ", 
+        "keywords": [
+          "cinders", 
+          "ashes", 
+          "pile"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12049, 
+    "name": "Froboz's Workshop", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You stand inside of a large courtroom in which common civil disputes and \ncriminal matters are decided.  There is a judge's bench and a witness stand\non the far side of the room and a jury's box along side.  The Emperor's seal\nis prominently displayed on the wall behind the judge's stand, reminding all\nwho enter that he is an extension of his highness.  There is a door, possibly \nleading to the judge's chambers, to the east and the waiting room is to the \nwest.", 
+    "exits": [
+      {
+        "desc": "The door might lead into the judge's private chambers.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": 12039, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 12055
+      }, 
+      {
+        "desc": "The holding cells lie in that direction.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12060
+      }, 
+      {
+        "desc": "The waiting room lies in that direction.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12043
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "You see large wooden structures that are designed to separate the judge, jury\nand witnesses from the rest of the courtroom.  They are made of polished  \noak and are strictly functional.", 
+        "keywords": [
+          "bench", 
+          "stand", 
+          "box", 
+          "jury"
+        ]
+      }, 
+      {
+        "desc": "The seal of the Emperor is mounted above the judge's stand.  ", 
+        "keywords": [
+          "seal"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12050, 
+    "name": "The Courtroom", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are standing inside of the eastern gate of Rome.  There are two tall \nspires built into the city wall, from which the guards can see the whole \neastern side of the city.  The gate is currently open and to the east, \nthere is a heavily used road, made of packed clay, that leads out of Rome. \nAnother road leads westward into the city.", 
+    "exits": [
+      {
+        "desc": "The clay road heads eastwards.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "gate"
+        ], 
+        "room_linked": 12064
+      }, 
+      {
+        "desc": "The clay street leads into the city.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12046
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "There are two tall spires on either side of the gate and are constantly\nmanned by the city guards.  They are made of stone and stand about 40\nfeet tall. ", 
+        "keywords": [
+          "spires", 
+          "towers"
+        ]
+      }, 
+      {
+        "desc": "The gate is fabricated from iron and has been designed to keep intruders\nout of the city.", 
+        "keywords": [
+          "gate"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 12051, 
+    "name": "The East Gate Of Rome", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You stand on a small trail that leads up and down.  It has recently been \nraining and there are small puddles everywhere.  You are just below the\nclouds and the view of the surrounding countryside is breathtaking.", 
+    "exits": [
+      {
+        "desc": "The trail leads up and enters the clouds.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12047
+      }, 
+      {
+        "desc": "The trail leads down.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12056
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The mountain trail is a little muddy, due to the recent rains.  ", 
+        "keywords": [
+          "trail"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 12052, 
+    "name": "A Mountain Path", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are in a massive stone structure that has been designed to channel\nwater into the city of Rome.  Due to the recent drought, the water level\nis low, allowing passage without a boat.  The walls and floor are covered\nwith algae and slime, producing treacherous footing conditions.  There are\nexits in all four cardinal directions.", 
+    "exits": [
+      {
+        "desc": "The aqueduct continues.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12041
+      }, 
+      {
+        "desc": "The aqueduct continues.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12054
+      }, 
+      {
+        "desc": "The aqueduct continues.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12057
+      }, 
+      {
+        "desc": "The aqueduct continues.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12048
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "Due to the availability of moisture and nutrients, a green, viscous slime has\ngrown and covered the everything with a slippery coating.  It seems to go out\nof its way to drip on you.", 
+        "keywords": [
+          "slime", 
+          "algae"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12054, 
+    "name": "The Aqueduct", 
+    "sector_type": {
+      "note": "WATER_SWIM", 
+      "value": 6
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are in a small room that is filled with legal tombs.  There is a\nsmall desk here, literally buried under legal documents.  There is also\na small window overlooking the northern part of the city.", 
+    "exits": [
+      {
+        "desc": "The courtroom lies in that direction.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": 12039, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 12050
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The books are very large and filled with Roman legal precedent.", 
+        "keywords": [
+          "tombs", 
+          "books"
+        ]
+      }, 
+      {
+        "desc": "There are hundreds of pages of petitions, lawsuits and court orders sitting\non the desk.  One particularly interesting case involves a nobleman, a slave\nand a roll of toilet paper.", 
+        "keywords": [
+          "papers", 
+          "documents"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12055, 
+    "name": "The Judge's Chambers", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are standing on a small trail that leads through a grove of trees.\nEvery thing is lush and green here and it appears to have been raining\nrecently.  'This would be an ideal place for a picnic.' , you think to\nyourself.", 
+    "exits": [
+      {
+        "desc": "You see a small trail leading further up the mountain.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12052
+      }, 
+      {
+        "desc": "You see a small trail, leading down.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12059
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "All of the vegetation is lush, green and in full bloom.  You wish that you \ncould take the time to stop and enjoy it properly.", 
+        "keywords": [
+          "tree", 
+          "trees", 
+          "vegetation"
+        ]
+      }, 
+      {
+        "desc": "The path is a little muddy, possibly due to a recent thundershower.", 
+        "keywords": [
+          "trail", 
+          "path"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 12056, 
+    "name": "A Mountain Path", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are in a massive stone structure that has been designed to channel\nwater into the city of Rome.  Due to a recent drought, the water level is\nlow, allowing passage without a boat.  The walls and floor are covered\nwith algae and slime, producing treacherous footing conditions.  A valley\nlies to the south and the other cardinal directions lead further into the\naqueduct.", 
+    "exits": [
+      {
+        "desc": "The aqueduct continues.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12054
+      }, 
+      {
+        "desc": "The aqueduct continues.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12054
+      }, 
+      {
+        "desc": "You see a gorgeous valley.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12058
+      }, 
+      {
+        "desc": "The aqueduct continues....", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12041
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "Due to the availability of moisture and nutrients, a green, viscous slime has\ngrown and covered everything with a slippery coating.  It seems to go out of\nits way to drip on you.", 
+        "keywords": [
+          "slime", 
+          "algae"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12057, 
+    "name": "The Aqueduct", 
+    "sector_type": {
+      "note": "WATER_SWIM", 
+      "value": 6
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You stand in a tranquil valley at the base of a large mountain.  A quiet \nstream, with fruit trees growing along its banks, winds its way peacefully\nthrough the valley and enters a large stone structure that lies to the west.\nThere are birds singing and every now and then a ripple breaks the surface\nof the stream.  You can see a path leading through the trees to the up.", 
+    "exits": [
+      {
+        "desc": "A small path winds its way through the trees.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12057
+      }, 
+      {
+        "desc": "You see a path leading up the mountain.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12059
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "A stream of the clearest, cleanest water that you have ever seen winds its\nway through the valley.", 
+        "keywords": [
+          "stream", 
+          "brook"
+        ]
+      }, 
+      {
+        "desc": "A variety of species swims peacefully in the cool, clear water.  ", 
+        "keywords": [
+          "fish"
+        ]
+      }, 
+      {
+        "desc": "The fruit trees, nourished by the fertile ground at the edge of the stream\nand sustained by the brilliant sunshine, line the banks of the stream and\nare laden with fruit.", 
+        "keywords": [
+          "trees", 
+          "fruit"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 12058, 
+    "name": "The Valley Of The Gods", 
+    "sector_type": {
+      "note": "HILLS", 
+      "value": 4
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are standing on a path that leads up through a stand of large trees.  \nEverything is green and it seems like eternal spring - this is Mother Nature\nat her finest.  It is possible to descend into a tranquil valley from here.", 
+    "exits": [
+      {
+        "desc": "The path leads further up the mountain.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12056
+      }, 
+      {
+        "desc": "The path widens out into a tranquil valley.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12058
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The trees are old and tower hundreds of feet above the ground.  If you stand\nstill and listen carefully, you can hear the birds singing.", 
+        "keywords": [
+          "trees"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 12059, 
+    "name": "A Mountain Path", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are standing in the holding cell area, just off of the cortroom.  Those\nwho are recently convicted of serious crimes are brought here, pending torture\nand execution.  The courtroom lies to the north and another exit goes east.", 
+    "exits": [
+      {
+        "desc": "The courtroom lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12050
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12061
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "You can see small and very cramped cells which are filthy.  You shiver and \nvow to never do anything that would cause you to become a resident.", 
+        "keywords": [
+          "cells", 
+          "cell"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12060, 
+    "name": "The Holding Cells", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are standing in a very small room in which there are many tools\ndesigned specifically for inflicting pain and suffering.  Some of them\nare familiar, such as the rack and the iron maidens.  Others, you have\nnever seen before and they make you wonder about the kind of sadistic\nmind that dreamt them up.  The only exit is to the west.", 
+    "exits": [
+      {
+        "desc": "The holding cells lie in that direction.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12060
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12061, 
+    "name": "The Torture Chamber", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are standing in the bakery of Rome and your mouth waters at the\ndelicious aromas wafting from the kitchen.  The only exit is to the east.", 
+    "exits": [], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12062, 
+    "name": "The Roman Bakery", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You are standing in the only general store of Rome.  The walls and shelves \nare covered with all of the various items required by Roman citizens and \nstalwart adventurers.  Clay Avenue lies to the south.", 
+    "exits": [
+      {
+        "desc": "Clay Avenue lies in that direction.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12046
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12063, 
+    "name": "The General Store", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You travel upon an East-West road wide enough for 30 men to march\nabreast.  It is packed hard through heavy use.  To the west stands the\nGates of Rome inviting you to enter and partake of all the glory and\nsplendor that is Rome.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12065
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "gate"
+        ], 
+        "room_linked": 12051
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12064, 
+    "name": "Before Rome", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You travel upon an East-West road wide enough for 30 men to march\nabreast.  It is packed hard through heavy use.  To the west, your eyes\ncatch the splendors of a mighty city.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12066
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12064
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12065, 
+    "name": "Clay Road", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "You travel upon an East-West road wide enough for 30 men to march\nabreast.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12067
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12065
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12066, 
+    "name": "Clay Road", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "The mighty clay road turns into lesser, but still well traveled roads\nhere.  You feel a surge run through your body as you look East into the\nlands that Rome turned into its mighty empire.", 
+    "exits": [
+      {
+        "desc": "A dirt trail leads towards the desert to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12068
+      }, 
+      {
+        "desc": "The mighty clay road leads off in this direction.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12066
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 12067, 
+    "name": "The End Of The Clay Road", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }, 
+  {
+    "desc": "This small dirt path seems to be a joint between a large clay road\nlocated a short distance to the west and the expanse of sand which opens\nup before you to the east.  The clay road appears to lead through the\nfoothills towards the snowcapped mountain chain to the west.  Perhaps\nthere is a city or settlement in that direction.\n   You cannot see any breaks in the horizon of the sand which fills your\nvision as you look to the east, it seems to stretch forever.", 
+    "exits": [
+      {
+        "desc": "The expanse of the Great Eastern Desert opens up before you.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 5028
+      }, 
+      {
+        "desc": "A large clay road begins a short distance to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 12067
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }
+    ], 
+    "id": 12068, 
+    "name": "A Small Dirt Trail", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 120
+  }
+]

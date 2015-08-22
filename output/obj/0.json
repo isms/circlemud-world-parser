@@ -1,0 +1,72 @@
+[
+  {
+    "affects": [], 
+    "aliases": [
+      "wings"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 1, 
+    "long_desc": "A pair of wings is sitting here.", 
+    "rent": 200, 
+    "short_desc": "a pair of wings", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      6, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HEAD", 
+        "value": 16
+      }
+    ], 
+    "weight": 0
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "waybread", 
+      "bread"
+    ], 
+    "cost": 50, 
+    "effects": [
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 10, 
+    "long_desc": "Some waybread has been put here.", 
+    "rent": 50, 
+    "short_desc": "a waybread", 
+    "type": {
+      "note": "FOOD", 
+      "value": 19
+    }, 
+    "values": [
+      24, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 1
+  }
+]

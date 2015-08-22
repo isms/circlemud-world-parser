@@ -1,0 +1,1089 @@
+[
+  {
+    "affects": [
+      {
+        "note": "SENSE_LIFE", 
+        "value": 32
+      }
+    ], 
+    "aliases": [
+      "john", 
+      "lumberjack"
+    ], 
+    "alignment": 370, 
+    "armor_class": 6, 
+    "bare_hand_damage": {
+      "bonus": 3, 
+      "dice": 1, 
+      "sides": 4
+    }, 
+    "detail_desc": "He is six feet tall and looks quite strong, muscles bulging under his heavy,\nchequered shirt.  His features are worn with hard work and his expression is\none of a peaceful man leading a simple life.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SCAVENGER", 
+        "value": 4
+      }, 
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "HELPER", 
+        "value": 4096
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 100, 
+    "id": 6000, 
+    "level": 5, 
+    "long_desc": "John the Lumberjack is here, looking for some trees to chop down.", 
+    "max_hit_points": {
+      "bonus": 60, 
+      "dice": 1, 
+      "sides": 12
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "John the Lumberjack", 
+    "thac0": 15, 
+    "xp": 1050
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "rabbit", 
+      "small"
+    ], 
+    "alignment": 0, 
+    "armor_class": 6, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 4
+    }, 
+    "detail_desc": "It is a small, furry creature with long ears and big feet.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 6001, 
+    "level": 0, 
+    "long_desc": "A small rabbit is foraging in the bushes here.", 
+    "max_hit_points": {
+      "bonus": 1, 
+      "dice": 1, 
+      "sides": 4
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the rabbit", 
+    "thac0": 20, 
+    "xp": 60
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "bear", 
+      "brown"
+    ], 
+    "alignment": -50, 
+    "armor_class": 3, 
+    "bare_hand_damage": {
+      "bonus": 2, 
+      "dice": 2, 
+      "sides": 6
+    }, 
+    "detail_desc": "The bear is a big, brown, furry animal with very large claws and very sharp\nteeth.  It doesn't resemble those cute little dolls from toy shops at all.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 6002, 
+    "level": 8, 
+    "long_desc": "A big, brown, angry-looking bear is here.", 
+    "max_hit_points": {
+      "bonus": 98, 
+      "dice": 1, 
+      "sides": 12
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_SLEEPING", 
+        "value": 4
+      }, 
+      "load": {
+        "note": "POSITION_SLEEPING", 
+        "value": 4
+      }
+    }, 
+    "short_desc": "the brown bear", 
+    "thac0": 13, 
+    "xp": 4000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "rabbit", 
+      "ferocious"
+    ], 
+    "alignment": -150, 
+    "armor_class": 6, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 8
+    }, 
+    "detail_desc": "This small, furry creature with long ears and big feet has been attacked\nby the dreaded rabbit rabies, a horrible disease that turns helpless and\ninnocent rabbits into ferocious and bloodthirsty monsters.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 6003, 
+    "level": 3, 
+    "long_desc": "A ferocious rabbit is here, glaring hungrily at you.", 
+    "max_hit_points": {
+      "bonus": 26, 
+      "dice": 1, 
+      "sides": 4
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_SLEEPING", 
+        "value": 4
+      }, 
+      "load": {
+        "note": "POSITION_SLEEPING", 
+        "value": 4
+      }
+    }, 
+    "short_desc": "the ferocious rabbit", 
+    "thac0": 17, 
+    "xp": 350
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }
+    ], 
+    "aliases": [
+      "deer", 
+      "fallow"
+    ], 
+    "alignment": 350, 
+    "armor_class": 5, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 6
+    }, 
+    "detail_desc": "She is a graceful creature on long, slender legs, and with large, brown eyes\nlooking back at you with an air of watchful interest.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }, 
+      {
+        "note": "WIMPY", 
+        "value": 128
+      }
+    ], 
+    "gender": {
+      "note": "F", 
+      "value": 2
+    }, 
+    "gold": 0, 
+    "id": 6004, 
+    "level": 2, 
+    "long_desc": "A fallow deer is grazing peacefully here.", 
+    "max_hit_points": {
+      "bonus": 8, 
+      "dice": 2, 
+      "sides": 8
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the fallow deer", 
+    "thac0": 19, 
+    "xp": 230
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "fox", 
+      "brown"
+    ], 
+    "alignment": -50, 
+    "armor_class": 6, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 6
+    }, 
+    "detail_desc": "It is a large fox with beautiful, red-brown fur and a long, thick bushy tail.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 6005, 
+    "level": 2, 
+    "long_desc": "A brown fox is stalking rabbits through the underbrush here.", 
+    "max_hit_points": {
+      "bonus": 18, 
+      "dice": 1, 
+      "sides": 4
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the brown fox", 
+    "thac0": 18, 
+    "xp": 225
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "bird", 
+      "large"
+    ], 
+    "alignment": 0, 
+    "armor_class": 10, 
+    "bare_hand_damage": {
+      "bonus": 1, 
+      "dice": 1, 
+      "sides": 2
+    }, 
+    "detail_desc": "The bird isn't going to live much longer, by the looks of it.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 6006, 
+    "level": 0, 
+    "long_desc": "A large bird with a broken wing has been cornered here.", 
+    "max_hit_points": {
+      "bonus": 1, 
+      "dice": 2, 
+      "sides": 3
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the bird", 
+    "thac0": 17, 
+    "xp": 25
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "bobcat", 
+      "cat"
+    ], 
+    "alignment": -150, 
+    "armor_class": 5, 
+    "bare_hand_damage": {
+      "bonus": 3, 
+      "dice": 2, 
+      "sides": 4
+    }, 
+    "detail_desc": "The bobcat has sharp claws and teeth, and will probably eat you instead of\nthe bird if you give it the chance.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 6007, 
+    "level": 5, 
+    "long_desc": "A medium sized bobcat is stalking a bird here.", 
+    "max_hit_points": {
+      "bonus": 60, 
+      "dice": 1, 
+      "sides": 12
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the bobcat", 
+    "thac0": 15, 
+    "xp": 1100
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "sparrow"
+    ], 
+    "alignment": 200, 
+    "armor_class": 9, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 4
+    }, 
+    "detail_desc": "The sparrow looks like it is enjoying life.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 6008, 
+    "level": 0, 
+    "long_desc": "A sparrow is flapping around by the ground.", 
+    "max_hit_points": {
+      "bonus": 1, 
+      "dice": 3, 
+      "sides": 3
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the sparrow", 
+    "thac0": 20, 
+    "xp": 25
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "robin"
+    ], 
+    "alignment": 200, 
+    "armor_class": 9, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 4
+    }, 
+    "detail_desc": "The robin looks quite intent on finding a bug or worm to eat.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 6009, 
+    "level": 0, 
+    "long_desc": "A robin is hopping around looking for bugs to eat.", 
+    "max_hit_points": {
+      "bonus": 1, 
+      "dice": 3, 
+      "sides": 3
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the robin", 
+    "thac0": 20, 
+    "xp": 25
+  }, 
+  {
+    "affects": [
+      {
+        "note": "SNEAK", 
+        "value": 262144
+      }, 
+      {
+        "note": "HIDE", 
+        "value": 524288
+      }
+    ], 
+    "aliases": [
+      "squirrel"
+    ], 
+    "alignment": 200, 
+    "armor_class": 8, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 5
+    }, 
+    "detail_desc": "It peers out of its nest at you anxiously, seeming to plead silently with\nyou to leave it alone.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 6010, 
+    "level": 1, 
+    "long_desc": "A squirrel is here seeking refuge in its nest.", 
+    "max_hit_points": {
+      "bonus": 9, 
+      "dice": 1, 
+      "sides": 7
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the squirrel", 
+    "thac0": 20, 
+    "xp": 120
+  }, 
+  {
+    "affects": [
+      {
+        "note": "HIDE", 
+        "value": 524288
+      }
+    ], 
+    "aliases": [
+      "badger"
+    ], 
+    "alignment": 50, 
+    "armor_class": 5, 
+    "bare_hand_damage": {
+      "bonus": 2, 
+      "dice": 2, 
+      "sides": 3
+    }, 
+    "detail_desc": "The badger is slowly awakening and peering up at you from its burrow. You\nknow that it won't be moving this slow for long.  Its sharp claws and teeth\ncatch your attention when you consider killing it.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 6011, 
+    "level": 4, 
+    "long_desc": "A furry brown badger is curled up under a log here.", 
+    "max_hit_points": {
+      "bonus": 48, 
+      "dice": 1, 
+      "sides": 5
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the sleepy badger", 
+    "thac0": 17, 
+    "xp": 650
+  }, 
+  {
+    "affects": [
+      {
+        "note": "SNEAK", 
+        "value": 262144
+      }
+    ], 
+    "aliases": [
+      "grey", 
+      "squirrel"
+    ], 
+    "alignment": 150, 
+    "armor_class": 8, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 6
+    }, 
+    "detail_desc": "This happy creature seems to pay you no heed as it goes about its search for\nnuts among the leaves and twigs on the ground here.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 6012, 
+    "level": 2, 
+    "long_desc": "A grey squirrel with a bushy tail is foraging for nuts here.", 
+    "max_hit_points": {
+      "bonus": 22, 
+      "dice": 1, 
+      "sides": 12
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the grey squirrel", 
+    "thac0": 19, 
+    "xp": 200
+  }, 
+  {
+    "affects": [
+      {
+        "note": "SNEAK", 
+        "value": 262144
+      }
+    ], 
+    "aliases": [
+      "chipmunk"
+    ], 
+    "alignment": 170, 
+    "armor_class": 5, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 4
+    }, 
+    "detail_desc": "The absolute zenith of hyperactivity, this small rodent seems to never tire\nof running up, down, and around the trees in this area.  If you could ever\ncatch it, you imagine it would make an easy meal.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 6013, 
+    "level": 0, 
+    "long_desc": "A small brown-red chipmunk dashes from tree to tree here.", 
+    "max_hit_points": {
+      "bonus": 3, 
+      "dice": 2, 
+      "sides": 5
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the small chipmunk", 
+    "thac0": 20, 
+    "xp": 40
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "crow", 
+      "black", 
+      "bird"
+    ], 
+    "alignment": -20, 
+    "armor_class": 8, 
+    "bare_hand_damage": {
+      "bonus": 1, 
+      "dice": 1, 
+      "sides": 5
+    }, 
+    "detail_desc": "The bird eyes you warily, but continues with its meal.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "SCAVENGER", 
+        "value": 4
+      }, 
+      {
+        "note": "WIMPY", 
+        "value": 128
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 3, 
+    "id": 6014, 
+    "level": 2, 
+    "long_desc": "A large black bird flits about here, picking at bits of carrion.", 
+    "max_hit_points": {
+      "bonus": 22, 
+      "dice": 1, 
+      "sides": 12
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the large black crow", 
+    "thac0": 19, 
+    "xp": 200
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SANCTUARY", 
+        "value": 128
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "grotesque", 
+      "vulture"
+    ], 
+    "alignment": -700, 
+    "armor_class": 4, 
+    "bare_hand_damage": {
+      "bonus": 2, 
+      "dice": 2, 
+      "sides": 3
+    }, 
+    "detail_desc": "It sickens you to even look at this foul bird.  Bits of dried gore stick to\nits beak, and unidentifiable organs hang from its talons and feathers.  \nIt sees you and attacks, protecting its horrible feast!", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "SCAVENGER", 
+        "value": 4
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 14, 
+    "id": 6015, 
+    "level": 6, 
+    "long_desc": "A grotesque vulture covered in blood and gore is here feeding madly.", 
+    "max_hit_points": {
+      "bonus": 68, 
+      "dice": 1, 
+      "sides": 12
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the grotesque vulture", 
+    "thac0": 15, 
+    "xp": 1750
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }
+    ], 
+    "aliases": [
+      "buck", 
+      "deer"
+    ], 
+    "alignment": 350, 
+    "armor_class": 4, 
+    "bare_hand_damage": {
+      "bonus": 3, 
+      "dice": 1, 
+      "sides": 5
+    }, 
+    "detail_desc": "This young male deer is drinking from the edge of the lake and watching you\nwarily.  His antlers are not full size yet, and will no doubt be quite \nimpressive in a few years.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 0, 
+    "id": 6016, 
+    "level": 4, 
+    "long_desc": "A young 5-point buck is drinking from the lake here.", 
+    "max_hit_points": {
+      "bonus": 48, 
+      "dice": 1, 
+      "sides": 12
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the young buck", 
+    "thac0": 17, 
+    "xp": 750
+  }, 
+  {
+    "affects": [
+      {
+        "note": "WATERWALK", 
+        "value": 64
+      }
+    ], 
+    "aliases": [
+      "fish"
+    ], 
+    "alignment": 100, 
+    "armor_class": 10, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 3
+    }, 
+    "detail_desc": "The fish looks about the right size for a meal.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 6017, 
+    "level": 0, 
+    "long_desc": "A fish is swimming about here.", 
+    "max_hit_points": {
+      "bonus": 0, 
+      "dice": 2, 
+      "sides": 5
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the fish", 
+    "thac0": 20, 
+    "xp": 30
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "duckling"
+    ], 
+    "alignment": 1000, 
+    "armor_class": 10, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 1
+    }, 
+    "detail_desc": "The duckling is adorable, it looks most of all like a tiny furball.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 6018, 
+    "level": 0, 
+    "long_desc": "A duckling is swimming around in the pond.", 
+    "max_hit_points": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 1
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the duckling", 
+    "thac0": 20, 
+    "xp": 1
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "duck"
+    ], 
+    "alignment": 1000, 
+    "armor_class": 10, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 4
+    }, 
+    "detail_desc": "The duck is quite fat.  It looks like it is enjoying life.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 6019, 
+    "level": 1, 
+    "long_desc": "A duck is here, quacking happily.", 
+    "max_hit_points": {
+      "bonus": 5, 
+      "dice": 2, 
+      "sides": 6
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the duck", 
+    "thac0": 20, 
+    "xp": 75
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "affects": [
+      {
+        "note": "NOTRACK", 
+        "value": 32768
+      }
+    ], 
+    "aliases": [
+      "innkeeper"
+    ], 
+    "alignment": 0, 
+    "armor_class": -10, 
+    "bare_hand_damage": {
+      "bonus": 5, 
+      "dice": 4, 
+      "sides": 8
+    }, 
+    "detail_desc": "She appears to be having no problem tallying things up.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }
+    ], 
+    "gender": {
+      "note": "F", 
+      "value": 2
+    }, 
+    "gold": 0, 
+    "id": 1200, 
+    "level": 30, 
+    "long_desc": "The Immortal Innkeeper is organizing her books here.", 
+    "max_hit_points": {
+      "bonus": 901, 
+      "dice": 1, 
+      "sides": 49
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the Immortal Innkeeper", 
+    "thac0": 0, 
+    "xp": 0
+  }, 
+  {
+    "affects": [
+      {
+        "note": "NOTRACK", 
+        "value": 32768
+      }
+    ], 
+    "aliases": [
+      "postmaster", 
+      "master", 
+      "post"
+    ], 
+    "alignment": 0, 
+    "armor_class": -10, 
+    "bare_hand_damage": {
+      "bonus": 5, 
+      "dice": 4, 
+      "sides": 8
+    }, 
+    "detail_desc": "Scary... a postal worker... working?", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }
+    ], 
+    "gender": {
+      "note": "F", 
+      "value": 2
+    }, 
+    "gold": 0, 
+    "id": 1201, 
+    "level": 30, 
+    "long_desc": "The Immortal Postmaster is hard at work here.", 
+    "max_hit_points": {
+      "bonus": 901, 
+      "dice": 1, 
+      "sides": 49
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the Immortal Postmaster", 
+    "thac0": 0, 
+    "xp": 0
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }, 
+      {
+        "note": "NOTRACK", 
+        "value": 32768
+      }, 
+      {
+        "note": "SNEAK", 
+        "value": 262144
+      }
+    ], 
+    "aliases": [
+      "being", 
+      "amorphous", 
+      "spirit", 
+      "wandering"
+    ], 
+    "alignment": 0, 
+    "armor_class": -10, 
+    "bare_hand_damage": {
+      "bonus": 5, 
+      "dice": 4, 
+      "sides": 8
+    }, 
+    "detail_desc": "This spirit, having lived out its days in the mortal world, now\nworks off its final sins by doing menial labour in this realm's\npurgatory.  In this case, those chores seem to be cleaning up\nafter the immortals of the land.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SCAVENGER", 
+        "value": 4
+      }, 
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }, 
+      {
+        "note": "NOBASH", 
+        "value": 65536
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 1202, 
+    "level": 30, 
+    "long_desc": "A strange amorphous being wanders these halls eternally cleaning.", 
+    "max_hit_points": {
+      "bonus": 901, 
+      "dice": 1, 
+      "sides": 49
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the wandering spirit", 
+    "thac0": 0, 
+    "xp": 0
+  }
+]

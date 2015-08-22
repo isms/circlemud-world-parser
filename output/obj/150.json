@@ -1,0 +1,954 @@
+[
+  {
+    "affects": [
+      {
+        "location": 18, 
+        "note": "HITROLL", 
+        "value": 2
+      }, 
+      {
+        "location": 19, 
+        "note": "DAMROLL", 
+        "value": 2
+      }
+    ], 
+    "aliases": [
+      "nothingness", 
+      "universal"
+    ], 
+    "cost": 0, 
+    "effects": [
+      {
+        "note": "HUM", 
+        "value": 2
+      }, 
+      {
+        "note": "NORENT", 
+        "value": 4
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "You are not sure, but you do not seem not able to figure out what\nit isn't, because it doesn't much resemble anything you haven't\never seen.  You feel a bit of mortal confusion, but you notice a\nsmall inscription on it.", 
+        "keywords": [
+          "nothingness", 
+          "universal"
+        ]
+      }, 
+      {
+        "desc": "It just says: ' (void *) '\nNot very enlightening, is it?", 
+        "keywords": [
+          "text", 
+          "writing", 
+          "inscription"
+        ]
+      }
+    ], 
+    "id": 15000, 
+    "long_desc": "You are quite unable to perceive Sapowox's Universal Nothingness here.", 
+    "rent": 200000, 
+    "short_desc": "Sapowox's Universal Nothingness", 
+    "type": {
+      "note": "WEAPON", 
+      "value": 5
+    }, 
+    "values": [
+      0, 
+      6, 
+      4, 
+      1
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WIELD", 
+        "value": 8192
+      }
+    ], 
+    "weight": 40
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "gold", 
+      "coins"
+    ], 
+    "cost": 32385, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 15001, 
+    "long_desc": "A lot of gold is here.", 
+    "rent": 0, 
+    "short_desc": "the gold", 
+    "type": {
+      "note": "MONEY", 
+      "value": 20
+    }, 
+    "values": [
+      32385, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 0
+  }, 
+  {
+    "affects": [
+      {
+        "location": 18, 
+        "note": "HITROLL", 
+        "value": 2
+      }
+    ], 
+    "aliases": [
+      "sceptre", 
+      "royal", 
+      "golden"
+    ], 
+    "cost": 15000, 
+    "effects": [
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "ANTI_EVIL", 
+        "value": 1024
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 15002, 
+    "long_desc": "A golden Royal sceptre lies on the ground.", 
+    "rent": 3000, 
+    "short_desc": "a golden sceptre", 
+    "type": {
+      "note": "OTHER", 
+      "value": 12
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 20
+  }, 
+  {
+    "affects": [
+      {
+        "location": 12, 
+        "note": "MANA", 
+        "value": 30
+      }, 
+      {
+        "location": 3, 
+        "note": "INT", 
+        "value": 1
+      }
+    ], 
+    "aliases": [
+      "crown", 
+      "golden"
+    ], 
+    "cost": 12000, 
+    "effects": [
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "ANTI_EVIL", 
+        "value": 1024
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 15003, 
+    "long_desc": "A magnificently jewelled golden crown has been left here.", 
+    "rent": 10000, 
+    "short_desc": "a golden crown", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      7, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HEAD", 
+        "value": 16
+      }
+    ], 
+    "weight": 40
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "apple", 
+      "golden"
+    ], 
+    "cost": 8000, 
+    "effects": [
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "ANTI_EVIL", 
+        "value": 1024
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 15004, 
+    "long_desc": "There is a golden apple here.", 
+    "rent": 400, 
+    "short_desc": "a golden apple", 
+    "type": {
+      "note": "LIGHT", 
+      "value": 1
+    }, 
+    "values": [
+      0, 
+      0, 
+      -1, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 5
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "telescope", 
+      "scope"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "A small sign says:\n\nMade in Siberia.\n", 
+        "keywords": [
+          "telescope", 
+          "scope"
+        ]
+      }
+    ], 
+    "id": 15005, 
+    "long_desc": "There is a large telescope here, pointing at the sky.", 
+    "rent": 0, 
+    "short_desc": "a large telescope", 
+    "type": {
+      "note": "OTHER", 
+      "value": 12
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [], 
+    "weight": 0
+  }, 
+  {
+    "affects": [
+      {
+        "location": 18, 
+        "note": "HITROLL", 
+        "value": -2
+      }
+    ], 
+    "aliases": [
+      "sword", 
+      "training"
+    ], 
+    "cost": 300, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 15006, 
+    "long_desc": "A training sword with blunt edges is leaned against a wall.", 
+    "rent": 5, 
+    "short_desc": "a training sword", 
+    "type": {
+      "note": "WEAPON", 
+      "value": 5
+    }, 
+    "values": [
+      0, 
+      1, 
+      4, 
+      3
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WIELD", 
+        "value": 8192
+      }
+    ], 
+    "weight": 7
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "key", 
+      "huge"
+    ], 
+    "cost": 0, 
+    "effects": [
+      {
+        "note": "NORENT", 
+        "value": 4
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 15007, 
+    "long_desc": "There is a huge, heavy-looking key on the floor here.", 
+    "rent": 0, 
+    "short_desc": "a huge key", 
+    "type": {
+      "note": "KEY", 
+      "value": 18
+    }, 
+    "values": [
+      15007, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 1
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "Verminator", 
+      "sword"
+    ], 
+    "cost": 1, 
+    "effects": [
+      {
+        "note": "GLOW", 
+        "value": 1
+      }, 
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }, 
+      {
+        "note": "ANTI_GOOD", 
+        "value": 512
+      }, 
+      {
+        "note": "ANTI_MAGIC_USER", 
+        "value": 4096
+      }, 
+      {
+        "note": "ANTI_CLERIC", 
+        "value": 8192
+      }, 
+      {
+        "note": "ANTI_THIEF", 
+        "value": 16384
+      }, 
+      {
+        "note": "NOSELL", 
+        "value": 65536
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "This strange sword seems to be made of black metal, an eerie green glow\nsurrounds the blade.", 
+        "keywords": [
+          "verminator", 
+          "sword"
+        ]
+      }
+    ], 
+    "id": 15008, 
+    "long_desc": "A strange looking sword is lying upon the ground here.", 
+    "rent": 4000, 
+    "short_desc": "Verminator", 
+    "type": {
+      "note": "WEAPON", 
+      "value": 5
+    }, 
+    "values": [
+      0, 
+      3, 
+      4, 
+      11
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WIELD", 
+        "value": 8192
+      }
+    ], 
+    "weight": 2
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "key", 
+      "butlers", 
+      "butler"
+    ], 
+    "cost": 0, 
+    "effects": [
+      {
+        "note": "NORENT", 
+        "value": 4
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 15009, 
+    "long_desc": "The Butler's key is here.", 
+    "rent": 0, 
+    "short_desc": "the Butler's key", 
+    "type": {
+      "note": "KEY", 
+      "value": 18
+    }, 
+    "values": [
+      15009, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 3
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "key", 
+      "small"
+    ], 
+    "cost": 0, 
+    "effects": [
+      {
+        "note": "NORENT", 
+        "value": 4
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 15010, 
+    "long_desc": "A small key lies here.", 
+    "rent": 100, 
+    "short_desc": "a small key", 
+    "type": {
+      "note": "KEY", 
+      "value": 18
+    }, 
+    "values": [
+      15010, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 1
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "chest", 
+      "wooden"
+    ], 
+    "cost": 400, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "It is equipped with a small lock, that any self-respecting thief\nshould be able to pick.", 
+        "keywords": [
+          "chest"
+        ]
+      }
+    ], 
+    "id": 15011, 
+    "long_desc": "A large wooden chest stands here in a corner.", 
+    "rent": 100, 
+    "short_desc": "a large wooden chest", 
+    "type": {
+      "note": "CONTAINER", 
+      "value": 15
+    }, 
+    "values": [
+      800, 
+      13, 
+      15010, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 450
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "vial", 
+      "large", 
+      "potion", 
+      "brown"
+    ], 
+    "cost": 2000, 
+    "effects": [
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is filled with a disgusting brown liquid.", 
+        "keywords": [
+          "vial", 
+          "large", 
+          "brown", 
+          "potion"
+        ]
+      }
+    ], 
+    "id": 15012, 
+    "long_desc": "A large vial has been left here.", 
+    "rent": 2000, 
+    "short_desc": "a large vial", 
+    "type": {
+      "note": "POTION", 
+      "value": 10
+    }, 
+    "values": [
+      15, 
+      15, 
+      -1, 
+      -1
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 14
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "banner", 
+      "royal"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "It is large and very heavy.  On top of it flutters King Welmar's flag\nproudly.", 
+        "keywords": [
+          "banner", 
+          "royal", 
+          "standard"
+        ]
+      }, 
+      {
+        "desc": "On the flag is the symbol of King Welmar's house, the rampant stag.", 
+        "keywords": [
+          "flag"
+        ]
+      }
+    ], 
+    "id": 15013, 
+    "long_desc": "The royal banner has been firmly planted in the ground here.", 
+    "rent": 0, 
+    "short_desc": "a royal banner", 
+    "type": {
+      "note": "OTHER", 
+      "value": 12
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [], 
+    "weight": 0
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "key"
+    ], 
+    "cost": 0, 
+    "effects": [
+      {
+        "note": "NORENT", 
+        "value": 4
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It has a finely carved letter 'W' inscribed on it.", 
+        "keywords": [
+          "key"
+        ]
+      }
+    ], 
+    "id": 15014, 
+    "long_desc": "A key lies on the floor.", 
+    "rent": 0, 
+    "short_desc": "a key", 
+    "type": {
+      "note": "KEY", 
+      "value": 18
+    }, 
+    "values": [
+      15014, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 13
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "hauberk", 
+      "mail", 
+      "chain"
+    ], 
+    "cost": 2000, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 15015, 
+    "long_desc": "A chain mail hauberk lies on the floor", 
+    "rent": 500, 
+    "short_desc": "a guard's chain mail hauberk", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      5, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_BODY", 
+        "value": 8
+      }
+    ], 
+    "weight": 60
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "broadsword", 
+      "sword", 
+      "large"
+    ], 
+    "cost": 1300, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 15016, 
+    "long_desc": "There is a large broadsword lying here.", 
+    "rent": 3000, 
+    "short_desc": "a large broadsword", 
+    "type": {
+      "note": "WEAPON", 
+      "value": 5
+    }, 
+    "values": [
+      0, 
+      2, 
+      6, 
+      3
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WIELD", 
+        "value": 8192
+      }
+    ], 
+    "weight": 14
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "key", 
+      "cell"
+    ], 
+    "cost": 0, 
+    "effects": [
+      {
+        "note": "NORENT", 
+        "value": 4
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "This appears to be the key for the cells of the castle.", 
+        "keywords": [
+          "key", 
+          "cell"
+        ]
+      }
+    ], 
+    "id": 15017, 
+    "long_desc": "A key lies on the floor.", 
+    "rent": 0, 
+    "short_desc": "the cell key", 
+    "type": {
+      "note": "KEY", 
+      "value": 18
+    }, 
+    "values": [
+      15017, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 3
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "corpse"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 15018, 
+    "long_desc": "There is a corpse lying in the middle of the floor of the building here.", 
+    "rent": 0, 
+    "short_desc": "a corpse", 
+    "type": {
+      "note": "TRASH", 
+      "value": 13
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [], 
+    "weight": 0
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "lobster"
+    ], 
+    "cost": 100, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 15019, 
+    "long_desc": "A delicious-looking lobster is lying here, tempting your appetite.", 
+    "rent": 10, 
+    "short_desc": "a delicious-looking lobster", 
+    "type": {
+      "note": "FOOD", 
+      "value": 19
+    }, 
+    "values": [
+      7, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 5
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "caviar"
+    ], 
+    "cost": 250, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 15020, 
+    "long_desc": "There is some delicious-looking Russian caviar here, making your mouth water.", 
+    "rent": 20, 
+    "short_desc": "some Russian caviar", 
+    "type": {
+      "note": "FOOD", 
+      "value": 19
+    }, 
+    "values": [
+      2, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 1
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "glow"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "The glow from the west appears to be quite strong, but it does not\ngive enough light to see by here, nor can you see the source of the\nglow.", 
+        "keywords": [
+          "glow"
+        ]
+      }
+    ], 
+    "id": 15021, 
+    "long_desc": "There is a strange glow coming from the west.", 
+    "rent": 0, 
+    "short_desc": "the glow from the west", 
+    "type": {
+      "note": "TRASH", 
+      "value": 13
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [], 
+    "weight": 0
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "wail", 
+      "sound"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 15022, 
+    "long_desc": "There is an eerie wailing sound coming from the house to the east.", 
+    "rent": 0, 
+    "short_desc": "the wailing sound from the east", 
+    "type": {
+      "note": "TRASH", 
+      "value": 13
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [], 
+    "weight": 0
+  }
+]

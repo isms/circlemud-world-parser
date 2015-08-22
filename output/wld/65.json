@@ -1,0 +1,2240 @@
+[
+  {
+    "desc": "You are walking down a path that leads to the dwarven village.  Above\nyou, you can see the Turning Point, and to the north the path continues \ntoward the mountains.", 
+    "exits": [
+      {
+        "desc": "The path continues.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6501
+      }, 
+      {
+        "desc": "You can see the city of Midgaard.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3502
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }
+    ], 
+    "id": 6500, 
+    "name": "The Path To The Dwarven Village", 
+    "sector_type": {
+      "note": "FIELD", 
+      "value": 2
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "Now you are at the bottom of a rugged mountain.  The forest around you\nis very dense, and it seems very dark to the north.", 
+    "exits": [
+      {
+        "desc": "The path coninues up the mountain.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6502
+      }, 
+      {
+        "desc": "The path heads toward the main city of Midgaard.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6500
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 6501, 
+    "name": "The Path At The Base Of The Mountain", 
+    "sector_type": {
+      "note": "HILLS", 
+      "value": 4
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "Standing on the middle of the mountain, you can easily see the city to\nthe south, and the top of the mountain is very near to the north.", 
+    "exits": [
+      {
+        "desc": "The top of the mountain is easily seen from here.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6503
+      }, 
+      {
+        "desc": "The base of the mountain is near.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6501
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 6502, 
+    "name": "The Path At The Middle Of The Mountain", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You are now on the top of the mountain.  To the south you see a path\nleading down the mountain.  To the east and west you see entrances to\nwhat seems like mines.", 
+    "exits": [
+      {
+        "desc": "An entrance to the mountain which seems to lead underground.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6540
+      }, 
+      {
+        "desc": "The path leads down the mountain to the main city of Midgaard.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6502
+      }, 
+      {
+        "desc": "There is an entrance to the mountain.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6505
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 6503, 
+    "name": "The Top Of The Mountain", 
+    "sector_type": {
+      "note": "HILLS", 
+      "value": 4
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "This is a narrow path leading to the Dwarven Kingdom.  It looks less\ntravelled than the others, and it is very creepy.  The path opens up to \nthe south, and continues to the north.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6506
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6540
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6504, 
+    "name": "The Narrow Path", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "Here is an entrance to the mountain.  The door looks very well built,\nand you can hear noise coming from within.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6503
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 6515, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6513
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 6505, 
+    "name": "The Entrance To The Mountain", 
+    "sector_type": {
+      "note": "FIELD", 
+      "value": 2
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "This is a narrow path that bends to the east here.  The trees hang\nover the path, and it is very overgrown.  The narrow path continues to\nthe south and to the east.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6507
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6504
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "They hang over the road in the most ominous of ways.", 
+        "keywords": [
+          "tree", 
+          "trees"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6506, 
+    "name": "A Bend In The Narrow Path", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "This path is very narrow, and it continues to the north and west.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6508
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6506
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6507, 
+    "name": "The Narrow Path", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "This path leads to the north and south.  To the north you can see a\ndoor, and to the south the path continues.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6509
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6507
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6508, 
+    "name": "The Narrow North-South Path", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "Here the path turns to the west.  You can see a door in front of you,\nand the path continues to the west and south.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 6503, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6510
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6508
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6522
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6509, 
+    "name": "The Door To The Kingdom", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You are on a path that will eventually lead to the castle.  It\ncontinues north to the castle, and there is a door in the southern\nwall.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6511
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 6503, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6509
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6510, 
+    "name": "On The Path To The Castle", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You are still on the path to the castle, or back to the Dwarven\nvillage, whichever way you wish to go.  The path continues to the\nnorth and south.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6512
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6510
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6511, 
+    "name": "Still On The Path To The Castle", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "Here there is a door to the castle to the east.  The castle is \nelegantly designed, and looks much like a roll of toilet paper\nstanding  on its end.  There is a sign which says:\n\n              ******************************************\n              *  WELCOME TO THE CASTLE OF STRANGELOVE  *\n              *      Here, celibacy is uninvited       *\n              ******************************************", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 6503, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6525
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6511
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6512, 
+    "name": "The Door To The Castle", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "Everything here is covered in soot and very grimy.  The path continues\nto the east and north, and there is a door to the west.", 
+    "exits": [
+      {
+        "desc": "The little underground path continues to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6514
+      }, 
+      {
+        "desc": "The path leads outside the entrance.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 6515, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6505
+      }, 
+      {
+        "desc": "This looks like an entrance to some type of store room.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6526
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6513, 
+    "name": "Inside The Entrance", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You are on a path in the dwarven village which leads north to the shops\nand south to the corner of the area.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6515
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6513
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6514, 
+    "name": "The Path", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You are on a path that leads to the Hide & Tooth shop to the west, and\nthe path continues to the south.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6514
+      }, 
+      {
+        "desc": "The Hide & Tooth shop can be seen to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6516
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6515, 
+    "name": "A Turn In The Road", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You are in the Hide & Tooth shop.  Here you may buy the finest in Dwarven\nweapons and armors.  The path continues to the north and east.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6517
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6515
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "SOUNDPROOF", 
+        "value": 32
+      }
+    ], 
+    "id": 6516, 
+    "name": "The Hide & Tooth Shop", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You are on a path to the north of the Hide & Tooth shop.  The path \ncontinues to the north, and there is Granite Head's bakery to the west.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6518
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6516
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6535
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6517, 
+    "name": "The Path To The North Of The Shop", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "Here the path bends to the east towards the barracks. To the south\nyou can see the shops.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6519
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6517
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6518, 
+    "name": "North Of The Shops", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "Here the path passes by the Hospital to the north.  It continues\nto the east to the barracks, and to the west.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6534
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6520
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6518
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6519, 
+    "name": "A Path By The Hospital", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "Here the path continues west, and east to the barracks.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6521
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6519
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6520, 
+    "name": "A Path Next To The Barracks", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "Here there is an entrance to the barracks to the south, and the path \ncontinues to the west.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6523
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6520
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6521, 
+    "name": "The Entrance To The Barracks", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You are in the guard house to the west of the entrance to the castle.  \nThere are nudie posters covering the walls.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6509
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "There is a wall poster of a nude Minne Pearl.", 
+        "keywords": [
+          "poster"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6522, 
+    "name": "A Guard House", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "Here is the first of two main rooms of barracks.  The barracks\ncontinue to the south, and you can leave the room to the north.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6521
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6524
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6523, 
+    "name": "The First Barrack Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "Here is the back of the dwarven barracks.  There are rows of beds \nhere, and there is a stench that is unbearable.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6523
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6524, 
+    "name": "The Back Of The Barracks", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You are just inside the castle.  It is very tubular in shape,\nand it is very featureless.  There is a set of stairs that lead\nup, and the door leads out of the castle to the west.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 6514, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6512
+      }, 
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6528
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6525, 
+    "name": "Inside Of Castle Strangelove", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "There is a layer of dust on the floor at least 3 inches thick!  It is\nprobable that not many people have been in here for many months.", 
+    "exits": [
+      {
+        "desc": "A lighted area that looks like a well worn path.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6513
+      }, 
+      {
+        "desc": "After blowing all the dust off the floor, you notice a trapdoor!", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "trapdoor"
+        ], 
+        "room_linked": 6527
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "After blowing all the dust off the floor, you notice a trapdoor!", 
+        "keywords": [
+          "floor", 
+          "dust"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6526, 
+    "name": "A Store Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "This room smells like wine, and you can only assume it used to be\na wine cellar at one time.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "trapdoor"
+        ], 
+        "room_linked": 6526
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6527, 
+    "name": "The Wine Cellar", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "The stairs continue to circle up and down here.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6529
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6525
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6528, 
+    "name": "On The Stairs In Castle Strangelove", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You are still circling around on the stairs.  You are starting to\nget dizzy from going around and around and around and around and\naround.  The stairs continue up and down.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6530
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6528
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6529, 
+    "name": "On The Stairs", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You are at the top of the stairs in the castle.  There is an exit\nto the east, and the stairs lead down.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6531
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6529
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6530, 
+    "name": "At The Top Of The Stairs", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "This is the Queen's waiting room.  Here the men literally\n'wait' for the queen.  You've heard that the queen really\nlikes to get to 'know' her people, in the biblical sense.\n   The Queen's bedroom is to the north, and you can see stairs\nto the west.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6532
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6530
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6531, 
+    "name": "The Queen's Waiting Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "This is the Queen's bedroom.  The bed is all ruffled, and there\nis a stack of dirty sheets piled in the corner.  There is a ladder\nthat leads down, out of the castle, and you can leave the room\nto the south.  There is also a small wooden door to the west.\nThere is a sign that says:\n\n      -------------------------\n      |  I'm busy right now,  |\n      |  and don't know when  |\n      |  Ill be back, but if  |\n      |  there is a key here  |\n      |  take it and PLEASE,  |\n      |  try to get my birth  |\n      |  control pills back!  |\n      |  I've heard they can  |\n      |  be found somewhere,  |\n      |  deep in the mines..  |\n      -------------------------", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6531
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 6500, 
+        "keywords": [
+          "door", 
+          "wooden"
+        ], 
+        "room_linked": 6554
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6533
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6532, 
+    "name": "The Queen's Bedroom", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You are standing on the north side of Castle Strangelove.  You\nnotice that you are no longer inside the mountain anymore either.\nAlong the southern horizon you see towering mountains.\n   The only exit, however, is back up the ladder into the Queen's\nBedroom.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6532
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 6533, 
+    "name": "The North Side Of Castle Strangelove", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You are inside the Dwarven Hospital.  It smells like rubbing\nalcohol, and there is blood all over the walls.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6519
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6534, 
+    "name": "The Hospital", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "The aroma coming from this room is astonishing.  You can almost taste\nthe pastries dissolving in your mouth.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6517
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "NOMAGIC", 
+        "value": 128
+      }
+    ], 
+    "id": 6535, 
+    "name": "Granite Head's Bakery", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "This path is very well worn, and there is an entrance to the mines to the\neast, while the path continues to the north and west.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6504
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": 6502, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6541
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6503
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6540, 
+    "name": "The Dark Path", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "The little path here leads down toward the mines, while the worn path\ncontinues to the west.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": 6502, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6540
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6542
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6541, 
+    "name": "The Mine Entrance", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You are at the bottom of the mineshaft.  The air here is very sooty, and\nit is very hard to breath.  The mineshaft leads up and east.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6543
+      }, 
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6541
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6542, 
+    "name": "At The Bottom Of The Mineshaft", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You are deep inside the mine, and you feel very uncomfortable.  The\npath continues to the east, and leads to the mineshaft to the west.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6544
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6542
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6543, 
+    "name": "On The Path Inside The Mine", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You are at a crossroad in the mine.  There is a door to the north,\nand the path continues to the south, east, and west.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 6516, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6546
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6545
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6551
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6543
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6544, 
+    "name": "The Mine Crossroad", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You are inside the storage area for the raw materials that are\nfound down here.  The room is very unsturdy as the supports are\nvery rickety.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6544
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6545, 
+    "name": "The Coal Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 54
+  }, 
+  {
+    "desc": "You have entered the maze of the mines.  To the east you can see\nsome inscriptions, and you can exit to the south.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6547
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 6516, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6544
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6546, 
+    "name": "The Mine Maze", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You are inside the maze, but not far enough in that you could\nget lost.  There is an enscription on the wall which says:\n\n          1    3    2    4\n          N    W    N    S\n\nThis isn't too tough, so don't take it so rough.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6548
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6544
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6546
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6547, 
+    "name": "At The Maze Inscription", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You are in a maze.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6549
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6547
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6548
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6548, 
+    "name": "The Maze", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You are in a maze.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6548
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6548
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6550
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6549, 
+    "name": "The Maze", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You are in a maze.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6549
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6549
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6552
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6548
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6550, 
+    "name": "The Maze", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "This is the storage room for equipment used by the Dwarven miners.\nIt is very small, and you can tell that not many miners actually use \nequipment.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6544
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6551, 
+    "name": "The Mining Equipment Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You have solved the maze.  You can tell by the last few moves\nthat there is no way that a dumb worker could have figured that\nout.  It seems pretty desolate here.  To the south is a bleak\nroom.  To the north, you see the maze.  There is a sign above\nthe south exit:\n\nTHOSE WHO ENTER, PLAN ON A TIMELY DEATH.\n(ESPECIALLY IF YOU'RE LOYAL TO THE QUEEN)", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6550
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6553
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6552, 
+    "name": "The End Of The Maze", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "You have entered the Mazekeeper's room.  There are pictures of\nthe Queen with darts thrown at it.  Spraypainted on the wall are\nthings like 'the queen shall suffer' and 'Catholics Rule'.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6552
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6553, 
+    "name": "The Mazekeeper's Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 65
+  }, 
+  {
+    "desc": "This room appears to be the Queen's Treasury.  There is one\nexit, back to the east.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 6500, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6532
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "PRIVATE", 
+        "value": 512
+      }
+    ], 
+    "id": 6554, 
+    "name": "The Treasury", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 65
+  }
+]

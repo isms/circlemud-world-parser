@@ -1,0 +1,810 @@
+[
+  {
+    "affects": [], 
+    "aliases": [
+      "pitbeast", 
+      "pit-beast"
+    ], 
+    "alignment": -750, 
+    "armor_class": 5, 
+    "bare_hand_damage": {
+      "bonus": 1, 
+      "dice": 1, 
+      "sides": 5
+    }, 
+    "detail_desc": "Ick... what a disgusting creature!  It is black and green and slimy\nand it is drooling everywhere... looks mean too.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "SCAVENGER", 
+        "value": 4
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 100, 
+    "id": 18601, 
+    "level": 5, 
+    "long_desc": "The big, ugly pit-beast is standing here sizing you up.", 
+    "max_hit_points": {
+      "bonus": 42, 
+      "dice": 4, 
+      "sides": 6
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the pit beast", 
+    "thac0": 17, 
+    "xp": 1200
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "newbie", 
+      "monster"
+    ], 
+    "alignment": 0, 
+    "armor_class": 9, 
+    "bare_hand_damage": {
+      "bonus": 1, 
+      "dice": 1, 
+      "sides": 4
+    }, 
+    "detail_desc": "What an odd looking little beast.  He looks harmless, but you never can\ntell.  He is only about 4 feet tall, but he pretty muscular looking...\nmaybe you should ask if he needs help?  Nah... kill him.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SCAVENGER", 
+        "value": 4
+      }, 
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 250, 
+    "id": 18602, 
+    "level": 2, 
+    "long_desc": "The newbie monster stands here looking confused.  Kill him!  Kill him!", 
+    "max_hit_points": {
+      "bonus": 16, 
+      "dice": 2, 
+      "sides": 4
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the newbie monster", 
+    "thac0": 19, 
+    "xp": 400
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "dragon", 
+      "baby"
+    ], 
+    "alignment": 100, 
+    "armor_class": 6, 
+    "bare_hand_damage": {
+      "bonus": 1, 
+      "dice": 1, 
+      "sides": 6
+    }, 
+    "detail_desc": "Awwww... how cute!  A little baby dragon.  He's about 3 feet long and you\njust want to cuddle him to death... no, you really want to kill him to tell\nthe truth.  But, remember, even a little dragon can be a big problem.", 
+    "extra_spec": {}, 
+    "flags": [], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 0, 
+    "id": 18603, 
+    "level": 4, 
+    "long_desc": "Someone's little pet dragon has gotten loose, and is sniffing about here.", 
+    "max_hit_points": {
+      "bonus": 50, 
+      "dice": 1, 
+      "sides": 4
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the baby dragon", 
+    "thac0": 17, 
+    "xp": 1000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "keeper", 
+      "guard", 
+      "monster"
+    ], 
+    "alignment": 0, 
+    "armor_class": 7, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 7
+    }, 
+    "detail_desc": "The Guard also had the job of taking care of the Alchemist's pet dragon,\nbut he doesn't seem to be doing a good job of it.  He looks at you and\nsays, 'Have you seen that dragon?  Master will have my head if I don't find\nhim.'", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 500, 
+    "id": 18604, 
+    "level": 3, 
+    "long_desc": "The Newbie Guard is here wondering where that dragon went.", 
+    "max_hit_points": {
+      "bonus": 34, 
+      "dice": 2, 
+      "sides": 6
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the Newbie Guard", 
+    "thac0": 18, 
+    "xp": 800
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "alchemist", 
+      "newbie"
+    ], 
+    "alignment": 0, 
+    "armor_class": 5, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 2, 
+      "sides": 4
+    }, 
+    "detail_desc": "He is a funny looking, furry little dude.  He looks really busy trying to\nmix up a batch of something or other.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 1000, 
+    "id": 18605, 
+    "level": 5, 
+    "long_desc": "The Newbie Alchemist is here trying to make something.", 
+    "max_hit_points": {
+      "bonus": 38, 
+      "dice": 4, 
+      "sides": 6
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the Newbie Alchemist", 
+    "thac0": 16, 
+    "xp": 1200
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "crawler", 
+      "creepy", 
+      "bug", 
+      "thing"
+    ], 
+    "alignment": -250, 
+    "armor_class": 10, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 4
+    }, 
+    "detail_desc": "Yuck!  If they'd ever clean this place maybe it wouldn't attract vermin\nlike this disgusting, little, six-legged, brown bug.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 18606, 
+    "level": 1, 
+    "long_desc": "A creepy little crawling thing is scuttling along the floor at your feet.", 
+    "max_hit_points": {
+      "bonus": 8, 
+      "dice": 1, 
+      "sides": 4
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the creepy crawler", 
+    "thac0": 20, 
+    "xp": 100
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "newbie", 
+      "zombie"
+    ], 
+    "alignment": -500, 
+    "armor_class": 5, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 2, 
+      "sides": 4
+    }, 
+    "detail_desc": "This guy has been lost in here too long... it is more zombie than man\nnow.  You would feel sorry for it, but it is moving in to attack!", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SCAVENGER", 
+        "value": 4
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 300, 
+    "id": 18607, 
+    "level": 4, 
+    "long_desc": "A VERY gaunt looking newbie... it looks like a zombie!", 
+    "max_hit_points": {
+      "bonus": 46, 
+      "dice": 1, 
+      "sides": 8
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the zombiefied newbie", 
+    "thac0": 17, 
+    "xp": 600
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "quasit", 
+      "imp", 
+      "thing"
+    ], 
+    "alignment": -800, 
+    "armor_class": 7, 
+    "bare_hand_damage": {
+      "bonus": 1, 
+      "dice": 1, 
+      "sides": 4
+    }, 
+    "detail_desc": "Little green, vaguely humoniod shaped creature, with a long pointed tail.\nIt is hard to say because before you ever get a good look at it, it darts\nback into the shadows.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SCAVENGER", 
+        "value": 4
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }, 
+      {
+        "note": "WIMPY", 
+        "value": 128
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 0, 
+    "id": 18608, 
+    "level": 3, 
+    "long_desc": "A funny little imp-like thing (a quasit perhaps?) is sneaking about here.", 
+    "max_hit_points": {
+      "bonus": 30, 
+      "dice": 1, 
+      "sides": 10
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the quasit", 
+    "thac0": 19, 
+    "xp": 300
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "minotaur"
+    ], 
+    "alignment": -1000, 
+    "armor_class": 5, 
+    "bare_hand_damage": {
+      "bonus": 1, 
+      "dice": 2, 
+      "sides": 4
+    }, 
+    "detail_desc": "A massive man, with the head of a bull.  He looks as strong as bull too,\nbut not nearly as smart.  Actually, now that you consider it... he looks\na heck of a lot meaner than any bull you have ever seen... and he is\ncoming this way!", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }, 
+      {
+        "note": "AGGR_GOOD", 
+        "value": 512
+      }, 
+      {
+        "note": "AGGR_NEUTRAL", 
+        "value": 1024
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 1000, 
+    "id": 18609, 
+    "level": 7, 
+    "long_desc": "The Great Minotaur is wondering just what you'll taste like.", 
+    "max_hit_points": {
+      "bonus": 85, 
+      "dice": 3, 
+      "sides": 5
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the massive Minotaur", 
+    "thac0": 15, 
+    "xp": 3000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "INVISIBLE", 
+        "value": 2
+      }, 
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "HIDE", 
+        "value": 524288
+      }
+    ], 
+    "aliases": [
+      "spectre", 
+      "ghost"
+    ], 
+    "alignment": -850, 
+    "armor_class": 3, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 2, 
+      "sides": 4
+    }, 
+    "detail_desc": "The soul of a long since passed on adventurer... it lurks here waiting for\na chance to bring death to any who cross its path.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "ISNPC", 
+        "value": 8
+      }, 
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 18610, 
+    "level": 6, 
+    "long_desc": "The dark spectre is lurking in the shadows.", 
+    "max_hit_points": {
+      "bonus": 62, 
+      "dice": 3, 
+      "sides": 5
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the dark spectre", 
+    "thac0": 16, 
+    "xp": 1600
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "newbie", 
+      "annoying", 
+      "jerk"
+    ], 
+    "alignment": -500, 
+    "armor_class": 10, 
+    "bare_hand_damage": {
+      "bonus": 1, 
+      "dice": 1, 
+      "sides": 3
+    }, 
+    "detail_desc": "What a jerk!  He won't shut up, and he keeps making the most irritating\ncomments about everything.  Better silence him with cold, tempered steel\nMUHAHAHAHAHAHAHAHAHAHA!", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SCAVENGER", 
+        "value": 4
+      }, 
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 250, 
+    "id": 18611, 
+    "level": 2, 
+    "long_desc": "A newbie is here annoying the hell out of you.", 
+    "max_hit_points": {
+      "bonus": 20, 
+      "dice": 2, 
+      "sides": 4
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the annoying newbie", 
+    "thac0": 18, 
+    "xp": 500
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "newbie", 
+      "clueless", 
+      "moron"
+    ], 
+    "alignment": 0, 
+    "armor_class": 10, 
+    "bare_hand_damage": {
+      "bonus": 1, 
+      "dice": 1, 
+      "sides": 3
+    }, 
+    "detail_desc": "What a moron!  Every question that is answered in the help files, he will\nask and he will probably ask 2 or 3 times too.  This guy just doesn't get\nit, best put him out of his misery.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SCAVENGER", 
+        "value": 4
+      }, 
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 50, 
+    "id": 18612, 
+    "level": 1, 
+    "long_desc": "A newbie is here looking terribly confused.", 
+    "max_hit_points": {
+      "bonus": 19, 
+      "dice": 1, 
+      "sides": 1
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the clueless newbie", 
+    "thac0": 20, 
+    "xp": 220
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "newbie", 
+      "talkative"
+    ], 
+    "alignment": 100, 
+    "armor_class": 8, 
+    "bare_hand_damage": {
+      "bonus": 1, 
+      "dice": 1, 
+      "sides": 7
+    }, 
+    "detail_desc": "Well, at least this gal seems pretty cool.  Talks a lot, but she's a\nfriendly, interesting sort.  Seems to have a clue what she's doing also,\nunlike some others you might see.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "F", 
+      "value": 2
+    }, 
+    "gold": 700, 
+    "id": 18613, 
+    "level": 3, 
+    "long_desc": "A newbie is here talking a lot.", 
+    "max_hit_points": {
+      "bonus": 22, 
+      "dice": 6, 
+      "sides": 5
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the talkative newbie", 
+    "thac0": 18, 
+    "xp": 600
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "newbie", 
+      "lost"
+    ], 
+    "alignment": 300, 
+    "armor_class": 6, 
+    "bare_hand_damage": {
+      "bonus": 1, 
+      "dice": 1, 
+      "sides": 6
+    }, 
+    "detail_desc": "Hmmm... looks like he has been around a while, but he wandered a little\ntoo far from home this time.  Don't think he knows quite where he is,\nmaybe you should help him out?", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 250, 
+    "id": 18614, 
+    "level": 4, 
+    "long_desc": "A newbie is here wandering about aimlessly.", 
+    "max_hit_points": {
+      "bonus": 20, 
+      "dice": 8, 
+      "sides": 5
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the lost newbie", 
+    "thac0": 17, 
+    "xp": 500
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "newbie", 
+      "smart"
+    ], 
+    "alignment": 500, 
+    "armor_class": 9, 
+    "bare_hand_damage": {
+      "bonus": 2, 
+      "dice": 2, 
+      "sides": 3
+    }, 
+    "detail_desc": "Here is a guy who has it all together.  Nice equipment too, must have read\nthe help files, Eh?", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SCAVENGER", 
+        "value": 4
+      }, 
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 1100, 
+    "id": 18615, 
+    "level": 5, 
+    "long_desc": "A newbie is here, and he looks quite sure of himself.", 
+    "max_hit_points": {
+      "bonus": 20, 
+      "dice": 10, 
+      "sides": 5
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the smart newbie", 
+    "thac0": 15, 
+    "xp": 1000
+  }
+]

@@ -4,7 +4,7 @@ for type in "mob" "obj" "shp" "wld" "zon"; do
     mkdir -p output/$type
 
     # get the filenames for each file type
-    input_dir = $1
+    input_dir=$1
     files=$( find $input_dir -name "*.$type" )
 
     # convert the files

@@ -1,0 +1,2363 @@
+[
+  {
+    "affects": [
+      {
+        "note": "SANCTUARY", 
+        "value": 128
+      }
+    ], 
+    "aliases": [
+      "judge", 
+      "adjudicator"
+    ], 
+    "alignment": 100, 
+    "armor_class": 2, 
+    "bare_hand_damage": {
+      "bonus": 4, 
+      "dice": 1, 
+      "sides": 7
+    }, 
+    "detail_desc": "The adjudicator is a retired gladiator and scars cover all exposed parts of\nhis body.  Although he is getting on in years, he remains healthy and fit.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 2000, 
+    "id": 12000, 
+    "level": 12, 
+    "long_desc": "An adjudicator is watching the games intently.", 
+    "max_hit_points": {
+      "bonus": 140, 
+      "dice": 3, 
+      "sides": 7
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the adjudicator", 
+    "thac0": 9, 
+    "xp": 13000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "scorekeeper"
+    ], 
+    "alignment": 100, 
+    "armor_class": 4, 
+    "bare_hand_damage": {
+      "bonus": 3, 
+      "dice": 1, 
+      "sides": 4
+    }, 
+    "detail_desc": "The scorekeeper is a young man of about 25 years of age and is very intently\nstudying his clipboard.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 500, 
+    "id": 12001, 
+    "level": 7, 
+    "long_desc": "A scorekeeper has one eye on his stopwatch and the other on a clipboard.", 
+    "max_hit_points": {
+      "bonus": 80, 
+      "dice": 3, 
+      "sides": 5
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the scorekeeper", 
+    "thac0": 14, 
+    "xp": 2250
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "spectator", 
+      "fan"
+    ], 
+    "alignment": -100, 
+    "armor_class": 5, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 2, 
+      "sides": 4
+    }, 
+    "detail_desc": "The spectator is filthy, half drunk and screaming his head off.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 100, 
+    "id": 12003, 
+    "level": 5, 
+    "long_desc": "A spectator is here watching the games.", 
+    "max_hit_points": {
+      "bonus": 65, 
+      "dice": 2, 
+      "sides": 6
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_SITTING", 
+        "value": 6
+      }, 
+      "load": {
+        "note": "POSITION_SITTING", 
+        "value": 6
+      }
+    }, 
+    "short_desc": "the spectator", 
+    "thac0": 16, 
+    "xp": 900
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }
+    ], 
+    "aliases": [
+      "noble", 
+      "nobleman"
+    ], 
+    "alignment": 500, 
+    "armor_class": 2, 
+    "bare_hand_damage": {
+      "bonus": 5, 
+      "dice": 1, 
+      "sides": 7
+    }, 
+    "detail_desc": "The nobleman is dressed in fine clothes and jewelry and has a very snobbish\nattitude.  While he is getting old and his hair and beard are streaked with\ngray, he is by no means an easy target.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "WIMPY", 
+        "value": 128
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 3500, 
+    "id": 12004, 
+    "level": 12, 
+    "long_desc": "A nobleman stands here looking aloof.", 
+    "max_hit_points": {
+      "bonus": 140, 
+      "dice": 4, 
+      "sides": 6
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the nobleman", 
+    "thac0": 9, 
+    "xp": 13000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "slave"
+    ], 
+    "alignment": 0, 
+    "armor_class": 7, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 7
+    }, 
+    "detail_desc": "A very pretty young woman who was captured instead of being killed when\nthe Roman legions subjugated her land.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }
+    ], 
+    "gender": {
+      "note": "F", 
+      "value": 2
+    }, 
+    "gold": 10, 
+    "id": 12005, 
+    "level": 3, 
+    "long_desc": "A slave stands here, wishing that she was free.", 
+    "max_hit_points": {
+      "bonus": 30, 
+      "dice": 3, 
+      "sides": 6
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the slave", 
+    "thac0": 18, 
+    "xp": 350
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "gladiator"
+    ], 
+    "alignment": -250, 
+    "armor_class": 0, 
+    "bare_hand_damage": {
+      "bonus": 6, 
+      "dice": 1, 
+      "sides": 8
+    }, 
+    "detail_desc": "A well muscled man who is very heavily armored and armed to the teeth.  He\nlives for combat.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 700, 
+    "id": 12006, 
+    "level": 14, 
+    "long_desc": "There is a gladiator standing here.", 
+    "max_hit_points": {
+      "bonus": 150, 
+      "dice": 4, 
+      "sides": 7
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the gladiator", 
+    "thac0": 5, 
+    "xp": 19500
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "driver"
+    ], 
+    "alignment": 100, 
+    "armor_class": 2, 
+    "bare_hand_damage": {
+      "bonus": 1, 
+      "dice": 2, 
+      "sides": 6
+    }, 
+    "detail_desc": "You see a very slight and small individual whose whole life is centered around\nnothing but horses and speed.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 1200, 
+    "id": 12007, 
+    "level": 10, 
+    "long_desc": "There is a chariot driver here.", 
+    "max_hit_points": {
+      "bonus": 120, 
+      "dice": 3, 
+      "sides": 7
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the chariot driver", 
+    "thac0": 11, 
+    "xp": 9000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "coach", 
+      "trainer"
+    ], 
+    "alignment": 0, 
+    "armor_class": 2, 
+    "bare_hand_damage": {
+      "bonus": 1, 
+      "dice": 2, 
+      "sides": 6
+    }, 
+    "detail_desc": "As you try to look over his shoulder and listen in on his mumbling,\nhe looks up at you and gives you a glare that chills you to the\nbone.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 500, 
+    "id": 12008, 
+    "level": 11, 
+    "long_desc": "There is a coach standing here, going over last minute strategy.", 
+    "max_hit_points": {
+      "bonus": 130, 
+      "dice": 4, 
+      "sides": 5
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the coach", 
+    "thac0": 10, 
+    "xp": 11000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }
+    ], 
+    "aliases": [
+      "healer"
+    ], 
+    "alignment": 900, 
+    "armor_class": 1, 
+    "bare_hand_damage": {
+      "bonus": 6, 
+      "dice": 1, 
+      "sides": 7
+    }, 
+    "detail_desc": "You see a young man, still learning about magical healing, wearing a white \ncoat and using a stethoscope.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AWARE", 
+        "value": 16
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 1500, 
+    "id": 12009, 
+    "level": 14, 
+    "long_desc": "A healer is standing here.", 
+    "max_hit_points": {
+      "bonus": 170, 
+      "dice": 2, 
+      "sides": 7
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the healer", 
+    "thac0": 7, 
+    "xp": 18000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }
+    ], 
+    "aliases": [
+      "herbalist", 
+      "young", 
+      "lady", 
+      "beautiful"
+    ], 
+    "alignment": 1000, 
+    "armor_class": 2, 
+    "bare_hand_damage": {
+      "bonus": 4, 
+      "dice": 1, 
+      "sides": 7
+    }, 
+    "detail_desc": "The herbalist is a very beautiful young lady who is about 22 years old.  She \nhas deep brown eyes and shoulder-length chestnut hair.  Her body is perfectly \nproportioned and she stands about 5' 5\" tall.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "WIMPY", 
+        "value": 128
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "F", 
+      "value": 2
+    }, 
+    "gold": 500, 
+    "id": 12010, 
+    "level": 10, 
+    "long_desc": "There is a beautiful young lady here, carrying herbs to help the healer with.", 
+    "max_hit_points": {
+      "bonus": 110, 
+      "dice": 3, 
+      "sides": 4
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the herbalist", 
+    "thac0": 11, 
+    "xp": 8000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "SANCTUARY", 
+        "value": 128
+      }, 
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }
+    ], 
+    "aliases": [
+      "shopkeeper"
+    ], 
+    "alignment": 750, 
+    "armor_class": -2, 
+    "bare_hand_damage": {
+      "bonus": 12, 
+      "dice": 3, 
+      "sides": 8
+    }, 
+    "detail_desc": "The shopkeeper is an older man in his middle to late fifties and looks like\nhe enjoys the quiet life.  There is a long scar running from the edge of his\nmouth to his right ear, making it look like he is always smiling.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 5000, 
+    "id": 12011, 
+    "level": 23, 
+    "long_desc": "Titus' shopkeeper is here, minding the store.", 
+    "max_hit_points": {
+      "bonus": 400, 
+      "dice": 4, 
+      "sides": 10
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "Titus' shopkeeper", 
+    "thac0": 0, 
+    "xp": 80000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "peddler"
+    ], 
+    "alignment": 250, 
+    "armor_class": 6, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 8
+    }, 
+    "detail_desc": "You see a small, dirty man who doesn't look very healthy.  ", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }, 
+      {
+        "note": "WIMPY", 
+        "value": 128
+      }, 
+      {
+        "note": "NOCHARM", 
+        "value": 8192
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 100, 
+    "id": 12012, 
+    "level": 4, 
+    "long_desc": "A poor peddler is standing here, trying to support his meager existence.", 
+    "max_hit_points": {
+      "bonus": 40, 
+      "dice": 3, 
+      "sides": 4
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the peddler", 
+    "thac0": 17, 
+    "xp": 600
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "page"
+    ], 
+    "alignment": 0, 
+    "armor_class": 4, 
+    "bare_hand_damage": {
+      "bonus": 1, 
+      "dice": 2, 
+      "sides": 4
+    }, 
+    "detail_desc": "You see a young boy who looks very strong and very fast.  He has the look of\na scholar about him.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 0, 
+    "id": 12013, 
+    "level": 6, 
+    "long_desc": "A page stands here, waiting to run an errand.", 
+    "max_hit_points": {
+      "bonus": 75, 
+      "dice": 3, 
+      "sides": 6
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the page", 
+    "thac0": 15, 
+    "xp": 1600
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "plaintiff"
+    ], 
+    "alignment": 0, 
+    "armor_class": 2, 
+    "bare_hand_damage": {
+      "bonus": 3, 
+      "dice": 2, 
+      "sides": 6
+    }, 
+    "detail_desc": "He looks pitiful.  Absolutely pitiful.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 1000, 
+    "id": 12014, 
+    "level": 11, 
+    "long_desc": "The plaintiff stands here, pleading his case.", 
+    "max_hit_points": {
+      "bonus": 140, 
+      "dice": 3, 
+      "sides": 6
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the plaintiff", 
+    "thac0": 10, 
+    "xp": 12000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "master"
+    ], 
+    "alignment": 100, 
+    "armor_class": 1, 
+    "bare_hand_damage": {
+      "bonus": 11, 
+      "dice": 1, 
+      "sides": 6
+    }, 
+    "detail_desc": "He seems to be waiting for you to either buy a ticket or to get out\nof his way so that he can sell tickets to people that actually want\nthem.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 4000, 
+    "id": 12015, 
+    "level": 17, 
+    "long_desc": "A ticket master is here, looking at you expectantly.", 
+    "max_hit_points": {
+      "bonus": 210, 
+      "dice": 4, 
+      "sides": 8
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the ticket master", 
+    "thac0": 4, 
+    "xp": 28000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "vendor"
+    ], 
+    "alignment": -150, 
+    "armor_class": 3, 
+    "bare_hand_damage": {
+      "bonus": 15, 
+      "dice": 2, 
+      "sides": 5
+    }, 
+    "detail_desc": "The vendor is a scruffy looking man who isn't afraid of a fight and looks\nlike he has had just about enough of smart-mouthed spectators.  ", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 500, 
+    "id": 12016, 
+    "level": 8, 
+    "long_desc": "A stadium vendor is walking here, selling overpriced hotdogs and beer.", 
+    "max_hit_points": {
+      "bonus": 13000, 
+      "dice": 2, 
+      "sides": 4
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the stadium vendor", 
+    "thac0": 13, 
+    "xp": 3700
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "citizen"
+    ], 
+    "alignment": 900, 
+    "armor_class": 5, 
+    "bare_hand_damage": {
+      "bonus": 1, 
+      "dice": 1, 
+      "sides": 8
+    }, 
+    "detail_desc": "It appears to be your ordinary citizen going about his business.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 100, 
+    "id": 12017, 
+    "level": 5, 
+    "long_desc": "A citizen of Rome is standing here.", 
+    "max_hit_points": {
+      "bonus": 85, 
+      "dice": 1, 
+      "sides": 4
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the citizen", 
+    "thac0": 16, 
+    "xp": 1000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "gateguard", 
+      "guard"
+    ], 
+    "alignment": 1000, 
+    "armor_class": 2, 
+    "bare_hand_damage": {
+      "bonus": 5, 
+      "dice": 1, 
+      "sides": 6
+    }, 
+    "detail_desc": "You see a strong, loyal public defender.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "SCAVENGER", 
+        "value": 4
+      }, 
+      {
+        "note": "AWARE", 
+        "value": 16
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 500, 
+    "id": 12018, 
+    "level": 11, 
+    "long_desc": "A gateguard stands here, tending the gate.", 
+    "max_hit_points": {
+      "bonus": 130, 
+      "dice": 3, 
+      "sides": 6
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the gateguard", 
+    "thac0": 10, 
+    "xp": 11000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "soldier"
+    ], 
+    "alignment": 300, 
+    "armor_class": -1, 
+    "bare_hand_damage": {
+      "bonus": 9, 
+      "dice": 1, 
+      "sides": 6
+    }, 
+    "detail_desc": "You see a member of one of the Emperor's elite legions.  He looks VERY strong.\nYou have this vague feeling that his entertainment isn't going to be a very\nwholesome activity.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 1281, 
+    "id": 12019, 
+    "level": 17, 
+    "long_desc": "A soldier on leave is walking around looking for entertainment.", 
+    "max_hit_points": {
+      "bonus": 220, 
+      "dice": 3, 
+      "sides": 5
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the soldier", 
+    "thac0": 4, 
+    "xp": 28000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SANCTUARY", 
+        "value": 128
+      }, 
+      {
+        "note": "NOTRACK", 
+        "value": 32768
+      }
+    ], 
+    "aliases": [
+      "emperor", 
+      "julius", 
+      "caesar"
+    ], 
+    "alignment": 990, 
+    "armor_class": -7, 
+    "bare_hand_damage": {
+      "bonus": 15, 
+      "dice": 3, 
+      "sides": 7
+    }, 
+    "detail_desc": "You see a man who is dressed in the finest of clothes, has eaten the best of\nfoods and lived in the most opulent palace that Rome has ever known. ", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 24763, 
+    "id": 12020, 
+    "level": 27, 
+    "long_desc": "Julius Caesar, the Emperor of Rome, is sitting here.", 
+    "max_hit_points": {
+      "bonus": 650, 
+      "dice": 10, 
+      "sides": 5
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "Julius Caesar", 
+    "thac0": 0, 
+    "xp": 150000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }
+    ], 
+    "aliases": [
+      "guard", 
+      "royal", 
+      "bodyguard"
+    ], 
+    "alignment": 990, 
+    "armor_class": 0, 
+    "bare_hand_damage": {
+      "bonus": 6, 
+      "dice": 1, 
+      "sides": 6
+    }, 
+    "detail_desc": "The bodyguard is dressed in the finest of armor and wields only the\ndeadliest of weapons.  He is very strong and would put up one hell\nof a fight.  He has been trained to be suspicious of all but the\nmost innocent visitors, and likely to take offense of anyone with\nless than pure intentions.", 
+    "extra_spec": {
+      "BareHandAttack": 6, 
+      "Str": 18, 
+      "StrAdd": 90
+    }, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AGGR_EVIL", 
+        "value": 256
+      }, 
+      {
+        "note": "AGGR_NEUTRAL", 
+        "value": 1024
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 5000, 
+    "id": 12021, 
+    "level": 18, 
+    "long_desc": "There is a royal bodyguard here, ready to die for the Emperor, if necessary.", 
+    "max_hit_points": {
+      "bonus": 220, 
+      "dice": 3, 
+      "sides": 6
+    }, 
+    "mob_type": "E", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the royal bodyguard", 
+    "thac0": 2, 
+    "xp": 35000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "judge", 
+      "justice"
+    ], 
+    "alignment": 990, 
+    "armor_class": -1, 
+    "bare_hand_damage": {
+      "bonus": 11, 
+      "dice": 1, 
+      "sides": 7
+    }, 
+    "detail_desc": "He seems to be quite interested in the case, perhaps you shouldn't\ndisturb him now, later would probably be a better time.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 5000, 
+    "id": 12022, 
+    "level": 21, 
+    "long_desc": "A judge is standing here, reading a case.", 
+    "max_hit_points": {
+      "bonus": 260, 
+      "dice": 20, 
+      "sides": 5
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_SITTING", 
+        "value": 6
+      }, 
+      "load": {
+        "note": "POSITION_SITTING", 
+        "value": 6
+      }
+    }, 
+    "short_desc": "the judge", 
+    "thac0": 0, 
+    "xp": 50000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "master", 
+      "scheduler"
+    ], 
+    "alignment": 900, 
+    "armor_class": 0, 
+    "bare_hand_damage": {
+      "bonus": 9, 
+      "dice": 1, 
+      "sides": 6
+    }, 
+    "detail_desc": "As you look at him, he looks up at you and asks, 'Do you have an\nappointment?'  He waits for a few seconds and then asks, 'Would\nyou like one?'", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 3000, 
+    "id": 12023, 
+    "level": 17, 
+    "long_desc": "The master scheduler is here, writing in an appointment book.", 
+    "max_hit_points": {
+      "bonus": 210, 
+      "dice": 4, 
+      "sides": 4
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the master scheduler", 
+    "thac0": 3, 
+    "xp": 28000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SENSE_LIFE", 
+        "value": 32
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "slimeball", 
+      "slime", 
+      "ball", 
+      "green"
+    ], 
+    "alignment": -500, 
+    "armor_class": 2, 
+    "bare_hand_damage": {
+      "bonus": 2, 
+      "dice": 2, 
+      "sides": 6
+    }, 
+    "detail_desc": "There is a green 'ball' of slime oozing from the coating on the walls.", 
+    "extra_spec": {
+      "BareHandAttack": 9, 
+      "Int": 1
+    }, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "SCAVENGER", 
+        "value": 4
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "NOBASH", 
+        "value": 65536
+      }, 
+      {
+        "note": "NOBLIND", 
+        "value": 131072
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 12024, 
+    "level": 12, 
+    "long_desc": "A green ball of slime is hanging over you, oozing downward.", 
+    "max_hit_points": {
+      "bonus": 145, 
+      "dice": 3, 
+      "sides": 4
+    }, 
+    "mob_type": "E", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the slimeball", 
+    "thac0": 9, 
+    "xp": 13000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SANCTUARY", 
+        "value": 128
+      }
+    ], 
+    "aliases": [
+      "froboz", 
+      "wizard"
+    ], 
+    "alignment": 300, 
+    "armor_class": -3, 
+    "bare_hand_damage": {
+      "bonus": 14, 
+      "dice": 1, 
+      "sides": 8
+    }, 
+    "detail_desc": "You see a middle-aged man whose knowledge of magic, both offensive and \ndefensive, is legendary.  He literally glows with a pink aura.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AWARE", 
+        "value": 16
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "NOCHARM", 
+        "value": 8192
+      }, 
+      {
+        "note": "NOSUMMON", 
+        "value": 16384
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 32000, 
+    "id": 12025, 
+    "level": 23, 
+    "long_desc": "Froboz the wizard is standing here, working on a new spell.", 
+    "max_hit_points": {
+      "bonus": 425, 
+      "dice": 5, 
+      "sides": 10
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "Froboz", 
+    "thac0": 0, 
+    "xp": 95000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SANCTUARY", 
+        "value": 128
+      }
+    ], 
+    "aliases": [
+      "titus", 
+      "andronicus"
+    ], 
+    "alignment": 500, 
+    "armor_class": -5, 
+    "bare_hand_damage": {
+      "bonus": 14, 
+      "dice": 1, 
+      "sides": 8
+    }, 
+    "detail_desc": "As you look at him, he suddenly swings a newly sharpened sword\nat you!  Watch out!", 
+    "extra_spec": {
+      "BareHandAttack": 3
+    }, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AWARE", 
+        "value": 16
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "NOCHARM", 
+        "value": 8192
+      }, 
+      {
+        "note": "NOSUMMON", 
+        "value": 16384
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 31000, 
+    "id": 12026, 
+    "level": 24, 
+    "long_desc": "Titus Andronicus is standing here, polishing a few swords.", 
+    "max_hit_points": {
+      "bonus": 450, 
+      "dice": 1, 
+      "sides": 5
+    }, 
+    "mob_type": "E", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "Titus Andronicus", 
+    "thac0": 0, 
+    "xp": 85000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "senator"
+    ], 
+    "alignment": 350, 
+    "armor_class": 2, 
+    "bare_hand_damage": {
+      "bonus": 1, 
+      "dice": 2, 
+      "sides": 6
+    }, 
+    "detail_desc": "He seems to be quite bored and is playing with the edge of his toga.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 500, 
+    "id": 12027, 
+    "level": 10, 
+    "long_desc": "A senator is here, waiting for debate to begin.", 
+    "max_hit_points": {
+      "bonus": 120, 
+      "dice": 3, 
+      "sides": 5
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the senator", 
+    "thac0": 11, 
+    "xp": 9000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }
+    ], 
+    "aliases": [
+      "bailiff"
+    ], 
+    "alignment": 900, 
+    "armor_class": 1, 
+    "bare_hand_damage": {
+      "bonus": 4, 
+      "dice": 2, 
+      "sides": 7
+    }, 
+    "detail_desc": "He is a very stern man and insists on absolute quiet in his courtroom\nunless the judge has given someone permisson to speak.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 1000, 
+    "id": 12028, 
+    "level": 16, 
+    "long_desc": "The bailiff stands here, keeping order in the courtroom.", 
+    "max_hit_points": {
+      "bonus": 200, 
+      "dice": 1, 
+      "sides": 5
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the bailiff", 
+    "thac0": 5, 
+    "xp": 24000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "defendant"
+    ], 
+    "alignment": 200, 
+    "armor_class": 1, 
+    "bare_hand_damage": {
+      "bonus": 1, 
+      "dice": 2, 
+      "sides": 7
+    }, 
+    "detail_desc": "She looks to be well organized and full of confidence.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "F", 
+      "value": 2
+    }, 
+    "gold": 500, 
+    "id": 12029, 
+    "level": 11, 
+    "long_desc": "The defendant stands here, pleading her case.", 
+    "max_hit_points": {
+      "bonus": 130, 
+      "dice": 3, 
+      "sides": 6
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the defendant", 
+    "thac0": 9, 
+    "xp": 11000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SANCTUARY", 
+        "value": 128
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }, 
+      {
+        "note": "NOTRACK", 
+        "value": 32768
+      }
+    ], 
+    "aliases": [
+      "jupiter", 
+      "king", 
+      "god"
+    ], 
+    "alignment": 1000, 
+    "armor_class": -10, 
+    "bare_hand_damage": {
+      "bonus": 50, 
+      "dice": 8, 
+      "sides": 6
+    }, 
+    "detail_desc": "He is the strongest of the Gods, and certainly no easy mark!  His powers\ntranscend the plane of the physical, and could easily kill an unprepared\nmortal.", 
+    "extra_spec": {
+      "BareHandAttack": 10, 
+      "Cha": 25, 
+      "Con": 25, 
+      "Dex": 25, 
+      "Int": 25, 
+      "Str": 25, 
+      "Wis": 25
+    }, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AWARE", 
+        "value": 16
+      }, 
+      {
+        "note": "AGGR_EVIL", 
+        "value": 256
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "NOCHARM", 
+        "value": 8192
+      }, 
+      {
+        "note": "NOSUMMON", 
+        "value": 16384
+      }, 
+      {
+        "note": "NOSLEEP", 
+        "value": 32768
+      }, 
+      {
+        "note": "NOBASH", 
+        "value": 65536
+      }, 
+      {
+        "note": "NOBLIND", 
+        "value": 131072
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 250000, 
+    "id": 12030, 
+    "level": 34, 
+    "long_desc": "Jupiter, King of the Gods, is watching over his realm here.", 
+    "max_hit_points": {
+      "bonus": 950, 
+      "dice": 20, 
+      "sides": 15
+    }, 
+    "mob_type": "E", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "Jupiter", 
+    "thac0": 0, 
+    "xp": 550000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SANCTUARY", 
+        "value": 128
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }, 
+      {
+        "note": "NOTRACK", 
+        "value": 32768
+      }
+    ], 
+    "aliases": [
+      "venus", 
+      "goddess"
+    ], 
+    "alignment": 1000, 
+    "armor_class": -6, 
+    "bare_hand_damage": {
+      "bonus": 12, 
+      "dice": 6, 
+      "sides": 6
+    }, 
+    "detail_desc": "Venus is probably one of the most beautiful women you have ever seen\nif not THE most beautiful.  She is very powerful and tough under that\nouter image of beauty.", 
+    "extra_spec": {
+      "BareHandAttack": 12, 
+      "Cha": 25, 
+      "Con": 20, 
+      "Dex": 20, 
+      "Int": 20, 
+      "Str": 20, 
+      "Wis": 20
+    }, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AWARE", 
+        "value": 16
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "NOCHARM", 
+        "value": 8192
+      }, 
+      {
+        "note": "NOSUMMON", 
+        "value": 16384
+      }, 
+      {
+        "note": "NOSLEEP", 
+        "value": 32768
+      }, 
+      {
+        "note": "NOBASH", 
+        "value": 65536
+      }, 
+      {
+        "note": "NOBLIND", 
+        "value": 131072
+      }
+    ], 
+    "gender": {
+      "note": "F", 
+      "value": 2
+    }, 
+    "gold": 80000, 
+    "id": 12031, 
+    "level": 28, 
+    "long_desc": "Venus, the Goddess of Beauty and Knowledge, is resting here.", 
+    "max_hit_points": {
+      "bonus": 650, 
+      "dice": 5, 
+      "sides": 10
+    }, 
+    "mob_type": "E", 
+    "position": {
+      "default": {
+        "note": "POSITION_RESTING", 
+        "value": 5
+      }, 
+      "load": {
+        "note": "POSITION_RESTING", 
+        "value": 5
+      }
+    }, 
+    "short_desc": "Venus", 
+    "thac0": 0, 
+    "xp": 310000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SANCTUARY", 
+        "value": 128
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }, 
+      {
+        "note": "NOTRACK", 
+        "value": 32768
+      }
+    ], 
+    "aliases": [
+      "mars", 
+      "god"
+    ], 
+    "alignment": 1000, 
+    "armor_class": -9, 
+    "bare_hand_damage": {
+      "bonus": 14, 
+      "dice": 8, 
+      "sides": 6
+    }, 
+    "detail_desc": "Mars is a tall God with burning, hateful eyes and a large scowl on\nhis face.", 
+    "extra_spec": {
+      "BareHandAttack": 7, 
+      "Cha": 20, 
+      "Con": 20, 
+      "Dex": 20, 
+      "Int": 20, 
+      "Str": 25, 
+      "Wis": 20
+    }, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AWARE", 
+        "value": 16
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "NOCHARM", 
+        "value": 8192
+      }, 
+      {
+        "note": "NOSUMMON", 
+        "value": 16384
+      }, 
+      {
+        "note": "NOSLEEP", 
+        "value": 32768
+      }, 
+      {
+        "note": "NOBASH", 
+        "value": 65536
+      }, 
+      {
+        "note": "NOBLIND", 
+        "value": 131072
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 60000, 
+    "id": 12032, 
+    "level": 27, 
+    "long_desc": "Mars, the God of War and State, is sitting down here.", 
+    "max_hit_points": {
+      "bonus": 630, 
+      "dice": 15, 
+      "sides": 10
+    }, 
+    "mob_type": "E", 
+    "position": {
+      "default": {
+        "note": "POSITION_SITTING", 
+        "value": 6
+      }, 
+      "load": {
+        "note": "POSITION_SITTING", 
+        "value": 6
+      }
+    }, 
+    "short_desc": "Mars", 
+    "thac0": 0, 
+    "xp": 200000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }, 
+      {
+        "note": "NOTRACK", 
+        "value": 32768
+      }
+    ], 
+    "aliases": [
+      "mercury", 
+      "messenger", 
+      "god"
+    ], 
+    "alignment": 1000, 
+    "armor_class": -10, 
+    "bare_hand_damage": {
+      "bonus": 8, 
+      "dice": 4, 
+      "sides": 6
+    }, 
+    "detail_desc": "Mercury is a handsome, youthful God and wears a large grin on his face.", 
+    "extra_spec": {
+      "BareHandAttack": 13, 
+      "Cha": 23, 
+      "Con": 20, 
+      "Dex": 25, 
+      "Int": 20, 
+      "Str": 20, 
+      "Wis": 20
+    }, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AWARE", 
+        "value": 16
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "NOCHARM", 
+        "value": 8192
+      }, 
+      {
+        "note": "NOSUMMON", 
+        "value": 16384
+      }, 
+      {
+        "note": "NOSLEEP", 
+        "value": 32768
+      }, 
+      {
+        "note": "NOBASH", 
+        "value": 65536
+      }, 
+      {
+        "note": "NOBLIND", 
+        "value": 131072
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 25000, 
+    "id": 12033, 
+    "level": 26, 
+    "long_desc": "Mercury, the messenger of the Gods, is standing here.", 
+    "max_hit_points": {
+      "bonus": 550, 
+      "dice": 5, 
+      "sides": 10
+    }, 
+    "mob_type": "E", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "Mercury", 
+    "thac0": 0, 
+    "xp": 155000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SANCTUARY", 
+        "value": 128
+      }
+    ], 
+    "aliases": [
+      "shopkeeper"
+    ], 
+    "alignment": 650, 
+    "armor_class": -2, 
+    "bare_hand_damage": {
+      "bonus": 14, 
+      "dice": 1, 
+      "sides": 8
+    }, 
+    "detail_desc": "The shopkeeper is an older man in his middle to late fifties and looks like\nhe enjoys the quiet life.  There is a long scar running from the edge of his\nmouth to his right ear, making it look like he is always smiling.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "NOCHARM", 
+        "value": 8192
+      }, 
+      {
+        "note": "NOSUMMON", 
+        "value": 16384
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 5000, 
+    "id": 12034, 
+    "level": 23, 
+    "long_desc": "Froboz' shopkeeper is here, minding the store.", 
+    "max_hit_points": {
+      "bonus": 400, 
+      "dice": 4, 
+      "sides": 10
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "Froboz' shopkeeper", 
+    "thac0": 0, 
+    "xp": 80000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }
+    ], 
+    "aliases": [
+      "executioner"
+    ], 
+    "alignment": -1000, 
+    "armor_class": 0, 
+    "bare_hand_damage": {
+      "bonus": 14, 
+      "dice": 2, 
+      "sides": 2
+    }, 
+    "detail_desc": "You see a burly man who is wearing a black hood that obscures his face.  He\nhas a very sadistic attitude and clearly loves his work.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "SCAVENGER", 
+        "value": 4
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "NOCHARM", 
+        "value": 8192
+      }, 
+      {
+        "note": "NOSUMMON", 
+        "value": 16384
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 1000, 
+    "id": 12035, 
+    "level": 20, 
+    "long_desc": "The executioner stands here, waiting to torture some sorry soul.", 
+    "max_hit_points": {
+      "bonus": 260, 
+      "dice": 2, 
+      "sides": 6
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the executioner", 
+    "thac0": 1, 
+    "xp": 40000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }
+    ], 
+    "aliases": [
+      "baker"
+    ], 
+    "alignment": 900, 
+    "armor_class": -10, 
+    "bare_hand_damage": {
+      "bonus": 22, 
+      "dice": 2, 
+      "sides": 8
+    }, 
+    "detail_desc": "A fat, nice looking baker.  But you can see that he has many scars on his\nbody.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 2000, 
+    "id": 12036, 
+    "level": 33, 
+    "long_desc": "The baker looks at you calmly, wiping flour from his face with one hand.", 
+    "max_hit_points": {
+      "bonus": 30000, 
+      "dice": 6, 
+      "sides": 10
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the baker", 
+    "thac0": 0, 
+    "xp": 80000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }
+    ], 
+    "aliases": [
+      "grocer"
+    ], 
+    "alignment": 900, 
+    "armor_class": -10, 
+    "bare_hand_damage": {
+      "bonus": 22, 
+      "dice": 2, 
+      "sides": 8
+    }, 
+    "detail_desc": "A tall grocer, who moves two 200 pounds bag of flour around on his shoulders.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 20000, 
+    "id": 12037, 
+    "level": 33, 
+    "long_desc": "A grocer stands at the counter, with a slightly impatient look on his face.", 
+    "max_hit_points": {
+      "bonus": 30000, 
+      "dice": 1, 
+      "sides": 1
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the grocer", 
+    "thac0": 0, 
+    "xp": 80000
+  }
+]

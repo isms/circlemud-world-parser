@@ -1,0 +1,123 @@
+[
+  {
+    "buy_rate": 0.3, 
+    "buy_types": [
+      {
+        "namelist": null, 
+        "note": "ARMOR", 
+        "value": 9
+      }, 
+      {
+        "namelist": null, 
+        "note": "WEAPON", 
+        "value": 5
+      }
+    ], 
+    "flags": [
+      {
+        "note": "WILL_BANK_MONEY", 
+        "value": 2
+      }
+    ], 
+    "id": 6503, 
+    "messages": {
+      "buy_fails_object_does_not_exist": "We don't have any in storage, sorry!", 
+      "buy_fails_player_cannot_afford_object": "You can't afford it, and don't ask a God for the money!", 
+      "buy_succeeds": "That'll cost you %d coins, please.", 
+      "sell_fails_object_does_not_exist": "Check your possessions, you don't have that.", 
+      "sell_fails_shop_cannot_afford_object": "I can't afford something that great!", 
+      "sell_fails_shop_does_not_buy_object": "I don't care for those types of goods.", 
+      "sell_succeeds": "You'll get %d coins for that."
+    }, 
+    "objects": [
+      3022, 
+      6504, 
+      6505, 
+      6510, 
+      6512
+    ], 
+    "rooms": [
+      6516
+    ], 
+    "sell_rate": 1.9, 
+    "shopkeeper": 6503, 
+    "temper": 1, 
+    "times": [
+      {
+        "close": 22, 
+        "open": 1
+      }, 
+      {
+        "close": 28, 
+        "open": 23
+      }
+    ], 
+    "trades_with": []
+  }, 
+  {
+    "buy_rate": 0.2, 
+    "buy_types": [
+      {
+        "namelist": null, 
+        "note": "LIGHT", 
+        "value": 1
+      }, 
+      {
+        "namelist": null, 
+        "note": "CONTAINER", 
+        "value": 15
+      }, 
+      {
+        "namelist": "container", 
+        "note": "LIQ", 
+        "value": null
+      }, 
+      {
+        "namelist": null, 
+        "note": "FOOD", 
+        "value": 19
+      }
+    ], 
+    "flags": [
+      {
+        "note": "WILL_BANK_MONEY", 
+        "value": 2
+      }
+    ], 
+    "id": 6504, 
+    "messages": {
+      "buy_fails_object_does_not_exist": "Haven't got that on storage!", 
+      "buy_fails_player_cannot_afford_object": "You can't afford that!", 
+      "buy_succeeds": "That'll be %d coins, please.", 
+      "sell_fails_object_does_not_exist": "You don't seem to have that!", 
+      "sell_fails_shop_cannot_afford_object": "I cannot afford such a great treasure!", 
+      "sell_fails_shop_does_not_buy_object": "I don't buy those types, try another shop.", 
+      "sell_succeeds": "You'll get %d coins for that!"
+    }, 
+    "objects": [
+      3000, 
+      3003, 
+      3010, 
+      3011, 
+      3031, 
+      6013
+    ], 
+    "rooms": [
+      6535
+    ], 
+    "sell_rate": 1.9, 
+    "shopkeeper": 6504, 
+    "temper": 0, 
+    "times": [
+      {
+        "close": 18, 
+        "open": 6
+      }, 
+      {
+        "close": 28, 
+        "open": 20
+      }
+    ], 
+    "trades_with": []
+  }
+]

@@ -1,0 +1,2185 @@
+[
+  {
+    "desc": "This trail leads up, up, up into the mountains.  You\nhope you don't fall down, because that would hurt, hurt,\nhurt!  The trail continues to the east, and you can go\nback down to the small hidden valley to the west.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6401
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 4078
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 6400, 
+    "name": "A Mountain Trail", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "You're really high up now.  You can keep going even\nfarther up into the mountains to the east, or go back\ndown to the west.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6402
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6400
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 6401, 
+    "name": "A Mountain Trail", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "Wispy clouds are beginning to surround you now, and\nyour ears pop due to the altitude.  To the east, you see\nthe summit of the mountain, and from the way the nearby\nmountains are arranged behind it, you believe you're\non your way to a big valley.  You can also go down\nto the west.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6403
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6401
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 6402, 
+    "name": "A Mountain Trail", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "The peak of this mountain is another couple hundred\nfeet above you, but here is where the trail leads down\ninto the valley...  What an odd valley!\n   The valley seems to have been filled up by a hundreds\nof feet of lava many years ago.  It gives the valley an\nodd, 'flat' look and darkish ground.  The path leads\ndown east into the valley, and west back to civilization.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6404
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6402
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 6403, 
+    "name": "Near The Mountain's Peak", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "The trail leads down into the valley, where, by judging\nby the height of the trees, the lava had cooled tens\nof decades ago.  Down below you see the path lead into\nthe small forest in the valley, and disappear out of\nsight.  East leads into the valley, West back to civilization.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6405
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6403
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 6404, 
+    "name": "The Trail To The Valley", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "The ground has taken on the texture of dirt on the top,\nbut this valley is far too flat and too rocky to disguise\nthe catastrophe that happened here so long ago.  Looking\nup to the mountains ringing this area, you notice several\nmountains look as if they had 'exploded', which is strange,\nconsidering that they are not volcanos.\n   The path leads into the woods to the east, and back up\nthe mountain to the west.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6406
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6404
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 6405, 
+    "name": "In The Valley", 
+    "sector_type": {
+      "note": "FOREST", 
+      "value": 3
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "You come to a small clearing now, after walking for several\nminutes through the silent woods.  An odd block sticks up\nhere and there in   the ground... wait a minute.  These\nstones seem a little too regular, and from the circle \nformation and size you could almost swear that they were...\ncrenellations?  Could some sort of building been buried\nby the lava here?  A rusty ring sticks out of the earth\nin the center... a trapdoor?  This is almost too good to\nbe true!", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6405
+      }, 
+      {
+        "desc": "An ancient trapdoor, grimed with earth and age.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "trapdoor", 
+          "trap"
+        ], 
+        "room_linked": 6407
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 6406, 
+    "name": "In A Clearing", 
+    "sector_type": {
+      "note": "FOREST", 
+      "value": 3
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This small room is the top of a stairwell leading down\ndeep into the tower.  A small trapdoor overhead leaks\nthe light of day around its edges.  To the south is a \nwooden door, preserved through the ages by means \nunknown.  To the west is a short hall.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6408
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6409
+      }, 
+      {
+        "desc": "An ancient trapdoor, grimed with earth and age.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "trapdoor", 
+          "trap"
+        ], 
+        "room_linked": 6406
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6413
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6407, 
+    "name": "A Stairwell", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This small room holds many types of linen on shelves \nalong the walls.  They are undoubtedly preserved by\nmagic against the toil of the ages, since they seem\nfreshly washed and folded.  You wonder what sort of\nmage could wield so much power to waste on such little\nthings.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6407
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "White sheets, pillow-cases, etc.  Not really anything that\nyou need, but interesting.", 
+        "keywords": [
+          "linen", 
+          "shelf", 
+          "shelves"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6408, 
+    "name": "A Linen Closet", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This is only a clean corridor, that leads back to the \nstairwell to the east, and has doors leading to other\nrooms to the north and south.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6411
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6407
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6410
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6409, 
+    "name": "A Corridor", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This is some sort of bathroom, like you've never seen\nbefore...  Water appliances leading from nowhere deliver\nhot and cold running water to basins that drain to...\nwhere?  How strange!", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6409
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6410, 
+    "name": "A Bathroom", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This is an opulent room, decorated in silks and gold.\nThere is an ebony desk against one wall, cooled lava rock\nspilling over its surface from the window it once looked\nout at.  A nice, spacious closet is filled with clothes\njust cleaned and pressed.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6409
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The desk is basically uninteresting, as are the papers \non top of it...", 
+        "keywords": [
+          "desk"
+        ]
+      }, 
+      {
+        "desc": "Nice clothes, but not your size at all.", 
+        "keywords": [
+          "closet"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6411, 
+    "name": "The Master Bedroom", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "A great mages' library is contained on this floor of \nthe tower.  You feel you could learn anything you wanted\nto if you only looked and read long enough.  A door\nopens up back on the stairwell to the east.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6413
+      }, 
+      {
+        "desc": "A big bookcase, that looks rather odd.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "bookcase"
+        ], 
+        "room_linked": 6414
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "There are lots of books about everything here!", 
+        "keywords": [
+          "book", 
+          "books"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6412, 
+    "name": "The Library", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This stairwell continues up and down, and there is\na door to the west.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6412
+      }, 
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6407
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6415
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6413, 
+    "name": "The Stairwell", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This is a small hidden hall with a secret entrance to the\nlibrary on the north end of the west wall, and a trapdoor \non the south end.", 
+    "exits": [
+      {
+        "desc": "The backside of a movable bookcase.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "book", 
+          "bookcase"
+        ], 
+        "room_linked": 6412
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "trapdoor", 
+          "trap"
+        ], 
+        "room_linked": 6416
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6414, 
+    "name": "A Hidden Hall", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This stairwell continues up and down, and there is a door\nto the west opening up onto this level.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6417
+      }, 
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6413
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6422
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6415, 
+    "name": "A Stairwell", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "Jackpot!  A small room filled with treasure chests!  Go get them!", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "trapdoor", 
+          "trap"
+        ], 
+        "room_linked": 6414
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6416, 
+    "name": "The Hidden Treasure Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This hall runs through the tower.  There's more hall to\nthe west, and doors to your north and south.  A door to\nthe east leads back to the stairwell.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6419
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6415
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6418
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6420
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6417, 
+    "name": "A Hallway", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This seems to be a small servant's bedroom, sparsely\ndecorated and outfitted with a bed, nightstand, chair\nand table, etc.  Nothing real important here.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6417
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6418, 
+    "name": "A Servant's Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This seems to be a small servant's bedroom, sparsely \ndecorated and outfitted with a bed, nightstand, chair\nand table, etc.  Nothing real important here.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6417
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6419, 
+    "name": "A Servant's Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This hallway continues to the east, and has a door to \nthe north.  You could swear that the way this level is\narranged... nah, couldn't be.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6421
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6417
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6420, 
+    "name": "A Hallway", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This seems to be a small servant's bedroom, sparsely\ndecorated and outfitted with a bed, nightstand, chair\nand a table, etc.  Nothing real important here.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6420
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6421, 
+    "name": "A Servant's Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This stairwell leads up and down, and there is a big\nopen room to your west.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6423
+      }, 
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6415
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6425
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6422, 
+    "name": "The Stairwell", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This is a large dining hall, with a long table that runs\ndown the length of it.  Chairs are set up along the sides\nto accomodate approximately 10 people.  There are paintings\nand tapestries on the walls, adding color to the stonework,\nThe cooled lava that had poured in the windows makes the place \nseem eerie somehow .  There is a door to the north, and\nthe stairwell is to the east.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6424
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6422
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "Many of these show scenes of high magic and heroism.\nJust like almost every tapestry and painting you've seen.", 
+        "keywords": [
+          "tapestry", 
+          "tapestries", 
+          "painting", 
+          "paintings"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6423, 
+    "name": "The Dining Hall", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This is a well-stocked kitchen, the larders still fresh\nand full as if by magic.  Perhaps this would be a good\nplace to take a break.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6423
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6424, 
+    "name": "The Kitchen Area", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "The stairwell leads up and down here, and there is a hall\nyou can enter to the west.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6426
+      }, 
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6422
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6429
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6425, 
+    "name": "The Stairwell", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This area of the tower seems dank and oppressive.  The\nhall runs north-south, and there is an empty cell to your\nwest.  The stairwell is to your east.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6427
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6425
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6428
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is open, empty, and uninteresting.", 
+        "keywords": [
+          "cell", 
+          "cells"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6426, 
+    "name": "A Hall", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This is the northern end of the hall.  There are cells to\nyour right and left, empty and awaiting occupants.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6426
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is open, empty, and uninteresting.", 
+        "keywords": [
+          "cell", 
+          "cells"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6427, 
+    "name": "A Hall", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This is the southern end of the hall.  There are cells to\nyour right and left, empty and awaiting occupants.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6426
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is open, empty, and uninteresting.", 
+        "keywords": [
+          "cell", 
+          "cells"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6428, 
+    "name": "A Hall", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "The stairwell continues up and down here.  A large room\nopens up to the west.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6430
+      }, 
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6425
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6431
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6429, 
+    "name": "A Stairwell", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "A small desk here is cluttered with magically preserved\npapers and documents.  None seem of value, except perhaps\nto a historian.  This place seems vaguely uninteresting...", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6429
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "Well, one of the papers relate a story about how the mage\nof this tower, Rand, angered many kings, and relates how\nthey set his armies on him.  You wonder if the lava\noutside was a failed attempt to destroy the armies...", 
+        "keywords": [
+          "paper", 
+          "papers", 
+          "documents", 
+          "document"
+        ]
+      }, 
+      {
+        "desc": "It is cluttered with all sorts of papers.  Some look\nhalf interesting, actually.", 
+        "keywords": [
+          "desk"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6430, 
+    "name": "A Mage's Office", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "The stairs go up and down here, and there is a room to the\nwest...", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6432
+      }, 
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6429
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6433
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6431, 
+    "name": "The Stairwell", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This is a simply furnished room, with chairs all about.\nA fireplace is inset into an inner wall, the chimney\nundoubtedly directed by magic...\n   This would be a nice place to rest awhile...", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6431
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6432, 
+    "name": "A Sitting Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This is where the stairwell finally ends.  There is a hall\nto your west.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6434
+      }, 
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6431
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6433, 
+    "name": "The Stairwell", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This small hallway on the former 'ground floor' ran north-\nsouth.  To the east is the stairwell that leads up into \nthe shadowy recesses of the tower.  To the west is the\nentrance way to the tower.  The north is completely blocked\noff by lava, and the way south is still clear.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6433
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6437
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6435
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6434, 
+    "name": "A Hallway", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This is a grand chamber with giant double-doors to the\nwest.  To the east is the main floor of the tower.  This\nroom is arranged highly attractively and very impressively,\nwith sculptures and tapistries everywhere.  The doors seem\nimpenetrable... you don't think you'd be able to get through\nthem if you really had to...", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6434
+      }, 
+      {
+        "desc": "These doors seem incredible.  Unfortunately, they're locked.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": 0, 
+        "keywords": [
+          "door", 
+          "double"
+        ], 
+        "room_linked": 6436
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "They look nice, but aren't very valuable.", 
+        "keywords": [
+          "sculpture", 
+          "tapestry", 
+          "sculptures", 
+          "tapestries"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6435, 
+    "name": "The Entranceway", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This was the entrance to the tower.  Now lava has blocked\nit up completely.  However:\n   It seems when the lava came down a man was outside the\ndoors.  He was blasted into the doors, and died instantly,\nbut his skeleton still clutches a staff in perfect \ncondition...", 
+    "exits": [
+      {
+        "desc": "These double doors have the outline of a man blasted into them...", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": 0, 
+        "keywords": [
+          "double", 
+          "doors"
+        ], 
+        "room_linked": 6435
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6436, 
+    "name": "The Doorway", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This is the southern part of the hallway.  There is \na door to the west, barred with gleaming bands of lights.\nTo the north is more hallway.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6434
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6438
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6437, 
+    "name": "The Hallway", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "Stairs lead down here into the tower's basement, or you\ncan head east into the main floor of the tower.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 6437
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6439
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6438, 
+    "name": "The Stairs", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "Stairs lead up here to the main level, or you can go east\nto the basement of the tower.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6440
+      }, 
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6438
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6439, 
+    "name": "The Stairs", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This alcove leads into a huge room to your north, and\nto stairs leading down to the east, and stairs going \nup to your west.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6441
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6442
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6439
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6440, 
+    "name": "An Alcove", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This laboratory has lots of stuff in it.  Beakers,\nflasks, burners, tongs, mortars and pestles, jars filled\nwith normal things, jars filled with abnormal things, jars\nfilled with things you'd rather not think about...\nA search could reveal many things...", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6440
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "Looks like normal, fragile lab equipment to you.", 
+        "keywords": [
+          "beaker", 
+          "beakers", 
+          "flask", 
+          "flasks", 
+          "burner", 
+          "burners", 
+          "tong", 
+          "tongs"
+        ]
+      }, 
+      {
+        "desc": "Looks like normal, fragile lab equipment to you.", 
+        "keywords": [
+          "mortar", 
+          "mortars", 
+          "pestle", 
+          "pestles", 
+          "jar", 
+          "jars"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6441, 
+    "name": "The Laboratory", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "Stairs lead down here to the second level of the basement,\nor back west to the alcove.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6440
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6443
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6442, 
+    "name": "The Stairs", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "Stairs lead up here to the first level of the basement, or\nyou can go east to another big room.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6444
+      }, 
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6442
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6443, 
+    "name": "The Stairs", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "This room is darkly lit by a giant glowing pentagram in\nthe center of the room.  Bands of force encircle some\nsort of being trapped inside.  You think that going\ninside would be an EXTREMELY BAD idea...", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6445
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6443
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is centuries old.  You don't think standing close by\nwould be a good idea.", 
+        "keywords": [
+          "pentagram"
+        ]
+      }, 
+      {
+        "desc": "You can't see it clearly through the energy field of the\npentagram, but you sense that whatever it is, it is very,\nvery, very, very angry.", 
+        "keywords": [
+          "being"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6444, 
+    "name": "The Summoning Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }, 
+  {
+    "desc": "The small god entrapped by the wizard looks at you with\nan insane expression.  Four hundred years of imprisonment\ndoesn't do much for one's...\n\n   OOPS!\n\n   He killed you!\n   You are dead, R.I.P.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 6444
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DEATH", 
+        "value": 2
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 6445, 
+    "name": "Inside A Pentagram", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 64
+  }
+]

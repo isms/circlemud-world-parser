@@ -1,0 +1,234 @@
+[
+  {
+    "bottom_room": 900, 
+    "doors": [
+      {
+        "exit": 1, 
+        "room": 921, 
+        "state": 2
+      }
+    ], 
+    "id": 9, 
+    "lifespan": 39, 
+    "mobs": [
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 3, 
+        "mob": 900, 
+        "room": 915
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 3, 
+        "mob": 900, 
+        "room": 915
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 3, 
+        "mob": 900, 
+        "room": 915
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 901, 
+            "location": 17, 
+            "max": 15, 
+            "note": "HOLD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 2, 
+        "mob": 901, 
+        "room": 916
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 2, 
+        "mob": 901, 
+        "room": 916
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 902, 
+        "room": 917
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 903, 
+        "room": 918
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 903, 
+            "location": 9, 
+            "max": 10, 
+            "note": "HANDS"
+          }, 
+          {
+            "contents": [], 
+            "id": 902, 
+            "location": 17, 
+            "max": 25, 
+            "note": "HOLD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 904, 
+        "room": 919
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 905, 
+            "location": 16, 
+            "max": 10, 
+            "note": "WIELD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 905, 
+        "room": 920
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 907, 
+            "location": 16, 
+            "max": 5, 
+            "note": "WIELD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 906, 
+        "room": 920
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 901, 
+            "location": 11, 
+            "max": 8, 
+            "note": "SHIELD"
+          }, 
+          {
+            "contents": [], 
+            "id": 900, 
+            "location": 17, 
+            "max": 1, 
+            "note": "HOLD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 907, 
+        "room": 921
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 2, 
+        "mob": 909, 
+        "room": 908
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 2, 
+        "mob": 909, 
+        "room": 908
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 908, 
+            "location": 16, 
+            "max": 30, 
+            "note": "WIELD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 2, 
+        "mob": 910, 
+        "room": 909
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 908, 
+            "location": 16, 
+            "max": 30, 
+            "note": "WIELD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 2, 
+        "mob": 910, 
+        "room": 909
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 3, 
+        "mob": 911, 
+        "room": 910
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 3, 
+        "mob": 911, 
+        "room": 910
+      }
+    ], 
+    "name": "River Island Of Minos", 
+    "objects": [
+      {
+        "contents": [], 
+        "id": 904, 
+        "max": 10, 
+        "room": 922
+      }, 
+      {
+        "contents": [], 
+        "id": 906, 
+        "max": 1, 
+        "room": 922
+      }, 
+      {
+        "contents": [], 
+        "id": 909, 
+        "max": 12, 
+        "room": 910
+      }
+    ], 
+    "remove_objects": [
+      {
+        "id": 909, 
+        "room": 910
+      }
+    ], 
+    "reset_mode": 1, 
+    "top_room": 999
+  }
+]

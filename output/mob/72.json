@@ -1,0 +1,383 @@
+[
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SENSE_LIFE", 
+        "value": 32
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "mindflayer", 
+      "master", 
+      "mind"
+    ], 
+    "alignment": -800, 
+    "armor_class": 0, 
+    "bare_hand_damage": {
+      "bonus": 4, 
+      "dice": 3, 
+      "sides": 4
+    }, 
+    "detail_desc": "It is a seven foot tall humanoid dressed in a purple cloak, and swinging a\nblack and purple rod above its head as if it was going to attack you any\nmoment now.  In the middle of its head are four tentacles with sharp points.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SCAVENGER", 
+        "value": 4
+      }, 
+      {
+        "note": "AWARE", 
+        "value": 16
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "HELPER", 
+        "value": 4096
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 7200, 
+    "level": 14, 
+    "long_desc": "The master mindflayer is here, looking at you with an evil look.", 
+    "max_hit_points": {
+      "bonus": 170, 
+      "dice": 1, 
+      "sides": 10
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the master mindflayer", 
+    "thac0": 7, 
+    "xp": 20000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SENSE_LIFE", 
+        "value": 32
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "mindflayer", 
+      "senior", 
+      "mind"
+    ], 
+    "alignment": -600, 
+    "armor_class": 2, 
+    "bare_hand_damage": {
+      "bonus": 3, 
+      "dice": 2, 
+      "sides": 4
+    }, 
+    "detail_desc": "This is a horrifying monster indeed, 6'6\" high.  Dressed in purple and black,\nand carrying a large mace in its hand.  In the center of its head are four\nlarge tentacles with very sharp points.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SCAVENGER", 
+        "value": 4
+      }, 
+      {
+        "note": "AWARE", 
+        "value": 16
+      }, 
+      {
+        "note": "AGGR_GOOD", 
+        "value": 512
+      }, 
+      {
+        "note": "AGGR_NEUTRAL", 
+        "value": 1024
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "HELPER", 
+        "value": 4096
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 400, 
+    "id": 7201, 
+    "level": 8, 
+    "long_desc": "The senior mindflayer walks around here, looking for something useful.", 
+    "max_hit_points": {
+      "bonus": 100, 
+      "dice": 1, 
+      "sides": 10
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the senior mindflayer", 
+    "thac0": 13, 
+    "xp": 4500
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SENSE_LIFE", 
+        "value": 32
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "mindflayer", 
+      "junior", 
+      "mind"
+    ], 
+    "alignment": -350, 
+    "armor_class": 4, 
+    "bare_hand_damage": {
+      "bonus": 2, 
+      "dice": 1, 
+      "sides": 4
+    }, 
+    "detail_desc": "This mindflayer is six feet high.  It has a small mace in its belt, and is\ndressed in purple and black cloth.  It has four small tentacles in the center\nof its head.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SCAVENGER", 
+        "value": 4
+      }, 
+      {
+        "note": "AWARE", 
+        "value": 16
+      }, 
+      {
+        "note": "WIMPY", 
+        "value": 128
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "HELPER", 
+        "value": 4096
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 200, 
+    "id": 7202, 
+    "level": 6, 
+    "long_desc": "The junior mindflayer is here, watching you carefully from the corner.", 
+    "max_hit_points": {
+      "bonus": 75, 
+      "dice": 1, 
+      "sides": 10
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the junior mindflayer", 
+    "thac0": 15, 
+    "xp": 1500
+  }, 
+  {
+    "affects": [
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "wererat", 
+      "rat"
+    ], 
+    "alignment": -700, 
+    "armor_class": 3, 
+    "bare_hand_damage": {
+      "bonus": 2, 
+      "dice": 2, 
+      "sides": 4
+    }, 
+    "detail_desc": "The wererat is about four feet tall.  It looks very much like rat, except\nthat it is standing.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SCAVENGER", 
+        "value": 4
+      }, 
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }, 
+      {
+        "note": "AGGR_GOOD", 
+        "value": 512
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "AGGR_NEUTRAL", 
+        "value": 1024
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 50, 
+    "id": 7203, 
+    "level": 6, 
+    "long_desc": "An ugly wererat is here, looking at you with a strange flick in his eyes.", 
+    "max_hit_points": {
+      "bonus": 69, 
+      "dice": 4, 
+      "sides": 6
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the ugly wererat", 
+    "thac0": 15, 
+    "xp": 1500
+  }, 
+  {
+    "affects": [
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "rat", 
+      "gigantic"
+    ], 
+    "alignment": -800, 
+    "armor_class": 2, 
+    "bare_hand_damage": {
+      "bonus": 2, 
+      "dice": 2, 
+      "sides": 6
+    }, 
+    "detail_desc": "The gigantic rat is about ten feet long from head to tail and has claws the\nsize of your head, looking very nasty.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 2513, 
+    "id": 7204, 
+    "level": 12, 
+    "long_desc": "There is a gigantic rat here, looking at you with a hungry look.", 
+    "max_hit_points": {
+      "bonus": 150, 
+      "dice": 1, 
+      "sides": 10
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the gigantic rat", 
+    "thac0": 9, 
+    "xp": 13000
+  }
+]

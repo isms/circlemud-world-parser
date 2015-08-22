@@ -1,0 +1,599 @@
+[
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }
+    ], 
+    "aliases": [
+      "maid"
+    ], 
+    "alignment": 1000, 
+    "armor_class": -10, 
+    "bare_hand_damage": {
+      "bonus": 22, 
+      "dice": 1, 
+      "sides": 8
+    }, 
+    "detail_desc": "She is very beautiful with golden hair, and deep blue eyes.  A good reason\nfor coming here more often, you think to yourself.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "NOCHARM", 
+        "value": 8192
+      }, 
+      {
+        "note": "NOSUMMON", 
+        "value": 16384
+      }
+    ], 
+    "gender": {
+      "note": "F", 
+      "value": 2
+    }, 
+    "gold": 2000, 
+    "id": 3100, 
+    "level": 33, 
+    "long_desc": "The Maid is waiting for your order.", 
+    "max_hit_points": {
+      "bonus": 30000, 
+      "dice": 1, 
+      "sides": 1
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the Maid", 
+    "thac0": 0, 
+    "xp": 80000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "sexton"
+    ], 
+    "alignment": 800, 
+    "armor_class": 7, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 7
+    }, 
+    "detail_desc": "The Sexton looks like he is relaxing after another gravedigging job.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 13, 
+    "id": 3101, 
+    "level": 3, 
+    "long_desc": "A Sexton is sitting here, drinking hot tea.", 
+    "max_hit_points": {
+      "bonus": 35, 
+      "dice": 2, 
+      "sides": 6
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_SITTING", 
+        "value": 6
+      }, 
+      "load": {
+        "note": "POSITION_SITTING", 
+        "value": 6
+      }
+    }, 
+    "short_desc": "the Sexton", 
+    "thac0": 18, 
+    "xp": 300
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }
+    ], 
+    "aliases": [
+      "chief", 
+      "guard"
+    ], 
+    "alignment": 800, 
+    "armor_class": 1, 
+    "bare_hand_damage": {
+      "bonus": 18, 
+      "dice": 1, 
+      "sides": 8
+    }, 
+    "detail_desc": "A very angry chief.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "SCAVENGER", 
+        "value": 4
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 0, 
+    "id": 3102, 
+    "level": 17, 
+    "long_desc": "The Chief Guard is looking very upset.", 
+    "max_hit_points": {
+      "bonus": 210, 
+      "dice": 1, 
+      "sides": 12
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the Chief Guard", 
+    "thac0": 3, 
+    "xp": 28000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "cityguard", 
+      "guard"
+    ], 
+    "alignment": 1000, 
+    "armor_class": 2, 
+    "bare_hand_damage": {
+      "bonus": 3, 
+      "dice": 1, 
+      "sides": 8
+    }, 
+    "detail_desc": "A big, strong, angry guard.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "SCAVENGER", 
+        "value": 4
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 0, 
+    "id": 3103, 
+    "level": 10, 
+    "long_desc": "A cityguard stands here, looking very upset.", 
+    "max_hit_points": {
+      "bonus": 123, 
+      "dice": 1, 
+      "sides": 12
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the upset cityguard", 
+    "thac0": 10, 
+    "xp": 9000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "secretary"
+    ], 
+    "alignment": 900, 
+    "armor_class": 2, 
+    "bare_hand_damage": {
+      "bonus": 1, 
+      "dice": 2, 
+      "sides": 7
+    }, 
+    "detail_desc": "She looks very busy.\n\nThe Secretary says 'Sorry, but the Mayor is extremely busy today.'\nThe Secretary says 'Please sit down and have a seat in the meantime.'", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }
+    ], 
+    "gender": {
+      "note": "F", 
+      "value": 2
+    }, 
+    "gold": 100, 
+    "id": 3104, 
+    "level": 12, 
+    "long_desc": "A secretary is sitting at the desk, typing away on the typewriter.", 
+    "max_hit_points": {
+      "bonus": 148, 
+      "dice": 1, 
+      "sides": 12
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the Secretary", 
+    "thac0": 9, 
+    "xp": 13000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }
+    ], 
+    "aliases": [
+      "mayor"
+    ], 
+    "alignment": 1000, 
+    "armor_class": -4, 
+    "bare_hand_damage": {
+      "bonus": 18, 
+      "dice": 1, 
+      "sides": 8
+    }, 
+    "detail_desc": "He is a stocky, middle-aged man with thin, grey hair.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "NOCHARM", 
+        "value": 8192
+      }, 
+      {
+        "note": "NOSUMMON", 
+        "value": 16384
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 1000, 
+    "id": 3105, 
+    "level": 24, 
+    "long_desc": "The Mayor is sitting in his huge chair, snoring loudly.", 
+    "max_hit_points": {
+      "bonus": 790, 
+      "dice": 6, 
+      "sides": 10
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_SLEEPING", 
+        "value": 4
+      }, 
+      "load": {
+        "note": "POSITION_SLEEPING", 
+        "value": 4
+      }
+    }, 
+    "short_desc": "the Mayor", 
+    "thac0": 0, 
+    "xp": 130000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "crier"
+    ], 
+    "alignment": 900, 
+    "armor_class": 9, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 5
+    }, 
+    "detail_desc": "He is very good at his job - completely dissolved in tears.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "WIMPY", 
+        "value": 128
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 34, 
+    "id": 3106, 
+    "level": 1, 
+    "long_desc": "The Town Crier is here, weeping quietly.", 
+    "max_hit_points": {
+      "bonus": 10, 
+      "dice": 2, 
+      "sides": 6
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the Town Crier", 
+    "thac0": 20, 
+    "xp": 100
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "swan"
+    ], 
+    "alignment": 1000, 
+    "armor_class": 9, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 5
+    }, 
+    "detail_desc": "The white swan is very elegant.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 3120, 
+    "level": 1, 
+    "long_desc": "A swan is swimming around in the pond.", 
+    "max_hit_points": {
+      "bonus": 10, 
+      "dice": 2, 
+      "sides": 6
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the swan", 
+    "thac0": 20, 
+    "xp": 100
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "duckling"
+    ], 
+    "alignment": 1000, 
+    "armor_class": 10, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 1
+    }, 
+    "detail_desc": "The duckling is adorable, it looks most of all like a tiny furball.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 3121, 
+    "level": 0, 
+    "long_desc": "A duckling is swimming around in the pond.", 
+    "max_hit_points": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 1
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the duckling", 
+    "thac0": 20, 
+    "xp": 1
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "sparrow"
+    ], 
+    "alignment": 1000, 
+    "armor_class": 10, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 3
+    }, 
+    "detail_desc": "The sparrow looks like it is enjoying life.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }, 
+      {
+        "note": "WIMPY", 
+        "value": 128
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 3122, 
+    "level": 0, 
+    "long_desc": "A sparrow is flapping around on the ground.", 
+    "max_hit_points": {
+      "bonus": 0, 
+      "dice": 2, 
+      "sides": 6
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the sparrow", 
+    "thac0": 20, 
+    "xp": 25
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "duck"
+    ], 
+    "alignment": 1000, 
+    "armor_class": 10, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 4
+    }, 
+    "detail_desc": "The duck is quite fat.  It looks like it is enjoying life.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 3123, 
+    "level": 1, 
+    "long_desc": "A duck is here, quacking happily.", 
+    "max_hit_points": {
+      "bonus": 5, 
+      "dice": 2, 
+      "sides": 6
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the duck", 
+    "thac0": 20, 
+    "xp": 75
+  }
+]

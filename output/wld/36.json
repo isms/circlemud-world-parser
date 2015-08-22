@@ -1,0 +1,3524 @@
+[
+  {
+    "desc": "You stand in the archway of the Chessboard of Midgaard.  The giant\nwooden gate is rusted open.\n   A narrow dirt path leads eastwards into the thick grass and the\nchessboard opens up to the west.", 
+    "exits": [
+      {
+        "desc": "A dirt path leads away through the great field north of Midgaard.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3066
+      }, 
+      {
+        "desc": "The huge chessboard opens up to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3632
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }
+    ], 
+    "id": 3600, 
+    "name": "The Great Chessboard Of Midgaard", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.  This is usually the home\nof the Black Queen's Rook.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3602
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3609
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3601, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.  This is usually the home\nof the Black Queen's Knight.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3603
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3610
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3601
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3602, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.  This is usually the home\nof the Black Queen's Bishop.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3604
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3611
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3602
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3603, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.  This is usually the home\nof the Black Queen.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3605
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3612
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3603
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 3614, 
+        "keywords": [
+          "marble", 
+          "square"
+        ], 
+        "room_linked": 3665
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3604, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.  This is usually the home\nof the Black King.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3606
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3613
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3604
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3605, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.  This is usually the home\nof the Black King's Bishop.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3607
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3614
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3605
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3606, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.  This is usually the home\nof the Black King's Knight.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3608
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3615
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3606
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3607, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.  This is usually the home\nof the Black King's Rook.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3616
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3607
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3608, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.  This is usually the home\nof one of the Black Queen's Pawns.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3601
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3610
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3617
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3609, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.  This is usually the home\nof one of the Black Queen's Pawns.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3602
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3611
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3618
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3609
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3610, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.  This is usually the home\nof one of the Black Queen's Pawns.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3603
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3612
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3619
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3610
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3611, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.  This is usually the home\nof one of the Black Queen's Pawns.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3604
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3613
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3620
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3611
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3612, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.  This is usually the home\nof one of the Black King's Pawns.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3605
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3614
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3621
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3612
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3613, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.  This is usually the home\nof one of the Black King's Pawns.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3606
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3615
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3622
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3613
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3614, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.  This is usually the home\nof one of the Black King's Pawns.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3607
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3616
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3623
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3614
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3615, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.  This is usually the home\nof one of the Black King's Pawns.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3608
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3624
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3615
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3616, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3609
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3618
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3625
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3617, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3610
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3619
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3626
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3617
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3618, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3611
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3620
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3627
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3618
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3619, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3612
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3621
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3628
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3619
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3620, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3613
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3622
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3629
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3620
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3621, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3614
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3623
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3630
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3621
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3622, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3615
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3624
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3631
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3622
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3623, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.  You can see a rusty gate\nto the south.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3616
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3632
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3623
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3624, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3617
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3626
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3633
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3625, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3618
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3627
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3634
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3625
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3626, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3619
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3628
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3635
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3626
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3627, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3620
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3629
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3636
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3627
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3628, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3621
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3630
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3637
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3628
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3629, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3622
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3631
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3638
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3629
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3630, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.  There is a rusty gate\na short distance to the east.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3623
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3632
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3639
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3630
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3631, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.  There is a large rusty\ngate to the east.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3624
+      }, 
+      {
+        "desc": "The gate to the chessboard is just to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3600
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3640
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3631
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3632, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3625
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3634
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3641
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3633, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3626
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3635
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3642
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3633
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3634, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3627
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3636
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3643
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3634
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3635, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3628
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3637
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3644
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3635
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3636, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3629
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3638
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3645
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3636
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3637, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3630
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3639
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3646
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3637
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3638, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3631
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3640
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3647
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3638
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3639, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.  There is a rusty gate\nto the north.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3632
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3648
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3639
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3640, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3633
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3642
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3649
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3641, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3634
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3643
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3650
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3641
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3642, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3635
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3644
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3651
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3642
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3643, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3636
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3645
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3652
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3643
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3644, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3637
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3646
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3653
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3644
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3645, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3638
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3647
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3654
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3645
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3646, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3639
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3648
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3655
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3646
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3647, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3640
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3656
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3647
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3648, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.  This is usually the home\nof one of the White Queen's Pawns.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3641
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3650
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3657
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3649, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.  This is usually the home\nof one of the White Queen's Pawns.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3642
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3651
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3658
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3649
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3650, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.  This is usually the home\nof one of the White Queen's Pawns.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3643
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3652
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3659
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3650
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3651, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.  This is usually the home\nof one of the White Queen's Pawns.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3644
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3653
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3660
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3651
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3652, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.  This is usually the home\nof one of the White King's Pawns.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3645
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3654
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3661
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3652
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3653, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.  This is usually the home\nof one of the White King's Pawns.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3646
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3655
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3662
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3653
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3654, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.  This is usually the home\nof one of the White King's Pawns.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3647
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3656
+      }, 
+      {
+        "desc": "A black square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3663
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3654
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3655, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.  This is usually the home\nof one of the White King's Pawns.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3648
+      }, 
+      {
+        "desc": "A white square lies to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3664
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3655
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3656, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.  This is usually the home\nof the White Queen's Rook.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3649
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3658
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3657, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.  This is usually the home\nof the White Queen's Knight.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3650
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3659
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3657
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3658, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.  This is usually the home\nof the White Queen's Bishop.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3651
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3660
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3658
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3659, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.  This is usually the home\nof the White Queen.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3652
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3661
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3659
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 3615, 
+        "keywords": [
+          "marble", 
+          "square"
+        ], 
+        "room_linked": 3666
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3660, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.  This is usually the home\nof the White King.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3653
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3662
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3660
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3661, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.  This is usually the home\nof the White King's Bishop.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3654
+      }, 
+      {
+        "desc": "A black square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3663
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3661
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3662, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a black marble square.  This is usually the home\nof the White King's Knight.", 
+    "exits": [
+      {
+        "desc": "A white square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3655
+      }, 
+      {
+        "desc": "A white square lies to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3664
+      }, 
+      {
+        "desc": "A white square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3662
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3663, 
+    "name": "A Black Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing on a white marble square.  This is usually the home\nof the White King's Rook.", 
+    "exits": [
+      {
+        "desc": "A black square lies to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3656
+      }, 
+      {
+        "desc": "A black square lies to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3663
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 3664, 
+    "name": "A White Square", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing in the treasury of the Black Court.  Hopefully no one \nhas looted the Crown's treasure.", 
+    "exits": [
+      {
+        "desc": "A small staircase rises above you.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 3614, 
+        "keywords": [
+          "marble", 
+          "square"
+        ], 
+        "room_linked": 3604
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "PRIVATE", 
+        "value": 512
+      }
+    ], 
+    "id": 3665, 
+    "name": "The Black Treasury", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 36
+  }, 
+  {
+    "desc": "You are standing in the treasury of the White Court.  Hopefully no one \nhas looted the Crown's treasure.", 
+    "exits": [
+      {
+        "desc": "A small staircase rises above you.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 3615, 
+        "keywords": [
+          "marble", 
+          "square"
+        ], 
+        "room_linked": 3660
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "PRIVATE", 
+        "value": 512
+      }
+    ], 
+    "id": 3666, 
+    "name": "The White Treasury", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 36
+  }
+]

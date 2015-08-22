@@ -1,0 +1,926 @@
+[
+  {
+    "affects": [], 
+    "aliases": [
+      "armour", 
+      "black", 
+      "pawn"
+    ], 
+    "cost": 300, 
+    "effects": [
+      {
+        "note": "ANTI_GOOD", 
+        "value": 512
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 3600, 
+    "long_desc": "A pile of black armour is here.", 
+    "rent": 1, 
+    "short_desc": "some Black Pawn Armour", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      1, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_BODY", 
+        "value": 8
+      }
+    ], 
+    "weight": 13
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "armour", 
+      "white", 
+      "pawn"
+    ], 
+    "cost": 300, 
+    "effects": [
+      {
+        "note": "ANTI_EVIL", 
+        "value": 1024
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 3601, 
+    "long_desc": "A pile of white armour is here.", 
+    "rent": 1, 
+    "short_desc": "some White Pawn Armour", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      1, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_BODY", 
+        "value": 8
+      }
+    ], 
+    "weight": 13
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "sword", 
+      "black", 
+      "pawn"
+    ], 
+    "cost": 100, 
+    "effects": [
+      {
+        "note": "ANTI_GOOD", 
+        "value": 512
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 3602, 
+    "long_desc": "The sword of a Black Pawn lies here.", 
+    "rent": 1, 
+    "short_desc": "a Black Pawn's Sword", 
+    "type": {
+      "note": "WEAPON", 
+      "value": 5
+    }, 
+    "values": [
+      0, 
+      3, 
+      4, 
+      3
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WIELD", 
+        "value": 8192
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "sword", 
+      "white", 
+      "pawn"
+    ], 
+    "cost": 100, 
+    "effects": [
+      {
+        "note": "ANTI_EVIL", 
+        "value": 1024
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 3603, 
+    "long_desc": "The sword of a White Pawn lies here.", 
+    "rent": 1, 
+    "short_desc": "a White Pawn's Sword", 
+    "type": {
+      "note": "WEAPON", 
+      "value": 5
+    }, 
+    "values": [
+      0, 
+      3, 
+      4, 
+      3
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WIELD", 
+        "value": 8192
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [
+      {
+        "location": 17, 
+        "note": "AC", 
+        "value": 2
+      }, 
+      {
+        "location": 5, 
+        "note": "CON", 
+        "value": 1
+      }
+    ], 
+    "aliases": [
+      "armour", 
+      "black", 
+      "rook"
+    ], 
+    "cost": 17000, 
+    "effects": [
+      {
+        "note": "GLOW", 
+        "value": 1
+      }, 
+      {
+        "note": "NODROP", 
+        "value": 128
+      }, 
+      {
+        "note": "ANTI_GOOD", 
+        "value": 512
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 3604, 
+    "long_desc": "Some armour made from the remains of a black rook lies heaped on the floor.", 
+    "rent": 5, 
+    "short_desc": "some Black Rook Armour", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      2, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_BODY", 
+        "value": 8
+      }
+    ], 
+    "weight": 60
+  }, 
+  {
+    "affects": [
+      {
+        "location": 17, 
+        "note": "AC", 
+        "value": 2
+      }, 
+      {
+        "location": 5, 
+        "note": "CON", 
+        "value": 1
+      }
+    ], 
+    "aliases": [
+      "armour", 
+      "white", 
+      "rook"
+    ], 
+    "cost": 17000, 
+    "effects": [
+      {
+        "note": "GLOW", 
+        "value": 1
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "ANTI_EVIL", 
+        "value": 1024
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 3605, 
+    "long_desc": "Some armour made from the remains of a white rook lies heaped on the floor.", 
+    "rent": 5, 
+    "short_desc": "some White Rook Armour", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      2, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_BODY", 
+        "value": 8
+      }
+    ], 
+    "weight": 60
+  }, 
+  {
+    "affects": [
+      {
+        "location": 19, 
+        "note": "DAMROLL", 
+        "value": 2
+      }, 
+      {
+        "location": 23, 
+        "note": "SAVING_BREATH", 
+        "value": 5
+      }
+    ], 
+    "aliases": [
+      "lance", 
+      "black", 
+      "knight"
+    ], 
+    "cost": 10000, 
+    "effects": [
+      {
+        "note": "HUM", 
+        "value": 2
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "ANTI_GOOD", 
+        "value": 512
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 3606, 
+    "long_desc": "The Lance of the Black Knight lies here, waiting to rust.", 
+    "rent": 3, 
+    "short_desc": "the Lance of the Black Knight", 
+    "type": {
+      "note": "WEAPON", 
+      "value": 5
+    }, 
+    "values": [
+      0, 
+      3, 
+      6, 
+      6
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WIELD", 
+        "value": 8192
+      }
+    ], 
+    "weight": 18
+  }, 
+  {
+    "affects": [
+      {
+        "location": 19, 
+        "note": "DAMROLL", 
+        "value": 2
+      }, 
+      {
+        "location": 23, 
+        "note": "SAVING_BREATH", 
+        "value": 5
+      }
+    ], 
+    "aliases": [
+      "lance", 
+      "white", 
+      "knight"
+    ], 
+    "cost": 10000, 
+    "effects": [
+      {
+        "note": "HUM", 
+        "value": 2
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "ANTI_EVIL", 
+        "value": 1024
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 3607, 
+    "long_desc": "The Lance of the White Knight lies here, waiting to rust.", 
+    "rent": 3, 
+    "short_desc": "the Lance of the White Knight", 
+    "type": {
+      "note": "WEAPON", 
+      "value": 5
+    }, 
+    "values": [
+      0, 
+      3, 
+      6, 
+      6
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WIELD", 
+        "value": 8192
+      }
+    ], 
+    "weight": 18
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "staff", 
+      "black", 
+      "bishop"
+    ], 
+    "cost": 20000, 
+    "effects": [
+      {
+        "note": "GLOW", 
+        "value": 1
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "ANTI_GOOD", 
+        "value": 512
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 3608, 
+    "long_desc": "The Black Bishop's Staff is lying here.", 
+    "rent": 6, 
+    "short_desc": "the Staff of the Black Bishop", 
+    "type": {
+      "note": "STAFF", 
+      "value": 4
+    }, 
+    "values": [
+      20, 
+      5, 
+      5, 
+      36
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 3
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "staff", 
+      "white", 
+      "bishop"
+    ], 
+    "cost": 20000, 
+    "effects": [
+      {
+        "note": "GLOW", 
+        "value": 1
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "ANTI_EVIL", 
+        "value": 1024
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 3609, 
+    "long_desc": "The White Bishop's Staff is lying here.", 
+    "rent": 6, 
+    "short_desc": "the Staff of the White Bishop", 
+    "type": {
+      "note": "STAFF", 
+      "value": 4
+    }, 
+    "values": [
+      20, 
+      5, 
+      5, 
+      36
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 3
+  }, 
+  {
+    "affects": [
+      {
+        "location": 3, 
+        "note": "INT", 
+        "value": 1
+      }, 
+      {
+        "location": 4, 
+        "note": "WIS", 
+        "value": 1
+      }
+    ], 
+    "aliases": [
+      "crown", 
+      "black", 
+      "queen"
+    ], 
+    "cost": 3000, 
+    "effects": [
+      {
+        "note": "HUM", 
+        "value": 2
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "ANTI_GOOD", 
+        "value": 512
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 3610, 
+    "long_desc": "The Crown of the Black Queen lies here, looking neglected.", 
+    "rent": 5, 
+    "short_desc": "the Crown of the Black Queen", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      2, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HEAD", 
+        "value": 16
+      }
+    ], 
+    "weight": 4
+  }, 
+  {
+    "affects": [
+      {
+        "location": 3, 
+        "note": "INT", 
+        "value": 1
+      }, 
+      {
+        "location": 4, 
+        "note": "WIS", 
+        "value": 1
+      }
+    ], 
+    "aliases": [
+      "crown", 
+      "white", 
+      "queen"
+    ], 
+    "cost": 3000, 
+    "effects": [
+      {
+        "note": "HUM", 
+        "value": 2
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "ANTI_EVIL", 
+        "value": 1024
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 3611, 
+    "long_desc": "The Crown of the White Queen lies here, looking neglected.", 
+    "rent": 5, 
+    "short_desc": "the Crown of the White Queen", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      2, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HEAD", 
+        "value": 16
+      }
+    ], 
+    "weight": 4
+  }, 
+  {
+    "affects": [
+      {
+        "location": 1, 
+        "note": "STR", 
+        "value": 1
+      }, 
+      {
+        "location": 18, 
+        "note": "HITROLL", 
+        "value": 1
+      }
+    ], 
+    "aliases": [
+      "sceptre", 
+      "black", 
+      "king"
+    ], 
+    "cost": 85000, 
+    "effects": [
+      {
+        "note": "HUM", 
+        "value": 2
+      }, 
+      {
+        "note": "INVISIBLE", 
+        "value": 32
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "ANTI_GOOD", 
+        "value": 512
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 3612, 
+    "long_desc": "The Sceptre of the Black King lies here, collecting dust.", 
+    "rent": 1, 
+    "short_desc": "the Black King's Sceptre", 
+    "type": {
+      "note": "TREASURE", 
+      "value": 8
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 200
+  }, 
+  {
+    "affects": [
+      {
+        "location": 1, 
+        "note": "STR", 
+        "value": 1
+      }, 
+      {
+        "location": 18, 
+        "note": "HITROLL", 
+        "value": 1
+      }
+    ], 
+    "aliases": [
+      "sceptre", 
+      "white", 
+      "king"
+    ], 
+    "cost": 85000, 
+    "effects": [
+      {
+        "note": "HUM", 
+        "value": 2
+      }, 
+      {
+        "note": "INVISIBLE", 
+        "value": 32
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "ANTI_EVIL", 
+        "value": 1024
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 3613, 
+    "long_desc": "The Sceptre of the White King lies here, collecting dust.", 
+    "rent": 10, 
+    "short_desc": "the White King's Sceptre", 
+    "type": {
+      "note": "TREASURE", 
+      "value": 8
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 300
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "key", 
+      "black", 
+      "treasury"
+    ], 
+    "cost": 1000, 
+    "effects": [
+      {
+        "note": "NORENT", 
+        "value": 4
+      }, 
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }, 
+      {
+        "note": "INVISIBLE", 
+        "value": 32
+      }, 
+      {
+        "note": "NOSELL", 
+        "value": 65536
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 3614, 
+    "long_desc": "There is a sinister black key lying here.", 
+    "rent": 300, 
+    "short_desc": "The Key to the Black Treasury", 
+    "type": {
+      "note": "KEY", 
+      "value": 18
+    }, 
+    "values": [
+      3614, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 1
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "key", 
+      "white", 
+      "treasury"
+    ], 
+    "cost": 1000, 
+    "effects": [
+      {
+        "note": "NORENT", 
+        "value": 4
+      }, 
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }, 
+      {
+        "note": "INVISIBLE", 
+        "value": 32
+      }, 
+      {
+        "note": "NOSELL", 
+        "value": 65536
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 3615, 
+    "long_desc": "There is a bright white key lying here.", 
+    "rent": 300, 
+    "short_desc": "the Key to the White Treasury", 
+    "type": {
+      "note": "KEY", 
+      "value": 18
+    }, 
+    "values": [
+      3615, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 1
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "coins", 
+      "gold", 
+      "black", 
+      "royal", 
+      "treasure"
+    ], 
+    "cost": 10000, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 3616, 
+    "long_desc": "There are a LOT of coins here.", 
+    "rent": 0, 
+    "short_desc": "the Black Royal Treasure", 
+    "type": {
+      "note": "MONEY", 
+      "value": 20
+    }, 
+    "values": [
+      10000, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "coins", 
+      "gold", 
+      "white", 
+      "royal", 
+      "treasure"
+    ], 
+    "cost": 10000, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 3617, 
+    "long_desc": "There are a LOT of coins here.", 
+    "rent": 0, 
+    "short_desc": "the White Royal Treasure", 
+    "type": {
+      "note": "MONEY", 
+      "value": 20
+    }, 
+    "values": [
+      10000, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 10
+  }
+]

@@ -1,0 +1,585 @@
+[
+  {
+    "bottom_room": 5200, 
+    "doors": [], 
+    "id": 52, 
+    "lifespan": 15, 
+    "mobs": [
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 5217, 
+            "location": 17, 
+            "max": 3, 
+            "note": "HOLD"
+          }, 
+          {
+            "contents": [], 
+            "id": 5208, 
+            "location": 11, 
+            "max": 3, 
+            "note": "SHIELD"
+          }, 
+          {
+            "contents": [], 
+            "id": 5223, 
+            "location": 3, 
+            "max": 1, 
+            "note": "NECK_1"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 5200, 
+        "room": 5250
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 25, 
+        "mob": 5201, 
+        "room": 5235
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 25, 
+        "mob": 5201, 
+        "room": 5232
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 25, 
+        "mob": 5201, 
+        "room": 5236
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 25, 
+        "mob": 5201, 
+        "room": 5237
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 25, 
+        "mob": 5201, 
+        "room": 5242
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 25, 
+        "mob": 5201, 
+        "room": 5218
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 25, 
+        "mob": 5201, 
+        "room": 5219
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 25, 
+        "mob": 5201, 
+        "room": 5220
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 25, 
+        "mob": 5201, 
+        "room": 5225
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 25, 
+        "mob": 5201, 
+        "room": 5226
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 25, 
+        "mob": 5201, 
+        "room": 5203
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 25, 
+        "mob": 5201, 
+        "room": 5204
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 25, 
+        "mob": 5201, 
+        "room": 5206
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 25, 
+        "mob": 5201, 
+        "room": 5208
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 25, 
+        "mob": 5209, 
+        "room": 5205
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 25, 
+        "mob": 5209, 
+        "room": 5209
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 25, 
+        "mob": 5209, 
+        "room": 5216
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 25, 
+        "mob": 5209, 
+        "room": 5221
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 25, 
+        "mob": 5209, 
+        "room": 5224
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 25, 
+        "mob": 5209, 
+        "room": 5229
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 25, 
+        "mob": 5209, 
+        "room": 5234
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 25, 
+        "mob": 5209, 
+        "room": 5240
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 5214, 
+            "location": 17, 
+            "max": 4, 
+            "note": "HOLD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 5202, 
+        "room": 5229
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [
+          {
+            "contents": [], 
+            "id": 5215, 
+            "max": 4
+          }
+        ], 
+        "max": 1, 
+        "mob": 5203, 
+        "room": 5226
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [
+          {
+            "contents": [], 
+            "id": 5218, 
+            "max": 4
+          }
+        ], 
+        "max": 1, 
+        "mob": 5204, 
+        "room": 5219
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 5214, 
+            "location": 17, 
+            "max": 4, 
+            "note": "HOLD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 5205, 
+        "room": 5238
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 5222, 
+            "location": 12, 
+            "max": 4, 
+            "note": "BODY"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 5206, 
+        "room": 5236
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 4, 
+        "mob": 5207, 
+        "room": 5232
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 4, 
+        "mob": 5207, 
+        "room": 5217
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 4, 
+        "mob": 5207, 
+        "room": 5227
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 4, 
+        "mob": 5207, 
+        "room": 5244
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 5224, 
+            "location": 17, 
+            "max": 1, 
+            "note": "HOLD"
+          }, 
+          {
+            "contents": [], 
+            "id": 5200, 
+            "location": 5, 
+            "max": 5, 
+            "note": "BODY"
+          }
+        ], 
+        "inventory": [], 
+        "max": 3, 
+        "mob": 5208, 
+        "room": 5247
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 5226, 
+            "location": 17, 
+            "max": 1, 
+            "note": "HOLD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 3, 
+        "mob": 5208, 
+        "room": 5246
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 5221, 
+            "location": 16, 
+            "max": 5, 
+            "note": "WIELD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 3, 
+        "mob": 5208, 
+        "room": 5248
+      }
+    ], 
+    "name": "The City Of Thalos", 
+    "objects": [
+      {
+        "contents": [
+          {
+            "contents": [], 
+            "id": 5215, 
+            "max": 1
+          }, 
+          {
+            "contents": [], 
+            "id": 5216, 
+            "max": 2
+          }
+        ], 
+        "id": 5225, 
+        "max": 1, 
+        "room": 5231
+      }, 
+      {
+        "contents": [
+          {
+            "contents": [], 
+            "id": 5201, 
+            "max": 1
+          }, 
+          {
+            "contents": [], 
+            "id": 5202, 
+            "max": 1
+          }, 
+          {
+            "contents": [], 
+            "id": 5203, 
+            "max": 1
+          }, 
+          {
+            "contents": [], 
+            "id": 5204, 
+            "max": 1
+          }, 
+          {
+            "contents": [], 
+            "id": 5205, 
+            "max": 1
+          }, 
+          {
+            "contents": [], 
+            "id": 5206, 
+            "max": 1
+          }
+        ], 
+        "id": 5227, 
+        "max": 1, 
+        "room": 5233
+      }, 
+      {
+        "contents": [], 
+        "id": 5228, 
+        "max": 10, 
+        "room": 5242
+      }, 
+      {
+        "contents": [], 
+        "id": 5219, 
+        "max": 5, 
+        "room": 5217
+      }, 
+      {
+        "contents": [], 
+        "id": 5220, 
+        "max": 1, 
+        "room": 5234
+      }, 
+      {
+        "contents": [], 
+        "id": 5207, 
+        "max": 5, 
+        "room": 5229
+      }, 
+      {
+        "contents": [], 
+        "id": 5210, 
+        "max": 2, 
+        "room": 5238
+      }, 
+      {
+        "contents": [], 
+        "id": 5211, 
+        "max": 2, 
+        "room": 5238
+      }, 
+      {
+        "contents": [], 
+        "id": 5213, 
+        "max": 2, 
+        "room": 5238
+      }, 
+      {
+        "contents": [], 
+        "id": 5250, 
+        "max": 2, 
+        "room": 5230
+      }, 
+      {
+        "contents": [], 
+        "id": 5251, 
+        "max": 2, 
+        "room": 5230
+      }, 
+      {
+        "contents": [], 
+        "id": 5230, 
+        "max": 1, 
+        "room": 5202
+      }, 
+      {
+        "contents": [], 
+        "id": 5231, 
+        "max": 1, 
+        "room": 5205
+      }, 
+      {
+        "contents": [], 
+        "id": 5232, 
+        "max": 1, 
+        "room": 5208
+      }, 
+      {
+        "contents": [], 
+        "id": 5233, 
+        "max": 1, 
+        "room": 5211
+      }, 
+      {
+        "contents": [], 
+        "id": 5234, 
+        "max": 1, 
+        "room": 5214
+      }, 
+      {
+        "contents": [], 
+        "id": 5235, 
+        "max": 1, 
+        "room": 5217
+      }, 
+      {
+        "contents": [], 
+        "id": 5236, 
+        "max": 1, 
+        "room": 5220
+      }, 
+      {
+        "contents": [], 
+        "id": 5237, 
+        "max": 1, 
+        "room": 5224
+      }, 
+      {
+        "contents": [], 
+        "id": 5238, 
+        "max": 1, 
+        "room": 5227
+      }, 
+      {
+        "contents": [], 
+        "id": 5239, 
+        "max": 1, 
+        "room": 5230
+      }, 
+      {
+        "contents": [], 
+        "id": 5240, 
+        "max": 1, 
+        "room": 5234
+      }, 
+      {
+        "contents": [], 
+        "id": 5241, 
+        "max": 1, 
+        "room": 5238
+      }, 
+      {
+        "contents": [], 
+        "id": 5242, 
+        "max": 1, 
+        "room": 5241
+      }, 
+      {
+        "contents": [], 
+        "id": 5243, 
+        "max": 1, 
+        "room": 5246
+      }, 
+      {
+        "contents": [], 
+        "id": 5244, 
+        "max": 1, 
+        "room": 5250
+      }
+    ], 
+    "remove_objects": [
+      {
+        "id": 5228, 
+        "room": 5242
+      }, 
+      {
+        "id": 5219, 
+        "room": 5217
+      }, 
+      {
+        "id": 5220, 
+        "room": 5234
+      }, 
+      {
+        "id": 5207, 
+        "room": 5229
+      }, 
+      {
+        "id": 5210, 
+        "room": 5238
+      }, 
+      {
+        "id": 5211, 
+        "room": 5238
+      }, 
+      {
+        "id": 5213, 
+        "room": 5238
+      }, 
+      {
+        "id": 5250, 
+        "room": 5230
+      }, 
+      {
+        "id": 5251, 
+        "room": 5230
+      }
+    ], 
+    "reset_mode": 2, 
+    "top_room": 5299
+  }
+]

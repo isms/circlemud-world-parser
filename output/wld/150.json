@@ -1,0 +1,3543 @@
+[
+  {
+    "desc": "You stand at the beginning of the actual King's Road.  The road is wide\nenough for several horses to ride along side by side with room to spare.\nThe stones which make up the road have been put into place with such skill\nthat the road seems to be perfectly smooth and perfectly straight.\n   You spot a small trail leading to the south through the undergrowth which\nsurrounds the road at this point.\nA traveller passes by and waves cheerfully at you.", 
+    "exits": [
+      {
+        "desc": "The King's Road continues in a straight line to the east towards a grand\ncastle.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15001
+      }, 
+      {
+        "desc": "A small overgrown trail leads through the undergrowth to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15061
+      }, 
+      {
+        "desc": "The King's Road thins out a bit into a lane just to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3502
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The traveller smiles cheerfully and calls 'hello' when you greet him,\nbut continues on his way.\nThe traveller is in excellent condition.", 
+        "keywords": [
+          "traveller"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }
+    ], 
+    "id": 15000, 
+    "name": "The King's Road", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You stand in the center of the great King's Road.  The road is very well\nbuilt, and goes in a straight line due east-west.", 
+    "exits": [
+      {
+        "desc": "The King's Road continues in a straight line to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15002
+      }, 
+      {
+        "desc": "You see that the King's Road continues westwards towards a large city.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15000
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 15001, 
+    "name": "The King's Road", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You stand on the King's Road, which leads east and west.  The\nskill of the builders is apparent, since it is impossible to notice\nany turn or irregularity in the road.", 
+    "exits": [
+      {
+        "desc": "You see a castle in the far east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15003
+      }, 
+      {
+        "desc": "The King's Road continues in a straight line to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15001
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 15002, 
+    "name": "The King's Road", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing on the King's Road.  Before you is a large\nCastle, evidently built not so much for strength as for beauty.\nIt is not totally without defences, though, for it is surrounded\nby a deep moat, and its windows are just narrow slits for archers\nto shoot through.  To the north there is a drawbridge across the\nmoat.", 
+    "exits": [
+      {
+        "desc": "You see the drawbridge.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15004
+      }, 
+      {
+        "desc": "The King's Road continues in a straight line to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15002
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 15003, 
+    "name": "On The King's Road Outside A Castle", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You have arrived at the drawbridge leading into the Castle.  Before\nyou is a huge, double-doored gate.  It seems very strong.  You see some\nwhirls in the moat.", 
+    "exits": [
+      {
+        "desc": "The gate has huge, but intricately carved hinges.  As the Castle itself,\nit seems designed not only for strength, but also for beauty.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "gate", 
+          "door"
+        ], 
+        "room_linked": 15007
+      }, 
+      {
+        "desc": "You see the King's Road.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15003
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "You can't see much, but it seems that something beneath the surface\nis creating them.", 
+        "keywords": [
+          "whirls", 
+          "whirl", 
+          "moat"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }
+    ], 
+    "id": 15004, 
+    "name": "On The Drawbridge", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are in the Kitchen.  Lots of helpers hurry to do the Chief Cook's\nbidding, and there is a wonderful smell that makes you feel very hungry.\nAll around the room, there are shelves with different kinds of cooking \ngear stacked on them.  There is an exit to the north, and one to the east;\nboth leading to small passages.", 
+    "exits": [
+      {
+        "desc": "You see a small, dimly lit passage.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15010
+      }, 
+      {
+        "desc": "You see a small, dimly lit passage.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15006
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15005, 
+    "name": "The Kitchen", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in a small passage, that is clearly intended mostly\nfor the servants of the Castle.  It is only dimly lit and quite narrow.\nThe passage leads west, and to the east there is a small door.", 
+    "exits": [
+      {
+        "desc": "The door is small and uninteresting.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door", 
+          "small"
+        ], 
+        "room_linked": 15007
+      }, 
+      {
+        "desc": "You hear clanging of pots, and smell cooking meat.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15005
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15006, 
+    "name": "A Small Passage", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in the impressive Entrance Hall of the Castle.\nTo the north is an exit into the Great Hall.  There is also an exit\neast, and a small door to the west.", 
+    "exits": [
+      {
+        "desc": "You see the King's Great Hall.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15012
+      }, 
+      {
+        "desc": "There seems to be a small guard room to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15008
+      }, 
+      {
+        "desc": "To the south, there is a gate, that leads to the Drawbridge.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "gate"
+        ], 
+        "room_linked": 15004
+      }, 
+      {
+        "desc": "The door is small and uninteresting.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door", 
+          "small"
+        ], 
+        "room_linked": 15006
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15007, 
+    "name": "The Entrance Hall", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are in a small room, evidently meant for guards currently\nnot on duty.  There is only one exit, back to the entrance hall.", 
+    "exits": [
+      {
+        "desc": "You see the Castle Entrance.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15007
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15008, 
+    "name": "The Guard Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are below one the three mighty towers of the Castle.  There are\nno guards here, and you sense that this part of the Castle is largely\nunused.  There are stairs going up to the tower, and there is also an\nexit to the north.", 
+    "exits": [
+      {
+        "desc": "You see a small, dimly lit passage.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15014
+      }, 
+      {
+        "desc": "The stairs are old, but in good repair. They lead up into the tower.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15034
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The stairs are old, but in good repair. They lead up into the tower.", 
+        "keywords": [
+          "stairs"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15009, 
+    "name": "Under The Tower", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in a small passage, that is clearly intended \nmainly for the servants of the Castle.  The passage leads north\nand south.", 
+    "exits": [
+      {
+        "desc": "You see a small, dimly lit passage.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15015
+      }, 
+      {
+        "desc": "You hear the clanging of pots, and smell cooking meat.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15005
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15010, 
+    "name": "The Small Passage", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in the south-west end of the Great Hall. It \nis truly vast; the roof is so high above your head, that it seems no\ncloser than the clouds outside.  The roof is beautifully painted, by\nsomeone who must have been a true master.  The hall is very large,\nand could easily seat several hundred people at a banquet.", 
+    "exits": [
+      {
+        "desc": "You see the King's Great Hall.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15016
+      }, 
+      {
+        "desc": "You see the King's Great Hall.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15012
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The paintings on the roof depict the great heroes and gods.  One of \nthe gods is fairly heavy-bellied and incredibly hairy, with a massive\nbeard.  Also among them are the great enemies and wrongdoers, such as\nthe evil Goddess Yochlol and the powerful evil Wizard Tharoecon.", 
+        "keywords": [
+          "roof", 
+          "paintings", 
+          "paint"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15011, 
+    "name": "The Great Hall", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in the southern end of the Great Hall.  It\nis truly vast; the roof is so high above your head, that it seems no\ncloser than the clouds outside.  The roof is beautifully painted, by\nsomeone who must have been a true master.  The hall is very large,\nand could easily seat several hundred people at a banquet.  To your\nnorth, you see King Welmar's great throne, and to the south is the\nCastle Entrance.", 
+    "exits": [
+      {
+        "desc": "You see the part of the Great Hall where the throne is.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15017
+      }, 
+      {
+        "desc": "You see the King's Great Hall.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15013
+      }, 
+      {
+        "desc": "You see the Castle Entrance.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15007
+      }, 
+      {
+        "desc": "You see the King's Great Hall.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15011
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The paintings on the roof depict the great heroes and gods.  One of \nthe gods is fairly heavy-bellied and incredibly hairy, with a massive\nbeard.  Also among them are the great enemies and wrongdoers, such as\nthe evil Goddess Yochlol and the powerful evil Wizard Tharoecon.", 
+        "keywords": [
+          "roof", 
+          "paintings", 
+          "paint"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15012, 
+    "name": "The Great Hall", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in the south-east end of the Great Hall.  It\nis truly vast; the roof is so high above your head, that it seems no\ncloser than the clouds outside.  The roof is beautifully painted, by\nsomeone who must have been a true master.  The hall is very large,\nand could easily seat several hundred people at a banquet.", 
+    "exits": [
+      {
+        "desc": "You see the King's Great Hall.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15018
+      }, 
+      {
+        "desc": "You see the King's Great Hall.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15012
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The paintings on the roof depict the great heroes and gods.  One of\nthe gods is fairly heavy-bellied and incredibly hairy, with a massive\nbeard.  Also among them are the great enemies and wrongdoers, such as\nthe evil Goddess Yochlol and the powerful, evil Wizard Tharoecon.", 
+        "keywords": [
+          "roof", 
+          "paintings", 
+          "paint"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15013, 
+    "name": "The Great Hall", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in a passage, that leads north and south.  To the south\nit leads towards one of towers.", 
+    "exits": [
+      {
+        "desc": "You see the small passage continue.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15019
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15009
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15014, 
+    "name": "A Passage", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are in a passage, that leads north and south. To the east there\nis an exit to the Great Hall.", 
+    "exits": [
+      {
+        "desc": "You see the passage continue.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15020
+      }, 
+      {
+        "desc": "You see the King's Great Hall.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15016
+      }, 
+      {
+        "desc": "You see the passage continue.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15010
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15015, 
+    "name": "The Passage", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in the north-west end of the Great Hall.  It \nis truly vast; the roof is so high above your head, that it seems no\ncloser than the clouds outside.  The roof is beautifully painted, by\nsomeone who must have been a true master.  The hall is very large,\nand could easily seat several hundred people at a banquet.  To your\neast, you see King Welmar's great throne, and to the west there is\nan exit to a passage.", 
+    "exits": [
+      {
+        "desc": "You see the part of the Great Hall where the throne is.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15017
+      }, 
+      {
+        "desc": "You see the King's Great Hall.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15011
+      }, 
+      {
+        "desc": "You see a passage.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15015
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The paintings on the roof depict the great heroes and gods.  One of\nthe gods is fairly heavy-bellied and incredibly hairy, with a massive\nbeard.  Also among them are the great enemies and wrongdoers, such as\nthe evil Goddess Yochlol and the powerful evil Wizard Tharoecon.", 
+        "keywords": [
+          "roof", 
+          "paintings", 
+          "paint"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15016, 
+    "name": "The Great Hall", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing by the King's huge ivory throne.  The throne is, to\nan even greater degree than the Hall itself, a masterpiece.  It is\nintricately and beautifully carved, and it seems to be made out of a \nsingle block of ivory, though you shiver at the thought of meeting\nthe animal that died to yield a piece of that size.  The Hall continues\nto the east, west and south.", 
+    "exits": [
+      {
+        "desc": "You see the King's Great Hall.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15018
+      }, 
+      {
+        "desc": "You see the King's Great Hall.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15012
+      }, 
+      {
+        "desc": "You see the King's Great Hall.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15016
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The paintings on the roof depict the great heroes and gods.  One of\nthe gods is fairly heavy-bellied and incredibly hairy, with a massive\nbeard.  Also among them are the great enemies and wrongdoers, such as\nthe evil Goddess Yochlol and the powerful evil Wizard Tharoecon.", 
+        "keywords": [
+          "roof", 
+          "paintings", 
+          "paint"
+        ]
+      }, 
+      {
+        "desc": "It is large and very beautiful.  The carvings are mainly of animals and\nmagic beasts.", 
+        "keywords": [
+          "throne", 
+          "ivory"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15017, 
+    "name": "By The Throne In The Great Hall", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in the north-east end of the Great Hall.  It\nis truly vast; the roof is so high above your head, that it seems no\ncloser than the clouds outside.  The roof is beautifully painted, by\nsomeone who must have been a true master.  The hall is very large,\nand could easily seat several hundred people at a banquet.  To your\nwest, you see King Welmar's great throne, and to the east there is\nan exit to a small passage.", 
+    "exits": [
+      {
+        "desc": "You see a passage.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15019
+      }, 
+      {
+        "desc": "You see the King's Great Hall.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15013
+      }, 
+      {
+        "desc": "You see the part of the Great Hall where the throne is.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15017
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The paintings on the roof depict the great heroes and gods.  One of \nthe gods is fairly heavy-bellied and incredibly hairy, with a massive\nbeard.  Also among them are the great enemies and wrongdoers, such as\nthe evil Goddess Yochlol and the powerful evil Wizard Tharoecon.", 
+        "keywords": [
+          "roof", 
+          "paintings", 
+          "paint"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15018, 
+    "name": "The Great Hall", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in a small passage, that leads north and south.\nTo the west, there is an exit into the Great Hall.", 
+    "exits": [
+      {
+        "desc": "The passage continues to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15024
+      }, 
+      {
+        "desc": "The passage continues to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15014
+      }, 
+      {
+        "desc": "To the west you see the Great Hall.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15018
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15019, 
+    "name": "The Small Passage", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in a north-south leading passage.  There is a door\nto the east.", 
+    "exits": [
+      {
+        "desc": "The door is quite small and unobtrusive.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 15021
+      }, 
+      {
+        "desc": "The passage continues to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15015
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15020, 
+    "name": "The Passage", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in a corridor, that stretches further to the east.\nThere are doors to the north and west.  The corridor itself is mainly\nused by servants, and lacks some of the beauty of the rest of the\ncastle.", 
+    "exits": [
+      {
+        "desc": "There is a door there!", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 15026
+      }, 
+      {
+        "desc": "The corridor seems to come to its end a bit further east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15022
+      }, 
+      {
+        "desc": "The door to the west is made out of wood.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door", 
+          "wood"
+        ], 
+        "room_linked": 15020
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15021, 
+    "name": "The Servants' Corridor", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "The corridor leads only west from here, but there is a door to\nthe north.", 
+    "exits": [
+      {
+        "desc": "The door leads to a room intended for the butler.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": 15009, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 15027
+      }, 
+      {
+        "desc": "You see the corridor continue.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15021
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15022, 
+    "name": "The End Of The Servants' Corridor", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "This is the Training Room of the men of the Castle guard.  It is\nvery large, with weapons standing in racks by all the walls.  Most\nof the weapons seem to be intended for training only, with blunt\nedges and the like, but there are some that might be useful for\nreal fighting.  There is a door to the north.", 
+    "exits": [
+      {
+        "desc": "The door is large and heavy.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door", 
+          "large", 
+          "heavy"
+        ], 
+        "room_linked": 15028
+      }, 
+      {
+        "desc": "You see a small passage.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15024
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15023, 
+    "name": "The Training Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in a small passage leading north and south.  There\nis also an exit to the west, from which grunts, cheers and heavy blows\ncan be heard.", 
+    "exits": [
+      {
+        "desc": "The passage leads north to some stairs.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15029
+      }, 
+      {
+        "desc": "You see the passage continuing.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15019
+      }, 
+      {
+        "desc": "You see the Training Room.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15023
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15024, 
+    "name": "The Small Passage", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing below a great staircase, that leads up to the\nsecond floor of the Castle.  The stairs are made of marble, and there\nare pillars carved in the likenesses of trees with little animals\nrunning up and down the trunks.", 
+    "exits": [
+      {
+        "desc": "You see the passage.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15020
+      }, 
+      {
+        "desc": "The stairs lead up to the second floor.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15049
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "Made out of marble, and as all the rest of the Castle made primarily\nfor beauty and with great skill.", 
+        "keywords": [
+          "stairs", 
+          "stair"
+        ]
+      }, 
+      {
+        "desc": "Very nice. Squirrels and little birds all over.", 
+        "keywords": [
+          "pillar", 
+          "pillars", 
+          "tree", 
+          "trees"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15025, 
+    "name": "The Stair Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in a large room, that seems to house many of the\nservants.  The room is full of comfortable-looking beds.  There is also\na large chest, probably containing some of the servants' belongings.", 
+    "exits": [
+      {
+        "desc": "The door is made out of wood.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door", 
+          "wood"
+        ], 
+        "room_linked": 15021
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The beds all look comfortable, despite the fact that this is just\nthe servants' place.", 
+        "keywords": [
+          "bed"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15026, 
+    "name": "The Servants' Quarters", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You see at once that this must be the butler's room, for it lies\nin the servants' wing, and still it is large and comfortable; almost\nluxurious, in fact.  There is a large bed and a drawer in the room.\nThe only exit is via the door to the south.", 
+    "exits": [
+      {
+        "desc": "You see the corridor.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": 15009, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 15022
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "Looks very comfortable indeed.", 
+        "keywords": [
+          "bed"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15027, 
+    "name": "The Butler's Quarters", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in a very large room with bunks all over.  It is\nobvious, that this is where the guards off duty spend most of their\ntime, drinking and gambling or, probably, mostly sleeping.", 
+    "exits": [
+      {
+        "desc": "The door is large and heavy.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door", 
+          "large", 
+          "heavy"
+        ], 
+        "room_linked": 15023
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "They look a bit hard, but you could sleep in them.", 
+        "keywords": [
+          "bunk", 
+          "bunks"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15028, 
+    "name": "The Guards' Barracks", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing by a staircase leading down.  As you look down,\nyou notice that for the first time since you entered the castle,\nthings are not aesthetically made.  Instead it looks more functional\nand prison-like.", 
+    "exits": [
+      {
+        "desc": "You see the small passage.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15024
+      }, 
+      {
+        "desc": "The stairs down lead into darkness.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15055
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "They seem to be made of granite, and stretch down into a more dimly\nlit area than where you come from.", 
+        "keywords": [
+          "stairs", 
+          "stair", 
+          "staircase"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15029, 
+    "name": "The Stairs", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing at a place where the corridor bends from east to north.", 
+    "exits": [
+      {
+        "desc": "You see the corridor continue.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15035
+      }, 
+      {
+        "desc": "You see the corridor continue.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15031
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15030, 
+    "name": "At A Bend In The Corridor", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in a long corridor, decorated with tapestries\ndepicting old times and old heroes.  It leads east and west.", 
+    "exits": [
+      {
+        "desc": "You see the corridor continue.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15032
+      }, 
+      {
+        "desc": "You see the corridor continue.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15030
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15031, 
+    "name": "The Corridor", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in a long corridor, decorated with tapestries\ndepicting old times and old heroes.  It leads east and west.", 
+    "exits": [
+      {
+        "desc": "You see the corridor continue.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15033
+      }, 
+      {
+        "desc": "You see the corridor continue.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15031
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15032, 
+    "name": "The Corridor", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in a long corridor, decorated with tapestries\ndepicting old times and old heroes.  The corridor continues west,\nand to the north you see the luxurious guest wing.", 
+    "exits": [
+      {
+        "desc": "You see the guest wing.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15038
+      }, 
+      {
+        "desc": "You see the corridor continue.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15032
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15033, 
+    "name": "The Corridor", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "This part of the tower is fairly uninteresting, but it leads further\nupwards...", 
+    "exits": [
+      {
+        "desc": "The room at the top of the tower seems darkish for some reason.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15052
+      }, 
+      {
+        "desc": "You see the stairs at the bottom of the tower.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15009
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15034, 
+    "name": "In The South-East Tower", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in a long corridor, decorated with tapestries\ndepicting old times and old heroes.  It leads north and south.  There\nis also an exit to the east here.", 
+    "exits": [
+      {
+        "desc": "You see the corridor continue.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15040
+      }, 
+      {
+        "desc": "You see a small room.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15036
+      }, 
+      {
+        "desc": "You see the corridor continue.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15030
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15035, 
+    "name": "The Corridor", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing by a great iron door.  The door is very large, and\nseems very solid indeed.  There is a sign posted by it.", 
+    "exits": [
+      {
+        "desc": "You see a large steel door.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 15007, 
+        "keywords": [
+          "door", 
+          "steel", 
+          "large"
+        ], 
+        "room_linked": 15037
+      }, 
+      {
+        "desc": "You see the corridor.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15035
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "\n              TREASURE ROOM\n\n   Authorized personnel only - all others keep out.\n   ANY trespassing will be SEVERELY punished!!\n", 
+        "keywords": [
+          "sign"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15036, 
+    "name": "By The Treasure Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "As you enter this room, you are astonished by the riches that\nare stowed away here; not so much in gold, but paintings, tapestries,\nskillful carvings and sculptures all over the vast room.  You realise,\nhowever, that most of these things are too well known to be sold\nanywhere, without branding yourself as a thief, and condemning yourself\nto instant death at the hands of the Royal Guard.", 
+    "exits": [
+      {
+        "desc": "You see a large steel door.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 15007, 
+        "keywords": [
+          "door", 
+          "large", 
+          "steel"
+        ], 
+        "room_linked": 15036
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It seems they are stored here temporarily to enable changing\nof the decoration in the Castle on a regular basis.", 
+        "keywords": [
+          "painting", 
+          "paintings", 
+          "carving", 
+          "carvings", 
+          "sculptures", 
+          "tapestries"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15037, 
+    "name": "The Great Treasury", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You have arrived at the part of the Castle where prominent\nguests are housed.  To the east there is a large, ornamented\ndoor, and a somewhat smaller one leads north.", 
+    "exits": [
+      {
+        "desc": "The door seems to lead to a guest room.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door", 
+          "small"
+        ], 
+        "room_linked": 15043
+      }, 
+      {
+        "desc": "You see the guest suite behind the ornamented door.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door", 
+          "ornament", 
+          "ornamented"
+        ], 
+        "room_linked": 15039
+      }, 
+      {
+        "desc": "You see the corridor.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15033
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15038, 
+    "name": "The Guest Wing", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "This must be where only the most highly regarded guests stay, since\nit is luxurious beyond your wildest imagination.  This is only the living\nroom of the suite, but it is huge and tastefully decorated.  All the\nfurniture is not only beautiful, but also made for comfort.  To the\nnorth, there is an exit to the bedroom, and there is a door to the west.", 
+    "exits": [
+      {
+        "desc": "You see the bedroom.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15044
+      }, 
+      {
+        "desc": "Behind the door you see the entrance to the Guest Wing.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 15038
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15039, 
+    "name": "The Guest Suite", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in a long corridor, decorated with tapestries\ndepicting old times and old heroes.  It leads north and south.", 
+    "exits": [
+      {
+        "desc": "You see the corridor continue.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15045
+      }, 
+      {
+        "desc": "You see the corridor continue.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15035
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15040, 
+    "name": "The Corridor", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in the great Ball Room.  It is a truly large room,\nwith a stage for an orchestra in the south-east end.", 
+    "exits": [
+      {
+        "desc": "You see the Ball Room.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15046
+      }, 
+      {
+        "desc": "To the east you see the stage.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15042
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15041, 
+    "name": "The Ball Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "Before you you see the stage.  It is large enough for some 40 \nmusicians to play on at the same time.  The Ball Room continues\nto the west and north.", 
+    "exits": [
+      {
+        "desc": "You see the Ball Room.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15047
+      }, 
+      {
+        "desc": "You see the Ball Room.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15041
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15042, 
+    "name": "By The Stage", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in a large room.  Although it is comfortable enough,\nyou can tell it is not meant for any of the most illustrious guests,\nsince it lacks that extreme luxury found elsewhere in the Castle.", 
+    "exits": [
+      {
+        "desc": "Behind the door, you see the entrance to the Guest Wing.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door"
+        ], 
+        "room_linked": 15038
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15043, 
+    "name": "A Guest Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "This room is dominated by the huge four-poster bed, that stands\nagainst the northern wall.  The room is large and cosy, and the bed\nvirtually begs you to lie down in it and sleep.", 
+    "exits": [
+      {
+        "desc": "You see the living room of the suite.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15039
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "Large, comfortable, bolstered... Invites you to sleep in it.", 
+        "keywords": [
+          "bed"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15044, 
+    "name": "The Bedroom", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in a long corridor, decorated with tapestries\ndepicting old times and old heroes.  It leads north and south.  There\nis an exit to the east, that leads to a large room.", 
+    "exits": [
+      {
+        "desc": "You see the corridor continue.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15049
+      }, 
+      {
+        "desc": "You see the Ball Room.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15046
+      }, 
+      {
+        "desc": "You see the corridor continue.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15040
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15045, 
+    "name": "The Corridor", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in the great Ball Room.  It is a truly large room,\nwith a stage for an orchestra in the south-east end.", 
+    "exits": [
+      {
+        "desc": "You see the Ball Room.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15047
+      }, 
+      {
+        "desc": "You see the Ball Room.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15041
+      }, 
+      {
+        "desc": "You see the corridor.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15045
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15046, 
+    "name": "The Ball Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in the great Ball Room.  It is a truly large room,\nwith a stage for an orchestra in the south-east end.", 
+    "exits": [
+      {
+        "desc": "To the east, you can enter a tower.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15048
+      }, 
+      {
+        "desc": "To the south you see the stage.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15042
+      }, 
+      {
+        "desc": "You see the Ball Room.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15046
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15047, 
+    "name": "The Ball Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing in the north-eastern of the three great watch-\ntowers of the Castle.  To the west, you can enter the Ball Room and\nthere are stairs leading up into the Tower.", 
+    "exits": [
+      {
+        "desc": "You see the Ball Room.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15047
+      }, 
+      {
+        "desc": "The stairs lead a long way up to the top of the Tower.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15054
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The stairs are made out of granite, and seem solid enough.", 
+        "keywords": [
+          "stairs"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15048, 
+    "name": "In The Tower", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are standing on a great staircase, that leads up and down.  To \nthe east, there is a large oak door, and a corridor leads south.", 
+    "exits": [
+      {
+        "desc": "The door is large and made out of oak.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": 15014, 
+        "keywords": [
+          "door", 
+          "oak", 
+          "large"
+        ], 
+        "room_linked": 15050
+      }, 
+      {
+        "desc": "You see the corridor.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15045
+      }, 
+      {
+        "desc": "The stairs continue up to the top of the tower.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15053
+      }, 
+      {
+        "desc": "The stairs lead down to the first floor of the Castle.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15025
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The stairs are made of marble, and there are pillars carved in the\nlikenesses of trees with little animals running up and down the\ntrunks.", 
+        "keywords": [
+          "stairs"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15049, 
+    "name": "The Grand Staircase", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You have entered a large, cosy living room.  There is a fireplace\nwith a fire burning, and a few comfortable chairs around a little\ntable.  There is a door to the west, and also an exit to the east.", 
+    "exits": [
+      {
+        "desc": "You see a large bedroom.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15051
+      }, 
+      {
+        "desc": "The door is large, and made out of oak.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": 15014, 
+        "keywords": [
+          "door", 
+          "large", 
+          "oak"
+        ], 
+        "room_linked": 15049
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The fire is built out of logs, and seems to be able to burn for \nquite a while longer.", 
+        "keywords": [
+          "fire", 
+          "fireplace"
+        ]
+      }, 
+      {
+        "desc": "The table is made of mahogany, and elegant in a cosy way(!)", 
+        "keywords": [
+          "table"
+        ]
+      }, 
+      {
+        "desc": "The chairs are arranged around the fireplace.", 
+        "keywords": [
+          "chairs"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15050, 
+    "name": "The Cosy Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "This is a large room, with a wonderful view.  To one side of the\nroom, stands a large four-poster bed.  All around the room there are\nmassive bookshelves, filled with all kinds of books.  The titles include\nworks such as: 'A Treatise on the History of Midgaard and surrounding\nareas', 'Magic - A Beginner's Introduction' and many others.  There is\nan exit to the west.", 
+    "exits": [
+      {
+        "desc": "There is a large and cosy room to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15050
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "Most of the books seem worn, as if thoroughly studied.  The King\nevidently is interested in keeping himself educated.", 
+        "keywords": [
+          "books", 
+          "book", 
+          "shelf", 
+          "shelves", 
+          "bookshelf", 
+          "bookshelves"
+        ]
+      }, 
+      {
+        "desc": "Seems nice enough to sleep in, though you would never dare to, since\nit is a Royal Bed!", 
+        "keywords": [
+          "bed"
+        ]
+      }, 
+      {
+        "desc": "A dry tome, filled with boring knowledge.", 
+        "keywords": [
+          "history", 
+          "midgaard"
+        ]
+      }, 
+      {
+        "desc": "Beginner?  This book goes beyond most of what YOU know about magic\nanyway.  But then, there are levels of magical knowledge, it seems.", 
+        "keywords": [
+          "magic"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15051, 
+    "name": "King Welmar's Bedroom", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "After a long climb, you finally reach the top of the tower.  This\nroom is small, and the only light source is a flickering candle, on\na cluttered table, in the middle of the room.  The only obvious exit\nis back down the stairs.", 
+    "exits": [
+      {
+        "desc": "The stairs go down the tower.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15034
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "On the table are various objects, all very strange-looking.", 
+        "keywords": [
+          "table"
+        ]
+      }, 
+      {
+        "desc": "Small, uninteresting... A candle that is as normal as can be.", 
+        "keywords": [
+          "candle"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15052, 
+    "name": "Up In The Tower", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You have arrived at the top of the tower.  This tower is pretty\nuninteresting, and seems made purely for reasons of defence and \nguarding.  The windows are slits for bowmen, very narrow on the \noutward side and broad inwards to allow a wide shooting angle.\nThe only evident exit is down the stairs again.", 
+    "exits": [
+      {
+        "desc": "The stairs go down to the second floor.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15049
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "As you look out the windows, you are granted a view of the countryside.", 
+        "keywords": [
+          "window", 
+          "slit"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15053, 
+    "name": "The Top Of The Tower", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "This is the highest of all the towers, and is obviously used for\nlookout purposes.  The view is splendid in all four directions.  All\naround you, the rich countryside spreads out to the horizon.  To the\nnorth and east you see a vast mountain range, and far to the west\na beautiful lake.  A bit closer, the town of Midgaard lies at the\nend of the King's Road.  The only exit you can see is down again.", 
+    "exits": [
+      {
+        "desc": "To the north, the tall White Mountains have their highest peaks.\nThe mountaintops disappear in the white clouds, far above the \nplains.  The sight of those high, far mountains fills you with a\ndesire to scale them, to see the world from that vantage.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": -1
+      }, 
+      {
+        "desc": "In the east you see an arm of the dominating mountain range on this\ncontinent, the White Mountains.  Though not as high as those in the\nnorth, the sight of those mountains fills you with awe.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": -1
+      }, 
+      {
+        "desc": "To the south, rolling hills stretch away, as far as you can see.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": -1
+      }, 
+      {
+        "desc": "As you look west, you see a river flowing through all of Midgaard\nand continuing beyond it towards a great lake.  Still further\naway, you can glimpse something silvery that has to be the Sea.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": -1
+      }, 
+      {
+        "desc": "You see the stairs going back down to the second floor.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15048
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15054, 
+    "name": "The Top Of The Tower", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "The stairs lead down to a damp part of the castle, you can hear\nwater dripping somewhere around you.  The area is lit by a single\ntorch flickering in the room which this staircase is built off of.\n   The stairs lead upwards and they open up onto a fairly small\nroom to the east.", 
+    "exits": [
+      {
+        "desc": "A small room opens up to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15056
+      }, 
+      {
+        "desc": "The stairs lead upwards out of this dank, dark place.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15029
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15055, 
+    "name": "The Bottom Of The Stairs", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are at a loss to explain why someone would want to spend all\nday down here.  The only explanation that seems even remotely logical\nto you is that there must be an important prisoner kept in one of the\ncells through the south door.\n   The decorations of the room are sparse, merely a table, a chair,\nand a deck of cards.  A stairwell has been built into the western wall\nand it leads upwards.", 
+    "exits": [
+      {
+        "desc": "Through the peep hole at the top of the small wooden door you can see\nthat there is a small corridor leading past several cells.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": 15017, 
+        "keywords": [
+          "door", 
+          "wooden"
+        ], 
+        "room_linked": 15057
+      }, 
+      {
+        "desc": "A small stairwell built into the western wall of the room leads upwards.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15055
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "There is a deck of cards on the table in a small pile.  There is one card\nlying on the floor however.", 
+        "keywords": [
+          "table", 
+          "cards", 
+          "deck"
+        ]
+      }, 
+      {
+        "desc": "The card on the floor seems to be the Ace of Spades... a bad card to find\nindeed.  What could be the bad luck brought about by this discovery?", 
+        "keywords": [
+          "card", 
+          "floor"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15056, 
+    "name": "The Guard Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "This small passage is about thirty feet long and is well lit by the\ntorches on each wall.  The torches have been locked inside small metal\ncages to ensure that they are not removed.  The strangest thing about\nthe torches however, is the manner in which they burn, they have what\nappears to be a constant flame in that it does not flicker whatsoever,\nand does not give off any smoke.  Perhaps they have been magicked to\nburn forever...\n   There are three cells along this passage way, one on each side of\nthe corridor right near the north end and one isolated at the south\nend of the corridor with a small metal plaque located over the door\nin the keystone of the archway.", 
+    "exits": [
+      {
+        "desc": "A small wooden door blocks the way out of the prison.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": 15017, 
+        "keywords": [
+          "door", 
+          "wooden"
+        ], 
+        "room_linked": 15056
+      }, 
+      {
+        "desc": "A cell door is set into the eastern wall.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 15017, 
+        "keywords": [
+          "door", 
+          "cell"
+        ], 
+        "room_linked": 15060
+      }, 
+      {
+        "desc": "The cell door to the south has been double padlocked and there is a\nplaque placed in the keystone above the door.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 15017, 
+        "keywords": [
+          "door", 
+          "cell"
+        ], 
+        "room_linked": 15059
+      }, 
+      {
+        "desc": "A cell door is set into the western wall.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 15017, 
+        "keywords": [
+          "door", 
+          "cell"
+        ], 
+        "room_linked": 15058
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The plaque in the keystone is engraved with four simple words:\n\n                Ergan, Murderer of Townsbridge\n", 
+        "keywords": [
+          "plaque", 
+          "keystone"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15057, 
+    "name": "The Prison", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "This cell is in a shambles.  There is a small hole in the\nwestern wall where something has broken through the stones\ninto the cell.  There is a cell door in the eastern wall.", 
+    "exits": [
+      {
+        "desc": "The cell door to the east leads back to the prison hallway.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 15017, 
+        "keywords": [
+          "door", 
+          "cell"
+        ], 
+        "room_linked": 15057
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The hole is much too small for you to clamber through.", 
+        "keywords": [
+          "hole"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15058, 
+    "name": "A Cell", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "This large cell is almost like a living quarters with a cot\nin one corner serving as a bed, a small table built out of the\nwall in another corner.  There is even a rug in the center of\nthe floor to keep some warmth.  It seems that the prisoner kept\nhere is treated quite well, almost too well for a murderer of\nan entire town...", 
+    "exits": [
+      {
+        "desc": "The cell door to the north leads back to the prison hallway.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 15017, 
+        "keywords": [
+          "door", 
+          "cell"
+        ], 
+        "room_linked": 15057
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15059, 
+    "name": "Ergan's Cell", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "This small cell is damp and dark and looks like noone and nothing\nhas lived in it for quite some time.  A small cell door is located in\nthe west wall.", 
+    "exits": [
+      {
+        "desc": "The cell door to the west leads back to the prison hallway.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 15017, 
+        "keywords": [
+          "door", 
+          "cell"
+        ], 
+        "room_linked": 15057
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15060, 
+    "name": "A Cell", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "Moving off of the King's Road, you find yourself on a small\nfading trail which appears to have been so little used that it\nhas almost completely grown over with vegitation from the woods\nhere.  Sounds of the forest can be heard all round and you feel\na peaceful feeling come over you as you realize that mankind\nhas not passed this way for some time.\n   The faded trail appears to lead north and south.", 
+    "exits": [
+      {
+        "desc": "The travel upon the King's Road can be heard off to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15000
+      }, 
+      {
+        "desc": "The trail continues southwards.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15062
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 15061, 
+    "name": "An Overgrown Trail", 
+    "sector_type": {
+      "note": "HILLS", 
+      "value": 4
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "Continuing through the heavy undergrowth, you find yourself\nin the middle of the forest.  The sounds of the forest can be\nheard all round and you feel a peaceful feeling come over you\nas you realize that mankind has not passed this way for some\ntime.\n   The fading trail you are on appears to have been so little\nused that it has almost completely grown over with vegitation\nfrom the woods here.  \n   The faded trail appears to lead north and east.", 
+    "exits": [
+      {
+        "desc": "The trail continues northwards.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15061
+      }, 
+      {
+        "desc": "The trail appears to continue to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15063
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 15062, 
+    "name": "An Overgrown Trail", 
+    "sector_type": {
+      "note": "HILLS", 
+      "value": 4
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "Continuing through the heavy undergrowth, you find yourself\nin the middle of the forest.  The sounds of the forest can be\nheard all round and you feel a peaceful feeling come over you\nas you realize that mankind has not passed this way for some\ntime.\n   The fading trail you are on appears to have been so little\nused that it has almost completely grown over with vegitation\nfrom the woods here.  \n   The faded trail appears to lead west and south.  To the south\na strange eerie silence seems to hang in the air, almost blocking\nout all the sounds that you can hear from the north and east.", 
+    "exits": [
+      {
+        "desc": "The undergrowth begins to open up to the south and you can see what\nappears to be a small village to the south.  It is very quiet, almost\ntoo quiet.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15064
+      }, 
+      {
+        "desc": "The overgrown trail continues to the northwest.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15062
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 15063, 
+    "name": "An Overgrown Trail", 
+    "sector_type": {
+      "note": "HILLS", 
+      "value": 4
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "As you leave the forest to the north, you find yourself at\nwhat appears to be the beginning of a dirt road and a small\nvillage.  Upon first laying eyes on this place you realize\nthat there is something funny about this settlement... there\nis no sound other that the whistling wind here.  You would have\nexpected to hear people going about their regular business, but\nthe village is silent.  You cannot see any movement around the\nvillage either.  It is almost as still and silent as the woods\nto the north.\nThere is a small sign lying by the side of the road here.", 
+    "exits": [
+      {
+        "desc": "An trail leads into the heavy undergrowth to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15063
+      }, 
+      {
+        "desc": "The dirt road continues through the village to the south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15065
+      }, 
+      {
+        "desc": "A house stands a short distance off the west side of the road, its\ndoor hanging ajar.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15068
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "\n/----------------------------------\\\n|     Welcome to the hamlet of     |\n|           Townsbridge            |\n|                                  |\n|                                  |\n|     Population:  276             |\n|                                  |\n\\----------------------------------/\n\nThe number 276 has been scratched out and replaced with the\nnumber 0.\n", 
+        "keywords": [
+          "sign"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 15064, 
+    "name": "A Dirt Road", 
+    "sector_type": {
+      "note": "FIELD", 
+      "value": 2
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "Continuing along the dirt road, you find yourself at a place where\na small path splits away from the main road and leads off to the west.\nThe woods around the village seem to be pressing inwards towards you\nas if the village hides a secret which they do not want to be spread\nabout.\n   There is another house standing on the east side of the road.", 
+    "exits": [
+      {
+        "desc": "The dirt road continues to the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15064
+      }, 
+      {
+        "desc": "You can hear a wailing sound coming from the house to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15069
+      }, 
+      {
+        "desc": "The dirt road continues towards the south where a horrible smell\npermeates the air.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15066
+      }, 
+      {
+        "desc": "A small, dark trail leads off into the woods to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15072
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 15065, 
+    "name": "A Small Intersection", 
+    "sector_type": {
+      "note": "FIELD", 
+      "value": 2
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "This section of the dirt road is quiet, but there is an awful stench\nin the air.  It brings to mind rotting corpses and raw sewage.  The woods\ncontiue to press closely about you, and almost totally surround the small\nbuilding to the west with a thatched roof.  There is a blackened shell of\na building to the east with a small sign hanging out front from a black\nand charred chain.\n   The dirt road continues north and south.", 
+    "exits": [
+      {
+        "desc": "The small dirt road continues towards the north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15065
+      }, 
+      {
+        "desc": "The building to the east is merely a shell of what it once probably\nwas.  The walls are blackened as if they had been exposed to fire at\nsome point in the past...", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15071
+      }, 
+      {
+        "desc": "The stench from the south is almost overpowering now... it seems that\nthe source wouldn't be too far from here.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15067
+      }, 
+      {
+        "desc": "A small quiet cottage stands on the west side of the road, apparently\nuntouched by the desecration and destruction that appears to have hit\nthis small village.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15070
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The sign is covered with soot and the wood is quite charred, but you can\nstill make out the following letters:\n\n        T   TO  SB  DGE   NER L    RE\n", 
+        "keywords": [
+          "sign"
+        ]
+      }
+    ], 
+    "flags": [], 
+    "id": 15066, 
+    "name": "A Dirt Road", 
+    "sector_type": {
+      "note": "FIELD", 
+      "value": 2
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "The dirt road ends at the edge of a large pit here and you now\nrealize where the awful smell was coming from.  This pit appears\nto be a mass grave for the citizens of the village.  There are\nbones and corpses lying all over the place.  A lot of the corpses\nlook too recent to be from the Townsbridge murders of almost a\ndecade ago, but the village seems to have been empty for almost\nthat long.\n   The dirt road leads away from the carnage to the north.", 
+    "exits": [
+      {
+        "desc": "Just near the north edge of the pit a small and narrow trail leads\naway.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15066
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 15067, 
+    "name": "A Large Pit", 
+    "sector_type": {
+      "note": "FIELD", 
+      "value": 2
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "This house is a wreck, furniture has been strewn all about\nthe room, and it looks like a tornado landed right in the middle\nof the room.  The destruction that has taken place in this room\nis almost beyond belief.  The oddest part of it all though, is\nhow it all seems so recent, since there are no cobwebs, and there\nis no dust on anything.\n   The dirt road can be seen to the east through the doorway.", 
+    "exits": [
+      {
+        "desc": "You can see the dirt road through the doorway to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15064
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15068, 
+    "name": "A House", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "This darkened room is barely lit by the outdoor light, but what\nyou can see of it gives you the creeps.  There are cobwebs dangling\nfrom everything, a thick layer of dust begins to rise up at your\npassage, and a strange howl comes from somewhere around you.  The\nfurniture in this house is old and of a type that hasn't been seen\naround these lands for some time.  If it was in better shape, you\nmight be able to sell it as antique.\n   The meager light of the road shines through the doorway to the\nwest.", 
+    "exits": [
+      {
+        "desc": "You can see the dirt road through the doorway to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15065
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15069, 
+    "name": "A House", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "This cottage looks to have been left in exactly the same shape as\nit was in quite some time ago.  It looks as if the residents left one\nday and haven't returned home yet.  Oddly enough, the furniture is\ndust free and the food on the table still looks fresh.  This house is\nreally strange, perhaps it wuld be in your best interests to leave as\nsoon as humanly possible.\n   The road is back through the open doorway to the east.", 
+    "exits": [
+      {
+        "desc": "You can see the dirt road through the doorway to the east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15066
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15070, 
+    "name": "A Small Cottage", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "As you enter this small building, you notice that that blackened\nwalls are due to a fire that seemed to burn here unattended for quite\nsome time.  There is almost nothing left of the roof that would have\nonce covered this building, and the north and east walls have been\nburnt to almost half the height of the other two walls.  There are\nsome burnt goods around on the ground and the remains of a counter\nnear what is left of the north wall seems to indicate that this was\nonce a shop.\n   The road lies to the west through the blackened wall.", 
+    "exits": [
+      {
+        "desc": "You can see the dirt road to the west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15066
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [], 
+    "id": 15071, 
+    "name": "The Burned Shop", 
+    "sector_type": {
+      "note": "FIELD", 
+      "value": 2
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "As you move away form the open air into the darkness of the path\nand the sinister looking woods around you, you get a feeling of awe\nand something almost akin to horror.  The wood around is completely\nsilent, not even the rustling of leaves or the cracking of branches\nbreaks the silence.  The final thing you notice is that the darkness\nall around you seems to be almost contrived, and doesn't seem natural\nfor this kind of vegitation.\n   The path continues west and you can see light to the east.", 
+    "exits": [
+      {
+        "desc": "The path continues towards a small intersection with a dirt road.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15065
+      }, 
+      {
+        "desc": "The path continues through the darkness.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15073
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15072, 
+    "name": "A Dark Path", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "This narrow path leads through the overhanging trees in the unnatural\ndarkness.  It seems almost as if the trees are crowding in on you here,\nas if they didn't want to feel your presence.  The wood is almost totally\nsilent and you wonder silently to yourself why this could be.\n   The path appears to continue east and west.", 
+    "exits": [
+      {
+        "desc": "The path continues through the darkness.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15072
+      }, 
+      {
+        "desc": "The glow from the west appears to be quite strong, but it does not\ngive enough light to see by here, nor can you see the source of the\nglow.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15074
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15073, 
+    "name": "A Dark Path", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 150
+  }, 
+  {
+    "desc": "You are at the edge of a circle of seven large monolith-like stones.\nEach stone towers over your head and appears to be at least double your\nheight.  The stones are made of a dark black material, almost black in\ncolour.\n   In the center of the ring of stones, you can see a black circular\nmirror-like disk on the ground.  The surface is highly reflective and\nalmost appears to be rippling.  The trees surrounding the circle tower\nfar above your heads blocking out the sky.\n   A strange glow seems to be emanating from each stone, almost green\nin colour.  This glow provides enough light for you to see with even\nthough the sky above has been blotted out.", 
+    "exits": [
+      {
+        "desc": "A narrow path leads away into the darkness.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 15073
+      }, 
+      {
+        "desc": "You cannot see the sky above since the trees around the stone ring\nblock it out entirely.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": -1
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "Each stone is at least fifteen feet tall, maybe more, and the dark\nmaterial glows with a greenish aura providing more than enough light\nfor you to see by.", 
+        "keywords": [
+          "stones", 
+          "glow", 
+          "stone", 
+          "ring", 
+          "circle"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 15074, 
+    "name": "The Circle Of Stones", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 150
+  }
+]

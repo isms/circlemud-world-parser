@@ -1,0 +1,1105 @@
+[
+  {
+    "desc": "A huge cloud forms the plateau on which you are now standing.  The\nwind here is absolutely quiet and the sun is shining warmly upon you.\nFrom under the cloud you can hear the faint sounds of Midgaard.  Right\nbefore you to the north lies the grand Mansion of Naris.", 
+    "exits": [
+      {
+        "desc": "You see an enormous arched gate leading into this magnificent building.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 7901, 
+        "keywords": [
+          "gate", 
+          "huge", 
+          "arched"
+        ], 
+        "room_linked": 7901
+      }, 
+      {
+        "desc": "You see a Huge Chain that anchors the Mansion of Naris to the ground.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7918
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "PRIVATE", 
+        "value": 512
+      }
+    ], 
+    "id": 7900, 
+    "name": "Outside Redferne's Residence", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 79
+  }, 
+  {
+    "desc": "You are standing in a vast hall that is dimly lit, but wherever the\nlight comes from, is a mystery.  The walls seem to radiate warmth and\ngive the pleasent feeling of being welcome here.  A large portrait is\nhanging on one of the walls.  A large wooden staircase leads up into\nthe tower.  To the east there is a high passage away from the hall.\nThis ends shortly after by a tall oak door.  The enormous hall extends\nfurther north from here.  To the south you can see a huge, and VERY \nheavy-looking iron-wrought door.  It looks like this is the only exit\nfrom this magnificent old house.", 
+    "exits": [
+      {
+        "desc": "The hallway continues that way.  You can see more doorways under the\nwooden staircase in that direction.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7904
+      }, 
+      {
+        "desc": "You see a tall oak door there.  It looks quite tightly closed to you.\nOn it little runes are chiselled into the wood.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door", 
+          "oak", 
+          "tall"
+        ], 
+        "room_linked": 7910
+      }, 
+      {
+        "desc": "Here you see a REAL door.  It would be more proper to call this a\n'GATE', rather than a 'door'.  It is really HUGE!  On it hangs a\nlarge sign with very large letters spelling:\n\n                EMERGENCY EXIT", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 7901, 
+        "keywords": [
+          "gate", 
+          "iron", 
+          "huge"
+        ], 
+        "room_linked": 7900
+      }, 
+      {
+        "desc": "This looks like a 'door' in the meaning of the word.  The ashen wood\nis painted in a peculiar yellow color.  Small letters are written\nwith black on it.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door", 
+          "ashen", 
+          "ash", 
+          "yellow"
+        ], 
+        "room_linked": 7902
+      }, 
+      {
+        "desc": "You see the staircase extending upwards into the very high tower.\nIt ends in what seems like a large bedroom up there.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7909
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "These runes are utterly strange to you, but you are in luck today:\nUnder the runes you can just make out a sentence in Common.  It\nreads:\n\nStay out, if you treasure your life.  That is if you are mortal.\n", 
+        "keywords": [
+          "runes"
+        ]
+      }, 
+      {
+        "desc": "They read:\n\n                LIBRARY\n", 
+        "keywords": [
+          "letters"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "PRIVATE", 
+        "value": 512
+      }
+    ], 
+    "id": 7901, 
+    "name": "The Southern End Of The Hall", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 79
+  }, 
+  {
+    "desc": "This is truly a magnificent place!  Books and scrolls lie together\non every shelf.  A large globe, with the map of the world upon it,\nstands in the dimly lit north-western corner of the room.  Two large\nand comfortable looking leather armchairs adorn the center of the\nlibrary together with a huge oak desk.  Dim light radiates from an\nenormous crystal chandelier hanging down from the ceiling approximately\n10 feet off the floor.  To the east there is a great old ashen door.  A\nlarge glass window is set in the west wall.", 
+    "exits": [
+      {
+        "desc": "You can see an old ashen door, painted in a peculiar yellow color.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door", 
+          "ash", 
+          "ashen"
+        ], 
+        "room_linked": 7901
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "You see a large world map stretch out on the enormous globe.  It has towns\ndrawn in every spot available for such.  In the middle of the map you can\nspot a large town with the name 'MIDGAARD' written over it.  The rest is\nmountains, woods, plains and water.", 
+        "keywords": [
+          "globe", 
+          "world", 
+          "map"
+        ]
+      }, 
+      {
+        "desc": "You see a small speck with woods on the west from it, plains to the east\nfrom it and mountains to the north from it.  To the east of it you can\nsee a thin trail lead to a large castle.  Finally you notice a rather\nlarge river pour in from the east and go through Midgaard in the middle.", 
+        "keywords": [
+          "midgaard", 
+          "town", 
+          "city"
+        ]
+      }, 
+      {
+        "desc": "These two chairs are exactly alike one another.  They look incredibly\ncomfortable.  They are both made from old leather, and yet they seem\nso worn that they can be nothing but a perfect place for a long needed\nrest.", 
+        "keywords": [
+          "chairs", 
+          "leather", 
+          "armchairs", 
+          "chair", 
+          "armchair"
+        ]
+      }, 
+      {
+        "desc": "These windows are really BIG!  They reach from about 20 inches above the\nfloor to approximately 10 inches under the ceiling.  If you try and\n'look out', you might see what might lie beyond these windows.", 
+        "keywords": [
+          "window", 
+          "glass"
+        ]
+      }, 
+      {
+        "desc": "The clouds muster and form the ground on which this entire building is set.\nThrough the thinnest of the clouds you can just make out Midgaard with all\nof its magnificent activity.", 
+        "keywords": [
+          "out", 
+          "outside", 
+          "beyond"
+        ]
+      }, 
+      {
+        "desc": "You see a large and winding river cut through the landscape, starting at an\nenormous inland lake, it seeps through Midgaard and finally ends up in the\nGrand Sea on the west coast of the land.", 
+        "keywords": [
+          "river"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "PRIVATE", 
+        "value": 512
+      }
+    ], 
+    "id": 7902, 
+    "name": "Redferne's Library", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 79
+  }, 
+  {
+    "desc": "This is gloomy and dark room with only a faint light radiating from the\nwalls.  A bunch of funny-looking items fill the center of the room.  There\nis no furniture here what-so-ever.  The only way out seems to be west,\nthrough the low steel door.", 
+    "exits": [
+      {
+        "desc": "You see only the back of a safe's steel door.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 7900, 
+        "keywords": [
+          "door", 
+          "steel", 
+          "safe"
+        ], 
+        "room_linked": 7910
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "PRIVATE", 
+        "value": 512
+      }
+    ], 
+    "id": 7903, 
+    "name": "The Artifact Room Of Naris", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 79
+  }, 
+  {
+    "desc": "You are standing in the northern end of the huge hall.  This part is\nunder the grand wooden staircase so the light seems to be a little less\nbright here, but this doesn't affect your sight at all.  To the north\nlies the kitchen.  To the south lies the southern end of the hall.  To\nthe east there is a huge metal door.  To the west there is a large\naspenwood door.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7906
+      }, 
+      {
+        "desc": "You see a huge metal door.  From it a foul stench emanates.  The smell is\nthe most awful experience in your entire life.  A thought seeps through this\nterrible stench and into your mind: 'Monsters', you feel BAD about opening\nthat door.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door", 
+          "metal", 
+          "huge"
+        ], 
+        "room_linked": 7913
+      }, 
+      {
+        "desc": "The rest of the hall lies in that direction, and so does the exit.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7901
+      }, 
+      {
+        "desc": "The door has 'SITTING ROOM' written on it.  It is made from Aspenwood and\nis beautifully carved with small elves as main issue of sculpture.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door", 
+          "aspen", 
+          "wood"
+        ], 
+        "room_linked": 7905
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "PRIVATE", 
+        "value": 512
+      }
+    ], 
+    "id": 7904, 
+    "name": "The Northern End Of The Hall", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 79
+  }, 
+  {
+    "desc": "You are standing in the middle of a really comfortable place.  The\nwalls are decorated with paintings of smiling Kings and Queens.  The\nmost attractive picture is one of a Prince in shining armour.  By one\nof the walls there is an old armchair.  The only exit is through the\naspenwood door to the east.", 
+    "exits": [
+      {
+        "desc": "The door seems to be a very HEAVY door, carved completely from the trunk of\nan Aspen tree.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door", 
+          "aspen", 
+          "heavy"
+        ], 
+        "room_linked": 7904
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "This is truly a wonderful relic of the past.  In it is a large cushion.", 
+        "keywords": [
+          "chair", 
+          "armchair"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "PRIVATE", 
+        "value": 512
+      }
+    ], 
+    "id": 7905, 
+    "name": "The Sitting Room Of Naris", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 79
+  }, 
+  {
+    "desc": "This must be the place of food and drink.  You can hear the faint noise\nof rats feasting on meat and bread from somewhere undeterminable.  The sound\nmakes you feel the agony of HUNGER.  The only visible exit is south to the\nNorthern end of the hall.", 
+    "exits": [
+      {
+        "desc": "It is dark in there.  But the sounds from there are unmistakable.  The rats\nare here for your information.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "larder", 
+          "wooden", 
+          "cupboard"
+        ], 
+        "room_linked": 7907
+      }, 
+      {
+        "desc": "You can see the fridge from here.  There are drinks all over the place.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "fridge"
+        ], 
+        "room_linked": 7908
+      }, 
+      {
+        "desc": "You can see the northern end of the hall.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7904
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "PRIVATE", 
+        "value": 512
+      }
+    ], 
+    "id": 7906, 
+    "name": "The Kitchen Of Naris", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 79
+  }, 
+  {
+    "desc": "You can see food all over.  Among the heaps of food you notice HUGE rats\nscuttling around, nibbling pieces off the heaps here and there.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door", 
+          "wooden", 
+          "larder"
+        ], 
+        "room_linked": 7906
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "PRIVATE", 
+        "value": 512
+      }
+    ], 
+    "id": 7907, 
+    "name": "The Larder", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 79
+  }, 
+  {
+    "desc": "This place is LOADED with drink, water and booze.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door", 
+          "fridge"
+        ], 
+        "room_linked": 7906
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "PRIVATE", 
+        "value": 512
+      }
+    ], 
+    "id": 7908, 
+    "name": "The Fridge", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 79
+  }, 
+  {
+    "desc": "You can see up and down the stairway.  It seems to take forever, either\ngoing up OR down.  It is just a seemingly insurmountable climb, either way.\nUp is the bedroom of Redferne, and down leads to the southern end of the\nhall.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7911
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7901
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "PRIVATE", 
+        "value": 512
+      }
+    ], 
+    "id": 7909, 
+    "name": "On The Stairs", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 79
+  }, 
+  {
+    "desc": "This place is gloomy.  A HUGE safe is cemented into the west wall.  The\nonly visible exit is west, through the oak door.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": 7900, 
+        "keywords": [
+          "safe", 
+          "steel"
+        ], 
+        "room_linked": 7903
+      }, 
+      {
+        "desc": "You see a tall oak door.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door", 
+          "oak", 
+          "tall"
+        ], 
+        "room_linked": 7901
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "PRIVATE", 
+        "value": 512
+      }
+    ], 
+    "id": 7910, 
+    "name": "The Treasure Room", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 79
+  }, 
+  {
+    "desc": "This is a snugly set bedroom with all the necessities for a romantic\nevening.  A large fireplace adorns the east wall, and sizzling away is\nthe wood that is ablaze within.  The bed is enormous, covering at least\nHALF of this great room.  The room stretches at least 140 feet, so can\nyou imagine the BED?  A large staircase leads down to the hall.  A couple\nof doors open up to a broad balcony to the south.", 
+    "exits": [
+      {
+        "desc": "The sun seems to shine out there, warmly and comforting.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "doors"
+        ], 
+        "room_linked": 7912
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7909
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "PRIVATE", 
+        "value": 512
+      }
+    ], 
+    "id": 7911, 
+    "name": "Redferne's Bedroom", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 79
+  }, 
+  {
+    "desc": "You see a splendid of the most of this world.  The valleys stretch as\nfar as the eye reaches to the south from here.  Down below you can see\nthe entrance of this magnificent building.  To the north are the doors\nto Redferne's bedroom.", 
+    "exits": [
+      {
+        "desc": "You see the comfortable bedroom of Naris.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "doors"
+        ], 
+        "room_linked": 7911
+      }, 
+      {
+        "desc": "You see the ground on which this castle is set.  Funnily it seems to you\nthat it is no more than clouds.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": -1
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "PRIVATE", 
+        "value": 512
+      }
+    ], 
+    "id": 7912, 
+    "name": "Redferne's Balcony", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 79
+  }, 
+  {
+    "desc": "This looks like the cage in which a large carnivore is being kept.\nJudging by the state the walls are in, this could very well be a large\nAGGRESSIVE animal.  This makes you pretty insecure, this stating your\nfeeling about the place quite mildly.", 
+    "exits": [
+      {
+        "desc": "This looks like the only exit from here.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "door", 
+          "cage", 
+          "metal", 
+          "pen"
+        ], 
+        "room_linked": 7904
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }, 
+      {
+        "note": "PRIVATE", 
+        "value": 512
+      }
+    ], 
+    "id": 7913, 
+    "name": "The Monster Pen", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 79
+  }, 
+  {
+    "desc": "This place has quite a good view over Midgaard.  Your possibilities of\nmovement seem to extend only to the up and down directions.  Unless you\nwant to let go of the secure and seemingly unmovable chain, then those are\nthe directions you should take from here.", 
+    "exits": [
+      {
+        "desc": "Upwards, you see the chain disappearing into the clouds above.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7915
+      }, 
+      {
+        "desc": "Down below, you see the huge chain anchored to the ground at the Road\nCrossing of southern Midgaard.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3120
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }
+    ], 
+    "id": 7914, 
+    "name": "On The Huge Chain", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 79
+  }, 
+  {
+    "desc": "Hanging on to the chain you figure out that there is no way of leaving\ndown from here.  The wind pulls you from left to right and back.  This\nseems like a totally impossible task.  The ascend is the only way ahead\nfor you.  Otherwise you would risk death by falling to the hard ground\nbelow.  DO NOT DESCEND NOW OR YOU WILL SURELY DIE!!!!", 
+    "exits": [
+      {
+        "desc": "That way seems to be the only way away from here.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7916
+      }, 
+      {
+        "desc": "THAT WAY IS CERTAIN DEATH!!!!  You can see the wind tearing at the chain\ndown below you.  It swings like a furious serpent from side to side!  The\ndescent is ABSOLUTELY out of the QUESTION.  ", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7920
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }
+    ], 
+    "id": 7915, 
+    "name": "The Chain Where It Is Too Windy", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 79
+  }, 
+  {
+    "desc": "You are approximately on the middle of the treacherous Chain.  One false\nstep and death will come and collect you quickly.  The chain leads upwards\nand down.  No way are you going to descend now... You've only just begun\nyour climb.  Besides it could cost you your life.  Look down and you'll\nsee why.", 
+    "exits": [
+      {
+        "desc": "There seems to be only one way from here and that's up.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7918
+      }, 
+      {
+        "desc": "The chain down there is swinging wildly back and forth.  Going down there\nwill be pretty risky!", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7915
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }
+    ], 
+    "id": 7916, 
+    "name": "On The Great Chain Of Naris", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 79
+  }, 
+  {
+    "desc": "As you descend, the chain seems to absorb all weather around it, making\nit swing less and less in the very powerful wind tearing at it.  The Chain\nseems to chuckle quietly, and as you descend further you hear a soft whisper\noriginating from within the Chain *ITSELF*.  It says 'Welcome back some\nother time, stranger.  Your company is always... hmmm... interesting.  God\nSpeed.'  The chain extends further down through the now spreading clouds.", 
+    "exits": [
+      {
+        "desc": "It seems to you that the Chain is dissolving again.  Maybe it is just an \nillusion, but still...", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": -1
+      }, 
+      {
+        "desc": "That way seems safe enough... now.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7914
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }
+    ], 
+    "id": 7917, 
+    "name": "The Chain", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 79
+  }, 
+  {
+    "desc": "This place truly a splendid view of the WHOLE COUNTRY SIDE!  A magnificent\nlight shines upon you and the way up through the clouds is opened.  Up there\nyou can now see the Mansion of Naris, Residence of the Greater God Redferne.\nThe chain beneath you seems to evaporate in the mustering clouds that\nsurround you by now.", 
+    "exits": [
+      {
+        "desc": "You see the sunny top of the clouds.  Beyond these, the Mansion towers before\nyour eyes.  Beautiful!!", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7900
+      }, 
+      {
+        "desc": "You see nothing but the thick clouds.  They've closed completely around the\nChain.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7917
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }
+    ], 
+    "id": 7918, 
+    "name": "The Mighty Chain Of Naris", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 79
+  }, 
+  {
+    "desc": "This is probably the third worst place to be in this entire MUD right\nnow.  You fall\n.  \n.\n.\nand fall\n.\n.\n.\nand fall\n.\n.\n.\nand HIT THE GROUND WITH SUCH A *SPLUTCH* that you die horribly, but instantly.\nGood-bye cruel world.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7914
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7915
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7916
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7917
+      }, 
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7918
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 3120
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DEATH", 
+        "value": 2
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7920, 
+    "name": "The Free Fall From The Chain", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 79
+  }
+]

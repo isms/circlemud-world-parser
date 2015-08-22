@@ -1,0 +1,116 @@
+[
+  {
+    "bottom_room": 7100, 
+    "doors": [
+      {
+        "exit": 5, 
+        "room": 7106, 
+        "state": 1
+      }, 
+      {
+        "exit": 5, 
+        "room": 7111, 
+        "state": 1
+      }, 
+      {
+        "exit": 5, 
+        "room": 7121, 
+        "state": 1
+      }, 
+      {
+        "exit": 4, 
+        "room": 7279, 
+        "state": 1
+      }, 
+      {
+        "exit": 5, 
+        "room": 7116, 
+        "state": 1
+      }, 
+      {
+        "exit": 4, 
+        "room": 7280, 
+        "state": 1
+      }
+    ], 
+    "id": 71, 
+    "lifespan": 20, 
+    "mobs": [
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 3, 
+        "mob": 7004, 
+        "room": 7102
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 7, 
+        "mob": 7005, 
+        "room": 7112
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 7, 
+        "mob": 7005, 
+        "room": 7112
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 7, 
+        "mob": 7005, 
+        "room": 7122
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 7, 
+        "mob": 7002, 
+        "room": 7104
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 3, 
+        "mob": 7000, 
+        "room": 7103
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 3, 
+        "mob": 7000, 
+        "room": 7103
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 7, 
+        "mob": 7006, 
+        "room": 7113
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 7, 
+        "mob": 7006, 
+        "room": 7122
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 7, 
+        "mob": 7006, 
+        "room": 7122
+      }
+    ], 
+    "name": "The Second Sewer", 
+    "objects": [], 
+    "remove_objects": [], 
+    "reset_mode": 2, 
+    "top_room": 7199
+  }
+]

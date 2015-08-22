@@ -1,0 +1,1502 @@
+[
+  {
+    "desc": "The pool side is dimly lit up by your light.  You can see absolutely\nnothing else nearby.  The darkness her seems enormously oppressive here.\nThe air is damp and the rock on which you stand is slippery.  The pool\nseems too dark to make anything clear.  The pool seems to extend to the\neast.  The rock can be climbed upwards from here.", 
+    "exits": [
+      {
+        "desc": "The pool extends eastwards, but you cannot find enough room to move in that\ndirection.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": -1
+      }, 
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7000
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7100, 
+    "name": "The Edge Of The Water", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "You stand in a small room with a great big opening in the ceiling.  From\nthis opening there is mud dripping down in large lumps.  >YUCK<.  You can\nsmell the foul stench of the slimy sediment as you try not to get covered\nby the falling sludge.  To the east there is an entryway leading out from\nhere and it seems absolutely impossible to force the muddy descent.", 
+    "exits": [
+      {
+        "desc": "East.  You see nothing of interest.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7103
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "You never saw such disgusting matter before, it nearly makes you puke.", 
+        "keywords": [
+          "mud"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7101, 
+    "name": "Under The Mudhole", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "Nice place you found yourself in.  You stand in the middle of a room\nwith only two exits, up and east.  A tall ladder has been left here so\nthat you can climb up through the pit without the use of a rope.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7104
+      }, 
+      {
+        "desc": "", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "trapdoor"
+        ], 
+        "room_linked": 7300
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "This is funny enough a wooden ladder and, after closer inspection, you\ndiscover it is magically held to the wall!  You can't, even with your\ngreatest effort, move it at ALL!", 
+        "keywords": [
+          "ladder"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7102, 
+    "name": "Under The Dark Pit", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "You are standing in what looks like a bend in the pipe system of the\nsewer.  The 'floor' is covered completely by mud!  This includes covering\nyour legs up to your knees as well.  The pipe leads west and south.", 
+    "exits": [
+      {
+        "desc": "To the south there is less mud than here!  It actually seems to end there!\nYou have a felling it would be nice to have your feet free from mud again.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7104
+      }, 
+      {
+        "desc": "You can see a room in which mud drips from the roof onto the floor in \ngreat cakes of sludge.  There doesn't seem to be any exits from that room\napart from in you direction.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7101
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "You never saw such disgusting matter before, it nearly makes you puke.", 
+        "keywords": [
+          "mud"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7103, 
+    "name": "A Muddy Bend In The Sewer System", 
+    "sector_type": {
+      "note": "HILLS", 
+      "value": 4
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "You stand in the middle of what looks like a triple junction of pipes\ngoing east, west and north.", 
+    "exits": [
+      {
+        "desc": "You can see a mud area starting in that direction.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7103
+      }, 
+      {
+        "desc": "West.  There is a room with a ladder leading up.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7102
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7104, 
+    "name": "A Junction In The Sewer Pipes", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "You are dangling on the slippery sides of the old well leading down and\nup.  The only secure point here is the metal bars that are cemented into the\nsides, the ones that you cling frantically to so that you don't fall.  Who\nknows how deep this well is?  The bars lead down and up and nowhere else.", 
+    "exits": [
+      {
+        "desc": "There is a slight, dim light from above, or maybe it is just your imagination.\nAnyway it SEEMS darker down here than up there, if that is possible.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7015
+      }, 
+      {
+        "desc": "Down there nothing at all can be spotted.  The darkness that engulfs this\ndecent seems utterly impossible in a mortal world.  It is so thick that a \ntorch down there would be utterly useless... or so it seems to you.  Not \nthe kind of thing to cheer you up on this voyage, Eh?", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": -1
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "These look like they're pretty slippery, and not very safe, but perhaps safe\nenough for you to climb down, WITH both hands on them.", 
+        "keywords": [
+          "bars"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7105, 
+    "name": "Down The Old Well", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "You stand, swaying out from the ledge, with only a couple of inches of\nsafe, solid ledge under your feet.  The ledge continues to the east but not\nback south.  It seems that the ledge is too narrow to turn on so you'll have\nto continue forward.", 
+    "exits": [
+      {
+        "desc": "The ledge continues east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7113
+      }, 
+      {
+        "desc": "The ledge continues south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7107
+      }, 
+      {
+        "desc": "The Abyss lies down there.  Who knows what might lurk down there?", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "rock", 
+          "step", 
+          "edge"
+        ], 
+        "room_linked": 7279
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "This is truly a weird piece of craftsmanship in your eyes.  The edge seems to\nform a step leading down, but WHAT a STEP DOWN.  The Abyss opens down there \nleading to seemingly total destruction.", 
+        "keywords": [
+          "edge", 
+          "odd-looking"
+        ]
+      }, 
+      {
+        "desc": "It looks as if it can be opened in a door-like fashion.  Maybe this will lead\nthe way down.", 
+        "keywords": [
+          "rock"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7106, 
+    "name": "The Northwestern Corner Of The Ledge", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "You are in the process of walking all the way around the ledge since\nthere is no way of turning around on this all too narrow path.  There IS\nanother exit from here but that leads right into mid-air and with high\nprobability of a free fall session afterwards.", 
+    "exits": [
+      {
+        "desc": "North.  The ledge leads into a corner and turns eastward.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7106
+      }, 
+      {
+        "desc": "You stare into mid-air, and right under there is absolutely nothing but \ndarkness.  You shiver by the thought of falling an utterly unknown distance.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7190
+      }, 
+      {
+        "desc": "South.  The ledge leads further south into utter darkness.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7108
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7107, 
+    "name": "The Narrow Ledge", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "You are in the process of walking all the way around the ledge since\nthere is no way of turning around on this all too narrow path.  There IS\nanother exit from here but that leads right into mid-air and with high\nprobability of a free fall session afterwards.", 
+    "exits": [
+      {
+        "desc": "North.  The ledge leads further north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7107
+      }, 
+      {
+        "desc": "You stare into mid-air, and right under there is absolutely nothing but\ndarkness.  You shiver by the thought of falling that distance.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7190
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7108, 
+    "name": "The Narrow Ledge", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "You are in the process of walking all the way around the ledge since\nthere is no way of turning around on this all too narrow path.  There IS\nanother exit from here but that leads right into mid-air and with high\nprobability of a free fall session afterwards.", 
+    "exits": [
+      {
+        "desc": "North.  The ledge leads further north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7108
+      }, 
+      {
+        "desc": "You stare into mid-air, and right under there is absolutely nothing but\ndarkness.  You shiver by the thought of falling that distance.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7190
+      }, 
+      {
+        "desc": "The ledge continues south into darkness.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7110
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7109, 
+    "name": "The Narrow Ledge", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "You are in the process of walking all the way around the ledge since\nthere is no way of turning around on this all too narrow path.  There IS\nanother exit from here but that leads right into mid-air and with high\nprobability of a free fall session afterwards.", 
+    "exits": [
+      {
+        "desc": "North.  The ledge leads further north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7107
+      }, 
+      {
+        "desc": "You stare into mid-air, and right under there is absolutely nothing but\ndarkness.  You shiver by the thought of falling that distance.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7190
+      }, 
+      {
+        "desc": "South.  You can just make out the south-western corner of this ledge.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7111
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7110, 
+    "name": "The Narrow Ledge", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "This seems like a ledge that is a little broader than the one just to\nthe north of here.  The ledge seems to lead around some sort of Abyss of\ntotal darkness.  The ledge seems to have an odd-looking edge here.", 
+    "exits": [
+      {
+        "desc": "North.  The ledge leads further north.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7110
+      }, 
+      {
+        "desc": "You see a broad ledge leading eastward.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7115
+      }, 
+      {
+        "desc": "South of here is the exit from the ledge.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7112
+      }, 
+      {
+        "desc": "The Abyss lies down there.  Who knows what might lurk down there?", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "rock", 
+          "step", 
+          "edge"
+        ], 
+        "room_linked": 7279
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "This is truly a weird piece of craftsmanship in your eyes.  The edge seems to\nform a step leading down, but WHAT a STEP DOWN.  The Abyss opens down there \nleading to seemingly total destruction.", 
+        "keywords": [
+          "edge", 
+          "odd-looking"
+        ]
+      }, 
+      {
+        "desc": "It looks as if it can be opened in a door-like fashion.  Maybe this will lead\nthe way down.", 
+        "keywords": [
+          "rock"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7111, 
+    "name": "The Southwestern Corner Of The Ledge", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "You stand in a rather odd intersection of pipes.  The pipes actually\ndon't resemble pipes anymore.  They look more like a real stone tunnel,\nor a passageway hewn directly into the rock.  The ways from here lead\nnorth, east and west.", 
+    "exits": [
+      {
+        "desc": "North.  You see a ledge to something that looks like an abyss.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7111
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7122
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7112, 
+    "name": "An Odd Intersection", 
+    "sector_type": {
+      "note": "CITY", 
+      "value": 1
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "You are in the process of walking all the way around the ledge since\nthere is no way of turning around on this all too narrow path.  There IS\nanother exit from here but that leads right into mid-air and with high\nprobability of a free fall session afterwards.", 
+    "exits": [
+      {
+        "desc": "The ledge leads further east.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7116
+      }, 
+      {
+        "desc": "You stare into mid-air, and right under there is absolutely nothing but\ndarkness.  You shiver by the thought of falling that distance.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7190
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7113, 
+    "name": "The Narrow Ledge Going East To West", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "You've just stepped into the most unlucky position in the whole of\nCircleMUD.  The result of such a foolish act should be punished with\ndeath, you know.  With an acceleration of approximately 9.82 meters\nper second squared, you are now descending the Abyss.  What awaits you\nat the bottom will continue to be a mystery.  Good-bye cruel world.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7119
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7118
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7120
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7117
+      }, 
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7115
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DEATH", 
+        "value": 2
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7114, 
+    "name": "Mid-Air", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "You are standing on a ledge that seems quite a lot larger than the\nrest of the ledges.  This one leads to the west and the east, plus it\nhas an exit going to the south.  Though you could jump into mid-air,\nbut it probably wouldn't be such a good idea.  The way south is in\nutter darkness.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7121
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7129
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7111
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7115, 
+    "name": "The Broad Ledge", 
+    "sector_type": {
+      "note": "HILLS", 
+      "value": 4
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "You stand, swaying out from the ledge, with only a couple of inches of\nsafe, solid ledge under your feet.  The ledge continues to the west and\nleads south from here into darkness.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7117
+      }, 
+      {
+        "desc": "The ledge continues west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7113
+      }, 
+      {
+        "desc": "You can just make out the outline of a trapdoor here in the soil.  The earth\nis probably there to conceal a secret entrance.  This looks as if it leads\ndown into the seemingly solid rock face of the ledge.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "DOOR", 
+          "value": 1
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "trapdoor", 
+          "secret", 
+          "entrance"
+        ], 
+        "room_linked": 7280
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The ground here seems a little different from all the other ledges along the\nAbyss.  There is a kind of soft soil on this ledge, maybe you should look \ncarefully at this.  It seems to be of some interest.", 
+        "keywords": [
+          "ground", 
+          "ledge", 
+          "rock"
+        ]
+      }, 
+      {
+        "desc": "You can just make out the outline of a trapdoor here in the soil.  The earth\nis probably there to conceal a secret entrance.  This looks as if it leads\ndown into the seemingly solid rock face of the ledge.", 
+        "keywords": [
+          "soil", 
+          "soft", 
+          "earth"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7116, 
+    "name": "The Northeastern Corner Of The Ledge", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "You are in the process of walking all the way around the ledge since\nthere is no way of turning around on this all too narrow path.  There IS\nanother exit from here but that leads right into mid-air and with high\nprobability of a free fall session afterwards.  And THAT is west of here\nso watch your step.", 
+    "exits": [
+      {
+        "desc": "The ledge leads further south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7118
+      }, 
+      {
+        "desc": "You stare into mid-air, and right under there is absolutely nothing but\ndarkness.  You shiver by the thought of falling that distance.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7114
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7117, 
+    "name": "The Narrow Eastern Ledge", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "You are in the process of walking all the way around the ledge since\nthere is no way of turning around on this all too narrow path.  There IS\nanother exit from here but that leads right into mid-air and with high\nprobability of a free fall session afterwards.  And THAT is west of here\nso watch your step.", 
+    "exits": [
+      {
+        "desc": "The ledge leads further south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7119
+      }, 
+      {
+        "desc": "You stare into mid-air, and right under there is absolutely nothing but\ndarkness.  You shiver by the thought of falling that distance.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7114
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7118, 
+    "name": "The Narrow Eastern Ledge", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "You are in the process of walking all the way around the ledge since\nthere is no way of turning around on this all too narrow path.  There IS\nanother exit from here but that leads right into mid-air and with high\nprobability of a free fall session afterwards.  And THAT is west of here\nso watch your step.", 
+    "exits": [
+      {
+        "desc": "The ledge leads further south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7120
+      }, 
+      {
+        "desc": "You stare into mid-air, and right under there is absolutely nothing but\ndarkness.  You shiver by the thought of falling that distance.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7114
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7119, 
+    "name": "The Narrow Eastern Ledge", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "You are in the process of walking all the way around the ledge since\nthere is no way of turning around on this all too narrow path.  There IS\nanother exit from here but that leads right into mid-air and with high\nprobability of a free fall session afterwards.  And THAT is west of here\nso watch your step.  You also see a small opening to the east.", 
+    "exits": [
+      {
+        "desc": "East.  You stare into darkness.", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7123
+      }, 
+      {
+        "desc": "The ledge leads further south.", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7121
+      }, 
+      {
+        "desc": "You stare into mid-air, and right under there is absolutely nothing but\ndarkness.  You shiver by the thought of falling that distance.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7114
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7120, 
+    "name": "The Narrow Eastern Ledge", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "This seems like a ledge that is a little broader than the one just to the\nnorth of here.  The ledge seems to lead around some sort of abyss of total\ndarkness.", 
+    "exits": [
+      {
+        "desc": "North of here you can see a ledge.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7120
+      }, 
+      {
+        "desc": "The ledge leads further west.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7115
+      }, 
+      {
+        "desc": "The Abyss lies down there.  Who knows what might lurk down there?", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "PICKPROOF", 
+          "value": 2
+        }, 
+        "key_number": -1, 
+        "keywords": [
+          "rock", 
+          "step", 
+          "edge"
+        ], 
+        "room_linked": 7279
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "This is truly a weird piece of craftsmanship in your eyes.  The edge seems to\nform a step leading down, but WHAT a STEP DOWN.  The Abyss opens down there \nleading to seemingly total destruction.", 
+        "keywords": [
+          "edge", 
+          "odd-looking"
+        ]
+      }, 
+      {
+        "desc": "It looks as if it can be opened in a door-like fashion.  Maybe this will lead\nthe way down.", 
+        "keywords": [
+          "rock"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "NOMOB", 
+        "value": 4
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7121, 
+    "name": "The Southeastern Corner Of The Ledge", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "You stand in a completely dark cavern leading west.  The wall looks\nweird here.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7112
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "There is a crack here that looks like it has been made recently.", 
+        "keywords": [
+          "wall"
+        ]
+      }
+    ], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7122, 
+    "name": "Under The Pit", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "A ladder leads up from here to the Shaft.  A small opening leads west\nfrom here.", 
+    "exits": [
+      {
+        "desc": "You can see a narrow ledge going north and south.", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7120
+      }, 
+      {
+        "desc": "It is too dark up there.", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7041
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7123, 
+    "name": "Under The Shaft", 
+    "sector_type": {
+      "note": "MOUNTAIN", 
+      "value": 5
+    }, 
+    "zone_number": 71
+  }, 
+  {
+    "desc": "You are in a narrow part of the sewer.  Down the sewer continues and to\nthe north is the ledge.", 
+    "exits": [
+      {
+        "desc": "You can see the southern part of the ledge.", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7115
+      }, 
+      {
+        "desc": "You look deeper down into the drain.", 
+        "dir": 5, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7221
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DARK", 
+        "value": 1
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7129, 
+    "name": "The Sewer Line", 
+    "sector_type": {
+      "note": "FOREST", 
+      "value": 3
+    }, 
+    "zone_number": 72
+  }, 
+  {
+    "desc": "You've just stepped into the most unlucky position in the whole of\nCircleMUD.  The result of such a foolish act should be punished with\ndeath, you know.  With an acceleration of approximately 9.82 meters\nper second squared, you are now descending the Abyss.  What awaits you\nat the bottom will continue to be a mystery.  Good-bye cruel world.", 
+    "exits": [
+      {
+        "desc": "", 
+        "dir": 0, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7109
+      }, 
+      {
+        "desc": "", 
+        "dir": 1, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7108
+      }, 
+      {
+        "desc": "", 
+        "dir": 2, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7110
+      }, 
+      {
+        "desc": "", 
+        "dir": 3, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7107
+      }, 
+      {
+        "desc": "", 
+        "dir": 4, 
+        "door_flag": {
+          "note": "NO_DOOR", 
+          "value": 0
+        }, 
+        "key_number": -1, 
+        "keywords": [], 
+        "room_linked": 7113
+      }
+    ], 
+    "extra_descs": [], 
+    "flags": [
+      {
+        "note": "DEATH", 
+        "value": 2
+      }, 
+      {
+        "note": "INDOORS", 
+        "value": 8
+      }
+    ], 
+    "id": 7190, 
+    "name": "Mid-Air", 
+    "sector_type": {
+      "note": "INSIDE", 
+      "value": 0
+    }, 
+    "zone_number": 71
+  }
+]

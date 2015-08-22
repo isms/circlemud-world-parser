@@ -1,0 +1,687 @@
+[
+  {
+    "affects": [], 
+    "aliases": [
+      "cup", 
+      "tea"
+    ], 
+    "cost": 5, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "It is a small simple cup.", 
+        "keywords": [
+          "cup"
+        ]
+      }
+    ], 
+    "id": 3100, 
+    "long_desc": "A cup has been set here.", 
+    "rent": 1, 
+    "short_desc": "a cup", 
+    "type": {
+      "note": "DRINKCON", 
+      "value": 17
+    }, 
+    "values": [
+      8, 
+      8, 
+      11, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 1
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "cup", 
+      "coffee"
+    ], 
+    "cost": 7, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "It is a small simple cup.", 
+        "keywords": [
+          "cup"
+        ]
+      }
+    ], 
+    "id": 3101, 
+    "long_desc": "A cup has been set here.", 
+    "rent": 1, 
+    "short_desc": "a cup", 
+    "type": {
+      "note": "DRINKCON", 
+      "value": 17
+    }, 
+    "values": [
+      8, 
+      8, 
+      12, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 1
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "cup", 
+      "water"
+    ], 
+    "cost": 2, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "It is a large simple cup.", 
+        "keywords": [
+          "cup"
+        ]
+      }
+    ], 
+    "id": 3102, 
+    "long_desc": "A cup has been set here.", 
+    "rent": 1, 
+    "short_desc": "a cup", 
+    "type": {
+      "note": "DRINKCON", 
+      "value": 17
+    }, 
+    "values": [
+      12, 
+      12, 
+      15, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 1
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "bottle", 
+      "water"
+    ], 
+    "cost": 10, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "You've been ripped off!  It says here at the bottom of the label, in really\nreally small letters, 'Bottled in the Midgaard branch of Evian Inc.  This\nwater is from the natural, mostly clean River of Midgaard.'", 
+        "keywords": [
+          "label"
+        ]
+      }, 
+      {
+        "desc": "It is a large, clean bottle.  There is a large label pasted on the side.", 
+        "keywords": [
+          "bottle"
+        ]
+      }
+    ], 
+    "id": 3103, 
+    "long_desc": "A bottle of Evian natural spring water is here.", 
+    "rent": 6, 
+    "short_desc": "a bottle", 
+    "type": {
+      "note": "DRINKCON", 
+      "value": 17
+    }, 
+    "values": [
+      24, 
+      24, 
+      15, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 1
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "canteen", 
+      "water"
+    ], 
+    "cost": 45, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "It is a fairly big canteen.  Looks like it can hold a lot of liquid.", 
+        "keywords": [
+          "canteen"
+        ]
+      }
+    ], 
+    "id": 3104, 
+    "long_desc": "A canteen has been set on the ground here.", 
+    "rent": 15, 
+    "short_desc": "a canteen", 
+    "type": {
+      "note": "DRINKCON", 
+      "value": 17
+    }, 
+    "values": [
+      80, 
+      80, 
+      15, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 20
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "key", 
+      "iron"
+    ], 
+    "cost": 0, 
+    "effects": [
+      {
+        "note": "NORENT", 
+        "value": 4
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The iron key is not special.  In fact, it is quite boring.", 
+        "keywords": [
+          "key", 
+          "iron"
+        ]
+      }
+    ], 
+    "id": 3105, 
+    "long_desc": "An iron key has been left here.", 
+    "rent": 10, 
+    "short_desc": "an iron key", 
+    "type": {
+      "note": "KEY", 
+      "value": 18
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 1
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "key", 
+      "rusty"
+    ], 
+    "cost": 0, 
+    "effects": [
+      {
+        "note": "NORENT", 
+        "value": 4
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The key is a fairly large rusty key.  You notice a lot of dirt it.", 
+        "keywords": [
+          "key", 
+          "rusty"
+        ]
+      }
+    ], 
+    "id": 3106, 
+    "long_desc": "A rusty key has been left here.", 
+    "rent": 10, 
+    "short_desc": "a rusty key", 
+    "type": {
+      "note": "KEY", 
+      "value": 18
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 1
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "key", 
+      "wooden"
+    ], 
+    "cost": 0, 
+    "effects": [
+      {
+        "note": "NORENT", 
+        "value": 4
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The wooden key is not special.  In fact it is just about the most boring\nkey you've ever seen in your life.", 
+        "keywords": [
+          "key", 
+          "wooden"
+        ]
+      }
+    ], 
+    "id": 3107, 
+    "long_desc": "A wooden key has been left here.", 
+    "rent": 10, 
+    "short_desc": "a wooden key", 
+    "type": {
+      "note": "KEY", 
+      "value": 18
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 1
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "key", 
+      "brass"
+    ], 
+    "cost": 0, 
+    "effects": [
+      {
+        "note": "NORENT", 
+        "value": 4
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The brass key is small and looks like it fits a very complicated lock.", 
+        "keywords": [
+          "key", 
+          "brass"
+        ]
+      }
+    ], 
+    "id": 3108, 
+    "long_desc": "A brass key has been left here.", 
+    "rent": 10, 
+    "short_desc": "a brass key", 
+    "type": {
+      "note": "KEY", 
+      "value": 18
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 1
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "desk", 
+      "drawer"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "The desk looks very sparse, there is a drawer in the left side.", 
+        "keywords": [
+          "desk"
+        ]
+      }, 
+      {
+        "desc": "You notice a keyhole in the drawer.", 
+        "keywords": [
+          "drawer"
+        ]
+      }
+    ], 
+    "id": 3109, 
+    "long_desc": "A desk is set against the western wall.", 
+    "rent": 0, 
+    "short_desc": "the desk", 
+    "type": {
+      "note": "CONTAINER", 
+      "value": 15
+    }, 
+    "values": [
+      34, 
+      15, 
+      3107, 
+      0
+    ], 
+    "wear_flags": [], 
+    "weight": 100
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "safe"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "The safe is very heavy and has a keyhole.", 
+        "keywords": [
+          "safe"
+        ]
+      }
+    ], 
+    "id": 3110, 
+    "long_desc": "A safe is placed in a dark corner of the room.", 
+    "rent": 0, 
+    "short_desc": "the safe", 
+    "type": {
+      "note": "CONTAINER", 
+      "value": 15
+    }, 
+    "values": [
+      34, 
+      15, 
+      3108, 
+      0
+    ], 
+    "wear_flags": [], 
+    "weight": 999
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "bench"
+    ], 
+    "cost": 600, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "It is a quite heavy but very comfortable bench.  It is placed with its front\ntowards the river so you can sit and watch the river and the houses on the\nother side.", 
+        "keywords": [
+          "bench"
+        ]
+      }
+    ], 
+    "id": 3111, 
+    "long_desc": "A white-painted wooden bench is standing here.", 
+    "rent": 200, 
+    "short_desc": "the Bench", 
+    "type": {
+      "note": "OTHER", 
+      "value": 12
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [], 
+    "weight": 100
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "key", 
+      "city"
+    ], 
+    "cost": 10000, 
+    "effects": [
+      {
+        "note": "NORENT", 
+        "value": 4
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is probably the biggest key you have seen in your life.  It is made from\npolished gold and has various patterns on it along with the Midgaard Coat of\nArms.", 
+        "keywords": [
+          "key", 
+          "city"
+        ]
+      }
+    ], 
+    "id": 3112, 
+    "long_desc": "The very big City Key is lying here.", 
+    "rent": 500, 
+    "short_desc": "the City Key", 
+    "type": {
+      "note": "KEY", 
+      "value": 18
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 30
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "fountain", 
+      "water"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "It is very nice.  Made from fine white marble.", 
+        "keywords": [
+          "fountain", 
+          "water"
+        ]
+      }
+    ], 
+    "id": 3113, 
+    "long_desc": "A small white fountain is standing here, gurgling happily.", 
+    "rent": 0, 
+    "short_desc": "a fountain", 
+    "type": {
+      "note": "FOUNTAIN", 
+      "value": 23
+    }, 
+    "values": [
+      999, 
+      999, 
+      15, 
+      0
+    ], 
+    "wear_flags": [], 
+    "weight": 999
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "coins", 
+      "gold"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 3114, 
+    "long_desc": "A small pile of gold coins lies here.", 
+    "rent": 0, 
+    "short_desc": "a small pile of gold coins", 
+    "type": {
+      "note": "MONEY", 
+      "value": 20
+    }, 
+    "values": [
+      37, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 0
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "gold", 
+      "coins"
+    ], 
+    "cost": 32385, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 3115, 
+    "long_desc": "A lot of gold is here.", 
+    "rent": 0, 
+    "short_desc": "the gold", 
+    "type": {
+      "note": "MONEY", 
+      "value": 20
+    }, 
+    "values": [
+      32385, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 0
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "candlestick", 
+      "candle", 
+      "stick", 
+      "pewter"
+    ], 
+    "cost": 150, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "It is a rather old-looking three-armed candlestick made from pewter.  Its\ncandles are a yellowish white color.", 
+        "keywords": [
+          "candlestick"
+        ]
+      }
+    ], 
+    "id": 3116, 
+    "long_desc": "A pewter candlestick is standing here.", 
+    "rent": 10, 
+    "short_desc": "a candlestick", 
+    "type": {
+      "note": "LIGHT", 
+      "value": 1
+    }, 
+    "values": [
+      0, 
+      0, 
+      24, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 5
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "tree", 
+      "elm"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 3117, 
+    "long_desc": "An old elm tree grows here.", 
+    "rent": 0, 
+    "short_desc": "an elm tree", 
+    "type": {
+      "note": "TRASH", 
+      "value": 13
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [], 
+    "weight": 0
+  }
+]

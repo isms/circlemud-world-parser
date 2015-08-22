@@ -1,0 +1,327 @@
+[
+  {
+    "bottom_room": 1500, 
+    "doors": [], 
+    "id": 15, 
+    "lifespan": 10, 
+    "mobs": [
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 1500, 
+        "room": 1540
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 1500, 
+            "location": 17, 
+            "max": 2, 
+            "note": "HOLD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 1501, 
+        "room": 1533
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 1501, 
+            "location": 17, 
+            "max": 3, 
+            "note": "HOLD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 1502, 
+        "room": 1531
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 1503, 
+            "location": 11, 
+            "max": 2, 
+            "note": "SHIELD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 1503, 
+        "room": 1530
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 1502, 
+            "location": 16, 
+            "max": 1, 
+            "note": "WIELD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 1504, 
+        "room": 1528
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 1508, 
+            "location": 17, 
+            "max": 5, 
+            "note": "HOLD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 1505, 
+        "room": 1501
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 1509, 
+            "location": 17, 
+            "max": 5, 
+            "note": "HOLD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 1506, 
+        "room": 1505
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 5, 
+        "mob": 1507, 
+        "room": 1509
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 5, 
+        "mob": 1507, 
+        "room": 1516
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 5, 
+        "mob": 1507, 
+        "room": 1521
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 5, 
+        "mob": 1507, 
+        "room": 1524
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 5, 
+        "mob": 1507, 
+        "room": 1539
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 1504, 
+            "location": 10, 
+            "max": 1, 
+            "note": "ARMS"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 1508, 
+        "room": 1512
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 1509, 
+        "room": 1511
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 1510, 
+        "room": 1510
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 1512, 
+            "location": 3, 
+            "max": 3, 
+            "note": "NECK_1"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 1511, 
+        "room": 1509
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 1505, 
+            "location": 16, 
+            "max": 4, 
+            "note": "WIELD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 1512, 
+        "room": 1519
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 1513, 
+        "room": 1520
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 1510, 
+            "location": 0, 
+            "max": 3, 
+            "note": "LIGHT"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 1514, 
+        "room": 1521
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 1511, 
+            "location": 9, 
+            "max": 1, 
+            "note": "HANDS"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 1515, 
+        "room": 1522
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 1516, 
+        "room": 1514
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 1514, 
+            "location": 0, 
+            "max": 1, 
+            "note": "LIGHT"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 1517, 
+        "room": 1515
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 1513, 
+            "location": 3, 
+            "max": 1, 
+            "note": "NECK_1"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 1518, 
+        "room": 1516
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [
+          {
+            "contents": [], 
+            "id": 1506, 
+            "max": 1
+          }
+        ], 
+        "max": 1, 
+        "mob": 1519, 
+        "room": 1517
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 1520, 
+        "room": 1524
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 1521, 
+        "room": 1525
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 1522, 
+        "room": 1526
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [
+          {
+            "contents": [], 
+            "id": 1507, 
+            "max": 1
+          }
+        ], 
+        "max": 1, 
+        "mob": 1523, 
+        "room": 1527
+      }
+    ], 
+    "name": "The Straight Path", 
+    "objects": [], 
+    "remove_objects": [], 
+    "reset_mode": 2, 
+    "top_room": 1599
+  }
+]

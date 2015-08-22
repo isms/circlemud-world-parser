@@ -1,0 +1,933 @@
+[
+  {
+    "affects": [
+      {
+        "note": "INVISIBLE", 
+        "value": 2
+      }, 
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "WATERWALK", 
+        "value": 64
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }, 
+      {
+        "note": "NOTRACK", 
+        "value": 32768
+      }
+    ], 
+    "aliases": [
+      "homba"
+    ], 
+    "alignment": -100, 
+    "armor_class": 5, 
+    "bare_hand_damage": {
+      "bonus": 4, 
+      "dice": 1, 
+      "sides": 8
+    }, 
+    "detail_desc": "Part kestrel, part bear, part wolf.  Parts is parts, and makes an ugly whole.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "HELPER", 
+        "value": 4096
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 100, 
+    "id": 900, 
+    "level": 4, 
+    "long_desc": "The homba flits about.", 
+    "max_hit_points": {
+      "bonus": 40, 
+      "dice": 2, 
+      "sides": 10
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the homba", 
+    "thac0": 16, 
+    "xp": 1500
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }, 
+      {
+        "note": "NOTRACK", 
+        "value": 32768
+      }
+    ], 
+    "aliases": [
+      "swordsman"
+    ], 
+    "alignment": -400, 
+    "armor_class": 3, 
+    "bare_hand_damage": {
+      "bonus": 2, 
+      "dice": 2, 
+      "sides": 5
+    }, 
+    "detail_desc": "This is the ultimate swordsman.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "HELPER", 
+        "value": 4096
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 250, 
+    "id": 901, 
+    "level": 7, 
+    "long_desc": "The greatest swordsman in the land is standing here with a sneer on his face.", 
+    "max_hit_points": {
+      "bonus": 80, 
+      "dice": 3, 
+      "sides": 10
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the swordsman", 
+    "thac0": 12, 
+    "xp": 3000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }, 
+      {
+        "note": "NOTRACK", 
+        "value": 32768
+      }
+    ], 
+    "aliases": [
+      "mummy", 
+      "rabscuttle"
+    ], 
+    "alignment": -780, 
+    "armor_class": 1, 
+    "bare_hand_damage": {
+      "bonus": 2, 
+      "dice": 2, 
+      "sides": 6
+    }, 
+    "detail_desc": "All bandages, no personality.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "HELPER", 
+        "value": 4096
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 750, 
+    "id": 902, 
+    "level": 11, 
+    "long_desc": "The Mummy of Rabscuttle wanders here, hands aloft, walking towards you.", 
+    "max_hit_points": {
+      "bonus": 130, 
+      "dice": 6, 
+      "sides": 3
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the Mummy of Rabscuttle", 
+    "thac0": 10, 
+    "xp": 10500
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }, 
+      {
+        "note": "NOTRACK", 
+        "value": 32768
+      }
+    ], 
+    "aliases": [
+      "lizard", 
+      "giant"
+    ], 
+    "alignment": 100, 
+    "armor_class": 2, 
+    "bare_hand_damage": {
+      "bonus": 5, 
+      "dice": 3, 
+      "sides": 4
+    }, 
+    "detail_desc": "This scaly creature looks like it is well adapted to its underground\nhabitat.  He looks very powerful.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "HELPER", 
+        "value": 4096
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 1200, 
+    "id": 903, 
+    "level": 16, 
+    "long_desc": "A giant lizard is here.", 
+    "max_hit_points": {
+      "bonus": 220, 
+      "dice": 10, 
+      "sides": 2
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the giant lizard", 
+    "thac0": 6, 
+    "xp": 26000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SANCTUARY", 
+        "value": 128
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }, 
+      {
+        "note": "NOTRACK", 
+        "value": 32768
+      }
+    ], 
+    "aliases": [
+      "woundwort", 
+      "general", 
+      "demon"
+    ], 
+    "alignment": -1000, 
+    "armor_class": -1, 
+    "bare_hand_damage": {
+      "bonus": 12, 
+      "dice": 3, 
+      "sides": 5
+    }, 
+    "detail_desc": "He looks vaguely like a rabbit, but sure doesn't act like one.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "HELPER", 
+        "value": 4096
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 10000, 
+    "id": 904, 
+    "level": 25, 
+    "long_desc": "General Woundwort, the dark demon of Minos, awaits to maul you to shreds.", 
+    "max_hit_points": {
+      "bonus": 520, 
+      "dice": 10, 
+      "sides": 8
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "General Woundwort", 
+    "thac0": 0, 
+    "xp": 120000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SANCTUARY", 
+        "value": 128
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }, 
+      {
+        "note": "NOTRACK", 
+        "value": 32768
+      }
+    ], 
+    "aliases": [
+      "franz", 
+      "henchman"
+    ], 
+    "alignment": -300, 
+    "armor_class": 4, 
+    "bare_hand_damage": {
+      "bonus": 4, 
+      "dice": 2, 
+      "sides": 8
+    }, 
+    "detail_desc": "Franz is no girlie man.  He is very muscular and looks as if he could\nsqueeze your head like a grapefruit.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "HELPER", 
+        "value": 4096
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 1000, 
+    "id": 905, 
+    "level": 12, 
+    "long_desc": "Franz, Minos' henchman, is here ready to pump you up.", 
+    "max_hit_points": {
+      "bonus": 120, 
+      "dice": 5, 
+      "sides": 10
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "Franz the Henchman", 
+    "thac0": 7, 
+    "xp": 14000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SANCTUARY", 
+        "value": 128
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }, 
+      {
+        "note": "NOTRACK", 
+        "value": 32768
+      }
+    ], 
+    "aliases": [
+      "hanz", 
+      "henchman"
+    ], 
+    "alignment": -300, 
+    "armor_class": 4, 
+    "bare_hand_damage": {
+      "bonus": 4, 
+      "dice": 2, 
+      "sides": 8
+    }, 
+    "detail_desc": "Hanz is no girlie man.  He is very muscular and looks as if he could\nlift a large dragon.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "HELPER", 
+        "value": 4096
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 1000, 
+    "id": 906, 
+    "level": 12, 
+    "long_desc": "Hanz is here flexing his muscles and squeezing grapefruits.", 
+    "max_hit_points": {
+      "bonus": 120, 
+      "dice": 5, 
+      "sides": 10
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "Hanz the Henchman", 
+    "thac0": 7, 
+    "xp": 14000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SENSE_LIFE", 
+        "value": 32
+      }, 
+      {
+        "note": "SANCTUARY", 
+        "value": 128
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }, 
+      {
+        "note": "NOTRACK", 
+        "value": 32768
+      }
+    ], 
+    "aliases": [
+      "minos", 
+      "king", 
+      "minotaur"
+    ], 
+    "alignment": -1000, 
+    "armor_class": -2, 
+    "bare_hand_damage": {
+      "bonus": 10, 
+      "dice": 4, 
+      "sides": 6
+    }, 
+    "detail_desc": "He smells something awful.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "HELPER", 
+        "value": 4096
+      }, 
+      {
+        "note": "NOCHARM", 
+        "value": 8192
+      }, 
+      {
+        "note": "NOSUMMON", 
+        "value": 16384
+      }, 
+      {
+        "note": "NOBASH", 
+        "value": 65536
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 0, 
+    "id": 907, 
+    "level": 26, 
+    "long_desc": "King Minos the Minotaur is ready and waiting to gore you to death.", 
+    "max_hit_points": {
+      "bonus": 590, 
+      "dice": 12, 
+      "sides": 8
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "King Minos the Minotaur", 
+    "thac0": 0, 
+    "xp": 160000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }, 
+      {
+        "note": "NOTRACK", 
+        "value": 32768
+      }
+    ], 
+    "aliases": [
+      "turtle", 
+      "dragon"
+    ], 
+    "alignment": -200, 
+    "armor_class": -5, 
+    "bare_hand_damage": {
+      "bonus": 5, 
+      "dice": 1, 
+      "sides": 20
+    }, 
+    "detail_desc": "The turtle's shell is the size of a small house and looks as hard as rock.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }, 
+      {
+        "note": "NOBASH", 
+        "value": 65536
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 10000, 
+    "id": 908, 
+    "level": 22, 
+    "long_desc": "A large dragon turtle breaks the surface churning the water into huge waves.", 
+    "max_hit_points": {
+      "bonus": 350, 
+      "dice": 12, 
+      "sides": 6
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the dragon turtle", 
+    "thac0": 4, 
+    "xp": 80000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }, 
+      {
+        "note": "NOTRACK", 
+        "value": 32768
+      }
+    ], 
+    "aliases": [
+      "hag", 
+      "sea"
+    ], 
+    "alignment": -700, 
+    "armor_class": 6, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 2, 
+      "sides": 5
+    }, 
+    "detail_desc": "The sea hag is terribly fightful and has razor sharp teeth.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "F", 
+      "value": 2
+    }, 
+    "gold": 100, 
+    "id": 909, 
+    "level": 4, 
+    "long_desc": "You notice the face of an ugly hag in the sea weeds.", 
+    "max_hit_points": {
+      "bonus": 35, 
+      "dice": 4, 
+      "sides": 4
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the sea hag", 
+    "thac0": 16, 
+    "xp": 750
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }, 
+      {
+        "note": "NOTRACK", 
+        "value": 32768
+      }, 
+      {
+        "note": "SNEAK", 
+        "value": 262144
+      }, 
+      {
+        "note": "HIDE", 
+        "value": 524288
+      }
+    ], 
+    "aliases": [
+      "merman"
+    ], 
+    "alignment": 350, 
+    "armor_class": 5, 
+    "bare_hand_damage": {
+      "bonus": 2, 
+      "dice": 2, 
+      "sides": 4
+    }, 
+    "detail_desc": "The merman has a powerful tail fin instead of legs.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "HELPER", 
+        "value": 4096
+      }, 
+      {
+        "note": "NOCHARM", 
+        "value": 8192
+      }, 
+      {
+        "note": "NOSUMMON", 
+        "value": 16384
+      }, 
+      {
+        "note": "NOBASH", 
+        "value": 65536
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 1500, 
+    "id": 910, 
+    "level": 5, 
+    "long_desc": "There is a merman swimming here brandishing his trident at you!", 
+    "max_hit_points": {
+      "bonus": 65, 
+      "dice": 5, 
+      "sides": 5
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the merman", 
+    "thac0": 14, 
+    "xp": 1000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }, 
+      {
+        "note": "NOTRACK", 
+        "value": 32768
+      }
+    ], 
+    "aliases": [
+      "crab", 
+      "crusty"
+    ], 
+    "alignment": 0, 
+    "armor_class": 4, 
+    "bare_hand_damage": {
+      "bonus": 0, 
+      "dice": 1, 
+      "sides": 5
+    }, 
+    "detail_desc": "It looks like a crab... what more can be said?", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "WIMPY", 
+        "value": 128
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "NOBASH", 
+        "value": 65536
+      }
+    ], 
+    "gender": {
+      "note": "N", 
+      "value": 0
+    }, 
+    "gold": 0, 
+    "id": 911, 
+    "level": 2, 
+    "long_desc": "A crusty looking crab is crawling around here searching for food.", 
+    "max_hit_points": {
+      "bonus": 25, 
+      "dice": 5, 
+      "sides": 2
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the crusty crab", 
+    "thac0": 18, 
+    "xp": 150
+  }
+]

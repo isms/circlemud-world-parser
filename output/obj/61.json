@@ -1,0 +1,936 @@
+[
+  {
+    "affects": [], 
+    "aliases": [
+      "sign"
+    ], 
+    "cost": 2, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "Only some of the letters are legible :-\n                _\n      _________| |_________\n     /         | |         \\\n    /  CAR.AX  | |  M.STY   \\\n    \\  M..SI.N | |  SW..P   /\n     \\_________| |_________/\n               | |\n", 
+        "keywords": [
+          "sign"
+        ]
+      }
+    ], 
+    "id": 6101, 
+    "long_desc": "An old, battered sign lies on the ground.", 
+    "rent": 2, 
+    "short_desc": "a sign", 
+    "type": {
+      "note": "OTHER", 
+      "value": 12
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "tree", 
+      "opening"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "This enormous tree must be a thousand years old.  Its rough bark looks grey\nand pale and is decorated with scratches and clawmarks.  On its west side is\na small opening just above ground level.", 
+        "keywords": [
+          "tree"
+        ]
+      }, 
+      {
+        "desc": "The opening is far too narrow for you to squeeze through but it looks as if\nthe tree is hollow.", 
+        "keywords": [
+          "opening"
+        ]
+      }
+    ], 
+    "id": 6102, 
+    "long_desc": "A colossal tree blocks the way westward.", 
+    "rent": 0, 
+    "short_desc": "a colossal tree", 
+    "type": {
+      "note": "CONTAINER", 
+      "value": 15
+    }, 
+    "values": [
+      1000, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [], 
+    "weight": 0
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "branch", 
+      "grey", 
+      "long"
+    ], 
+    "cost": 1, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "It is quite heavy and looks as if it has been dropped from great height.  It\nis long dead and very dry.  Could probably be lighted quite easily.", 
+        "keywords": [
+          "branch", 
+          "grey", 
+          "long"
+        ]
+      }
+    ], 
+    "id": 6103, 
+    "long_desc": "A long, grey branch rests heavily on the ground.", 
+    "rent": 3, 
+    "short_desc": "a long, grey branch", 
+    "type": {
+      "note": "LIGHT", 
+      "value": 1
+    }, 
+    "values": [
+      0, 
+      0, 
+      25, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 20
+  }, 
+  {
+    "affects": [
+      {
+        "location": 18, 
+        "note": "HITROLL", 
+        "value": -2
+      }
+    ], 
+    "aliases": [
+      "branch", 
+      "grey", 
+      "long"
+    ], 
+    "cost": 60, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "It is very heavy and looks as if it has been dropped from great height.  It\nis long and straight and the wood is very hard, still being full of sap.\nAlthough it does not fit very well in your hand, it could be used as a clumsy\nbut very heavy weapon.", 
+        "keywords": [
+          "branch", 
+          "grey", 
+          "long"
+        ]
+      }
+    ], 
+    "id": 6104, 
+    "long_desc": "A long, grey branch rests heavily on the ground.", 
+    "rent": 20, 
+    "short_desc": "a long, grey branch", 
+    "type": {
+      "note": "WEAPON", 
+      "value": 5
+    }, 
+    "values": [
+      0, 
+      2, 
+      6, 
+      7
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WIELD", 
+        "value": 8192
+      }
+    ], 
+    "weight": 18
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "branch", 
+      "grey", 
+      "long"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "It is very heavy and looks as if it has been dropped from great height.  It\nis somewhat twisted and the hard wood is still full of sap.", 
+        "keywords": [
+          "branch", 
+          "grey", 
+          "long"
+        ]
+      }
+    ], 
+    "id": 6105, 
+    "long_desc": "A long, grey branch rests heavily on the ground.", 
+    "rent": 0, 
+    "short_desc": "a long, grey branch", 
+    "type": {
+      "note": "TRASH", 
+      "value": 13
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 40
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "toadstool"
+    ], 
+    "cost": 20, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "It is a large, brown boletus that must weigh nearly five pounds.  The top\nsurface is covered in a thin layer of transparent slime that emits a weak,\nmusty smell.  Not the most delicious thing you have seen.", 
+        "keywords": [
+          "toadstool"
+        ]
+      }
+    ], 
+    "id": 6106, 
+    "long_desc": "A large toadstool grows nearby.", 
+    "rent": 20, 
+    "short_desc": "a toadstool", 
+    "type": {
+      "note": "FOOD", 
+      "value": 19
+    }, 
+    "values": [
+      12, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 5
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "toadstool"
+    ], 
+    "cost": 20, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "It is a large, brown boletus that must weigh nearly five pounds.  It\nhas small white spots and the top surface is covered in a thin layer\nof transparent slime that emits a weak, musty smell.  Not the most\ndelicious thing you have seen.", 
+        "keywords": [
+          "toadstool"
+        ]
+      }
+    ], 
+    "id": 6107, 
+    "long_desc": "A large toadstool grows nearby.", 
+    "rent": 20, 
+    "short_desc": "a toadstool", 
+    "type": {
+      "note": "FOOD", 
+      "value": 19
+    }, 
+    "values": [
+      12, 
+      0, 
+      0, 
+      1
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 5
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "coins", 
+      "gold"
+    ], 
+    "cost": 15326, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 6108, 
+    "long_desc": "A big pile of gold coins is lying here.", 
+    "rent": 0, 
+    "short_desc": "a big pile of gold coins", 
+    "type": {
+      "note": "MONEY", 
+      "value": 20
+    }, 
+    "values": [
+      15326, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 15
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "potion", 
+      "blue"
+    ], 
+    "cost": 68000, 
+    "effects": [
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It has a nice deep blue color and a smell like peppermint.", 
+        "keywords": [
+          "potion", 
+          "blue"
+        ]
+      }
+    ], 
+    "id": 6109, 
+    "long_desc": "A blue potion has been left here.", 
+    "rent": 5000, 
+    "short_desc": "a blue potion", 
+    "type": {
+      "note": "POTION", 
+      "value": 10
+    }, 
+    "values": [
+      15, 
+      28, 
+      -1, 
+      -1
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 2
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "potion", 
+      "yellow", 
+      "musky"
+    ], 
+    "cost": 1000, 
+    "effects": [
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It has a deep yellow color and and a strong spicy smell.", 
+        "keywords": [
+          "potion", 
+          "yellow", 
+          "musky"
+        ]
+      }
+    ], 
+    "id": 6110, 
+    "long_desc": "A yellow potion has been left here.", 
+    "rent": 200, 
+    "short_desc": "a musky yellow potion", 
+    "type": {
+      "note": "POTION", 
+      "value": 10
+    }, 
+    "values": [
+      15, 
+      39, 
+      -1, 
+      -1
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 2
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "shield", 
+      "round", 
+      "large"
+    ], 
+    "cost": 300, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "It is made from hard wood that has been reinforced with heavy iron bands.", 
+        "keywords": [
+          "shield", 
+          "round", 
+          "large"
+        ]
+      }
+    ], 
+    "id": 6111, 
+    "long_desc": "A large round shield has been left here.", 
+    "rent": 800, 
+    "short_desc": "a large round shield", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      5, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_SHIELD", 
+        "value": 512
+      }
+    ], 
+    "weight": 15
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "crown", 
+      "iron"
+    ], 
+    "cost": 7000, 
+    "effects": [
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is a heavy human-sized crown made from solid iron.", 
+        "keywords": [
+          "crown", 
+          "iron"
+        ]
+      }
+    ], 
+    "id": 6112, 
+    "long_desc": "An iron crown rests on the ground.", 
+    "rent": 500, 
+    "short_desc": "an iron crown", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      6, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HEAD", 
+        "value": 16
+      }
+    ], 
+    "weight": 20
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "sceptre", 
+      "iron"
+    ], 
+    "cost": 5000, 
+    "effects": [
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is a heavy sceptre made from solid iron.", 
+        "keywords": [
+          "sceptre", 
+          "iron"
+        ]
+      }
+    ], 
+    "id": 6113, 
+    "long_desc": "An iron sceptre lies on the ground.", 
+    "rent": 700, 
+    "short_desc": "an iron sceptre", 
+    "type": {
+      "note": "LIGHT", 
+      "value": 1
+    }, 
+    "values": [
+      0, 
+      0, 
+      -1, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [
+      {
+        "location": 17, 
+        "note": "AC", 
+        "value": -4
+      }, 
+      {
+        "location": 9, 
+        "note": "AGE", 
+        "value": 1
+      }
+    ], 
+    "aliases": [
+      "ring", 
+      "iron"
+    ], 
+    "cost": 5000, 
+    "effects": [
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is a quite heavy human-sized ring made from solid iron.  It lacks\ndecorations of any kind.", 
+        "keywords": [
+          "ring", 
+          "iron"
+        ]
+      }
+    ], 
+    "id": 6114, 
+    "long_desc": "An iron ring has been left here.", 
+    "rent": 500, 
+    "short_desc": "an iron ring", 
+    "type": {
+      "note": "WORN", 
+      "value": 11
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_FINGER", 
+        "value": 2
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [
+      {
+        "location": 18, 
+        "note": "HITROLL", 
+        "value": 2
+      }
+    ], 
+    "aliases": [
+      "star", 
+      "morning-star"
+    ], 
+    "cost": 15000, 
+    "effects": [
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 6115, 
+    "long_desc": "the morning star is here collecting dust while it lies on the ground.", 
+    "rent": 2000, 
+    "short_desc": "the morning star", 
+    "type": {
+      "note": "WEAPON", 
+      "value": 5
+    }, 
+    "values": [
+      0, 
+      2, 
+      9, 
+      7
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WIELD", 
+        "value": 8192
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "shirt", 
+      "scale"
+    ], 
+    "cost": 10000, 
+    "effects": [
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is a sleeveless shirt made from big, black dragon scales joined\nwith silver threads.  Its inside has been made from the soft skin\non the dragon's belly, making it very comfortable to wear.  The word\n'Isha' has been engraved on one of the scales.", 
+        "keywords": [
+          "shirt", 
+          "scale"
+        ]
+      }
+    ], 
+    "id": 6116, 
+    "long_desc": "A black dragon scale shirt has been left here.", 
+    "rent": 100, 
+    "short_desc": "a black dragon scale shirt", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      6, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_BODY", 
+        "value": 8
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "skirt", 
+      "scale"
+    ], 
+    "cost": 5000, 
+    "effects": [
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is a short skirt made from big, black dragon scales joined with\nsilver threads.  Its inside has been made from the soft skin on the\ndragon's belly, making it very comfortable to wear.  The word 'Isha'\nhas been engraved on one of the scales.", 
+        "keywords": [
+          "skirt", 
+          "scale"
+        ]
+      }
+    ], 
+    "id": 6117, 
+    "long_desc": "A black dragon scale skirt has been left here.", 
+    "rent": 100, 
+    "short_desc": "a black dragon scale skirt", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      6, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_LEGS", 
+        "value": 32
+      }
+    ], 
+    "weight": 8
+  }, 
+  {
+    "affects": [
+      {
+        "location": 17, 
+        "note": "AC", 
+        "value": -6
+      }, 
+      {
+        "location": 24, 
+        "note": "SAVING_SPELL", 
+        "value": -4
+      }
+    ], 
+    "aliases": [
+      "cloak", 
+      "black"
+    ], 
+    "cost": 8000, 
+    "effects": [
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is a heavy, black cloak with a large hood.  The word 'Isha' is written\ninside it with a silver thread.", 
+        "keywords": [
+          "cloak", 
+          "black"
+        ]
+      }
+    ], 
+    "id": 6118, 
+    "long_desc": "A large, hooded cloak, as dark as the night, has been left here.", 
+    "rent": 4000, 
+    "short_desc": "a black, hooded cloak", 
+    "type": {
+      "note": "WORN", 
+      "value": 11
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_ABOUT", 
+        "value": 1024
+      }
+    ], 
+    "weight": 20
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "belt", 
+      "silver"
+    ], 
+    "cost": 5000, 
+    "effects": [
+      {
+        "note": "GLOW", 
+        "value": 1
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is a broad belt made from tiny silver rings woven together.", 
+        "keywords": [
+          "belt", 
+          "silver"
+        ]
+      }
+    ], 
+    "id": 6119, 
+    "long_desc": "A broad silver belt has been left here.", 
+    "rent": 3500, 
+    "short_desc": "a broad silver belt", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      6, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WAIST", 
+        "value": 2048
+      }
+    ], 
+    "weight": 4
+  }, 
+  {
+    "affects": [
+      {
+        "location": 18, 
+        "note": "HITROLL", 
+        "value": 4
+      }, 
+      {
+        "location": 19, 
+        "note": "DAMROLL", 
+        "value": 2
+      }
+    ], 
+    "aliases": [
+      "sword", 
+      "long", 
+      "slender"
+    ], 
+    "cost": 30000, 
+    "effects": [
+      {
+        "note": "GLOW", 
+        "value": 1
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "ANTI_GOOD", 
+        "value": 512
+      }, 
+      {
+        "note": "ANTI_NEUTRAL", 
+        "value": 2048
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is a long, slender sword that seems to be made from silver.  The word\n'Isha' has been engraved on the hilt.", 
+        "keywords": [
+          "sword", 
+          "long", 
+          "slender"
+        ]
+      }
+    ], 
+    "id": 6120, 
+    "long_desc": "A long, slender sword lies on the ground.", 
+    "rent": 6000, 
+    "short_desc": "a long, slender sword", 
+    "type": {
+      "note": "WEAPON", 
+      "value": 5
+    }, 
+    "values": [
+      0, 
+      3, 
+      6, 
+      3
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WIELD", 
+        "value": 8192
+      }
+    ], 
+    "weight": 4
+  }
+]

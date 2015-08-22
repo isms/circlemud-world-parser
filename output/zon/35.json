@@ -1,0 +1,323 @@
+[
+  {
+    "bottom_room": 3500, 
+    "doors": [], 
+    "id": 35, 
+    "lifespan": 60, 
+    "mobs": [
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 3, 
+        "mob": 3500, 
+        "room": 3521
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 3, 
+        "mob": 3500, 
+        "room": 3521
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 3, 
+        "mob": 3500, 
+        "room": 3521
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 3502, 
+            "location": 16, 
+            "max": 10, 
+            "note": "WIELD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 10, 
+        "mob": 3501, 
+        "room": 3508
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 3502, 
+            "location": 16, 
+            "max": 10, 
+            "note": "WIELD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 10, 
+        "mob": 3501, 
+        "room": 3509
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 3502, 
+            "location": 16, 
+            "max": 10, 
+            "note": "WIELD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 10, 
+        "mob": 3501, 
+        "room": 3509
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 3502, 
+            "location": 16, 
+            "max": 10, 
+            "note": "WIELD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 10, 
+        "mob": 3501, 
+        "room": 3512
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 3502, 
+            "location": 16, 
+            "max": 10, 
+            "note": "WIELD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 10, 
+        "mob": 3501, 
+        "room": 3512
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 3502, 
+            "location": 16, 
+            "max": 10, 
+            "note": "WIELD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 10, 
+        "mob": 3501, 
+        "room": 3512
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 3502, 
+            "location": 16, 
+            "max": 10, 
+            "note": "WIELD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 10, 
+        "mob": 3501, 
+        "room": 3514
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 3502, 
+            "location": 16, 
+            "max": 10, 
+            "note": "WIELD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 10, 
+        "mob": 3501, 
+        "room": 3516
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 3502, 
+            "location": 16, 
+            "max": 10, 
+            "note": "WIELD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 10, 
+        "mob": 3501, 
+        "room": 3518
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 3502, 
+            "location": 16, 
+            "max": 10, 
+            "note": "WIELD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 10, 
+        "mob": 3501, 
+        "room": 3556
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 3500, 
+            "location": 16, 
+            "max": 10, 
+            "note": "WIELD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 4, 
+        "mob": 3502, 
+        "room": 3551
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 3500, 
+            "location": 16, 
+            "max": 10, 
+            "note": "WIELD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 4, 
+        "mob": 3502, 
+        "room": 3556
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 3504, 
+            "location": 16, 
+            "max": 10, 
+            "note": "WIELD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 3503, 
+        "room": 3556
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 3508, 
+            "location": 17, 
+            "max": 25, 
+            "note": "HOLD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 3504, 
+        "room": 3575
+      }, 
+      {
+        "equipped": [], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 3505, 
+        "room": 3576
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 3502, 
+            "location": 16, 
+            "max": 2, 
+            "note": "WIELD"
+          }
+        ], 
+        "inventory": [], 
+        "max": 1, 
+        "mob": 3506, 
+        "room": 3577
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 3503, 
+            "location": 5, 
+            "max": 8, 
+            "note": "BODY"
+          }
+        ], 
+        "inventory": [], 
+        "max": 4, 
+        "mob": 3507, 
+        "room": 3584
+      }, 
+      {
+        "equipped": [
+          {
+            "contents": [], 
+            "id": 3503, 
+            "location": 5, 
+            "max": 8, 
+            "note": "BODY"
+          }
+        ], 
+        "inventory": [], 
+        "max": 4, 
+        "mob": 3507, 
+        "room": 3584
+      }
+    ], 
+    "name": "Miden'Nir", 
+    "objects": [
+      {
+        "contents": [], 
+        "id": 3505, 
+        "max": 2, 
+        "room": 3521
+      }, 
+      {
+        "contents": [
+          {
+            "contents": [], 
+            "id": 3507, 
+            "max": 1
+          }
+        ], 
+        "id": 3506, 
+        "max": 1, 
+        "room": 3521
+      }, 
+      {
+        "contents": [], 
+        "id": 3505, 
+        "max": 2, 
+        "room": 3521
+      }
+    ], 
+    "remove_objects": [], 
+    "reset_mode": 2, 
+    "top_room": 3599
+  }
+]

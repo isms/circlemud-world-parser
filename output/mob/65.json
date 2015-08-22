@@ -1,0 +1,961 @@
+[
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SANCTUARY", 
+        "value": 128
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "guard", 
+      "dwarf", 
+      "dwarven"
+    ], 
+    "alignment": 1000, 
+    "armor_class": -1, 
+    "bare_hand_damage": {
+      "bonus": 9, 
+      "dice": 2, 
+      "sides": 8
+    }, 
+    "detail_desc": "The guard looks very tough and mean.  He wears his beard long, and he\nsmells like he hasn't bathed in over a month.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "HELPER", 
+        "value": 4096
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 10000, 
+    "id": 6500, 
+    "level": 21, 
+    "long_desc": "A dwarven guard is here.", 
+    "max_hit_points": {
+      "bonus": 336, 
+      "dice": 4, 
+      "sides": 20
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the dwarf guard", 
+    "thac0": 0, 
+    "xp": 60000
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "worker", 
+      "dwarf", 
+      "dwarven"
+    ], 
+    "alignment": 900, 
+    "armor_class": 2, 
+    "bare_hand_damage": {
+      "bonus": 6, 
+      "dice": 2, 
+      "sides": 4
+    }, 
+    "detail_desc": "He is very dirty, and looks extremely over-worked.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "HELPER", 
+        "value": 4096
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 3500, 
+    "id": 6501, 
+    "level": 13, 
+    "long_desc": "A dwarven mining worker is here.", 
+    "max_hit_points": {
+      "bonus": 170, 
+      "dice": 25, 
+      "sides": 5
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the dwarf worker", 
+    "thac0": 7, 
+    "xp": 16000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SENSE_LIFE", 
+        "value": 32
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "wraith"
+    ], 
+    "alignment": -900, 
+    "armor_class": -6, 
+    "bare_hand_damage": {
+      "bonus": 25, 
+      "dice": 4, 
+      "sides": 5
+    }, 
+    "detail_desc": "A black, almost transparent wraith.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "NOCHARM", 
+        "value": 8192
+      }, 
+      {
+        "note": "NOSUMMON", 
+        "value": 16384
+      }, 
+      {
+        "note": "NOSLEEP", 
+        "value": 32768
+      }, 
+      {
+        "note": "NOBLIND", 
+        "value": 131072
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 45708, 
+    "id": 6502, 
+    "level": 25, 
+    "long_desc": "A wraith is awaiting your first move here.", 
+    "max_hit_points": {
+      "bonus": 500, 
+      "dice": 9, 
+      "sides": 7
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the wraith", 
+    "thac0": 4, 
+    "xp": 125000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }
+    ], 
+    "aliases": [
+      "storekeeper"
+    ], 
+    "alignment": 1000, 
+    "armor_class": -10, 
+    "bare_hand_damage": {
+      "bonus": 32, 
+      "dice": 2, 
+      "sides": 8
+    }, 
+    "detail_desc": "The storekeeper is very rotund, but looks in excellent condition.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "HELPER", 
+        "value": 4096
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 33500, 
+    "id": 6503, 
+    "level": 33, 
+    "long_desc": "The Hide & Tooth storekeeper is standing here, waiting patiently.", 
+    "max_hit_points": {
+      "bonus": 30000, 
+      "dice": 1, 
+      "sides": 1
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the Hide & Tooth storekeeper", 
+    "thac0": 0, 
+    "xp": 800000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }
+    ], 
+    "aliases": [
+      "baker", 
+      "granite", 
+      "head"
+    ], 
+    "alignment": 900, 
+    "armor_class": -10, 
+    "bare_hand_damage": {
+      "bonus": 22, 
+      "dice": 2, 
+      "sides": 8
+    }, 
+    "detail_desc": "Granite Head is covered with flour and grains.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }, 
+      {
+        "note": "HELPER", 
+        "value": 4096
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 55000, 
+    "id": 6504, 
+    "level": 33, 
+    "long_desc": "Granite Head, the baker, is waiting for a customer here.", 
+    "max_hit_points": {
+      "bonus": 30000, 
+      "dice": 1, 
+      "sides": 1
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "Granite Head the baker", 
+    "thac0": 0, 
+    "xp": 800000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "lizard", 
+      "giant"
+    ], 
+    "alignment": 100, 
+    "armor_class": 1, 
+    "bare_hand_damage": {
+      "bonus": 4, 
+      "dice": 3, 
+      "sides": 7
+    }, 
+    "detail_desc": "This scaly creature looks like it is well adapted to its underground\nhabitat.  He looks very powerful.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 200, 
+    "id": 6505, 
+    "level": 21, 
+    "long_desc": "A giant lizard is foraging for food along the cavern floor here.", 
+    "max_hit_points": {
+      "bonus": 340, 
+      "dice": 4, 
+      "sides": 20
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the giant lizard", 
+    "thac0": 0, 
+    "xp": 55000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "giant"
+    ], 
+    "alignment": 600, 
+    "armor_class": 0, 
+    "bare_hand_damage": {
+      "bonus": 8, 
+      "dice": 3, 
+      "sides": 3
+    }, 
+    "detail_desc": "The giant is about 18 feet tall, with arms of steel, and looks in\nexcellent physical condition.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "STAY_ZONE", 
+        "value": 64
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 2000, 
+    "id": 6506, 
+    "level": 19, 
+    "long_desc": "A giant is wandering around the mountainside here.", 
+    "max_hit_points": {
+      "bonus": 300, 
+      "dice": 4, 
+      "sides": 20
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the giant", 
+    "thac0": 2, 
+    "xp": 45000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "mineworker", 
+      "dwarven", 
+      "dwarf", 
+      "miner", 
+      "worker"
+    ], 
+    "alignment": 500, 
+    "armor_class": 7, 
+    "bare_hand_damage": {
+      "bonus": 2, 
+      "dice": 1, 
+      "sides": 3
+    }, 
+    "detail_desc": "The mineworker is very tired, and very dirty, and he has bulging muscles.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 600, 
+    "id": 6507, 
+    "level": 4, 
+    "long_desc": "A dwarven mineworker is here.", 
+    "max_hit_points": {
+      "bonus": 40, 
+      "dice": 3, 
+      "sides": 13
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the dwarven mineworker", 
+    "thac0": 16, 
+    "xp": 700
+  }, 
+  {
+    "affects": [
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "mineleader", 
+      "dwarven", 
+      "dwarf", 
+      "mine", 
+      "leader"
+    ], 
+    "alignment": 700, 
+    "armor_class": 0, 
+    "bare_hand_damage": {
+      "bonus": 6, 
+      "dice": 3, 
+      "sides": 4
+    }, 
+    "detail_desc": "The mine leader is very big and very strong, though he must be fairly\nbright also, to have gotten this job.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 18000, 
+    "id": 6508, 
+    "level": 19, 
+    "long_desc": "A dwarven mine leader is here, supervising the work.", 
+    "max_hit_points": {
+      "bonus": 270, 
+      "dice": 50, 
+      "sides": 2
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the mine leader", 
+    "thac0": 1, 
+    "xp": 35000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SANCTUARY", 
+        "value": 128
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "doctor", 
+      "dwarven", 
+      "healer"
+    ], 
+    "alignment": 999, 
+    "armor_class": -1, 
+    "bare_hand_damage": {
+      "bonus": 4, 
+      "dice": 3, 
+      "sides": 8
+    }, 
+    "detail_desc": "He is a very skilled healer, and extremely faithful to his god.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 20000, 
+    "id": 6509, 
+    "level": 22, 
+    "long_desc": "The dwarven doctor is here, aiding the sick of his people.", 
+    "max_hit_points": {
+      "bonus": 375, 
+      "dice": 9, 
+      "sides": 4
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the dwarven doctor", 
+    "thac0": 0, 
+    "xp": 60000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "peon", 
+      "dwarven"
+    ], 
+    "alignment": 500, 
+    "armor_class": 7, 
+    "bare_hand_damage": {
+      "bonus": 2, 
+      "dice": 2, 
+      "sides": 3
+    }, 
+    "detail_desc": "", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "HELPER", 
+        "value": 4096
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 75, 
+    "id": 6510, 
+    "level": 3, 
+    "long_desc": "A dwarven peon is awaiting help here.", 
+    "max_hit_points": {
+      "bonus": 35, 
+      "dice": 10, 
+      "sides": 3
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the dwarven peon", 
+    "thac0": 18, 
+    "xp": 350
+  }, 
+  {
+    "affects": [
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "dwarf"
+    ], 
+    "alignment": 500, 
+    "armor_class": 4, 
+    "bare_hand_damage": {
+      "bonus": 1, 
+      "dice": 3, 
+      "sides": 3
+    }, 
+    "detail_desc": "", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 625, 
+    "id": 6511, 
+    "level": 6, 
+    "long_desc": "A dwarf is here.", 
+    "max_hit_points": {
+      "bonus": 70, 
+      "dice": 1, 
+      "sides": 15
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the Dwarf", 
+    "thac0": 15, 
+    "xp": 1500
+  }, 
+  {
+    "affects": [
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "guard", 
+      "barrack"
+    ], 
+    "alignment": 100, 
+    "armor_class": 1, 
+    "bare_hand_damage": {
+      "bonus": 4, 
+      "dice": 2, 
+      "sides": 5
+    }, 
+    "detail_desc": "", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "HELPER", 
+        "value": 4096
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 1300, 
+    "id": 6514, 
+    "level": 14, 
+    "long_desc": "A barrack guard is here, lounging around while off duty.", 
+    "max_hit_points": {
+      "bonus": 170, 
+      "dice": 5, 
+      "sides": 10
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the barrack guard", 
+    "thac0": 6, 
+    "xp": 20000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "DETECT_INVIS", 
+        "value": 8
+      }, 
+      {
+        "note": "SANCTUARY", 
+        "value": 128
+      }, 
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "mazekeeper", 
+      "keeper"
+    ], 
+    "alignment": -1000, 
+    "armor_class": -7, 
+    "bare_hand_damage": {
+      "bonus": 5, 
+      "dice": 4, 
+      "sides": 3
+    }, 
+    "detail_desc": "He looks VERY tough.", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SPEC", 
+        "value": 1
+      }, 
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }, 
+      {
+        "note": "MEMORY", 
+        "value": 2048
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 2000, 
+    "id": 6516, 
+    "level": 29, 
+    "long_desc": "A mazekeeper is here.", 
+    "max_hit_points": {
+      "bonus": 2000, 
+      "dice": 250, 
+      "sides": 4
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the mazekeeper", 
+    "thac0": 0, 
+    "xp": 1700000
+  }, 
+  {
+    "affects": [
+      {
+        "note": "INFRAVISION", 
+        "value": 1024
+      }
+    ], 
+    "aliases": [
+      "snake", 
+      "giant"
+    ], 
+    "alignment": -1000, 
+    "armor_class": -10, 
+    "bare_hand_damage": {
+      "bonus": 22, 
+      "dice": 4, 
+      "sides": 4
+    }, 
+    "detail_desc": "", 
+    "extra_spec": {}, 
+    "flags": [
+      {
+        "note": "SENTINEL", 
+        "value": 2
+      }, 
+      {
+        "note": "AGGRESSIVE", 
+        "value": 32
+      }
+    ], 
+    "gender": {
+      "note": "M", 
+      "value": 1
+    }, 
+    "gold": 3000, 
+    "id": 6517, 
+    "level": 33, 
+    "long_desc": "There is a giant snake here.", 
+    "max_hit_points": {
+      "bonus": 600, 
+      "dice": 300, 
+      "sides": 6
+    }, 
+    "mob_type": "S", 
+    "position": {
+      "default": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }, 
+      "load": {
+        "note": "POSITION_STANDING", 
+        "value": 8
+      }
+    }, 
+    "short_desc": "the giant snake", 
+    "thac0": 0, 
+    "xp": 800000
+  }
+]

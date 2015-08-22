@@ -1,0 +1,910 @@
+[
+  {
+    "affects": [
+      {
+        "location": 18, 
+        "note": "HITROLL", 
+        "value": 1
+      }
+    ], 
+    "aliases": [
+      "axe", 
+      "lumber"
+    ], 
+    "cost": 50, 
+    "effects": [
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is a heavy axe of the kind lumberjacks use to chop down trees.", 
+        "keywords": [
+          "axe", 
+          "lumber"
+        ]
+      }
+    ], 
+    "id": 6000, 
+    "long_desc": "A heavy lumber axe lies here.", 
+    "rent": 15, 
+    "short_desc": "a lumber axe", 
+    "type": {
+      "note": "WEAPON", 
+      "value": 5
+    }, 
+    "values": [
+      0, 
+      2, 
+      3, 
+      3
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WIELD", 
+        "value": 8192
+      }
+    ], 
+    "weight": 12
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "shirt", 
+      "chequered"
+    ], 
+    "cost": 20, 
+    "effects": [
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is an extra large, chequered shirt made from heavy cloth.", 
+        "keywords": [
+          "shirt", 
+          "chequered"
+        ]
+      }
+    ], 
+    "id": 6001, 
+    "long_desc": "A chequered shirt lies here.", 
+    "rent": 8, 
+    "short_desc": "a chequered shirt", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      1, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_BODY", 
+        "value": 8
+      }
+    ], 
+    "weight": 2
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "boots", 
+      "leather"
+    ], 
+    "cost": 60, 
+    "effects": [
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "They are fashioned from rough leather that has been oiled frequently to make\nit stay waterproof.  They look worn but quite functional.", 
+        "keywords": [
+          "boots"
+        ]
+      }
+    ], 
+    "id": 6002, 
+    "long_desc": "A pair of worn leather boots lies here.", 
+    "rent": 10, 
+    "short_desc": "a pair of worn leather boots", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      2, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_FEET", 
+        "value": 64
+      }
+    ], 
+    "weight": 4
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "fireplace"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "It is fashioned from stones of various sizes that have been stacked on top of\neach other and fastened with mortar.  Its chimney is constructed likewise and\nleads the smoke out through the low cabin ceiling.", 
+        "keywords": [
+          "fireplace"
+        ]
+      }
+    ], 
+    "id": 6003, 
+    "long_desc": "A fireplace made from stone is set against the east wall.", 
+    "rent": 0, 
+    "short_desc": "a fireplace", 
+    "type": {
+      "note": "CONTAINER", 
+      "value": 15
+    }, 
+    "values": [
+      200, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [], 
+    "weight": 0
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "lantern", 
+      "brass", 
+      "hooded"
+    ], 
+    "cost": 60, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "It is a large and robust but somewhat battered oil lantern made from brass,\nand it is equipped with a handle to make it handy and a hood to protect its\nflame.  Some letters have been scratched on its bottom.", 
+        "keywords": [
+          "lantern", 
+          "brass", 
+          "hooded"
+        ]
+      }, 
+      {
+        "desc": "The letters say:\n\nUse 'hold lantern' to activate.\n", 
+        "keywords": [
+          "letters"
+        ]
+      }
+    ], 
+    "id": 6004, 
+    "long_desc": "A hooded brass lantern has been left here.", 
+    "rent": 10, 
+    "short_desc": "a hooded brass lantern", 
+    "type": {
+      "note": "LIGHT", 
+      "value": 1
+    }, 
+    "values": [
+      0, 
+      0, 
+      100, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 4
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "chest", 
+      "wooden"
+    ], 
+    "cost": 100, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "It is a robust chest made from short, heavy planks that have been fastened\ntogether with tenons.  It is equipped with a simple brass lock.", 
+        "keywords": [
+          "chest", 
+          "wooden"
+        ]
+      }
+    ], 
+    "id": 6005, 
+    "long_desc": "A wooden chest stands in the corner.", 
+    "rent": 10, 
+    "short_desc": "a wooden chest", 
+    "type": {
+      "note": "CONTAINER", 
+      "value": 15
+    }, 
+    "values": [
+      100, 
+      15, 
+      6006, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 20
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "key", 
+      "brass"
+    ], 
+    "cost": 0, 
+    "effects": [
+      {
+        "note": "NORENT", 
+        "value": 4
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is a small, simple brass key with no inscriptions or marks of any kind.", 
+        "keywords": [
+          "key", 
+          "brass"
+        ]
+      }
+    ], 
+    "id": 6006, 
+    "long_desc": "A small brass key lies here.", 
+    "rent": 0, 
+    "short_desc": "a small brass key", 
+    "type": {
+      "note": "KEY", 
+      "value": 18
+    }, 
+    "values": [
+      6006, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 1
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "coins", 
+      "gold"
+    ], 
+    "cost": 127, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "The coins seem to be gold.  They are obviously valuable.", 
+        "keywords": [
+          "coins", 
+          "gold"
+        ]
+      }
+    ], 
+    "id": 6007, 
+    "long_desc": "Some gold coins lie piled up in a heap on the floor.", 
+    "rent": 0, 
+    "short_desc": "a heap of gold coins", 
+    "type": {
+      "note": "MONEY", 
+      "value": 20
+    }, 
+    "values": [
+      127, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 1
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "blackberries", 
+      "berries"
+    ], 
+    "cost": 0, 
+    "effects": [
+      {
+        "note": "NORENT", 
+        "value": 4
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "They look very tasty indeed.", 
+        "keywords": [
+          "blackberries", 
+          "berries"
+        ]
+      }
+    ], 
+    "id": 6010, 
+    "long_desc": "Some blackberries grow on a bush nearby.", 
+    "rent": 0, 
+    "short_desc": "some blackberries", 
+    "type": {
+      "note": "FOOD", 
+      "value": 19
+    }, 
+    "values": [
+      3, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 1
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "mushroom"
+    ], 
+    "cost": 10, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "It looks to be a tasty little thing.", 
+        "keywords": [
+          "mushroom"
+        ]
+      }
+    ], 
+    "id": 6011, 
+    "long_desc": "A small mushroom grows nearby.", 
+    "rent": 10, 
+    "short_desc": "a mushroom", 
+    "type": {
+      "note": "FOOD", 
+      "value": 19
+    }, 
+    "values": [
+      6, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 1
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "sign"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "Not the most interesting pole in the world.\nBetter leave it here, though, as it holds the sign in place.", 
+        "keywords": [
+          "pole"
+        ]
+      }, 
+      {
+        "desc": "It says :-\n\n                         Haon-Dor\n                         --------\n\n This is the Forest of Haon-Dor.  Enter at your own risk.\n     Please report any strange occurrences to Furry,\n     as Quifael and Derkhil are currently indisposed.\n", 
+        "keywords": [
+          "sign"
+        ]
+      }
+    ], 
+    "id": 6012, 
+    "long_desc": "A large sign mounted on a pole is standing by the roadside.", 
+    "rent": 0, 
+    "short_desc": "a large sign", 
+    "type": {
+      "note": "OTHER", 
+      "value": 12
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [], 
+    "weight": 100
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "barrel", 
+      "water"
+    ], 
+    "cost": 60, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 6013, 
+    "long_desc": "A water barrel has been left here.", 
+    "rent": 20, 
+    "short_desc": "a barrel", 
+    "type": {
+      "note": "DRINKCON", 
+      "value": 17
+    }, 
+    "values": [
+      40, 
+      40, 
+      15, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 45
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "water", 
+      "brook"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "The water looks clean and refreshing.", 
+        "keywords": [
+          "water", 
+          "brook"
+        ]
+      }
+    ], 
+    "id": 6014, 
+    "long_desc": "A small brook trickles through the forest beside the path.", 
+    "rent": 0, 
+    "short_desc": "a small brook", 
+    "type": {
+      "note": "FOUNTAIN", 
+      "value": 23
+    }, 
+    "values": [
+      50000, 
+      50000, 
+      15, 
+      0
+    ], 
+    "wear_flags": [], 
+    "weight": 0
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "water", 
+      "lake"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 6015, 
+    "long_desc": "", 
+    "rent": 0, 
+    "short_desc": "the lake", 
+    "type": {
+      "note": "FOUNTAIN", 
+      "value": 23
+    }, 
+    "values": [
+      50000, 
+      50000, 
+      0, 
+      0
+    ], 
+    "wear_flags": [], 
+    "weight": 0
+  }, 
+  {
+    "affects": [
+      {
+        "location": 19, 
+        "note": "DAMROLL", 
+        "value": 2
+      }, 
+      {
+        "location": 1, 
+        "note": "STR", 
+        "value": -2
+      }
+    ], 
+    "aliases": [
+      "cudgel", 
+      "oak", 
+      "oaken", 
+      "limb"
+    ], 
+    "cost": 1, 
+    "effects": [
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The cudgel looks quite sturdy, and would make a nice weapon.", 
+        "keywords": [
+          "cudgel", 
+          "oak", 
+          "oaken", 
+          "limb"
+        ]
+      }
+    ], 
+    "id": 6016, 
+    "long_desc": "A limb has fallen here.", 
+    "rent": 20, 
+    "short_desc": "an oaken cudgel", 
+    "type": {
+      "note": "WEAPON", 
+      "value": 5
+    }, 
+    "values": [
+      0, 
+      1, 
+      7, 
+      7
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WIELD", 
+        "value": 8192
+      }
+    ], 
+    "weight": 16
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "corpse", 
+      "boar"
+    ], 
+    "cost": 1, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 6017, 
+    "long_desc": "", 
+    "rent": 1, 
+    "short_desc": "the corpse of a boar", 
+    "type": {
+      "note": "CONTAINER", 
+      "value": 15
+    }, 
+    "values": [
+      100, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [], 
+    "weight": 500
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "slab", 
+      "meat"
+    ], 
+    "cost": 40, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "It looks quite filling.", 
+        "keywords": [
+          "slab", 
+          "meat"
+        ]
+      }
+    ], 
+    "id": 6018, 
+    "long_desc": "A large piece of freshly cut boar meat is on the ground here.", 
+    "rent": 1, 
+    "short_desc": "a large slab of meat", 
+    "type": {
+      "note": "FOOD", 
+      "value": 19
+    }, 
+    "values": [
+      24, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 15
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "tusks", 
+      "pair"
+    ], 
+    "cost": 60, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "They look like they might be worth something to a craftsman.", 
+        "keywords": [
+          "tusks", 
+          "pair"
+        ]
+      }
+    ], 
+    "id": 6019, 
+    "long_desc": "A pair of large boar tusks have been dropped here.", 
+    "rent": 1, 
+    "short_desc": "a pair of boar tusks", 
+    "type": {
+      "note": "TREASURE", 
+      "value": 8
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "log", 
+      "hollow", 
+      "floating"
+    ], 
+    "cost": 2, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "It looks like it would probably float.", 
+        "keywords": [
+          "log"
+        ]
+      }
+    ], 
+    "id": 6020, 
+    "long_desc": "", 
+    "rent": 1, 
+    "short_desc": "a hollow log", 
+    "type": {
+      "note": "BOAT", 
+      "value": 22
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 48
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "nest", 
+      "bird"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 6021, 
+    "long_desc": "", 
+    "rent": 0, 
+    "short_desc": "the bird's nest", 
+    "type": {
+      "note": "CONTAINER", 
+      "value": 15
+    }, 
+    "values": [
+      30, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [], 
+    "weight": 0
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "egg", 
+      "blue", 
+      "robin"
+    ], 
+    "cost": 10, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "It is small, but food nonetheless.", 
+        "keywords": [
+          "egg", 
+          "blue", 
+          "robin"
+        ]
+      }
+    ], 
+    "id": 6022, 
+    "long_desc": "A small bluish egg has been left here.", 
+    "rent": 0, 
+    "short_desc": "a blue robin's egg", 
+    "type": {
+      "note": "FOOD", 
+      "value": 19
+    }, 
+    "values": [
+      6, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 1
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "meat", 
+      "rabbit"
+    ], 
+    "cost": 29, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 6023, 
+    "long_desc": "A large piece of rabbit meat.", 
+    "rent": 20, 
+    "short_desc": "a piece of rabbit meat", 
+    "type": {
+      "note": "FOOD", 
+      "value": 19
+    }, 
+    "values": [
+      12, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 5
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "meat", 
+      "deer", 
+      "venison"
+    ], 
+    "cost": 80, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 6024, 
+    "long_desc": "A large piece of venison.", 
+    "rent": 20, 
+    "short_desc": "a piece of venison", 
+    "type": {
+      "note": "FOOD", 
+      "value": 19
+    }, 
+    "values": [
+      24, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 10
+  }
+]

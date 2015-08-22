@@ -1,0 +1,39 @@
+[
+  {
+    "buy_rate": 0.9, 
+    "buy_types": [], 
+    "flags": [], 
+    "id": 3100, 
+    "messages": {
+      "buy_fails_object_does_not_exist": "I haven't got such a drink.", 
+      "buy_fails_player_cannot_afford_object": "You can't afford such a fine drink, try the Grubby Inn.", 
+      "buy_succeeds": "Fine, that'll be %d gold pieces.", 
+      "sell_fails_object_does_not_exist": "I see no such thing.", 
+      "sell_fails_shop_cannot_afford_object": "BUG, Please report.", 
+      "sell_fails_shop_does_not_buy_object": "I do not buy, would you like a drink?", 
+      "sell_succeeds": "Bug, please report (%d)."
+    }, 
+    "objects": [
+      3100, 
+      3101, 
+      3102
+    ], 
+    "rooms": [
+      3106
+    ], 
+    "sell_rate": 1.1, 
+    "shopkeeper": 3100, 
+    "temper": 0, 
+    "times": [
+      {
+        "close": 22, 
+        "open": 6
+      }, 
+      {
+        "close": 24, 
+        "open": 23
+      }
+    ], 
+    "trades_with": []
+  }
+]

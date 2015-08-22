@@ -1,0 +1,1978 @@
+[
+  {
+    "affects": [
+      {
+        "location": 17, 
+        "note": "AC", 
+        "value": -1
+      }
+    ], 
+    "aliases": [
+      "vest", 
+      "ringmail"
+    ], 
+    "cost": 12000, 
+    "effects": [
+      {
+        "note": "GLOW", 
+        "value": 1
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5200, 
+    "long_desc": "A vest made of iron rings lies heaped on the floor.", 
+    "rent": 400, 
+    "short_desc": "a ringmail vest", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      6, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_BODY", 
+        "value": 8
+      }
+    ], 
+    "weight": 60
+  }, 
+  {
+    "affects": [
+      {
+        "location": 18, 
+        "note": "HITROLL", 
+        "value": -2
+      }
+    ], 
+    "aliases": [
+      "helm", 
+      "iron"
+    ], 
+    "cost": 5000, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 5201, 
+    "long_desc": "An iron helm has been left on the ground.", 
+    "rent": 800, 
+    "short_desc": "an iron helm", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      7, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HEAD", 
+        "value": 16
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [
+      {
+        "location": 18, 
+        "note": "HITROLL", 
+        "value": -3
+      }, 
+      {
+        "location": 19, 
+        "note": "DAMROLL", 
+        "value": 1
+      }
+    ], 
+    "aliases": [
+      "gauntlets", 
+      "iron"
+    ], 
+    "cost": 2200, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 5202, 
+    "long_desc": "A pair of iron gauntlets rests heavily on the ground.", 
+    "rent": 900, 
+    "short_desc": "a pair of iron gauntlets", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      7, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HANDS", 
+        "value": 128
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [
+      {
+        "location": 18, 
+        "note": "HITROLL", 
+        "value": -4
+      }, 
+      {
+        "location": 19, 
+        "note": "DAMROLL", 
+        "value": 2
+      }
+    ], 
+    "aliases": [
+      "sleeves", 
+      "iron"
+    ], 
+    "cost": 2450, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 5203, 
+    "long_desc": "A set of iron sleeves lies on the ground.", 
+    "rent": 500, 
+    "short_desc": "a pair of iron sleeves", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      7, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_ARMS", 
+        "value": 256
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [
+      {
+        "location": 18, 
+        "note": "HITROLL", 
+        "value": -1
+      }, 
+      {
+        "location": 2, 
+        "note": "DEX", 
+        "value": -2
+      }
+    ], 
+    "aliases": [
+      "boots", 
+      "iron"
+    ], 
+    "cost": 800, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 5204, 
+    "long_desc": "A pair of iron boots has been left here.", 
+    "rent": 200, 
+    "short_desc": "a pair of iron boots", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      4, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_FEET", 
+        "value": 64
+      }
+    ], 
+    "weight": 6
+  }, 
+  {
+    "affects": [
+      {
+        "location": 18, 
+        "note": "HITROLL", 
+        "value": -3
+      }, 
+      {
+        "location": 2, 
+        "note": "DEX", 
+        "value": -3
+      }
+    ], 
+    "aliases": [
+      "greaves", 
+      "iron"
+    ], 
+    "cost": 5400, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 5205, 
+    "long_desc": "A set of iron greaves lie here unattended.", 
+    "rent": 210, 
+    "short_desc": "a set of iron greaves", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      7, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_LEGS", 
+        "value": 32
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "girth", 
+      "iron"
+    ], 
+    "cost": 4200, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 5206, 
+    "long_desc": "A small iron girth lies at your feet.", 
+    "rent": 600, 
+    "short_desc": "an iron girth", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      4, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WAIST", 
+        "value": 2048
+      }
+    ], 
+    "weight": 6
+  }, 
+  {
+    "affects": [
+      {
+        "location": 18, 
+        "note": "HITROLL", 
+        "value": -6
+      }
+    ], 
+    "aliases": [
+      "plate", 
+      "breast", 
+      "iron"
+    ], 
+    "cost": 13000, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 5207, 
+    "long_desc": "A battered iron breast plate lies here.", 
+    "rent": 150, 
+    "short_desc": "a battered iron breast plate", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      5, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_BODY", 
+        "value": 8
+      }
+    ], 
+    "weight": 125
+  }, 
+  {
+    "affects": [
+      {
+        "location": 23, 
+        "note": "SAVING_BREATH", 
+        "value": -2
+      }, 
+      {
+        "location": 24, 
+        "note": "SAVING_SPELL", 
+        "value": -2
+      }
+    ], 
+    "aliases": [
+      "shield", 
+      "iron"
+    ], 
+    "cost": 500, 
+    "effects": [
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "NODROP", 
+        "value": 128
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5208, 
+    "long_desc": "A small, but sturdy, iron shield has been left here.", 
+    "rent": 1000, 
+    "short_desc": "a sturdy iron shield", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      5, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_SHIELD", 
+        "value": 512
+      }
+    ], 
+    "weight": 5
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "potion", 
+      "black"
+    ], 
+    "cost": 6000, 
+    "effects": [
+      {
+        "note": "INVISIBLE", 
+        "value": 32
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5210, 
+    "long_desc": "A jet black potion sits upright waiting to be taken.", 
+    "rent": 1000, 
+    "short_desc": "a black potion", 
+    "type": {
+      "note": "POTION", 
+      "value": 10
+    }, 
+    "values": [
+      16, 
+      4, 
+      36, 
+      39
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 5
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "potion", 
+      "orange"
+    ], 
+    "cost": 7500, 
+    "effects": [
+      {
+        "note": "INVISIBLE", 
+        "value": 32
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5211, 
+    "long_desc": "A small orange potion lies here.", 
+    "rent": 200, 
+    "short_desc": "an orange potion", 
+    "type": {
+      "note": "POTION", 
+      "value": 10
+    }, 
+    "values": [
+      20, 
+      44, 
+      -1, 
+      -1
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "staff", 
+      "serpentine"
+    ], 
+    "cost": 6600, 
+    "effects": [
+      {
+        "note": "INVISIBLE", 
+        "value": 32
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5213, 
+    "long_desc": "A green serpentine staff has been left here.", 
+    "rent": 300, 
+    "short_desc": "a green serpentine staff", 
+    "type": {
+      "note": "STAFF", 
+      "value": 4
+    }, 
+    "values": [
+      15, 
+      2, 
+      2, 
+      23
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 12
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "ball", 
+      "quartz"
+    ], 
+    "cost": 3050, 
+    "effects": [
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5214, 
+    "long_desc": "A smooth quartz ball lies here gleaming.", 
+    "rent": 950, 
+    "short_desc": "a smooth quartz ball", 
+    "type": {
+      "note": "LIGHT", 
+      "value": 1
+    }, 
+    "values": [
+      0, 
+      0, 
+      72, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 30
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "scroll", 
+      "tattered"
+    ], 
+    "cost": 11000, 
+    "effects": [
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5215, 
+    "long_desc": "A worn and tattered scroll has been left here.", 
+    "rent": 4000, 
+    "short_desc": "a tattered scroll", 
+    "type": {
+      "note": "SCROLL", 
+      "value": 2
+    }, 
+    "values": [
+      24, 
+      24, 
+      44, 
+      4
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 15
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "scroll", 
+      "bound"
+    ], 
+    "cost": 4200, 
+    "effects": [
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5216, 
+    "long_desc": "A bound scroll of detection lies at your feet.", 
+    "rent": 100, 
+    "short_desc": "a bound scroll", 
+    "type": {
+      "note": "SCROLL", 
+      "value": 2
+    }, 
+    "values": [
+      15, 
+      18, 
+      19, 
+      20
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 15
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "flute", 
+      "silver"
+    ], 
+    "cost": 10500, 
+    "effects": [
+      {
+        "note": "INVISIBLE", 
+        "value": 32
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5217, 
+    "long_desc": "A brilliant silver flute glimmers from beneath a rock.", 
+    "rent": 8000, 
+    "short_desc": "a silver flute", 
+    "type": {
+      "note": "STAFF", 
+      "value": 4
+    }, 
+    "values": [
+      18, 
+      2, 
+      2, 
+      7
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 3
+  }, 
+  {
+    "affects": [
+      {
+        "location": 1, 
+        "note": "STR", 
+        "value": -10
+      }, 
+      {
+        "location": 2, 
+        "note": "DEX", 
+        "value": -8
+      }
+    ], 
+    "aliases": [
+      "talisman", 
+      "demon"
+    ], 
+    "cost": 2500, 
+    "effects": [
+      {
+        "note": "GLOW", 
+        "value": 1
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "NODROP", 
+        "value": 128
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5218, 
+    "long_desc": "A demon-faced talisman glares at you angrily.", 
+    "rent": 150, 
+    "short_desc": "a demon-faced talisman", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      5, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_NECK", 
+        "value": 4
+      }
+    ], 
+    "weight": 11
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "venison", 
+      "chunk"
+    ], 
+    "cost": 100, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 5219, 
+    "long_desc": "A large chunk of venison sits here, ready to be eaten.", 
+    "rent": 20, 
+    "short_desc": "a chunk of venison", 
+    "type": {
+      "note": "FOOD", 
+      "value": 19
+    }, 
+    "values": [
+      24, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 20
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "fountain", 
+      "blood", 
+      "cracked"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "A pool of blood lies in the bottom of the fountain.", 
+        "keywords": [
+          "fountain", 
+          "blood", 
+          "cracked"
+        ]
+      }
+    ], 
+    "id": 5220, 
+    "long_desc": "", 
+    "rent": 0, 
+    "short_desc": "a large cracked fountain", 
+    "type": {
+      "note": "FOUNTAIN", 
+      "value": 23
+    }, 
+    "values": [
+      10, 
+      10, 
+      13, 
+      1
+    ], 
+    "wear_flags": [], 
+    "weight": 0
+  }, 
+  {
+    "affects": [
+      {
+        "location": 18, 
+        "note": "HITROLL", 
+        "value": -3
+      }, 
+      {
+        "location": 19, 
+        "note": "DAMROLL", 
+        "value": 4
+      }
+    ], 
+    "aliases": [
+      "sword", 
+      "two-handed"
+    ], 
+    "cost": 55000, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 5221, 
+    "long_desc": "A nice two-handed sword hangs on a hook in the wall.", 
+    "rent": 8000, 
+    "short_desc": "a two-handed sword", 
+    "type": {
+      "note": "WEAPON", 
+      "value": 5
+    }, 
+    "values": [
+      0, 
+      3, 
+      6, 
+      3
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WIELD", 
+        "value": 8192
+      }
+    ], 
+    "weight": 22
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "robe", 
+      "black", 
+      "silk"
+    ], 
+    "cost": 1300, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 5222, 
+    "long_desc": "A black silk robe lies heaped in one corner.", 
+    "rent": 500, 
+    "short_desc": "a black silk robe", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      1, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_ABOUT", 
+        "value": 1024
+      }
+    ], 
+    "weight": 6
+  }, 
+  {
+    "affects": [
+      {
+        "location": 13, 
+        "note": "HIT", 
+        "value": 8
+      }, 
+      {
+        "location": 17, 
+        "note": "AC", 
+        "value": -5
+      }
+    ], 
+    "aliases": [
+      "cloak", 
+      "green"
+    ], 
+    "cost": 14500, 
+    "effects": [
+      {
+        "note": "GLOW", 
+        "value": 1
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5223, 
+    "long_desc": "A beautiful dark green cloak has been dropped here by someone.", 
+    "rent": 4000, 
+    "short_desc": "a dark green cloak", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_NECK", 
+        "value": 4
+      }
+    ], 
+    "weight": 12
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "seal", 
+      "ebony"
+    ], 
+    "cost": 0, 
+    "effects": [
+      {
+        "note": "NORENT", 
+        "value": 4
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5224, 
+    "long_desc": "A small, engraved ebony seal is here.", 
+    "rent": 0, 
+    "short_desc": "an engraved ebony seal", 
+    "type": {
+      "note": "KEY", 
+      "value": 18
+    }, 
+    "values": [
+      5224, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 2
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "desk", 
+      "curved"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 5225, 
+    "long_desc": "", 
+    "rent": 0, 
+    "short_desc": "the desk", 
+    "type": {
+      "note": "CONTAINER", 
+      "value": 15
+    }, 
+    "values": [
+      100, 
+      13, 
+      5224, 
+      0
+    ], 
+    "wear_flags": [], 
+    "weight": 0
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "seal", 
+      "ivory"
+    ], 
+    "cost": 0, 
+    "effects": [
+      {
+        "note": "NORENT", 
+        "value": 4
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5226, 
+    "long_desc": "A small, engraved ivory seal lies here.", 
+    "rent": 0, 
+    "short_desc": "an engraved ivory seal", 
+    "type": {
+      "note": "KEY", 
+      "value": 18
+    }, 
+    "values": [
+      5226, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 2
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "cabinet", 
+      "glass"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 5227, 
+    "long_desc": "", 
+    "rent": 0, 
+    "short_desc": "the glass cabinet", 
+    "type": {
+      "note": "CONTAINER", 
+      "value": 15
+    }, 
+    "values": [
+      500, 
+      13, 
+      5226, 
+      0
+    ], 
+    "wear_flags": [], 
+    "weight": 0
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "arm", 
+      "rotted"
+    ], 
+    "cost": 0, 
+    "effects": [], 
+    "extra_descs": [], 
+    "id": 5228, 
+    "long_desc": "A half-rotted arm floats lazily past your feet.", 
+    "rent": 10, 
+    "short_desc": "a half-rotted arm", 
+    "type": {
+      "note": "FOOD", 
+      "value": 19
+    }, 
+    "values": [
+      50, 
+      0, 
+      0, 
+      1
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }
+    ], 
+    "weight": 20
+  }, 
+  {
+    "affects": [
+      {
+        "location": 1, 
+        "note": "STR", 
+        "value": 1
+      }
+    ], 
+    "aliases": [
+      "stone", 
+      "pale", 
+      "blue"
+    ], 
+    "cost": 5500, 
+    "effects": [
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5230, 
+    "long_desc": "A pale blue stone sits here.", 
+    "rent": 600, 
+    "short_desc": "a pale blue stone", 
+    "type": {
+      "note": "TREASURE", 
+      "value": 8
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [
+      {
+        "location": 3, 
+        "note": "INT", 
+        "value": 1
+      }
+    ], 
+    "aliases": [
+      "stone", 
+      "scarlet", 
+      "blue"
+    ], 
+    "cost": 5500, 
+    "effects": [
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5231, 
+    "long_desc": "A pretty scarlet and blue stone has been dropped here.", 
+    "rent": 600, 
+    "short_desc": "a scarlet and blue stone", 
+    "type": {
+      "note": "TREASURE", 
+      "value": 8
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [
+      {
+        "location": 4, 
+        "note": "WIS", 
+        "value": 1
+      }
+    ], 
+    "aliases": [
+      "stone", 
+      "blue", 
+      "incandescent"
+    ], 
+    "cost": 5500, 
+    "effects": [
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5232, 
+    "long_desc": "A small incandescent blue stone lies here.", 
+    "rent": 600, 
+    "short_desc": "an incandescent blue stone", 
+    "type": {
+      "note": "TREASURE", 
+      "value": 8
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [
+      {
+        "location": 2, 
+        "note": "DEX", 
+        "value": 1
+      }
+    ], 
+    "aliases": [
+      "stone", 
+      "red", 
+      "deep"
+    ], 
+    "cost": 5500, 
+    "effects": [
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5233, 
+    "long_desc": "Someone has left a deep red stone here.", 
+    "rent": 600, 
+    "short_desc": "a deep red stone", 
+    "type": {
+      "note": "TREASURE", 
+      "value": 8
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [
+      {
+        "location": 5, 
+        "note": "CON", 
+        "value": 1
+      }
+    ], 
+    "aliases": [
+      "stone", 
+      "pink"
+    ], 
+    "cost": 5500, 
+    "effects": [
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5234, 
+    "long_desc": "A tiny pink stone lies at your feet.", 
+    "rent": 600, 
+    "short_desc": "a pink stone", 
+    "type": {
+      "note": "TREASURE", 
+      "value": 8
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [
+      {
+        "location": 13, 
+        "note": "HIT", 
+        "value": 1
+      }
+    ], 
+    "aliases": [
+      "stone", 
+      "pearly", 
+      "white"
+    ], 
+    "cost": 8700, 
+    "effects": [
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5235, 
+    "long_desc": "A lovely, pearly white stone has been carelessly left here.", 
+    "rent": 600, 
+    "short_desc": "a pearly white stone", 
+    "type": {
+      "note": "TREASURE", 
+      "value": 8
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [
+      {
+        "location": 24, 
+        "note": "SAVING_SPELL", 
+        "value": -2
+      }
+    ], 
+    "aliases": [
+      "stone", 
+      "lavender", 
+      "pale"
+    ], 
+    "cost": 4300, 
+    "effects": [
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "NODROP", 
+        "value": 128
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5236, 
+    "long_desc": "A beautiful pale lavender stone lies here.", 
+    "rent": 600, 
+    "short_desc": "a pale lavender stone", 
+    "type": {
+      "note": "TREASURE", 
+      "value": 8
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [
+      {
+        "location": 24, 
+        "note": "SAVING_SPELL", 
+        "value": -4
+      }
+    ], 
+    "aliases": [
+      "stone", 
+      "lavender", 
+      "green"
+    ], 
+    "cost": 4700, 
+    "effects": [
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "NODROP", 
+        "value": 128
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5237, 
+    "long_desc": "A stunning lavender and green stone rests on the ground.", 
+    "rent": 600, 
+    "short_desc": "a lavender and green stone", 
+    "type": {
+      "note": "TREASURE", 
+      "value": 8
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [
+      {
+        "location": 17, 
+        "note": "AC", 
+        "value": -1
+      }
+    ], 
+    "aliases": [
+      "stone", 
+      "rose", 
+      "dusty"
+    ], 
+    "cost": 9800, 
+    "effects": [
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5238, 
+    "long_desc": "A stone is here, sort of a dusty rose color and very pretty.", 
+    "rent": 600, 
+    "short_desc": "a dusty rose stone", 
+    "type": {
+      "note": "TREASURE", 
+      "value": 8
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "stone", 
+      "grey", 
+      "dull"
+    ], 
+    "cost": 20, 
+    "effects": [
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5239, 
+    "long_desc": "You can barely make out a dull grey stone on the ground.", 
+    "rent": 200, 
+    "short_desc": "a dull grey stone", 
+    "type": {
+      "note": "TREASURE", 
+      "value": 8
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [
+      {
+        "location": 13, 
+        "note": "HIT", 
+        "value": -50
+      }
+    ], 
+    "aliases": [
+      "stone", 
+      "purple", 
+      "vibrant"
+    ], 
+    "cost": 10200, 
+    "effects": [
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "NODROP", 
+        "value": 128
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5240, 
+    "long_desc": "A stunningly vibrant purple stone attracts your attention.", 
+    "rent": 1000, 
+    "short_desc": "a vibrant purple stone", 
+    "type": {
+      "note": "TREASURE", 
+      "value": 8
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [
+      {
+        "location": 18, 
+        "note": "HITROLL", 
+        "value": -5
+      }
+    ], 
+    "aliases": [
+      "stone", 
+      "pink", 
+      "green"
+    ], 
+    "cost": 6600, 
+    "effects": [
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "NODROP", 
+        "value": 128
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5241, 
+    "long_desc": "A bright pink and green stone has been left here.", 
+    "rent": 1000, 
+    "short_desc": "a pink and green stone", 
+    "type": {
+      "note": "TREASURE", 
+      "value": 8
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [
+      {
+        "location": 19, 
+        "note": "DAMROLL", 
+        "value": -5
+      }
+    ], 
+    "aliases": [
+      "stone", 
+      "green", 
+      "pale"
+    ], 
+    "cost": 7100, 
+    "effects": [
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "NODROP", 
+        "value": 128
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5242, 
+    "long_desc": "A pale green stone lies here collecting dust.", 
+    "rent": 1000, 
+    "short_desc": "a pale green stone", 
+    "type": {
+      "note": "TREASURE", 
+      "value": 8
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [
+      {
+        "location": 17, 
+        "note": "AC", 
+        "value": -3
+      }
+    ], 
+    "aliases": [
+      "stone", 
+      "clear"
+    ], 
+    "cost": 8900, 
+    "effects": [
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "NODROP", 
+        "value": 128
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5243, 
+    "long_desc": "An odd clear stone lies at your feet.", 
+    "rent": 1000, 
+    "short_desc": "a clear stone", 
+    "type": {
+      "note": "TREASURE", 
+      "value": 8
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [
+      {
+        "location": 13, 
+        "note": "HIT", 
+        "value": -100
+      }
+    ], 
+    "aliases": [
+      "stone", 
+      "iridescent"
+    ], 
+    "cost": 3700, 
+    "effects": [
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "NODROP", 
+        "value": 128
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5244, 
+    "long_desc": "A large iridescent stone has been left here.", 
+    "rent": 1000, 
+    "short_desc": "an iridescent stone", 
+    "type": {
+      "note": "TREASURE", 
+      "value": 8
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "mandolin"
+    ], 
+    "cost": 3000, 
+    "effects": [
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5250, 
+    "long_desc": "A mandolin lies against the wall.", 
+    "rent": 1500, 
+    "short_desc": "a mandolin", 
+    "type": {
+      "note": "STAFF", 
+      "value": 4
+    }, 
+    "values": [
+      13, 
+      3, 
+      3, 
+      15
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 20
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "harp", 
+      "golden"
+    ], 
+    "cost": 2500, 
+    "effects": [
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 5251, 
+    "long_desc": "A battered golden harp has been tipped over.", 
+    "rent": 800, 
+    "short_desc": "a golden harp", 
+    "type": {
+      "note": "STAFF", 
+      "value": 4
+    }, 
+    "values": [
+      18, 
+      1, 
+      1, 
+      6
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 100
+  }
+]

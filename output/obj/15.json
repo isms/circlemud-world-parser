@@ -1,0 +1,947 @@
+[
+  {
+    "affects": [
+      {
+        "location": 3, 
+        "note": "INT", 
+        "value": 1
+      }, 
+      {
+        "location": 4, 
+        "note": "WIS", 
+        "value": 2
+      }
+    ], 
+    "aliases": [
+      "scales", 
+      "justice", 
+      "scale"
+    ], 
+    "cost": 15000, 
+    "effects": [
+      {
+        "note": "GLOW", 
+        "value": 1
+      }, 
+      {
+        "note": "ANTI_EVIL", 
+        "value": 1024
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "As you look at the scales, you notice that they seem to sway back and forth\nof their own accord, as if weighing something that is to you still unseen.", 
+        "keywords": [
+          "scales", 
+          "justice", 
+          "scale"
+        ]
+      }
+    ], 
+    "id": 1500, 
+    "long_desc": "Two beautiful plates shaped like scales have been left here.", 
+    "rent": 2200, 
+    "short_desc": "the Scales of Justice", 
+    "type": {
+      "note": "OTHER", 
+      "value": 12
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [
+      {
+        "location": 14, 
+        "note": "MOVE", 
+        "value": 15
+      }, 
+      {
+        "location": 19, 
+        "note": "DAMROLL", 
+        "value": -1
+      }
+    ], 
+    "aliases": [
+      "scroll", 
+      "parchment"
+    ], 
+    "cost": 500, 
+    "effects": [
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It seems to be some sort of spell designed to transport its user across\nvast distances, but how to make use of it is impossible to tell.", 
+        "keywords": [
+          "scroll", 
+          "parchment"
+        ]
+      }
+    ], 
+    "id": 1501, 
+    "long_desc": "You see a solid and silver-lined scroll resting on the ground.", 
+    "rent": 500, 
+    "short_desc": "the Scroll of the Messenger", 
+    "type": {
+      "note": "OTHER", 
+      "value": 12
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 1
+  }, 
+  {
+    "affects": [
+      {
+        "location": 13, 
+        "note": "HIT", 
+        "value": -5
+      }
+    ], 
+    "aliases": [
+      "sword", 
+      "blazing"
+    ], 
+    "cost": 5000, 
+    "effects": [
+      {
+        "note": "GLOW", 
+        "value": 1
+      }, 
+      {
+        "note": "HUM", 
+        "value": 2
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }, 
+      {
+        "note": "ANTI_EVIL", 
+        "value": 1024
+      }, 
+      {
+        "note": "ANTI_CLERIC", 
+        "value": 8192
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The edge of the blade is lined with writing, religious verse apparently, in\na fine, silver-laced and flowing script.", 
+        "keywords": [
+          "sword", 
+          "blazing"
+        ]
+      }
+    ], 
+    "id": 1502, 
+    "long_desc": "You are startled by the sight of a sword that glows as you approach it.", 
+    "rent": 900, 
+    "short_desc": "a blazing sword", 
+    "type": {
+      "note": "WEAPON", 
+      "value": 5
+    }, 
+    "values": [
+      0, 
+      3, 
+      4, 
+      11
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WIELD", 
+        "value": 8192
+      }
+    ], 
+    "weight": 10
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "protector", 
+      "faithful", 
+      "shield"
+    ], 
+    "cost": 5000, 
+    "effects": [
+      {
+        "note": "ANTI_EVIL", 
+        "value": 1024
+      }, 
+      {
+        "note": "ANTI_CLERIC", 
+        "value": 8192
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It evades your attempts to focus on it, deflecting your gaze as it deflects\nthe weapons that will try to kill you.", 
+        "keywords": [
+          "protector", 
+          "faithful", 
+          "shield"
+        ]
+      }
+    ], 
+    "id": 1503, 
+    "long_desc": "A weighty looking shield has been abandoned by one unworthy to hold it.", 
+    "rent": 1500, 
+    "short_desc": "the Protector of the Faithful", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      15, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_SHIELD", 
+        "value": 512
+      }
+    ], 
+    "weight": 20
+  }, 
+  {
+    "affects": [
+      {
+        "location": 6, 
+        "note": "CHA", 
+        "value": 2
+      }, 
+      {
+        "location": 5, 
+        "note": "CON", 
+        "value": -1
+      }
+    ], 
+    "aliases": [
+      "armband", 
+      "band", 
+      "faded"
+    ], 
+    "cost": 15, 
+    "effects": [
+      {
+        "note": "ANTI_GOOD", 
+        "value": 512
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It has some sort of militia insignia on it, perhaps an indication of a rank\nor award in some military order unknown to you.", 
+        "keywords": [
+          "armband", 
+          "faded", 
+          "band"
+        ]
+      }
+    ], 
+    "id": 1504, 
+    "long_desc": "A ragged and faded looking piece of cloth has been left here, forgotten.", 
+    "rent": 50, 
+    "short_desc": "a faded armband", 
+    "type": {
+      "note": "OTHER", 
+      "value": 12
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_ARMS", 
+        "value": 256
+      }
+    ], 
+    "weight": 0
+  }, 
+  {
+    "affects": [], 
+    "aliases": [
+      "scimitar", 
+      "jeweled"
+    ], 
+    "cost": 5000, 
+    "effects": [
+      {
+        "note": "GLOW", 
+        "value": 1
+      }, 
+      {
+        "note": "ANTI_EVIL", 
+        "value": 1024
+      }, 
+      {
+        "note": "ANTI_CLERIC", 
+        "value": 8192
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "The entire rim and edge of the scimitar's handle is bedecked in a gorgeous\narray of stones and precious metals.", 
+        "keywords": [
+          "scimitar", 
+          "jeweled"
+        ]
+      }
+    ], 
+    "id": 1505, 
+    "long_desc": "A stunning curved blade glistens on the ground.", 
+    "rent": 500, 
+    "short_desc": "a jeweled scimitar", 
+    "type": {
+      "note": "WEAPON", 
+      "value": 5
+    }, 
+    "values": [
+      0, 
+      7, 
+      1, 
+      3
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_WIELD", 
+        "value": 8192
+      }
+    ], 
+    "weight": 5
+  }, 
+  {
+    "affects": [
+      {
+        "location": 18, 
+        "note": "HITROLL", 
+        "value": 2
+      }, 
+      {
+        "location": 12, 
+        "note": "MANA", 
+        "value": 10
+      }
+    ], 
+    "aliases": [
+      "ember", 
+      "charred"
+    ], 
+    "cost": 5, 
+    "effects": [
+      {
+        "note": "GLOW", 
+        "value": 1
+      }, 
+      {
+        "note": "ANTI_GOOD", 
+        "value": 512
+      }, 
+      {
+        "note": "ANTI_CLERIC", 
+        "value": 8192
+      }, 
+      {
+        "note": "ANTI_THIEF", 
+        "value": 16384
+      }, 
+      {
+        "note": "ANTI_WARRIOR", 
+        "value": 32768
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It glares back at you, almost angrily.", 
+        "keywords": [
+          "ember", 
+          "charred"
+        ]
+      }
+    ], 
+    "id": 1506, 
+    "long_desc": "You glance briefly at a smouldering ember that rests at your feet.", 
+    "rent": 2500, 
+    "short_desc": "a charred ember", 
+    "type": {
+      "note": "LIGHT", 
+      "value": 1
+    }, 
+    "values": [
+      0, 
+      0, 
+      -1, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 0
+  }, 
+  {
+    "affects": [
+      {
+        "location": 12, 
+        "note": "MANA", 
+        "value": 8
+      }, 
+      {
+        "location": 13, 
+        "note": "HIT", 
+        "value": 10
+      }
+    ], 
+    "aliases": [
+      "ethereal", 
+      "flame"
+    ], 
+    "cost": 5, 
+    "effects": [
+      {
+        "note": "GLOW", 
+        "value": 1
+      }, 
+      {
+        "note": "ANTI_GOOD", 
+        "value": 512
+      }, 
+      {
+        "note": "ANTI_EVIL", 
+        "value": 1024
+      }, 
+      {
+        "note": "ANTI_THIEF", 
+        "value": 16384
+      }, 
+      {
+        "note": "ANTI_WARRIOR", 
+        "value": 32768
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "Even being near it fills you with a peaceful and comforted feeling.", 
+        "keywords": [
+          "ethereal", 
+          "flame"
+        ]
+      }
+    ], 
+    "id": 1507, 
+    "long_desc": "The entire room is aglow from the flame at your feet.", 
+    "rent": 2500, 
+    "short_desc": "an ethereal flame", 
+    "type": {
+      "note": "LIGHT", 
+      "value": 1
+    }, 
+    "values": [
+      0, 
+      0, 
+      -1, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 0
+  }, 
+  {
+    "affects": [
+      {
+        "location": 3, 
+        "note": "INT", 
+        "value": 2
+      }
+    ], 
+    "aliases": [
+      "key", 
+      "gates"
+    ], 
+    "cost": 1000, 
+    "effects": [
+      {
+        "note": "GLOW", 
+        "value": 1
+      }, 
+      {
+        "note": "BLESS", 
+        "value": 256
+      }, 
+      {
+        "note": "ANTI_EVIL", 
+        "value": 1024
+      }, 
+      {
+        "note": "ANTI_NEUTRAL", 
+        "value": 2048
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "There are no gates.  They are inside of you.", 
+        "keywords": [
+          "key", 
+          "gates"
+        ]
+      }
+    ], 
+    "id": 1508, 
+    "long_desc": "You have found at last the Key to the Gates of eternity.", 
+    "rent": 500, 
+    "short_desc": "the Key to the Gates", 
+    "type": {
+      "note": "KEY", 
+      "value": 18
+    }, 
+    "values": [
+      1508, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 0
+  }, 
+  {
+    "affects": [
+      {
+        "location": 4, 
+        "note": "WIS", 
+        "value": 2
+      }
+    ], 
+    "aliases": [
+      "history", 
+      "burnt", 
+      "book"
+    ], 
+    "cost": 10, 
+    "effects": [], 
+    "extra_descs": [
+      {
+        "desc": "So this is the jester's joke.  All of our works have turned to dust,\nand will end in nothing.  It is for this that he laughs.", 
+        "keywords": [
+          "history", 
+          "burnt", 
+          "book"
+        ]
+      }
+    ], 
+    "id": 1509, 
+    "long_desc": "You have found a burnt book, some forgotten history lying on the ground.", 
+    "rent": 500, 
+    "short_desc": "a burnt history", 
+    "type": {
+      "note": "TRASH", 
+      "value": 13
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 2
+  }, 
+  {
+    "affects": [
+      {
+        "location": 18, 
+        "note": "HITROLL", 
+        "value": 3
+      }, 
+      {
+        "location": 19, 
+        "note": "DAMROLL", 
+        "value": 3
+      }
+    ], 
+    "aliases": [
+      "surah", 
+      "book"
+    ], 
+    "cost": 500, 
+    "effects": [
+      {
+        "note": "NODONATE", 
+        "value": 8
+      }, 
+      {
+        "note": "ANTI_EVIL", 
+        "value": 1024
+      }, 
+      {
+        "note": "ANTI_NEUTRAL", 
+        "value": 2048
+      }, 
+      {
+        "note": "ANTI_MAGIC_USER", 
+        "value": 4096
+      }, 
+      {
+        "note": "ANTI_CLERIC", 
+        "value": 8192
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "Al-Kafirun\nSay: \"Oh ye that reject the Faith, I do not worship what you worship, nor\ndo you worship what I worship.  To you be your Way, and to me mine.\"", 
+        "keywords": [
+          "surah", 
+          "book"
+        ]
+      }
+    ], 
+    "id": 1510, 
+    "long_desc": "You notice a thin parchment, with flowing script and rich decorative trim.", 
+    "rent": 8000, 
+    "short_desc": "a surah of the book", 
+    "type": {
+      "note": "LIGHT", 
+      "value": 1
+    }, 
+    "values": [
+      0, 
+      0, 
+      -1, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 0
+  }, 
+  {
+    "affects": [
+      {
+        "location": 19, 
+        "note": "DAMROLL", 
+        "value": 2
+      }, 
+      {
+        "location": 13, 
+        "note": "HIT", 
+        "value": 10
+      }
+    ], 
+    "aliases": [
+      "forge", 
+      "unity"
+    ], 
+    "cost": 12000, 
+    "effects": [
+      {
+        "note": "BLESS", 
+        "value": 256
+      }, 
+      {
+        "note": "ANTI_EVIL", 
+        "value": 1024
+      }, 
+      {
+        "note": "ANTI_NEUTRAL", 
+        "value": 2048
+      }, 
+      {
+        "note": "ANTI_MAGIC_USER", 
+        "value": 4096
+      }, 
+      {
+        "note": "ANTI_CLERIC", 
+        "value": 8192
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 1511, 
+    "long_desc": "It is surely the best of men who has left these gloves to aid you.", 
+    "rent": 4000, 
+    "short_desc": "the Forge of Unity", 
+    "type": {
+      "note": "ARMOR", 
+      "value": 9
+    }, 
+    "values": [
+      5, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HANDS", 
+        "value": 128
+      }
+    ], 
+    "weight": 5
+  }, 
+  {
+    "affects": [
+      {
+        "location": 12, 
+        "note": "MANA", 
+        "value": 10
+      }, 
+      {
+        "location": 12, 
+        "note": "MANA", 
+        "value": 5
+      }
+    ], 
+    "aliases": [
+      "ankh"
+    ], 
+    "cost": 5000, 
+    "effects": [
+      {
+        "note": "GLOW", 
+        "value": 1
+      }, 
+      {
+        "note": "ANTI_NEUTRAL", 
+        "value": 2048
+      }
+    ], 
+    "extra_descs": [
+      {
+        "desc": "It is an even earlier version of the old Christian cross, an oval loop\nabove the crossed arms of white gold.", 
+        "keywords": [
+          "ankh"
+        ]
+      }
+    ], 
+    "id": 1512, 
+    "long_desc": "You see a beautiful pendant of ancient and noble craftsmanship.", 
+    "rent": 2000, 
+    "short_desc": "an Ankh", 
+    "type": {
+      "note": "WORN", 
+      "value": 11
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_NECK", 
+        "value": 4
+      }
+    ], 
+    "weight": 3
+  }, 
+  {
+    "affects": [
+      {
+        "location": 3, 
+        "note": "INT", 
+        "value": 2
+      }, 
+      {
+        "location": 4, 
+        "note": "WIS", 
+        "value": 2
+      }
+    ], 
+    "aliases": [
+      "amulet", 
+      "ra"
+    ], 
+    "cost": 7500, 
+    "effects": [
+      {
+        "note": "GLOW", 
+        "value": 1
+      }, 
+      {
+        "note": "MAGIC", 
+        "value": 64
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 1513, 
+    "long_desc": "You have found a beautiful gleaming disc with a golden image of the sun god.", 
+    "rent": 1500, 
+    "short_desc": "the Amulet of Ra", 
+    "type": {
+      "note": "WORN", 
+      "value": 11
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_NECK", 
+        "value": 4
+      }
+    ], 
+    "weight": 5
+  }, 
+  {
+    "affects": [
+      {
+        "location": 6, 
+        "note": "CHA", 
+        "value": 2
+      }
+    ], 
+    "aliases": [
+      "image", 
+      "azathoth", 
+      "graven"
+    ], 
+    "cost": 1000, 
+    "effects": [
+      {
+        "note": "ANTI_GOOD", 
+        "value": 512
+      }, 
+      {
+        "note": "ANTI_NEUTRAL", 
+        "value": 2048
+      }, 
+      {
+        "note": "NOSELL", 
+        "value": 65536
+      }
+    ], 
+    "extra_descs": [], 
+    "id": 1514, 
+    "long_desc": "You frown in disgust at the hideous icon of a false god that you have found.", 
+    "rent": 500, 
+    "short_desc": "a graven image of Azathoth", 
+    "type": {
+      "note": "LIGHT", 
+      "value": 1
+    }, 
+    "values": [
+      0, 
+      0, 
+      0, 
+      0
+    ], 
+    "wear_flags": [
+      {
+        "note": "WEAR_TAKE", 
+        "value": 1
+      }, 
+      {
+        "note": "WEAR_HOLD", 
+        "value": 16384
+      }
+    ], 
+    "weight": 2
+  }
+]
