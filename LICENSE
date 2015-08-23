@@ -1,5 +1,11 @@
-(See `assets/README.CAW` for information on the DikuMUD and CircleMUD world
-files in `assets/`.)
+##############################################################################
+# See `world/README.CAW` for information on the DikuMUD and CircleMUD world  #
+# files. CircleMUD and DikuMUD licenses governing the original codebase may  #
+# not be directly applicable to this parsing code but are available here:    #
+#                                                                            #
+#                  http://www.circlemud.org/license.html                     #
+#                                                                            #
+##############################################################################
 
 The MIT License (MIT)
 

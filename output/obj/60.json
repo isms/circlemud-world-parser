@@ -41,7 +41,7 @@
       3, 
       3
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1
@@ -89,7 +89,7 @@
       0, 
       0
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1
@@ -136,7 +136,7 @@
       0, 
       0
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1
@@ -177,7 +177,7 @@
       0, 
       0
     ], 
-    "wear_flags": [], 
+    "wear": [], 
     "weight": 0
   }, 
   {
@@ -219,7 +219,7 @@
       100, 
       0
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1
@@ -262,7 +262,7 @@
       6006, 
       0
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1
@@ -306,7 +306,7 @@
       0, 
       0
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1
@@ -349,7 +349,7 @@
       0, 
       0
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1
@@ -393,7 +393,7 @@
       0, 
       0
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1
@@ -430,7 +430,7 @@
       0, 
       0
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1
@@ -473,7 +473,7 @@
       0, 
       0
     ], 
-    "wear_flags": [], 
+    "wear": [], 
     "weight": 100
   }, 
   {
@@ -499,7 +499,7 @@
       15, 
       0
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1
@@ -538,7 +538,7 @@
       15, 
       0
     ], 
-    "wear_flags": [], 
+    "wear": [], 
     "weight": 0
   }, 
   {
@@ -564,7 +564,7 @@
       0, 
       0
     ], 
-    "wear_flags": [], 
+    "wear": [], 
     "weight": 0
   }, 
   {
@@ -618,7 +618,7 @@
       7, 
       7
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1
@@ -653,7 +653,7 @@
       0, 
       0
     ], 
-    "wear_flags": [], 
+    "wear": [], 
     "weight": 500
   }, 
   {
@@ -687,7 +687,7 @@
       0, 
       0
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1
@@ -726,7 +726,7 @@
       0, 
       0
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1
@@ -769,7 +769,7 @@
       0, 
       0
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1
@@ -800,7 +800,7 @@
       0, 
       0
     ], 
-    "wear_flags": [], 
+    "wear": [], 
     "weight": 0
   }, 
   {
@@ -836,7 +836,7 @@
       0, 
       0
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1
@@ -867,7 +867,7 @@
       0, 
       0
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1
@@ -899,7 +899,7 @@
       0, 
       0
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1

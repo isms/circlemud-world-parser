@@ -38,7 +38,7 @@
       10, 
       0
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1

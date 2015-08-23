@@ -41,7 +41,7 @@
       0, 
       0
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1
@@ -93,7 +93,7 @@
       0, 
       0
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1
@@ -145,7 +145,7 @@
       0, 
       0
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1
@@ -201,7 +201,7 @@
       -1, 
       0
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1
@@ -242,7 +242,7 @@
       2, 
       7
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1
@@ -309,7 +309,7 @@
       7, 
       3
     ], 
-    "wear_flags": [
+    "wear": [
       {
         "note": "WEAR_TAKE", 
         "value": 1
