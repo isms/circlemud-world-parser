@@ -27,9 +27,9 @@ The problem
 
 CircleMUD world files are in a custom format that, in the original codebase, were parsed directly into memory by [db.c](https://github.com/Yuffster/CircleMUD/blob/master/src/db.c).
 
-This is inconvenient if you want to inspect these entries or use them in other games. Because the values are not annotated and because many of the interesting features are compressed into [bitvectors](https://en.wikipedia.org/wiki/Bit_array), there are many lookups that need to be done to understand even the simplest item or room.
+This is inconvenient if you want to inspect these entries or use them in other games. Because the values are not annotated and because many of the interesting features are compressed into [bitvectors](https://en.wikipedia.org/wiki/Bit_array), many lookups are necessary to understand even the simplest entry.
 
-For example, here is a single entry for an item in `lib/world/obj/30.obj` within the stock [CircleMUD world files](https://github.com/Yuffster/CircleMUD/tree/master/lib/world):
+For example, here is one entry for an object in `lib/world/obj/30.obj` within the stock [CircleMUD world files](https://github.com/Yuffster/CircleMUD/tree/master/lib/world):
 
 ```
 #3005
@@ -146,12 +146,12 @@ $ head 0.obj.json
     ...
 ```
 
-Tests can be run with `make test`, and all of the stock CircleMUD files in `world/` can be converted to JSON in the `output/` directory with `make all`.
-
 If you want to check out the JSON for all of the stock CircleMUD world files, it's in the [`output` folder](https://github.com/isms/circlemud-world-parser/tree/master/output) of this repo.
 
 Other notes
 -----------
+
+### Converting a whole `world` directory
 
 You may want to convert all of the files in the CircleMUD world folder (typically found at `lib/world/`).
 
@@ -178,3 +178,13 @@ And you will end up with this:
     └── zon
 
 The new folders will have JSON files instead of `.obj`, `.mob`, `.wld` and so forth.
+
+### Make shortcuts
+
+Tests can be run with `make test`, and all of the stock CircleMUD files in `world/` can be converted to JSON in the `output/` directory with `make all`.
+
+### Non-standard codebases
+
+Heavily modified codebases may not be parsed correctly. Any extra fields or non-standard entries are likely to cause parsing errors. Notes on bitvector entries (such as HUMMING or ANTI-MAGE) are based on the stock CircleMUD values, so if the MUD has added extras these won't be recognized and will end up as `null` in JSON.
+
+These are all stored in `constants.py` which should be easy to change.
