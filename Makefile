@@ -7,7 +7,7 @@ test:
 	python tests.py
 
 all: clean
-	bash convert_all.sh assets/
+	bash convert_all.sh world/
 
 .PHONY:
 	all clean test

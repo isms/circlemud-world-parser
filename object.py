@@ -75,7 +75,7 @@ def parse_object(text):
     d['effects'] = effects
 
     wear_bitvector = clean_bitvector(wear_bitvector)
-    d['wear_flags'] = bitvector_to_flags(wear_bitvector, OBJECT_WEAR_FLAGS)
+    d['wear'] = bitvector_to_flags(wear_bitvector, OBJECT_WEAR_FLAGS)
 
     action_desc = fields[4].rstrip('~')
     if action_desc:

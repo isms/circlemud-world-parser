@@ -94,7 +94,7 @@ $
         expected = [
             {
                 "weight": 22,
-                "wear_flags": [
+                "wear": [
                     {
                         "value": 1,
                         "note": "WEAR_TAKE"
@@ -161,7 +161,7 @@ $
             },
             {
                 "weight": 0,
-                "wear_flags": [],
+                "wear": [],
                 "id": 15005,
                 "values": [
                     0,
@@ -741,7 +741,7 @@ class TestParsingActualTinyworldFiles(unittest.TestCase):
         if file_type not in parse.PARSER_LOOKUP:
             raise KeyError('No parser found for file type: "{}"'.format(file_type))
 
-        caw_path = os.path.join(os.path.abspath('.'), 'assets')
+        caw_path = os.path.join(os.path.abspath('.'), 'world')
         pattern = os.path.join(caw_path, file_type, '*.' + file_type)
         filenames = glob.glob(pattern)
 
