@@ -1,11 +1,11 @@
 # coding: utf-8
-from constants import MOB_ACTION_FLAGS
-from constants import MOB_AFFECT_FLAGS
-from constants import MOB_GENDER
-from constants import MOB_POSITION
-from utils import bitvector_to_flags
-from utils import clean_bitvector
-from utils import lookup_value_to_dict
+from src.constants import MOB_ACTION_FLAGS
+from src.constants import MOB_AFFECT_FLAGS
+from src.constants import MOB_GENDER
+from src.constants import MOB_POSITION
+from src.utils import bitvector_to_flags
+from src.utils import clean_bitvector
+from src.utils import lookup_value_to_dict
 
 
 def parse_dice_roll_string_to_tuple(roll_string):

@@ -5,11 +5,11 @@ Builder's Manual" by Jeremy Elson, Section 7, for an
 explanation of the different formats, and how to convert
 older Diku-format shops to Circle v3.0.
 """
-from constants import OBJECT_TYPE_FLAGS
-from constants import SHOP_FLAGS
-from constants import SHOP_TRADES_WITH
-from utils import bitvector_to_flags
-from utils import clean_bitvector
+from src.constants import OBJECT_TYPE_FLAGS
+from src.constants import SHOP_FLAGS
+from src.constants import SHOP_TRADES_WITH
+from src.utils import bitvector_to_flags
+from src.utils import clean_bitvector
 
 
 def buy_type_to_dict(line):

@@ -3,19 +3,19 @@ import glob
 import os
 import unittest
 
-import parse
-from mobile import parse_mob
-from object import parse_object
-from room import parse_room
-from shop import parse_shop
-from zone import parse_zone
-from utils import bitvector_to_numbers
-from utils import bitvector_letters_to_numbers
-from utils import bitvector_number_to_numbers
-from utils import bitvector_to_flags
-from utils import parse_from_file
-from utils import parse_from_string
-from utils import split_on_vnums
+from src import parse
+from src.mobile import parse_mob
+from src.object import parse_object
+from src.room import parse_room
+from src.shop import parse_shop
+from src.zone import parse_zone
+from src.utils import bitvector_to_numbers
+from src.utils import bitvector_letters_to_numbers
+from src.utils import bitvector_number_to_numbers
+from src.utils import bitvector_to_flags
+from src.utils import parse_from_file
+from src.utils import parse_from_string
+from src.utils import split_on_vnums
 
 
 class BitvectorParsingTests(unittest.TestCase):

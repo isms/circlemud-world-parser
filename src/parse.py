@@ -5,13 +5,13 @@ import os
 
 import click
 
-from mobile import parse_mob
-from object import parse_object
-from room import parse_room
-from shop import parse_shop
-from zone import parse_zone
-from utils import parse_from_file
-from utils import split_on_vnums
+from src.mobile import parse_mob
+from src.object import parse_object
+from src.room import parse_room
+from src.shop import parse_shop
+from src.zone import parse_zone
+from src.utils import parse_from_file
+from src.utils import split_on_vnums
 
 PARSER_LOOKUP = {
     'mob': (parse_mob, split_on_vnums, None),

@@ -12,6 +12,6 @@ for type in "mob" "obj" "shp" "wld" "zon"; do
         number=$( echo $file | cut -d "/" -f 3 | cut -d "." -f 1 )
         output="output/$type/$number.json"
         echo parsing $file to $output
-        python parse.py --dest $output $file
+        python src/parse.py --dest $output $file
     done
 done
