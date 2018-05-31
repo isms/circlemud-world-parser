@@ -1,6 +1,6 @@
 clean:
-	rm -f *.pyc
-	rm -rf output/*
+	find . -name *.pyc -delete
+	rm -rf _output/*
 
 test:
 	flake8
