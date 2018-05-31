@@ -2,625 +2,625 @@
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 3
-      }, 
+      },
       {
-        "location": 1, 
-        "note": "STR", 
+        "location": 1,
+        "note": "STR",
         "value": -1
       }
-    ], 
+    ],
     "aliases": [
-      "rod", 
+      "rod",
       "devil"
-    ], 
-    "cost": 16000, 
+    ],
+    "cost": 16000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_GOOD", 
+        "note": "ANTI_GOOD",
         "value": 512
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "This is indeed a mysterious rod.  It is dark black at the base but has four\nvery sharp purple tentacles at the end.", 
+        "desc": "This is indeed a mysterious rod.  It is dark black at the base but has four\nvery sharp purple tentacles at the end.",
         "keywords": [
-          "devil", 
+          "devil",
           "rod"
         ]
       }
-    ], 
-    "id": 7200, 
-    "long_desc": "The mysterious devil rod lies on the floor.", 
-    "rent": 800, 
-    "short_desc": "the devil rod", 
+    ],
+    "id": 7200,
+    "long_desc": "The mysterious devil rod lies on the floor.",
+    "rent": 800,
+    "short_desc": "the devil rod",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      2, 
-      5, 
+      0,
+      2,
+      5,
       3
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 6
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 2
       }
-    ], 
+    ],
     "aliases": [
-      "mace", 
+      "mace",
       "large"
-    ], 
-    "cost": 1000, 
+    ],
+    "cost": 1000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The mace is pretty large with a weight of 10 lbs.  The head is actually four\npurple tentacles tied together.", 
+        "desc": "The mace is pretty large with a weight of 10 lbs.  The head is actually four\npurple tentacles tied together.",
         "keywords": [
-          "large", 
+          "large",
           "mace"
         ]
       }
-    ], 
-    "id": 7201, 
-    "long_desc": "A large mace lies here.", 
-    "rent": 400, 
-    "short_desc": "the large mace", 
+    ],
+    "id": 7201,
+    "long_desc": "A large mace lies here.",
+    "rent": 400,
+    "short_desc": "the large mace",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      1, 
-      6, 
+      0,
+      1,
+      6,
       7
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 10
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 1
       }
-    ], 
+    ],
     "aliases": [
-      "mace", 
+      "mace",
       "small"
-    ], 
-    "cost": 600, 
+    ],
+    "cost": 600,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "This weapon does look like it does a lot of damage, but then you never know.\nIt consists of a black handle and a purple head.", 
+        "desc": "This weapon does look like it does a lot of damage, but then you never know.\nIt consists of a black handle and a purple head.",
         "keywords": [
-          "small", 
+          "small",
           "mace"
         ]
       }
-    ], 
-    "id": 7202, 
-    "long_desc": "a small mace has been left here.", 
-    "rent": 200, 
-    "short_desc": "the small mace", 
+    ],
+    "id": 7202,
+    "long_desc": "a small mace has been left here.",
+    "rent": 200,
+    "short_desc": "the small mace",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      1, 
-      6, 
+      0,
+      1,
+      6,
       7
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 6
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 24, 
-        "note": "SAVING_SPELL", 
+        "location": 24,
+        "note": "SAVING_SPELL",
         "value": 2
-      }, 
+      },
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": -10
       }
-    ], 
+    ],
     "aliases": [
-      "cloak", 
+      "cloak",
       "purple"
-    ], 
-    "cost": 5000, 
+    ],
+    "cost": 5000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "This is a very fine made cloak from an unknown material, in a nice purple\ncolor.", 
+        "desc": "This is a very fine made cloak from an unknown material, in a nice purple\ncolor.",
         "keywords": [
-          "cloak", 
+          "cloak",
           "purple"
         ]
       }
-    ], 
-    "id": 7203, 
-    "long_desc": "A purple cloak lies on the floor.", 
-    "rent": 6000, 
-    "short_desc": "a purple cloak", 
+    ],
+    "id": 7203,
+    "long_desc": "A purple cloak lies on the floor.",
+    "rent": 6000,
+    "short_desc": "a purple cloak",
     "type": {
-      "note": "WORN", 
+      "note": "WORN",
       "value": 11
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_NECK", 
+        "note": "WEAR_NECK",
         "value": 4
       }
-    ], 
+    ],
     "weight": 20
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "potion", 
-      "blue", 
+      "potion",
+      "blue",
       "neon"
-    ], 
-    "cost": 100, 
+    ],
+    "cost": 100,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "In the flask is a transparent electric blue liquid.", 
+        "desc": "In the flask is a transparent electric blue liquid.",
         "keywords": [
-          "potion", 
+          "potion",
           "blue"
         ]
       }
-    ], 
-    "id": 7204, 
-    "long_desc": "A neon blue potion stands on the floor.", 
-    "rent": 1000, 
-    "short_desc": "a neon blue potion", 
+    ],
+    "id": 7204,
+    "long_desc": "A neon blue potion stands on the floor.",
+    "rent": 1000,
+    "short_desc": "a neon blue potion",
     "type": {
-      "note": "POTION", 
+      "note": "POTION",
       "value": 10
-    }, 
+    },
     "values": [
-      14, 
-      6, 
-      15, 
+      14,
+      6,
+      15,
       16
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 4
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "key", 
+      "key",
       "black"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "This little key is made from a black metal of unknown origin.", 
+        "desc": "This little key is made from a black metal of unknown origin.",
         "keywords": [
-          "black", 
+          "black",
           "key"
         ]
       }
-    ], 
-    "id": 7205, 
-    "long_desc": "A black key has been left on the floor.", 
-    "rent": 0, 
-    "short_desc": "a black key", 
+    ],
+    "id": 7205,
+    "long_desc": "A black key has been left on the floor.",
+    "rent": 0,
+    "short_desc": "a black key",
     "type": {
-      "note": "KEY", 
+      "note": "KEY",
       "value": 18
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 2, 
-        "note": "DEX", 
+        "location": 2,
+        "note": "DEX",
         "value": -4
       }
-    ], 
+    ],
     "aliases": [
-      "skull", 
+      "skull",
       "white"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "HUM", 
+        "note": "HUM",
         "value": 2
-      }, 
+      },
       {
-        "note": "NODROP", 
+        "note": "NODROP",
         "value": 128
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The skull has two small horns in the forehead. You notice some writing on\nthe inside.", 
+        "desc": "The skull has two small horns in the forehead. You notice some writing on\nthe inside.",
         "keywords": [
-          "white", 
+          "white",
           "skull"
         ]
-      }, 
+      },
       {
-        "desc": "You read the number '666'.", 
+        "desc": "You read the number '666'.",
         "keywords": [
-          "writing", 
+          "writing",
           "text"
         ]
       }
-    ], 
-    "id": 7206, 
-    "long_desc": "A strange white skull lies on the floor looking at you.", 
-    "rent": 250, 
-    "short_desc": "a strange white skull", 
+    ],
+    "id": 7206,
+    "long_desc": "A strange white skull lies on the floor looking at you.",
+    "rent": 250,
+    "short_desc": "a strange white skull",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      1, 
-      0, 
-      0, 
+      1,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HEAD", 
+        "note": "WEAR_HEAD",
         "value": 16
       }
-    ], 
+    ],
     "weight": 30
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 1, 
-        "note": "STR", 
+        "location": 1,
+        "note": "STR",
         "value": 1
       }
-    ], 
+    ],
     "aliases": [
-      "gauntlets", 
+      "gauntlets",
       "muddy"
-    ], 
-    "cost": 6000, 
+    ],
+    "cost": 6000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "These gauntlets are muddy indeed, however they look very effective.", 
+        "desc": "These gauntlets are muddy indeed, however they look very effective.",
         "keywords": [
-          "muddy", 
+          "muddy",
           "gauntlets"
         ]
       }
-    ], 
-    "id": 7207, 
-    "long_desc": "A pair of muddy gauntlets have been thrown away here.", 
-    "rent": 1500, 
-    "short_desc": "a pair of muddy gauntlets", 
+    ],
+    "id": 7207,
+    "long_desc": "A pair of muddy gauntlets have been thrown away here.",
+    "rent": 1500,
+    "short_desc": "a pair of muddy gauntlets",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      6, 
-      0, 
-      0, 
+      6,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HANDS", 
+        "note": "WEAR_HANDS",
         "value": 128
       }
-    ], 
+    ],
     "weight": 10
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "stick", 
+      "stick",
       "small"
-    ], 
-    "cost": 200, 
-    "effects": [], 
+    ],
+    "cost": 200,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "The small stick does not look interesting at all.  But just as you are going\nto throw it away you notice some small letters.", 
+        "desc": "The small stick does not look interesting at all.  But just as you are going\nto throw it away you notice some small letters.",
         "keywords": [
-          "small", 
+          "small",
           "stick"
         ]
-      }, 
+      },
       {
-        "desc": "They read:\n\nHold me\n", 
+        "desc": "They read:\n\nHold me\n",
         "keywords": [
-          "letters", 
+          "letters",
           "letter"
         ]
       }
-    ], 
-    "id": 7208, 
-    "long_desc": "A small stick lies here.", 
-    "rent": 200, 
-    "short_desc": "a small stick", 
+    ],
+    "id": 7208,
+    "long_desc": "A small stick lies here.",
+    "rent": 200,
+    "short_desc": "a small stick",
     "type": {
-      "note": "LIGHT", 
+      "note": "LIGHT",
       "value": 1
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      -1, 
+      0,
+      0,
+      -1,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 4
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 14, 
-        "note": "MOVE", 
+        "location": 14,
+        "note": "MOVE",
         "value": 15
       }
-    ], 
+    ],
     "aliases": [
-      "boots", 
+      "boots",
       "muddy"
-    ], 
-    "cost": 75, 
+    ],
+    "cost": 75,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The boots are muddy and they look well worn, but also very comfortable.", 
+        "desc": "The boots are muddy and they look well worn, but also very comfortable.",
         "keywords": [
-          "boots", 
+          "boots",
           "muddy"
         ]
       }
-    ], 
-    "id": 7209, 
-    "long_desc": "A pair of muddy boots has been dropped here.", 
-    "rent": 500, 
-    "short_desc": "a pair of muddy boots", 
+    ],
+    "id": 7209,
+    "long_desc": "A pair of muddy boots has been dropped here.",
+    "rent": 500,
+    "short_desc": "a pair of muddy boots",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      4, 
-      0, 
-      0, 
+      4,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_FEET", 
+        "note": "WEAR_FEET",
         "value": 64
       }
-    ], 
+    ],
     "weight": 10
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "treasure", 
+      "treasure",
       "coins"
-    ], 
-    "cost": 6522, 
-    "effects": [], 
+    ],
+    "cost": 6522,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "This looks like a whole lot of coins.", 
+        "desc": "This looks like a whole lot of coins.",
         "keywords": [
-          "treasure", 
+          "treasure",
           "coins"
         ]
       }
-    ], 
-    "id": 7210, 
-    "long_desc": "There is a huge treasure here, looking very valuable.", 
-    "rent": 0, 
-    "short_desc": "a huge treasure", 
+    ],
+    "id": 7210,
+    "long_desc": "There is a huge treasure here, looking very valuable.",
+    "rent": 0,
+    "short_desc": "a huge treasure",
     "type": {
-      "note": "MONEY", 
+      "note": "MONEY",
       "value": 20
-    }, 
+    },
     "values": [
-      6522, 
-      0, 
-      0, 
+      6522,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "sword", 
+      "sword",
       "short"
-    ], 
-    "cost": 100, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 7211, 
-    "long_desc": "A short sword is lying here.", 
-    "rent": 300, 
-    "short_desc": "a short sword", 
+    ],
+    "cost": 100,
+    "effects": [],
+    "extra_descs": [],
+    "id": 7211,
+    "long_desc": "A short sword is lying here.",
+    "rent": 300,
+    "short_desc": "a short sword",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      2, 
-      3, 
+      0,
+      2,
+      3,
       3
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 4
   }
 ]

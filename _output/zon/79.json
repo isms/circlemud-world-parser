@@ -1,301 +1,301 @@
 [
   {
-    "bottom_room": 7900, 
+    "bottom_room": 7900,
     "doors": [
       {
-        "exit": 0, 
-        "room": 7900, 
+        "exit": 0,
+        "room": 7900,
         "state": 2
-      }, 
+      },
       {
-        "exit": 2, 
-        "room": 7901, 
+        "exit": 2,
+        "room": 7901,
         "state": 2
-      }, 
+      },
       {
-        "exit": 1, 
-        "room": 7901, 
+        "exit": 1,
+        "room": 7901,
         "state": 1
-      }, 
+      },
       {
-        "exit": 3, 
-        "room": 7910, 
+        "exit": 3,
+        "room": 7910,
         "state": 1
-      }, 
+      },
       {
-        "exit": 3, 
-        "room": 7901, 
+        "exit": 3,
+        "room": 7901,
         "state": 1
-      }, 
+      },
       {
-        "exit": 1, 
-        "room": 7902, 
+        "exit": 1,
+        "room": 7902,
         "state": 1
-      }, 
+      },
       {
-        "exit": 1, 
-        "room": 7910, 
+        "exit": 1,
+        "room": 7910,
         "state": 2
-      }, 
+      },
       {
-        "exit": 3, 
-        "room": 7903, 
+        "exit": 3,
+        "room": 7903,
         "state": 2
-      }, 
+      },
       {
-        "exit": 1, 
-        "room": 7904, 
+        "exit": 1,
+        "room": 7904,
         "state": 1
-      }, 
+      },
       {
-        "exit": 3, 
-        "room": 7913, 
+        "exit": 3,
+        "room": 7913,
         "state": 1
-      }, 
+      },
       {
-        "exit": 3, 
-        "room": 7904, 
+        "exit": 3,
+        "room": 7904,
         "state": 1
-      }, 
+      },
       {
-        "exit": 1, 
-        "room": 7905, 
+        "exit": 1,
+        "room": 7905,
         "state": 1
-      }, 
+      },
       {
-        "exit": 0, 
-        "room": 7906, 
+        "exit": 0,
+        "room": 7906,
         "state": 1
-      }, 
+      },
       {
-        "exit": 2, 
-        "room": 7907, 
+        "exit": 2,
+        "room": 7907,
         "state": 1
-      }, 
+      },
       {
-        "exit": 1, 
-        "room": 7906, 
+        "exit": 1,
+        "room": 7906,
         "state": 1
-      }, 
+      },
       {
-        "exit": 3, 
-        "room": 7908, 
+        "exit": 3,
+        "room": 7908,
         "state": 1
-      }, 
+      },
       {
-        "exit": 2, 
-        "room": 7911, 
+        "exit": 2,
+        "room": 7911,
         "state": 1
-      }, 
+      },
       {
-        "exit": 0, 
-        "room": 7912, 
+        "exit": 0,
+        "room": 7912,
         "state": 1
       }
-    ], 
-    "id": 79, 
-    "lifespan": 50, 
+    ],
+    "id": 79,
+    "lifespan": 50,
     "mobs": [
       {
         "equipped": [
           {
-            "contents": [], 
-            "id": 7901, 
-            "location": 17, 
-            "max": 4, 
+            "contents": [],
+            "id": 7901,
+            "location": 17,
+            "max": 4,
             "note": "HOLD"
-          }, 
+          },
           {
-            "contents": [], 
-            "id": 7910, 
-            "location": 16, 
-            "max": 2, 
+            "contents": [],
+            "id": 7910,
+            "location": 16,
+            "max": 2,
             "note": "WIELD"
-          }, 
+          },
           {
-            "contents": [], 
-            "id": 7914, 
-            "location": 5, 
-            "max": 2, 
+            "contents": [],
+            "id": 7914,
+            "location": 5,
+            "max": 2,
             "note": "BODY"
-          }, 
+          },
           {
-            "contents": [], 
-            "id": 7915, 
-            "location": 7, 
-            "max": 2, 
+            "contents": [],
+            "id": 7915,
+            "location": 7,
+            "max": 2,
             "note": "LEGS"
-          }, 
+          },
           {
-            "contents": [], 
-            "id": 7916, 
-            "location": 9, 
-            "max": 2, 
+            "contents": [],
+            "id": 7916,
+            "location": 9,
+            "max": 2,
             "note": "HANDS"
-          }, 
+          },
           {
-            "contents": [], 
-            "id": 7917, 
-            "location": 6, 
-            "max": 2, 
+            "contents": [],
+            "id": 7917,
+            "location": 6,
+            "max": 2,
             "note": "HEAD"
-          }, 
+          },
           {
-            "contents": [], 
-            "id": 7918, 
-            "location": 11, 
-            "max": 2, 
+            "contents": [],
+            "id": 7918,
+            "location": 11,
+            "max": 2,
             "note": "SHIELD"
-          }, 
+          },
           {
-            "contents": [], 
-            "id": 7919, 
-            "location": 8, 
-            "max": 2, 
+            "contents": [],
+            "id": 7919,
+            "location": 8,
+            "max": 2,
             "note": "FEET"
-          }, 
+          },
           {
-            "contents": [], 
-            "id": 7920, 
-            "location": 10, 
-            "max": 2, 
+            "contents": [],
+            "id": 7920,
+            "location": 10,
+            "max": 2,
             "note": "ARMS"
           }
-        ], 
-        "inventory": [], 
-        "max": 1, 
-        "mob": 7900, 
+        ],
+        "inventory": [],
+        "max": 1,
+        "mob": 7900,
         "room": 7900
-      }, 
+      },
       {
-        "equipped": [], 
+        "equipped": [],
         "inventory": [
           {
-            "contents": [], 
-            "id": 7900, 
+            "contents": [],
+            "id": 7900,
             "max": 1
           }
-        ], 
-        "max": 2, 
-        "mob": 7901, 
+        ],
+        "max": 2,
+        "mob": 7901,
         "room": 7907
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 2, 
-        "mob": 7901, 
+        "equipped": [],
+        "inventory": [],
+        "max": 2,
+        "mob": 7901,
         "room": 7907
-      }, 
+      },
       {
         "equipped": [
           {
-            "contents": [], 
-            "id": 7907, 
-            "location": 14, 
-            "max": 6, 
+            "contents": [],
+            "id": 7907,
+            "location": 14,
+            "max": 6,
             "note": "WRIST_R"
-          }, 
+          },
           {
-            "contents": [], 
-            "id": 7907, 
-            "location": 15, 
-            "max": 6, 
+            "contents": [],
+            "id": 7907,
+            "location": 15,
+            "max": 6,
             "note": "WRIST_L"
-          }, 
+          },
           {
-            "contents": [], 
-            "id": 7911, 
-            "location": 6, 
-            "max": 2, 
+            "contents": [],
+            "id": 7911,
+            "location": 6,
+            "max": 2,
             "note": "HEAD"
           }
-        ], 
+        ],
         "inventory": [
           {
-            "contents": [], 
-            "id": 7902, 
+            "contents": [],
+            "id": 7902,
             "max": 1
           }
-        ], 
-        "max": 1, 
-        "mob": 7902, 
+        ],
+        "max": 1,
+        "mob": 7902,
         "room": 7913
       }
-    ], 
-    "name": "Redferne's Residence", 
+    ],
+    "name": "Redferne's Residence",
     "objects": [
       {
-        "contents": [], 
-        "id": 7908, 
-        "max": 40, 
+        "contents": [],
+        "id": 7908,
+        "max": 40,
         "room": 7907
-      }, 
+      },
       {
-        "contents": [], 
-        "id": 7921, 
-        "max": 10, 
+        "contents": [],
+        "id": 7921,
+        "max": 10,
         "room": 7908
-      }, 
+      },
       {
         "contents": [
           {
-            "contents": [], 
-            "id": 7903, 
+            "contents": [],
+            "id": 7903,
             "max": 1
-          }, 
+          },
           {
-            "contents": [], 
-            "id": 7909, 
+            "contents": [],
+            "id": 7909,
             "max": 4
           }
-        ], 
-        "id": 7904, 
-        "max": 1, 
+        ],
+        "id": 7904,
+        "max": 1,
         "room": 7903
-      }, 
+      },
       {
         "contents": [
           {
-            "contents": [], 
-            "id": 7906, 
+            "contents": [],
+            "id": 7906,
             "max": 5
-          }, 
+          },
           {
-            "contents": [], 
-            "id": 7912, 
+            "contents": [],
+            "id": 7912,
             "max": 3
-          }, 
+          },
           {
-            "contents": [], 
-            "id": 7913, 
+            "contents": [],
+            "id": 7913,
             "max": 2
           }
-        ], 
-        "id": 7905, 
-        "max": 1, 
+        ],
+        "id": 7905,
+        "max": 1,
         "room": 7913
       }
-    ], 
+    ],
     "remove_objects": [
       {
-        "id": 7908, 
+        "id": 7908,
         "room": 7907
-      }, 
+      },
       {
-        "id": 7921, 
+        "id": 7921,
         "room": 7908
-      }, 
+      },
       {
-        "id": 7904, 
+        "id": 7904,
         "room": 7903
-      }, 
+      },
       {
-        "id": 7905, 
+        "id": 7905,
         "room": 7913
       }
-    ], 
-    "reset_mode": 2, 
+    ],
+    "reset_mode": 2,
     "top_room": 7999
   }
 ]

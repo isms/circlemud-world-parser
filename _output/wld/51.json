@@ -1,2419 +1,2419 @@
 [
   {
-    "desc": "You are at the entrance to a small underground city.  A great adamantite\ngate lies open to the west allowing entrance into the city.", 
+    "desc": "You are at the entrance to a small underground city.  A great adamantite\ngate lies open to the west allowing entrance into the city.",
     "exits": [
       {
-        "desc": "A huge gate opens to the west allowing entrance into the city.", 
-        "dir": 3, 
+        "desc": "A huge gate opens to the west allowing entrance into the city.",
+        "dir": 3,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "gate"
-        ], 
+        ],
         "room_linked": 5101
-      }, 
+      },
       {
-        "desc": "A passageway opens up into a fairly large cave above.", 
-        "dir": 4, 
+        "desc": "A passageway opens up into a fairly large cave above.",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5011
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "A large adamantite gate with giant spider shaped emblems stands here.", 
+        "desc": "A large adamantite gate with giant spider shaped emblems stands here.",
         "keywords": [
           "gate"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5100, 
-    "name": "The City Entrance", 
+    ],
+    "id": 5100,
+    "name": "The City Entrance",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You walk along a highly ornate street going north-south.  A large gate\nlies to the east while a building lies to the west.", 
+    "desc": "You walk along a highly ornate street going north-south.  A large gate\nlies to the east while a building lies to the west.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5123
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "gate"
-        ], 
+        ],
         "room_linked": 5100
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5102
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5122
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5101, 
-    "name": "A City Street", 
+    ],
+    "id": 5101,
+    "name": "A City Street",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You walk along a highly ornate city street going north and west.", 
+    "desc": "You walk along a highly ornate city street going north and west.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5101
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5103
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5102, 
-    "name": "A City Street", 
+    ],
+    "id": 5102,
+    "name": "A City Street",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You walk along a highly ornate city street going east-west.  A large house\nstands to the south.", 
+    "desc": "You walk along a highly ornate city street going east-west.  A large house\nstands to the south.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5102
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5104
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5106
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5103, 
-    "name": "A City Street", 
+    ],
+    "id": 5103,
+    "name": "A City Street",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You stand inside the 3rd house of the city; it is fairly well decorated\nby drow standards having a few statues, murals and such.  A door leads to the \nsouth.", 
+    "desc": "You stand inside the 3rd house of the city; it is fairly well decorated\nby drow standards having a few statues, murals and such.  A door leads to the \nsouth.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5103
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 5105
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5104, 
-    "name": "The 3rd House", 
+    ],
+    "id": 5104,
+    "name": "The 3rd House",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "The throne room of the 3rd house is about as decorated as the inner\ncourtyard except with a blood covered altar in the center of the room.", 
+    "desc": "The throne room of the 3rd house is about as decorated as the inner\ncourtyard except with a blood covered altar in the center of the room.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 5104
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5105, 
-    "name": "The Throne Room", 
+    ],
+    "id": 5105,
+    "name": "The Throne Room",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You walk along a highly ornate city street going east-west.  To the north\nis a large building.", 
+    "desc": "You walk along a highly ornate city street going east-west.  To the north\nis a large building.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5118
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5103
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5107
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5106, 
-    "name": "A City Street", 
+    ],
+    "id": 5106,
+    "name": "A City Street",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You walk along a highly ornate city street leading north and east.  To the\nsouth is an extremely large house.", 
+    "desc": "You walk along a highly ornate city street leading north and east.  To the\nsouth is an extremely large house.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5110
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5106
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5108
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5107, 
-    "name": "A City Street", 
+    ],
+    "id": 5107,
+    "name": "A City Street",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You stand inside the 2nd house of the city.  The room is highly decorated\nwith statues of spiders and murals everywhere.", 
+    "desc": "You stand inside the 2nd house of the city.  The room is highly decorated\nwith statues of spiders and murals everywhere.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5107
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 5109
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5108, 
-    "name": "The 2nd House", 
+    ],
+    "id": 5108,
+    "name": "The 2nd House",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "The throne room of the 2nd house is just a little more decorative than\nthe inner courtyard having an altar in the center of the room.", 
+    "desc": "The throne room of the 2nd house is just a little more decorative than\nthe inner courtyard having an altar in the center of the room.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 5108
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5109, 
-    "name": "The Throne Room", 
+    ],
+    "id": 5109,
+    "name": "The Throne Room",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You are at the entrance to the 1st house of the city.  A large gate,\nalmost as big and elegant as the one at the entrance to the city, stands\nhere.", 
+    "desc": "You are at the entrance to the 1st house of the city.  A large gate,\nalmost as big and elegant as the one at the entrance to the city, stands\nhere.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5114
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5107
-      }, 
+      },
       {
-        "desc": "A large gate lies to the west.", 
-        "dir": 3, 
+        "desc": "A large gate lies to the west.",
+        "dir": 3,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "gate"
-        ], 
+        ],
         "room_linked": 5111
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5110, 
-    "name": "The Main Gate", 
+    ],
+    "id": 5110,
+    "name": "The Main Gate",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You stand in the inner courtyard of the 1st and largest house in the city.\nThe room is extremely large and decorative.  Mural and paintings hang on the \nwalls depicting some battles and a spider queen.", 
+    "desc": "You stand in the inner courtyard of the 1st and largest house in the city.\nThe room is extremely large and decorative.  Mural and paintings hang on the \nwalls depicting some battles and a spider queen.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "gate"
-        ], 
+        ],
         "room_linked": 5110
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5112
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5111, 
-    "name": "The 1st House", 
+    ],
+    "id": 5111,
+    "name": "The 1st House",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "The throne room of the 1st house is in one word...awesome.  It is so\nhorrifying it is almost beautiful.", 
+    "desc": "The throne room of the 1st house is in one word...awesome.  It is so\nhorrifying it is almost beautiful.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 5113
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5111
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5112, 
-    "name": "The Throne Room", 
+    ],
+    "id": 5112,
+    "name": "The Throne Room",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "This is the council chamber for the Matron Mother herself.  A huge table\nand chairs surrounding it sits in the center of the room.", 
+    "desc": "This is the council chamber for the Matron Mother herself.  A huge table\nand chairs surrounding it sits in the center of the room.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 5112
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5113, 
-    "name": "The Main Chamber", 
+    ],
+    "id": 5113,
+    "name": "The Main Chamber",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You walk along a highly ornate city street leading north-south and east.", 
+    "desc": "You walk along a highly ornate city street leading north-south and east.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5115
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5117
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5110
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5114, 
-    "name": "A City Street", 
+    ],
+    "id": 5114,
+    "name": "A City Street",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You walk along a highly ornate city street leading south.  A building is\nto the west.", 
+    "desc": "You walk along a highly ornate city street leading south.  A building is\nto the west.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5114
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5116
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5115, 
-    "name": "A City Street", 
+    ],
+    "id": 5115,
+    "name": "A City Street",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "This is the most lavish of the academies being that it is for the clerics.", 
+    "desc": "This is the most lavish of the academies being that it is for the clerics.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5115
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5116, 
-    "name": "The Clerics' Academy", 
+    ],
+    "id": 5116,
+    "name": "The Clerics' Academy",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You walk along a highly ornate city street going east-west.  To the north\nis a giant temple.", 
+    "desc": "You walk along a highly ornate city street going east-west.  To the north\nis a giant temple.",
     "exits": [
       {
-        "desc": "The entrance to the temple of Lloth is blocked by large ornamental gates.", 
-        "dir": 0, 
+        "desc": "The entrance to the temple of Lloth is blocked by large ornamental gates.",
+        "dir": 0,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "gates", 
+          "gates",
           "gate"
-        ], 
+        ],
         "room_linked": 5119
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5121
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5114
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5117, 
-    "name": "A City Street", 
+    ],
+    "id": 5117,
+    "name": "A City Street",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "This looks more like a barracks than a school.", 
+    "desc": "This looks more like a barracks than a school.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5106
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5118, 
-    "name": "The Warriors' Academy", 
+    ],
+    "id": 5118,
+    "name": "The Warriors' Academy",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "The temple is the largest building in the city.  Even its doors are beyond\nimagination.  Inside of the temple entrance, the walls are made of gold and \nadamantite.", 
+    "desc": "The temple is the largest building in the city.  Even its doors are beyond\nimagination.  Inside of the temple entrance, the walls are made of gold and \nadamantite.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "gates", 
+          "gates",
           "gate"
-        ], 
+        ],
         "room_linked": 5117
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5126
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5119, 
-    "name": "The Entrance To The Temple Of Lloth", 
+    ],
+    "id": 5119,
+    "name": "The Entrance To The Temple Of Lloth",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "The Mages' Academy is fairly well decorated and you can see that the\ndrow prefer magic over physical power greatly.", 
+    "desc": "The Mages' Academy is fairly well decorated and you can see that the\ndrow prefer magic over physical power greatly.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5121
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5120, 
-    "name": "The Mages' Academy", 
+    ],
+    "id": 5120,
+    "name": "The Mages' Academy",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You walk along a highly ornate city street going eastward.  To the north\nis a building.", 
+    "desc": "You walk along a highly ornate city street going eastward.  To the north\nis a building.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5120
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5123
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5117
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5121, 
-    "name": "A City Street", 
+    ],
+    "id": 5121,
+    "name": "A City Street",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "The room is in shambles.  Straw is strewn all about the room as beds for\nthe unfortunate creatures who have fallen prey to drow imperialism.", 
+    "desc": "The room is in shambles.  Straw is strewn all about the room as beds for\nthe unfortunate creatures who have fallen prey to drow imperialism.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5101
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5122, 
-    "name": "The Slave Chamber", 
+    ],
+    "id": 5122,
+    "name": "The Slave Chamber",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You walk along a highly ornate city street leading west and south.  To\nthe north is a relatively small house.", 
+    "desc": "You walk along a highly ornate city street leading west and south.  To\nthe north is a relatively small house.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "gate"
-        ], 
+        ],
         "room_linked": 5124
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5101
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5121
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5123, 
-    "name": "A City Street", 
+    ],
+    "id": 5123,
+    "name": "A City Street",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You stand inside the 4th house of the city.  Its inner courtyard is rather \ndull by drow standards and rather small as well.", 
+    "desc": "You stand inside the 4th house of the city.  Its inner courtyard is rather \ndull by drow standards and rather small as well.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5125
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "gate"
-        ], 
+        ],
         "room_linked": 5123
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5124, 
-    "name": "The 4th House", 
+    ],
+    "id": 5124,
+    "name": "The 4th House",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "The throne room is basically similar to the inner courtyard in regards\nto decor.  there is a small throne behind the altar but that is about it.", 
+    "desc": "The throne room is basically similar to the inner courtyard in regards\nto decor.  there is a small throne behind the altar but that is about it.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5124
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5125, 
-    "name": "The Throne Room", 
+    ],
+    "id": 5125,
+    "name": "The Throne Room",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You stand in the entrance way to the temple which opens up to the north\ninto a large hallway going east and west.  Small statues os spiders line the\nentrance way's walls.", 
+    "desc": "You stand in the entrance way to the temple which opens up to the north\ninto a large hallway going east and west.  Small statues os spiders line the\nentrance way's walls.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5127
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5119
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5126, 
-    "name": "The Entrance Hall", 
+    ],
+    "id": 5126,
+    "name": "The Entrance Hall",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You are in a long hallway lined with adamantite.  The walls are engraved\nwith pictures of elves and spiders.  The hallway continues east and west.  As\nyou look down the hallway you can make out one or two figures moving away from\nyou.\nTo the north is a obsidian stairway.", 
+    "desc": "You are in a long hallway lined with adamantite.  The walls are engraved\nwith pictures of elves and spiders.  The hallway continues east and west.  As\nyou look down the hallway you can make out one or two figures moving away from\nyou.\nTo the north is a obsidian stairway.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5135
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5126
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5128
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5131
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5127, 
-    "name": "A Hallway", 
+    ],
+    "id": 5127,
+    "name": "A Hallway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You are in a long hallway lined with adamantite.  The walls are engraved\nwith pictures of elves and spiders.  The hallway continues east and west.  As\nyou look down the hallway you can make out one or two figures moving away from\nyou.", 
+    "desc": "You are in a long hallway lined with adamantite.  The walls are engraved\nwith pictures of elves and spiders.  The hallway continues east and west.  As\nyou look down the hallway you can make out one or two figures moving away from\nyou.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5129
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5127
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5128, 
-    "name": "A Long Hallway", 
+    ],
+    "id": 5128,
+    "name": "A Long Hallway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You are in a long hallway lined with adamantite.  The walls are engraved\nwith pictures of elves and spiders.  The hallway continues east and west.  As\nyou look down the hallway you can make out one or two figures moving away from\nyou.\nTo the north is a door.", 
+    "desc": "You are in a long hallway lined with adamantite.  The walls are engraved\nwith pictures of elves and spiders.  The hallway continues east and west.  As\nyou look down the hallway you can make out one or two figures moving away from\nyou.\nTo the north is a door.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 5150
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5130
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5128
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5129, 
-    "name": "A Long Hallway", 
+    ],
+    "id": 5129,
+    "name": "A Long Hallway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You are in a long hallway lined with adamantite.  The walls are engraved\nwith pictures of elves and spiders.  The hallway continues east and west.  As\nyou look down the hallway you can make out one or two figures moving away from\nyou.", 
+    "desc": "You are in a long hallway lined with adamantite.  The walls are engraved\nwith pictures of elves and spiders.  The hallway continues east and west.  As\nyou look down the hallway you can make out one or two figures moving away from\nyou.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5134
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5129
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5130, 
-    "name": "A Long Hallway", 
+    ],
+    "id": 5130,
+    "name": "A Long Hallway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You are in a long hallway lined with adamantite.  The walls are engraved\nwith pictures of elves and spiders.  The hallway continues east and west.  As\nyou look down the hallway you can make out one or two figures moving away from\nyou.", 
+    "desc": "You are in a long hallway lined with adamantite.  The walls are engraved\nwith pictures of elves and spiders.  The hallway continues east and west.  As\nyou look down the hallway you can make out one or two figures moving away from\nyou.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5127
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5132
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5131, 
-    "name": "A Long Hallway", 
+    ],
+    "id": 5131,
+    "name": "A Long Hallway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You are in a long hallway lined with adamantite.  The walls are engraved\nwith pictures of elves and spiders.  The hallway continues east and west.  As\nyou look down the hallway you can make out one or two figures moving away from\nyou.\nTo the south is a door.", 
+    "desc": "You are in a long hallway lined with adamantite.  The walls are engraved\nwith pictures of elves and spiders.  The hallway continues east and west.  As\nyou look down the hallway you can make out one or two figures moving away from\nyou.\nTo the south is a door.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5131
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 5133
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5134
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5132, 
-    "name": "A Long Hallway", 
+    ],
+    "id": 5132,
+    "name": "A Long Hallway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "The room is a complete mess.  None of the beds are made, clothes and other\nitems have been left all about the room.  Well drow warriors never were known\nfor neatness.", 
+    "desc": "The room is a complete mess.  None of the beds are made, clothes and other\nitems have been left all about the room.  Well drow warriors never were known\nfor neatness.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 5131
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5133, 
-    "name": "The Warriors' Barracks", 
+    ],
+    "id": 5133,
+    "name": "The Warriors' Barracks",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You are in a long hallway lined with adamantite.  The walls are engraved\nwith pictures of elves and spiders.  The hallway continues east and west.  As\nyou look down the hallway you can make out one or two figures moving away from\nyou.", 
+    "desc": "You are in a long hallway lined with adamantite.  The walls are engraved\nwith pictures of elves and spiders.  The hallway continues east and west.  As\nyou look down the hallway you can make out one or two figures moving away from\nyou.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5132
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5130
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5134, 
-    "name": "A Long Hallway", 
+    ],
+    "id": 5134,
+    "name": "A Long Hallway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You are standing at the bottom of a giant obsidian and adamantite \nstairway.  The edges are trimmed with gold.", 
+    "desc": "You are standing at the bottom of a giant obsidian and adamantite \nstairway.  The edges are trimmed with gold.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5127
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5136
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5135, 
-    "name": "The Grand Stairway", 
+    ],
+    "id": 5135,
+    "name": "The Grand Stairway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You are standing in the middle of a grand hallway.  The walls are \nof the purest adamantite with gold trim.  Mosaics line the walls.", 
+    "desc": "You are standing in the middle of a grand hallway.  The walls are \nof the purest adamantite with gold trim.  Mosaics line the walls.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5138
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 5137
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5135
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5136, 
-    "name": "The Grand Hallway", 
+    ],
+    "id": 5136,
+    "name": "The Grand Hallway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "The mage's living quarters is rather clean with the exception of a few\nused component containers.  It is rather well decorated as well.  Cots line\nthe floor for the mages to sleep on.  The only door is to the west.", 
+    "desc": "The mage's living quarters is rather clean with the exception of a few\nused component containers.  It is rather well decorated as well.  Cots line\nthe floor for the mages to sleep on.  The only door is to the west.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 5136
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5137, 
-    "name": "The Mages' Barracks", 
+    ],
+    "id": 5137,
+    "name": "The Mages' Barracks",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You are walking down a grand hallway, heavily decorated with adamantite\nand gold.  To the north the hall goes down a flight of stairs while a door is \nto the west.", 
+    "desc": "You are walking down a grand hallway, heavily decorated with adamantite\nand gold.  To the north the hall goes down a flight of stairs while a door is \nto the west.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5136
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 5139
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5140
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5138, 
-    "name": "The Grand Hallway", 
+    ],
+    "id": 5138,
+    "name": "The Grand Hallway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "The bed chamber is brightly decorated with spider shaped statues, murals\nand the like.  Large beds line the floor making this a comfortable room to\nlive in.", 
+    "desc": "The bed chamber is brightly decorated with spider shaped statues, murals\nand the like.  Large beds line the floor making this a comfortable room to\nlive in.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 5138
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5139, 
-    "name": "The Clerics' Barracks", 
+    ],
+    "id": 5139,
+    "name": "The Clerics' Barracks",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You are climbing a set of obsidian stairs surrounded by adamantite walls.\nTo the north are a set of large golden doors.", 
+    "desc": "You are climbing a set of obsidian stairs surrounded by adamantite walls.\nTo the north are a set of large golden doors.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "doors", 
-          "door", 
-          "golden", 
+          "doors",
+          "door",
+          "golden",
           "gold"
-        ], 
+        ],
         "room_linked": 5141
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5138
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5140, 
-    "name": "The Grand Stairway", 
+    ],
+    "id": 5140,
+    "name": "The Grand Stairway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "This is the south side of a large auditorium used for services by the\ndrow priestesses.  In the center is a large sacrificial pit and beyond that\nis an altar.", 
+    "desc": "This is the south side of a large auditorium used for services by the\ndrow priestesses.  In the center is a large sacrificial pit and beyond that\nis an altar.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5142
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "doors", 
-          "door", 
-          "golden", 
+          "doors",
+          "door",
+          "golden",
           "gold"
-        ], 
+        ],
         "room_linked": 5140
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5144
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5141, 
-    "name": "The Main Chamber", 
+    ],
+    "id": 5141,
+    "name": "The Main Chamber",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You are on the eastern side of the chamber overlooking the pit.  To the\neast is a door while to the north is an altar.", 
+    "desc": "You are on the eastern side of the chamber overlooking the pit.  To the\neast is a door while to the north is an altar.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5145
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 5146
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5141
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5142, 
-    "name": "The Eastern Side Of The Main Chamber", 
+    ],
+    "id": 5142,
+    "name": "The Eastern Side Of The Main Chamber",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "As you climb down into the pit, thousands of spiders cover you, tearing\nyour fragile body to shreds.  \n \nLloth thanks you for your sacrifice.", 
-    "exits": [], 
-    "extra_descs": [], 
+    "desc": "As you climb down into the pit, thousands of spiders cover you, tearing\nyour fragile body to shreds.  \n \nLloth thanks you for your sacrifice.",
+    "exits": [],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DEATH", 
+        "note": "DEATH",
         "value": 2
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5143, 
-    "name": "The Sacrificial Pit", 
+    ],
+    "id": 5143,
+    "name": "The Sacrificial Pit",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You are on the western side of the main chamber overlooking a sacrificial\npit.  To the north is an altar.", 
+    "desc": "You are on the western side of the main chamber overlooking a sacrificial\npit.  To the north is an altar.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5145
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5141
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5144, 
-    "name": "The Western Side Of The Main Chamber", 
+    ],
+    "id": 5144,
+    "name": "The Western Side Of The Main Chamber",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You are standing in front of a highly and freshly bloodstained altar.  \nEngraved on the top of the altar is a giant spider with a human head.  Looking \ndown from the altar you see a large sacrificial pit with thousands of swarming\nspiders looking for their next meal!", 
+    "desc": "You are standing in front of a highly and freshly bloodstained altar.  \nEngraved on the top of the altar is a giant spider with a human head.  Looking \ndown from the altar you see a large sacrificial pit with thousands of swarming\nspiders looking for their next meal!",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5148
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5142
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5144
-      }, 
+      },
       {
-        "desc": "Thousands of spiders eye you with undisguised hunger.", 
-        "dir": 5, 
+        "desc": "Thousands of spiders eye you with undisguised hunger.",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5143
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5145, 
-    "name": "The Altar", 
+    ],
+    "id": 5145,
+    "name": "The Altar",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "This is the main room to the cell chambers for the slaves to be \nsacrificed.  You notice there are no guards around.", 
+    "desc": "This is the main room to the cell chambers for the slaves to be \nsacrificed.  You notice there are no guards around.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "cell"
-        ], 
+        ],
         "room_linked": 5147
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 5142
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5146, 
-    "name": "The Slave Cells", 
+    ],
+    "id": 5146,
+    "name": "The Slave Cells",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "Rotten meat and breads lie about the floor while shackles hang from the \nwalls.  The room reeks of death.  You almost become nauseous and decide to\nleave the room since you were obviously too late to save the slave.", 
+    "desc": "Rotten meat and breads lie about the floor while shackles hang from the \nwalls.  The room reeks of death.  You almost become nauseous and decide to\nleave the room since you were obviously too late to save the slave.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "cell"
-        ], 
+        ],
         "room_linked": 5146
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5147, 
-    "name": "The Slave Pen", 
+    ],
+    "id": 5147,
+    "name": "The Slave Pen",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "You stand upon a dias behind the altar.  Above you is a enormous illusion\nof a female drow turning into a giant spider and back again.  There is a door \nto the west.", 
+    "desc": "You stand upon a dias behind the altar.  Above you is a enormous illusion\nof a female drow turning into a giant spider and back again.  There is a door \nto the west.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5145
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "PICKPROOF", 
+          "note": "PICKPROOF",
           "value": 2
-        }, 
-        "key_number": 5115, 
+        },
+        "key_number": 5115,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 5149
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5148, 
-    "name": "The Dias", 
+    ],
+    "id": 5148,
+    "name": "The Dias",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "This is obviously only a temporary storage place for the collected \ntreasure being rather bare.", 
+    "desc": "This is obviously only a temporary storage place for the collected \ntreasure being rather bare.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "PICKPROOF", 
+          "note": "PICKPROOF",
           "value": 2
-        }, 
-        "key_number": 5115, 
+        },
+        "key_number": 5115,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 5148
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5149, 
-    "name": "The Treasury", 
+    ],
+    "id": 5149,
+    "name": "The Treasury",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
-  }, 
+  },
   {
-    "desc": "This one-person bedchamber is very elegant.  The owner must be held in\nhigh regard to get this kind of treatment.", 
+    "desc": "This one-person bedchamber is very elegant.  The owner must be held in\nhigh regard to get this kind of treatment.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 5129
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5150, 
-    "name": "The Weaponsmaster's Chamber", 
+    ],
+    "id": 5150,
+    "name": "The Weaponsmaster's Chamber",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 51
   }
 ]

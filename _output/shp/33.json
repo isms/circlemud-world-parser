@@ -1,121 +1,121 @@
 [
   {
-    "buy_rate": 0.9, 
-    "buy_types": [], 
+    "buy_rate": 0.9,
+    "buy_types": [],
     "flags": [
       {
-        "note": "WILL_BANK_MONEY", 
+        "note": "WILL_BANK_MONEY",
         "value": 2
       }
-    ], 
-    "id": 3301, 
+    ],
+    "id": 3301,
     "messages": {
-      "buy_fails_object_does_not_exist": "We didn't grow any of those this year.", 
-      "buy_fails_player_cannot_afford_object": "You can't buy that!", 
-      "buy_succeeds": "Ok, %d coins please!", 
-      "sell_fails_object_does_not_exist": "You don't have that!", 
-      "sell_fails_shop_cannot_afford_object": "I can't buy that!", 
-      "sell_fails_shop_does_not_buy_object": "I won't buy that!", 
+      "buy_fails_object_does_not_exist": "We didn't grow any of those this year.",
+      "buy_fails_player_cannot_afford_object": "You can't buy that!",
+      "buy_succeeds": "Ok, %d coins please!",
+      "sell_fails_object_does_not_exist": "You don't have that!",
+      "sell_fails_shop_cannot_afford_object": "I can't buy that!",
+      "sell_fails_shop_does_not_buy_object": "I won't buy that!",
       "sell_succeeds": "Ok, %d coins please!"
-    }, 
+    },
     "objects": [
-      3300, 
-      3301, 
-      3308, 
-      3309, 
+      3300,
+      3301,
+      3308,
+      3309,
       3310
-    ], 
+    ],
     "rooms": [
       3350
-    ], 
-    "sell_rate": 1.1, 
-    "shopkeeper": 3304, 
-    "temper": 2, 
+    ],
+    "sell_rate": 1.1,
+    "shopkeeper": 3304,
+    "temper": 2,
     "times": [
       {
-        "close": 22, 
+        "close": 22,
         "open": 8
-      }, 
+      },
       {
-        "close": 0, 
+        "close": 0,
         "open": 0
       }
-    ], 
+    ],
     "trades_with": []
-  }, 
+  },
   {
-    "buy_rate": 0.9, 
-    "buy_types": [], 
-    "flags": [], 
-    "id": 3302, 
+    "buy_rate": 0.9,
+    "buy_types": [],
+    "flags": [],
+    "id": 3302,
     "messages": {
-      "buy_fails_object_does_not_exist": "Could you repeat that please?", 
-      "buy_fails_player_cannot_afford_object": "But you haven't the money!", 
-      "buy_succeeds": "Ok, %d gold please.", 
-      "sell_fails_object_does_not_exist": "I don't buy!", 
-      "sell_fails_shop_cannot_afford_object": "I don't buy!", 
-      "sell_fails_shop_does_not_buy_object": "I don't buy!", 
+      "buy_fails_object_does_not_exist": "Could you repeat that please?",
+      "buy_fails_player_cannot_afford_object": "But you haven't the money!",
+      "buy_succeeds": "Ok, %d gold please.",
+      "sell_fails_object_does_not_exist": "I don't buy!",
+      "sell_fails_shop_cannot_afford_object": "I don't buy!",
+      "sell_fails_shop_does_not_buy_object": "I don't buy!",
       "sell_succeeds": "Ok, %d gold please."
-    }, 
+    },
     "objects": [
-      3032, 
-      3037, 
-      3038, 
+      3032,
+      3037,
+      3038,
       3039
-    ], 
+    ],
     "rooms": [
       3345
-    ], 
-    "sell_rate": 1.1, 
-    "shopkeeper": 3301, 
-    "temper": 2, 
+    ],
+    "sell_rate": 1.1,
+    "shopkeeper": 3301,
+    "temper": 2,
     "times": [
       {
-        "close": 22, 
+        "close": 22,
         "open": 8
-      }, 
+      },
       {
-        "close": 0, 
+        "close": 0,
         "open": 0
       }
-    ], 
+    ],
     "trades_with": []
-  }, 
+  },
   {
-    "buy_rate": 1.0, 
-    "buy_types": [], 
-    "flags": [], 
-    "id": 3303, 
+    "buy_rate": 1.0,
+    "buy_types": [],
+    "flags": [],
+    "id": 3303,
     "messages": {
-      "buy_fails_object_does_not_exist": "I don't know how to make one of those!", 
-      "buy_fails_player_cannot_afford_object": "I don't give 'em away free, you know!", 
-      "buy_succeeds": "That's %d gold.", 
-      "sell_fails_object_does_not_exist": "We don't *buy* drinks... we sell 'em!", 
-      "sell_fails_shop_cannot_afford_object": "We don't *buy* drinks... we sell 'em!", 
-      "sell_fails_shop_does_not_buy_object": "We don't *buy* drinks... we sell 'em!", 
+      "buy_fails_object_does_not_exist": "I don't know how to make one of those!",
+      "buy_fails_player_cannot_afford_object": "I don't give 'em away free, you know!",
+      "buy_succeeds": "That's %d gold.",
+      "sell_fails_object_does_not_exist": "We don't *buy* drinks... we sell 'em!",
+      "sell_fails_shop_cannot_afford_object": "We don't *buy* drinks... we sell 'em!",
+      "sell_fails_shop_does_not_buy_object": "We don't *buy* drinks... we sell 'em!",
       "sell_succeeds": "We don't *buy* drinks... we sell 'em!"
-    }, 
+    },
     "objects": [
-      3319, 
-      3320, 
+      3319,
+      3320,
       3321
-    ], 
+    ],
     "rooms": [
       3357
-    ], 
-    "sell_rate": 1.2, 
-    "shopkeeper": 3314, 
-    "temper": 2, 
+    ],
+    "sell_rate": 1.2,
+    "shopkeeper": 3314,
+    "temper": 2,
     "times": [
       {
-        "close": 2, 
+        "close": 2,
         "open": 20
-      }, 
+      },
       {
-        "close": 18, 
+        "close": 18,
         "open": 11
       }
-    ], 
+    ],
     "trades_with": []
   }
 ]

@@ -2,52 +2,52 @@
   {
     "affects": [
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": -10
-      }, 
+      },
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 2
       }
-    ], 
+    ],
     "aliases": [
-      "ring", 
+      "ring",
       "silver"
-    ], 
-    "cost": 16000, 
+    ],
+    "cost": 16000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 7190, 
-    "long_desc": "A lovely silver ring has been left here.", 
-    "rent": 5000, 
-    "short_desc": "a glinting silver ring", 
+    ],
+    "extra_descs": [],
+    "id": 7190,
+    "long_desc": "A lovely silver ring has been left here.",
+    "rent": 5000,
+    "short_desc": "a glinting silver ring",
     "type": {
-      "note": "WORN", 
+      "note": "WORN",
       "value": 11
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      10, 
+      0,
+      0,
+      10,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_FINGER", 
+        "note": "WEAR_FINGER",
         "value": 2
       }
-    ], 
+    ],
     "weight": 9
   }
 ]

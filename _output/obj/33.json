@@ -1,984 +1,984 @@
 [
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "orange"
-    ], 
-    "cost": 8, 
-    "effects": [], 
+    ],
+    "cost": 8,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "You wonder how it got here, seeing how\noranges are non-migratory.", 
+        "desc": "You wonder how it got here, seeing how\noranges are non-migratory.",
         "keywords": [
           "orange"
         ]
       }
-    ], 
-    "id": 3300, 
-    "long_desc": "An orange lies on the ground here.", 
-    "rent": 8, 
-    "short_desc": "an orange", 
+    ],
+    "id": 3300,
+    "long_desc": "An orange lies on the ground here.",
+    "rent": 8,
+    "short_desc": "an orange",
     "type": {
-      "note": "FOOD", 
+      "note": "FOOD",
       "value": 19
-    }, 
+    },
     "values": [
-      8, 
-      0, 
-      0, 
+      8,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "bale", 
+      "bale",
       "wheat"
-    ], 
-    "cost": 1000, 
-    "effects": [], 
+    ],
+    "cost": 1000,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "It doesn't look appetizing to you, but\na horse might enjoy this...", 
+        "desc": "It doesn't look appetizing to you, but\na horse might enjoy this...",
         "keywords": [
-          "bale", 
+          "bale",
           "wheat"
         ]
       }
-    ], 
-    "id": 3301, 
-    "long_desc": "There is a bale of wheat here.", 
-    "rent": 1000, 
-    "short_desc": "a bale of wheat", 
+    ],
+    "id": 3301,
+    "long_desc": "There is a bale of wheat here.",
+    "rent": 1000,
+    "short_desc": "a bale of wheat",
     "type": {
-      "note": "FOOD", 
+      "note": "FOOD",
       "value": 19
-    }, 
+    },
     "values": [
-      24, 
-      0, 
-      0, 
+      24,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 100
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "zither"
-    ], 
-    "cost": 200000, 
-    "effects": [], 
+    ],
+    "cost": 200000,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "Someone truly huge with big fingers might be\nable to play this.  You can't.", 
+        "desc": "Someone truly huge with big fingers might be\nable to play this.  You can't.",
         "keywords": [
           "zither"
         ]
       }
-    ], 
-    "id": 3302, 
-    "long_desc": "A HUGE zither made of gold rests in the corner", 
-    "rent": 20000, 
-    "short_desc": "a big zither", 
+    ],
+    "id": 3302,
+    "long_desc": "A HUGE zither made of gold rests in the corner",
+    "rent": 20000,
+    "short_desc": "a big zither",
     "type": {
-      "note": "TREASURE", 
+      "note": "TREASURE",
       "value": 8
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 40
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "barrel", 
+      "barrel",
       "perfume"
-    ], 
-    "cost": 100000, 
-    "effects": [], 
+    ],
+    "cost": 100000,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "Smells good...the label reads:\n\n   \"Somewhere between GPA and MUD there lies...\n\t\tOBSESSION\"", 
+        "desc": "Smells good...the label reads:\n\n   \"Somewhere between GPA and MUD there lies...\n\t\tOBSESSION\"",
         "keywords": [
-          "barrel", 
+          "barrel",
           "perfume"
         ]
       }
-    ], 
-    "id": 3303, 
-    "long_desc": "You can smell a barrel on the other side of the room from here.", 
-    "rent": 10000, 
-    "short_desc": "a barrel of perfume", 
+    ],
+    "id": 3303,
+    "long_desc": "You can smell a barrel on the other side of the room from here.",
+    "rent": 10000,
+    "short_desc": "a barrel of perfume",
     "type": {
-      "note": "TREASURE", 
+      "note": "TREASURE",
       "value": 8
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 20
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "statue"
-    ], 
-    "cost": 150000, 
-    "effects": [], 
+    ],
+    "cost": 150000,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "He's a pretty striking chap, for a dragon.", 
+        "desc": "He's a pretty striking chap, for a dragon.",
         "keywords": [
           "statue"
         ]
       }
-    ], 
-    "id": 3304, 
-    "long_desc": "There is a statue of Aglandiir here, made of solid gold.", 
-    "rent": 15000, 
-    "short_desc": "a statue", 
+    ],
+    "id": 3304,
+    "long_desc": "There is a statue of Aglandiir here, made of solid gold.",
+    "rent": 15000,
+    "short_desc": "a statue",
     "type": {
-      "note": "TREASURE", 
+      "note": "TREASURE",
       "value": 8
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 30
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 5
       }
-    ], 
+    ],
     "aliases": [
       "halberd"
-    ], 
-    "cost": 10000, 
+    ],
+    "cost": 10000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The runes glow with a bright light, making you\nthink that this might be a pretty decent weapon.", 
+        "desc": "The runes glow with a bright light, making you\nthink that this might be a pretty decent weapon.",
         "keywords": [
           "halberd"
         ]
       }
-    ], 
-    "id": 3305, 
-    "long_desc": "A runed halberd lies on the ground here.", 
-    "rent": 3000, 
-    "short_desc": "a halberd", 
+    ],
+    "id": 3305,
+    "long_desc": "A runed halberd lies on the ground here.",
+    "rent": 3000,
+    "short_desc": "a halberd",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      1, 
-      12, 
+      0,
+      1,
+      12,
       3
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 16
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "potion", 
-      "protection", 
-      "dun", 
+      "potion",
+      "protection",
+      "dun",
       "vial"
-    ], 
-    "cost": 10000, 
+    ],
+    "cost": 10000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "Looks thick, and brownish-grey (dun).  Ick!", 
+        "desc": "Looks thick, and brownish-grey (dun).  Ick!",
         "keywords": [
-          "potion", 
-          "protection", 
-          "dun", 
+          "potion",
+          "protection",
+          "dun",
           "vial"
         ]
       }
-    ], 
-    "id": 3306, 
-    "long_desc": "A vial of a dun fluid is here.", 
-    "rent": 2000, 
-    "short_desc": "a potion of protection", 
+    ],
+    "id": 3306,
+    "long_desc": "A vial of a dun fluid is here.",
+    "rent": 2000,
+    "short_desc": "a potion of protection",
     "type": {
-      "note": "POTION", 
+      "note": "POTION",
       "value": 10
-    }, 
+    },
     "values": [
-      20, 
-      36, 
-      1, 
+      20,
+      36,
+      1,
       3
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "crown"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The shield repulses you, making you wonder how\nyou're going to get your hands on this huge, valuble\nchunk of gold...", 
+        "desc": "The shield repulses you, making you wonder how\nyou're going to get your hands on this huge, valuble\nchunk of gold...",
         "keywords": [
           "crown"
         ]
       }
-    ], 
-    "id": 3307, 
-    "long_desc": "Aglandiir's crown sits here, radiating a shield.", 
-    "rent": 0, 
-    "short_desc": "a dragon's crown", 
+    ],
+    "id": 3307,
+    "long_desc": "Aglandiir's crown sits here, radiating a shield.",
+    "rent": 0,
+    "short_desc": "a dragon's crown",
     "type": {
-      "note": "TREASURE", 
+      "note": "TREASURE",
       "value": 8
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
-    "wear": [], 
+    ],
+    "wear": [],
     "weight": 400
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "apple"
-    ], 
-    "cost": 5, 
-    "effects": [], 
+    ],
+    "cost": 5,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "It is not wormy... yet.", 
+        "desc": "It is not wormy... yet.",
         "keywords": [
           "apple"
         ]
       }
-    ], 
-    "id": 3308, 
-    "long_desc": "A scrawny red apple sits here.", 
-    "rent": 2, 
-    "short_desc": "an apple", 
+    ],
+    "id": 3308,
+    "long_desc": "A scrawny red apple sits here.",
+    "rent": 2,
+    "short_desc": "an apple",
     "type": {
-      "note": "FOOD", 
+      "note": "FOOD",
       "value": 19
-    }, 
+    },
     "values": [
-      4, 
-      0, 
-      0, 
+      4,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "bread", 
+      "bread",
       "loaf"
-    ], 
-    "cost": 10, 
-    "effects": [], 
+    ],
+    "cost": 10,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "Mmmm... Rye!", 
+        "desc": "Mmmm... Rye!",
         "keywords": [
-          "bread", 
+          "bread",
           "loaf"
         ]
       }
-    ], 
-    "id": 3309, 
-    "long_desc": "A fresh loaf of bread lies here.", 
-    "rent": 5, 
-    "short_desc": "a loaf of bread", 
+    ],
+    "id": 3309,
+    "long_desc": "A fresh loaf of bread lies here.",
+    "rent": 5,
+    "short_desc": "a loaf of bread",
     "type": {
-      "note": "FOOD", 
+      "note": "FOOD",
       "value": 19
-    }, 
+    },
     "values": [
-      12, 
-      0, 
-      0, 
+      12,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "melon"
-    ], 
-    "cost": 8, 
-    "effects": [], 
+    ],
+    "cost": 8,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "Wow!  Look at the size of that melon!", 
+        "desc": "Wow!  Look at the size of that melon!",
         "keywords": [
           "melon"
         ]
       }
-    ], 
-    "id": 3310, 
-    "long_desc": "A melon sits here, discarded evidently.", 
-    "rent": 3, 
-    "short_desc": "a melon", 
+    ],
+    "id": 3310,
+    "long_desc": "A melon sits here, discarded evidently.",
+    "rent": 3,
+    "short_desc": "a melon",
     "type": {
-      "note": "FOOD", 
+      "note": "FOOD",
       "value": 19
-    }, 
+    },
     "values": [
-      8, 
-      0, 
-      0, 
+      8,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 3
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 3
-      }, 
+      },
       {
-        "location": 2, 
-        "note": "DEX", 
+        "location": 2,
+        "note": "DEX",
         "value": 2
       }
-    ], 
+    ],
     "aliases": [
       "knife"
-    ], 
-    "cost": 1000000, 
+    ],
+    "cost": 1000000,
     "effects": [
       {
-        "note": "NODONATE", 
+        "note": "NODONATE",
         "value": 8
-      }, 
+      },
       {
-        "note": "ANTI_CLERIC", 
+        "note": "ANTI_CLERIC",
         "value": 8192
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The craftsmanship... it takes your breath away!\nThis knife... it had to have been forged by the\nlegendary smith Gabadiel.  It must be worth a\nfortune!", 
+        "desc": "The craftsmanship... it takes your breath away!\nThis knife... it had to have been forged by the\nlegendary smith Gabadiel.  It must be worth a\nfortune!",
         "keywords": [
           "knife"
         ]
       }
-    ], 
-    "id": 3311, 
-    "long_desc": "An exquisitely crafted knife rests here.", 
-    "rent": 20000, 
-    "short_desc": "a knife", 
+    ],
+    "id": 3311,
+    "long_desc": "An exquisitely crafted knife rests here.",
+    "rent": 20000,
+    "short_desc": "a knife",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      3, 
-      5, 
+      0,
+      3,
+      5,
       11
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 8
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 2
-      }, 
+      },
       {
-        "location": 1, 
-        "note": "STR", 
+        "location": 1,
+        "note": "STR",
         "value": 1
       }
-    ], 
+    ],
     "aliases": [
-      "sword", 
+      "sword",
       "long"
-    ], 
-    "cost": 750000, 
+    ],
+    "cost": 750000,
     "effects": [
       {
-        "note": "NODONATE", 
+        "note": "NODONATE",
         "value": 8
-      }, 
+      },
       {
-        "note": "ANTI_MAGIC_USER", 
+        "note": "ANTI_MAGIC_USER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "ANTI_CLERIC", 
+        "note": "ANTI_CLERIC",
         "value": 8192
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "This sword is light, but the heft is perfectly\nbalanced.  Such an incredible weapon can only have\nbe crafted by the legendary smith Gabadiel, and\nas such be worth a fortune!", 
+        "desc": "This sword is light, but the heft is perfectly\nbalanced.  Such an incredible weapon can only have\nbe crafted by the legendary smith Gabadiel, and\nas such be worth a fortune!",
         "keywords": [
-          "sword", 
+          "sword",
           "long"
         ]
       }
-    ], 
-    "id": 3312, 
-    "long_desc": "A superb long sword sticks in the earth.", 
-    "rent": 15000, 
-    "short_desc": "a long sword", 
+    ],
+    "id": 3312,
+    "long_desc": "A superb long sword sticks in the earth.",
+    "rent": 15000,
+    "short_desc": "a long sword",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      2, 
-      7, 
+      0,
+      2,
+      7,
       3
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 15
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 4
-      }, 
+      },
       {
-        "location": 2, 
-        "note": "DEX", 
+        "location": 2,
+        "note": "DEX",
         "value": 3
       }
-    ], 
+    ],
     "aliases": [
-      "sword", 
+      "sword",
       "short"
-    ], 
-    "cost": 10000000, 
+    ],
+    "cost": 10000000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "NODONATE", 
+        "note": "NODONATE",
         "value": 8
-      }, 
+      },
       {
-        "note": "BLESS", 
+        "note": "BLESS",
         "value": 256
-      }, 
+      },
       {
-        "note": "ANTI_MAGIC_USER", 
+        "note": "ANTI_MAGIC_USER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "ANTI_CLERIC", 
+        "note": "ANTI_CLERIC",
         "value": 8192
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It brings tears to your eyes.  This must have\nbeen Gabadiel the smith's masterpiece; his final\nwork.  Simply invaluble.", 
+        "desc": "It brings tears to your eyes.  This must have\nbeen Gabadiel the smith's masterpiece; his final\nwork.  Simply invaluble.",
         "keywords": [
-          "sword", 
+          "sword",
           "short"
         ]
       }
-    ], 
-    "id": 3313, 
-    "long_desc": "A short sword lies here... a work of art!", 
-    "rent": 30000, 
-    "short_desc": "a short sword", 
+    ],
+    "id": 3313,
+    "long_desc": "A short sword lies here... a work of art!",
+    "rent": 30000,
+    "short_desc": "a short sword",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      4, 
-      6, 
+      0,
+      4,
+      6,
       3
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 10
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "corpse"
-    ], 
-    "cost": 1, 
-    "effects": [], 
+    ],
+    "cost": 1,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "It is still smouldering a little; the culprits can't\nbe far off!", 
+        "desc": "It is still smouldering a little; the culprits can't\nbe far off!",
         "keywords": [
           "corpse"
         ]
       }
-    ], 
-    "id": 3314, 
-    "long_desc": "A dismembered and burnt corpse lies on the ground here.", 
-    "rent": 1, 
-    "short_desc": "a dismembered and burnt corpse", 
+    ],
+    "id": 3314,
+    "long_desc": "A dismembered and burnt corpse lies on the ground here.",
+    "rent": 1,
+    "short_desc": "a dismembered and burnt corpse",
     "type": {
-      "note": "TRASH", 
+      "note": "TRASH",
       "value": 13
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
-    "wear": [], 
+    ],
+    "wear": [],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "scimitar"
-    ], 
-    "cost": 500, 
-    "effects": [], 
+    ],
+    "cost": 500,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "This weapon really isn't of too high a quality.", 
+        "desc": "This weapon really isn't of too high a quality.",
         "keywords": [
           "scimitar"
         ]
       }
-    ], 
-    "id": 3315, 
-    "long_desc": "A scimitar as long as your arm lies here.", 
-    "rent": 50, 
-    "short_desc": "a scimitar", 
+    ],
+    "id": 3315,
+    "long_desc": "A scimitar as long as your arm lies here.",
+    "rent": 50,
+    "short_desc": "a scimitar",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      1, 
-      7, 
+      0,
+      1,
+      7,
       3
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 10
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "crate"
-    ], 
-    "cost": 100, 
-    "effects": [], 
+    ],
+    "cost": 100,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "It's a standard wooden crate.", 
+        "desc": "It's a standard wooden crate.",
         "keywords": [
           "crate"
         ]
       }
-    ], 
-    "id": 3316, 
-    "long_desc": "A crate is stacked here.", 
-    "rent": 20, 
-    "short_desc": "a crate", 
+    ],
+    "id": 3316,
+    "long_desc": "A crate is stacked here.",
+    "rent": 20,
+    "short_desc": "a crate",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      200, 
-      5, 
-      0, 
+      200,
+      5,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 50
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 1
       }
-    ], 
+    ],
     "aliases": [
-      "bow", 
+      "bow",
       "hunting"
-    ], 
-    "cost": 400, 
-    "effects": [], 
+    ],
+    "cost": 400,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "This is the type of weapon you would use to bag\nsome deer or rabbits, but not the type you'd take\ninto battle...", 
+        "desc": "This is the type of weapon you would use to bag\nsome deer or rabbits, but not the type you'd take\ninto battle...",
         "keywords": [
-          "bow", 
+          "bow",
           "hunting"
         ]
       }
-    ], 
-    "id": 3317, 
-    "long_desc": "A hunting bow lies here, unwanted", 
-    "rent": 40, 
-    "short_desc": "a hunting bow", 
+    ],
+    "id": 3317,
+    "long_desc": "A hunting bow lies here, unwanted",
+    "rent": 40,
+    "short_desc": "a hunting bow",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      1, 
-      5, 
+      0,
+      1,
+      5,
       11
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 6
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "vest", 
+      "vest",
       "leather"
-    ], 
-    "cost": 5000, 
+    ],
+    "cost": 5000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The seams are delicately sewn with a enruned thread...", 
+        "desc": "The seams are delicately sewn with a enruned thread...",
         "keywords": [
-          "vest", 
+          "vest",
           "leather"
         ]
       }
-    ], 
-    "id": 3318, 
-    "long_desc": "A nice leather vest lies here.", 
-    "rent": 500, 
-    "short_desc": "a leather vest", 
+    ],
+    "id": 3318,
+    "long_desc": "A nice leather vest lies here.",
+    "rent": 500,
+    "short_desc": "a leather vest",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      6, 
-      0, 
-      0, 
+      6,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_BODY", 
+        "note": "WEAR_BODY",
         "value": 8
       }
-    ], 
+    ],
     "weight": 6
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "glass", 
+      "glass",
       "beer"
-    ], 
-    "cost": 5, 
-    "effects": [], 
+    ],
+    "cost": 5,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "This is a nice glass filled with homebrew.  There doesn't seem to\nbe too much stuff floating in it.", 
+        "desc": "This is a nice glass filled with homebrew.  There doesn't seem to\nbe too much stuff floating in it.",
         "keywords": [
           "glass"
         ]
       }
-    ], 
-    "id": 3319, 
-    "long_desc": "A glass of beer sits forgotten here.", 
-    "rent": 1, 
-    "short_desc": "a glass", 
+    ],
+    "id": 3319,
+    "long_desc": "A glass of beer sits forgotten here.",
+    "rent": 1,
+    "short_desc": "a glass",
     "type": {
-      "note": "DRINKCON", 
+      "note": "DRINKCON",
       "value": 17
-    }, 
+    },
     "values": [
-      1, 
-      1, 
-      1, 
+      1,
+      1,
+      1,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "glass", 
-      "mead", 
+      "glass",
+      "mead",
       "ale"
-    ], 
-    "cost": 8, 
-    "effects": [], 
+    ],
+    "cost": 8,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "Looks good.  Looks warm.  Doesn't matter; it still looks good.", 
+        "desc": "Looks good.  Looks warm.  Doesn't matter; it still looks good.",
         "keywords": [
-          "glass", 
+          "glass",
           "mead"
         ]
       }
-    ], 
-    "id": 3320, 
-    "long_desc": "A big glass of mead sits here, cool and frosty.", 
-    "rent": 3, 
-    "short_desc": "a glass", 
+    ],
+    "id": 3320,
+    "long_desc": "A big glass of mead sits here, cool and frosty.",
+    "rent": 3,
+    "short_desc": "a glass",
     "type": {
-      "note": "DRINKCON", 
+      "note": "DRINKCON",
       "value": 17
-    }, 
+    },
     "values": [
-      1, 
-      1, 
-      3, 
+      1,
+      1,
+      3,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "shot", 
+      "shot",
       "whisky"
-    ], 
-    "cost": 10, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 3321, 
-    "long_desc": "A shot of whisky is sitting here.", 
-    "rent": 5, 
-    "short_desc": "a shot", 
+    ],
+    "cost": 10,
+    "effects": [],
+    "extra_descs": [],
+    "id": 3321,
+    "long_desc": "A shot of whisky is sitting here.",
+    "rent": 5,
+    "short_desc": "a shot",
     "type": {
-      "note": "DRINKCON", 
+      "note": "DRINKCON",
       "value": 17
-    }, 
+    },
     "values": [
-      1, 
-      1, 
-      5, 
+      1,
+      1,
+      5,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 1
   }
 ]

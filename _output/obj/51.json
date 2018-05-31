@@ -2,869 +2,869 @@
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 1
-      }, 
+      },
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 1
       }
-    ], 
+    ],
     "aliases": [
-      "longsword", 
+      "longsword",
       "commoner"
-    ], 
-    "cost": 1000, 
+    ],
+    "cost": 1000,
     "effects": [
       {
-        "note": "ANTI_MAGIC_USER", 
+        "note": "ANTI_MAGIC_USER",
         "value": 4096
       }
-    ], 
-    "extra_descs": [], 
-    "id": 5100, 
-    "long_desc": "A commoner's longsword made of adamantite has been left here.", 
-    "rent": 500, 
-    "short_desc": "a commoner's longsword", 
+    ],
+    "extra_descs": [],
+    "id": 5100,
+    "long_desc": "A commoner's longsword made of adamantite has been left here.",
+    "rent": 500,
+    "short_desc": "a commoner's longsword",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      1, 
-      8, 
+      0,
+      1,
+      8,
       3
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 12
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 2
-      }, 
+      },
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 2
       }
-    ], 
+    ],
     "aliases": [
-      "longsword", 
+      "longsword",
       "noble"
-    ], 
-    "cost": 1500, 
+    ],
+    "cost": 1500,
     "effects": [
       {
-        "note": "ANTI_MAGIC_USER", 
+        "note": "ANTI_MAGIC_USER",
         "value": 4096
       }
-    ], 
-    "extra_descs": [], 
-    "id": 5101, 
-    "long_desc": "A drow noble's longsword, made of adamantite, lies here.", 
-    "rent": 800, 
-    "short_desc": "a noble's longsword", 
+    ],
+    "extra_descs": [],
+    "id": 5101,
+    "long_desc": "A drow noble's longsword, made of adamantite, lies here.",
+    "rent": 800,
+    "short_desc": "a noble's longsword",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      1, 
-      8, 
+      0,
+      1,
+      8,
       3
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 12
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 2
-      }, 
+      },
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 2
       }
-    ], 
+    ],
     "aliases": [
-      "whip", 
-      "snake", 
+      "whip",
+      "snake",
       "twoheaded"
-    ], 
-    "cost": 1750, 
+    ],
+    "cost": 1750,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "HUM", 
+        "note": "HUM",
         "value": 2
       }
-    ], 
-    "extra_descs": [], 
-    "id": 5102, 
-    "long_desc": "A whip with two snakes heads lies here.", 
-    "rent": 1500, 
-    "short_desc": "a two-headed snake whip", 
+    ],
+    "extra_descs": [],
+    "id": 5102,
+    "long_desc": "A whip with two snakes heads lies here.",
+    "rent": 1500,
+    "short_desc": "a two-headed snake whip",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      2, 
-      6, 
+      0,
+      2,
+      6,
       3
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 12
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 2
-      }, 
+      },
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 2
       }
-    ], 
+    ],
     "aliases": [
-      "whip", 
-      "snake", 
+      "whip",
+      "snake",
       "threeheaded"
-    ], 
-    "cost": 5000, 
+    ],
+    "cost": 5000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "HUM", 
+        "note": "HUM",
         "value": 2
       }
-    ], 
-    "extra_descs": [], 
-    "id": 5103, 
-    "long_desc": "A whip with three snake heads has been left here.", 
-    "rent": 2300, 
-    "short_desc": "a three-headed snake whip", 
+    ],
+    "extra_descs": [],
+    "id": 5103,
+    "long_desc": "A whip with three snake heads has been left here.",
+    "rent": 2300,
+    "short_desc": "a three-headed snake whip",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      2, 
-      7, 
+      0,
+      2,
+      7,
       3
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 12
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 2
-      }, 
+      },
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 2
       }
-    ], 
+    ],
     "aliases": [
-      "whip", 
-      "snake", 
+      "whip",
+      "snake",
       "fourheaded"
-    ], 
-    "cost": 10250, 
+    ],
+    "cost": 10250,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "HUM", 
+        "note": "HUM",
         "value": 2
       }
-    ], 
-    "extra_descs": [], 
-    "id": 5104, 
-    "long_desc": "A whip with four snake heads has been carelessly left here.", 
-    "rent": 4000, 
-    "short_desc": "a four-headed snake whip", 
+    ],
+    "extra_descs": [],
+    "id": 5104,
+    "long_desc": "A whip with four snake heads has been carelessly left here.",
+    "rent": 4000,
+    "short_desc": "a four-headed snake whip",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      2, 
-      8, 
+      0,
+      2,
+      8,
       3
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 12
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 2
-      }, 
+      },
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 2
       }
-    ], 
+    ],
     "aliases": [
-      "longsword", 
+      "longsword",
       "black"
-    ], 
-    "cost": 10250, 
+    ],
+    "cost": 10250,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_MAGIC_USER", 
+        "note": "ANTI_MAGIC_USER",
         "value": 4096
       }
-    ], 
-    "extra_descs": [], 
-    "id": 5105, 
-    "long_desc": "A black longsword has been carelessly left here.", 
-    "rent": 4000, 
-    "short_desc": "a black longsword", 
+    ],
+    "extra_descs": [],
+    "id": 5105,
+    "long_desc": "A black longsword has been carelessly left here.",
+    "rent": 4000,
+    "short_desc": "a black longsword",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      2, 
-      8, 
+      0,
+      2,
+      8,
       3
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 12
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 1, 
-        "note": "STR", 
+        "location": 1,
+        "note": "STR",
         "value": -2
-      }, 
+      },
       {
-        "location": 3, 
-        "note": "INT", 
+        "location": 3,
+        "note": "INT",
         "value": -2
       }
-    ], 
+    ],
     "aliases": [
-      "whip", 
-      "snake", 
+      "whip",
+      "snake",
       "fiveheaded"
-    ], 
-    "cost": 12000, 
+    ],
+    "cost": 12000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_GOOD", 
+        "note": "ANTI_GOOD",
         "value": 512
       }
-    ], 
-    "extra_descs": [], 
-    "id": 5106, 
-    "long_desc": "A whip with 5 snake heads has been carelessly dropped here.", 
-    "rent": 4500, 
-    "short_desc": "a five-headed snake whip", 
+    ],
+    "extra_descs": [],
+    "id": 5106,
+    "long_desc": "A whip with 5 snake heads has been carelessly dropped here.",
+    "rent": 4500,
+    "short_desc": "a five-headed snake whip",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      3, 
-      6, 
+      0,
+      3,
+      6,
       3
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 12
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 1, 
-        "note": "STR", 
+        "location": 1,
+        "note": "STR",
         "value": -3
-      }, 
+      },
       {
-        "location": 3, 
-        "note": "INT", 
+        "location": 3,
+        "note": "INT",
         "value": -3
       }
-    ], 
+    ],
     "aliases": [
-      "whip", 
-      "snake", 
+      "whip",
+      "snake",
       "sixheaded"
-    ], 
-    "cost": 15000, 
+    ],
+    "cost": 15000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_GOOD", 
+        "note": "ANTI_GOOD",
         "value": 512
       }
-    ], 
-    "extra_descs": [], 
-    "id": 5107, 
-    "long_desc": "A whip with six snake heads has been dropped here very carelessly.", 
-    "rent": 8000, 
-    "short_desc": "a six-headed snake whip", 
+    ],
+    "extra_descs": [],
+    "id": 5107,
+    "long_desc": "A whip with six snake heads has been dropped here very carelessly.",
+    "rent": 8000,
+    "short_desc": "a six-headed snake whip",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      4, 
-      5, 
+      0,
+      4,
+      5,
       3
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 12
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": -1
       }
-    ], 
+    ],
     "aliases": [
-      "bracers", 
+      "bracers",
       "iron"
-    ], 
-    "cost": 2000, 
+    ],
+    "cost": 2000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 5108, 
-    "long_desc": "A pair of iron bracers has been dropped here.", 
-    "rent": 1000, 
-    "short_desc": "a pair of bracers", 
+    ],
+    "extra_descs": [],
+    "id": 5108,
+    "long_desc": "A pair of iron bracers has been dropped here.",
+    "rent": 1000,
+    "short_desc": "a pair of bracers",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      8, 
-      0, 
-      0, 
+      8,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_ARMS", 
+        "note": "WEAR_ARMS",
         "value": 256
       }
-    ], 
+    ],
     "weight": 3
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 1, 
-        "note": "STR", 
+        "location": 1,
+        "note": "STR",
         "value": 2
       }
-    ], 
+    ],
     "aliases": [
       "gauntlets"
-    ], 
-    "cost": 10000, 
+    ],
+    "cost": 10000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
       }
-    ], 
-    "extra_descs": [], 
-    "id": 5109, 
-    "long_desc": "A pair of gauntlets is lying on the ground.", 
-    "rent": 3000, 
-    "short_desc": "a pair of gauntlets", 
+    ],
+    "extra_descs": [],
+    "id": 5109,
+    "long_desc": "A pair of gauntlets is lying on the ground.",
+    "rent": 3000,
+    "short_desc": "a pair of gauntlets",
     "type": {
-      "note": "WORN", 
+      "note": "WORN",
       "value": 11
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HANDS", 
+        "note": "WEAR_HANDS",
         "value": 128
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "wand", 
-      "blue", 
+      "wand",
+      "blue",
       "silver"
-    ], 
-    "cost": 4000, 
+    ],
+    "cost": 4000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 5110, 
-    "long_desc": "A silvery blue wand has been dropped in the dirt.", 
-    "rent": 3000, 
-    "short_desc": "a silvery blue wand", 
+    ],
+    "extra_descs": [],
+    "id": 5110,
+    "long_desc": "A silvery blue wand has been dropped in the dirt.",
+    "rent": 3000,
+    "short_desc": "a silvery blue wand",
     "type": {
-      "note": "WAND", 
+      "note": "WAND",
       "value": 3
-    }, 
+    },
     "values": [
-      10, 
-      3, 
-      3, 
+      10,
+      3,
+      3,
       30
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 3, 
-        "note": "INT", 
+        "location": 3,
+        "note": "INT",
         "value": 3
       }
-    ], 
+    ],
     "aliases": [
-      "helmet", 
+      "helmet",
       "small"
-    ], 
-    "cost": 6000, 
+    ],
+    "cost": 6000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 5111, 
-    "long_desc": "A small helmet lies up against a rock.", 
-    "rent": 3000, 
-    "short_desc": "a small helmet", 
+    ],
+    "extra_descs": [],
+    "id": 5111,
+    "long_desc": "A small helmet lies up against a rock.",
+    "rent": 3000,
+    "short_desc": "a small helmet",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      1, 
-      0, 
-      0, 
+      1,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HEAD", 
+        "note": "WEAR_HEAD",
         "value": 16
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 13, 
-        "note": "HIT", 
+        "location": 13,
+        "note": "HIT",
         "value": 25
       }
-    ], 
+    ],
     "aliases": [
-      "ring", 
+      "ring",
       "ruby"
-    ], 
-    "cost": 20000, 
+    ],
+    "cost": 20000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 5112, 
-    "long_desc": "A small ruby ring lies in the dirt.", 
-    "rent": 8000, 
-    "short_desc": "a small ruby ring", 
+    ],
+    "extra_descs": [],
+    "id": 5112,
+    "long_desc": "A small ruby ring lies in the dirt.",
+    "rent": 8000,
+    "short_desc": "a small ruby ring",
     "type": {
-      "note": "WORN", 
+      "note": "WORN",
       "value": 11
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_FINGER", 
+        "note": "WEAR_FINGER",
         "value": 2
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 3
-      }, 
+      },
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 3
       }
-    ], 
+    ],
     "aliases": [
-      "dagger", 
-      "sacrificial", 
+      "dagger",
+      "sacrificial",
       "spider"
-    ], 
-    "cost": 12000, 
+    ],
+    "cost": 12000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_GOOD", 
+        "note": "ANTI_GOOD",
         "value": 512
-      }, 
+      },
       {
-        "note": "ANTI_MAGIC_USER", 
+        "note": "ANTI_MAGIC_USER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "ANTI_CLERIC", 
+        "note": "ANTI_CLERIC",
         "value": 8192
-      }, 
+      },
       {
-        "note": "ANTI_WARRIOR", 
+        "note": "ANTI_WARRIOR",
         "value": 32768
       }
-    ], 
-    "extra_descs": [], 
-    "id": 5113, 
-    "long_desc": "A dagger with spider leg shaped blades lies on the ground.", 
-    "rent": 15000, 
-    "short_desc": "a spider shaped dagger", 
+    ],
+    "extra_descs": [],
+    "id": 5113,
+    "long_desc": "A dagger with spider leg shaped blades lies on the ground.",
+    "rent": 15000,
+    "short_desc": "a spider shaped dagger",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      3, 
-      4, 
+      0,
+      3,
+      4,
       11
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 8
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 9, 
-        "note": "AGE", 
+        "location": 9,
+        "note": "AGE",
         "value": -15
-      }, 
+      },
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": -2
       }
-    ], 
+    ],
     "aliases": [
-      "hat", 
+      "hat",
       "green"
-    ], 
-    "cost": 2000, 
+    ],
+    "cost": 2000,
     "effects": [
       {
-        "note": "NODROP", 
+        "note": "NODROP",
         "value": 128
       }
-    ], 
-    "extra_descs": [], 
-    "id": 5114, 
-    "long_desc": "A small bright green hat lies in the dirt.", 
-    "rent": 600, 
-    "short_desc": "a small bright green hat", 
+    ],
+    "extra_descs": [],
+    "id": 5114,
+    "long_desc": "A small bright green hat lies in the dirt.",
+    "rent": 600,
+    "short_desc": "a small bright green hat",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      10, 
-      0, 
-      0, 
+      10,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HEAD", 
+        "note": "WEAR_HEAD",
         "value": 16
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "key", 
+      "key",
       "adamantite"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
       }
-    ], 
-    "extra_descs": [], 
-    "id": 5115, 
-    "long_desc": "A key made of a strange metal is lying here.", 
-    "rent": 0, 
-    "short_desc": "an adamantite key", 
+    ],
+    "extra_descs": [],
+    "id": 5115,
+    "long_desc": "A key made of a strange metal is lying here.",
+    "rent": 0,
+    "short_desc": "an adamantite key",
     "type": {
-      "note": "KEY", 
+      "note": "KEY",
       "value": 18
-    }, 
+    },
     "values": [
-      5115, 
-      0, 
-      0, 
+      5115,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "gold", 
-      "treasure", 
+      "gold",
+      "treasure",
       "coins"
-    ], 
-    "cost": 17645, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 5116, 
-    "long_desc": "A large pile of golden coins is lying here.", 
-    "rent": 0, 
-    "short_desc": "a pile of golden coins", 
+    ],
+    "cost": 17645,
+    "effects": [],
+    "extra_descs": [],
+    "id": 5116,
+    "long_desc": "A large pile of golden coins is lying here.",
+    "rent": 0,
+    "short_desc": "a pile of golden coins",
     "type": {
-      "note": "MONEY", 
+      "note": "MONEY",
       "value": 20
-    }, 
+    },
     "values": [
-      17645, 
-      0, 
-      0, 
+      17645,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 10
   }
 ]

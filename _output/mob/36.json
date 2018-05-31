@@ -2,781 +2,781 @@
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
       }
-    ], 
+    ],
     "aliases": [
-      "black", 
+      "black",
       "pawn"
-    ], 
-    "alignment": -400, 
-    "armor_class": 5, 
+    ],
+    "alignment": -400,
+    "armor_class": 5,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 2, 
+      "bonus": 2,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "The Black Pawn looks quite like a small knight without his powerful steed.\nHis armor is shiny and black.  He stands ready to give his life for the\nCrown.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The Black Pawn looks quite like a small knight without his powerful steed.\nHis armor is shiny and black.  He stands ready to give his life for the\nCrown.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 500, 
-    "id": 3600, 
-    "level": 6, 
-    "long_desc": "You see a pawn standing here waiting for orders.", 
+    },
+    "gold": 500,
+    "id": 3600,
+    "level": 6,
+    "long_desc": "You see a pawn standing here waiting for orders.",
     "max_hit_points": {
-      "bonus": 50, 
-      "dice": 5, 
+      "bonus": 50,
+      "dice": 5,
       "sides": 4
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Pawn of the Black Court", 
-    "thac0": 2, 
+    },
+    "short_desc": "the Pawn of the Black Court",
+    "thac0": 2,
     "xp": 1000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
       }
-    ], 
+    ],
     "aliases": [
-      "white", 
+      "white",
       "pawn"
-    ], 
-    "alignment": 400, 
-    "armor_class": 5, 
+    ],
+    "alignment": 400,
+    "armor_class": 5,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 2, 
+      "bonus": 2,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "The White Pawn looks quite like a small knight without his powerful steed.\nHis armor is spotless and white.  He stands ready to give his life for the\nCrown.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The White Pawn looks quite like a small knight without his powerful steed.\nHis armor is spotless and white.  He stands ready to give his life for the\nCrown.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 500, 
-    "id": 3601, 
-    "level": 6, 
-    "long_desc": "You see a pawn standing here waiting for orders.", 
+    },
+    "gold": 500,
+    "id": 3601,
+    "level": 6,
+    "long_desc": "You see a pawn standing here waiting for orders.",
     "max_hit_points": {
-      "bonus": 50, 
-      "dice": 5, 
+      "bonus": 50,
+      "dice": 5,
       "sides": 4
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Pawn of the White Court", 
-    "thac0": 2, 
+    },
+    "short_desc": "the Pawn of the White Court",
+    "thac0": 2,
     "xp": 1000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
       }
-    ], 
+    ],
     "aliases": [
-      "black", 
-      "rook", 
+      "black",
+      "rook",
       "castle"
-    ], 
-    "alignment": -600, 
-    "armor_class": 1, 
+    ],
+    "alignment": -600,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 3, 
+      "bonus": 5,
+      "dice": 3,
       "sides": 8
-    }, 
-    "detail_desc": "The Black Rook is a very large man-made tomb on wheels.  Just\nfrom the looks of it, it will probably be YOUR tomb.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The Black Rook is a very large man-made tomb on wheels.  Just\nfrom the looks of it, it will probably be YOUR tomb.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 5000, 
-    "id": 3602, 
-    "level": 27, 
-    "long_desc": "In the corner you see a large, black, stone castle on wheels.", 
+    },
+    "gold": 5000,
+    "id": 3602,
+    "level": 27,
+    "long_desc": "In the corner you see a large, black, stone castle on wheels.",
     "max_hit_points": {
-      "bonus": 500, 
-      "dice": 2, 
+      "bonus": 500,
+      "dice": 2,
       "sides": 6
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Black Rook", 
-    "thac0": 11, 
+    },
+    "short_desc": "the Black Rook",
+    "thac0": 11,
     "xp": 85000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
       }
-    ], 
+    ],
     "aliases": [
-      "white", 
-      "rook", 
+      "white",
+      "rook",
       "castle"
-    ], 
-    "alignment": 600, 
-    "armor_class": 1, 
+    ],
+    "alignment": 600,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 3, 
+      "bonus": 5,
+      "dice": 3,
       "sides": 8
-    }, 
-    "detail_desc": "The White Rook is a very large man-made tomb on wheels.  Just\nfrom the looks of it, it will probably be YOUR tomb.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The White Rook is a very large man-made tomb on wheels.  Just\nfrom the looks of it, it will probably be YOUR tomb.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 5000, 
-    "id": 3603, 
-    "level": 27, 
-    "long_desc": "In the corner you see a large, white, stone castle on wheels.", 
+    },
+    "gold": 5000,
+    "id": 3603,
+    "level": 27,
+    "long_desc": "In the corner you see a large, white, stone castle on wheels.",
     "max_hit_points": {
-      "bonus": 500, 
-      "dice": 2, 
+      "bonus": 500,
+      "dice": 2,
       "sides": 6
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the White Rook", 
-    "thac0": 11, 
+    },
+    "short_desc": "the White Rook",
+    "thac0": 11,
     "xp": 85000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
       }
-    ], 
+    ],
     "aliases": [
-      "black", 
+      "black",
       "knight"
-    ], 
-    "alignment": -400, 
-    "armor_class": 0, 
+    ],
+    "alignment": -400,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 2, 
+      "bonus": 1,
+      "dice": 2,
       "sides": 8
-    }, 
-    "detail_desc": "The Black Knight is here, riding his ebony black war horse.  His eyes\nflash behind his visor in vengence.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The Black Knight is here, riding his ebony black war horse.  His eyes\nflash behind his visor in vengence.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 3000, 
-    "id": 3604, 
-    "level": 18, 
-    "long_desc": "Here stands a magnificent knight of the dark realm.", 
+    },
+    "gold": 3000,
+    "id": 3604,
+    "level": 18,
+    "long_desc": "Here stands a magnificent knight of the dark realm.",
     "max_hit_points": {
-      "bonus": 350, 
-      "dice": 4, 
+      "bonus": 350,
+      "dice": 4,
       "sides": 8
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Black Knight", 
-    "thac0": 8, 
+    },
+    "short_desc": "the Black Knight",
+    "thac0": 8,
     "xp": 22500
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
       }
-    ], 
+    ],
     "aliases": [
-      "white", 
+      "white",
       "knight"
-    ], 
-    "alignment": 400, 
-    "armor_class": 0, 
+    ],
+    "alignment": 400,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 2, 
+      "bonus": 1,
+      "dice": 2,
       "sides": 8
-    }, 
-    "detail_desc": "The White Knight is here, riding his ivory white war horse.  His eyes\ngleam behind his visor in joy.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The White Knight is here, riding his ivory white war horse.  His eyes\ngleam behind his visor in joy.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 3000, 
-    "id": 3605, 
-    "level": 18, 
-    "long_desc": "Here stands a magnificent knight of the light realm.", 
+    },
+    "gold": 3000,
+    "id": 3605,
+    "level": 18,
+    "long_desc": "Here stands a magnificent knight of the light realm.",
     "max_hit_points": {
-      "bonus": 350, 
-      "dice": 4, 
+      "bonus": 350,
+      "dice": 4,
       "sides": 8
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the White Knight", 
-    "thac0": 8, 
+    },
+    "short_desc": "the White Knight",
+    "thac0": 8,
     "xp": 22500
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
       }
-    ], 
+    ],
     "aliases": [
-      "black", 
-      "bishop", 
+      "black",
+      "bishop",
       "priest"
-    ], 
-    "alignment": -500, 
-    "armor_class": 1, 
+    ],
+    "alignment": -500,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 13, 
-      "dice": 3, 
+      "bonus": 13,
+      "dice": 3,
       "sides": 6
-    }, 
-    "detail_desc": "The Black Bishop seems willing to help you straight into your grave so\nhe can bless you properly.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The Black Bishop seems willing to help you straight into your grave so\nhe can bless you properly.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 4000, 
-    "id": 3606, 
-    "level": 24, 
-    "long_desc": "A dark priest stands here.", 
+    },
+    "gold": 4000,
+    "id": 3606,
+    "level": 24,
+    "long_desc": "A dark priest stands here.",
     "max_hit_points": {
-      "bonus": 350, 
-      "dice": 2, 
+      "bonus": 350,
+      "dice": 2,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Black Bishop", 
-    "thac0": 11, 
+    },
+    "short_desc": "the Black Bishop",
+    "thac0": 11,
     "xp": 43500
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
       }
-    ], 
+    ],
     "aliases": [
-      "white", 
-      "bishop", 
+      "white",
+      "bishop",
       "priest"
-    ], 
-    "alignment": 500, 
-    "armor_class": 1, 
+    ],
+    "alignment": 500,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 13, 
-      "dice": 3, 
+      "bonus": 13,
+      "dice": 3,
       "sides": 6
-    }, 
-    "detail_desc": "The White Bishop seems willing to help you in any possible so that he can\nattain a higher spirituality.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The White Bishop seems willing to help you in any possible so that he can\nattain a higher spirituality.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 4000, 
-    "id": 3607, 
-    "level": 24, 
-    "long_desc": "A light priest stands here.", 
+    },
+    "gold": 4000,
+    "id": 3607,
+    "level": 24,
+    "long_desc": "A light priest stands here.",
     "max_hit_points": {
-      "bonus": 350, 
-      "dice": 2, 
+      "bonus": 350,
+      "dice": 2,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the White Bishop", 
-    "thac0": 11, 
+    },
+    "short_desc": "the White Bishop",
+    "thac0": 11,
     "xp": 43500
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
       }
-    ], 
+    ],
     "aliases": [
-      "black", 
+      "black",
       "queen"
-    ], 
-    "alignment": -750, 
-    "armor_class": -3, 
+    ],
+    "alignment": -750,
+    "armor_class": -3,
     "bare_hand_damage": {
-      "bonus": 13, 
-      "dice": 4, 
+      "bonus": 13,
+      "dice": 4,
       "sides": 6
-    }, 
-    "detail_desc": "The Black Queen is a strikingly beautiful woman with pale skin and a\nmass of dark hair that crowns her head like a black cloud.  If looks\ncould kill, you would already be dead.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The Black Queen is a strikingly beautiful woman with pale skin and a\nmass of dark hair that crowns her head like a black cloud.  If looks\ncould kill, you would already be dead.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 10000, 
-    "id": 3608, 
-    "level": 32, 
-    "long_desc": "The Black Queen stands here.", 
+    },
+    "gold": 10000,
+    "id": 3608,
+    "level": 32,
+    "long_desc": "The Black Queen stands here.",
     "max_hit_points": {
-      "bonus": 900, 
-      "dice": 5, 
+      "bonus": 900,
+      "dice": 5,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Black Queen", 
-    "thac0": 11, 
+    },
+    "short_desc": "the Black Queen",
+    "thac0": 11,
     "xp": 200000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
       }
-    ], 
+    ],
     "aliases": [
-      "white", 
+      "white",
       "queen"
-    ], 
-    "alignment": 750, 
-    "armor_class": -3, 
+    ],
+    "alignment": 750,
+    "armor_class": -3,
     "bare_hand_damage": {
-      "bonus": 13, 
-      "dice": 4, 
+      "bonus": 13,
+      "dice": 4,
       "sides": 6
-    }, 
-    "detail_desc": "The White Queen is a stunningly beautiful woman with dark skin and a mass\nof light hair that frames her head like the sun.  This is surely love at\nfirst sight for you.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The White Queen is a stunningly beautiful woman with dark skin and a mass\nof light hair that frames her head like the sun.  This is surely love at\nfirst sight for you.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 10000, 
-    "id": 3609, 
-    "level": 32, 
-    "long_desc": "The White Queen stands here.", 
+    },
+    "gold": 10000,
+    "id": 3609,
+    "level": 32,
+    "long_desc": "The White Queen stands here.",
     "max_hit_points": {
-      "bonus": 900, 
-      "dice": 5, 
+      "bonus": 900,
+      "dice": 5,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the White Queen", 
-    "thac0": 11, 
+    },
+    "short_desc": "the White Queen",
+    "thac0": 11,
     "xp": 200000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
       }
-    ], 
+    ],
     "aliases": [
-      "black", 
+      "black",
       "king"
-    ], 
-    "alignment": -999, 
-    "armor_class": -6, 
+    ],
+    "alignment": -999,
+    "armor_class": -6,
     "bare_hand_damage": {
-      "bonus": 20, 
-      "dice": 5, 
+      "bonus": 20,
+      "dice": 5,
       "sides": 8
-    }, 
-    "detail_desc": "The Black King is a menacing figure.  You can easily understand why he\nis the king and you are not.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The Black King is a menacing figure.  You can easily understand why he\nis the king and you are not.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 20000, 
-    "id": 3610, 
-    "level": 36, 
-    "long_desc": "The Black King stands here.", 
+    },
+    "gold": 20000,
+    "id": 3610,
+    "level": 36,
+    "long_desc": "The Black King stands here.",
     "max_hit_points": {
-      "bonus": 2000, 
-      "dice": 10, 
+      "bonus": 2000,
+      "dice": 10,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Black King", 
-    "thac0": 14, 
+    },
+    "short_desc": "the Black King",
+    "thac0": 14,
     "xp": 300000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
       }
-    ], 
+    ],
     "aliases": [
-      "white", 
+      "white",
       "king"
-    ], 
-    "alignment": 999, 
-    "armor_class": -6, 
+    ],
+    "alignment": 999,
+    "armor_class": -6,
     "bare_hand_damage": {
-      "bonus": 20, 
-      "dice": 5, 
+      "bonus": 20,
+      "dice": 5,
       "sides": 8
-    }, 
-    "detail_desc": "The White King is a stately figure.  You can easily understand why he\nis the king and you are not.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The White King is a stately figure.  You can easily understand why he\nis the king and you are not.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 20000, 
-    "id": 3611, 
-    "level": 36, 
-    "long_desc": "The White King stands here.", 
+    },
+    "gold": 20000,
+    "id": 3611,
+    "level": 36,
+    "long_desc": "The White King stands here.",
     "max_hit_points": {
-      "bonus": 2000, 
-      "dice": 10, 
+      "bonus": 2000,
+      "dice": 10,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the White King", 
-    "thac0": 14, 
+    },
+    "short_desc": "the White King",
+    "thac0": 14,
     "xp": 300000
   }
 ]

@@ -1,482 +1,482 @@
 [
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "key", 
-      "golden", 
+      "key",
+      "golden",
       "heavy"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
       }
-    ], 
-    "extra_descs": [], 
-    "id": 900, 
-    "long_desc": "A heavy golden key lies here.", 
-    "rent": 0, 
-    "short_desc": "a golden key", 
+    ],
+    "extra_descs": [],
+    "id": 900,
+    "long_desc": "A heavy golden key lies here.",
+    "rent": 0,
+    "short_desc": "a golden key",
     "type": {
-      "note": "KEY", 
+      "note": "KEY",
       "value": 18
-    }, 
+    },
     "values": [
-      900, 
-      0, 
-      0, 
+      900,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 23, 
-        "note": "SAVING_BREATH", 
+        "location": 23,
+        "note": "SAVING_BREATH",
         "value": -4
       }
-    ], 
+    ],
     "aliases": [
-      "shield", 
+      "shield",
       "minotaur"
-    ], 
-    "cost": 5000, 
+    ],
+    "cost": 5000,
     "effects": [
       {
-        "note": "NODONATE", 
+        "note": "NODONATE",
         "value": 8
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "NODROP", 
+        "note": "NODROP",
         "value": 128
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "A strong, sturdy shield.  It brings to mind legends of a shield that\nprovided protection from poisonous gases.", 
+        "desc": "A strong, sturdy shield.  It brings to mind legends of a shield that\nprovided protection from poisonous gases.",
         "keywords": [
-          "shield", 
+          "shield",
           "minotaur"
         ]
       }
-    ], 
-    "id": 901, 
-    "long_desc": "A dark minotaur shield has been left here.", 
-    "rent": 1350, 
-    "short_desc": "a dark minotaur shield", 
+    ],
+    "id": 901,
+    "long_desc": "A dark minotaur shield has been left here.",
+    "rent": 1350,
+    "short_desc": "a dark minotaur shield",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      12, 
-      0, 
-      0, 
+      12,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_SHIELD", 
+        "note": "WEAR_SHIELD",
         "value": 512
       }
-    ], 
+    ],
     "weight": 12
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "potion", 
+      "potion",
       "speckled"
-    ], 
-    "cost": 1300, 
+    ],
+    "cost": 1300,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 902, 
-    "long_desc": "A speckled potion speckles here.", 
-    "rent": 500, 
-    "short_desc": "a speckled potion", 
+    ],
+    "extra_descs": [],
+    "id": 902,
+    "long_desc": "A speckled potion speckles here.",
+    "rent": 500,
+    "short_desc": "a speckled potion",
     "type": {
-      "note": "POTION", 
+      "note": "POTION",
       "value": 10
-    }, 
+    },
     "values": [
-      15, 
-      15, 
-      15, 
+      15,
+      15,
+      15,
       15
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "gauntlets", 
+      "gauntlets",
       "troll"
-    ], 
-    "cost": 2000, 
+    ],
+    "cost": 2000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 903, 
-    "long_desc": "A pair of gauntlets made from troll skin lie on the ground.", 
-    "rent": 1350, 
-    "short_desc": "a pair of troll gauntlets", 
+    ],
+    "extra_descs": [],
+    "id": 903,
+    "long_desc": "A pair of gauntlets made from troll skin lie on the ground.",
+    "rent": 1350,
+    "short_desc": "a pair of troll gauntlets",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      5, 
-      0, 
-      0, 
+      5,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HANDS", 
+        "note": "WEAR_HANDS",
         "value": 128
       }
-    ], 
+    ],
     "weight": 8
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": 10
-      }, 
+      },
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 2
       }
-    ], 
+    ],
     "aliases": [
-      "ring", 
+      "ring",
       "platinum"
-    ], 
-    "cost": 2000, 
+    ],
+    "cost": 2000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "NODROP", 
+        "note": "NODROP",
         "value": 128
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The inscription on the ring reads:\n\nCursed be the gods that supply coins to mortals!\nAnd cursed be the mortal that accepts valuable gifts from the gods!\nEspecially cursed are those who do not leave the toilet seat up!\n", 
+        "desc": "The inscription on the ring reads:\n\nCursed be the gods that supply coins to mortals!\nAnd cursed be the mortal that accepts valuable gifts from the gods!\nEspecially cursed are those who do not leave the toilet seat up!\n",
         "keywords": [
-          "ring", 
-          "platinum", 
+          "ring",
+          "platinum",
           "inscription"
         ]
       }
-    ], 
-    "id": 904, 
-    "long_desc": "A shining ring of platinum lies here.  It has a tiny inscription.", 
-    "rent": 5500, 
-    "short_desc": "a platinum ring", 
+    ],
+    "id": 904,
+    "long_desc": "A shining ring of platinum lies here.  It has a tiny inscription.",
+    "rent": 5500,
+    "short_desc": "a platinum ring",
     "type": {
-      "note": "LIGHT", 
+      "note": "LIGHT",
       "value": 1
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      -1, 
+      0,
+      0,
+      -1,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_FINGER", 
+        "note": "WEAR_FINGER",
         "value": 2
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 2
       }
-    ], 
+    ],
     "aliases": [
       "flail"
-    ], 
-    "cost": 5000, 
+    ],
+    "cost": 5000,
     "effects": [
       {
-        "note": "INVISIBLE", 
+        "note": "INVISIBLE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "NODROP", 
+        "note": "NODROP",
         "value": 128
       }
-    ], 
-    "extra_descs": [], 
-    "id": 905, 
-    "long_desc": "A flail has been carelessly left here.", 
-    "rent": 3500, 
-    "short_desc": "a flail", 
+    ],
+    "extra_descs": [],
+    "id": 905,
+    "long_desc": "A flail has been carelessly left here.",
+    "rent": 3500,
+    "short_desc": "a flail",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      3, 
-      4, 
+      0,
+      3,
+      4,
       7
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 8
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "coins", 
-      "gold", 
+      "coins",
+      "gold",
       "treasure"
-    ], 
-    "cost": 43500, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 906, 
-    "long_desc": "A great, gleaming pile of treasure lies at your feet.", 
-    "rent": 0, 
-    "short_desc": "a great pile of treasure", 
+    ],
+    "cost": 43500,
+    "effects": [],
+    "extra_descs": [],
+    "id": 906,
+    "long_desc": "A great, gleaming pile of treasure lies at your feet.",
+    "rent": 0,
+    "short_desc": "a great pile of treasure",
     "type": {
-      "note": "MONEY", 
+      "note": "MONEY",
       "value": 20
-    }, 
+    },
     "values": [
-      43500, 
-      0, 
-      0, 
+      43500,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 20
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 1
       }
-    ], 
+    ],
     "aliases": [
-      "spear", 
+      "spear",
       "heavy"
-    ], 
-    "cost": 450, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 907, 
-    "long_desc": "A heavy spear has been tossed on the ground here.", 
-    "rent": 200, 
-    "short_desc": "a heavy spear", 
+    ],
+    "cost": 450,
+    "effects": [],
+    "extra_descs": [],
+    "id": 907,
+    "long_desc": "A heavy spear has been tossed on the ground here.",
+    "rent": 200,
+    "short_desc": "a heavy spear",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      1, 
-      7, 
+      0,
+      1,
+      7,
       11
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 8
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "trident"
-    ], 
-    "cost": 350, 
-    "effects": [], 
+    ],
+    "cost": 350,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "This is a common trident, often used by gladiators or mermen.  It has\nthree sharp prongs jutting from the business end and a smooth wooden\nhandle with two comfortable grip points.", 
+        "desc": "This is a common trident, often used by gladiators or mermen.  It has\nthree sharp prongs jutting from the business end and a smooth wooden\nhandle with two comfortable grip points.",
         "keywords": [
           "trident"
         ]
       }
-    ], 
-    "id": 908, 
-    "long_desc": "There is a warrior's trident here.", 
-    "rent": 200, 
-    "short_desc": "a trident", 
+    ],
+    "id": 908,
+    "long_desc": "There is a warrior's trident here.",
+    "rent": 200,
+    "short_desc": "a trident",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      2, 
-      4, 
+      0,
+      2,
+      4,
       11
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 8
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 14, 
-        "note": "MOVE", 
+        "location": 14,
+        "note": "MOVE",
         "value": -20
       }
-    ], 
+    ],
     "aliases": [
-      "boots", 
+      "boots",
       "boat"
-    ], 
-    "cost": 5000, 
+    ],
+    "cost": 5000,
     "effects": [
       {
-        "note": "NODONATE", 
+        "note": "NODONATE",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOINVIS", 
+        "note": "NOINVIS",
         "value": 16
-      }, 
+      },
       {
-        "note": "NOSELL", 
+        "note": "NOSELL",
         "value": 65536
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The boots are made of a strange lightweight hide and float in a puddle\nof water.", 
+        "desc": "The boots are made of a strange lightweight hide and float in a puddle\nof water.",
         "keywords": [
-          "boots", 
+          "boots",
           "boat"
         ]
       }
-    ], 
-    "id": 909, 
-    "long_desc": "A pair of boots sit here in a puddle of water.", 
-    "rent": 1850, 
-    "short_desc": "a pair of boots", 
+    ],
+    "id": 909,
+    "long_desc": "A pair of boots sit here in a puddle of water.",
+    "rent": 1850,
+    "short_desc": "a pair of boots",
     "type": {
-      "note": "BOAT", 
+      "note": "BOAT",
       "value": 22
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_FEET", 
+        "note": "WEAR_FEET",
         "value": 64
       }
-    ], 
+    ],
     "weight": 1
   }
 ]

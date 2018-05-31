@@ -1,293 +1,293 @@
 [
   {
-    "bottom_room": 6300, 
+    "bottom_room": 6300,
     "doors": [
       {
-        "exit": 0, 
-        "room": 6392, 
+        "exit": 0,
+        "room": 6392,
         "state": 2
-      }, 
+      },
       {
-        "exit": 2, 
-        "room": 6399, 
+        "exit": 2,
+        "room": 6399,
         "state": 2
       }
-    ], 
-    "id": 63, 
-    "lifespan": 34, 
+    ],
+    "id": 63,
+    "lifespan": 34,
     "mobs": [
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 10, 
-        "mob": 6301, 
+        "equipped": [],
+        "inventory": [],
+        "max": 10,
+        "mob": 6301,
         "room": 6301
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 10, 
-        "mob": 6301, 
+        "equipped": [],
+        "inventory": [],
+        "max": 10,
+        "mob": 6301,
         "room": 6306
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 10, 
-        "mob": 6301, 
+        "equipped": [],
+        "inventory": [],
+        "max": 10,
+        "mob": 6301,
         "room": 6306
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 10, 
-        "mob": 6301, 
+        "equipped": [],
+        "inventory": [],
+        "max": 10,
+        "mob": 6301,
         "room": 6304
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 1, 
-        "mob": 6305, 
+        "equipped": [],
+        "inventory": [],
+        "max": 1,
+        "mob": 6305,
         "room": 6303
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 1, 
-        "mob": 6310, 
+        "equipped": [],
+        "inventory": [],
+        "max": 1,
+        "mob": 6310,
         "room": 6342
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 1, 
-        "mob": 6303, 
+        "equipped": [],
+        "inventory": [],
+        "max": 1,
+        "mob": 6303,
         "room": 6313
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 5, 
-        "mob": 6308, 
+        "equipped": [],
+        "inventory": [],
+        "max": 5,
+        "mob": 6308,
         "room": 6308
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 5, 
-        "mob": 6308, 
+        "equipped": [],
+        "inventory": [],
+        "max": 5,
+        "mob": 6308,
         "room": 6308
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 5, 
-        "mob": 6308, 
+        "equipped": [],
+        "inventory": [],
+        "max": 5,
+        "mob": 6308,
         "room": 6308
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 5, 
-        "mob": 6308, 
+        "equipped": [],
+        "inventory": [],
+        "max": 5,
+        "mob": 6308,
         "room": 6308
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 5, 
-        "mob": 6308, 
+        "equipped": [],
+        "inventory": [],
+        "max": 5,
+        "mob": 6308,
         "room": 6308
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 2, 
-        "mob": 6309, 
+        "equipped": [],
+        "inventory": [],
+        "max": 2,
+        "mob": 6309,
         "room": 6327
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 5, 
-        "mob": 6307, 
+        "equipped": [],
+        "inventory": [],
+        "max": 5,
+        "mob": 6307,
         "room": 6335
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 5, 
-        "mob": 6307, 
+        "equipped": [],
+        "inventory": [],
+        "max": 5,
+        "mob": 6307,
         "room": 6333
-      }, 
+      },
       {
-        "equipped": [], 
+        "equipped": [],
         "inventory": [
           {
-            "contents": [], 
-            "id": 6300, 
+            "contents": [],
+            "id": 6300,
             "max": 1
           }
-        ], 
-        "max": 1, 
-        "mob": 6304, 
+        ],
+        "max": 1,
+        "mob": 6304,
         "room": 6332
-      }, 
+      },
       {
-        "equipped": [], 
+        "equipped": [],
         "inventory": [
           {
-            "contents": [], 
-            "id": 6305, 
+            "contents": [],
+            "id": 6305,
             "max": 10
           }
-        ], 
-        "max": 3, 
-        "mob": 6306, 
+        ],
+        "max": 3,
+        "mob": 6306,
         "room": 6321
-      }, 
+      },
       {
-        "equipped": [], 
+        "equipped": [],
         "inventory": [
           {
-            "contents": [], 
-            "id": 6305, 
+            "contents": [],
+            "id": 6305,
             "max": 10
           }
-        ], 
-        "max": 3, 
-        "mob": 6306, 
+        ],
+        "max": 3,
+        "mob": 6306,
         "room": 6331
-      }, 
+      },
       {
-        "equipped": [], 
+        "equipped": [],
         "inventory": [
           {
-            "contents": [], 
-            "id": 6302, 
+            "contents": [],
+            "id": 6302,
             "max": 2
           }
-        ], 
-        "max": 1, 
-        "mob": 6311, 
+        ],
+        "max": 1,
+        "mob": 6311,
         "room": 6373
-      }, 
+      },
       {
-        "equipped": [], 
+        "equipped": [],
         "inventory": [
           {
-            "contents": [], 
-            "id": 6109, 
+            "contents": [],
+            "id": 6109,
             "max": 10
-          }, 
+          },
           {
-            "contents": [], 
-            "id": 6109, 
+            "contents": [],
+            "id": 6109,
             "max": 10
           }
-        ], 
-        "max": 1, 
-        "mob": 6315, 
+        ],
+        "max": 1,
+        "mob": 6315,
         "room": 6350
-      }, 
+      },
       {
-        "equipped": [], 
+        "equipped": [],
         "inventory": [
           {
-            "contents": [], 
-            "id": 6301, 
+            "contents": [],
+            "id": 6301,
             "max": 5
-          }, 
+          },
           {
-            "contents": [], 
-            "id": 6302, 
+            "contents": [],
+            "id": 6302,
             "max": 2
-          }, 
+          },
           {
-            "contents": [], 
-            "id": 6303, 
+            "contents": [],
+            "id": 6303,
             "max": 2
-          }, 
+          },
           {
-            "contents": [], 
-            "id": 6304, 
+            "contents": [],
+            "id": 6304,
             "max": 2
           }
-        ], 
-        "max": 1, 
-        "mob": 6314, 
+        ],
+        "max": 1,
+        "mob": 6314,
         "room": 6399
-      }, 
+      },
       {
-        "equipped": [], 
+        "equipped": [],
         "inventory": [
           {
-            "contents": [], 
-            "id": 6301, 
+            "contents": [],
+            "id": 6301,
             "max": 5
-          }, 
+          },
           {
-            "contents": [], 
-            "id": 6109, 
+            "contents": [],
+            "id": 6109,
             "max": 10
           }
-        ], 
-        "max": 1, 
-        "mob": 6312, 
+        ],
+        "max": 1,
+        "mob": 6312,
         "room": 6370
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 1, 
-        "mob": 6313, 
+        "equipped": [],
+        "inventory": [],
+        "max": 1,
+        "mob": 6313,
         "room": 6367
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 3, 
-        "mob": 6306, 
+        "equipped": [],
+        "inventory": [],
+        "max": 3,
+        "mob": 6306,
         "room": 6330
-      }, 
+      },
       {
-        "equipped": [], 
+        "equipped": [],
         "inventory": [
           {
-            "contents": [], 
-            "id": 6304, 
+            "contents": [],
+            "id": 6304,
             "max": 2
-          }, 
+          },
           {
-            "contents": [], 
-            "id": 7203, 
+            "contents": [],
+            "id": 7203,
             "max": 1
           }
-        ], 
-        "max": 1, 
-        "mob": 6302, 
+        ],
+        "max": 1,
+        "mob": 6302,
         "room": 6360
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 1, 
-        "mob": 6316, 
+        "equipped": [],
+        "inventory": [],
+        "max": 1,
+        "mob": 6316,
         "room": 6330
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 1, 
-        "mob": 6317, 
+        "equipped": [],
+        "inventory": [],
+        "max": 1,
+        "mob": 6317,
         "room": 6340
       }
-    ], 
-    "name": "Arachnos", 
-    "objects": [], 
-    "remove_objects": [], 
-    "reset_mode": 2, 
+    ],
+    "name": "Arachnos",
+    "objects": [],
+    "remove_objects": [],
+    "reset_mode": 2,
     "top_room": 6399
   }
 ]

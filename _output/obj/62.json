@@ -1,324 +1,324 @@
 [
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "key"
-    ], 
-    "cost": 20, 
+    ],
+    "cost": 20,
     "effects": [
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
-      }, 
+      },
       {
-        "note": "NODONATE", 
+        "note": "NODONATE",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOSELL", 
+        "note": "NOSELL",
         "value": 65536
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It is a plain looking key.", 
+        "desc": "It is a plain looking key.",
         "keywords": [
           "key"
         ]
       }
-    ], 
-    "id": 6200, 
-    "long_desc": "A key sits here.", 
-    "rent": 0, 
-    "short_desc": "a key", 
+    ],
+    "id": 6200,
+    "long_desc": "A key sits here.",
+    "rent": 0,
+    "short_desc": "a key",
     "type": {
-      "note": "KEY", 
+      "note": "KEY",
       "value": 18
-    }, 
+    },
     "values": [
-      6200, 
-      0, 
-      0, 
+      6200,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": -20
       }
-    ], 
+    ],
     "aliases": [
       "manacles"
-    ], 
-    "cost": 100, 
+    ],
+    "cost": 100,
     "effects": [
       {
-        "note": "NODROP", 
+        "note": "NODROP",
         "value": 128
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "They're big steel cuffs, meant to be locked around the hands.", 
+        "desc": "They're big steel cuffs, meant to be locked around the hands.",
         "keywords": [
           "manacles"
         ]
       }
-    ], 
-    "id": 6201, 
-    "long_desc": "A set of iron manacles lie here.", 
-    "rent": 20, 
-    "short_desc": "a set of manacles", 
+    ],
+    "id": 6201,
+    "long_desc": "A set of iron manacles lie here.",
+    "rent": 20,
+    "short_desc": "a set of manacles",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HANDS", 
+        "note": "WEAR_HANDS",
         "value": 128
       }
-    ], 
+    ],
     "weight": 20
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 14, 
-        "note": "MOVE", 
+        "location": 14,
+        "note": "MOVE",
         "value": -80
       }
-    ], 
+    ],
     "aliases": [
       "shackles"
-    ], 
-    "cost": 100, 
+    ],
+    "cost": 100,
     "effects": [
       {
-        "note": "NODROP", 
+        "note": "NODROP",
         "value": 128
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "Big iron cuffs, meant to be locked around the ankles.", 
+        "desc": "Big iron cuffs, meant to be locked around the ankles.",
         "keywords": [
           "shackles"
         ]
       }
-    ], 
-    "id": 6202, 
-    "long_desc": "A set of shackles sit here, discarded.", 
-    "rent": 20, 
-    "short_desc": "a set of shackles", 
+    ],
+    "id": 6202,
+    "long_desc": "A set of shackles sit here, discarded.",
+    "rent": 20,
+    "short_desc": "a set of shackles",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_FEET", 
+        "note": "WEAR_FEET",
         "value": 64
       }
-    ], 
+    ],
     "weight": 20
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 12, 
-        "note": "MANA", 
+        "location": 12,
+        "note": "MANA",
         "value": 8
       }
-    ], 
+    ],
     "aliases": [
-      "Runestone", 
-      "rune", 
+      "Runestone",
+      "rune",
       "stone"
-    ], 
-    "cost": 10000, 
+    ],
+    "cost": 10000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It is a small, carved stone with a strange symbol\ncarved upon it.  Strange...", 
+        "desc": "It is a small, carved stone with a strange symbol\ncarved upon it.  Strange...",
         "keywords": [
-          "runestone", 
-          "rune", 
+          "runestone",
+          "rune",
           "stone"
         ]
       }
-    ], 
-    "id": 6203, 
-    "long_desc": "A small stone with an inscription sits here.", 
-    "rent": 2000, 
-    "short_desc": "the Runestone", 
+    ],
+    "id": 6203,
+    "long_desc": "A small stone with an inscription sits here.",
+    "rent": 2000,
+    "short_desc": "the Runestone",
     "type": {
-      "note": "LIGHT", 
+      "note": "LIGHT",
       "value": 1
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      -1, 
+      0,
+      0,
+      -1,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "club"
-    ], 
-    "cost": 10, 
-    "effects": [], 
+    ],
+    "cost": 10,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "It is a big, wooden club.", 
+        "desc": "It is a big, wooden club.",
         "keywords": [
           "club"
         ]
       }
-    ], 
-    "id": 6204, 
-    "long_desc": "A crude wooden club sits here.", 
-    "rent": 2, 
-    "short_desc": "a club", 
+    ],
+    "id": 6204,
+    "long_desc": "A crude wooden club sits here.",
+    "rent": 2,
+    "short_desc": "a club",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      2, 
-      2, 
+      0,
+      2,
+      2,
       7
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 12
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 12, 
-        "note": "MANA", 
+        "location": 12,
+        "note": "MANA",
         "value": 10
-      }, 
+      },
       {
-        "location": 13, 
-        "note": "HIT", 
+        "location": 13,
+        "note": "HIT",
         "value": -20
       }
-    ], 
+    ],
     "aliases": [
-      "Starkblade", 
-      "knife", 
-      "dagger", 
+      "Starkblade",
+      "knife",
+      "dagger",
       "blade"
-    ], 
-    "cost": 100000, 
+    ],
+    "cost": 100000,
     "effects": [
       {
-        "note": "HUM", 
+        "note": "HUM",
         "value": 2
-      }, 
+      },
       {
-        "note": "ANTI_WARRIOR", 
+        "note": "ANTI_WARRIOR",
         "value": 32768
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It is an odd knife, with an inset of sapphire in the\npommel.  It hums constantly, and your hand stings a\nbit when you touch it.", 
+        "desc": "It is an odd knife, with an inset of sapphire in the\npommel.  It hums constantly, and your hand stings a\nbit when you touch it.",
         "keywords": [
-          "starkblade", 
-          "knife", 
-          "dagger", 
+          "starkblade",
+          "knife",
+          "dagger",
           "blade"
         ]
       }
-    ], 
-    "id": 6205, 
-    "long_desc": "A knife hums with eternal energy here.", 
-    "rent": 20000, 
-    "short_desc": "Starkblade", 
+    ],
+    "id": 6205,
+    "long_desc": "A knife hums with eternal energy here.",
+    "rent": 20000,
+    "short_desc": "Starkblade",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      3, 
-      7, 
+      0,
+      3,
+      7,
       3
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 1
   }
 ]

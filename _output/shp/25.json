@@ -1,145 +1,145 @@
 [
   {
-    "buy_rate": 0.5, 
+    "buy_rate": 0.5,
     "buy_types": [
       {
-        "namelist": null, 
-        "note": "FOOD", 
+        "namelist": null,
+        "note": "FOOD",
         "value": 19
-      }, 
+      },
       {
-        "namelist": "container", 
-        "note": "LIQ", 
+        "namelist": "container",
+        "note": "LIQ",
         "value": null
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "WILL_BANK_MONEY", 
+        "note": "WILL_BANK_MONEY",
         "value": 2
       }
-    ], 
-    "id": 2505, 
+    ],
+    "id": 2505,
     "messages": {
-      "buy_fails_object_does_not_exist": "Haven't got that in storage, try LIST!", 
-      "buy_fails_player_cannot_afford_object": "Bah, come back when you can pay!", 
-      "buy_succeeds": "That'll be %d coins -- thank you.", 
-      "sell_fails_object_does_not_exist": "You can't sell what you don't HAVE!", 
-      "sell_fails_shop_cannot_afford_object": "I'd love to buy it, I just can't spare the coinage", 
-      "sell_fails_shop_does_not_buy_object": "Sorry, I'm not a fence.", 
+      "buy_fails_object_does_not_exist": "Haven't got that in storage, try LIST!",
+      "buy_fails_player_cannot_afford_object": "Bah, come back when you can pay!",
+      "buy_succeeds": "That'll be %d coins -- thank you.",
+      "sell_fails_object_does_not_exist": "You can't sell what you don't HAVE!",
+      "sell_fails_shop_cannot_afford_object": "I'd love to buy it, I just can't spare the coinage",
+      "sell_fails_shop_does_not_buy_object": "Sorry, I'm not a fence.",
       "sell_succeeds": "I'll give ya %d coins for that!"
-    }, 
+    },
     "objects": [
-      2504, 
-      2545, 
-      2546, 
-      3010, 
-      3100, 
+      2504,
+      2545,
+      2546,
+      3010,
+      3100,
       3101
-    ], 
+    ],
     "rooms": [
       2518
-    ], 
-    "sell_rate": 2.1, 
-    "shopkeeper": 2505, 
-    "temper": 0, 
+    ],
+    "sell_rate": 2.1,
+    "shopkeeper": 2505,
+    "temper": 0,
     "times": [
       {
-        "close": 28, 
+        "close": 28,
         "open": 0
-      }, 
+      },
       {
-        "close": 0, 
+        "close": 0,
         "open": 0
       }
-    ], 
+    ],
     "trades_with": [
       {
-        "note": "NOCLERIC", 
+        "note": "NOCLERIC",
         "value": 16
-      }, 
+      },
       {
-        "note": "NOTHIEF", 
+        "note": "NOTHIEF",
         "value": 32
-      }, 
+      },
       {
-        "note": "NOWARRIOR", 
+        "note": "NOWARRIOR",
         "value": 64
       }
     ]
-  }, 
+  },
   {
-    "buy_rate": 0.3, 
+    "buy_rate": 0.3,
     "buy_types": [
       {
-        "namelist": null, 
-        "note": "SCROLL", 
+        "namelist": null,
+        "note": "SCROLL",
         "value": 2
-      }, 
+      },
       {
-        "namelist": null, 
-        "note": "WAND", 
+        "namelist": null,
+        "note": "WAND",
         "value": 3
-      }, 
+      },
       {
-        "namelist": null, 
-        "note": "STAFF", 
+        "namelist": null,
+        "note": "STAFF",
         "value": 4
-      }, 
+      },
       {
-        "namelist": null, 
-        "note": "POTION", 
+        "namelist": null,
+        "note": "POTION",
         "value": 10
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "WILL_BANK_MONEY", 
+        "note": "WILL_BANK_MONEY",
         "value": 2
       }
-    ], 
-    "id": 2506, 
+    ],
+    "id": 2506,
     "messages": {
-      "buy_fails_object_does_not_exist": "Say again?", 
-      "buy_fails_player_cannot_afford_object": "You can't afford it!", 
-      "buy_succeeds": "You're getting a bargain for that at only %d!", 
-      "sell_fails_object_does_not_exist": "You don't have that, try INVENTORY!", 
-      "sell_fails_shop_cannot_afford_object": "Sorry, I just can't afford such a costly item.", 
-      "sell_fails_shop_does_not_buy_object": "What do I look like, a fence?", 
+      "buy_fails_object_does_not_exist": "Say again?",
+      "buy_fails_player_cannot_afford_object": "You can't afford it!",
+      "buy_succeeds": "You're getting a bargain for that at only %d!",
+      "sell_fails_object_does_not_exist": "You don't have that, try INVENTORY!",
+      "sell_fails_shop_cannot_afford_object": "Sorry, I just can't afford such a costly item.",
+      "sell_fails_shop_does_not_buy_object": "What do I look like, a fence?",
       "sell_succeeds": "I guess I could give ya %d for that."
-    }, 
+    },
     "objects": [
-      3050, 
-      3051, 
+      3050,
+      3051,
       3053
-    ], 
+    ],
     "rooms": [
       2519
-    ], 
-    "sell_rate": 2.5, 
-    "shopkeeper": 2506, 
-    "temper": 0, 
+    ],
+    "sell_rate": 2.5,
+    "shopkeeper": 2506,
+    "temper": 0,
     "times": [
       {
-        "close": 28, 
+        "close": 28,
         "open": 0
-      }, 
+      },
       {
-        "close": 0, 
+        "close": 0,
         "open": 0
       }
-    ], 
+    ],
     "trades_with": [
       {
-        "note": "NOCLERIC", 
+        "note": "NOCLERIC",
         "value": 16
-      }, 
+      },
       {
-        "note": "NOTHIEF", 
+        "note": "NOTHIEF",
         "value": 32
-      }, 
+      },
       {
-        "note": "NOWARRIOR", 
+        "note": "NOWARRIOR",
         "value": 64
       }
     ]

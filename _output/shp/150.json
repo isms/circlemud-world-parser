@@ -1,115 +1,115 @@
 [
   {
-    "buy_rate": 0.3, 
+    "buy_rate": 0.3,
     "buy_types": [
       {
-        "namelist": null, 
-        "note": "SCROLL", 
+        "namelist": null,
+        "note": "SCROLL",
         "value": 2
-      }, 
+      },
       {
-        "namelist": null, 
-        "note": "WAND", 
+        "namelist": null,
+        "note": "WAND",
         "value": 3
-      }, 
+      },
       {
-        "namelist": null, 
-        "note": "STAFF", 
+        "namelist": null,
+        "note": "STAFF",
         "value": 4
-      }, 
+      },
       {
-        "namelist": null, 
-        "note": "POTION", 
+        "namelist": null,
+        "note": "POTION",
         "value": 10
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "WILL_BANK_MONEY", 
+        "note": "WILL_BANK_MONEY",
         "value": 2
       }
-    ], 
-    "id": 15019, 
+    ],
+    "id": 15019,
     "messages": {
-      "buy_fails_object_does_not_exist": "But I have no such thing for sale.", 
-      "buy_fails_player_cannot_afford_object": "But you can not afford that item.", 
-      "buy_succeeds": "It will cost you %d coins.", 
-      "sell_fails_object_does_not_exist": "But you do not have this item.", 
-      "sell_fails_shop_cannot_afford_object": "I am sorry, but I can not afford such a valuable item.", 
-      "sell_fails_shop_does_not_buy_object": "I have no interest in that.", 
+      "buy_fails_object_does_not_exist": "But I have no such thing for sale.",
+      "buy_fails_player_cannot_afford_object": "But you can not afford that item.",
+      "buy_succeeds": "It will cost you %d coins.",
+      "sell_fails_object_does_not_exist": "But you do not have this item.",
+      "sell_fails_shop_cannot_afford_object": "I am sorry, but I can not afford such a valuable item.",
+      "sell_fails_shop_does_not_buy_object": "I have no interest in that.",
       "sell_succeeds": "Here, you shall have %d coins for it."
-    }, 
+    },
     "objects": [
-      15012, 
-      3050, 
+      15012,
+      3050,
       3052
-    ], 
+    ],
     "rooms": [
       15052
-    ], 
-    "sell_rate": 1.2, 
-    "shopkeeper": 15019, 
-    "temper": 2, 
+    ],
+    "sell_rate": 1.2,
+    "shopkeeper": 15019,
+    "temper": 2,
     "times": [
       {
-        "close": 8, 
+        "close": 8,
         "open": 2
-      }, 
+      },
       {
-        "close": 28, 
+        "close": 28,
         "open": 20
       }
-    ], 
+    ],
     "trades_with": [
       {
-        "note": "NOMAGIC_USER", 
+        "note": "NOMAGIC_USER",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOTHIEF", 
+        "note": "NOTHIEF",
         "value": 32
       }
     ]
-  }, 
+  },
   {
-    "buy_rate": 1.0, 
-    "buy_types": [], 
+    "buy_rate": 1.0,
+    "buy_types": [],
     "flags": [
       {
-        "note": "WILL_BANK_MONEY", 
+        "note": "WILL_BANK_MONEY",
         "value": 2
       }
-    ], 
-    "id": 15022, 
+    ],
+    "id": 15022,
     "messages": {
-      "buy_fails_object_does_not_exist": "Je suis tres desole, mais je n'ai pas ca.", 
-      "buy_fails_player_cannot_afford_object": "Si vous n'avez d'argent, vous ne pouvez p'acheter!", 
-      "buy_succeeds": "Ca coute %d piece d'or, s'il vous plait.", 
-      "sell_fails_object_does_not_exist": "Mais, je n'achete pas!", 
-      "sell_fails_shop_cannot_afford_object": "Mais, je n'achete pas!", 
-      "sell_fails_shop_does_not_buy_object": "Mais, je n'achete pas!", 
+      "buy_fails_object_does_not_exist": "Je suis tres desole, mais je n'ai pas ca.",
+      "buy_fails_player_cannot_afford_object": "Si vous n'avez d'argent, vous ne pouvez p'acheter!",
+      "buy_succeeds": "Ca coute %d piece d'or, s'il vous plait.",
+      "sell_fails_object_does_not_exist": "Mais, je n'achete pas!",
+      "sell_fails_shop_cannot_afford_object": "Mais, je n'achete pas!",
+      "sell_fails_shop_does_not_buy_object": "Mais, je n'achete pas!",
       "sell_succeeds": "Oops - %d, a minor bug - please report!"
-    }, 
+    },
     "objects": [
-      15019, 
+      15019,
       15020
-    ], 
+    ],
     "rooms": [
       15005
-    ], 
-    "sell_rate": 1.1, 
-    "shopkeeper": 15022, 
-    "temper": 0, 
+    ],
+    "sell_rate": 1.1,
+    "shopkeeper": 15022,
+    "temper": 0,
     "times": [
       {
-        "close": 23, 
+        "close": 23,
         "open": 6
-      }, 
+      },
       {
-        "close": 0, 
+        "close": 0,
         "open": 0
       }
-    ], 
+    ],
     "trades_with": []
   }
 ]

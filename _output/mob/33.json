@@ -1,1135 +1,1135 @@
 [
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "farmer"
-    ], 
-    "alignment": 500, 
-    "armor_class": 4, 
+    ],
+    "alignment": 500,
+    "armor_class": 4,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 2, 
+      "bonus": 1,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "This farmer is a resident of Stanneg by the Mountains,\nand as such, is one of the most boring people on earth.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This farmer is a resident of Stanneg by the Mountains,\nand as such, is one of the most boring people on earth.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1000, 
-    "id": 3300, 
-    "level": 7, 
-    "long_desc": "A farmer walks around, looking for something to do.", 
+    },
+    "gold": 1000,
+    "id": 3300,
+    "level": 7,
+    "long_desc": "A farmer walks around, looking for something to do.",
     "max_hit_points": {
-      "bonus": 83, 
-      "dice": 3, 
+      "bonus": 83,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the farmer", 
-    "thac0": 14, 
+    },
+    "short_desc": "the farmer",
+    "thac0": 14,
     "xp": 2250
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "storekeeper"
-    ], 
-    "alignment": 750, 
-    "armor_class": -40, 
+    ],
+    "alignment": 750,
+    "armor_class": -40,
     "bare_hand_damage": {
-      "bonus": 6, 
-      "dice": 3, 
+      "bonus": 6,
+      "dice": 3,
       "sides": 6
-    }, 
-    "detail_desc": "The bored storekeeper keeps a lazy eye on you as he\nwaits for you to buy something.  Whee.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The bored storekeeper keeps a lazy eye on you as he\nwaits for you to buy something.  Whee.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 10000, 
-    "id": 3301, 
-    "level": 20, 
-    "long_desc": "A bored storekeeper waits for you to do something.", 
+    },
+    "gold": 10000,
+    "id": 3301,
+    "level": 20,
+    "long_desc": "A bored storekeeper waits for you to do something.",
     "max_hit_points": {
-      "bonus": 245, 
-      "dice": 3, 
+      "bonus": 245,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the storekeeper", 
-    "thac0": 1, 
+    },
+    "short_desc": "the storekeeper",
+    "thac0": 1,
     "xp": 40000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SNEAK", 
+        "note": "SNEAK",
         "value": 262144
-      }, 
+      },
       {
-        "note": "HIDE", 
+        "note": "HIDE",
         "value": 524288
       }
-    ], 
+    ],
     "aliases": [
       "cowgirl"
-    ], 
-    "alignment": 750, 
-    "armor_class": -60, 
+    ],
+    "alignment": 750,
+    "armor_class": -60,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 3, 
+      "bonus": 4,
+      "dice": 3,
       "sides": 6
-    }, 
-    "detail_desc": "This woman seems ready for anything you might do...\nshe is truly a woman to be reckoned with...", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This woman seems ready for anything you might do...\nshe is truly a woman to be reckoned with...",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 8000, 
-    "id": 3302, 
-    "level": 20, 
-    "long_desc": "A cowgirl stand here ready to defend her horses...", 
+    },
+    "gold": 8000,
+    "id": 3302,
+    "level": 20,
+    "long_desc": "A cowgirl stand here ready to defend her horses...",
     "max_hit_points": {
-      "bonus": 245, 
-      "dice": 3, 
+      "bonus": 245,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the cowgirl", 
-    "thac0": 1, 
+    },
+    "short_desc": "the cowgirl",
+    "thac0": 1,
     "xp": 40000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "horse"
-    ], 
-    "alignment": 250, 
-    "armor_class": 5, 
+    ],
+    "alignment": 250,
+    "armor_class": 5,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 2, 
+      "bonus": 0,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "This horse looks like a nice horse.  It looks at you\nwith soft brown eyes and you want to give it a carrot.", 
+    },
+    "detail_desc": "This horse looks like a nice horse.  It looks at you\nwith soft brown eyes and you want to give it a carrot.",
     "extra_spec": {
       "BareHandAttack": 4
-    }, 
+    },
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 0, 
-    "id": 3303, 
-    "level": 5, 
-    "long_desc": "A horse does horsely things here.", 
+    },
+    "gold": 0,
+    "id": 3303,
+    "level": 5,
+    "long_desc": "A horse does horsely things here.",
     "max_hit_points": {
-      "bonus": 60, 
-      "dice": 1, 
+      "bonus": 60,
+      "dice": 1,
       "sides": 10
-    }, 
-    "mob_type": "E", 
+    },
+    "mob_type": "E",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the horse", 
-    "thac0": 16, 
+    },
+    "short_desc": "the horse",
+    "thac0": 16,
     "xp": 1000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "farmer's", 
+      "farmer's",
       "wife"
-    ], 
-    "alignment": 500, 
-    "armor_class": -40, 
+    ],
+    "alignment": 500,
+    "armor_class": -40,
     "bare_hand_damage": {
-      "bonus": 6, 
-      "dice": 3, 
+      "bonus": 6,
+      "dice": 3,
       "sides": 6
-    }, 
-    "detail_desc": "This woman has many different types of fruits and\nvegetables for you to buy.  She looks bored, though.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This woman has many different types of fruits and\nvegetables for you to buy.  She looks bored, though.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 10000, 
-    "id": 3304, 
-    "level": 20, 
-    "long_desc": "A farmer's wife offers you some vegetables.", 
+    },
+    "gold": 10000,
+    "id": 3304,
+    "level": 20,
+    "long_desc": "A farmer's wife offers you some vegetables.",
     "max_hit_points": {
-      "bonus": 245, 
-      "dice": 3, 
+      "bonus": 245,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the farmer's wife", 
-    "thac0": 1, 
+    },
+    "short_desc": "the farmer's wife",
+    "thac0": 1,
     "xp": 40000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
       }
-    ], 
+    ],
     "aliases": [
-      "aglandiir", 
+      "aglandiir",
       "dragon"
-    ], 
-    "alignment": 750, 
-    "armor_class": -100, 
+    ],
+    "alignment": 750,
+    "armor_class": -100,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 8, 
+      "bonus": 5,
+      "dice": 8,
       "sides": 5
-    }, 
-    "detail_desc": "Aglandiir is a prince of his kind, and he didn't get where \nhe is today by letting people steal from his horde!", 
+    },
+    "detail_desc": "Aglandiir is a prince of his kind, and he didn't get where \nhe is today by letting people steal from his horde!",
     "extra_spec": {
-      "BareHandAttack": 8, 
-      "Cha": 16, 
-      "Con": 25, 
-      "Dex": 25, 
-      "Int": 25, 
-      "Str": 25, 
+      "BareHandAttack": 8,
+      "Cha": 16,
+      "Con": 25,
+      "Dex": 25,
+      "Int": 25,
+      "Str": 25,
       "Wis": 25
-    }, 
+    },
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 500000, 
-    "id": 3305, 
-    "level": 30, 
-    "long_desc": "The Dragon Prince, Aglandiir, sits here looking at you curiously.", 
+    },
+    "gold": 500000,
+    "id": 3305,
+    "level": 30,
+    "long_desc": "The Dragon Prince, Aglandiir, sits here looking at you curiously.",
     "max_hit_points": {
-      "bonus": 1499, 
-      "dice": 1, 
+      "bonus": 1499,
+      "dice": 1,
       "sides": 1
-    }, 
-    "mob_type": "E", 
+    },
+    "mob_type": "E",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Aglandiir", 
-    "thac0": 0, 
+    },
+    "short_desc": "Aglandiir",
+    "thac0": 0,
     "xp": 1000000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "cyclops"
-    ], 
-    "alignment": -500, 
-    "armor_class": 0, 
+    ],
+    "alignment": -500,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 2, 
+      "bonus": 2,
+      "dice": 2,
       "sides": 8
-    }, 
-    "detail_desc": "This Cyclops throws rocks real good.  With one eye though, \nhitting the target is another matter.  He looks at you and \ngrowls as he misses again!", 
+    },
+    "detail_desc": "This Cyclops throws rocks real good.  With one eye though, \nhitting the target is another matter.  He looks at you and \ngrowls as he misses again!",
     "extra_spec": {
       "BareHandAttack": 13
-    }, 
+    },
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 10000, 
-    "id": 3306, 
-    "level": 16, 
-    "long_desc": "A Cyclops is here, trying to judge range with no depth perception.", 
+    },
+    "gold": 10000,
+    "id": 3306,
+    "level": 16,
+    "long_desc": "A Cyclops is here, trying to judge range with no depth perception.",
     "max_hit_points": {
-      "bonus": 295, 
-      "dice": 3, 
+      "bonus": 295,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "E", 
+    },
+    "mob_type": "E",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Cyclops", 
-    "thac0": 8, 
+    },
+    "short_desc": "the Cyclops",
+    "thac0": 8,
     "xp": 24000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "salle", 
+      "salle",
       "woman"
-    ], 
-    "alignment": -600, 
-    "armor_class": -30, 
+    ],
+    "alignment": -600,
+    "armor_class": -30,
     "bare_hand_damage": {
-      "bonus": 6, 
-      "dice": 2, 
+      "bonus": 6,
+      "dice": 2,
       "sides": 6
-    }, 
-    "detail_desc": "She is a stunning woman, all hair and eyes, it seems.\nHer clothing is of the same tawny brown of her skin and\nhair.  Her blue eyes look at you appraisingly, seemingly\nto show great intelligence.  Her mouth twitches into a \nsneer...", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "She is a stunning woman, all hair and eyes, it seems.\nHer clothing is of the same tawny brown of her skin and\nhair.  Her blue eyes look at you appraisingly, seemingly\nto show great intelligence.  Her mouth twitches into a \nsneer...",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 6500, 
-    "id": 3307, 
-    "level": 15, 
-    "long_desc": "A woman ignores you completely, so intent is she upon her sword.", 
+    },
+    "gold": 6500,
+    "id": 3307,
+    "level": 15,
+    "long_desc": "A woman ignores you completely, so intent is she upon her sword.",
     "max_hit_points": {
-      "bonus": 200, 
-      "dice": 3, 
+      "bonus": 200,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Salle", 
-    "thac0": 6, 
+    },
+    "short_desc": "Salle",
+    "thac0": 6,
     "xp": 24000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "duwick", 
+      "duwick",
       "man"
-    ], 
-    "alignment": -900, 
-    "armor_class": -70, 
+    ],
+    "alignment": -900,
+    "armor_class": -70,
     "bare_hand_damage": {
-      "bonus": 10, 
-      "dice": 3, 
+      "bonus": 10,
+      "dice": 3,
       "sides": 6
-    }, 
-    "detail_desc": "This has to be one of the biggest men you've ever seen.  He is\na full seven feet toe to head, and weighs a good three hundred\npounds -- mostly on his biceps and pectorals it appears.  An\nornate scabbard slaps by his side, with the pommel of a silvered\ndagger sticking out... a tiny weapon for such a large man!", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This has to be one of the biggest men you've ever seen.  He is\na full seven feet toe to head, and weighs a good three hundred\npounds -- mostly on his biceps and pectorals it appears.  An\nornate scabbard slaps by his side, with the pommel of a silvered\ndagger sticking out... a tiny weapon for such a large man!",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 15000, 
-    "id": 3308, 
-    "level": 22, 
-    "long_desc": "A truly immense man laughs at you, and draws his knife!", 
+    },
+    "gold": 15000,
+    "id": 3308,
+    "level": 22,
+    "long_desc": "A truly immense man laughs at you, and draws his knife!",
     "max_hit_points": {
-      "bonus": 400, 
-      "dice": 3, 
+      "bonus": 400,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Duwick", 
-    "thac0": 0, 
+    },
+    "short_desc": "Duwick",
+    "thac0": 0,
     "xp": 70000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "receptionist"
-    ], 
-    "alignment": 400, 
-    "armor_class": -30, 
+    ],
+    "alignment": 400,
+    "armor_class": -30,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 2, 
+      "bonus": 1,
+      "dice": 2,
       "sides": 7
-    }, 
-    "detail_desc": "He looks like a retired farmer now making an honest living in an inn.\nMore power to him!", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks like a retired farmer now making an honest living in an inn.\nMore power to him!",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 8000, 
-    "id": 3309, 
-    "level": 12, 
-    "long_desc": "A receptionist offers you a room.", 
+    },
+    "gold": 8000,
+    "id": 3309,
+    "level": 12,
+    "long_desc": "A receptionist offers you a room.",
     "max_hit_points": {
-      "bonus": 140, 
-      "dice": 3, 
+      "bonus": 140,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Receptionist", 
-    "thac0": 9, 
+    },
+    "short_desc": "the Receptionist",
+    "thac0": 9,
     "xp": 8000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "innkeeper"
-    ], 
-    "alignment": 750, 
-    "armor_class": 20, 
+    ],
+    "alignment": 750,
+    "armor_class": 20,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 2, 
+      "bonus": 1,
+      "dice": 2,
       "sides": 6
-    }, 
-    "detail_desc": "He is old and greying, but seems to have been able to\nkeep his mental faculties through the years.  A large\nwoolen sweater is wrapped about him for warmth.  His\nblue eyes dance with amusement as he notices your weapons,\nbut he doesn't seem too terribly startled.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He is old and greying, but seems to have been able to\nkeep his mental faculties through the years.  A large\nwoolen sweater is wrapped about him for warmth.  His\nblue eyes dance with amusement as he notices your weapons,\nbut he doesn't seem too terribly startled.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 2000, 
-    "id": 3310, 
-    "level": 10, 
-    "long_desc": "An aged innkeeper greets you as you enter.", 
+    },
+    "gold": 2000,
+    "id": 3310,
+    "level": 10,
+    "long_desc": "An aged innkeeper greets you as you enter.",
     "max_hit_points": {
-      "bonus": 120, 
-      "dice": 3, 
+      "bonus": 120,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the innkeeper", 
-    "thac0": 11, 
+    },
+    "short_desc": "the innkeeper",
+    "thac0": 11,
     "xp": 9000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "hunter"
-    ], 
-    "alignment": 500, 
-    "armor_class": -20, 
+    ],
+    "alignment": 500,
+    "armor_class": -20,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 2, 
+      "bonus": 2,
+      "dice": 2,
       "sides": 6
-    }, 
-    "detail_desc": "He looks mean, as if the very personality of the mountains\nhad infected him with hardness.  His stride is purposeful,\nhis face weathered, his eyes cold and dark.  Others are\nstanding out of his way as he walks on by.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks mean, as if the very personality of the mountains\nhad infected him with hardness.  His stride is purposeful,\nhis face weathered, his eyes cold and dark.  Others are\nstanding out of his way as he walks on by.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1200, 
-    "id": 3311, 
-    "level": 11, 
-    "long_desc": "A hunter walks through the town streets on his own time.", 
+    },
+    "gold": 1200,
+    "id": 3311,
+    "level": 11,
+    "long_desc": "A hunter walks through the town streets on his own time.",
     "max_hit_points": {
-      "bonus": 133, 
-      "dice": 3, 
+      "bonus": 133,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the hunter", 
-    "thac0": 10, 
+    },
+    "short_desc": "the hunter",
+    "thac0": 10,
     "xp": 11000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "waiter"
-    ], 
-    "alignment": 0, 
-    "armor_class": 70, 
+    ],
+    "alignment": 0,
+    "armor_class": 70,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 2, 
+      "bonus": 0,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "He looks harried from the way he hastily takes orders and \nrushes in the back to get food, and to the bar for drinks.  \nHe doesn't even spare you a glance as he passes by.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks harried from the way he hastily takes orders and \nrushes in the back to get food, and to the bar for drinks.  \nHe doesn't even spare you a glance as he passes by.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 500, 
-    "id": 3312, 
-    "level": 5, 
-    "long_desc": "A waiter rushes by, intent on his business.", 
+    },
+    "gold": 500,
+    "id": 3312,
+    "level": 5,
+    "long_desc": "A waiter rushes by, intent on his business.",
     "max_hit_points": {
-      "bonus": 60, 
-      "dice": 3, 
+      "bonus": 60,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "a waiter", 
-    "thac0": 16, 
+    },
+    "short_desc": "a waiter",
+    "thac0": 16,
     "xp": 850
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "waitress"
-    ], 
-    "alignment": 0, 
-    "armor_class": 70, 
+    ],
+    "alignment": 0,
+    "armor_class": 70,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 2, 
+      "bonus": 0,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "She looks harried from the way she hastily takes orders and rushes\nin the back to get food, and to the bar for drinks.  She doesn't\neven spare you a glance as she passes by.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "She looks harried from the way she hastily takes orders and rushes\nin the back to get food, and to the bar for drinks.  She doesn't\neven spare you a glance as she passes by.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 500, 
-    "id": 3313, 
-    "level": 5, 
-    "long_desc": "A waitress rushes by, intent on her business.", 
+    },
+    "gold": 500,
+    "id": 3313,
+    "level": 5,
+    "long_desc": "A waitress rushes by, intent on her business.",
     "max_hit_points": {
-      "bonus": 60, 
-      "dice": 3, 
+      "bonus": 60,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "a waitress", 
-    "thac0": 16, 
+    },
+    "short_desc": "a waitress",
+    "thac0": 16,
     "xp": 850
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "bartender"
-    ], 
-    "alignment": 200, 
-    "armor_class": 10, 
+    ],
+    "alignment": 200,
+    "armor_class": 10,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 2, 
+      "bonus": 2,
+      "dice": 2,
       "sides": 8
-    }, 
-    "detail_desc": "He nods, smiles, and asks you what you would like to drink.\nAs you decide, he slowly polishes a glass with an old bar\nrag.  The glass is completely clean, but he polishes it anyway.\nGo figure.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He nods, smiles, and asks you what you would like to drink.\nAs you decide, he slowly polishes a glass with an old bar\nrag.  The glass is completely clean, but he polishes it anyway.\nGo figure.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 10000, 
-    "id": 3314, 
-    "level": 15, 
-    "long_desc": "A bartender washes a glass idly here.", 
+    },
+    "gold": 10000,
+    "id": 3314,
+    "level": 15,
+    "long_desc": "A bartender washes a glass idly here.",
     "max_hit_points": {
-      "bonus": 180, 
-      "dice": 3, 
+      "bonus": 180,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "a bartender", 
-    "thac0": 6, 
+    },
+    "short_desc": "a bartender",
+    "thac0": 6,
     "xp": 21000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "bandit"
-    ], 
-    "alignment": -500, 
-    "armor_class": -20, 
+    ],
+    "alignment": -500,
+    "armor_class": -20,
     "bare_hand_damage": {
-      "bonus": 3, 
-      "dice": 2, 
+      "bonus": 3,
+      "dice": 2,
       "sides": 8
-    }, 
-    "detail_desc": "Whew!  Has this guy ever seen a bath?  His face, hands, arms...\nnearly every bit of him is covered with grime, dust, dirt and\ndecay.  His sword is polished and cleaned though...", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "Whew!  Has this guy ever seen a bath?  His face, hands, arms...\nnearly every bit of him is covered with grime, dust, dirt and\ndecay.  His sword is polished and cleaned though...",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
-      }, 
+      },
       {
-        "note": "AGGR_GOOD", 
+        "note": "AGGR_GOOD",
         "value": 512
-      }, 
+      },
       {
-        "note": "AGGR_NEUTRAL", 
+        "note": "AGGR_NEUTRAL",
         "value": 1024
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1000, 
-    "id": 3315, 
-    "level": 16, 
-    "long_desc": "A bandit springs into action upon seeing you.", 
+    },
+    "gold": 1000,
+    "id": 3315,
+    "level": 16,
+    "long_desc": "A bandit springs into action upon seeing you.",
     "max_hit_points": {
-      "bonus": 195, 
-      "dice": 3, 
+      "bonus": 195,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the bandit", 
-    "thac0": 5, 
+    },
+    "short_desc": "the bandit",
+    "thac0": 5,
     "xp": 25000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "bandit", 
+      "bandit",
       "guard"
-    ], 
-    "alignment": -500, 
-    "armor_class": -30, 
+    ],
+    "alignment": -500,
+    "armor_class": -30,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 3, 
+      "bonus": 2,
+      "dice": 3,
       "sides": 6
-    }, 
-    "detail_desc": "He may be a bandit, but he's no slacker.  You wonder\nwho would be able to keep these bandits in line enough\nto pull a good guard duty...\n\n(boy is this guy DIRTY!!!)", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He may be a bandit, but he's no slacker.  You wonder\nwho would be able to keep these bandits in line enough\nto pull a good guard duty...\n\n(boy is this guy DIRTY!!!)",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGR_GOOD", 
+        "note": "AGGR_GOOD",
         "value": 512
-      }, 
+      },
       {
-        "note": "AGGR_NEUTRAL", 
+        "note": "AGGR_NEUTRAL",
         "value": 1024
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 2400, 
-    "id": 3316, 
-    "level": 18, 
-    "long_desc": "A bandit guard stands at attention here.", 
+    },
+    "gold": 2400,
+    "id": 3316,
+    "level": 18,
+    "long_desc": "A bandit guard stands at attention here.",
     "max_hit_points": {
-      "bonus": 220, 
-      "dice": 3, 
+      "bonus": 220,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the bandit guard", 
-    "thac0": 3, 
+    },
+    "short_desc": "the bandit guard",
+    "thac0": 3,
     "xp": 32000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "miner", 
-      "worker", 
+      "miner",
+      "worker",
       "slave"
-    ], 
-    "alignment": 1000, 
-    "armor_class": 100, 
+    ],
+    "alignment": 1000,
+    "armor_class": 100,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 1, 
+      "bonus": 1,
+      "dice": 1,
       "sides": 8
-    }, 
-    "detail_desc": "The slave looks up at you with pleading eyes.  He\nwants his freedom.  The chains around his ankles are\ntight, and you wonder if you should set him free, and\nif you even can.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The slave looks up at you with pleading eyes.  He\nwants his freedom.  The chains around his ankles are\ntight, and you wonder if you should set him free, and\nif you even can.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 0, 
-    "id": 3317, 
-    "level": 6, 
-    "long_desc": "A slave here is mining out a new passageway.", 
+    },
+    "gold": 0,
+    "id": 3317,
+    "level": 6,
+    "long_desc": "A slave here is mining out a new passageway.",
     "max_hit_points": {
-      "bonus": 70, 
-      "dice": 3, 
+      "bonus": 70,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the slave", 
-    "thac0": 15, 
+    },
+    "short_desc": "the slave",
+    "thac0": 15,
     "xp": 1500
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "farmer"
-    ], 
-    "alignment": 500, 
-    "armor_class": 4, 
+    ],
+    "alignment": 500,
+    "armor_class": 4,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 2, 
+      "bonus": 1,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "This farmer is a resident of Stanneg by the Mountains,\nand as such, is one of the most boring people on earth.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This farmer is a resident of Stanneg by the Mountains,\nand as such, is one of the most boring people on earth.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1000, 
-    "id": 3318, 
-    "level": 7, 
-    "long_desc": "A farmer walks around, looking for something to do.", 
+    },
+    "gold": 1000,
+    "id": 3318,
+    "level": 7,
+    "long_desc": "A farmer walks around, looking for something to do.",
     "max_hit_points": {
-      "bonus": 83, 
-      "dice": 3, 
+      "bonus": 83,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the farmer", 
-    "thac0": 14, 
+    },
+    "short_desc": "the farmer",
+    "thac0": 14,
     "xp": 2250
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "hunter"
-    ], 
-    "alignment": 500, 
-    "armor_class": -20, 
+    ],
+    "alignment": 500,
+    "armor_class": -20,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 2, 
+      "bonus": 2,
+      "dice": 2,
       "sides": 6
-    }, 
-    "detail_desc": "He looks mean, as if the very personality of the mountains\nhad infected him with hardness.  His stride is purposeful,\nhis face weathered, his eyes cold and dark.  Others are\nstanding out of his way as he walks on by.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks mean, as if the very personality of the mountains\nhad infected him with hardness.  His stride is purposeful,\nhis face weathered, his eyes cold and dark.  Others are\nstanding out of his way as he walks on by.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1200, 
-    "id": 3319, 
-    "level": 11, 
-    "long_desc": "A hunter walks through the town streets on his own time.", 
+    },
+    "gold": 1200,
+    "id": 3319,
+    "level": 11,
+    "long_desc": "A hunter walks through the town streets on his own time.",
     "max_hit_points": {
-      "bonus": 133, 
-      "dice": 3, 
+      "bonus": 133,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the hunter", 
-    "thac0": 10, 
+    },
+    "short_desc": "the hunter",
+    "thac0": 10,
     "xp": 11000
   }
 ]

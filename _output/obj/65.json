@@ -1,692 +1,692 @@
 [
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "key", 
+      "key",
       "treasury"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
       }
-    ], 
-    "extra_descs": [], 
-    "id": 6500, 
-    "long_desc": "There is a key for the treasury lying here.", 
-    "rent": 0, 
-    "short_desc": "a treasury key", 
+    ],
+    "extra_descs": [],
+    "id": 6500,
+    "long_desc": "There is a key for the treasury lying here.",
+    "rent": 0,
+    "short_desc": "a treasury key",
     "type": {
-      "note": "KEY", 
+      "note": "KEY",
       "value": 18
-    }, 
+    },
     "values": [
-      6500, 
-      0, 
-      0, 
+      6500,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "gold", 
-      "treasure", 
+      "gold",
+      "treasure",
       "coins"
-    ], 
-    "cost": 65000, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 6501, 
-    "long_desc": "A large pile of treasure has been left here, it must be the Queen's.", 
-    "rent": 0, 
-    "short_desc": "the Queen's treasure", 
+    ],
+    "cost": 65000,
+    "effects": [],
+    "extra_descs": [],
+    "id": 6501,
+    "long_desc": "A large pile of treasure has been left here, it must be the Queen's.",
+    "rent": 0,
+    "short_desc": "the Queen's treasure",
     "type": {
-      "note": "MONEY", 
+      "note": "MONEY",
       "value": 20
-    }, 
+    },
     "values": [
-      65000, 
-      0, 
-      0, 
+      65000,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 20
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "key", 
+      "key",
       "mine"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
       }
-    ], 
-    "extra_descs": [], 
-    "id": 6502, 
-    "long_desc": "There is a key to the mines lying here.", 
-    "rent": 0, 
-    "short_desc": "a mine key", 
+    ],
+    "extra_descs": [],
+    "id": 6502,
+    "long_desc": "There is a key to the mines lying here.",
+    "rent": 0,
+    "short_desc": "a mine key",
     "type": {
-      "note": "KEY", 
+      "note": "KEY",
       "value": 18
-    }, 
+    },
     "values": [
-      6502, 
-      0, 
-      0, 
+      6502,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "key", 
-      "bright", 
+      "key",
+      "bright",
       "gold"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
       }
-    ], 
-    "extra_descs": [], 
-    "id": 6503, 
-    "long_desc": "There is a bright golden key lying here.", 
-    "rent": 0, 
-    "short_desc": "a bright golden key", 
+    ],
+    "extra_descs": [],
+    "id": 6503,
+    "long_desc": "There is a bright golden key lying here.",
+    "rent": 0,
+    "short_desc": "a bright golden key",
     "type": {
-      "note": "KEY", 
+      "note": "KEY",
       "value": 18
-    }, 
+    },
     "values": [
-      6503, 
-      0, 
-      0, 
+      6503,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "hammer", 
+      "hammer",
       "dwarven"
-    ], 
-    "cost": 5500, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 6504, 
-    "long_desc": "There is a dwarven hammer lying here.", 
-    "rent": 1000, 
-    "short_desc": "a dwarven hammer", 
+    ],
+    "cost": 5500,
+    "effects": [],
+    "extra_descs": [],
+    "id": 6504,
+    "long_desc": "There is a dwarven hammer lying here.",
+    "rent": 1000,
+    "short_desc": "a dwarven hammer",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      2, 
-      6, 
+      0,
+      2,
+      6,
       7
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 13
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "plate", 
-      "dwarven", 
+      "plate",
+      "dwarven",
       "mail"
-    ], 
-    "cost": 4500, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 6505, 
-    "long_desc": "There is dwarven plate mail lying here.", 
-    "rent": 300, 
-    "short_desc": "the dwarven plate mail", 
+    ],
+    "cost": 4500,
+    "effects": [],
+    "extra_descs": [],
+    "id": 6505,
+    "long_desc": "There is dwarven plate mail lying here.",
+    "rent": 300,
+    "short_desc": "the dwarven plate mail",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      6, 
-      0, 
-      0, 
+      6,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_BODY", 
+        "note": "WEAR_BODY",
         "value": 8
       }
-    ], 
+    ],
     "weight": 80
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "stick", 
-      "black", 
+      "stick",
+      "black",
       "long"
-    ], 
-    "cost": 100, 
+    ],
+    "cost": 100,
     "effects": [
       {
-        "note": "NOSELL", 
+        "note": "NOSELL",
         "value": 65536
       }
-    ], 
-    "extra_descs": [], 
-    "id": 6506, 
-    "long_desc": "There is a long, black stick lying here.", 
-    "rent": 6000, 
-    "short_desc": "a long, black stick", 
+    ],
+    "extra_descs": [],
+    "id": 6506,
+    "long_desc": "There is a long, black stick lying here.",
+    "rent": 6000,
+    "short_desc": "a long, black stick",
     "type": {
-      "note": "STAFF", 
+      "note": "STAFF",
       "value": 4
-    }, 
+    },
     "values": [
-      4, 
-      2, 
-      2, 
+      4,
+      2,
+      2,
       28
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "stick", 
-      "black", 
+      "stick",
+      "black",
       "long"
-    ], 
-    "cost": 100, 
+    ],
+    "cost": 100,
     "effects": [
       {
-        "note": "NOSELL", 
+        "note": "NOSELL",
         "value": 65536
       }
-    ], 
-    "extra_descs": [], 
-    "id": 6507, 
-    "long_desc": "There is a long, black stick here.", 
-    "rent": 6000, 
-    "short_desc": "a long, black stick", 
+    ],
+    "extra_descs": [],
+    "id": 6507,
+    "long_desc": "There is a long, black stick here.",
+    "rent": 6000,
+    "short_desc": "a long, black stick",
     "type": {
-      "note": "LIGHT", 
+      "note": "LIGHT",
       "value": 1
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "club", 
+      "club",
       "dwarven"
-    ], 
-    "cost": 3000, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 6508, 
-    "long_desc": "There is a dwarven club lying here.", 
-    "rent": 300, 
-    "short_desc": "a dwarven club", 
+    ],
+    "cost": 3000,
+    "effects": [],
+    "extra_descs": [],
+    "id": 6508,
+    "long_desc": "There is a dwarven club lying here.",
+    "rent": 300,
+    "short_desc": "a dwarven club",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      2, 
-      3, 
+      0,
+      2,
+      3,
       3
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 12
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 2
-      }, 
+      },
       {
-        "location": 1, 
-        "note": "STR", 
+        "location": 1,
+        "note": "STR",
         "value": 2
       }
-    ], 
+    ],
     "aliases": [
-      "axe", 
-      "two-handed", 
+      "axe",
+      "two-handed",
       "dwarven"
-    ], 
-    "cost": 5000, 
+    ],
+    "cost": 5000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 6509, 
-    "long_desc": "A two-handed dwarven axe is here.", 
-    "rent": 3000, 
-    "short_desc": "a two-handed dwarven axe", 
+    ],
+    "extra_descs": [],
+    "id": 6509,
+    "long_desc": "A two-handed dwarven axe is here.",
+    "rent": 3000,
+    "short_desc": "a two-handed dwarven axe",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      2, 
-      7, 
+      0,
+      2,
+      7,
       3
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 14
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "helmet", 
+      "helmet",
       "dwarven"
-    ], 
-    "cost": 2500, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 6510, 
-    "long_desc": "A dwarven helmet is here.", 
-    "rent": 500, 
-    "short_desc": "a dwarven helmet", 
+    ],
+    "cost": 2500,
+    "effects": [],
+    "extra_descs": [],
+    "id": 6510,
+    "long_desc": "A dwarven helmet is here.",
+    "rent": 500,
+    "short_desc": "a dwarven helmet",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      4, 
-      0, 
-      0, 
+      4,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HEAD", 
+        "note": "WEAR_HEAD",
         "value": 16
       }
-    ], 
+    ],
     "weight": 4
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 1
-      }, 
+      },
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 1
       }
-    ], 
+    ],
     "aliases": [
-      "ring", 
-      "gold", 
+      "ring",
+      "gold",
       "dwarven"
-    ], 
-    "cost": 10000, 
+    ],
+    "cost": 10000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 6511, 
-    "long_desc": "A golden dwarven ring is lying here.", 
-    "rent": 10000, 
-    "short_desc": "a golden dwarven ring", 
+    ],
+    "extra_descs": [],
+    "id": 6511,
+    "long_desc": "A golden dwarven ring is lying here.",
+    "rent": 10000,
+    "short_desc": "a golden dwarven ring",
     "type": {
-      "note": "WORN", 
+      "note": "WORN",
       "value": 11
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_FINGER", 
+        "note": "WEAR_FINGER",
         "value": 2
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 5, 
-        "note": "CON", 
+        "location": 5,
+        "note": "CON",
         "value": 1
-      }, 
+      },
       {
-        "location": 2, 
-        "note": "DEX", 
+        "location": 2,
+        "note": "DEX",
         "value": 1
       }
-    ], 
+    ],
     "aliases": [
-      "gloves", 
+      "gloves",
       "dwarven"
-    ], 
-    "cost": 4000, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 6512, 
-    "long_desc": "A pair of thick dwarven gloves lay here.", 
-    "rent": 200, 
-    "short_desc": "a pair of dwarven gloves", 
+    ],
+    "cost": 4000,
+    "effects": [],
+    "extra_descs": [],
+    "id": 6512,
+    "long_desc": "A pair of thick dwarven gloves lay here.",
+    "rent": 200,
+    "short_desc": "a pair of dwarven gloves",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      1, 
-      0, 
-      0, 
+      1,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HANDS", 
+        "note": "WEAR_HANDS",
         "value": 128
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "coal", 
+      "coal",
       "chunk"
-    ], 
-    "cost": 0, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 6513, 
-    "long_desc": "There is a chunk of coal here.", 
-    "rent": 0, 
-    "short_desc": "a chunk of coal", 
+    ],
+    "cost": 0,
+    "effects": [],
+    "extra_descs": [],
+    "id": 6513,
+    "long_desc": "There is a chunk of coal here.",
+    "rent": 0,
+    "short_desc": "a chunk of coal",
     "type": {
-      "note": "TRASH", 
+      "note": "TRASH",
       "value": 13
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 100
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "pick", 
+      "pick",
       "mining"
-    ], 
-    "cost": 300, 
+    ],
+    "cost": 300,
     "effects": [
       {
-        "note": "BLESS", 
+        "note": "BLESS",
         "value": 256
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It looks almost blessed!", 
+        "desc": "It looks almost blessed!",
         "keywords": [
-          "pick", 
+          "pick",
           "mining"
         ]
       }
-    ], 
-    "id": 6514, 
-    "long_desc": "There is a mining pick here.", 
-    "rent": 10, 
-    "short_desc": "a mining pick", 
+    ],
+    "id": 6514,
+    "long_desc": "There is a mining pick here.",
+    "rent": 10,
+    "short_desc": "a mining pick",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      2, 
-      3, 
+      0,
+      2,
+      3,
       11
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 9
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "key", 
-      "deep", 
+      "key",
+      "deep",
       "green"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
       }
-    ], 
-    "extra_descs": [], 
-    "id": 6515, 
-    "long_desc": "There is a deep green key lying here.", 
-    "rent": 0, 
-    "short_desc": "a deep green key", 
+    ],
+    "extra_descs": [],
+    "id": 6515,
+    "long_desc": "There is a deep green key lying here.",
+    "rent": 0,
+    "short_desc": "a deep green key",
     "type": {
-      "note": "KEY", 
+      "note": "KEY",
       "value": 18
-    }, 
+    },
     "values": [
-      6515, 
-      0, 
-      0, 
+      6515,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 10
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "key", 
+      "key",
       "old"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
       }
-    ], 
-    "extra_descs": [], 
-    "id": 6516, 
-    "long_desc": "Someone seems to have dropped an old key.", 
-    "rent": 0, 
-    "short_desc": "an old key", 
+    ],
+    "extra_descs": [],
+    "id": 6516,
+    "long_desc": "Someone seems to have dropped an old key.",
+    "rent": 0,
+    "short_desc": "an old key",
     "type": {
-      "note": "KEY", 
+      "note": "KEY",
       "value": 18
-    }, 
+    },
     "values": [
-      6516, 
-      0, 
-      0, 
+      6516,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 1
   }
 ]

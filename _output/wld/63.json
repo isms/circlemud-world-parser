@@ -1,1902 +1,1902 @@
 [
   {
-    "desc": "Sticky, sticky, sticky!  The ground is cluttered with leaves,\ndecayed remains of webbed crickets, beetle, rats, dogs, and even\nhumans.  You begin to wonder about what lies ahead.  The air is\ndamp here, and even the little light that shines through the\ncanopy seems to be absorbed into the webbing.", 
+    "desc": "Sticky, sticky, sticky!  The ground is cluttered with leaves,\ndecayed remains of webbed crickets, beetle, rats, dogs, and even\nhumans.  You begin to wonder about what lies ahead.  The air is\ndamp here, and even the little light that shines through the\ncanopy seems to be absorbed into the webbing.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6302
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6132
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 6301, 
-    "name": "The Webbed Entrance", 
+    ],
+    "id": 6301,
+    "name": "The Webbed Entrance",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "You find that footing here is very good, almost too good.  The\nlimbs are coated with cobwebs and seem unusually strong for tree\nbranches.  Paths lead in four directions.  The eastward path goes\ndown a bit.", 
+    "desc": "You find that footing here is very good, almost too good.  The\nlimbs are coated with cobwebs and seem unusually strong for tree\nbranches.  Paths lead in four directions.  The eastward path goes\ndown a bit.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6304
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6305
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6301
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6303
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6302, 
-    "name": "The Webby Passage", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6302,
+    "name": "The Webby Passage",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "Drones scuttle about in this room.  The cells on the walls are\nhoneycomb in shape and many of the maggots and wasps you see have\nfang-marks on their bodies.  You sense some order in their markings.", 
+    "desc": "Drones scuttle about in this room.  The cells on the walls are\nhoneycomb in shape and many of the maggots and wasps you see have\nfang-marks on their bodies.  You sense some order in their markings.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6302
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6303, 
-    "name": "The Wasp Hive", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6303,
+    "name": "The Wasp Hive",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "Another webby passage, all sticky and wet.  Tiny ballooning\nspiders fill the air.  It seems that these young ones are newborns.", 
+    "desc": "Another webby passage, all sticky and wet.  Tiny ballooning\nspiders fill the air.  It seems that these young ones are newborns.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6305
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6302
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6304, 
-    "name": "The Webby Passage", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6304,
+    "name": "The Webby Passage",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "You here the sounds of crawling arachnids above.  The rhythms of\nthe footsteps suggest a primitive order in there movement.  The light\nseems brighter upwards.", 
+    "desc": "You here the sounds of crawling arachnids above.  The rhythms of\nthe footsteps suggest a primitive order in there movement.  The light\nseems brighter upwards.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6304
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6306
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6305, 
-    "name": "Beneath The Busy Path", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6305,
+    "name": "Beneath The Busy Path",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "Spiders, spiders, everywhere!  It is almost ant-like in efficiency\nwith one big difference.  The spiders here are carrying ant-corpses,\nas well as rats, wolves, and humans.", 
+    "desc": "Spiders, spiders, everywhere!  It is almost ant-like in efficiency\nwith one big difference.  The spiders here are carrying ant-corpses,\nas well as rats, wolves, and humans.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6307
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6305
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6306, 
-    "name": "On The Busy Path", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6306,
+    "name": "On The Busy Path",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "Spiders, spiders, everywhere!  It is almost ant-like in efficiency\nwith one big difference.  The spiders here are carrying ant-corpses,\nas well as cats, wolves, and humans.", 
+    "desc": "Spiders, spiders, everywhere!  It is almost ant-like in efficiency\nwith one big difference.  The spiders here are carrying ant-corpses,\nas well as cats, wolves, and humans.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6306
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6308
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6307, 
-    "name": "On The Busy Path", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6307,
+    "name": "On The Busy Path",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "Spiders, spiders, everywhere!  It is almost ant-like in efficiency\nwith one big difference.  The spiders here are carrying ant-corpses,\nas well as cats, dogs, and humans.", 
+    "desc": "Spiders, spiders, everywhere!  It is almost ant-like in efficiency\nwith one big difference.  The spiders here are carrying ant-corpses,\nas well as cats, dogs, and humans.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6307
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6306
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6305
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6309
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6308, 
-    "name": "On The Busy Path", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6308,
+    "name": "On The Busy Path",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "As always, there is a split in the road.  One road is strewn with\ncricket feelers.  The other is well-kept and suitable for smooth\ntravelling.  The webbing that was prevalent in earlier rooms is almost\nnon-existant now.", 
+    "desc": "As always, there is a split in the road.  One road is strewn with\ncricket feelers.  The other is well-kept and suitable for smooth\ntravelling.  The webbing that was prevalent in earlier rooms is almost\nnon-existant now.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6310
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6308
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6320
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6309, 
-    "name": "A Split In The Path", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6309,
+    "name": "A Split In The Path",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "You are on a 'fuzzy' tree limb.  Interesting, since the branches\nseem to have 'hairs' sprouting from its bark.  As you look closer\nyou see millions of aphids covering each limb.", 
+    "desc": "You are on a 'fuzzy' tree limb.  Interesting, since the branches\nseem to have 'hairs' sprouting from its bark.  As you look closer\nyou see millions of aphids covering each limb.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6309
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6311
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6310, 
-    "name": "A Fuzzy Tree Limb", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6310,
+    "name": "A Fuzzy Tree Limb",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "You feel that you can rest here safely.  There is evidence of\nwebbing here, but it is of a finer quality.", 
+    "desc": "You feel that you can rest here safely.  There is evidence of\nwebbing here, but it is of a finer quality.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6310
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6312
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 6311, 
-    "name": "The Tree Trunk", 
+    ],
+    "id": 6311,
+    "name": "The Tree Trunk",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "It seems the inhabitant of this place does not web her victims,\nas evidenced by the remains before you.  The area is cluttered with\ndesiccated corpses, apparently bitten but unwebbed, and drained of\ntheir life juices.", 
+    "desc": "It seems the inhabitant of this place does not web her victims,\nas evidenced by the remains before you.  The area is cluttered with\ndesiccated corpses, apparently bitten but unwebbed, and drained of\ntheir life juices.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6311
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6313
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6312, 
-    "name": "The Tree Lair Entrance", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6312,
+    "name": "The Tree Lair Entrance",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "Very dark, as all lairs of spiders are.  Not much of furnishings\nsave an exit.  The wolf spider keeps no corpses here, but rather\nthrows them out at her leisure.", 
+    "desc": "Very dark, as all lairs of spiders are.  Not much of furnishings\nsave an exit.  The wolf spider keeps no corpses here, but rather\nthrows them out at her leisure.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6312
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6313, 
-    "name": "The Wolf Spider Lair", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6313,
+    "name": "The Wolf Spider Lair",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "Strange.  No webbing here.  In fact, no sounds whatsoever.  \nThe path continues northward, where you find that you may have\nto tightrope your way across a ravine.", 
+    "desc": "Strange.  No webbing here.  In fact, no sounds whatsoever.  \nThe path continues northward, where you find that you may have\nto tightrope your way across a ravine.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6309
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6321
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6320, 
-    "name": "The Webless Path", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6320,
+    "name": "The Webless Path",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "Stranger still.  Your feet get a real firm grip on the spiderline.\nYou are above a deep ravine.  This line connects you between two trees.\nBelow you can see a prismatic web with lots of animal bones caught in it:\nsome bear and small deer bones in fact.  No human skeletons are visible \n(yet).", 
+    "desc": "Stranger still.  Your feet get a real firm grip on the spiderline.\nYou are above a deep ravine.  This line connects you between two trees.\nBelow you can see a prismatic web with lots of animal bones caught in it:\nsome bear and small deer bones in fact.  No human skeletons are visible \n(yet).",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6320
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6323
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6322
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6321, 
-    "name": "Above The Ravine", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6321,
+    "name": "Above The Ravine",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "This is the rainbow web -- each strand, each link, a hue of violently\nsharp colors and contrasts.  The resident here seems to have a command\nof light as well.", 
+    "desc": "This is the rainbow web -- each strand, each link, a hue of violently\nsharp colors and contrasts.  The resident here seems to have a command\nof light as well.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6321
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6322, 
-    "name": "The Rainbow Web", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6322,
+    "name": "The Rainbow Web",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "The trees here take on a different appearance -- they are not trees\nanymore, but disjointed make-shift silken made shafts, sticky to the\ntouch, and webby in texture.  This is another world it would appear.", 
+    "desc": "The trees here take on a different appearance -- they are not trees\nanymore, but disjointed make-shift silken made shafts, sticky to the\ntouch, and webby in texture.  This is another world it would appear.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6321
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6324
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6323, 
-    "name": "The Web Forest", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6323,
+    "name": "The Web Forest",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "You have entered the slave pit.  A voice blares in the distance,\n'Get back to work, maggots!'  Rails upon rails of mined gold and silver\nclutter the trail beneath you.", 
+    "desc": "You have entered the slave pit.  A voice blares in the distance,\n'Get back to work, maggots!'  Rails upon rails of mined gold and silver\nclutter the trail beneath you.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6325
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6323
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6324, 
-    "name": "The Slave Pit", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6324,
+    "name": "The Slave Pit",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "Another tether path just like the rest of them.  Surprisingly\nwell-lit by the golden orbs that hang from the sides, you can see\nthe paths become finer and finer in quality.", 
+    "desc": "Another tether path just like the rest of them.  Surprisingly\nwell-lit by the golden orbs that hang from the sides, you can see\nthe paths become finer and finer in quality.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6326
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6324
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6325, 
-    "name": "The Tether Path", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6325,
+    "name": "The Tether Path",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "Another shifty little strand of webs, almost ethereal in nature.", 
+    "desc": "Another shifty little strand of webs, almost ethereal in nature.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6325
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6327
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6326, 
-    "name": "A Road Crossing", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6326,
+    "name": "A Road Crossing",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "This strand is weightier, more sturdy.  It shimmers as you step on\nit.  You are definitely not in the Midgaardian realms anymore.  Just\nwhere you are you can't tell.  It feels like you're moving through\nether.  You can still get back down to more surer lands.", 
+    "desc": "This strand is weightier, more sturdy.  It shimmers as you step on\nit.  You are definitely not in the Midgaardian realms anymore.  Just\nwhere you are you can't tell.  It feels like you're moving through\nether.  You can still get back down to more surer lands.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6328
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6326
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6327, 
-    "name": "A Leader Strand", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6327,
+    "name": "A Leader Strand",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "You are at the entrance to ethereal web.  Flickering in and out,\nin and out, each strand reveals a different hue from black to green \nto blue.", 
+    "desc": "You are at the entrance to ethereal web.  Flickering in and out,\nin and out, each strand reveals a different hue from black to green \nto blue.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6331
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6328, 
-    "name": "The Entrance Of The Ethereal Web", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6328,
+    "name": "The Entrance Of The Ethereal Web",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "A playpen of sorts, with maggots of wasps and other baby\nvermin lying about.  You feel that humans have been played with\nhere too, and eaten later.  You sense that the maker of this\nplace has an appetite for dragon meat, and uses this room as a\nbreeding area.", 
+    "desc": "A playpen of sorts, with maggots of wasps and other baby\nvermin lying about.  You feel that humans have been played with\nhere too, and eaten later.  You sense that the maker of this\nplace has an appetite for dragon meat, and uses this room as a\nbreeding area.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6331
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6330, 
-    "name": "The Young Wormkin's Crib", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6330,
+    "name": "The Young Wormkin's Crib",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "Large strands connect at this point.  The node shimmers and\nflickers within the ether.  You see many flying creatures --\ninsects, pegasi, and dragon wormkins -- navigate the dangerous\npassages of the web.  Exits go in many directions.", 
+    "desc": "Large strands connect at this point.  The node shimmers and\nflickers within the ether.  You see many flying creatures --\ninsects, pegasi, and dragon wormkins -- navigate the dangerous\npassages of the web.  Exits go in many directions.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6330
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6332
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6333
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6334
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6331, 
-    "name": "The Base Of The Web", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6331,
+    "name": "The Base Of The Web",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "This part of the web intersects through the branches of some\ntrees.  Various leaves and other debris that the many drones have\nnot picked up yet lie here.", 
+    "desc": "This part of the web intersects through the branches of some\ntrees.  Various leaves and other debris that the many drones have\nnot picked up yet lie here.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6331
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6335
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6333
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6332, 
-    "name": "Through The Trees", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6332,
+    "name": "Through The Trees",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "You can see all of Midgaard in this ethereal web.  Many\nof the larger dragons that do wish to fly seem to fly away\nfrom the sticky strands of the web.", 
+    "desc": "You can see all of Midgaard in this ethereal web.  Many\nof the larger dragons that do wish to fly seem to fly away\nfrom the sticky strands of the web.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6331
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6334
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6335
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6333, 
-    "name": "Above The Clouds", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6333,
+    "name": "Above The Clouds",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "This cloud is rather thick in consistency.  You suddenly realize\nthis is not a typical cloud, but it might be the nest of an aerial\ncreature.", 
+    "desc": "This cloud is rather thick in consistency.  You suddenly realize\nthis is not a typical cloud, but it might be the nest of an aerial\ncreature.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6331
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6334, 
-    "name": "On A Cloud", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6334,
+    "name": "On A Cloud",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "This is another link in the ethereal web.  Various creatures seem\nto get caught (or hypnotized) by its sticky strands.", 
+    "desc": "This is another link in the ethereal web.  Various creatures seem\nto get caught (or hypnotized) by its sticky strands.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6336
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6331
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6335, 
-    "name": "A Link In The Ethereal Web", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6335,
+    "name": "A Link In The Ethereal Web",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "Very windy here since it goes up into the sky somewhat.  Still, it\nis safe enough to move around.", 
+    "desc": "Very windy here since it goes up into the sky somewhat.  Still, it\nis safe enough to move around.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6340
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6341
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6331
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6336, 
-    "name": "The Tenuous Strand", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6336,
+    "name": "The Tenuous Strand",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "A more mature wormkin it seems resides here.  Various tomes\nof arcane lore clutter the area, along with shards of armor and\nweaponry.", 
+    "desc": "A more mature wormkin it seems resides here.  Various tomes\nof arcane lore clutter the area, along with shards of armor and\nweaponry.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6331
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6340, 
-    "name": "The Elder Wormkin's Room", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6340,
+    "name": "The Elder Wormkin's Room",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "Once again the web crosses another tree limb.  To the side you\nsee the possible entrance to another creature's lair.", 
+    "desc": "Once again the web crosses another tree limb.  To the side you\nsee the possible entrance to another creature's lair.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6342
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6334
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6345
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6341, 
-    "name": "Another Tree Limb", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6341,
+    "name": "Another Tree Limb",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "This is a big game hunter among most spiders.  Crushed\njewels and weapons suggest the inhabitant must have powerful\njaws.  Beware!", 
+    "desc": "This is a big game hunter among most spiders.  Crushed\njewels and weapons suggest the inhabitant must have powerful\njaws.  Beware!",
     "exits": [
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6331
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6342, 
-    "name": "The Bird Spider's Lair", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6342,
+    "name": "The Bird Spider's Lair",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "This is another link in the ethereal web.  Various creatures\nseem to get caught (or hypnotized) by its sticky strands.", 
+    "desc": "This is another link in the ethereal web.  Various creatures\nseem to get caught (or hypnotized) by its sticky strands.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6350
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6346
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6345
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6345, 
-    "name": "A Link In The Ethereal Web", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6345,
+    "name": "A Link In The Ethereal Web",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "This is a quiet tree top.  Downwards you can see a familiar path\nthat may lead back to Midgaard.", 
+    "desc": "This is a quiet tree top.  Downwards you can see a familiar path\nthat may lead back to Midgaard.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6345
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6347
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6132
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6346, 
-    "name": "The Quiet Tree Top", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6346,
+    "name": "The Quiet Tree Top",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "RRRRRRRRRRROOOOOOOOOOOOOAAAAAAAAAAAAAARR!  You hear the roar\nof a powerful beast.  Dragon, you think.  You shiver in your boots\nas you tiptoe along this section of the web.", 
+    "desc": "RRRRRRRRRRROOOOOOOOOOOOOAAAAAAAAAAAAAARR!  You hear the roar\nof a powerful beast.  Dragon, you think.  You shiver in your boots\nas you tiptoe along this section of the web.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6346
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6355
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6331
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6347, 
-    "name": "On The Web", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6347,
+    "name": "On The Web",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "A wise ki-rin was entrapped here many years ago.  It is from her\nthat the ruler of this realm draws magical strength.", 
+    "desc": "A wise ki-rin was entrapped here many years ago.  It is from her\nthat the ruler of this realm draws magical strength.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6347
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6350, 
-    "name": "The Ki-Rin Chamber", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6350,
+    "name": "The Ki-Rin Chamber",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "This is another link in the ethereal web.  Various creatures\nseem to get caught (or hypnotized) by its sticky strands.  To\nthe north you sense the heavy breathing of a fiery animal.", 
+    "desc": "This is another link in the ethereal web.  Various creatures\nseem to get caught (or hypnotized) by its sticky strands.  To\nthe north you sense the heavy breathing of a fiery animal.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6360
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6365
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6355, 
-    "name": "A Link In The Ethereal Web", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6355,
+    "name": "A Link In The Ethereal Web",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "Yevaud, the Usurper of Midgaard, resides here.  A voice cries\nout, 'BEWARE, the Usurper of Midgaard lives here!  FLEE while you can!'\nBut even Yevaud has his master... or so you deduce.", 
+    "desc": "Yevaud, the Usurper of Midgaard, resides here.  A voice cries\nout, 'BEWARE, the Usurper of Midgaard lives here!  FLEE while you can!'\nBut even Yevaud has his master... or so you deduce.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6355
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6360, 
-    "name": "Yevaud's Lair", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6360,
+    "name": "Yevaud's Lair",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "This is another link in the ethereal web.  Various creatures\nseem to get caught (or hypnotized) by its sticky strands.  A\nsingle spider line lies to the north, while ghastly seemings are\ndue southward.  The grim entrance of Arachnos' Lair is downward.", 
+    "desc": "This is another link in the ethereal web.  Various creatures\nseem to get caught (or hypnotized) by its sticky strands.  A\nsingle spider line lies to the north, while ghastly seemings are\ndue southward.  The grim entrance of Arachnos' Lair is downward.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6371
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6331
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6366
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6390
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6365, 
-    "name": "A Link In The Ethereal Web", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6365,
+    "name": "A Link In The Ethereal Web",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "A dark path at the end of the web strand, you see ahead\na torch lit chamber where the souls of unavenged adventurers\ncome and gnash their teeth.  The howls and screams of many\necho through the hall ways.  You see one definite path ahead.", 
+    "desc": "A dark path at the end of the web strand, you see ahead\na torch lit chamber where the souls of unavenged adventurers\ncome and gnash their teeth.  The howls and screams of many\necho through the hall ways.  You see one definite path ahead.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6367
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6366, 
-    "name": "The Entrance To The Donjonkeep", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6366,
+    "name": "The Entrance To The Donjonkeep",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "A chair sits here for a tireless guardian who ensures that no\nsoul escapes.  Other than that, the room is undecorated.", 
+    "desc": "A chair sits here for a tireless guardian who ensures that no\nsoul escapes.  Other than that, the room is undecorated.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6368
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "An ordinary chair, well used, glued to the ground by spiderweb.", 
+        "desc": "An ordinary chair, well used, glued to the ground by spiderweb.",
         "keywords": [
           "chair"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6367, 
-    "name": "The Guardian's Room", 
+    ],
+    "flags": [],
+    "id": 6367,
+    "name": "The Guardian's Room",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "Here you see many misguided souls who think they still live.\nThey search for those who killed them without warrant, and seek\nthe free souls of living beings to inhabit and perhaps adventure\nonce more.", 
+    "desc": "Here you see many misguided souls who think they still live.\nThey search for those who killed them without warrant, and seek\nthe free souls of living beings to inhabit and perhaps adventure\nonce more.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6369
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6368, 
-    "name": "The Realm Of The Hopeless", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6368,
+    "name": "The Realm Of The Hopeless",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "Here you see many misguided souls who think they still live.\nThey search for those who killed them without warrant, and seek\nthe free souls of living beings to inhabit and perhaps adventure\nonce more.", 
+    "desc": "Here you see many misguided souls who think they still live.\nThey search for those who killed them without warrant, and seek\nthe free souls of living beings to inhabit and perhaps adventure\nonce more.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6368
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6370
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6369, 
-    "name": "The Realm Of The Hopeless", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6369,
+    "name": "The Realm Of The Hopeless",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "No souls have ever lived in this place.  The wails of slaves and\nthe howls of wolves are the only way you can describe the sounds you\nhear.  The walls are thin and wispy.  The only light you receive is\nthe shimmering from the strand of the ethereal web you used to get\nhere.", 
+    "desc": "No souls have ever lived in this place.  The wails of slaves and\nthe howls of wolves are the only way you can describe the sounds you\nhear.  The walls are thin and wispy.  The only light you receive is\nthe shimmering from the strand of the ethereal web you used to get\nhere.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6371
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6370, 
-    "name": "The Donjonkeep", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6370,
+    "name": "The Donjonkeep",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "A single spider line supports you once more.  As you look across\nthe ether you seen a single shack up ahead with a light in the window.\nYou sense a great evil coming from the north and feel inclined to go\nback on the ethereal web and take your chances there.", 
+    "desc": "A single spider line supports you once more.  As you look across\nthe ether you seen a single shack up ahead with a light in the window.\nYou sense a great evil coming from the north and feel inclined to go\nback on the ethereal web and take your chances there.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6331
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6372
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6371, 
-    "name": "The Single Spider Line", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6371,
+    "name": "The Single Spider Line",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "A single spider line supports you once more.  The shack comes\ncloser into view and you are even more inclined to go back now.", 
+    "desc": "A single spider line supports you once more.  The shack comes\ncloser into view and you are even more inclined to go back now.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6371
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6373
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6372, 
-    "name": "The Single Spider Line", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6372,
+    "name": "The Single Spider Line",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "Here you see evidence of a vagrant's abode.  The shack is to the\nnorth, if you dare enter it.  You get the sneaking feeling you should\ngo back now.  The skies above you darken and roar with the laughter\nof thunder.", 
+    "desc": "Here you see evidence of a vagrant's abode.  The shack is to the\nnorth, if you dare enter it.  You get the sneaking feeling you should\ngo back now.  The skies above you darken and roar with the laughter\nof thunder.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6372
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6380
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6373, 
-    "name": "The Hermit's Corner", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6373,
+    "name": "The Hermit's Corner",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "Mahatma, that silly thief, is here, and he steals everything you\nhave.  He says 'Here, have a quick trip to the Temple of Midgaard.'\nHe plunges a black dagger into your back...", 
-    "exits": [], 
-    "extra_descs": [], 
+    "desc": "Mahatma, that silly thief, is here, and he steals everything you\nhave.  He says 'Here, have a quick trip to the Temple of Midgaard.'\nHe plunges a black dagger into your back...",
+    "exits": [],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DEATH", 
+        "note": "DEATH",
         "value": 2
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6380, 
-    "name": "Mahatma's Inescapable Trap", 
+    ],
+    "id": 6380,
+    "name": "Mahatma's Inescapable Trap",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "All strands inevitably lead here, the center of the web, the\nentrance to Arachnos' Lair.", 
+    "desc": "All strands inevitably lead here, the center of the web, the\nentrance to Arachnos' Lair.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6391
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6390, 
-    "name": "The Entrance To The Arachnos' Lair", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6390,
+    "name": "The Entrance To The Arachnos' Lair",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "You can still bail out since your knees are shaking from the\nanticipation (or is it fear?).  The sky is clear on this strand of \nweb, surprisingly unsticky.  The strand does not vibrate like the \nothers.  A few ballooning spiders pass by, cackling 'You're gonna\ndie, you're gonna fry.  Good bye!'", 
+    "desc": "You can still bail out since your knees are shaking from the\nanticipation (or is it fear?).  The sky is clear on this strand of \nweb, surprisingly unsticky.  The strand does not vibrate like the \nothers.  A few ballooning spiders pass by, cackling 'You're gonna\ndie, you're gonna fry.  Good bye!'",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6392
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6331
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6391, 
-    "name": "The Sticky Chamber", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6391,
+    "name": "The Sticky Chamber",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "Before you you see a large, web-like door.  Various designs\nof ancient runes and names of Midgaard heroes are etched into\nthe webwork.  Perhaps lists of victims?  You can't tell.", 
+    "desc": "Before you you see a large, web-like door.  Various designs\nof ancient runes and names of Midgaard heroes are etched into\nthe webwork.  Perhaps lists of victims?  You can't tell.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "PICKPROOF", 
+          "note": "PICKPROOF",
           "value": 2
-        }, 
-        "key_number": 6300, 
+        },
+        "key_number": 6300,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 6399
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6391
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6392, 
-    "name": "The Great Door", 
+    ],
+    "id": 6392,
+    "name": "The Great Door",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
-  }, 
+  },
   {
-    "desc": "This is the lair of the Empress Spider, Arachnos.  You can\nsee a lavishly adorned rainbow web, her lair allows her to move\nto any universe she wishes by using her magical strands to the\nPrime Material Plane.  Coffers upon coffers of gold, magical\njewels and gems await.  Unfortunately Arachnos is a baggy spider\ntoo, and webs all her treasures to her beautiful silken body.", 
+    "desc": "This is the lair of the Empress Spider, Arachnos.  You can\nsee a lavishly adorned rainbow web, her lair allows her to move\nto any universe she wishes by using her magical strands to the\nPrime Material Plane.  Coffers upon coffers of gold, magical\njewels and gems await.  Unfortunately Arachnos is a baggy spider\ntoo, and webs all her treasures to her beautiful silken body.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "PICKPROOF", 
+          "note": "PICKPROOF",
           "value": 2
-        }, 
-        "key_number": 6300, 
+        },
+        "key_number": 6300,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 6392
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 64
       }
-    ], 
-    "id": 6399, 
-    "name": "The Lair Of Arachnos", 
+    ],
+    "id": 6399,
+    "name": "The Lair Of Arachnos",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 63
   }
 ]

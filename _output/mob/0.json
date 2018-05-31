@@ -2,284 +2,284 @@
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "Puff", 
-      "dragon", 
+      "Puff",
+      "dragon",
       "fractal"
-    ], 
-    "alignment": 1000, 
-    "armor_class": -1, 
+    ],
+    "alignment": 1000,
+    "armor_class": -1,
     "bare_hand_damage": {
-      "bonus": 3, 
-      "dice": 4, 
+      "bonus": 3,
+      "dice": 4,
       "sides": 6
-    }, 
-    "detail_desc": "Is that some type of differential curve involving some strange, and\nunknown calculus that she seems to be made out of?", 
+    },
+    "detail_desc": "Is that some type of differential curve involving some strange, and\nunknown calculus that she seems to be made out of?",
     "extra_spec": {
       "BareHandAttack": 12
-    }, 
+    },
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 10000, 
-    "id": 1, 
-    "level": 26, 
-    "long_desc": "Puff the Fractal Dragon is here, contemplating a higher reality.", 
+    },
+    "gold": 10000,
+    "id": 1,
+    "level": 26,
+    "long_desc": "Puff the Fractal Dragon is here, contemplating a higher reality.",
     "max_hit_points": {
-      "bonus": 550, 
-      "dice": 5, 
+      "bonus": 550,
+      "dice": 5,
       "sides": 10
-    }, 
-    "mob_type": "E", 
+    },
+    "mob_type": "E",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Puff", 
-    "thac0": 1, 
+    },
+    "short_desc": "Puff",
+    "thac0": 1,
     "xp": 155000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "clone"
-    ], 
-    "alignment": 0, 
-    "armor_class": 0, 
+    ],
+    "alignment": 0,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 1, 
+      "bonus": 1,
+      "dice": 1,
       "sides": 1
-    }, 
-    "detail_desc": "This clone is nothing to look at.  No, really, it is quite boring.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This clone is nothing to look at.  No, really, it is quite boring.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 10, 
-    "level": 1, 
-    "long_desc": "A boring old clone is standing here.", 
+    },
+    "gold": 0,
+    "id": 10,
+    "level": 1,
+    "long_desc": "A boring old clone is standing here.",
     "max_hit_points": {
-      "bonus": 1, 
-      "dice": 1, 
+      "bonus": 1,
+      "dice": 1,
       "sides": 1
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the clone", 
-    "thac0": 0, 
+    },
+    "short_desc": "the clone",
+    "thac0": 0,
     "xp": 0
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "zombie", 
-      "undead", 
+      "zombie",
+      "undead",
       "humanoid"
-    ], 
-    "alignment": 0, 
-    "armor_class": 0, 
+    ],
+    "alignment": 0,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 1, 
+      "bonus": 1,
+      "dice": 1,
       "sides": 1
-    }, 
-    "detail_desc": "This strange humanoid is moving rather slowly, and appears to be\na corpse, a walking corpse!  It must be a zombie or something of\nthe sort.", 
+    },
+    "detail_desc": "This strange humanoid is moving rather slowly, and appears to be\na corpse, a walking corpse!  It must be a zombie or something of\nthe sort.",
     "extra_spec": {
       "BareHandAttack": 7
-    }, 
+    },
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 11, 
-    "level": 1, 
-    "long_desc": "A strange humanoid is here.  How odd, its flesh seems to be falling off!", 
+    },
+    "gold": 0,
+    "id": 11,
+    "level": 1,
+    "long_desc": "A strange humanoid is here.  How odd, its flesh seems to be falling off!",
     "max_hit_points": {
-      "bonus": 1, 
-      "dice": 1, 
+      "bonus": 1,
+      "dice": 1,
       "sides": 1
-    }, 
-    "mob_type": "E", 
+    },
+    "mob_type": "E",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the zombie", 
-    "thac0": 0, 
+    },
+    "short_desc": "the zombie",
+    "thac0": 0,
     "xp": 0
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "aerial", 
-      "servant", 
+      "aerial",
+      "servant",
       "shape"
-    ], 
-    "alignment": 0, 
-    "armor_class": 0, 
+    ],
+    "alignment": 0,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 1, 
+      "bonus": 1,
+      "dice": 1,
       "sides": 1
-    }, 
-    "detail_desc": "As you stare at this amorphous shape, it begins to appear to take\nthe shape of a cloud-like humanoid.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "As you stare at this amorphous shape, it begins to appear to take\nthe shape of a cloud-like humanoid.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 19, 
-    "level": 1, 
-    "long_desc": "An amorphous shape is floating in the air.", 
+    },
+    "gold": 0,
+    "id": 19,
+    "level": 1,
+    "long_desc": "An amorphous shape is floating in the air.",
     "max_hit_points": {
-      "bonus": 1, 
-      "dice": 1, 
+      "bonus": 1,
+      "dice": 1,
       "sides": 1
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the aerial servant", 
-    "thac0": 0, 
+    },
+    "short_desc": "the aerial servant",
+    "thac0": 0,
     "xp": 0
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "elemental"
-    ], 
-    "alignment": 0, 
-    "armor_class": 0, 
+    ],
+    "alignment": 0,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 1, 
+      "bonus": 1,
+      "dice": 1,
       "sides": 1
-    }, 
-    "detail_desc": "This creature is the essence of the elements, and appears to be\nwaiting patiently for something to occur.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This creature is the essence of the elements, and appears to be\nwaiting patiently for something to occur.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 20, 
-    "level": 1, 
-    "long_desc": "An elemental is standing patiently here.", 
+    },
+    "gold": 0,
+    "id": 20,
+    "level": 1,
+    "long_desc": "An elemental is standing patiently here.",
     "max_hit_points": {
-      "bonus": 1, 
-      "dice": 1, 
+      "bonus": 1,
+      "dice": 1,
       "sides": 1
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the elemental", 
-    "thac0": 0, 
+    },
+    "short_desc": "the elemental",
+    "thac0": 0,
     "xp": 0
   }
 ]

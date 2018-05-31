@@ -2,1111 +2,1111 @@
   {
     "affects": [
       {
-        "note": "SNEAK", 
+        "note": "SNEAK",
         "value": 262144
-      }, 
+      },
       {
-        "note": "HIDE", 
+        "note": "HIDE",
         "value": 524288
       }
-    ], 
+    ],
     "aliases": [
-      "dervish", 
+      "dervish",
       "raggity"
-    ], 
-    "alignment": 900, 
-    "armor_class": 5, 
+    ],
+    "alignment": 900,
+    "armor_class": 5,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 2, 
+      "bonus": 0,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "Dressed in loose fitting rags, this man looks like he could use some rest.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "Dressed in loose fitting rags, this man looks like he could use some rest.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 70, 
-    "id": 5000, 
-    "level": 5, 
-    "long_desc": "A raggity dervish walks on aimlessly.", 
+    },
+    "gold": 70,
+    "id": 5000,
+    "level": 5,
+    "long_desc": "A raggity dervish walks on aimlessly.",
     "max_hit_points": {
-      "bonus": 60, 
-      "dice": 1, 
+      "bonus": 60,
+      "dice": 1,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the dervish", 
-    "thac0": 15, 
+    },
+    "short_desc": "the dervish",
+    "thac0": 15,
     "xp": 1000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "SNEAK", 
+        "note": "SNEAK",
         "value": 262144
-      }, 
+      },
       {
-        "note": "HIDE", 
+        "note": "HIDE",
         "value": 524288
       }
-    ], 
+    ],
     "aliases": [
-      "dervish", 
+      "dervish",
       "large"
-    ], 
-    "alignment": 650, 
-    "armor_class": 3, 
+    ],
+    "alignment": 650,
+    "armor_class": 3,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 2, 
+      "bonus": 1,
+      "dice": 2,
       "sides": 6
-    }, 
-    "detail_desc": "Dressed in loose fitting rags, this man looks like he could use LOTS of\nrest.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "Dressed in loose fitting rags, this man looks like he could use LOTS of\nrest.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 150, 
-    "id": 5001, 
-    "level": 8, 
-    "long_desc": "A large dervish watches for signs of trouble.", 
+    },
+    "gold": 150,
+    "id": 5001,
+    "level": 8,
+    "long_desc": "A large dervish watches for signs of trouble.",
     "max_hit_points": {
-      "bonus": 100, 
-      "dice": 2, 
+      "bonus": 100,
+      "dice": 2,
       "sides": 6
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the dervish", 
-    "thac0": 12, 
+    },
+    "short_desc": "the dervish",
+    "thac0": 12,
     "xp": 7000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "snake", 
+      "snake",
       "coral"
-    ], 
-    "alignment": -10, 
-    "armor_class": 4, 
+    ],
+    "alignment": -10,
+    "armor_class": 4,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 1, 
+      "bonus": 0,
+      "dice": 1,
       "sides": 9
-    }, 
-    "detail_desc": "This relatively harmless snake has bright alternating bands of red, yellow\nand black.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This relatively harmless snake has bright alternating bands of red, yellow\nand black.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 5002, 
-    "level": 4, 
-    "long_desc": "A brightly colored snake slithers along the sands.", 
+    },
+    "gold": 0,
+    "id": 5002,
+    "level": 4,
+    "long_desc": "A brightly colored snake slithers along the sands.",
     "max_hit_points": {
-      "bonus": 40, 
-      "dice": 1, 
+      "bonus": 40,
+      "dice": 1,
       "sides": 6
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the coral snake", 
-    "thac0": 17, 
+    },
+    "short_desc": "the coral snake",
+    "thac0": 17,
     "xp": 600
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "scorpion", 
+      "scorpion",
       "small"
-    ], 
-    "alignment": -50, 
-    "armor_class": 1, 
+    ],
+    "alignment": -50,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 1, 
+      "bonus": 0,
+      "dice": 1,
       "sides": 8
-    }, 
-    "detail_desc": "The little tail is mighty dangerous for such a small creature.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The little tail is mighty dangerous for such a small creature.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 5003, 
-    "level": 3, 
-    "long_desc": "A small, red scorpion scuttles away at your approach.", 
+    },
+    "gold": 0,
+    "id": 5003,
+    "level": 3,
+    "long_desc": "A small, red scorpion scuttles away at your approach.",
     "max_hit_points": {
-      "bonus": 40, 
-      "dice": 1, 
+      "bonus": 40,
+      "dice": 1,
       "sides": 6
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the small scorpion", 
-    "thac0": 17, 
+    },
+    "short_desc": "the small scorpion",
+    "thac0": 17,
     "xp": 500
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SENSE_LIFE", 
+        "note": "SENSE_LIFE",
         "value": 32
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "worm", 
-      "giant", 
+      "worm",
+      "giant",
       "purple"
-    ], 
-    "alignment": -300, 
-    "armor_class": 3, 
+    ],
+    "alignment": -300,
+    "armor_class": 3,
     "bare_hand_damage": {
-      "bonus": 14, 
-      "dice": 3, 
+      "bonus": 14,
+      "dice": 3,
       "sides": 7
-    }, 
-    "detail_desc": "He's big, mean, and purple.  Watch out!", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He's big, mean, and purple.  Watch out!",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 2540, 
-    "id": 5004, 
-    "level": 21, 
-    "long_desc": "A giant, purple sand worm thrusts up out of the sand and attacks!", 
+    },
+    "gold": 2540,
+    "id": 5004,
+    "level": 21,
+    "long_desc": "A giant, purple sand worm thrusts up out of the sand and attacks!",
     "max_hit_points": {
-      "bonus": 320, 
-      "dice": 2, 
+      "bonus": 320,
+      "dice": 2,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the sand worm", 
-    "thac0": 0, 
+    },
+    "short_desc": "the sand worm",
+    "thac0": 0,
     "xp": 65000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "dragon", 
+      "dragon",
       "brass"
-    ], 
-    "alignment": 950, 
-    "armor_class": 0, 
+    ],
+    "alignment": 950,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 3, 
+      "bonus": 4,
+      "dice": 3,
       "sides": 6
-    }, 
-    "detail_desc": "Then adds to it, 'Prepare to die, have a nice day!'", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "Then adds to it, 'Prepare to die, have a nice day!'",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 1500, 
-    "id": 5005, 
-    "level": 20, 
-    "long_desc": "A very large brass dragon steps out of the darkness and says 'Hello.'", 
+    },
+    "gold": 1500,
+    "id": 5005,
+    "level": 20,
+    "long_desc": "A very large brass dragon steps out of the darkness and says 'Hello.'",
     "max_hit_points": {
-      "bonus": 500, 
-      "dice": 2, 
+      "bonus": 500,
+      "dice": 2,
       "sides": 6
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the brass dragon", 
-    "thac0": 1, 
+    },
+    "short_desc": "the brass dragon",
+    "thac0": 1,
     "xp": 45000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
       }
-    ], 
+    ],
     "aliases": [
-      "nomad", 
+      "nomad",
       "leader"
-    ], 
-    "alignment": 950, 
-    "armor_class": 0, 
+    ],
+    "alignment": 950,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 2, 
+      "bonus": 5,
+      "dice": 2,
       "sides": 8
-    }, 
-    "detail_desc": "He is clad in silk robes lined with gold thread. At his side is a large,\nengraved cutlass.  He has an especially haughty air about him.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He is clad in silk robes lined with gold thread. At his side is a large,\nengraved cutlass.  He has an especially haughty air about him.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1000, 
-    "id": 5006, 
-    "level": 14, 
-    "long_desc": "The nomad leader sits silently in prayer.", 
+    },
+    "gold": 1000,
+    "id": 5006,
+    "level": 14,
+    "long_desc": "The nomad leader sits silently in prayer.",
     "max_hit_points": {
-      "bonus": 170, 
-      "dice": 2, 
+      "bonus": 170,
+      "dice": 2,
       "sides": 6
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_SITTING", 
+        "note": "POSITION_SITTING",
         "value": 6
-      }, 
+      },
       "load": {
-        "note": "POSITION_SITTING", 
+        "note": "POSITION_SITTING",
         "value": 6
       }
-    }, 
-    "short_desc": "the nomad leader", 
-    "thac0": 7, 
+    },
+    "short_desc": "the nomad leader",
+    "thac0": 7,
     "xp": 18000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "nomad", 
+      "nomad",
       "commander"
-    ], 
-    "alignment": 900, 
-    "armor_class": 1, 
+    ],
+    "alignment": 900,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 3, 
-      "dice": 2, 
+      "bonus": 3,
+      "dice": 2,
       "sides": 5
-    }, 
-    "detail_desc": "This is the nomad leader's second in command.  His clothes are richly woven\nof silk and gold thread.  A nasty cutlass hangs at his side.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This is the nomad leader's second in command.  His clothes are richly woven\nof silk and gold thread.  A nasty cutlass hangs at his side.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 600, 
-    "id": 5007, 
-    "level": 12, 
-    "long_desc": "The nomad commander stands here staring at you suspiciously.", 
+    },
+    "gold": 600,
+    "id": 5007,
+    "level": 12,
+    "long_desc": "The nomad commander stands here staring at you suspiciously.",
     "max_hit_points": {
-      "bonus": 135, 
-      "dice": 2, 
+      "bonus": 135,
+      "dice": 2,
       "sides": 6
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the nomad commander", 
-    "thac0": 8, 
+    },
+    "short_desc": "the nomad commander",
+    "thac0": 8,
     "xp": 14000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "nomad", 
+      "nomad",
       "warrior"
-    ], 
-    "alignment": 700, 
-    "armor_class": 2, 
+    ],
+    "alignment": 700,
+    "armor_class": 2,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 2, 
+      "bonus": 1,
+      "dice": 2,
       "sides": 6
-    }, 
-    "detail_desc": "This warrior is dressed in typical nomad clothing and looks quite mean.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This warrior is dressed in typical nomad clothing and looks quite mean.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 300, 
-    "id": 5008, 
-    "level": 10, 
-    "long_desc": "A proud nomad warrior stands here.", 
+    },
+    "gold": 300,
+    "id": 5008,
+    "level": 10,
+    "long_desc": "A proud nomad warrior stands here.",
     "max_hit_points": {
-      "bonus": 105, 
-      "dice": 1, 
+      "bonus": 105,
+      "dice": 1,
       "sides": 6
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the nomad warrior", 
-    "thac0": 11, 
+    },
+    "short_desc": "the nomad warrior",
+    "thac0": 11,
     "xp": 7000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "slave", 
+      "slave",
       "young"
-    ], 
-    "alignment": 1000, 
-    "armor_class": 9, 
+    ],
+    "alignment": 1000,
+    "armor_class": 9,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 1, 
+      "bonus": 0,
+      "dice": 1,
       "sides": 5
-    }, 
-    "detail_desc": "She looks quite thin and weak.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "She looks quite thin and weak.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 0, 
-    "id": 5009, 
-    "level": 3, 
-    "long_desc": "A young slave sits here staring at you with pleading eyes.", 
+    },
+    "gold": 0,
+    "id": 5009,
+    "level": 3,
+    "long_desc": "A young slave sits here staring at you with pleading eyes.",
     "max_hit_points": {
-      "bonus": 25, 
-      "dice": 1, 
+      "bonus": 25,
+      "dice": 1,
       "sides": 4
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_RESTING", 
+        "note": "POSITION_RESTING",
         "value": 5
-      }, 
+      },
       "load": {
-        "note": "POSITION_RESTING", 
+        "note": "POSITION_RESTING",
         "value": 5
       }
-    }, 
-    "short_desc": "the slave", 
-    "thac0": 18, 
+    },
+    "short_desc": "the slave",
+    "thac0": 18,
     "xp": 300
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INVISIBLE", 
+        "note": "INVISIBLE",
         "value": 2
-      }, 
+      },
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SENSE_LIFE", 
+        "note": "SENSE_LIFE",
         "value": 32
-      }, 
+      },
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "dracolich", 
+      "dracolich",
       "lich"
-    ], 
-    "alignment": -1000, 
-    "armor_class": -6, 
+    ],
+    "alignment": -1000,
+    "armor_class": -6,
     "bare_hand_damage": {
-      "bonus": 35, 
-      "dice": 3, 
+      "bonus": 35,
+      "dice": 3,
       "sides": 5
-    }, 
-    "detail_desc": "The dracolich is now only bone with pieces of flesh hanging from it.\nObviously it no longer fears death.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The dracolich is now only bone with pieces of flesh hanging from it.\nObviously it no longer fears death.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 75000, 
-    "id": 5010, 
-    "level": 24, 
-    "long_desc": "A pile of bones rises up to form a skeletal dracolich.", 
+    },
+    "gold": 75000,
+    "id": 5010,
+    "level": 24,
+    "long_desc": "A pile of bones rises up to form a skeletal dracolich.",
     "max_hit_points": {
-      "bonus": 520, 
-      "dice": 1, 
+      "bonus": 520,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the dracolich", 
-    "thac0": 0, 
+    },
+    "short_desc": "the dracolich",
+    "thac0": 0,
     "xp": 125000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
       "drider"
-    ], 
-    "alignment": -1000, 
-    "armor_class": 2, 
+    ],
+    "alignment": -1000,
+    "armor_class": 2,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 2, 
+      "bonus": 2,
+      "dice": 2,
       "sides": 6
-    }, 
-    "detail_desc": "This half-spider, half-drow creature is a formidable opponent.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This half-spider, half-drow creature is a formidable opponent.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 200, 
-    "id": 5011, 
-    "level": 8, 
-    "long_desc": "The drider looks at you viciously while it draws its sword.", 
+    },
+    "gold": 200,
+    "id": 5011,
+    "level": 8,
+    "long_desc": "The drider looks at you viciously while it draws its sword.",
     "max_hit_points": {
-      "bonus": 95, 
-      "dice": 1, 
+      "bonus": 95,
+      "dice": 1,
       "sides": 6
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the drider", 
-    "thac0": 12, 
+    },
+    "short_desc": "the drider",
+    "thac0": 12,
     "xp": 4000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "duergar", 
-      "dark", 
+      "duergar",
+      "dark",
       "dwarf"
-    ], 
-    "alignment": -850, 
-    "armor_class": 3, 
+    ],
+    "alignment": -850,
+    "armor_class": 3,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 2, 
+      "bonus": 1,
+      "dice": 2,
       "sides": 5
-    }, 
-    "detail_desc": "The duergar could probably crush your head as easily as he does those\nrocks.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The duergar could probably crush your head as easily as he does those\nrocks.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 170, 
-    "id": 5012, 
-    "level": 5, 
-    "long_desc": "A duergar is here mining precious stones with his pick.", 
+    },
+    "gold": 170,
+    "id": 5012,
+    "level": 5,
+    "long_desc": "A duergar is here mining precious stones with his pick.",
     "max_hit_points": {
-      "bonus": 60, 
-      "dice": 1, 
+      "bonus": 60,
+      "dice": 1,
       "sides": 11
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the dark dwarf", 
-    "thac0": 16, 
+    },
+    "short_desc": "the dark dwarf",
+    "thac0": 16,
     "xp": 1250
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
       "myconoid"
-    ], 
-    "alignment": 850, 
-    "armor_class": 4, 
+    ],
+    "alignment": 850,
+    "armor_class": 4,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 2, 
+      "bonus": 0,
+      "dice": 2,
       "sides": 7
-    }, 
-    "detail_desc": "The myconoid looks something like a giant mushroom (and probably has the\nsame effect).", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The myconoid looks something like a giant mushroom (and probably has the\nsame effect).",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 50, 
-    "id": 5013, 
-    "level": 6, 
-    "long_desc": "A myconoid lumbers along peacefully.", 
+    },
+    "gold": 50,
+    "id": 5013,
+    "level": 6,
+    "long_desc": "A myconoid lumbers along peacefully.",
     "max_hit_points": {
-      "bonus": 68, 
-      "dice": 1, 
+      "bonus": 68,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the myconoid", 
-    "thac0": 15, 
+    },
+    "short_desc": "the myconoid",
+    "thac0": 15,
     "xp": 600
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "myconoid", 
+      "myconoid",
       "shaman"
-    ], 
-    "alignment": 950, 
-    "armor_class": 1, 
+    ],
+    "alignment": 950,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 2, 
+      "bonus": 2,
+      "dice": 2,
       "sides": 7
-    }, 
-    "detail_desc": "The shaman shoots spores into the air.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The shaman shoots spores into the air.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AGGR_EVIL", 
+        "note": "AGGR_EVIL",
         "value": 256
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 2500, 
-    "id": 5014, 
-    "level": 14, 
-    "long_desc": "A rather large myconoid stands here chanting in a strange tongue.", 
+    },
+    "gold": 2500,
+    "id": 5014,
+    "level": 14,
+    "long_desc": "A rather large myconoid stands here chanting in a strange tongue.",
     "max_hit_points": {
-      "bonus": 173, 
-      "dice": 1, 
+      "bonus": 173,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the myconoid shaman", 
-    "thac0": 7, 
+    },
+    "short_desc": "the myconoid shaman",
+    "thac0": 7,
     "xp": 18000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "dustdigger", 
+      "dustdigger",
       "oasis"
-    ], 
-    "alignment": -200, 
-    "armor_class": 1, 
+    ],
+    "alignment": -200,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 3, 
+      "bonus": 0,
+      "dice": 3,
       "sides": 4
-    }, 
-    "detail_desc": "Looking a little closer at this oasis, you begin to wonder why\nit seems to be moving about...", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "Looking a little closer at this oasis, you begin to wonder why\nit seems to be moving about...",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 450, 
-    "id": 5015, 
-    "level": 7, 
-    "long_desc": "A small oasis invites you to dive in.", 
+    },
+    "gold": 450,
+    "id": 5015,
+    "level": 7,
+    "long_desc": "A small oasis invites you to dive in.",
     "max_hit_points": {
-      "bonus": 85, 
-      "dice": 1, 
+      "bonus": 85,
+      "dice": 1,
       "sides": 6
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the dustdigger", 
-    "thac0": 10, 
+    },
+    "short_desc": "the dustdigger",
+    "thac0": 10,
     "xp": 2250
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "camel"
-    ], 
-    "alignment": -351, 
-    "armor_class": 6, 
+    ],
+    "alignment": -351,
+    "armor_class": 6,
     "bare_hand_damage": {
-      "bonus": 3, 
-      "dice": 2, 
+      "bonus": 3,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "It is advisable not to mess with this creature.  After all, you\nhave heard many a horror story about experiences with camels.\nBad experiences.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "It is advisable not to mess with this creature.  After all, you\nhave heard many a horror story about experiences with camels.\nBad experiences.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 270, 
-    "id": 5017, 
-    "level": 5, 
-    "long_desc": "A very dangerous creature, a camel, snorts at you.", 
+    },
+    "gold": 270,
+    "id": 5017,
+    "level": 5,
+    "long_desc": "A very dangerous creature, a camel, snorts at you.",
     "max_hit_points": {
-      "bonus": 60, 
-      "dice": 1, 
+      "bonus": 60,
+      "dice": 1,
       "sides": 6
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the camel", 
-    "thac0": 12, 
+    },
+    "short_desc": "the camel",
+    "thac0": 12,
     "xp": 900
   }
 ]

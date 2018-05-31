@@ -1,776 +1,776 @@
 [
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "deer"
-    ], 
-    "alignment": 0, 
-    "armor_class": 10, 
+    ],
+    "alignment": 0,
+    "armor_class": 10,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 1, 
+      "bonus": 0,
+      "dice": 1,
       "sides": 7
-    }, 
-    "detail_desc": "That is one nice looking deer!", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "That is one nice looking deer!",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 6200, 
-    "level": 3, 
-    "long_desc": "A deer looks at you with fear in its eyes.", 
+    },
+    "gold": 0,
+    "id": 6200,
+    "level": 3,
+    "long_desc": "A deer looks at you with fear in its eyes.",
     "max_hit_points": {
-      "bonus": 33, 
-      "dice": 3, 
+      "bonus": 33,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the deer", 
-    "thac0": 18, 
+    },
+    "short_desc": "the deer",
+    "thac0": 18,
     "xp": 350
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "rabbit"
-    ], 
-    "alignment": 0, 
-    "armor_class": 30, 
+    ],
+    "alignment": 0,
+    "armor_class": 30,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 1, 
+      "bonus": 0,
+      "dice": 1,
       "sides": 3
-    }, 
-    "detail_desc": "It is a small, furry rodent with big ears.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "It is a small, furry rodent with big ears.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 6201, 
-    "level": 0, 
-    "long_desc": "A small rabbit nibbles at a leaf here.", 
+    },
+    "gold": 0,
+    "id": 6201,
+    "level": 0,
+    "long_desc": "A small rabbit nibbles at a leaf here.",
     "max_hit_points": {
-      "bonus": 3, 
-      "dice": 1, 
+      "bonus": 3,
+      "dice": 1,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the rabbit", 
-    "thac0": 20, 
+    },
+    "short_desc": "the rabbit",
+    "thac0": 20,
     "xp": 25
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "squirrel"
-    ], 
-    "alignment": 0, 
-    "armor_class": -10, 
+    ],
+    "alignment": 0,
+    "armor_class": -10,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 1, 
+      "bonus": 1,
+      "dice": 1,
       "sides": 1
-    }, 
-    "detail_desc": "It is a small, brown squirrel.  Kind of like a\nfuzzy high-tension spring.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "It is a small, brown squirrel.  Kind of like a\nfuzzy high-tension spring.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 6202, 
-    "level": 0, 
-    "long_desc": "A squirrel spots you and runs around a tree!", 
+    },
+    "gold": 0,
+    "id": 6202,
+    "level": 0,
+    "long_desc": "A squirrel spots you and runs around a tree!",
     "max_hit_points": {
-      "bonus": 0, 
-      "dice": 1, 
+      "bonus": 0,
+      "dice": 1,
       "sides": 3
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the squirrel", 
-    "thac0": 20, 
+    },
+    "short_desc": "the squirrel",
+    "thac0": 20,
     "xp": 10
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "orc", 
+      "orc",
       "hunter"
-    ], 
-    "alignment": -350, 
-    "armor_class": 50, 
+    ],
+    "alignment": -350,
+    "armor_class": 50,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 2, 
+      "bonus": 2,
+      "dice": 2,
       "sides": 3
-    }, 
-    "detail_desc": "He looks angry, desperate, and maybe a little sick.\nHis green skin is definitely mottled, and he seems to\nlimp a little bit...", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks angry, desperate, and maybe a little sick.\nHis green skin is definitely mottled, and he seems to\nlimp a little bit...",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 0, 
-    "id": 6203, 
-    "level": 7, 
-    "long_desc": "An orc hunter looks at you with hateful eyes.", 
+    },
+    "gold": 0,
+    "id": 6203,
+    "level": 7,
+    "long_desc": "An orc hunter looks at you with hateful eyes.",
     "max_hit_points": {
-      "bonus": 83, 
-      "dice": 3, 
+      "bonus": 83,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the orc hunter", 
-    "thac0": 14, 
+    },
+    "short_desc": "the orc hunter",
+    "thac0": 14,
     "xp": 2250
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "orc", 
+      "orc",
       "chief"
-    ], 
-    "alignment": -600, 
-    "armor_class": 20, 
+    ],
+    "alignment": -600,
+    "armor_class": 20,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 2, 
+      "bonus": 2,
+      "dice": 2,
       "sides": 7
-    }, 
-    "detail_desc": "He wears a crown of oak leaves to show he is a leader.  He\ncarries a club to show he is a warrior.  You wonder how good\nhe is at both.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He wears a crown of oak leaves to show he is a leader.  He\ncarries a club to show he is a warrior.  You wonder how good\nhe is at both.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 17, 
-    "id": 6204, 
-    "level": 10, 
-    "long_desc": "An orc chief growls at you!", 
+    },
+    "gold": 17,
+    "id": 6204,
+    "level": 10,
+    "long_desc": "An orc chief growls at you!",
     "max_hit_points": {
-      "bonus": 120, 
-      "dice": 3, 
+      "bonus": 120,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the orc chief", 
-    "thac0": 11, 
+    },
+    "short_desc": "the orc chief",
+    "thac0": 11,
     "xp": 9000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "orc", 
+      "orc",
       "woman"
-    ], 
-    "alignment": -50, 
-    "armor_class": 70, 
+    ],
+    "alignment": -50,
+    "armor_class": 70,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 2, 
+      "bonus": 0,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "As you stare her down, she raises her hands slowly, as if to\nsay, 'Don't kill me'.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "As you stare her down, she raises her hands slowly, as if to\nsay, 'Don't kill me'.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 0, 
-    "id": 6205, 
-    "level": 5, 
-    "long_desc": "An orc woman stands here, frightened of you.", 
+    },
+    "gold": 0,
+    "id": 6205,
+    "level": 5,
+    "long_desc": "An orc woman stands here, frightened of you.",
     "max_hit_points": {
-      "bonus": 58, 
-      "dice": 3, 
+      "bonus": 58,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the orc woman", 
-    "thac0": 16, 
+    },
+    "short_desc": "the orc woman",
+    "thac0": 16,
     "xp": 900
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "orc", 
+      "orc",
       "child"
-    ], 
-    "alignment": 50, 
-    "armor_class": 90, 
+    ],
+    "alignment": 50,
+    "armor_class": 90,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 1, 
+      "bonus": 0,
+      "dice": 1,
       "sides": 7
-    }, 
-    "detail_desc": "She is raggedy, and seems to be covered with sores.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "She is raggedy, and seems to be covered with sores.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 0, 
-    "id": 6206, 
-    "level": 3, 
-    "long_desc": "An orc child frantically searches for her mother.", 
+    },
+    "gold": 0,
+    "id": 6206,
+    "level": 3,
+    "long_desc": "An orc child frantically searches for her mother.",
     "max_hit_points": {
-      "bonus": 30, 
-      "dice": 3, 
+      "bonus": 30,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the orc child", 
-    "thac0": 18, 
+    },
+    "short_desc": "the orc child",
+    "thac0": 18,
     "xp": 350
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "orc", 
+      "orc",
       "woman"
-    ], 
-    "alignment": -50, 
-    "armor_class": 100, 
+    ],
+    "alignment": -50,
+    "armor_class": 100,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 1, 
+      "bonus": 0,
+      "dice": 1,
       "sides": 4
-    }, 
-    "detail_desc": "She is too far gone to move very quickly.  You could\nkill her easily.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "She is too far gone to move very quickly.  You could\nkill her easily.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 0, 
-    "id": 6207, 
-    "level": 5, 
-    "long_desc": "A pregnant orc woman tries to stand to flee from you.", 
+    },
+    "gold": 0,
+    "id": 6207,
+    "level": 5,
+    "long_desc": "A pregnant orc woman tries to stand to flee from you.",
     "max_hit_points": {
-      "bonus": 58, 
-      "dice": 3, 
+      "bonus": 58,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_SITTING", 
+        "note": "POSITION_SITTING",
         "value": 6
-      }, 
+      },
       "load": {
-        "note": "POSITION_SITTING", 
+        "note": "POSITION_SITTING",
         "value": 6
       }
-    }, 
-    "short_desc": "the orc woman", 
-    "thac0": 16, 
+    },
+    "short_desc": "the orc woman",
+    "thac0": 16,
     "xp": 750
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "orc", 
-      "mutant", 
+      "orc",
+      "mutant",
       "mutated"
-    ], 
-    "alignment": 0, 
-    "armor_class": 100, 
+    ],
+    "alignment": 0,
+    "armor_class": 100,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 1, 
+      "bonus": 0,
+      "dice": 1,
       "sides": 1
-    }, 
-    "detail_desc": "Its body has been twisted beyond all hope.  It is dying, and\nnothing will stop that.", 
-    "extra_spec": {}, 
-    "flags": [], 
+    },
+    "detail_desc": "Its body has been twisted beyond all hope.  It is dying, and\nnothing will stop that.",
+    "extra_spec": {},
+    "flags": [],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 6208, 
-    "level": 6, 
-    "long_desc": "A mutant orc lies here, barely alive.", 
+    },
+    "gold": 0,
+    "id": 6208,
+    "level": 6,
+    "long_desc": "A mutant orc lies here, barely alive.",
     "max_hit_points": {
-      "bonus": 0, 
-      "dice": 1, 
+      "bonus": 0,
+      "dice": 1,
       "sides": 1
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_RESTING", 
+        "note": "POSITION_RESTING",
         "value": 5
-      }, 
+      },
       "load": {
-        "note": "POSITION_RESTING", 
+        "note": "POSITION_RESTING",
         "value": 5
       }
-    }, 
-    "short_desc": "the mutant orc", 
-    "thac0": 20, 
+    },
+    "short_desc": "the mutant orc",
+    "thac0": 20,
     "xp": 1
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "orc", 
-      "mutant", 
+      "orc",
+      "mutant",
       "mutated"
-    ], 
-    "alignment": 0, 
-    "armor_class": 100, 
+    ],
+    "alignment": 0,
+    "armor_class": 100,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 1, 
+      "bonus": 0,
+      "dice": 1,
       "sides": 1
-    }, 
-    "detail_desc": "It doesn't even appear to have registered your arrival... it is\njust talking to itself.  Its body is a twisted wreck of orc, man,\nbeast, and what-not.", 
-    "extra_spec": {}, 
-    "flags": [], 
+    },
+    "detail_desc": "It doesn't even appear to have registered your arrival... it is\njust talking to itself.  Its body is a twisted wreck of orc, man,\nbeast, and what-not.",
+    "extra_spec": {},
+    "flags": [],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 6209, 
-    "level": 6, 
-    "long_desc": "A horribly mutated orc stands here, gibbering.", 
+    },
+    "gold": 0,
+    "id": 6209,
+    "level": 6,
+    "long_desc": "A horribly mutated orc stands here, gibbering.",
     "max_hit_points": {
-      "bonus": 60, 
-      "dice": 3, 
+      "bonus": 60,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the mutant orc", 
-    "thac0": 20, 
+    },
+    "short_desc": "the mutant orc",
+    "thac0": 20,
     "xp": 10
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "wizard", 
-      "elf", 
-      "elven", 
+      "wizard",
+      "elf",
+      "elven",
       "Elstar"
-    ], 
-    "alignment": -1000, 
-    "armor_class": -75, 
+    ],
+    "alignment": -1000,
+    "armor_class": -75,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 2, 
+      "bonus": 2,
+      "dice": 2,
       "sides": 8
-    }, 
-    "detail_desc": "He looks at you archly as he wonders why you have\ninvaded his domain.  No matter... it shouldn't be\ntoo hard for him to destroy you, no?", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks at you archly as he wonders why you have\ninvaded his domain.  No matter... it shouldn't be\ntoo hard for him to destroy you, no?",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 10000, 
-    "id": 6210, 
-    "level": 15, 
-    "long_desc": "An elven wizard is here.  He looks angry.", 
+    },
+    "gold": 10000,
+    "id": 6210,
+    "level": 15,
+    "long_desc": "An elven wizard is here.  He looks angry.",
     "max_hit_points": {
-      "bonus": 183, 
-      "dice": 3, 
+      "bonus": 183,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Elstar", 
-    "thac0": 6, 
+    },
+    "short_desc": "Elstar",
+    "thac0": 6,
     "xp": 21000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "child", 
-      "elf", 
-      "elven", 
+      "child",
+      "elf",
+      "elven",
       "apprentice"
-    ], 
-    "alignment": 600, 
-    "armor_class": 60, 
+    ],
+    "alignment": 600,
+    "armor_class": 60,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 2, 
+      "bonus": 0,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "He looks young and innocent.  You wonder what he is doing here.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks young and innocent.  You wonder what he is doing here.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 0, 
-    "id": 6211, 
-    "level": 3, 
-    "long_desc": "An elven child casts his fishing pole into the river.", 
+    },
+    "gold": 0,
+    "id": 6211,
+    "level": 3,
+    "long_desc": "An elven child casts his fishing pole into the river.",
     "max_hit_points": {
-      "bonus": 35, 
-      "dice": 3, 
+      "bonus": 35,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the elven child", 
-    "thac0": 18, 
+    },
+    "short_desc": "the elven child",
+    "thac0": 18,
     "xp": 400
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "mutant", 
+      "mutant",
       "thing"
-    ], 
-    "alignment": -800, 
-    "armor_class": -20, 
+    ],
+    "alignment": -800,
+    "armor_class": -20,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 2, 
+      "bonus": 4,
+      "dice": 2,
       "sides": 7
-    }, 
-    "detail_desc": "It might've been an orc, once.  Now it is a living terror,\npushing everything out of its way to get at you.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "It might've been an orc, once.  Now it is a living terror,\npushing everything out of its way to get at you.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 6212, 
-    "level": 12, 
-    "long_desc": "A mutant... thing rushes at you!", 
+    },
+    "gold": 0,
+    "id": 6212,
+    "level": 12,
+    "long_desc": "A mutant... thing rushes at you!",
     "max_hit_points": {
-      "bonus": 170, 
-      "dice": 3, 
+      "bonus": 170,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the mutant thing", 
-    "thac0": 9, 
+    },
+    "short_desc": "the mutant thing",
+    "thac0": 9,
     "xp": 15000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "mutant", 
+      "mutant",
       "thing"
-    ], 
-    "alignment": -800, 
-    "armor_class": -20, 
+    ],
+    "alignment": -800,
+    "armor_class": -20,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 2, 
+      "bonus": 4,
+      "dice": 2,
       "sides": 7
-    }, 
-    "detail_desc": "It might have been an orc, once.  Now it is a living terror,\npushing everything out of its way to get at you.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "It might have been an orc, once.  Now it is a living terror,\npushing everything out of its way to get at you.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 6213, 
-    "level": 12, 
-    "long_desc": "A mutant... thing tries to get you, but cannot move into range!", 
+    },
+    "gold": 0,
+    "id": 6213,
+    "level": 12,
+    "long_desc": "A mutant... thing tries to get you, but cannot move into range!",
     "max_hit_points": {
-      "bonus": 170, 
-      "dice": 3, 
+      "bonus": 170,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the mutant thing", 
-    "thac0": 9, 
+    },
+    "short_desc": "the mutant thing",
+    "thac0": 9,
     "xp": 15000
   }
 ]

@@ -1,1921 +1,1921 @@
 [
   {
-    "desc": "You are standing on the plains.  This is a vast desolate place where\nthe wind can howl undisturbed since nothing but you bars its way.  However\nyou are not the first to wander here.  Before you somebody has left a small\npath.  The path looks rather bewildered and is not the kind of path to lead\nto anywhere significant or important but it seems to have made up its mind\nto enter the hills far away north.  A narrow trail scars its way off to the\neast as it leads up towards a hillside.", 
+    "desc": "You are standing on the plains.  This is a vast desolate place where\nthe wind can howl undisturbed since nothing but you bars its way.  However\nyou are not the first to wander here.  Before you somebody has left a small\npath.  The path looks rather bewildered and is not the kind of path to lead\nto anywhere significant or important but it seems to have made up its mind\nto enter the hills far away north.  A narrow trail scars its way off to the\neast as it leads up towards a hillside.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4000
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3300
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3501
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3500, 
-    "name": "The Plains", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3500,
+    "name": "The Plains",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "You are strolling along a pleasant, shady lane.  The road is lined on both\nsides by tall, stately trees which lend the scene with a sense of quiet\nserenity.\n   You can follow the road north or south.", 
+    "desc": "You are strolling along a pleasant, shady lane.  The road is lined on both\nsides by tall, stately trees which lend the scene with a sense of quiet\nserenity.\n   You can follow the road north or south.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3500
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3502
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3501, 
-    "name": "The Lane", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3501,
+    "name": "The Lane",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "The trees stand close here, and the tall, bushy undergrowth prevents you\nfrom seeing far in any direction save east, where a broad lane continues off\ninto the distance; and west, where the same lane continues towards what looks\nlike a fairly large city.  The muted sounds of city commotion reach your ears\nfrom a distance; stray dogs barking, children crying, and street salesmen\nshouting.\n   A steep path leads down from here to the northeast towards the Dwarven\nVillage, and a small trail leads through the trees towards the hills to the\nnorth.", 
+    "desc": "The trees stand close here, and the tall, bushy undergrowth prevents you\nfrom seeing far in any direction save east, where a broad lane continues off\ninto the distance; and west, where the same lane continues towards what looks\nlike a fairly large city.  The muted sounds of city commotion reach your ears\nfrom a distance; stray dogs barking, children crying, and street salesmen\nshouting.\n   A steep path leads down from here to the northeast towards the Dwarven\nVillage, and a small trail leads through the trees towards the hills to the\nnorth.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3501
-      }, 
+      },
       {
-        "desc": "You see a fairly large road leading towards a grand castle in the distance.", 
-        "dir": 1, 
+        "desc": "You see a fairly large road leading towards a grand castle in the distance.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 15000
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3503
-      }, 
+      },
       {
-        "desc": "The well trodden path leads down to the northeast towards a small bustling\nvillage.", 
-        "dir": 5, 
+        "desc": "The well trodden path leads down to the northeast towards a small bustling\nvillage.",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6500
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3502, 
-    "name": "The Laneway", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3502,
+    "name": "The Laneway",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "You stand on the outskirts of a large city - Midgaard; the capital of\nthis land.  The road leads east into the peace and quiet - and dangers -\nof the forest; and to the west it becomes the main street of the town;\nsurrounded by a confusion of shops, bars, and market places.", 
+    "desc": "You stand on the outskirts of a large city - Midgaard; the capital of\nthis land.  The road leads east into the peace and quiet - and dangers -\nof the forest; and to the west it becomes the main street of the town;\nsurrounded by a confusion of shops, bars, and market places.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3502
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3053
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 3503, 
-    "name": "The City Entrance", 
+    ],
+    "id": 3503,
+    "name": "The City Entrance",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "You are standing on a small, dusty path leading away from the south\ngate of Midgaard, to the forest of Miden'Nir (Goblinic for 'Green Blood').\nYou can still see the city to the east, but if you go south, there is\nfresh air and greenery.", 
+    "desc": "You are standing on a small, dusty path leading away from the south\ngate of Midgaard, to the forest of Miden'Nir (Goblinic for 'Green Blood').\nYou can still see the city to the east, but if you go south, there is\nfresh air and greenery.",
     "exits": [
       {
-        "desc": "You can see the walls of the South Gate.", 
-        "dir": 1, 
+        "desc": "You can see the walls of the South Gate.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3127
-      }, 
+      },
       {
-        "desc": "If you go south, you will enter the Miden'Nir.", 
-        "dir": 2, 
+        "desc": "If you go south, you will enter the Miden'Nir.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3505
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3504, 
-    "name": "The South Gate", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3504,
+    "name": "The South Gate",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "You are in a light forest.  A path leads south, but the passage to\nthe east is easy enough.  To the west, smoke can be seen rising above\nthe treetops.  The sprawl of Midgaard lies north of here.", 
+    "desc": "You are in a light forest.  A path leads south, but the passage to\nthe east is easy enough.  To the west, smoke can be seen rising above\nthe treetops.  The sprawl of Midgaard lies north of here.",
     "exits": [
       {
-        "desc": "To the north, you see the South Gate of Midgaard.", 
-        "dir": 0, 
+        "desc": "To the north, you see the South Gate of Midgaard.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3504
-      }, 
+      },
       {
-        "desc": "More light forest.", 
-        "dir": 1, 
+        "desc": "More light forest.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3506
-      }, 
+      },
       {
-        "desc": "This path cuts through the darkness of the Miden'Nir.", 
-        "dir": 2, 
+        "desc": "This path cuts through the darkness of the Miden'Nir.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3507
-      }, 
+      },
       {
-        "desc": "The Woodsman's Inn can be seen a short distance to the west, it appears\nto be the source of the smoke.  ", 
-        "dir": 3, 
+        "desc": "The Woodsman's Inn can be seen a short distance to the west, it appears\nto be the source of the smoke.  ",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3570
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 3505, 
-    "name": "The Trail To Miden'Nir", 
+    ],
+    "id": 3505,
+    "name": "The Trail To Miden'Nir",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "You are in a dark forest.  To the east, mountains block passage.  From\nhere, only the lighter forest to the west or south offer a way to travel.", 
+    "desc": "You are in a dark forest.  To the east, mountains block passage.  From\nhere, only the lighter forest to the west or south offer a way to travel.",
     "exits": [
       {
-        "desc": "The mountains can be seen jutting up to the east.", 
-        "dir": 1, 
+        "desc": "The mountains can be seen jutting up to the east.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3550
-      }, 
+      },
       {
-        "desc": "The forest is darker to the south.", 
-        "dir": 2, 
+        "desc": "The forest is darker to the south.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3509
-      }, 
+      },
       {
-        "desc": "The forest gets lighter as you go west.", 
-        "dir": 3, 
+        "desc": "The forest gets lighter as you go west.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3505
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3506, 
-    "name": "The Miden'nir", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3506,
+    "name": "The Miden'nir",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "The forest is deep here and the wind blows through the trees and\nthrough your hair.  To the north, the forest gets lighter.  However,\nthe southern and western paths place you even deeper in the wood.", 
+    "desc": "The forest is deep here and the wind blows through the trees and\nthrough your hair.  To the north, the forest gets lighter.  However,\nthe southern and western paths place you even deeper in the wood.",
     "exits": [
       {
-        "desc": "The forest is lighter in this direction.", 
-        "dir": 0, 
+        "desc": "The forest is lighter in this direction.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3505
-      }, 
+      },
       {
-        "desc": "More and darker woods.", 
-        "dir": 2, 
+        "desc": "More and darker woods.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3510
-      }, 
+      },
       {
-        "desc": "There is a small path leading west.", 
-        "dir": 3, 
+        "desc": "There is a small path leading west.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3508
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3507, 
-    "name": "The Miden'nir", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3507,
+    "name": "The Miden'nir",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "A path is here, leading east and south through the dark woods of\nMiden'nir.  Mountains slash the scenery to the west of here.", 
+    "desc": "A path is here, leading east and south through the dark woods of\nMiden'nir.  Mountains slash the scenery to the west of here.",
     "exits": [
       {
-        "desc": "Wind-swept forest.", 
-        "dir": 1, 
+        "desc": "Wind-swept forest.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3507
-      }, 
+      },
       {
-        "desc": "To the south, the trail continues.", 
-        "dir": 2, 
+        "desc": "To the south, the trail continues.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3511
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3508, 
-    "name": "On a Small Path", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3508,
+    "name": "On a Small Path",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "The trees of Miden'nir are lush and green, hiding the evil that lurks\nin these woods.  The trees become too thick to the west, but you may go\nnorth, south or travel toward the mountains that lie east of here.", 
+    "desc": "The trees of Miden'nir are lush and green, hiding the evil that lurks\nin these woods.  The trees become too thick to the west, but you may go\nnorth, south or travel toward the mountains that lie east of here.",
     "exits": [
       {
-        "desc": "The trees lighten up a bit this way.", 
-        "dir": 0, 
+        "desc": "The trees lighten up a bit this way.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3506
-      }, 
+      },
       {
-        "desc": "Huge grey mountains lie in this direction.", 
-        "dir": 1, 
+        "desc": "Huge grey mountains lie in this direction.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3512
-      }, 
+      },
       {
-        "desc": "The forest continues.", 
-        "dir": 2, 
+        "desc": "The forest continues.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3514
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3509, 
-    "name": "The Miden'nir", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3509,
+    "name": "The Miden'nir",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "Here footworn paths meet leading north, south and east.  The trees\nseem to be closing in on you at this point, and you can barely see\nthe sky through the thick branches above your head.", 
+    "desc": "Here footworn paths meet leading north, south and east.  The trees\nseem to be closing in on you at this point, and you can barely see\nthe sky through the thick branches above your head.",
     "exits": [
       {
-        "desc": "Trees as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Trees as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3507
-      }, 
+      },
       {
-        "desc": "There is an especially dark part of the forest this way.", 
-        "dir": 1, 
+        "desc": "There is an especially dark part of the forest this way.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3514
-      }, 
+      },
       {
-        "desc": "There is an especially dark section of forest this way.", 
-        "dir": 2, 
+        "desc": "There is an especially dark section of forest this way.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3516
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3510, 
-    "name": "A Crossroads", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3510,
+    "name": "A Crossroads",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "You are on a north-south trail through the woods.  To the west,\nimpassable mountains glare at you, and the thick woods and undergrowth\nprevent any movement westward.", 
+    "desc": "You are on a north-south trail through the woods.  To the west,\nimpassable mountains glare at you, and the thick woods and undergrowth\nprevent any movement westward.",
     "exits": [
       {
-        "desc": "The trail bends to the north.", 
-        "dir": 0, 
+        "desc": "The trail bends to the north.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3508
-      }, 
+      },
       {
-        "desc": "To the south, the path re-enters the forest.", 
-        "dir": 2, 
+        "desc": "To the south, the path re-enters the forest.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3515
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3511, 
-    "name": "The Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3511,
+    "name": "The Trail",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "The trees of Miden'nir are lush and green, hiding the evil that lurks\nin these woods.  You can go north toward the mountains, or west to the\nforest, but the steep mountains prevent any movement east.", 
+    "desc": "The trees of Miden'nir are lush and green, hiding the evil that lurks\nin these woods.  You can go north toward the mountains, or west to the\nforest, but the steep mountains prevent any movement east.",
     "exits": [
       {
-        "desc": "The mountains can be seen to the north.", 
-        "dir": 0, 
+        "desc": "The mountains can be seen to the north.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3550
-      }, 
+      },
       {
-        "desc": "A light section of forest.", 
-        "dir": 2, 
+        "desc": "A light section of forest.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3513
-      }, 
+      },
       {
-        "desc": "The forest continues here.", 
-        "dir": 3, 
+        "desc": "The forest continues here.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3509
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3512, 
-    "name": "The Miden'nir", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3512,
+    "name": "The Miden'nir",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "The forest is dark, and becomes even darker west.  You sense\nthat there is something evil hidden in these woods.  The forest\ngets lighter to the north.  The wind kicks up as you ponder your\noptions.", 
+    "desc": "The forest is dark, and becomes even darker west.  You sense\nthat there is something evil hidden in these woods.  The forest\ngets lighter to the north.  The wind kicks up as you ponder your\noptions.",
     "exits": [
       {
-        "desc": "There is a small clearing to the north.", 
-        "dir": 0, 
+        "desc": "There is a small clearing to the north.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3512
-      }, 
+      },
       {
-        "desc": "It gets darker and thicker this way.", 
-        "dir": 3, 
+        "desc": "It gets darker and thicker this way.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3514
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3513, 
-    "name": "The Miden'nir", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3513,
+    "name": "The Miden'nir",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "It is quite dark here, forest surrounds you.  With each step, the\nforest seems to close around you, and get darker and more foreboding.\nIt might just be time to head back to somewhere safe.", 
+    "desc": "It is quite dark here, forest surrounds you.  With each step, the\nforest seems to close around you, and get darker and more foreboding.\nIt might just be time to head back to somewhere safe.",
     "exits": [
       {
-        "desc": "More forest.", 
-        "dir": 0, 
+        "desc": "More forest.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3509
-      }, 
+      },
       {
-        "desc": "Lighter forest and mountains in the distance.", 
-        "dir": 1, 
+        "desc": "Lighter forest and mountains in the distance.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3513
-      }, 
+      },
       {
-        "desc": "More trees.", 
-        "dir": 2, 
+        "desc": "More trees.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3517
-      }, 
+      },
       {
-        "desc": "The forest continues.", 
-        "dir": 3, 
+        "desc": "The forest continues.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3510
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3514, 
-    "name": "The Deep Forest", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3514,
+    "name": "The Deep Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "The forest is light here and you can easily pick your way through the \ntrail.  To the east, the forest becomes thick and darker.  South, the\ntrail continues.", 
+    "desc": "The forest is light here and you can easily pick your way through the \ntrail.  To the east, the forest becomes thick and darker.  South, the\ntrail continues.",
     "exits": [
       {
-        "desc": "A trail leading north-south.", 
-        "dir": 0, 
+        "desc": "A trail leading north-south.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3511
-      }, 
+      },
       {
-        "desc": "The trees get thicker as you go east.", 
-        "dir": 1, 
+        "desc": "The trees get thicker as you go east.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3516
-      }, 
+      },
       {
-        "desc": "More trees and some small hills.", 
-        "dir": 2, 
+        "desc": "More trees and some small hills.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3518
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3515, 
-    "name": "The Light Forest", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3515,
+    "name": "The Light Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "The ground is quite muddy here and puddles are all around.  Your\nboots make a disgusting SQUISH as you walk here.  You can go in any\nof the four cardinal directions from here.  Hopefully, it will be\ndryer.", 
+    "desc": "The ground is quite muddy here and puddles are all around.  Your\nboots make a disgusting SQUISH as you walk here.  You can go in any\nof the four cardinal directions from here.  Hopefully, it will be\ndryer.",
     "exits": [
       {
-        "desc": "The Miden'nir continues.", 
-        "dir": 0, 
+        "desc": "The Miden'nir continues.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3510
-      }, 
+      },
       {
-        "desc": "More trees.", 
-        "dir": 1, 
+        "desc": "More trees.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3517
-      }, 
+      },
       {
-        "desc": "The trees get VERY thick to the south.  You can barely see...", 
-        "dir": 2, 
+        "desc": "The trees get VERY thick to the south.  You can barely see...",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3519
-      }, 
+      },
       {
-        "desc": "Some light trees and daylight.", 
-        "dir": 3, 
+        "desc": "Some light trees and daylight.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3515
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3516, 
-    "name": "Some Muddy Ground", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3516,
+    "name": "Some Muddy Ground",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "The most prominent feature here is the mountains that lie to the\neast.  You can only go north and west from here as the rocks stop all\nother movement.", 
+    "desc": "The most prominent feature here is the mountains that lie to the\neast.  You can only go north and west from here as the rocks stop all\nother movement.",
     "exits": [
       {
-        "desc": "Many trees to the north.", 
-        "dir": 0, 
+        "desc": "Many trees to the north.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3514
-      }, 
+      },
       {
-        "desc": "There is a bit of a slope downward to the west.", 
-        "dir": 3, 
+        "desc": "There is a bit of a slope downward to the west.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3516
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3517, 
-    "name": "Near The Mountains", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3517,
+    "name": "Near The Mountains",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "The trail becomes nearly unpassable here.  You can go north\nas the forest is relatively light.  To the south, you can see a\npath.", 
+    "desc": "The trail becomes nearly unpassable here.  You can go north\nas the forest is relatively light.  To the south, you can see a\npath.",
     "exits": [
       {
-        "desc": "You can see a trail this way.", 
-        "dir": 0, 
+        "desc": "You can see a trail this way.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3515
-      }, 
+      },
       {
-        "desc": "The trees are nearly trunk-to-trunk this way.", 
-        "dir": 1, 
+        "desc": "The trees are nearly trunk-to-trunk this way.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": -1
-      }, 
+      },
       {
-        "desc": "Dark forests.", 
-        "dir": 2, 
+        "desc": "Dark forests.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3522
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3518, 
-    "name": "The Fading Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3518,
+    "name": "The Fading Trail",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "You are hemmed in by trees on either side of you.  The path\ncontinues north and south, and while is much to thick to explore\nwest, you can head off into the woods to the west.", 
+    "desc": "You are hemmed in by trees on either side of you.  The path\ncontinues north and south, and while is much to thick to explore\nwest, you can head off into the woods to the west.",
     "exits": [
       {
-        "desc": "The forest gets lighter this way.", 
-        "dir": 0, 
+        "desc": "The forest gets lighter this way.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3516
-      }, 
+      },
       {
-        "desc": "The forest continues.", 
-        "dir": 1, 
+        "desc": "The forest continues.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3520
-      }, 
+      },
       {
-        "desc": "There is a strong stench coming from this direction.", 
-        "dir": 2, 
+        "desc": "There is a strong stench coming from this direction.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3521
-      }, 
+      },
       {
-        "desc": "The trees are nearly trunk-to-trunk this way.", 
-        "dir": 3, 
+        "desc": "The trees are nearly trunk-to-trunk this way.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": -1
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3519, 
-    "name": "The Dark Path", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3519,
+    "name": "The Dark Path",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "You stomp your way through the underbrush.  The dark forest of\nMiden'nir get pretty thick here, and the branches high above your\nhead are so thick that they block out all direct sunlight.  While\nit is much too thick to go further east, you might be able to make\nyour way though the forest to the south and west.", 
+    "desc": "You stomp your way through the underbrush.  The dark forest of\nMiden'nir get pretty thick here, and the branches high above your\nhead are so thick that they block out all direct sunlight.  While\nit is much too thick to go further east, you might be able to make\nyour way though the forest to the south and west.",
     "exits": [
       {
-        "desc": "The thick forest continues.", 
-        "dir": 2, 
+        "desc": "The thick forest continues.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3523
-      }, 
+      },
       {
-        "desc": "The thick forest continues.", 
-        "dir": 3, 
+        "desc": "The thick forest continues.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3519
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3520, 
-    "name": "The Dark Forest", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3520,
+    "name": "The Dark Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "Here, you see a gruesome sight.  Blood is everywhere... on the trees and\nsoaked into the ground.  Two carcasses lie in front of you, seeming to look\nup at you.  The forest is impassible to the south, but the other directions\nlook ok.", 
+    "desc": "Here, you see a gruesome sight.  Blood is everywhere... on the trees and\nsoaked into the ground.  Two carcasses lie in front of you, seeming to look\nup at you.  The forest is impassible to the south, but the other directions\nlook ok.",
     "exits": [
       {
-        "desc": "Darkness...", 
-        "dir": 0, 
+        "desc": "Darkness...",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3519
-      }, 
+      },
       {
-        "desc": "Your light does not extend that far.", 
-        "dir": 1, 
+        "desc": "Your light does not extend that far.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3523
-      }, 
+      },
       {
-        "desc": "More dark forest.", 
-        "dir": 3, 
+        "desc": "More dark forest.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3522
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The corpses looked as if they have been pierced by a large, jagged\nspear.  The damage these people sustained is simply amazing.  Worse,\nthe lips on the bodies are a light shade of blue, hinting at poison\nin their systems.", 
+        "desc": "The corpses looked as if they have been pierced by a large, jagged\nspear.  The damage these people sustained is simply amazing.  Worse,\nthe lips on the bodies are a light shade of blue, hinting at poison\nin their systems.",
         "keywords": [
-          "carcass", 
-          "body", 
-          "corpse", 
-          "carcasses", 
-          "bodies", 
+          "carcass",
+          "body",
+          "corpse",
+          "carcasses",
+          "bodies",
           "corpses"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
       }
-    ], 
-    "id": 3521, 
-    "name": "The Carnage", 
+    ],
+    "id": 3521,
+    "name": "The Carnage",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "There is a sickening stench here.  It smells of blood and death.\nTo the north, you catch glimpses of daylight.  To the east, you\nsimply cannot see.  The trees are close and stifling.", 
+    "desc": "There is a sickening stench here.  It smells of blood and death.\nTo the north, you catch glimpses of daylight.  To the east, you\nsimply cannot see.  The trees are close and stifling.",
     "exits": [
       {
-        "desc": "You see daylight and a trail to follow.", 
-        "dir": 0, 
+        "desc": "You see daylight and a trail to follow.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3518
-      }, 
+      },
       {
-        "desc": "The stench seems to becoming from this direction.", 
-        "dir": 1, 
+        "desc": "The stench seems to becoming from this direction.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3521
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3522, 
-    "name": "Deep In The Forest Of Miden'nir", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3522,
+    "name": "Deep In The Forest Of Miden'nir",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "The branches above you block out all direct sunlight, making the forest\nin this area rather dark.  The forest continues east, where it meets the\nmountains.  The air is still and stuffy - a stench comes from the west and\nan ugly feeling causes the hair to rise on the back of your neck!", 
+    "desc": "The branches above you block out all direct sunlight, making the forest\nin this area rather dark.  The forest continues east, where it meets the\nmountains.  The air is still and stuffy - a stench comes from the west and\nan ugly feeling causes the hair to rise on the back of your neck!",
     "exits": [
       {
-        "desc": "It appears to get much darker that direction.", 
-        "dir": 0, 
+        "desc": "It appears to get much darker that direction.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3520
-      }, 
+      },
       {
-        "desc": "The forest appears to get much darker in this direction.", 
-        "dir": 1, 
+        "desc": "The forest appears to get much darker in this direction.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3551
-      }, 
+      },
       {
-        "desc": "The sky becomes lighter in this direction.", 
-        "dir": 3, 
+        "desc": "The sky becomes lighter in this direction.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3521
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3523, 
-    "name": "The Dark Forest", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3523,
+    "name": "The Dark Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "You find yourself at the foot of the mountains, where it is much\nto steep to continue north or east.  You see the lush, green forest\nof Miden'nir to the south and west.", 
+    "desc": "You find yourself at the foot of the mountains, where it is much\nto steep to continue north or east.  You see the lush, green forest\nof Miden'nir to the south and west.",
     "exits": [
       {
-        "desc": "The forest of Miden'nir spreads out before you.", 
-        "dir": 2, 
+        "desc": "The forest of Miden'nir spreads out before you.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3512
-      }, 
+      },
       {
-        "desc": "The forest of Miden'nir spreads out before you.", 
-        "dir": 3, 
+        "desc": "The forest of Miden'nir spreads out before you.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3506
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3550, 
-    "name": "At The Foot Of The Mountains", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3550,
+    "name": "At The Foot Of The Mountains",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "The branches above you block out all direct sunlight, making\nthe forest in this area very dark.  The forest continues west,\nbut mountains block further exploration in all other directions,\nexcept south, where you notice a small tunnel dug into the\nmountainside.", 
+    "desc": "The branches above you block out all direct sunlight, making\nthe forest in this area very dark.  The forest continues west,\nbut mountains block further exploration in all other directions,\nexcept south, where you notice a small tunnel dug into the\nmountainside.",
     "exits": [
       {
-        "desc": "The tunnel leads into the mountainside.", 
-        "dir": 2, 
+        "desc": "The tunnel leads into the mountainside.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3552
-      }, 
+      },
       {
-        "desc": "The forest continues, but appears to be getting lighter.", 
-        "dir": 3, 
+        "desc": "The forest continues, but appears to be getting lighter.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3523
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
       }
-    ], 
-    "id": 3551, 
-    "name": "Deep In The Forest Of Miden'nir", 
+    ],
+    "id": 3551,
+    "name": "Deep In The Forest Of Miden'nir",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "The walls of this tunnel were carved out many years ago by the goblins\nof this forest.  The floor is well worn, and continues south, into the\nmountain, or back north out into the forest.", 
+    "desc": "The walls of this tunnel were carved out many years ago by the goblins\nof this forest.  The floor is well worn, and continues south, into the\nmountain, or back north out into the forest.",
     "exits": [
       {
-        "desc": "Outside, you see the forest of Miden'nir.", 
-        "dir": 0, 
+        "desc": "Outside, you see the forest of Miden'nir.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3551
-      }, 
+      },
       {
-        "desc": "The tunnel continues to the south.", 
-        "dir": 2, 
+        "desc": "The tunnel continues to the south.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3553
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
       }
-    ], 
-    "id": 3552, 
-    "name": "A Tunnel In The Mountains", 
+    ],
+    "id": 3552,
+    "name": "A Tunnel In The Mountains",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "The tunnel gets lighter to the north, presumably leading out, while to\nthe south the passage gets smaller and smaller.  A small alcove has been\ncarved into the east wall.", 
+    "desc": "The tunnel gets lighter to the north, presumably leading out, while to\nthe south the passage gets smaller and smaller.  A small alcove has been\ncarved into the east wall.",
     "exits": [
       {
-        "desc": "The tunnel gets wider in this direction.", 
-        "dir": 0, 
+        "desc": "The tunnel gets wider in this direction.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3552
-      }, 
+      },
       {
-        "desc": "You see a small alcove.", 
-        "dir": 1, 
+        "desc": "You see a small alcove.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3554
-      }, 
+      },
       {
-        "desc": "The tunnel gets smaller in this direction.", 
-        "dir": 2, 
+        "desc": "The tunnel gets smaller in this direction.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3555
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
       }
-    ], 
-    "id": 3553, 
-    "name": "A Tunnel In The Mountains", 
+    ],
+    "id": 3553,
+    "name": "A Tunnel In The Mountains",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "A small alcove has been carved out here.  There are a bunch of twigs\nand leaves thrown into a pile here, probably serving as a bed.", 
+    "desc": "A small alcove has been carved out here.  There are a bunch of twigs\nand leaves thrown into a pile here, probably serving as a bed.",
     "exits": [
       {
-        "desc": "You see the main passageway.", 
-        "dir": 3, 
+        "desc": "You see the main passageway.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3553
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The twigs and leaves have all been piled together as a makeshift bed for\nsome small humanoid.", 
+        "desc": "The twigs and leaves have all been piled together as a makeshift bed for\nsome small humanoid.",
         "keywords": [
-          "twigs", 
-          "leaves", 
+          "twigs",
+          "leaves",
           "bead"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
       }
-    ], 
-    "id": 3554, 
-    "name": "A Small Alcove", 
+    ],
+    "id": 3554,
+    "name": "A Small Alcove",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "As you explore further into the mountainside, the tunnel gets smaller\nand smaller to the south.  You almost have to hunch over to make your way\nthrough this area.  A small archway to the south leads into a large chamber.", 
+    "desc": "As you explore further into the mountainside, the tunnel gets smaller\nand smaller to the south.  You almost have to hunch over to make your way\nthrough this area.  A small archway to the south leads into a large chamber.",
     "exits": [
       {
-        "desc": "The tunnel continues north.", 
-        "dir": 0, 
+        "desc": "The tunnel continues north.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3553
-      }, 
+      },
       {
-        "desc": "You see a small cavern.", 
-        "dir": 2, 
+        "desc": "You see a small cavern.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3556
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
       }
-    ], 
-    "id": 3555, 
-    "name": "A Tunnel In The Mountains", 
+    ],
+    "id": 3555,
+    "name": "A Tunnel In The Mountains",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "The tunnel widens into a large (well, large for goblins) cavern that\nserves as the living quarters for the goblins of Miden'nir.  The bones of\nnumbers woodland creatures are strewn about the room, the remanents of a\nrecent meal.", 
+    "desc": "The tunnel widens into a large (well, large for goblins) cavern that\nserves as the living quarters for the goblins of Miden'nir.  The bones of\nnumbers woodland creatures are strewn about the room, the remanents of a\nrecent meal.",
     "exits": [
       {
-        "desc": "The tunnel heads north.", 
-        "dir": 0, 
+        "desc": "The tunnel heads north.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3555
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
       }
-    ], 
-    "id": 3556, 
-    "name": "The Goblin HeadQuarters", 
+    ],
+    "id": 3556,
+    "name": "The Goblin HeadQuarters",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "You are standing on a well-worn path which opens into a clearing.\nAn old, wooden building is here with smoke billowing from its\nchimney.  A painted sign is visible on the porch to the west.  You\ncould go north or south around the building or leave this place and\nreturn to the forest.", 
+    "desc": "You are standing on a well-worn path which opens into a clearing.\nAn old, wooden building is here with smoke billowing from its\nchimney.  A painted sign is visible on the porch to the west.  You\ncould go north or south around the building or leave this place and\nreturn to the forest.",
     "exits": [
       {
-        "desc": "You can go north around the Inn.", 
-        "dir": 0, 
+        "desc": "You can go north around the Inn.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3571
-      }, 
+      },
       {
-        "desc": "Back through the trees to the Miden'nir.", 
-        "dir": 1, 
+        "desc": "Back through the trees to the Miden'nir.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3505
-      }, 
+      },
       {
-        "desc": "You can go south around the Inn.", 
-        "dir": 2, 
+        "desc": "You can go south around the Inn.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3572
-      }, 
+      },
       {
-        "desc": "The front door of the Inn beckons.", 
-        "dir": 3, 
+        "desc": "The front door of the Inn beckons.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3574
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The sign reads:\n\n   The Woodsman\n", 
+        "desc": "The sign reads:\n\n   The Woodsman\n",
         "keywords": [
           "sign"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 3570, 
-    "name": "The Front Of The Inn", 
+    ],
+    "flags": [],
+    "id": 3570,
+    "name": "The Front Of The Inn",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "You are standing north of the Inn.  Things don't look much different\nfrom this angle.  The air here is filled with smells of smoke and cooking.\nSouth, the front porch is waiting for you... or you can see if there is\na back door.", 
+    "desc": "You are standing north of the Inn.  Things don't look much different\nfrom this angle.  The air here is filled with smells of smoke and cooking.\nSouth, the front porch is waiting for you... or you can see if there is\na back door.",
     "exits": [
       {
-        "desc": "You see the front of the Inn.", 
-        "dir": 2, 
+        "desc": "You see the front of the Inn.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3570
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3571, 
-    "name": "North Of The Inn", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3571,
+    "name": "North Of The Inn",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 4
-  }, 
+  },
   {
-    "desc": "You are standing south of the Inn.  You could easily go north and enter\nthrough the front door, or west and to the rear of the establishment.  You\nhere some muffled cries from a tiny trail leading south of here.", 
+    "desc": "You are standing south of the Inn.  You could easily go north and enter\nthrough the front door, or west and to the rear of the establishment.  You\nhere some muffled cries from a tiny trail leading south of here.",
     "exits": [
       {
-        "desc": "This way leads to the front of the Inn.", 
-        "dir": 0, 
+        "desc": "This way leads to the front of the Inn.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3570
-      }, 
+      },
       {
-        "desc": "The trail heads south.", 
-        "dir": 2, 
+        "desc": "The trail heads south.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3575
-      }, 
+      },
       {
-        "desc": "This way leads to the back of the Inn.", 
-        "dir": 3, 
+        "desc": "This way leads to the back of the Inn.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3573
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3572, 
-    "name": "South Of The Inn", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3572,
+    "name": "South Of The Inn",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "You now stand behind the Inn.  The smell here is not so pleasant as\nthe keeper and his help throw a good deal of garbage here.  A couple of\npiles of rubbish are to the west, but you will smell the worse for\nmeddling there.  As a clean alternative, you can go north or east around\nthe Inn.", 
+    "desc": "You now stand behind the Inn.  The smell here is not so pleasant as\nthe keeper and his help throw a good deal of garbage here.  A couple of\npiles of rubbish are to the west, but you will smell the worse for\nmeddling there.  As a clean alternative, you can go north or east around\nthe Inn.",
     "exits": [
       {
-        "desc": "You can go around the Inn this way.", 
-        "dir": 1, 
+        "desc": "You can go around the Inn this way.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3572
-      }, 
+      },
       {
-        "desc": "Only rats and fool adventurers play in garbage.", 
-        "dir": 3, 
+        "desc": "Only rats and fool adventurers play in garbage.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3578
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3573, 
-    "name": "Behind The Inn", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3573,
+    "name": "Behind The Inn",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "You are in the common room of the Woodsman Inn.  A thin haze of smoke\nsits in the air here.  The Inn is often empty, as the forest has become\noverrun by goblins as of late, and it is no longer safe in these parts.\nThe bar is just north of here.  If you'd rather have your own table, one\nis empty to the south.", 
+    "desc": "You are in the common room of the Woodsman Inn.  A thin haze of smoke\nsits in the air here.  The Inn is often empty, as the forest has become\noverrun by goblins as of late, and it is no longer safe in these parts.\nThe bar is just north of here.  If you'd rather have your own table, one\nis empty to the south.",
     "exits": [
       {
-        "desc": "The bar is here, manned by the Innkeeper.", 
-        "dir": 0, 
+        "desc": "The bar is here, manned by the Innkeeper.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3576
-      }, 
+      },
       {
-        "desc": "You can leave now and return to fresher air.", 
-        "dir": 1, 
+        "desc": "You can leave now and return to fresher air.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3570
-      }, 
+      },
       {
-        "desc": "An empty table is a rare commodity.", 
-        "dir": 2, 
+        "desc": "An empty table is a rare commodity.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3579
-      }, 
+      },
       {
-        "desc": "There is a table to the south occupied by a heavy drinker.", 
-        "dir": 3, 
+        "desc": "There is a table to the south occupied by a heavy drinker.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3577
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3574, 
-    "name": "The Woodsman Inn", 
+    ],
+    "id": 3574,
+    "name": "The Woodsman Inn",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "This is a overgrown foot-trail south of the Inn.  It leads west, but you\nwould be hard pressed to follow it far.  A number of bushes are trampled on\nand some medium sized branches have been knocked down.  Obviously there has\nbeen a battle here rather recently.", 
+    "desc": "This is a overgrown foot-trail south of the Inn.  It leads west, but you\nwould be hard pressed to follow it far.  A number of bushes are trampled on\nand some medium sized branches have been knocked down.  Obviously there has\nbeen a battle here rather recently.",
     "exits": [
       {
-        "desc": "The Inn lies to the north.", 
-        "dir": 0, 
+        "desc": "The Inn lies to the north.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3572
-      }, 
+      },
       {
-        "desc": "A trail through the woods.", 
-        "dir": 3, 
+        "desc": "A trail through the woods.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3581
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3575, 
-    "name": "The Ambush Point", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3575,
+    "name": "The Ambush Point",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "This is where people use to come and enjoy the food, drink and\nhospitality of the Innkeeper, but as of late, he only serves the\nfew adventurers that manage to survive a trip through the forest.\nYou can leave south and return to the common room.", 
+    "desc": "This is where people use to come and enjoy the food, drink and\nhospitality of the Innkeeper, but as of late, he only serves the\nfew adventurers that manage to survive a trip through the forest.\nYou can leave south and return to the common room.",
     "exits": [
       {
-        "desc": "You may retreat south back to the common room.", 
-        "dir": 2, 
+        "desc": "You may retreat south back to the common room.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3574
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SOUNDPROOF", 
+        "note": "SOUNDPROOF",
         "value": 32
       }
-    ], 
-    "id": 3576, 
-    "name": "The Bar", 
+    ],
+    "id": 3576,
+    "name": "The Bar",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "You are in a darker corner in the Inn.  A large round table with a few\nwooden chairs sits here.  There is a large stain on the table, the remnants\nof a spilled drink.", 
+    "desc": "You are in a darker corner in the Inn.  A large round table with a few\nwooden chairs sits here.  There is a large stain on the table, the remnants\nof a spilled drink.",
     "exits": [
       {
-        "desc": "You see the main floor of the Inn to the east.", 
-        "dir": 1, 
+        "desc": "You see the main floor of the Inn to the east.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3574
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3577, 
-    "name": "The Bard's Table", 
+    ],
+    "id": 3577,
+    "name": "The Bard's Table",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "You stand knee deep in garbage.  YECCH!!!  It smells terrible and who knows\nwhat vermin live in these piles of filth...", 
+    "desc": "You stand knee deep in garbage.  YECCH!!!  It smells terrible and who knows\nwhat vermin live in these piles of filth...",
     "exits": [
       {
-        "desc": "You can return to cleaner lands this way.", 
-        "dir": 1, 
+        "desc": "You can return to cleaner lands this way.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3573
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3578, 
-    "name": "The Garbage Dump", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3578,
+    "name": "The Garbage Dump",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "There seems to be no one in this end of the Woodsman, probably a safe place\nto rest and lick your wounds...", 
+    "desc": "There seems to be no one in this end of the Woodsman, probably a safe place\nto rest and lick your wounds...",
     "exits": [
       {
-        "desc": "You see the common room.", 
-        "dir": 0, 
+        "desc": "You see the common room.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3574
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3579, 
-    "name": "A Quieter Section Of The Inn", 
+    ],
+    "id": 3579,
+    "name": "A Quieter Section Of The Inn",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "The path continues east and west of here.  You notice fresh tracks in\nthe soft ground that show the horsemen fled to the west.", 
+    "desc": "The path continues east and west of here.  You notice fresh tracks in\nthe soft ground that show the horsemen fled to the west.",
     "exits": [
       {
-        "desc": "Back to ambush point.", 
-        "dir": 1, 
+        "desc": "Back to ambush point.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3575
-      }, 
+      },
       {
-        "desc": "The trail continues.", 
-        "dir": 3, 
+        "desc": "The trail continues.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3582
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3581, 
-    "name": "On The Trail Of The Horsemen", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3581,
+    "name": "On The Trail Of The Horsemen",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "The path continues east and south.  You notice fresh tracks in the\nsoft ground that show the horsemen turned, and fled south.", 
+    "desc": "The path continues east and south.  You notice fresh tracks in the\nsoft ground that show the horsemen turned, and fled south.",
     "exits": [
       {
-        "desc": "The trail continues.", 
-        "dir": 1, 
+        "desc": "The trail continues.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3581
-      }, 
+      },
       {
-        "desc": "The tracks lead south.", 
-        "dir": 2, 
+        "desc": "The tracks lead south.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3583
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3582, 
-    "name": "On The Trail Of The Horsemen", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3582,
+    "name": "On The Trail Of The Horsemen",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "The trail of the horsemen continues east and north along this path\nthrough the forest.  The tracks are still fresh, so they must be near.", 
+    "desc": "The trail of the horsemen continues east and north along this path\nthrough the forest.  The tracks are still fresh, so they must be near.",
     "exits": [
       {
-        "desc": "The trail continues.", 
-        "dir": 0, 
+        "desc": "The trail continues.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3582
-      }, 
+      },
       {
-        "desc": "The tracks lead east.", 
-        "dir": 3, 
+        "desc": "The tracks lead east.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3584
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3583, 
-    "name": "On The Trail Of The Horsemen", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3583,
+    "name": "On The Trail Of The Horsemen",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
-  }, 
+  },
   {
-    "desc": "The path comes to an abrupt end here, as the trees close around you and\nmake any further exploration impossible.  Fresh tracks cover the ground, and\nend right here.  The horsemen must be nearby.", 
+    "desc": "The path comes to an abrupt end here, as the trees close around you and\nmake any further exploration impossible.  Fresh tracks cover the ground, and\nend right here.  The horsemen must be nearby.",
     "exits": [
       {
-        "desc": "Back to along the trail.", 
-        "dir": 1, 
+        "desc": "Back to along the trail.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3583
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3584, 
-    "name": "A Dead End Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3584,
+    "name": "A Dead End Trail",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 35
   }
 ]

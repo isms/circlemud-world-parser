@@ -2,840 +2,840 @@
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 3
       }
-    ], 
+    ],
     "aliases": [
-      "dagger", 
+      "dagger",
       "glowing"
-    ], 
-    "cost": 1000, 
+    ],
+    "cost": 1000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 6400, 
-    "long_desc": "A glowing dagger glows here.", 
-    "rent": 300, 
-    "short_desc": "a glowing dagger", 
+    ],
+    "extra_descs": [],
+    "id": 6400,
+    "long_desc": "A glowing dagger glows here.",
+    "rent": 300,
+    "short_desc": "a glowing dagger",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      1, 
-      4, 
+      0,
+      1,
+      4,
       11
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "platemail", 
-      "glowing", 
-      "plate", 
+      "platemail",
+      "glowing",
+      "plate",
       "mail"
-    ], 
-    "cost": 30000, 
+    ],
+    "cost": 30000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 6401, 
-    "long_desc": "Some glowing platemail lies in a heap here.", 
-    "rent": 10000, 
-    "short_desc": "the glowing platemail", 
+    ],
+    "extra_descs": [],
+    "id": 6401,
+    "long_desc": "Some glowing platemail lies in a heap here.",
+    "rent": 10000,
+    "short_desc": "the glowing platemail",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      15, 
-      0, 
-      0, 
+      15,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_BODY", 
+        "note": "WEAR_BODY",
         "value": 8
       }
-    ], 
+    ],
     "weight": 150
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "agate", 
+      "agate",
       "gem"
-    ], 
-    "cost": 5000, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 6402, 
-    "long_desc": "A small gem lies here.", 
-    "rent": 500, 
-    "short_desc": "an agate", 
+    ],
+    "cost": 5000,
+    "effects": [],
+    "extra_descs": [],
+    "id": 6402,
+    "long_desc": "A small gem lies here.",
+    "rent": 500,
+    "short_desc": "an agate",
     "type": {
-      "note": "TREASURE", 
+      "note": "TREASURE",
       "value": 8
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "jade", 
+      "jade",
       "jewel"
-    ], 
-    "cost": 10000, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 6403, 
-    "long_desc": "A small jewel gleams here.", 
-    "rent": 1000, 
-    "short_desc": "a piece of jade", 
+    ],
+    "cost": 10000,
+    "effects": [],
+    "extra_descs": [],
+    "id": 6403,
+    "long_desc": "A small jewel gleams here.",
+    "rent": 1000,
+    "short_desc": "a piece of jade",
     "type": {
-      "note": "TREASURE", 
+      "note": "TREASURE",
       "value": 8
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "sculpture"
-    ], 
-    "cost": 20000, 
-    "effects": [], 
+    ],
+    "cost": 20000,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "It is of a beautiful woman, straining\nbeneath a heavy weight.  She looks\ntired, with chiseled tears staining\nher cheeks.  It makes you sad.", 
+        "desc": "It is of a beautiful woman, straining\nbeneath a heavy weight.  She looks\ntired, with chiseled tears staining\nher cheeks.  It makes you sad.",
         "keywords": [
           "sculpture"
         ]
       }
-    ], 
-    "id": 6404, 
-    "long_desc": "A nice piece of sculpture is here.", 
-    "rent": 2000, 
-    "short_desc": "a piece of sculpture", 
+    ],
+    "id": 6404,
+    "long_desc": "A nice piece of sculpture is here.",
+    "rent": 2000,
+    "short_desc": "a piece of sculpture",
     "type": {
-      "note": "TREASURE", 
+      "note": "TREASURE",
       "value": 8
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 75
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "vial", 
-      "dragons", 
+      "vial",
+      "dragons",
       "blood"
-    ], 
-    "cost": 48000, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 6405, 
-    "long_desc": "A small vial filled with a red fluid lies in the dust here.", 
-    "rent": 20500, 
-    "short_desc": "a vial of dragon's blood", 
+    ],
+    "cost": 48000,
+    "effects": [],
+    "extra_descs": [],
+    "id": 6405,
+    "long_desc": "A small vial filled with a red fluid lies in the dust here.",
+    "rent": 20500,
+    "short_desc": "a vial of dragon's blood",
     "type": {
-      "note": "POTION", 
+      "note": "POTION",
       "value": 10
-    }, 
+    },
     "values": [
-      7, 
-      39, 
-      39, 
+      7,
+      39,
+      39,
       39
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 2, 
-        "note": "DEX", 
+        "location": 2,
+        "note": "DEX",
         "value": 3
       }
-    ], 
+    ],
     "aliases": [
       "amulet"
-    ], 
-    "cost": 20000, 
+    ],
+    "cost": 20000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 6406, 
-    "long_desc": "An odd looking amulet has been discarded here.", 
-    "rent": 3000, 
-    "short_desc": "an amulet", 
+    ],
+    "extra_descs": [],
+    "id": 6406,
+    "long_desc": "An odd looking amulet has been discarded here.",
+    "rent": 3000,
+    "short_desc": "an amulet",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_NECK", 
+        "note": "WEAR_NECK",
         "value": 4
       }
-    ], 
+    ],
     "weight": 3
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "pole", 
+      "pole",
       "tent"
-    ], 
-    "cost": 25000, 
+    ],
+    "cost": 25000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 6407, 
-    "long_desc": "A tent pole has been tossed away here.", 
-    "rent": 5000, 
-    "short_desc": "a tent pole", 
+    ],
+    "extra_descs": [],
+    "id": 6407,
+    "long_desc": "A tent pole has been tossed away here.",
+    "rent": 5000,
+    "short_desc": "a tent pole",
     "type": {
-      "note": "WAND", 
+      "note": "WAND",
       "value": 3
-    }, 
+    },
     "values": [
-      25, 
-      5, 
-      5, 
+      25,
+      5,
+      5,
       38
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 10
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "bag", 
-      "powder", 
+      "bag",
+      "powder",
       "wealth"
-    ], 
-    "cost": 100000, 
+    ],
+    "cost": 100000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 6408, 
-    "long_desc": "A small bag filled with powder of wealth lies here.", 
-    "rent": 0, 
-    "short_desc": "a bag of powder of wealth", 
+    ],
+    "extra_descs": [],
+    "id": 6408,
+    "long_desc": "A small bag filled with powder of wealth lies here.",
+    "rent": 0,
+    "short_desc": "a bag of powder of wealth",
     "type": {
-      "note": "MONEY", 
+      "note": "MONEY",
       "value": 20
-    }, 
+    },
     "values": [
-      100000, 
-      0, 
-      0, 
+      100000,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "desk"
-    ], 
-    "cost": 0, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 6409, 
-    "long_desc": "There is an ebony desk here.", 
-    "rent": 0, 
-    "short_desc": "a desk", 
+    ],
+    "cost": 0,
+    "effects": [],
+    "extra_descs": [],
+    "id": 6409,
+    "long_desc": "There is an ebony desk here.",
+    "rent": 0,
+    "short_desc": "a desk",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      100, 
-      13, 
-      0, 
+      100,
+      13,
+      0,
       0
-    ], 
-    "wear": [], 
+    ],
+    "wear": [],
     "weight": 800
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "book", 
+      "book",
       "chaos"
-    ], 
-    "cost": 100000, 
+    ],
+    "cost": 100000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "HUM", 
+        "note": "HUM",
         "value": 2
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "NODROP", 
+        "note": "NODROP",
         "value": 128
       }
-    ], 
-    "extra_descs": [], 
-    "id": 6410, 
-    "long_desc": "A book with a title written in moving letters rests here.", 
-    "rent": 25000, 
-    "short_desc": "the Book of Chaos", 
+    ],
+    "extra_descs": [],
+    "id": 6410,
+    "long_desc": "A book with a title written in moving letters rests here.",
+    "rent": 25000,
+    "short_desc": "the Book of Chaos",
     "type": {
-      "note": "WAND", 
+      "note": "WAND",
       "value": 3
-    }, 
+    },
     "values": [
-      20, 
-      1, 
-      1, 
+      20,
+      1,
+      1,
       26
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 25
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "book", 
+      "book",
       "elder"
-    ], 
-    "cost": 300000, 
+    ],
+    "cost": 300000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "HUM", 
+        "note": "HUM",
         "value": 2
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 6411, 
-    "long_desc": "A grey-bound book lies here.", 
-    "rent": 50000, 
-    "short_desc": "the Book of the Elder", 
+    ],
+    "extra_descs": [],
+    "id": 6411,
+    "long_desc": "A grey-bound book lies here.",
+    "rent": 50000,
+    "short_desc": "the Book of the Elder",
     "type": {
-      "note": "WAND", 
+      "note": "WAND",
       "value": 3
-    }, 
+    },
     "values": [
-      30, 
-      1, 
-      1, 
+      30,
+      1,
+      1,
       28
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 25
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 12, 
-        "note": "MANA", 
+        "location": 12,
+        "note": "MANA",
         "value": 20
-      }, 
+      },
       {
-        "location": 4, 
-        "note": "WIS", 
+        "location": 4,
+        "note": "WIS",
         "value": 1
       }
-    ], 
+    ],
     "aliases": [
-      "lens", 
+      "lens",
       "occluded"
-    ], 
-    "cost": 200000, 
+    ],
+    "cost": 200000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "NODROP", 
+        "note": "NODROP",
         "value": 128
-      }, 
+      },
       {
-        "note": "ANTI_GOOD", 
+        "note": "ANTI_GOOD",
         "value": 512
-      }, 
+      },
       {
-        "note": "ANTI_EVIL", 
+        "note": "ANTI_EVIL",
         "value": 1024
       }
-    ], 
-    "extra_descs": [], 
-    "id": 6412, 
-    "long_desc": "A smoky lens about a foot around has been scuffled in the dirt here.", 
-    "rent": 50000, 
-    "short_desc": "the Occluded Lens", 
+    ],
+    "extra_descs": [],
+    "id": 6412,
+    "long_desc": "A smoky lens about a foot around has been scuffled in the dirt here.",
+    "rent": 50000,
+    "short_desc": "the Occluded Lens",
     "type": {
-      "note": "LIGHT", 
+      "note": "LIGHT",
       "value": 1
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 20
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "mevais", 
-      "herb", 
+      "mevais",
+      "herb",
       "leaf"
-    ], 
-    "cost": 0, 
-    "effects": [], 
+    ],
+    "cost": 0,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "Quaffing this down might provide interesting effects.", 
+        "desc": "Quaffing this down might provide interesting effects.",
         "keywords": [
-          "mevais", 
-          "herb", 
+          "mevais",
+          "herb",
           "leaf"
         ]
       }
-    ], 
-    "id": 6413, 
-    "long_desc": "A small black leaf of a mevais plant lies here, well preserved.", 
-    "rent": 0, 
-    "short_desc": "a leaf of mevais", 
+    ],
+    "id": 6413,
+    "long_desc": "A small black leaf of a mevais plant lies here, well preserved.",
+    "rent": 0,
+    "short_desc": "a leaf of mevais",
     "type": {
-      "note": "POTION", 
+      "note": "POTION",
       "value": 10
-    }, 
+    },
     "values": [
-      30, 
-      27, 
-      33, 
+      30,
+      27,
+      33,
       4
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "bottle", 
+      "bottle",
       "peska"
-    ], 
-    "cost": 15000, 
-    "effects": [], 
+    ],
+    "cost": 15000,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "It is a milky concoction, with strange motes floating in it.", 
+        "desc": "It is a milky concoction, with strange motes floating in it.",
         "keywords": [
-          "bottle", 
+          "bottle",
           "peska"
         ]
       }
-    ], 
-    "id": 6414, 
-    "long_desc": "There is a bottle of a milky fluid here.", 
-    "rent": 3000, 
-    "short_desc": "a bottle of peska", 
+    ],
+    "id": 6414,
+    "long_desc": "There is a bottle of a milky fluid here.",
+    "rent": 3000,
+    "short_desc": "a bottle of peska",
     "type": {
-      "note": "POTION", 
+      "note": "POTION",
       "value": 10
-    }, 
+    },
     "values": [
-      30, 
-      28, 
-      3, 
+      30,
+      28,
+      3,
       1
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 12
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 12, 
-        "note": "MANA", 
+        "location": 12,
+        "note": "MANA",
         "value": 5
-      }, 
+      },
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": 5
       }
-    ], 
+    ],
     "aliases": [
-      "staff", 
+      "staff",
       "rand"
-    ], 
-    "cost": 100000, 
+    ],
+    "cost": 100000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_CLERIC", 
+        "note": "ANTI_CLERIC",
         "value": 8192
-      }, 
+      },
       {
-        "note": "ANTI_THIEF", 
+        "note": "ANTI_THIEF",
         "value": 16384
-      }, 
+      },
       {
-        "note": "ANTI_WARRIOR", 
+        "note": "ANTI_WARRIOR",
         "value": 32768
       }
-    ], 
-    "extra_descs": [], 
-    "id": 6415, 
-    "long_desc": "There is a metal-shod staff here.", 
-    "rent": 25000, 
-    "short_desc": "Rand's staff", 
+    ],
+    "extra_descs": [],
+    "id": 6415,
+    "long_desc": "There is a metal-shod staff here.",
+    "rent": 25000,
+    "short_desc": "Rand's staff",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      8, 
-      0, 
-      0, 
+      8,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 7
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "chest", 
+      "chest",
       "wooden"
-    ], 
-    "cost": 0, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 6416, 
-    "long_desc": "There is a wooden chest here.", 
-    "rent": 0, 
-    "short_desc": "a wooden chest", 
+    ],
+    "cost": 0,
+    "effects": [],
+    "extra_descs": [],
+    "id": 6416,
+    "long_desc": "There is a wooden chest here.",
+    "rent": 0,
+    "short_desc": "a wooden chest",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      500, 
-      13, 
-      0, 
+      500,
+      13,
+      0,
       0
-    ], 
-    "wear": [], 
+    ],
+    "wear": [],
     "weight": 0
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "chest", 
+      "chest",
       "wooden"
-    ], 
-    "cost": 0, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 6417, 
-    "long_desc": "There is a wooden chest here.", 
-    "rent": 0, 
-    "short_desc": "a wooden chest", 
+    ],
+    "cost": 0,
+    "effects": [],
+    "extra_descs": [],
+    "id": 6417,
+    "long_desc": "There is a wooden chest here.",
+    "rent": 0,
+    "short_desc": "a wooden chest",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      500, 
-      13, 
-      0, 
+      500,
+      13,
+      0,
       0
-    ], 
-    "wear": [], 
+    ],
+    "wear": [],
     "weight": 0
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "chest", 
+      "chest",
       "wooden"
-    ], 
-    "cost": 0, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 6418, 
-    "long_desc": "There is a wooden chest here.", 
-    "rent": 0, 
-    "short_desc": "a wooden chest", 
+    ],
+    "cost": 0,
+    "effects": [],
+    "extra_descs": [],
+    "id": 6418,
+    "long_desc": "There is a wooden chest here.",
+    "rent": 0,
+    "short_desc": "a wooden chest",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      500, 
-      13, 
-      0, 
+      500,
+      13,
+      0,
       0
-    ], 
-    "wear": [], 
+    ],
+    "wear": [],
     "weight": 0
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "basin", 
+      "basin",
       "water"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
       }
-    ], 
-    "extra_descs": [], 
-    "id": 6419, 
-    "long_desc": "A basin filled with crisp, clean water is here.", 
-    "rent": 0, 
-    "short_desc": "a water basin", 
+    ],
+    "extra_descs": [],
+    "id": 6419,
+    "long_desc": "A basin filled with crisp, clean water is here.",
+    "rent": 0,
+    "short_desc": "a water basin",
     "type": {
-      "note": "DRINKCON", 
+      "note": "DRINKCON",
       "value": 17
-    }, 
+    },
     "values": [
-      100, 
-      100, 
-      0, 
+      100,
+      100,
+      0,
       0
-    ], 
-    "wear": [], 
+    ],
+    "wear": [],
     "weight": 100
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "food"
-    ], 
-    "cost": 20, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 6420, 
-    "long_desc": "There's some food lying here.", 
-    "rent": 10, 
-    "short_desc": "some food", 
+    ],
+    "cost": 20,
+    "effects": [],
+    "extra_descs": [],
+    "id": 6420,
+    "long_desc": "There's some food lying here.",
+    "rent": 10,
+    "short_desc": "some food",
     "type": {
-      "note": "FOOD", 
+      "note": "FOOD",
       "value": 19
-    }, 
+    },
     "values": [
-      8, 
-      0, 
-      0, 
+      8,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 3
   }
 ]

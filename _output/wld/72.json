@@ -1,4519 +1,4519 @@
 [
   {
-    "desc": "You are in a small but well equipped treasury.  You can see some writing\non the wall.  The ceiling has a funny glow, which enables you to see.  You\ncan get back into the inner lair through the stone door which is east.", 
+    "desc": "You are in a small but well equipped treasury.  You can see some writing\non the wall.  The ceiling has a funny glow, which enables you to see.  You\ncan get back into the inner lair through the stone door which is east.",
     "exits": [
       {
-        "desc": "You look back through the opening into the inner lair.", 
-        "dir": 1, 
+        "desc": "You look back through the opening into the inner lair.",
+        "dir": 1,
         "door_flag": {
-          "note": "PICKPROOF", 
+          "note": "PICKPROOF",
           "value": 2
-        }, 
-        "key_number": 7205, 
+        },
+        "key_number": 7205,
         "keywords": [
-          "door", 
+          "door",
           "stone"
-        ], 
+        ],
         "room_linked": 7201
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "This is a heavy black stone door it looks very solid.", 
+        "desc": "This is a heavy black stone door it looks very solid.",
         "keywords": [
-          "door", 
+          "door",
           "stone"
         ]
-      }, 
+      },
       {
-        "desc": "You read the number '666'.", 
+        "desc": "You read the number '666'.",
         "keywords": [
           "writing"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7200, 
-    "name": "The Treasury", 
+    ],
+    "id": 7200,
+    "name": "The Treasury",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are in a octagonal room with smooth purple stone walls.  The floor is \nmade from black stone.  In the western wall you see a large black stone door.", 
+    "desc": "You are in a octagonal room with smooth purple stone walls.  The floor is \nmade from black stone.  In the western wall you see a large black stone door.",
     "exits": [
       {
-        "desc": "You look back through the door into the lair.", 
-        "dir": 2, 
+        "desc": "You look back through the door into the lair.",
+        "dir": 2,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
+          "door",
           "wooden"
-        ], 
+        ],
         "room_linked": 7202
-      }, 
+      },
       {
-        "desc": "You see the treasury.", 
-        "dir": 3, 
+        "desc": "You see the treasury.",
+        "dir": 3,
         "door_flag": {
-          "note": "PICKPROOF", 
+          "note": "PICKPROOF",
           "value": 2
-        }, 
-        "key_number": 7205, 
+        },
+        "key_number": 7205,
         "keywords": [
-          "door", 
+          "door",
           "stone"
-        ], 
+        ],
         "room_linked": 7200
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7201, 
-    "name": "The Inner Lair", 
+    ],
+    "id": 7201,
+    "name": "The Inner Lair",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "On the floor you see a lot of human decay, like bones and skulls.  You\nalso see a lot of slime.  On the wall is a torch sitting in its sconce.  To\nthe north is a wooden door.", 
+    "desc": "On the floor you see a lot of human decay, like bones and skulls.  You\nalso see a lot of slime.  On the wall is a torch sitting in its sconce.  To\nthe north is a wooden door.",
     "exits": [
       {
-        "desc": "You can see the inner lair.", 
-        "dir": 0, 
+        "desc": "You can see the inner lair.",
+        "dir": 0,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
+          "door",
           "wooden"
-        ], 
+        ],
         "room_linked": 7201
-      }, 
+      },
       {
-        "desc": "You see another part of the lair.", 
-        "dir": 1, 
+        "desc": "You see another part of the lair.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7205
-      }, 
+      },
       {
-        "desc": "You see another part of the lair.", 
-        "dir": 2, 
+        "desc": "You see another part of the lair.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7203
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "On all the skulls you notice that there is a three inch hole in the \nforehead.  All the bones are broken and old.", 
+        "desc": "On all the skulls you notice that there is a three inch hole in the \nforehead.  All the bones are broken and old.",
         "keywords": [
-          "skull", 
-          "skulls", 
-          "bones", 
+          "skull",
+          "skulls",
+          "bones",
           "decay"
         ]
-      }, 
+      },
       {
-        "desc": "The slime is slimy and uninteresting.", 
+        "desc": "The slime is slimy and uninteresting.",
         "keywords": [
           "slime"
         ]
-      }, 
+      },
       {
-        "desc": "The torch is bolted to the sconce and the sconce to the wall.", 
+        "desc": "The torch is bolted to the sconce and the sconce to the wall.",
         "keywords": [
-          "torch", 
+          "torch",
           "sconce"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7202, 
-    "name": "The Lair", 
+    ],
+    "id": 7202,
+    "name": "The Lair",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "On the floor you see a lot of human decay, like bones and skulls.  You\nalso see a lot of slime.  On the wall is a torch sitting in its sconce.", 
+    "desc": "On the floor you see a lot of human decay, like bones and skulls.  You\nalso see a lot of slime.  On the wall is a torch sitting in its sconce.",
     "exits": [
       {
-        "desc": "You see another part of the lair.", 
-        "dir": 0, 
+        "desc": "You see another part of the lair.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7202
-      }, 
+      },
       {
-        "desc": "You see another part of the lair.", 
-        "dir": 1, 
+        "desc": "You see another part of the lair.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7206
-      }, 
+      },
       {
-        "desc": "You see another part of the lair.", 
-        "dir": 2, 
+        "desc": "You see another part of the lair.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7204
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "On all the skulls you notice that there is a three inch hole in the \nforehead.  All the bones are broken and old.", 
+        "desc": "On all the skulls you notice that there is a three inch hole in the \nforehead.  All the bones are broken and old.",
         "keywords": [
-          "skull", 
-          "skulls", 
-          "bones", 
+          "skull",
+          "skulls",
+          "bones",
           "decay"
         ]
-      }, 
+      },
       {
-        "desc": "The slime is slimy and uninteresting.", 
+        "desc": "The slime is slimy and uninteresting.",
         "keywords": [
           "slime"
         ]
-      }, 
+      },
       {
-        "desc": "The torch is bolted to the sconce and the sconce to the wall.", 
+        "desc": "The torch is bolted to the sconce and the sconce to the wall.",
         "keywords": [
-          "torch", 
+          "torch",
           "sconce"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7203, 
-    "name": "The Lair", 
+    ],
+    "id": 7203,
+    "name": "The Lair",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "On the floor you see a lot of human decay, like bones and skulls.  You\nalso see a lot of slime.  On the wall is a torch sitting in its sconce.", 
+    "desc": "On the floor you see a lot of human decay, like bones and skulls.  You\nalso see a lot of slime.  On the wall is a torch sitting in its sconce.",
     "exits": [
       {
-        "desc": "You see another part of the lair.", 
-        "dir": 0, 
+        "desc": "You see another part of the lair.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7203
-      }, 
+      },
       {
-        "desc": "You see another part of the lair.", 
-        "dir": 1, 
+        "desc": "You see another part of the lair.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7207
-      }, 
+      },
       {
-        "desc": "You see the lair entrance.", 
-        "dir": 2, 
+        "desc": "You see the lair entrance.",
+        "dir": 2,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
+          "door",
           "wooden"
-        ], 
+        ],
         "room_linked": 7208
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "On all the skulls you notice that there is a three inch hole in the \nforehead.  All the bones are broken and old.", 
+        "desc": "On all the skulls you notice that there is a three inch hole in the \nforehead.  All the bones are broken and old.",
         "keywords": [
-          "skull", 
-          "skulls", 
-          "bones", 
+          "skull",
+          "skulls",
+          "bones",
           "decay"
         ]
-      }, 
+      },
       {
-        "desc": "The slime is slimy and uninteresting.", 
+        "desc": "The slime is slimy and uninteresting.",
         "keywords": [
           "slime"
         ]
-      }, 
+      },
       {
-        "desc": "The torch is bolted to the sconce and the sconce to the wall.", 
+        "desc": "The torch is bolted to the sconce and the sconce to the wall.",
         "keywords": [
-          "torch", 
+          "torch",
           "sconce"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7204, 
-    "name": "The Lair", 
+    ],
+    "id": 7204,
+    "name": "The Lair",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "On the floor you see a lot of human decay, like bones and skulls.  You\nalso see a lot of slime.  On the wall is a torch sitting in its sconce.", 
+    "desc": "On the floor you see a lot of human decay, like bones and skulls.  You\nalso see a lot of slime.  On the wall is a torch sitting in its sconce.",
     "exits": [
       {
-        "desc": "You see another part of the lair.", 
-        "dir": 2, 
+        "desc": "You see another part of the lair.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7206
-      }, 
+      },
       {
-        "desc": "You see another part of the lair.", 
-        "dir": 3, 
+        "desc": "You see another part of the lair.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7202
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "On all the skulls you notice that there is a three inch hole in the \nforehead.  All the bones are broken and old.", 
+        "desc": "On all the skulls you notice that there is a three inch hole in the \nforehead.  All the bones are broken and old.",
         "keywords": [
-          "skull", 
-          "skulls", 
-          "bones", 
+          "skull",
+          "skulls",
+          "bones",
           "decay"
         ]
-      }, 
+      },
       {
-        "desc": "The slime is slimy and uninteresting.", 
+        "desc": "The slime is slimy and uninteresting.",
         "keywords": [
           "slime"
         ]
-      }, 
+      },
       {
-        "desc": "The torch is bolted to the sconce and the sconce to the wall.", 
+        "desc": "The torch is bolted to the sconce and the sconce to the wall.",
         "keywords": [
-          "torch", 
+          "torch",
           "sconce"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7205, 
-    "name": "The Lair", 
+    ],
+    "id": 7205,
+    "name": "The Lair",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "On the floor you see a lot of human decay, like bones and skulls.  You\nalso see a lot of slime.  On the wall is a torch sitting in its sconce.", 
+    "desc": "On the floor you see a lot of human decay, like bones and skulls.  You\nalso see a lot of slime.  On the wall is a torch sitting in its sconce.",
     "exits": [
       {
-        "desc": "You see another part of the lair.", 
-        "dir": 0, 
+        "desc": "You see another part of the lair.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7205
-      }, 
+      },
       {
-        "desc": "You see another part of the lair.", 
-        "dir": 2, 
+        "desc": "You see another part of the lair.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7207
-      }, 
+      },
       {
-        "desc": "You see another part of the lair.", 
-        "dir": 3, 
+        "desc": "You see another part of the lair.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7203
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "All the bones are broken and old.", 
+        "desc": "All the bones are broken and old.",
         "keywords": [
-          "bones", 
+          "bones",
           "decay"
         ]
-      }, 
+      },
       {
-        "desc": "The slime is slimy and uninteresting.", 
+        "desc": "The slime is slimy and uninteresting.",
         "keywords": [
           "slime"
         ]
-      }, 
+      },
       {
-        "desc": "The torch is bolted to the sconce and the sconce to the wall.", 
+        "desc": "The torch is bolted to the sconce and the sconce to the wall.",
         "keywords": [
-          "torch", 
+          "torch",
           "sconce"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7206, 
-    "name": "The Lair", 
+    ],
+    "id": 7206,
+    "name": "The Lair",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "On the floor you see a lot of human decay, like bones and skulls.  You\nalso see a lot of slime.  On the wall is a torch sitting in its sconce.", 
+    "desc": "On the floor you see a lot of human decay, like bones and skulls.  You\nalso see a lot of slime.  On the wall is a torch sitting in its sconce.",
     "exits": [
       {
-        "desc": "You see another part of the lair.", 
-        "dir": 0, 
+        "desc": "You see another part of the lair.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7206
-      }, 
+      },
       {
-        "desc": "You see another part of the lair.", 
-        "dir": 3, 
+        "desc": "You see another part of the lair.",
+        "dir": 3,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7204
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "On all the skulls you notice that there is a three inch hole in the \nforehead.  All the bones are broken and old.", 
+        "desc": "On all the skulls you notice that there is a three inch hole in the \nforehead.  All the bones are broken and old.",
         "keywords": [
-          "skull", 
-          "skulls", 
-          "bones", 
+          "skull",
+          "skulls",
+          "bones",
           "decay"
         ]
-      }, 
+      },
       {
-        "desc": "The slime is slimy and uninteresting.", 
+        "desc": "The slime is slimy and uninteresting.",
         "keywords": [
           "slime"
         ]
-      }, 
+      },
       {
-        "desc": "The torch is bolted to the sconce and the sconce to the wall.", 
+        "desc": "The torch is bolted to the sconce and the sconce to the wall.",
         "keywords": [
-          "torch", 
+          "torch",
           "sconce"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7207, 
-    "name": "The Lair", 
+    ],
+    "id": 7207,
+    "name": "The Lair",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are in a dry part of the sewer.  To the north is a wooden door,\nyou can see some slime at the lower part of the door.  You also see\nsome skulls and some broken bones.", 
+    "desc": "You are in a dry part of the sewer.  To the north is a wooden door,\nyou can see some slime at the lower part of the door.  You also see\nsome skulls and some broken bones.",
     "exits": [
       {
-        "desc": "You can see the lair.", 
-        "dir": 0, 
+        "desc": "You can see the lair.",
+        "dir": 0,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
+          "door",
           "wooden"
-        ], 
+        ],
         "room_linked": 7204
-      }, 
+      },
       {
-        "desc": "You see a crawlway.", 
-        "dir": 1, 
+        "desc": "You see a crawlway.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7209
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The slime is slimy and uninteresting.", 
+        "desc": "The slime is slimy and uninteresting.",
         "keywords": [
           "slime"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7208, 
-    "name": "The Lair Entrance", 
+    ],
+    "id": 7208,
+    "name": "The Lair Entrance",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are in a narrow crawlway.  It is rather boring here.", 
+    "desc": "You are in a narrow crawlway.  It is rather boring here.",
     "exits": [
       {
-        "desc": "You see a four-way junction.", 
-        "dir": 1, 
+        "desc": "You see a four-way junction.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7210
-      }, 
+      },
       {
-        "desc": "You see the entrance to a lair.", 
-        "dir": 3, 
+        "desc": "You see the entrance to a lair.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7208
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7209, 
-    "name": "The Crawlway", 
+    ],
+    "id": 7209,
+    "name": "The Crawlway",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are in a sewer junction.  To the north is a small hole, to the west\nis a narrow crawlway and to the east and south the sewer continues.", 
+    "desc": "You are in a sewer junction.  To the north is a small hole, to the west\nis a narrow crawlway and to the east and south the sewer continues.",
     "exits": [
       {
-        "desc": "You can see a sewer drain.", 
-        "dir": 2, 
+        "desc": "You can see a sewer drain.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7215
-      }, 
+      },
       {
-        "desc": "You can see a narrow crawlway.", 
-        "dir": 3, 
+        "desc": "You can see a narrow crawlway.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7209
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7210, 
-    "name": "The Four-Way Junction", 
+    ],
+    "id": 7210,
+    "name": "The Four-Way Junction",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are in a collapsed sewer drain, which now is more like a small cave.", 
+    "desc": "You are in a collapsed sewer drain, which now is more like a small cave.",
     "exits": [
       {
-        "desc": "You look back into the four-way junction.", 
-        "dir": 2, 
+        "desc": "You look back into the four-way junction.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7210
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7211, 
-    "name": "The Small Cave", 
+    ],
+    "id": 7211,
+    "name": "The Small Cave",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are in a dry sewer drain which bends to the north.", 
+    "desc": "You are in a dry sewer drain which bends to the north.",
     "exits": [
       {
-        "desc": "You can see the drain continuing north.", 
-        "dir": 0, 
+        "desc": "You can see the drain continuing north.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7213
-      }, 
+      },
       {
-        "desc": "You can see the four-way junction.", 
-        "dir": 3, 
+        "desc": "You can see the four-way junction.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7210
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7212, 
-    "name": "The Sewer Drain", 
+    ],
+    "id": 7212,
+    "name": "The Sewer Drain",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are in a dry sewer drain which bends to the east.", 
+    "desc": "You are in a dry sewer drain which bends to the east.",
     "exits": [
       {
-        "desc": "You can see the drain continuing east.", 
-        "dir": 1, 
+        "desc": "You can see the drain continuing east.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7214
-      }, 
+      },
       {
-        "desc": "You can see the drain continuing south.", 
-        "dir": 2, 
+        "desc": "You can see the drain continuing south.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7212
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7213, 
-    "name": "The Sewer Drain", 
+    ],
+    "id": 7213,
+    "name": "The Sewer Drain",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are at the end of the drain around you the sewer has collapsed, the\nonly exit is west.", 
+    "desc": "You are at the end of the drain around you the sewer has collapsed, the\nonly exit is west.",
     "exits": [
       {
-        "desc": "You see the sewer drain.", 
-        "dir": 3, 
+        "desc": "You see the sewer drain.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7213
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7214, 
-    "name": "The End Of The Drain", 
+    ],
+    "id": 7214,
+    "name": "The End Of The Drain",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are in a sewer drain where the floor is covered with water.  To\nthe north it looks more dry, south however the drain runs down into\nsome water.", 
+    "desc": "You are in a sewer drain where the floor is covered with water.  To\nthe north it looks more dry, south however the drain runs down into\nsome water.",
     "exits": [
       {
-        "desc": "To the north lies a dry four-way junction.", 
-        "dir": 0, 
+        "desc": "To the north lies a dry four-way junction.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7210
-      }, 
+      },
       {
-        "desc": "To the south you see a sewer drain filled with water.", 
-        "dir": 2, 
+        "desc": "To the south you see a sewer drain filled with water.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7216
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The water is dirty but it looks like you would be able to swim in it.", 
+        "desc": "The water is dirty but it looks like you would be able to swim in it.",
         "keywords": [
           "water"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7215, 
-    "name": "The Half-Wet Drain", 
+    ],
+    "id": 7215,
+    "name": "The Half-Wet Drain",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are swimming in some dirty water and are holding your breath.  You'd\nbetter continue onwards before you drown.  It is a good thing that you can\nhold your light above the water-level.", 
+    "desc": "You are swimming in some dirty water and are holding your breath.  You'd\nbetter continue onwards before you drown.  It is a good thing that you can\nhold your light above the water-level.",
     "exits": [
       {
-        "desc": "It is hard to see, but it looks like the drain runs a little bit upwards.", 
-        "dir": 2, 
+        "desc": "It is hard to see, but it looks like the drain runs a little bit upwards.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7217
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7216, 
-    "name": "Under Water In The Sewer", 
+    ],
+    "id": 7216,
+    "name": "Under Water In The Sewer",
     "sector_type": {
-      "note": "WATER_SWIM", 
+      "note": "WATER_SWIM",
       "value": 6
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are in a half-dry sewer drain.  To the north the drain runs a little\nbit downwards into some water to the east you can see a small hole.  To the\nwest you see another drain.", 
+    "desc": "You are in a half-dry sewer drain.  To the north the drain runs a little\nbit downwards into some water to the east you can see a small hole.  To the\nwest you see another drain.",
     "exits": [
       {
-        "desc": "You see the drain running down into some water.", 
-        "dir": 0, 
+        "desc": "You see the drain running down into some water.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7216
-      }, 
+      },
       {
-        "desc": "Through the hole you can just make out a very small room.", 
-        "dir": 1, 
+        "desc": "Through the hole you can just make out a very small room.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7218
-      }, 
+      },
       {
-        "desc": "You see a drain running to the west.", 
-        "dir": 3, 
+        "desc": "You see a drain running to the west.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7219
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The water is dirty but it looks like you would be able to swim in it.", 
+        "desc": "The water is dirty but it looks like you would be able to swim in it.",
         "keywords": [
           "water"
         ]
-      }, 
+      },
       {
-        "desc": "Through the hole you can just make out a very small room.", 
+        "desc": "Through the hole you can just make out a very small room.",
         "keywords": [
           "hole"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7217, 
-    "name": "The Half-Dry Drain", 
+    ],
+    "id": 7217,
+    "name": "The Half-Dry Drain",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are in a very small room, it is pretty uninteresting.", 
+    "desc": "You are in a very small room, it is pretty uninteresting.",
     "exits": [
       {
-        "desc": "Through the little hole you can see a half-dry drain.", 
-        "dir": 3, 
+        "desc": "Through the little hole you can see a half-dry drain.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7217
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7218, 
-    "name": "The Very Small Room", 
+    ],
+    "id": 7218,
+    "name": "The Very Small Room",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are in a dry but dirty sewer drain.  The drain continues east and\nsouth.", 
+    "desc": "You are in a dry but dirty sewer drain.  The drain continues east and\nsouth.",
     "exits": [
       {
-        "desc": "You see a half-dry drain.", 
-        "dir": 1, 
+        "desc": "You see a half-dry drain.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7217
-      }, 
+      },
       {
-        "desc": "You see another boring sewer drain.", 
-        "dir": 2, 
+        "desc": "You see another boring sewer drain.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7220
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7219, 
-    "name": "A Dry Sewer Drain", 
+    ],
+    "id": 7219,
+    "name": "A Dry Sewer Drain",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are in yet another sewer drain.", 
+    "desc": "You are in yet another sewer drain.",
     "exits": [
       {
-        "desc": "You see a sewer drain continuing to the north.", 
-        "dir": 0, 
+        "desc": "You see a sewer drain continuing to the north.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7219
-      }, 
+      },
       {
-        "desc": "You can see another drain to the east.", 
-        "dir": 1, 
+        "desc": "You can see another drain to the east.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7221
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7220, 
-    "name": "A Boring Drain", 
+    ],
+    "id": 7220,
+    "name": "A Boring Drain",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are in a sewer drain, there is nothing special in here, except for a \nloud echo.", 
+    "desc": "You are in a sewer drain, there is nothing special in here, except for a \nloud echo.",
     "exits": [
       {
-        "desc": "You can see another sewer drain.", 
-        "dir": 1, 
+        "desc": "You can see another sewer drain.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7222
-      }, 
+      },
       {
-        "desc": "You can make out a sewer drain to the west.", 
-        "dir": 3, 
+        "desc": "You can make out a sewer drain to the west.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7220
-      }, 
+      },
       {
-        "desc": "You can see a sewer line.", 
-        "dir": 4, 
+        "desc": "You can see a sewer line.",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7129
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7221, 
-    "name": "The Sewer Drain", 
+    ],
+    "id": 7221,
+    "name": "The Sewer Drain",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are in a drain, with some slimy water on the floor.", 
+    "desc": "You are in a drain, with some slimy water on the floor.",
     "exits": [
       {
-        "desc": "You see a sewer bend.", 
-        "dir": 1, 
+        "desc": "You see a sewer bend.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7223
-      }, 
+      },
       {
-        "desc": "You see a sewer drain.", 
-        "dir": 3, 
+        "desc": "You see a sewer drain.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7221
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The water floats to the east from here.", 
+        "desc": "The water floats to the east from here.",
         "keywords": [
-          "slimy", 
+          "slimy",
           "water"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7222, 
-    "name": "The Sewer Drain", 
+    ],
+    "id": 7222,
+    "name": "The Sewer Drain",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You find yourself in an ordinary sewer bend, which bends from west to\nnorth.", 
+    "desc": "You find yourself in an ordinary sewer bend, which bends from west to\nnorth.",
     "exits": [
       {
-        "desc": "You see a sewer drain.", 
-        "dir": 0, 
+        "desc": "You see a sewer drain.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7224
-      }, 
+      },
       {
-        "desc": "You see a sewer drain.", 
-        "dir": 3, 
+        "desc": "You see a sewer drain.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7222
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7223, 
-    "name": "The Sewer Bend", 
+    ],
+    "id": 7223,
+    "name": "The Sewer Bend",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You stand in a junction of three sewer drains.  You see some odd\nscratches on the pipe wall, as if from a gigantic rat.  North and\nsouth the sewer continues as usual, but west it looks a little\nstrange.", 
+    "desc": "You stand in a junction of three sewer drains.  You see some odd\nscratches on the pipe wall, as if from a gigantic rat.  North and\nsouth the sewer continues as usual, but west it looks a little\nstrange.",
     "exits": [
       {
-        "desc": "You see nothing but a sewer drain.", 
-        "dir": 2, 
+        "desc": "You see nothing but a sewer drain.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7223
-      }, 
+      },
       {
-        "desc": "You see a strange sewer pipe.", 
-        "dir": 3, 
+        "desc": "You see a strange sewer pipe.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7229
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7224, 
-    "name": "The Sewer Junction", 
+    ],
+    "id": 7224,
+    "name": "The Sewer Junction",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are in a sewer, where the slimy water runs down through a tiny hole.\nYou see some odd scratches on the pipe wall, as from a gigantic rat.  There \nis a sewer drain south.", 
+    "desc": "You are in a sewer, where the slimy water runs down through a tiny hole.\nYou see some odd scratches on the pipe wall, as from a gigantic rat.  There \nis a sewer drain south.",
     "exits": [
       {
-        "desc": "You see a sewer drain.", 
-        "dir": 2, 
+        "desc": "You see a sewer drain.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7224
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7225, 
-    "name": "The Sewer", 
+    ],
+    "id": 7225,
+    "name": "The Sewer",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are in a very strange sewer indeed, there are some odd scratches on\nthe pipe wall, as from a gigantic rat.  And you can see a lot of organic\ndecay like bones from animals AND humans.  West the drain runs slightly\nupwards.", 
+    "desc": "You are in a very strange sewer indeed, there are some odd scratches on\nthe pipe wall, as from a gigantic rat.  And you can see a lot of organic\ndecay like bones from animals AND humans.  West the drain runs slightly\nupwards.",
     "exits": [
       {
-        "desc": "You see a sewer junction.", 
-        "dir": 1, 
+        "desc": "You see a sewer junction.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7224
-      }, 
+      },
       {
-        "desc": "You see a slimy sewer drain.", 
-        "dir": 3, 
+        "desc": "You see a slimy sewer drain.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7230
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7229, 
-    "name": "The Strange Sewer", 
+    ],
+    "id": 7229,
+    "name": "The Strange Sewer",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are in a sewer drain with a funny damp substance on the floor, in the \nsubstance you see a lot of decay.  You see some odd scratches on the wall,\nas if from a gigantic rat.  Both to the east and west the pipe seems to run\ndown.", 
+    "desc": "You are in a sewer drain with a funny damp substance on the floor, in the \nsubstance you see a lot of decay.  You see some odd scratches on the wall,\nas if from a gigantic rat.  Both to the east and west the pipe seems to run\ndown.",
     "exits": [
       {
-        "desc": "You see a sewer.", 
-        "dir": 1, 
+        "desc": "You see a sewer.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7229
-      }, 
+      },
       {
-        "desc": "You see a sewer.", 
-        "dir": 3, 
+        "desc": "You see a sewer.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7231
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7230, 
-    "name": "The Damp Sewer", 
+    ],
+    "id": 7230,
+    "name": "The Damp Sewer",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are in an ordinary sewer except for a lot of scratches on the sewer\nwall, and a lot of debris on the floor.", 
+    "desc": "You are in an ordinary sewer except for a lot of scratches on the sewer\nwall, and a lot of debris on the floor.",
     "exits": [
       {
-        "desc": "You see a sewer.", 
-        "dir": 1, 
+        "desc": "You see a sewer.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7230
-      }, 
+      },
       {
-        "desc": "You see another sewer.", 
-        "dir": 3, 
+        "desc": "You see another sewer.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7232
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "You see a lot of organic decay on the floor.", 
+        "desc": "You see a lot of organic decay on the floor.",
         "keywords": [
           "debris"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7231, 
-    "name": "The Strange Sewer", 
+    ],
+    "id": 7231,
+    "name": "The Strange Sewer",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are in a sewer with more scratches on the walls.  And of course a whole\nlot of decay.  The drain runs east and north.", 
+    "desc": "You are in a sewer with more scratches on the walls.  And of course a whole\nlot of decay.  The drain runs east and north.",
     "exits": [
       {
-        "desc": "You see yet another sewer line.", 
-        "dir": 0, 
+        "desc": "You see yet another sewer line.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7233
-      }, 
+      },
       {
-        "desc": "You see a sewer pipe.", 
-        "dir": 1, 
+        "desc": "You see a sewer pipe.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7231
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7232, 
-    "name": "The Sewer", 
+    ],
+    "id": 7232,
+    "name": "The Sewer",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You stand in a sewer drain, you are able to see some kind of cave-like\nroom.  You see some odd scratches on the drain wall, as if from a gigantic\nrat.  The sewer leads south.", 
+    "desc": "You stand in a sewer drain, you are able to see some kind of cave-like\nroom.  You see some odd scratches on the drain wall, as if from a gigantic\nrat.  The sewer leads south.",
     "exits": [
       {
-        "desc": "You see a cave-like room.", 
-        "dir": 1, 
+        "desc": "You see a cave-like room.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7234
-      }, 
+      },
       {
-        "desc": "You see a sewer.", 
-        "dir": 2, 
+        "desc": "You see a sewer.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7232
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7233, 
-    "name": "The Sewer Drain", 
+    ],
+    "id": 7233,
+    "name": "The Sewer Drain",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are in a little cave.  You are able to see quite a lot of debris on\nthe floor.  There is a sewer drain west of here.", 
+    "desc": "You are in a little cave.  You are able to see quite a lot of debris on\nthe floor.  There is a sewer drain west of here.",
     "exits": [
       {
-        "desc": "You see the sewer system that way.", 
-        "dir": 3, 
+        "desc": "You see the sewer system that way.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7233
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7234, 
-    "name": "The Rat's Lair", 
+    ],
+    "id": 7234,
+    "name": "The Rat's Lair",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You hang onto some steps leading down into utter darkness.  There is an\nexit leading up as well, though you'll have to open the tiny rock again to\ndo so.", 
+    "desc": "You hang onto some steps leading down into utter darkness.  There is an\nexit leading up as well, though you'll have to open the tiny rock again to\ndo so.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "rock"
-        ], 
+        ],
         "room_linked": 7111
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7299
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7279, 
-    "name": "The Wall Of The Abyss", 
+    ],
+    "id": 7279,
+    "name": "The Wall Of The Abyss",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are in a very dark room.  You notice that some faces are staring at\nyou from inside the walls.  In the middle of the room there is a small altar.\nTo the north there is a small round door.", 
+    "desc": "You are in a very dark room.  You notice that some faces are staring at\nyou from inside the walls.  In the middle of the room there is a small altar.\nTo the north there is a small round door.",
     "exits": [
       {
-        "desc": "A beam of red light seeps through a hole in the door.", 
-        "dir": 0, 
+        "desc": "A beam of red light seeps through a hole in the door.",
+        "dir": 0,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
-          "small", 
+          "door",
+          "small",
           "round"
-        ], 
+        ],
         "room_linked": 7281
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "altar", 
+          "altar",
           "secret"
-        ], 
+        ],
         "room_linked": 7116
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "This altar is very special.  Faces appear to be smiling from it.  There\nis a triangle engraved in the top of it.", 
+        "desc": "This altar is very special.  Faces appear to be smiling from it.  There\nis a triangle engraved in the top of it.",
         "keywords": [
           "altar"
         ]
-      }, 
+      },
       {
-        "desc": "The triangle is filled with small symbols.  They seem to be a language\nyou have never seen before.", 
+        "desc": "The triangle is filled with small symbols.  They seem to be a language\nyou have never seen before.",
         "keywords": [
           "triangle"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7280, 
-    "name": "The Entrance", 
+    ],
+    "id": 7280,
+    "name": "The Entrance",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "The corridor is glowing oppressively in a red hue.  You can hear wailing\nthrough an open black hole to the east.  To the south there is a round door.", 
+    "desc": "The corridor is glowing oppressively in a red hue.  You can hear wailing\nthrough an open black hole to the east.  To the south there is a round door.",
     "exits": [
       {
-        "desc": "The hole seems more black than the night.  It is appears to be \"eating\" the\nred light around it.", 
-        "dir": 1, 
+        "desc": "The hole seems more black than the night.  It is appears to be \"eating\" the\nred light around it.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7282
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
-          "small", 
+          "door",
+          "small",
           "round"
-        ], 
+        ],
         "room_linked": 7280
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The door is completely round without a keyhole.", 
+        "desc": "The door is completely round without a keyhole.",
         "keywords": [
-          "small", 
-          "round", 
+          "small",
+          "round",
           "door"
         ]
-      }, 
+      },
       {
-        "desc": "The red light glows from the walls.", 
+        "desc": "The red light glows from the walls.",
         "keywords": [
-          "red", 
+          "red",
           "light"
         ]
-      }, 
+      },
       {
-        "desc": "The walls look alive.", 
+        "desc": "The walls look alive.",
         "keywords": [
           "walls"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7281, 
-    "name": "The Corridor", 
+    ],
+    "id": 7281,
+    "name": "The Corridor",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are standing in nothing.  All around you there are stars.\nSometimes a shadow flies closely by you, wailing very loudly.  To\nthe north there is a small bright hole.  To the west there is a\nsmall red hole.", 
+    "desc": "You are standing in nothing.  All around you there are stars.\nSometimes a shadow flies closely by you, wailing very loudly.  To\nthe north there is a small bright hole.  To the west there is a\nsmall red hole.",
     "exits": [
       {
-        "desc": "You look into a very bright hole.", 
-        "dir": 0, 
+        "desc": "You look into a very bright hole.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7283
-      }, 
+      },
       {
-        "desc": "You look into a red hole.", 
-        "dir": 3, 
+        "desc": "You look into a red hole.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7281
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The shadow looks like a man in great pain.", 
+        "desc": "The shadow looks like a man in great pain.",
         "keywords": [
           "shadow"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7282, 
-    "name": "The Realm Of Lost Souls", 
+    ],
+    "id": 7282,
+    "name": "The Realm Of Lost Souls",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are in a small hallway.  There are doors to the east and to\nthe west.  To the south there are a black hole.  There is writing\nin the wall.  Wails can be heard from the south.", 
+    "desc": "You are in a small hallway.  There are doors to the east and to\nthe west.  To the south there are a black hole.  There is writing\nin the wall.  Wails can be heard from the south.",
     "exits": [
       {
-        "desc": "It is too dark to tell.", 
-        "dir": 1, 
+        "desc": "It is too dark to tell.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7286
-      }, 
+      },
       {
-        "desc": "A black hole in the wall.", 
-        "dir": 2, 
+        "desc": "A black hole in the wall.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7282
-      }, 
+      },
       {
-        "desc": "You can see a big fire to the west.  It looks like a unhealthy\nplace to enter!", 
-        "dir": 3, 
+        "desc": "You can see a big fire to the west.  It looks like a unhealthy\nplace to enter!",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7284
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The writing says 'The one to the east, belongs to the beast.\nTo the west you will surely END your quest!'.", 
+        "desc": "The writing says 'The one to the east, belongs to the beast.\nTo the west you will surely END your quest!'.",
         "keywords": [
           "writing"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7283, 
-    "name": "The T-Crossing", 
+    ],
+    "id": 7283,
+    "name": "The T-Crossing",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "This room is very hot.  There are flames surrounding you.  You can\nsee no exits at all!  Skeletons are lying all over the floor.", 
-    "exits": [], 
+    "desc": "This room is very hot.  There are flames surrounding you.  You can\nsee no exits at all!  Skeletons are lying all over the floor.",
+    "exits": [],
     "extra_descs": [
       {
-        "desc": "The skeletons looks like they had suffered the death of hunger.\nOne of them looks like he has written something at the wall.", 
+        "desc": "The skeletons looks like they had suffered the death of hunger.\nOne of them looks like he has written something at the wall.",
         "keywords": [
           "skeletons"
         ]
-      }, 
+      },
       {
-        "desc": "The writing says 'A prayer to the GODS will not be heard, though\nthe only exit is death... Mother, I love you'.", 
+        "desc": "The writing says 'A prayer to the GODS will not be heard, though\nthe only exit is death... Mother, I love you'.",
         "keywords": [
-          "writing", 
+          "writing",
           "wall"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7284, 
-    "name": "The Firedeath", 
+    ],
+    "id": 7284,
+    "name": "The Firedeath",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are standing in a middle of a square room.  Along the walls skeletons \nare hanging in rusty chains.  In the middle of the room there is a big metal \nbox, covered with dust.  To the south you can just make out a small exit.", 
+    "desc": "You are standing in a middle of a square room.  Along the walls skeletons \nare hanging in rusty chains.  In the middle of the room there is a big metal \nbox, covered with dust.  To the south you can just make out a small exit.",
     "exits": [
       {
-        "desc": "It is too dark to tell.", 
-        "dir": 2, 
+        "desc": "It is too dark to tell.",
+        "dir": 2,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
+          "door",
           "iron"
-        ], 
+        ],
         "room_linked": 7286
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "When you look at the skeletons, you can see that they once had been in great \npain.  They are hanging in their arms, and some of them were killed with a\nsharp instrument.", 
+        "desc": "When you look at the skeletons, you can see that they once had been in great \npain.  They are hanging in their arms, and some of them were killed with a\nsharp instrument.",
         "keywords": [
           "skeletons"
         ]
-      }, 
+      },
       {
-        "desc": "The metal box is covered with dust.  You notice that it was once filled with\ncoal, as you see some small pieces of it.", 
+        "desc": "The metal box is covered with dust.  You notice that it was once filled with\ncoal, as you see some small pieces of it.",
         "keywords": [
-          "big", 
-          "metal", 
+          "big",
+          "metal",
           "box"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7285, 
-    "name": "The Torture Room", 
+    ],
+    "id": 7285,
+    "name": "The Torture Room",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are standing in a lot of mud.  A disgusting smell surrounds\nthe place, and makes you feel sick.  Small flames sometimes shoot\nup from the hot mud.  To the west there is a small door.  To the \nnorth you can see an iron door.", 
+    "desc": "You are standing in a lot of mud.  A disgusting smell surrounds\nthe place, and makes you feel sick.  Small flames sometimes shoot\nup from the hot mud.  To the west there is a small door.  To the \nnorth you can see an iron door.",
     "exits": [
       {
-        "desc": "It is too dark to tell.", 
-        "dir": 0, 
+        "desc": "It is too dark to tell.",
+        "dir": 0,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
+          "door",
           "iron"
-        ], 
+        ],
         "room_linked": 7285
-      }, 
+      },
       {
-        "desc": "It is too dark to tell.", 
-        "dir": 3, 
+        "desc": "It is too dark to tell.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7283
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7286, 
-    "name": "The Hell Yard", 
+    ],
+    "id": 7286,
+    "name": "The Hell Yard",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are clutching the steps on the wall so that you don't fall to the\nground down below.  You cannot see anymore handholds below you and thus\nthis stops your journey down, as the only exit is up.", 
+    "desc": "You are clutching the steps on the wall so that you don't fall to the\nground down below.  You cannot see anymore handholds below you and thus\nthis stops your journey down, as the only exit is up.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7279
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7299, 
-    "name": "On The Walls Of The Abyss", 
+    ],
+    "id": 7299,
+    "name": "On The Walls Of The Abyss",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 72
-  }, 
+  },
   {
-    "desc": "You are standing in the cave entrance.  It is very dark down here.  There\nis writing on the wall.  There is an exit to the north.  A stairway leads up.", 
+    "desc": "You are standing in the cave entrance.  It is very dark down here.  There\nis writing on the wall.  There is an exit to the north.  A stairway leads up.",
     "exits": [
       {
-        "desc": "To the north you can see a small tunnel.", 
-        "dir": 0, 
+        "desc": "To the north you can see a small tunnel.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7301
-      }, 
+      },
       {
-        "desc": "You can see the stairs going up into darkness.", 
-        "dir": 4, 
+        "desc": "You can see the stairs going up into darkness.",
+        "dir": 4,
         "door_flag": {
-          "note": "PICKPROOF", 
+          "note": "PICKPROOF",
           "value": 2
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7102
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The writing says 'BEWARE adventurer!'", 
+        "desc": "The writing says 'BEWARE adventurer!'",
         "keywords": [
-          "writing", 
+          "writing",
           "wall"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7300, 
-    "name": "Cave Entrance", 
+    ],
+    "id": 7300,
+    "name": "Cave Entrance",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are walking in a tunnel.  It is very cold.  You can feel the presence\nof a living thing... SOMEWHERE.", 
+    "desc": "You are walking in a tunnel.  It is very cold.  You can feel the presence\nof a living thing... SOMEWHERE.",
     "exits": [
       {
-        "desc": "To the north you can see the tunnel continuing.", 
-        "dir": 0, 
+        "desc": "To the north you can see the tunnel continuing.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7302
-      }, 
+      },
       {
-        "desc": "To the south tunnel continuing.", 
-        "dir": 2, 
+        "desc": "To the south tunnel continuing.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7300
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7301, 
-    "name": "Cave Tunnel", 
+    ],
+    "id": 7301,
+    "name": "Cave Tunnel",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are standing in a room.  It is much cooler now.  The walls are glowing.", 
+    "desc": "You are standing in a room.  It is much cooler now.  The walls are glowing.",
     "exits": [
       {
-        "desc": "To the east you see the tunnel going downwards.", 
-        "dir": 1, 
+        "desc": "To the east you see the tunnel going downwards.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7303
-      }, 
+      },
       {
-        "desc": "To the south you see a dark cave tunnel.", 
-        "dir": 2, 
+        "desc": "To the south you see a dark cave tunnel.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7301
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7321
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7302, 
-    "name": "Cave Room", 
+    ],
+    "id": 7302,
+    "name": "Cave Room",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are standing in a mudlike substance.  The smell here is awful, it is\nrotten.  To the west you can see some light.", 
+    "desc": "You are standing in a mudlike substance.  The smell here is awful, it is\nrotten.  To the west you can see some light.",
     "exits": [
       {
-        "desc": "To the east the tunnel still goes downwards.", 
-        "dir": 1, 
+        "desc": "To the east the tunnel still goes downwards.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7304
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7308
-      }, 
+      },
       {
-        "desc": "You can see some light to the west.", 
-        "dir": 3, 
+        "desc": "You can see some light to the west.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7302
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "When you examine the mud, you notice small worms crawling around.", 
+        "desc": "When you examine the mud, you notice small worms crawling around.",
         "keywords": [
           "mud"
         ]
-      }, 
+      },
       {
-        "desc": "The worms are purple.  They do not look edible.", 
+        "desc": "The worms are purple.  They do not look edible.",
         "keywords": [
           "worms"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7303, 
-    "name": "The Cave T-Cross", 
+    ],
+    "id": 7303,
+    "name": "The Cave T-Cross",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "The mud is getting deeper.  You are wondering, 'Would it be an idea to\nleave, before I disappear?'.  To the south you notice a flat round stone\nis blocking the way.  To the west you can see mud.", 
+    "desc": "The mud is getting deeper.  You are wondering, 'Would it be an idea to\nleave, before I disappear?'.  To the south you notice a flat round stone\nis blocking the way.  To the west you can see mud.",
     "exits": [
       {
-        "desc": "You can see an opening behind the stone.", 
-        "dir": 2, 
+        "desc": "You can see an opening behind the stone.",
+        "dir": 2,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "stone", 
-          "flat", 
+          "stone",
+          "flat",
           "round"
-        ], 
+        ],
         "room_linked": 7305
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7303
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The stone looks very uninteresting.  BUT as you are about to turn away, you\nsee a strip of light coming through a small hole.  Conclusion: The stone is\nmoveable.", 
+        "desc": "The stone looks very uninteresting.  BUT as you are about to turn away, you\nsee a strip of light coming through a small hole.  Conclusion: The stone is\nmoveable.",
         "keywords": [
-          "flat", 
-          "round", 
+          "flat",
+          "round",
           "stone"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7304, 
-    "name": "The Cave Turning-Point", 
+    ],
+    "id": 7304,
+    "name": "The Cave Turning-Point",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "There is dust all over the place.  It looks like nobody has been here\nfor ages.  In the middle of the room you see a socket with a crystal globe.\nThe globe glows with a pulsing light.  To the north you see a stone door.\nTo the south you see a grey block.", 
+    "desc": "There is dust all over the place.  It looks like nobody has been here\nfor ages.  In the middle of the room you see a socket with a crystal globe.\nThe globe glows with a pulsing light.  To the north you see a stone door.\nTo the south you see a grey block.",
     "exits": [
       {
-        "desc": "You see a round stone door.", 
-        "dir": 0, 
+        "desc": "You see a round stone door.",
+        "dir": 0,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
-          "round", 
+          "door",
+          "round",
           "stone"
-        ], 
+        ],
         "room_linked": 7304
-      }, 
+      },
       {
-        "desc": "You see a grey block.", 
-        "dir": 2, 
+        "desc": "You see a grey block.",
+        "dir": 2,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "block", 
+          "block",
           "grey"
-        ], 
+        ],
         "room_linked": 7306
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The socket looks like the work of a dwarf.  It is VERY beautiful.", 
+        "desc": "The socket looks like the work of a dwarf.  It is VERY beautiful.",
         "keywords": [
           "socket"
         ]
-      }, 
+      },
       {
-        "desc": "The crystal globe is glowing with a pulsing light.  It looks like there is\nsmoke inside it.", 
+        "desc": "The crystal globe is glowing with a pulsing light.  It looks like there is\nsmoke inside it.",
         "keywords": [
-          "crystal", 
+          "crystal",
           "globe"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7305, 
-    "name": "The Secret Room", 
+    ],
+    "id": 7305,
+    "name": "The Secret Room",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are standing in a lot of mud.  The mud goes to your chest.  You feel\nthe presence of something IN the mud.  The only obvious exit is to the west.", 
+    "desc": "You are standing in a lot of mud.  The mud goes to your chest.  You feel\nthe presence of something IN the mud.  The only obvious exit is to the west.",
     "exits": [
       {
-        "desc": "You can see nothing at all.", 
-        "dir": 0, 
+        "desc": "You can see nothing at all.",
+        "dir": 0,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "block", 
+          "block",
           "grey"
-        ], 
+        ],
         "room_linked": 7305
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7307
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7306, 
-    "name": "The Mudhole", 
+    ],
+    "id": 7306,
+    "name": "The Mudhole",
     "sector_type": {
-      "note": "WATER_SWIM", 
+      "note": "WATER_SWIM",
       "value": 6
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "The mud goes to your knees.  Otherwise the tunnel looks very normal.", 
+    "desc": "The mud goes to your knees.  Otherwise the tunnel looks very normal.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7308
-      }, 
+      },
       {
-        "desc": "You can see a mudhole.", 
-        "dir": 1, 
+        "desc": "You can see a mudhole.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7306
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7309
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7307, 
-    "name": "A Tunnel", 
+    ],
+    "id": 7307,
+    "name": "A Tunnel",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "Here there is almost no mud, as you stand at the top of a small rock.  Just\nbeside you there are a sign which says 'WARNING!  The worms are dangerous!'", 
+    "desc": "Here there is almost no mud, as you stand at the top of a small rock.  Just\nbeside you there are a sign which says 'WARNING!  The worms are dangerous!'",
     "exits": [
       {
-        "desc": "You can see a lot of mud... Yuck!", 
-        "dir": 0, 
+        "desc": "You can see a lot of mud... Yuck!",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7303
-      }, 
+      },
       {
-        "desc": "The tunnel goes a little downwards.", 
-        "dir": 2, 
+        "desc": "The tunnel goes a little downwards.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7307
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7308, 
-    "name": "The Long Tunnel", 
+    ],
+    "id": 7308,
+    "name": "The Long Tunnel",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are very surprised, as this room for a change are hot instead of\ncold.  To the north it goes downwards into some mud.  There are also an\nexit to the west.", 
+    "desc": "You are very surprised, as this room for a change are hot instead of\ncold.  To the north it goes downwards into some mud.  There are also an\nexit to the west.",
     "exits": [
       {
-        "desc": "You see a lot of mud.", 
-        "dir": 0, 
+        "desc": "You see a lot of mud.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7307
-      }, 
+      },
       {
-        "desc": "You see a entrance to a small room.", 
-        "dir": 3, 
+        "desc": "You see a entrance to a small room.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7310
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7309, 
-    "name": "The Hot Room", 
+    ],
+    "id": 7309,
+    "name": "The Hot Room",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "As you look around you notice a small statue.  There are exits to the west\nand to the east.", 
+    "desc": "As you look around you notice a small statue.  There are exits to the west\nand to the east.",
     "exits": [
       {
-        "desc": "It is pitch dark out there.", 
-        "dir": 1, 
+        "desc": "It is pitch dark out there.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7309
-      }, 
+      },
       {
-        "desc": "You see a VERY long hallway.", 
-        "dir": 3, 
+        "desc": "You see a VERY long hallway.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7311
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "This is a statue of a imp, pointing to the west.  The imp looks like a man\nwith horns and a tail.", 
+        "desc": "This is a statue of a imp, pointing to the west.  The imp looks like a man\nwith horns and a tail.",
         "keywords": [
-          "small", 
+          "small",
           "statue"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7310, 
-    "name": "The Small Room", 
+    ],
+    "id": 7310,
+    "name": "The Small Room",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are standing in a stalagmite cave.  Water is dripping from the walls.\nIt is very cold in here.", 
+    "desc": "You are standing in a stalagmite cave.  Water is dripping from the walls.\nIt is very cold in here.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7314
-      }, 
+      },
       {
-        "desc": "You see a long hallway, and some mud.", 
-        "dir": 1, 
+        "desc": "You see a long hallway, and some mud.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7310
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7312
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The stalagmites are very tall, and looks very beautiful.", 
+        "desc": "The stalagmites are very tall, and looks very beautiful.",
         "keywords": [
           "stalagmite"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7311, 
-    "name": "The Stalagmite Cave", 
+    ],
+    "id": 7311,
+    "name": "The Stalagmite Cave",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You has entered a small tunnel.  Here it is quite dry.  Maybe it would be a\ngood idea to rest here.", 
+    "desc": "You has entered a small tunnel.  Here it is quite dry.  Maybe it would be a\ngood idea to rest here.",
     "exits": [
       {
-        "desc": "You can see a small cave to the north.", 
-        "dir": 0, 
+        "desc": "You can see a small cave to the north.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7311
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7313
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7312, 
-    "name": "The Stalagmite Tunnel", 
+    ],
+    "id": 7312,
+    "name": "The Stalagmite Tunnel",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You definitely do NOT like this area.  It is very dank, and most of the\nroom is wet.", 
+    "desc": "You definitely do NOT like this area.  It is very dank, and most of the\nroom is wet.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7312
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7345
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7313, 
-    "name": "The Spongy Room", 
+    ],
+    "id": 7313,
+    "name": "The Spongy Room",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are standing in a cross.  To the north you can see some light.\nOtherwise it is dark.", 
+    "desc": "You are standing in a cross.  To the north you can see some light.\nOtherwise it is dark.",
     "exits": [
       {
-        "desc": "You see some light ahead.", 
-        "dir": 0, 
+        "desc": "You see some light ahead.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7317
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7315
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7311
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7314, 
-    "name": "The Stalagmite T-Cross", 
+    ],
+    "id": 7314,
+    "name": "The Stalagmite T-Cross",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "This room is obviously a blind end.  To the north you see a primitive\npicture.", 
+    "desc": "This room is obviously a blind end.  To the north you see a primitive\npicture.",
     "exits": [
       {
-        "desc": "You see a primitive picture of some people dancing around a huge sun.  The\nsun is about 7 feet in diameter, which shows the size of the picture.", 
-        "dir": 0, 
+        "desc": "You see a primitive picture of some people dancing around a huge sun.  The\nsun is about 7 feet in diameter, which shows the size of the picture.",
+        "dir": 0,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "sun"
-        ], 
+        ],
         "room_linked": 7316
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7314
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "You see some people dancing around a huge sun.  The sun is about 7 feet in\ndiameter, which shows the size of the picture.", 
+        "desc": "You see some people dancing around a huge sun.  The sun is about 7 feet in\ndiameter, which shows the size of the picture.",
         "keywords": [
-          "primitive", 
+          "primitive",
           "picture"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7315, 
-    "name": "The Blind End Room", 
+    ],
+    "id": 7315,
+    "name": "The Blind End Room",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "This room is richly ornamented.  The walls have been carved to show\npeople dancing around a moon which is drawn on the floor.  It looks very\nold, and it is very dusty.  To the south you see the back side of a secret\ndoor.", 
+    "desc": "This room is richly ornamented.  The walls have been carved to show\npeople dancing around a moon which is drawn on the floor.  It looks very\nold, and it is very dusty.  To the south you see the back side of a secret\ndoor.",
     "exits": [
       {
-        "desc": "You can see a picture with some peeple crawling around a huge moon.", 
-        "dir": 2, 
+        "desc": "You can see a picture with some peeple crawling around a huge moon.",
+        "dir": 2,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "moon", 
+          "moon",
           "door"
-        ], 
+        ],
         "room_linked": 7315
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
-      }, 
+      },
       {
-        "note": "PRIVATE", 
+        "note": "PRIVATE",
         "value": 512
       }
-    ], 
-    "id": 7316, 
-    "name": "The Treasure Room", 
+    ],
+    "id": 7316,
+    "name": "The Treasure Room",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are standing in the south-east part of the lair.  You can see a skeleton\nlying in the corner.", 
+    "desc": "You are standing in the south-east part of the lair.  You can see a skeleton\nlying in the corner.",
     "exits": [
       {
-        "desc": "Another part of the lair.", 
-        "dir": 0, 
+        "desc": "Another part of the lair.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7318
-      }, 
+      },
       {
-        "desc": "Another part of the lair.", 
-        "dir": 3, 
+        "desc": "Another part of the lair.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7320
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7314
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It looks like a adventurer who wasn't lucky.  You'd better watch out...", 
+        "desc": "It looks like a adventurer who wasn't lucky.  You'd better watch out...",
         "keywords": [
           "skeleton"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7317, 
-    "name": "The Square Lair", 
+    ],
+    "id": 7317,
+    "name": "The Square Lair",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are standing in the north-east part of the lair.\nYou see a sign on the wall.", 
+    "desc": "You are standing in the north-east part of the lair.\nYou see a sign on the wall.",
     "exits": [
       {
-        "desc": "You see a wooden door.", 
-        "dir": 1, 
+        "desc": "You see a wooden door.",
+        "dir": 1,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
+          "door",
           "wooden"
-        ], 
+        ],
         "room_linked": 7321
-      }, 
+      },
       {
-        "desc": "Another part of the lair.", 
-        "dir": 2, 
+        "desc": "Another part of the lair.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7317
-      }, 
+      },
       {
-        "desc": "Another part of the lair.", 
-        "dir": 3, 
+        "desc": "Another part of the lair.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7319
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The sign says 'Gods of War I call you, my sword is by my side,\n               I seek a light free from all false pride'\n                       Reyemle Grug...", 
+        "desc": "The sign says 'Gods of War I call you, my sword is by my side,\n               I seek a light free from all false pride'\n                       Reyemle Grug...",
         "keywords": [
-          "sign", 
+          "sign",
           "wall"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7318, 
-    "name": "The Square Lair", 
+    ],
+    "id": 7318,
+    "name": "The Square Lair",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are standing in the north-west part of the lair.  Here there is another\nsign.  There is an exit from the lair to the north.", 
+    "desc": "You are standing in the north-west part of the lair.  Here there is another\nsign.  There is an exit from the lair to the north.",
     "exits": [
       {
-        "desc": "You see a small tunnel leading north.", 
-        "dir": 0, 
+        "desc": "You see a small tunnel leading north.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7322
-      }, 
+      },
       {
-        "desc": "Another part of the lair.", 
-        "dir": 1, 
+        "desc": "Another part of the lair.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7318
-      }, 
+      },
       {
-        "desc": "Another part of the lair.", 
-        "dir": 2, 
+        "desc": "Another part of the lair.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7320
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The sign says 'I'm wandering around in a everlasting tale,\n               seeking the light to regain my pride\n                           Corama...", 
+        "desc": "The sign says 'I'm wandering around in a everlasting tale,\n               seeking the light to regain my pride\n                           Corama...",
         "keywords": [
           "sign"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7319, 
-    "name": "The Square Lair", 
+    ],
+    "id": 7319,
+    "name": "The Square Lair",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You can see a table in front of you.  It is very dusty.  Five skeletons are\nsitting around the table.  Exits are north and east.", 
+    "desc": "You can see a table in front of you.  It is very dusty.  Five skeletons are\nsitting around the table.  Exits are north and east.",
     "exits": [
       {
-        "desc": "The northern part of the lair.", 
-        "dir": 0, 
+        "desc": "The northern part of the lair.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7319
-      }, 
+      },
       {
-        "desc": "The eastern part of the lair.", 
-        "dir": 1, 
+        "desc": "The eastern part of the lair.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7317
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "On the table there is dust, in the center there is a small statue of a\nDragon sleeping.", 
+        "desc": "On the table there is dust, in the center there is a small statue of a\nDragon sleeping.",
         "keywords": [
           "table"
         ]
-      }, 
+      },
       {
-        "desc": "They've obviously been killed somehow, but it doesn't look like it was by \nsword or club.", 
+        "desc": "They've obviously been killed somehow, but it doesn't look like it was by \nsword or club.",
         "keywords": [
-          "skeleton", 
+          "skeleton",
           "skeletons"
         ]
-      }, 
+      },
       {
-        "desc": "It looks like a silver dragon.  It is nailed onto the table.  The dragon sits\non a red dragon that looks dead.  But the eyes of the red dragon are glowing,\npulsating red.  You feel drained.", 
+        "desc": "It looks like a silver dragon.  It is nailed onto the table.  The dragon sits\non a red dragon that looks dead.  But the eyes of the red dragon are glowing,\npulsating red.  You feel drained.",
         "keywords": [
-          "dragon", 
+          "dragon",
           "statue"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7320, 
-    "name": "The Lair End", 
+    ],
+    "id": 7320,
+    "name": "The Lair End",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are standing in dark tunnel, the exits are east and west.  To the west\nyou see a wooden door.", 
+    "desc": "You are standing in dark tunnel, the exits are east and west.  To the west\nyou see a wooden door.",
     "exits": [
       {
-        "desc": "You can see a wooden door.", 
-        "dir": 3, 
+        "desc": "You can see a wooden door.",
+        "dir": 3,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
+          "door",
           "wooden"
-        ], 
+        ],
         "room_linked": 7318
-      }, 
+      },
       {
-        "desc": "You can see a muddy tunnel.", 
-        "dir": 1, 
+        "desc": "You can see a muddy tunnel.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7302
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7321, 
-    "name": "The East Tunnel", 
+    ],
+    "id": 7321,
+    "name": "The East Tunnel",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are standing in a dark tunnel, it leads upwards.", 
+    "desc": "You are standing in a dark tunnel, it leads upwards.",
     "exits": [
       {
-        "desc": "The dark tunnel continues.", 
-        "dir": 0, 
+        "desc": "The dark tunnel continues.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7323
-      }, 
+      },
       {
-        "desc": "You can see the lair.", 
-        "dir": 2, 
+        "desc": "You can see the lair.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7319
-      }, 
+      },
       {
-        "desc": "You can see a cave entrance.", 
-        "dir": 3, 
+        "desc": "You can see a cave entrance.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7336
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7322, 
-    "name": "The North Tunnel", 
+    ],
+    "id": 7322,
+    "name": "The North Tunnel",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are standing in deep darkness.  To the south there is a small exit.\nTo the east you can see a gaping hole.", 
+    "desc": "You are standing in deep darkness.  To the south there is a small exit.\nTo the east you can see a gaping hole.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7324
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7322
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7323, 
-    "name": "The L-Shaped Room", 
+    ],
+    "id": 7323,
+    "name": "The L-Shaped Room",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are standing in round hall.  To the north, east and south you can see\na stone head hanging on the walls.", 
+    "desc": "You are standing in round hall.  To the north, east and south you can see\na stone head hanging on the walls.",
     "exits": [
       {
-        "desc": "You see a red dragon's head hanging on the wall.", 
-        "dir": 0, 
+        "desc": "You see a red dragon's head hanging on the wall.",
+        "dir": 0,
         "door_flag": {
-          "note": "PICKPROOF", 
+          "note": "PICKPROOF",
           "value": 2
-        }, 
-        "key_number": 0, 
+        },
+        "key_number": 0,
         "keywords": [
-          "head", 
+          "head",
           "red"
-        ], 
+        ],
         "room_linked": 7324
-      }, 
+      },
       {
-        "desc": "You see a green dragon's head hanging on the wall.", 
-        "dir": 1, 
+        "desc": "You see a green dragon's head hanging on the wall.",
+        "dir": 1,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "head", 
+          "head",
           "green"
-        ], 
+        ],
         "room_linked": 7325
-      }, 
+      },
       {
-        "desc": "You see a blue dragon's head hanging on the wall.", 
-        "dir": 2, 
+        "desc": "You see a blue dragon's head hanging on the wall.",
+        "dir": 2,
         "door_flag": {
-          "note": "PICKPROOF", 
+          "note": "PICKPROOF",
           "value": 2
-        }, 
-        "key_number": 0, 
+        },
+        "key_number": 0,
         "keywords": [
-          "head", 
+          "head",
           "blue"
-        ], 
+        ],
         "room_linked": 7324
-      }, 
+      },
       {
-        "desc": "You see a room far away.", 
-        "dir": 3, 
+        "desc": "You see a room far away.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7323
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "When you study the faces of the heads you see that they are faces of dragons.\nThe face to the north is red, the face to the east is green, and the face to\nthe south is blue.", 
+        "desc": "When you study the faces of the heads you see that they are faces of dragons.\nThe face to the north is red, the face to the east is green, and the face to\nthe south is blue.",
         "keywords": [
-          "head", 
+          "head",
           "heads"
         ]
-      }, 
+      },
       {
-        "desc": "This looks like an evil dragon.", 
+        "desc": "This looks like an evil dragon.",
         "keywords": [
           "green"
         ]
-      }, 
+      },
       {
-        "desc": "This looks like a neutral dragon.", 
+        "desc": "This looks like a neutral dragon.",
         "keywords": [
           "red"
         ]
-      }, 
+      },
       {
-        "desc": "This looks like a good dragon.", 
+        "desc": "This looks like a good dragon.",
         "keywords": [
           "blue"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7324, 
-    "name": "The Circular Hall", 
+    ],
+    "id": 7324,
+    "name": "The Circular Hall",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are standing in dust.  This place has not been touched for a long time. \nOtherwise it is quite boring here, looks like a place to rest!  To the west\nyou see the outline of a door.  A tunnel leads to the east.", 
+    "desc": "You are standing in dust.  This place has not been touched for a long time. \nOtherwise it is quite boring here, looks like a place to rest!  To the west\nyou see the outline of a door.  A tunnel leads to the east.",
     "exits": [
       {
-        "desc": "You see a tunnel which leads downwards.  It is quite dark.", 
-        "dir": 1, 
+        "desc": "You see a tunnel which leads downwards.  It is quite dark.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7326
-      }, 
+      },
       {
-        "desc": "You can see the outline of a door.  Just like in the description!", 
-        "dir": 3, 
+        "desc": "You can see the outline of a door.  Just like in the description!",
+        "dir": 3,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 7324
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7325, 
-    "name": "A Dusty Tunnel", 
+    ],
+    "id": 7325,
+    "name": "A Dusty Tunnel",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are standing in a crossing of hallways.  You can leave this place\nin every direction, except up and down.  In the dust you notice strange\nfootprints.", 
+    "desc": "You are standing in a crossing of hallways.  You can leave this place\nin every direction, except up and down.  In the dust you notice strange\nfootprints.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7331
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7330
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7327
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7325
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "You have never seen this kind of footprint before!", 
+        "desc": "You have never seen this kind of footprint before!",
         "keywords": [
-          "footprints", 
+          "footprints",
           "foot"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7326, 
-    "name": "The Crossing", 
+    ],
+    "id": 7326,
+    "name": "The Crossing",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are standing in a L-shaped room.  You can hear noises from the long\ntunnel to the east.  You feel very afraid!\nA sign is hanging on the wall.", 
+    "desc": "You are standing in a L-shaped room.  You can hear noises from the long\ntunnel to the east.  You feel very afraid!\nA sign is hanging on the wall.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7326
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7328
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The sign says:\n\nDANGER!!\n", 
+        "desc": "The sign says:\n\nDANGER!!\n",
         "keywords": [
           "sign"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7327, 
-    "name": "The L-Shaped Room", 
+    ],
+    "id": 7327,
+    "name": "The L-Shaped Room",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You can see burned walls, the floorstones are fiery red.  All kinds\nof bones are scattered all over the floor.  On the walls you can see\nsome burned shapes.  You smell burnt flesh.  Two creatures are half\nmelted into the floor.", 
+    "desc": "You can see burned walls, the floorstones are fiery red.  All kinds\nof bones are scattered all over the floor.  On the walls you can see\nsome burned shapes.  You smell burnt flesh.  Two creatures are half\nmelted into the floor.",
     "exits": [
       {
-        "desc": "You can see a long tunnel.", 
-        "dir": 0, 
+        "desc": "You can see a long tunnel.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7329
-      }, 
+      },
       {
-        "desc": "You can see nothing but darkness.", 
-        "dir": 3, 
+        "desc": "You can see nothing but darkness.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7327
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7328, 
-    "name": "The Dragon's Lair", 
+    ],
+    "id": 7328,
+    "name": "The Dragon's Lair",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are in a room, which once has at one time been quite burnt.  There\nis writing on the wall.", 
+    "desc": "You are in a room, which once has at one time been quite burnt.  There\nis writing on the wall.",
     "exits": [
       {
-        "desc": "You can see a red glow...", 
-        "dir": 2, 
+        "desc": "You can see a red glow...",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7328
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7330
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The writing says:\n\n                        DANGER\n", 
+        "desc": "The writing says:\n\n                        DANGER\n",
         "keywords": [
           "writing"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7329, 
-    "name": "The Burnt Room", 
+    ],
+    "id": 7329,
+    "name": "The Burnt Room",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are standing in a tunnel.  Above you, you can feel a breeze.", 
+    "desc": "You are standing in a tunnel.  Above you, you can feel a breeze.",
     "exits": [
       {
-        "desc": "It is too dark to tell.", 
-        "dir": 1, 
+        "desc": "It is too dark to tell.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7329
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7326
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The breeze comes from a hole above you.  NO way to get up there.", 
+        "desc": "The breeze comes from a hole above you.  NO way to get up there.",
         "keywords": [
           "breeze"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7330, 
-    "name": "The Windy Tunnel", 
+    ],
+    "id": 7330,
+    "name": "The Windy Tunnel",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "This room is very bright.  On the walls you can see some silver.  Exits\nare west, east and south.", 
+    "desc": "This room is very bright.  On the walls you can see some silver.  Exits\nare west, east and south.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7332
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7326
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7333
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The glittering silver looks like it is INSIDE the walls.", 
+        "desc": "The glittering silver looks like it is INSIDE the walls.",
         "keywords": [
-          "glitter", 
-          "walls", 
+          "glitter",
+          "walls",
           "silver"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7331, 
-    "name": "The Glittering Room", 
+    ],
+    "id": 7331,
+    "name": "The Glittering Room",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You have entered a tiny room.  There is only an exit to the west.", 
+    "desc": "You have entered a tiny room.  There is only an exit to the west.",
     "exits": [
       {
-        "desc": "You can see a light to the west.", 
-        "dir": 3, 
+        "desc": "You can see a light to the west.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7331
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7332, 
-    "name": "The Secret Passageway", 
+    ],
+    "id": 7332,
+    "name": "The Secret Passageway",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are at a end of a long tunnel.  Right in front of you, you can see a\ngrey mass.  To the east you can see a tremendously long tunnel, but you know\nthat, you were just there.", 
+    "desc": "You are at a end of a long tunnel.  Right in front of you, you can see a\ngrey mass.  To the east you can see a tremendously long tunnel, but you know\nthat, you were just there.",
     "exits": [
       {
-        "desc": "A long tunnel.  JUST like in the description!", 
-        "dir": 1, 
+        "desc": "A long tunnel.  JUST like in the description!",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7331
-      }, 
+      },
       {
-        "desc": "A grey mass is blocking the way.", 
-        "dir": 3, 
+        "desc": "A grey mass is blocking the way.",
+        "dir": 3,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "mass", 
+          "mass",
           "grey"
-        ], 
+        ],
         "room_linked": 7334
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The mass is nothing but a mass, but it is quite suspicious!", 
+        "desc": "The mass is nothing but a mass, but it is quite suspicious!",
         "keywords": [
-          "grey", 
+          "grey",
           "mass"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7333, 
-    "name": "The End Of Long Tunnel", 
+    ],
+    "id": 7333,
+    "name": "The End Of Long Tunnel",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are standing in a small room.  Drawings of faces in pain are on the\nwalls.  You can feel that darkness is ruling the place.  There is one exit:\nsouth.", 
+    "desc": "You are standing in a small room.  Drawings of faces in pain are on the\nwalls.  You can feel that darkness is ruling the place.  There is one exit:\nsouth.",
     "exits": [
       {
-        "desc": "Nothing but darkness...", 
-        "dir": 2, 
+        "desc": "Nothing but darkness...",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7335
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7334, 
-    "name": "The Stair-Room", 
+    ],
+    "id": 7334,
+    "name": "The Stair-Room",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are standing in a dark tunnel.  It continues to the north and to the\nsouth.  Bones are spread on the floor.", 
+    "desc": "You are standing in a dark tunnel.  It continues to the north and to the\nsouth.  Bones are spread on the floor.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7334
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7336
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It looks like bones of a human.", 
+        "desc": "It looks like bones of a human.",
         "keywords": [
-          "bones", 
+          "bones",
           "bone"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7335, 
-    "name": "A Dark Tunnel", 
+    ],
+    "id": 7335,
+    "name": "A Dark Tunnel",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "The smell here is awful.  To the south you can see some smoke.  A tunnel\nleads north and east.", 
+    "desc": "The smell here is awful.  To the south you can see some smoke.  A tunnel\nleads north and east.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7335
-      }, 
+      },
       {
-        "desc": "The only thing you can see is smoke.", 
-        "dir": 2, 
+        "desc": "The only thing you can see is smoke.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7337
-      }, 
+      },
       {
-        "desc": "A small cave is to the east.", 
-        "dir": 1, 
+        "desc": "A small cave is to the east.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7322
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7336, 
-    "name": "The Entrance To The Lair", 
+    ],
+    "id": 7336,
+    "name": "The Entrance To The Lair",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "It is hard to see here because of the smoke.  To the north you can barely\nsee a small tunnel.  Other exits are to the south and to the west.", 
+    "desc": "It is hard to see here because of the smoke.  To the north you can barely\nsee a small tunnel.  Other exits are to the south and to the west.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7336
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7338
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7339
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7337, 
-    "name": "The North-Eastern Part Of The Basilisk's Cave", 
+    ],
+    "id": 7337,
+    "name": "The North-Eastern Part Of The Basilisk's Cave",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "There is a very small hole in wall from which the smoke is coming from. \nOtherwise it is pitch black.  Exits are north and west.", 
+    "desc": "There is a very small hole in wall from which the smoke is coming from. \nOtherwise it is pitch black.  Exits are north and west.",
     "exits": [
       {
-        "desc": "You can see nothing but smoke.", 
-        "dir": 0, 
+        "desc": "You can see nothing but smoke.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7337
-      }, 
+      },
       {
-        "desc": "You can see nothing but smoke.", 
-        "dir": 3, 
+        "desc": "You can see nothing but smoke.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7340
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It seems to be a small hole, about one foot in diameter.", 
+        "desc": "It seems to be a small hole, about one foot in diameter.",
         "keywords": [
-          "hole", 
+          "hole",
           "small"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7338, 
-    "name": "The South-Eastern Part Of The Basilisk's Cave", 
+    ],
+    "id": 7338,
+    "name": "The South-Eastern Part Of The Basilisk's Cave",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You can see some hay spread on the floor.  The smell is awful here, and it\nmakes you feel sick.  This place where the Basilisk sleeps.  Watch out...\nmaybe it is not far from here...", 
+    "desc": "You can see some hay spread on the floor.  The smell is awful here, and it\nmakes you feel sick.  This place where the Basilisk sleeps.  Watch out...\nmaybe it is not far from here...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7337
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7340
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The hay is very dirty.  The smell of it makes you feel sick.", 
+        "desc": "The hay is very dirty.  The smell of it makes you feel sick.",
         "keywords": [
           "hay"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7339, 
-    "name": "The North-Western Part Of The Basilisk's Cave", 
+    ],
+    "id": 7339,
+    "name": "The North-Western Part Of The Basilisk's Cave",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You can see nothing but smoke.", 
+    "desc": "You can see nothing but smoke.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7338
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7341
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7340, 
-    "name": "The South-Western Part Of The Basilisk's Cave", 
+    ],
+    "id": 7340,
+    "name": "The South-Western Part Of The Basilisk's Cave",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are standing in small cave.  You can see some light at the end.  Exits\nare north and south.", 
+    "desc": "You are standing in small cave.  You can see some light at the end.  Exits\nare north and south.",
     "exits": [
       {
-        "desc": "You can see only smoke.", 
-        "dir": 0, 
+        "desc": "You can see only smoke.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7340
-      }, 
+      },
       {
-        "desc": "You can see a blue glow.  And you feel a fresh breeze... ahhhh...", 
-        "dir": 2, 
+        "desc": "You can see a blue glow.  And you feel a fresh breeze... ahhhh...",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7342
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7341, 
-    "name": "The Small Cave", 
+    ],
+    "id": 7341,
+    "name": "The Small Cave",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You have wet feet, you are standing in water.  The water looks calm.  You\ncan see that it is a big lake.  Light seeps from the water.", 
+    "desc": "You have wet feet, you are standing in water.  The water looks calm.  You\ncan see that it is a big lake.  Light seeps from the water.",
     "exits": [
       {
-        "desc": "You can see a small cave.", 
-        "dir": 0, 
+        "desc": "You can see a small cave.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7341
-      }, 
+      },
       {
-        "desc": "You can see more water.", 
-        "dir": 1, 
+        "desc": "You can see more water.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7343
-      }, 
+      },
       {
-        "desc": "You can see water.", 
-        "dir": 2, 
+        "desc": "You can see water.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7344
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7342, 
-    "name": "The Northern End Of The Pool", 
+    ],
+    "id": 7342,
+    "name": "The Northern End Of The Pool",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are swimming in water.  It is getting deep here.  It is also dark in\nthis end.", 
+    "desc": "You are swimming in water.  It is getting deep here.  It is also dark in\nthis end.",
     "exits": [
       {
-        "desc": "You can see some bubbles in the water.", 
-        "dir": 2, 
+        "desc": "You can see some bubbles in the water.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7345
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7343, 
-    "name": "The Pool", 
+    ],
+    "id": 7343,
+    "name": "The Pool",
     "sector_type": {
-      "note": "WATER_SWIM", 
+      "note": "WATER_SWIM",
       "value": 6
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You standing in water up to your neck!  You can only see water.", 
+    "desc": "You standing in water up to your neck!  You can only see water.",
     "exits": [
       {
-        "desc": "To dark to tell, but you can feel something nearby.", 
-        "dir": 1, 
+        "desc": "To dark to tell, but you can feel something nearby.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7345
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7344, 
-    "name": "The South End Of The Pool", 
+    ],
+    "id": 7344,
+    "name": "The South End Of The Pool",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 73
-  }, 
+  },
   {
-    "desc": "You are swimming in DARKNESS.  You feel something touching your right leg.", 
+    "desc": "You are swimming in DARKNESS.  You feel something touching your right leg.",
     "exits": [
       {
-        "desc": "You can feel a warm breeze.", 
-        "dir": 1, 
+        "desc": "You can feel a warm breeze.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7313
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7344
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 7345, 
-    "name": "The Pool", 
+    ],
+    "id": 7345,
+    "name": "The Pool",
     "sector_type": {
-      "note": "WATER_SWIM", 
+      "note": "WATER_SWIM",
       "value": 6
-    }, 
+    },
     "zone_number": 73
   }
 ]

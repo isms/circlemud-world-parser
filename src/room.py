@@ -1,12 +1,12 @@
 # coding: utf-8
 import re
 
-from src.constants import ROOM_DOOR_FLAGS
-from src.constants import ROOM_FLAGS
-from src.constants import ROOM_SECTOR_TYPES
-from src.utils import bitvector_to_flags
-from src.utils import clean_bitvector
-from src.utils import lookup_value_to_dict
+from constants import ROOM_DOOR_FLAGS
+from constants import ROOM_FLAGS
+from constants import ROOM_SECTOR_TYPES
+from utils import bitvector_to_flags
+from utils import clean_bitvector
+from utils import lookup_value_to_dict
 
 EXIT_RE = r"""D(\d+)
 (.*?)~

@@ -1,84 +1,84 @@
 [
   {
-    "desc": "You don't think that you are not floating in nothing.  You can see\na strange portal located above you.", 
+    "desc": "You don't think that you are not floating in nothing.  You can see\na strange portal located above you.",
     "exits": [
       {
-        "desc": "The Temple of Midgaard floats above you.", 
-        "dir": 4, 
+        "desc": "The Temple of Midgaard floats above you.",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3001
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 0, 
-    "name": "The Void", 
+    ],
+    "id": 0,
+    "name": "The Void",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 0
-  }, 
+  },
   {
-    "desc": "You are floating in a formless void, detached from all sensation of physical\nmatter, surrounded by swirling glowing light, which fades into the relative\ndarkness around you without any trace of edges or shadow.\n   There is a \"No Tipping\" notice pinned to the darkness.", 
-    "exits": [], 
-    "extra_descs": [], 
+    "desc": "You are floating in a formless void, detached from all sensation of physical\nmatter, surrounded by swirling glowing light, which fades into the relative\ndarkness around you without any trace of edges or shadow.\n   There is a \"No Tipping\" notice pinned to the darkness.",
+    "exits": [],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 1, 
-    "name": "Limbo", 
+    ],
+    "id": 1,
+    "name": "Limbo",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 0
-  }, 
+  },
   {
-    "desc": "The walls are completely bare... nothing at all in the room.\nHow... utterly bizarre and completely weird.  There is a strange\nportal just above you, and it almost looks as if there is some\nsort of room above you.", 
+    "desc": "The walls are completely bare... nothing at all in the room.\nHow... utterly bizarre and completely weird.  There is a strange\nportal just above you, and it almost looks as if there is some\nsort of room above you.",
     "exits": [
       {
-        "desc": "You notice that the portal above you looks almost like glass,\nalbeit very dirty glass.", 
-        "dir": 4, 
+        "desc": "You notice that the portal above you looks almost like glass,\nalbeit very dirty glass.",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3048
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
-      }, 
+      },
       {
-        "note": "PRIVATE", 
+        "note": "PRIVATE",
         "value": 512
       }
-    ], 
-    "id": 3, 
-    "name": "A Totally Empty Room", 
+    ],
+    "id": 3,
+    "name": "A Totally Empty Room",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 1
   }
 ]

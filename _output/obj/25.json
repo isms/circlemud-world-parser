@@ -1,4113 +1,4113 @@
 [
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "key", 
+      "key",
       "diamond"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
-      }, 
+      },
       {
-        "note": "NODONATE", 
+        "note": "NODONATE",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOSELL", 
+        "note": "NOSELL",
         "value": 65536
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2500, 
-    "long_desc": "A glinting key of diamond has been left here.", 
-    "rent": 0, 
-    "short_desc": "a diamond key", 
+    ],
+    "extra_descs": [],
+    "id": 2500,
+    "long_desc": "A glinting key of diamond has been left here.",
+    "rent": 0,
+    "short_desc": "a diamond key",
     "type": {
-      "note": "KEY", 
+      "note": "KEY",
       "value": 18
-    }, 
+    },
     "values": [
-      2500, 
-      0, 
-      0, 
+      2500,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "oven", 
+      "oven",
       "black"
-    ], 
-    "cost": 1000, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2501, 
-    "long_desc": "", 
-    "rent": 1000, 
-    "short_desc": "an oven", 
+    ],
+    "cost": 1000,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2501,
+    "long_desc": "",
+    "rent": 1000,
+    "short_desc": "an oven",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      1000, 
-      5, 
-      -1, 
+      1000,
+      5,
+      -1,
       0
-    ], 
-    "wear": [], 
+    ],
+    "wear": [],
     "weight": 1000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "locker"
-    ], 
-    "cost": 1000, 
-    "effects": [], 
+    ],
+    "cost": 1000,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "You just had the horrid thought that a cadaver might be in there.", 
+        "desc": "You just had the horrid thought that a cadaver might be in there.",
         "keywords": [
           "locker"
         ]
       }
-    ], 
-    "id": 2502, 
-    "long_desc": "", 
-    "rent": 1000, 
-    "short_desc": "a meat locker", 
+    ],
+    "id": 2502,
+    "long_desc": "",
+    "rent": 1000,
+    "short_desc": "a meat locker",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      1000, 
-      5, 
-      -1, 
+      1000,
+      5,
+      -1,
       0
-    ], 
-    "wear": [], 
+    ],
+    "wear": [],
     "weight": 1000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "rack", 
+      "rack",
       "spice"
-    ], 
-    "cost": 1500, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2503, 
-    "long_desc": "", 
-    "rent": 500, 
-    "short_desc": "a spice rack", 
+    ],
+    "cost": 1500,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2503,
+    "long_desc": "",
+    "rent": 500,
+    "short_desc": "a spice rack",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      50, 
-      0, 
-      -1, 
+      50,
+      0,
+      -1,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 10
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "slice", 
-      "bread", 
+      "slice",
+      "bread",
       "traveller"
-    ], 
-    "cost": 12, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2504, 
-    "long_desc": "A slice of traveller's bread is here looking very tasty.", 
-    "rent": 3, 
-    "short_desc": "a slice of traveller's bread", 
+    ],
+    "cost": 12,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2504,
+    "long_desc": "A slice of traveller's bread is here looking very tasty.",
+    "rent": 3,
+    "short_desc": "a slice of traveller's bread",
     "type": {
-      "note": "FOOD", 
+      "note": "FOOD",
       "value": 19
-    }, 
+    },
     "values": [
-      15, 
-      0, 
-      0, 
+      15,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "chunk", 
+      "chunk",
       "meat"
-    ], 
-    "cost": 20, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2505, 
-    "long_desc": "A large chunk of meat is here.", 
-    "rent": 5, 
-    "short_desc": "a large chunk of meat", 
+    ],
+    "cost": 20,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2505,
+    "long_desc": "A large chunk of meat is here.",
+    "rent": 5,
+    "short_desc": "a large chunk of meat",
     "type": {
-      "note": "FOOD", 
+      "note": "FOOD",
       "value": 19
-    }, 
+    },
     "values": [
-      24, 
-      0, 
-      0, 
+      24,
+      0,
+      0,
       1
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "sandwich"
-    ], 
-    "cost": 15, 
+    ],
+    "cost": 15,
     "effects": [
       {
-        "note": "NOSELL", 
+        "note": "NOSELL",
         "value": 65536
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It would look quite tasty if someone had first removed the fingernails!", 
+        "desc": "It would look quite tasty if someone had first removed the fingernails!",
         "keywords": [
-          "sandwich", 
+          "sandwich",
           "finger"
         ]
       }
-    ], 
-    "id": 2506, 
-    "long_desc": "A finger sandwich is here.", 
-    "rent": 5, 
-    "short_desc": "a finger sandwich", 
+    ],
+    "id": 2506,
+    "long_desc": "A finger sandwich is here.",
+    "rent": 5,
+    "short_desc": "a finger sandwich",
     "type": {
-      "note": "FOOD", 
+      "note": "FOOD",
       "value": 19
-    }, 
+    },
     "values": [
-      20, 
-      0, 
-      0, 
+      20,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "broom", 
+      "broom",
       "straw"
-    ], 
-    "cost": 5, 
+    ],
+    "cost": 5,
     "effects": [
       {
-        "note": "NODONATE", 
+        "note": "NODONATE",
         "value": 8
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "A magical flying broomstick?  Nah!  Not here.", 
+        "desc": "A magical flying broomstick?  Nah!  Not here.",
         "keywords": [
-          "broom", 
+          "broom",
           "straw"
         ]
       }
-    ], 
-    "id": 2507, 
-    "long_desc": "A straw broom is here leaning against the wall.", 
-    "rent": 600, 
-    "short_desc": "a straw broom", 
+    ],
+    "id": 2507,
+    "long_desc": "A straw broom is here leaning against the wall.",
+    "rent": 600,
+    "short_desc": "a straw broom",
     "type": {
-      "note": "BOAT", 
+      "note": "BOAT",
       "value": 22
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "cabinet"
-    ], 
-    "cost": 10, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2508, 
-    "long_desc": "A cabinet is here.", 
-    "rent": 10, 
-    "short_desc": "a cabinet", 
+    ],
+    "cost": 10,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2508,
+    "long_desc": "A cabinet is here.",
+    "rent": 10,
+    "short_desc": "a cabinet",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      5000, 
-      5, 
-      -1, 
+      5000,
+      5,
+      -1,
       0
-    ], 
-    "wear": [], 
+    ],
+    "wear": [],
     "weight": 10000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "bar", 
+      "bar",
       "silver"
-    ], 
-    "cost": 1000, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2509, 
-    "long_desc": "A bar of silver has been left here.", 
-    "rent": 500, 
-    "short_desc": "a bar of silver", 
+    ],
+    "cost": 1000,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2509,
+    "long_desc": "A bar of silver has been left here.",
+    "rent": 500,
+    "short_desc": "a bar of silver",
     "type": {
-      "note": "TREASURE", 
+      "note": "TREASURE",
       "value": 8
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 10
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "bar", 
+      "bar",
       "gold"
-    ], 
-    "cost": 2000, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2510, 
-    "long_desc": "A bar of gold has been left here.", 
-    "rent": 750, 
-    "short_desc": "a bar of gold", 
+    ],
+    "cost": 2000,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2510,
+    "long_desc": "A bar of gold has been left here.",
+    "rent": 750,
+    "short_desc": "a bar of gold",
     "type": {
-      "note": "TREASURE", 
+      "note": "TREASURE",
       "value": 8
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 11
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "bar", 
+      "bar",
       "mithril"
-    ], 
-    "cost": 3000, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2511, 
-    "long_desc": "A bar of mithril has been left here.", 
-    "rent": 950, 
-    "short_desc": "a bar of mithril", 
+    ],
+    "cost": 3000,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2511,
+    "long_desc": "A bar of mithril has been left here.",
+    "rent": 950,
+    "short_desc": "a bar of mithril",
     "type": {
-      "note": "TREASURE", 
+      "note": "TREASURE",
       "value": 8
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 12
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "bar", 
+      "bar",
       "adamantite"
-    ], 
-    "cost": 5000, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2512, 
-    "long_desc": "A bar of adamantite has been left here.", 
-    "rent": 1000, 
-    "short_desc": "a bar of adamantite", 
+    ],
+    "cost": 5000,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2512,
+    "long_desc": "A bar of adamantite has been left here.",
+    "rent": 1000,
+    "short_desc": "a bar of adamantite",
     "type": {
-      "note": "TREASURE", 
+      "note": "TREASURE",
       "value": 8
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 15
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 2
-      }, 
+      },
       {
-        "location": 1, 
-        "note": "STR", 
+        "location": 1,
+        "note": "STR",
         "value": 1
       }
-    ], 
+    ],
     "aliases": [
-      "hammer", 
+      "hammer",
       "mithril"
-    ], 
-    "cost": 10000, 
+    ],
+    "cost": 10000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2513, 
-    "long_desc": "a mithril hammer has been left here", 
-    "rent": 1000, 
-    "short_desc": "a mithril hammer", 
+    ],
+    "extra_descs": [],
+    "id": 2513,
+    "long_desc": "a mithril hammer has been left here",
+    "rent": 1000,
+    "short_desc": "a mithril hammer",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      2, 
-      6, 
+      0,
+      2,
+      6,
       7
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 19
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "chest"
-    ], 
-    "cost": 1000, 
+    ],
+    "cost": 1000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2514, 
-    "long_desc": "A chest is here.", 
-    "rent": 1000, 
-    "short_desc": "a chest", 
+    ],
+    "extra_descs": [],
+    "id": 2514,
+    "long_desc": "A chest is here.",
+    "rent": 1000,
+    "short_desc": "a chest",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      5000, 
-      15, 
-      1316, 
+      5000,
+      15,
+      1316,
       0
-    ], 
-    "wear": [], 
+    ],
+    "wear": [],
     "weight": 1000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "key"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
-      }, 
+      },
       {
-        "note": "NODONATE", 
+        "note": "NODONATE",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOSELL", 
+        "note": "NOSELL",
         "value": 65536
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2515, 
-    "long_desc": "A small key has been left here.", 
-    "rent": 0, 
-    "short_desc": "a small key", 
+    ],
+    "extra_descs": [],
+    "id": 2515,
+    "long_desc": "A small key has been left here.",
+    "rent": 0,
+    "short_desc": "a small key",
     "type": {
-      "note": "KEY", 
+      "note": "KEY",
       "value": 18
-    }, 
+    },
     "values": [
-      2515, 
-      0, 
-      0, 
+      2515,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 1
-      }, 
+      },
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 2
       }
-    ], 
+    ],
     "aliases": [
-      "long", 
+      "long",
       "sword"
-    ], 
-    "cost": 10000, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2516, 
-    "long_desc": "A long sword has been left here.", 
-    "rent": 1000, 
-    "short_desc": "a long sword", 
+    ],
+    "cost": 10000,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2516,
+    "long_desc": "A long sword has been left here.",
+    "rent": 1000,
+    "short_desc": "a long sword",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      1, 
-      8, 
+      0,
+      1,
+      8,
       3
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 8
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 2
-      }, 
+      },
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 2
       }
-    ], 
+    ],
     "aliases": [
-      "dagger", 
+      "dagger",
       "silver"
-    ], 
-    "cost": 15000, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2517, 
-    "long_desc": "A finely crafted dagger made of silver is on the ground here.", 
-    "rent": 1200, 
-    "short_desc": "a silver dagger", 
+    ],
+    "cost": 15000,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2517,
+    "long_desc": "A finely crafted dagger made of silver is on the ground here.",
+    "rent": 1200,
+    "short_desc": "a silver dagger",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      3, 
-      3, 
+      0,
+      3,
+      3,
       11
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 13, 
-        "note": "HIT", 
+        "location": 13,
+        "note": "HIT",
         "value": 3
       }
-    ], 
+    ],
     "aliases": [
       "scimitar"
-    ], 
-    "cost": 17500, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2518, 
-    "long_desc": "A curved scimitar is here in a jewel-covered sheath.", 
-    "rent": 1950, 
-    "short_desc": "a curved scimitar", 
+    ],
+    "cost": 17500,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2518,
+    "long_desc": "A curved scimitar is here in a jewel-covered sheath.",
+    "rent": 1950,
+    "short_desc": "a curved scimitar",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      2, 
-      7, 
+      0,
+      2,
+      7,
       3
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 10
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "staff", 
+      "staff",
       "wooden"
-    ], 
-    "cost": 10, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2519, 
-    "long_desc": "A wooden staff is against the wall here.", 
-    "rent": 5, 
-    "short_desc": "a wooden staff", 
+    ],
+    "cost": 10,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2519,
+    "long_desc": "A wooden staff is against the wall here.",
+    "rent": 5,
+    "short_desc": "a wooden staff",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      1, 
-      4, 
+      0,
+      1,
+      4,
       8
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 6
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "cabinet", 
+      "cabinet",
       "silver"
-    ], 
-    "cost": 1, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2520, 
-    "long_desc": "A large cabinet with a silver finish is here.", 
-    "rent": 1, 
-    "short_desc": "a silver chased cabinet", 
+    ],
+    "cost": 1,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2520,
+    "long_desc": "A large cabinet with a silver finish is here.",
+    "rent": 1,
+    "short_desc": "a silver chased cabinet",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      5000, 
-      15, 
-      2523, 
+      5000,
+      15,
+      2523,
       0
-    ], 
-    "wear": [], 
+    ],
+    "wear": [],
     "weight": 10000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "cabinet", 
+      "cabinet",
       "silver"
-    ], 
-    "cost": 1, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2521, 
-    "long_desc": "A large cabinet with a silver finish is here.", 
-    "rent": 1, 
-    "short_desc": "a silver chased cabinet", 
+    ],
+    "cost": 1,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2521,
+    "long_desc": "A large cabinet with a silver finish is here.",
+    "rent": 1,
+    "short_desc": "a silver chased cabinet",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      5000, 
-      15, 
-      2523, 
+      5000,
+      15,
+      2523,
       0
-    ], 
-    "wear": [], 
+    ],
+    "wear": [],
     "weight": 10000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "key", 
+      "key",
       "old"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
-      }, 
+      },
       {
-        "note": "NODONATE", 
+        "note": "NODONATE",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOSELL", 
+        "note": "NOSELL",
         "value": 65536
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2522, 
-    "long_desc": "An old key is here", 
-    "rent": 0, 
-    "short_desc": "an old key", 
+    ],
+    "extra_descs": [],
+    "id": 2522,
+    "long_desc": "An old key is here",
+    "rent": 0,
+    "short_desc": "an old key",
     "type": {
-      "note": "KEY", 
+      "note": "KEY",
       "value": 18
-    }, 
+    },
     "values": [
-      2522, 
-      0, 
-      0, 
+      2522,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "key", 
+      "key",
       "silvery"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
-      }, 
+      },
       {
-        "note": "NODONATE", 
+        "note": "NODONATE",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOSELL", 
+        "note": "NOSELL",
         "value": 65536
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2523, 
-    "long_desc": "A silvery key has been left here.", 
-    "rent": 0, 
-    "short_desc": "a silvery key", 
+    ],
+    "extra_descs": [],
+    "id": 2523,
+    "long_desc": "A silvery key has been left here.",
+    "rent": 0,
+    "short_desc": "a silvery key",
     "type": {
-      "note": "KEY", 
+      "note": "KEY",
       "value": 18
-    }, 
+    },
     "values": [
-      2523, 
-      0, 
-      0, 
+      2523,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "key", 
+      "key",
       "silvery"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
-      }, 
+      },
       {
-        "note": "NODONATE", 
+        "note": "NODONATE",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOSELL", 
+        "note": "NOSELL",
         "value": 65536
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2524, 
-    "long_desc": "A silvery key has been left here.", 
-    "rent": 0, 
-    "short_desc": "a silvery key", 
+    ],
+    "extra_descs": [],
+    "id": 2524,
+    "long_desc": "A silvery key has been left here.",
+    "rent": 0,
+    "short_desc": "a silvery key",
     "type": {
-      "note": "KEY", 
+      "note": "KEY",
       "value": 18
-    }, 
+    },
     "values": [
-      2524, 
-      0, 
-      0, 
+      2524,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "staff", 
-      "red", 
+      "staff",
+      "red",
       "white"
-    ], 
-    "cost": 5500, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2525, 
-    "long_desc": "a red and white staff is leaning against the wall here", 
-    "rent": 500, 
-    "short_desc": "a red and white staff", 
+    ],
+    "cost": 5500,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2525,
+    "long_desc": "a red and white staff is leaning against the wall here",
+    "rent": 500,
+    "short_desc": "a red and white staff",
     "type": {
-      "note": "STAFF", 
+      "note": "STAFF",
       "value": 4
-    }, 
+    },
     "values": [
-      20, 
-      3, 
-      3, 
+      20,
+      3,
+      3,
       28
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 8
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "staff", 
+      "staff",
       "burnt"
-    ], 
-    "cost": 1100, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2526, 
-    "long_desc": "A burnt staff is leaning against the wall here.", 
-    "rent": 600, 
-    "short_desc": "a burnt staff", 
+    ],
+    "cost": 1100,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2526,
+    "long_desc": "A burnt staff is leaning against the wall here.",
+    "rent": 600,
+    "short_desc": "a burnt staff",
     "type": {
-      "note": "STAFF", 
+      "note": "STAFF",
       "value": 4
-    }, 
+    },
     "values": [
-      20, 
-      4, 
-      4, 
+      20,
+      4,
+      4,
       4
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 6
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "rod", 
+      "rod",
       "black"
-    ], 
-    "cost": 1200, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2527, 
-    "long_desc": "A black rod has been left here.", 
-    "rent": 200, 
-    "short_desc": "a black rod", 
+    ],
+    "cost": 1200,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2527,
+    "long_desc": "A black rod has been left here.",
+    "rent": 200,
+    "short_desc": "a black rod",
     "type": {
-      "note": "WAND", 
+      "note": "WAND",
       "value": 3
-    }, 
+    },
     "values": [
-      20, 
-      3, 
-      3, 
+      20,
+      3,
+      3,
       22
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 4
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "wand", 
+      "wand",
       "wooden"
-    ], 
-    "cost": 600, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2528, 
-    "long_desc": "a wooden stick is here", 
-    "rent": 60, 
-    "short_desc": "a wooden stick", 
+    ],
+    "cost": 600,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2528,
+    "long_desc": "a wooden stick is here",
+    "rent": 60,
+    "short_desc": "a wooden stick",
     "type": {
-      "note": "WAND", 
+      "note": "WAND",
       "value": 3
-    }, 
+    },
     "values": [
-      20, 
-      10, 
-      10, 
+      20,
+      10,
+      10,
       3
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 4
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "wand", 
+      "wand",
       "metal"
-    ], 
-    "cost": 2000, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2529, 
-    "long_desc": "A metal wand is here.", 
-    "rent": 350, 
-    "short_desc": "a metal wand", 
+    ],
+    "cost": 2000,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2529,
+    "long_desc": "A metal wand is here.",
+    "rent": 350,
+    "short_desc": "a metal wand",
     "type": {
-      "note": "WAND", 
+      "note": "WAND",
       "value": 3
-    }, 
+    },
     "values": [
-      20, 
-      20, 
-      4, 
+      20,
+      20,
+      4,
       25
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "cauldron", 
+      "cauldron",
       "black"
-    ], 
-    "cost": 5000, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2530, 
-    "long_desc": "A large black cauldron is here bubbling.", 
-    "rent": 500000, 
-    "short_desc": "a black cauldron", 
+    ],
+    "cost": 5000,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2530,
+    "long_desc": "A large black cauldron is here bubbling.",
+    "rent": 500000,
+    "short_desc": "a black cauldron",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      1000, 
-      0, 
-      -1, 
+      1000,
+      0,
+      -1,
       0
-    ], 
-    "wear": [], 
+    ],
+    "wear": [],
     "weight": 5000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "wings", 
+      "wings",
       "bat"
-    ], 
-    "cost": 1, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2531, 
-    "long_desc": "A small pair of bat wings is here.", 
-    "rent": 1, 
-    "short_desc": "a small pair of bat wings", 
+    ],
+    "cost": 1,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2531,
+    "long_desc": "A small pair of bat wings is here.",
+    "rent": 1,
+    "short_desc": "a small pair of bat wings",
     "type": {
-      "note": "TRASH", 
+      "note": "TRASH",
       "value": 13
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "eyeball", 
+      "eyeball",
       "eye"
-    ], 
-    "cost": 1, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2532, 
-    "long_desc": "An eyeball has been left here", 
-    "rent": 1, 
-    "short_desc": "an eyeball", 
+    ],
+    "cost": 1,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2532,
+    "long_desc": "An eyeball has been left here",
+    "rent": 1,
+    "short_desc": "an eyeball",
     "type": {
-      "note": "TRASH", 
+      "note": "TRASH",
       "value": 13
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "book", 
+      "book",
       "tome"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2533, 
-    "long_desc": "An enormous book is lying open here", 
-    "rent": 0, 
-    "short_desc": "the book of magic", 
+    ],
+    "extra_descs": [],
+    "id": 2533,
+    "long_desc": "An enormous book is lying open here",
+    "rent": 0,
+    "short_desc": "the book of magic",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      500, 
-      0, 
-      -1, 
+      500,
+      0,
+      -1,
       0
-    ], 
-    "wear": [], 
+    ],
+    "wear": [],
     "weight": 5000
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 3, 
-        "note": "INT", 
+        "location": 3,
+        "note": "INT",
         "value": 1
-      }, 
+      },
       {
-        "location": 4, 
-        "note": "WIS", 
+        "location": 4,
+        "note": "WIS",
         "value": 1
       }
-    ], 
+    ],
     "aliases": [
-      "spectacles", 
+      "spectacles",
       "glasses"
-    ], 
-    "cost": 10000, 
+    ],
+    "cost": 10000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2534, 
-    "long_desc": "A pair of wire-rimmed spectacles has been left here.", 
-    "rent": 5000, 
-    "short_desc": "a pair of spectacles", 
+    ],
+    "extra_descs": [],
+    "id": 2534,
+    "long_desc": "A pair of wire-rimmed spectacles has been left here.",
+    "rent": 5000,
+    "short_desc": "a pair of spectacles",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HEAD", 
+        "note": "WEAR_HEAD",
         "value": 16
       }
-    ], 
+    ],
     "weight": 4
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "altar"
-    ], 
-    "cost": 1, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2535, 
-    "long_desc": "", 
-    "rent": 1, 
-    "short_desc": "a golden altar", 
+    ],
+    "cost": 1,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2535,
+    "long_desc": "",
+    "rent": 1,
+    "short_desc": "a golden altar",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      1000, 
-      5, 
-      -1, 
+      1000,
+      5,
+      -1,
       0
-    ], 
-    "wear": [], 
+    ],
+    "wear": [],
     "weight": 5000
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 4, 
-        "note": "WIS", 
+        "location": 4,
+        "note": "WIS",
         "value": 2
-      }, 
+      },
       {
-        "location": 5, 
-        "note": "CON", 
+        "location": 5,
+        "note": "CON",
         "value": -1
       }
-    ], 
+    ],
     "aliases": [
-      "medallion", 
+      "medallion",
       "heart"
-    ], 
-    "cost": 10000, 
+    ],
+    "cost": 10000,
     "effects": [
       {
-        "note": "HUM", 
+        "note": "HUM",
         "value": 2
-      }, 
+      },
       {
-        "note": "NODONATE", 
+        "note": "NODONATE",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOINVIS", 
+        "note": "NOINVIS",
         "value": 16
-      }, 
+      },
       {
-        "note": "BLESS", 
+        "note": "BLESS",
         "value": 256
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2536, 
-    "long_desc": "A heart shaped medallion is here.", 
-    "rent": 1000, 
-    "short_desc": "a heart shaped medallion", 
+    ],
+    "extra_descs": [],
+    "id": 2536,
+    "long_desc": "A heart shaped medallion is here.",
+    "rent": 1000,
+    "short_desc": "a heart shaped medallion",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_NECK", 
+        "note": "WEAR_NECK",
         "value": 4
       }
-    ], 
+    ],
     "weight": 3
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "chest"
-    ], 
-    "cost": 500000, 
+    ],
+    "cost": 500000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2537, 
-    "long_desc": "A large chest is here.", 
-    "rent": 5000000, 
-    "short_desc": "a large chest", 
+    ],
+    "extra_descs": [],
+    "id": 2537,
+    "long_desc": "A large chest is here.",
+    "rent": 5000000,
+    "short_desc": "a large chest",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      2000, 
-      15, 
-      2538, 
+      2000,
+      15,
+      2538,
       0
-    ], 
-    "wear": [], 
+    ],
+    "wear": [],
     "weight": 5000
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 24, 
-        "note": "SAVING_SPELL", 
+        "location": 24,
+        "note": "SAVING_SPELL",
         "value": -1
       }
-    ], 
+    ],
     "aliases": [
-      "key", 
+      "key",
       "intricate"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
-      }, 
+      },
       {
-        "note": "NODONATE", 
+        "note": "NODONATE",
         "value": 8
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "NOSELL", 
+        "note": "NOSELL",
         "value": 65536
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2538, 
-    "long_desc": "An intricately carved key has been left here.", 
-    "rent": 0, 
-    "short_desc": "an intricately carved key", 
+    ],
+    "extra_descs": [],
+    "id": 2538,
+    "long_desc": "An intricately carved key has been left here.",
+    "rent": 0,
+    "short_desc": "an intricately carved key",
     "type": {
-      "note": "KEY", 
+      "note": "KEY",
       "value": 18
-    }, 
+    },
     "values": [
-      2538, 
-      0, 
-      0, 
+      2538,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "a", 
-      "pile", 
-      "of", 
+      "a",
+      "pile",
+      "of",
       "coins"
-    ], 
-    "cost": 23574, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2539, 
-    "long_desc": "A pile of coins is here.", 
-    "rent": 0, 
-    "short_desc": "a pile of coins is here", 
+    ],
+    "cost": 23574,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2539,
+    "long_desc": "A pile of coins is here.",
+    "rent": 0,
+    "short_desc": "a pile of coins is here",
     "type": {
-      "note": "MONEY", 
+      "note": "MONEY",
       "value": 20
-    }, 
+    },
     "values": [
-      23574, 
-      0, 
-      0, 
+      23574,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 23
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": -5
-      }, 
+      },
       {
-        "location": 24, 
-        "note": "SAVING_SPELL", 
+        "location": 24,
+        "note": "SAVING_SPELL",
         "value": -3
       }
-    ], 
+    ],
     "aliases": [
-      "cloak", 
+      "cloak",
       "brown"
-    ], 
-    "cost": 2000, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2540, 
-    "long_desc": "A travel worn cloak has carelessly been left here.", 
-    "rent": 250, 
-    "short_desc": "a brown cloak", 
+    ],
+    "cost": 2000,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2540,
+    "long_desc": "A travel worn cloak has carelessly been left here.",
+    "rent": 250,
+    "short_desc": "a brown cloak",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_NECK", 
+        "note": "WEAR_NECK",
         "value": 4
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 2, 
-        "note": "DEX", 
+        "location": 2,
+        "note": "DEX",
         "value": 2
-      }, 
+      },
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": -3
       }
-    ], 
+    ],
     "aliases": [
-      "chameleon", 
-      "poncho", 
+      "chameleon",
+      "poncho",
       "cloth"
-    ], 
-    "cost": 15000, 
+    ],
+    "cost": 15000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2541, 
-    "long_desc": "Some multicolored cloth is on the ground here", 
-    "rent": 5000, 
-    "short_desc": "a chameleon poncho", 
+    ],
+    "extra_descs": [],
+    "id": 2541,
+    "long_desc": "Some multicolored cloth is on the ground here",
+    "rent": 5000,
+    "short_desc": "a chameleon poncho",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_ABOUT", 
+        "note": "WEAR_ABOUT",
         "value": 1024
       }
-    ], 
+    ],
     "weight": 4
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 14, 
-        "note": "MOVE", 
+        "location": 14,
+        "note": "MOVE",
         "value": 15
       }
-    ], 
+    ],
     "aliases": [
-      "boots", 
+      "boots",
       "worn"
-    ], 
-    "cost": 3500, 
+    ],
+    "cost": 3500,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2542, 
-    "long_desc": "A pair of old boots is here, they look very comfortable.", 
-    "rent": 900, 
-    "short_desc": "a pair of old boots", 
+    ],
+    "extra_descs": [],
+    "id": 2542,
+    "long_desc": "A pair of old boots is here, they look very comfortable.",
+    "rent": 900,
+    "short_desc": "a pair of old boots",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_FEET", 
+        "note": "WEAR_FEET",
         "value": 64
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "ring", 
+      "ring",
       "seashell"
-    ], 
-    "cost": 6500, 
+    ],
+    "cost": 6500,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2543, 
-    "long_desc": "A small seashell has been left here.", 
-    "rent": 1100, 
-    "short_desc": "a seashell ring", 
+    ],
+    "extra_descs": [],
+    "id": 2543,
+    "long_desc": "A small seashell has been left here.",
+    "rent": 1100,
+    "short_desc": "a seashell ring",
     "type": {
-      "note": "BOAT", 
+      "note": "BOAT",
       "value": 22
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_FINGER", 
+        "note": "WEAR_FINGER",
         "value": 2
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "backpack", 
+      "backpack",
       "leather"
-    ], 
-    "cost": 750, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2544, 
-    "long_desc": "A leather backpack is here.", 
-    "rent": 50, 
-    "short_desc": "a leather backpack", 
+    ],
+    "cost": 750,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2544,
+    "long_desc": "A leather backpack is here.",
+    "rent": 50,
+    "short_desc": "a leather backpack",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      750, 
-      0, 
-      -1, 
+      750,
+      0,
+      -1,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_ABOUT", 
+        "note": "WEAR_ABOUT",
         "value": 1024
       }
-    ], 
+    ],
     "weight": 9
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "cup", 
-      "brew", 
-      "herbal", 
+      "cup",
+      "brew",
+      "herbal",
       "tea"
-    ], 
-    "cost": 11, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2545, 
-    "long_desc": "A herbal brew is here.", 
-    "rent": 5, 
-    "short_desc": "a herbal brew", 
+    ],
+    "cost": 11,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2545,
+    "long_desc": "A herbal brew is here.",
+    "rent": 5,
+    "short_desc": "a herbal brew",
     "type": {
-      "note": "DRINKCON", 
+      "note": "DRINKCON",
       "value": 17
-    }, 
+    },
     "values": [
-      5, 
-      5, 
-      11, 
+      5,
+      5,
+      11,
       1
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "waybread"
-    ], 
-    "cost": 65, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2546, 
-    "long_desc": "A loaf of waybread has been left here.", 
-    "rent": 5, 
-    "short_desc": "a waybread", 
+    ],
+    "cost": 65,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2546,
+    "long_desc": "A loaf of waybread has been left here.",
+    "rent": 5,
+    "short_desc": "a waybread",
     "type": {
-      "note": "FOOD", 
+      "note": "FOOD",
       "value": 19
-    }, 
+    },
     "values": [
-      32, 
-      0, 
-      0, 
+      32,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 3
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "cleaver"
-    ], 
-    "cost": 600, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2547, 
-    "long_desc": "A meat cleaver is sticking in the wall here.", 
-    "rent": 100, 
-    "short_desc": "a meat cleaver", 
+    ],
+    "cost": 600,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2547,
+    "long_desc": "A meat cleaver is sticking in the wall here.",
+    "rent": 100,
+    "short_desc": "a meat cleaver",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      3, 
-      4, 
+      0,
+      3,
+      4,
       1
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 8
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 12, 
-        "note": "MANA", 
+        "location": 12,
+        "note": "MANA",
         "value": -100
-      }, 
+      },
       {
-        "location": 14, 
-        "note": "MOVE", 
+        "location": 14,
+        "note": "MOVE",
         "value": -82
       }
-    ], 
+    ],
     "aliases": [
-      "shackles", 
+      "shackles",
       "chain"
-    ], 
-    "cost": 750, 
+    ],
+    "cost": 750,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "NODROP", 
+        "note": "NODROP",
         "value": 128
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2548, 
-    "long_desc": "Some chain shackles have been discarded here", 
-    "rent": 1000, 
-    "short_desc": "some chain shackles", 
+    ],
+    "extra_descs": [],
+    "id": 2548,
+    "long_desc": "Some chain shackles have been discarded here",
+    "rent": 1000,
+    "short_desc": "some chain shackles",
     "type": {
-      "note": "TRASH", 
+      "note": "TRASH",
       "value": 13
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WAIST", 
+        "note": "WEAR_WAIST",
         "value": 2048
       }
-    ], 
+    ],
     "weight": 15
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 1
       }
-    ], 
+    ],
     "aliases": [
-      "dagger", 
+      "dagger",
       "silvery"
-    ], 
-    "cost": 1200, 
+    ],
+    "cost": 1200,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2549, 
-    "long_desc": "A long dagger that seems to be made of silver is here.", 
-    "rent": 500, 
-    "short_desc": "a silvery dagger", 
+    ],
+    "extra_descs": [],
+    "id": 2549,
+    "long_desc": "A long dagger that seems to be made of silver is here.",
+    "rent": 500,
+    "short_desc": "a silvery dagger",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      2, 
-      4, 
+      0,
+      2,
+      4,
       11
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "scroll"
-    ], 
-    "cost": 3000, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2550, 
-    "long_desc": "A scroll is here.", 
-    "rent": 1000, 
-    "short_desc": "a scroll", 
+    ],
+    "cost": 3000,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2550,
+    "long_desc": "A scroll is here.",
+    "rent": 1000,
+    "short_desc": "a scroll",
     "type": {
-      "note": "SCROLL", 
+      "note": "SCROLL",
       "value": 2
-    }, 
+    },
     "values": [
-      21, 
-      4, 
-      17, 
+      21,
+      4,
+      17,
       38
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": -6
       }
-    ], 
+    ],
     "aliases": [
-      "scroll", 
+      "scroll",
       "bound"
-    ], 
-    "cost": 9500, 
+    ],
+    "cost": 9500,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2551, 
-    "long_desc": "A bound scroll is here blowing in the breeze.", 
-    "rent": 3000, 
-    "short_desc": "a bound scroll", 
+    ],
+    "extra_descs": [],
+    "id": 2551,
+    "long_desc": "A bound scroll is here blowing in the breeze.",
+    "rent": 3000,
+    "short_desc": "a bound scroll",
     "type": {
-      "note": "SCROLL", 
+      "note": "SCROLL",
       "value": 2
-    }, 
+    },
     "values": [
-      16, 
-      1, 
-      2, 
+      16,
+      1,
+      2,
       34
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 3
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "tube", 
+      "tube",
       "cylinder"
-    ], 
-    "cost": 500, 
+    ],
+    "cost": 500,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2552, 
-    "long_desc": "A long cylindrical tube is rolling around here.", 
-    "rent": 50, 
-    "short_desc": "a long cylindrical tube", 
+    ],
+    "extra_descs": [],
+    "id": 2552,
+    "long_desc": "A long cylindrical tube is rolling around here.",
+    "rent": 50,
+    "short_desc": "a long cylindrical tube",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      100, 
-      5, 
-      -1, 
+      100,
+      5,
+      -1,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 8
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "scroll", 
+      "scroll",
       "old"
-    ], 
-    "cost": 500, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2553, 
-    "long_desc": "An old scroll has been left here.", 
-    "rent": 100, 
-    "short_desc": "an old scroll", 
+    ],
+    "cost": 500,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2553,
+    "long_desc": "An old scroll has been left here.",
+    "rent": 100,
+    "short_desc": "an old scroll",
     "type": {
-      "note": "SCROLL", 
+      "note": "SCROLL",
       "value": 2
-    }, 
+    },
     "values": [
-      10, 
-      12, 
-      -1, 
+      10,
+      12,
+      -1,
       -1
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "scroll", 
+      "scroll",
       "blue"
-    ], 
-    "cost": 20000, 
+    ],
+    "cost": 20000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2554, 
-    "long_desc": "A blue scroll has been left here.", 
-    "rent": 15000, 
-    "short_desc": "a scroll written on blue paper", 
+    ],
+    "extra_descs": [],
+    "id": 2554,
+    "long_desc": "A blue scroll has been left here.",
+    "rent": 15000,
+    "short_desc": "a scroll written on blue paper",
     "type": {
-      "note": "SCROLL", 
+      "note": "SCROLL",
       "value": 2
-    }, 
+    },
     "values": [
-      24, 
-      24, 
-      -1, 
+      24,
+      24,
+      -1,
       -1
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "pouch", 
+      "pouch",
       "leather"
-    ], 
-    "cost": 1750, 
+    ],
+    "cost": 1750,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2555, 
-    "long_desc": "A leather pouch is on the ground here.", 
-    "rent": 50, 
-    "short_desc": "a leather pouch", 
+    ],
+    "extra_descs": [],
+    "id": 2555,
+    "long_desc": "A leather pouch is on the ground here.",
+    "rent": 50,
+    "short_desc": "a leather pouch",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      150, 
-      0, 
-      -1, 
+      150,
+      0,
+      -1,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 24, 
-        "note": "SAVING_SPELL", 
+        "location": 24,
+        "note": "SAVING_SPELL",
         "value": -1
       }
-    ], 
+    ],
     "aliases": [
-      "spoon", 
+      "spoon",
       "silver"
-    ], 
-    "cost": 5650, 
+    ],
+    "cost": 5650,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2556, 
-    "long_desc": "A silver stirring spoon has been left here.", 
-    "rent": 900, 
-    "short_desc": "a silver stirring spoon", 
+    ],
+    "extra_descs": [],
+    "id": 2556,
+    "long_desc": "A silver stirring spoon has been left here.",
+    "rent": 900,
+    "short_desc": "a silver stirring spoon",
     "type": {
-      "note": "OTHER", 
+      "note": "OTHER",
       "value": 12
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "potion", 
+      "potion",
       "blue"
-    ], 
-    "cost": 9000, 
+    ],
+    "cost": 9000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2557, 
-    "long_desc": "A blue potion is here.", 
-    "rent": 500, 
-    "short_desc": "a blue potion", 
+    ],
+    "extra_descs": [],
+    "id": 2557,
+    "long_desc": "A blue potion is here.",
+    "rent": 500,
+    "short_desc": "a blue potion",
     "type": {
-      "note": "POTION", 
+      "note": "POTION",
       "value": 10
-    }, 
+    },
     "values": [
-      24, 
-      27, 
-      27, 
+      24,
+      27,
+      27,
       27
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "potion", 
+      "potion",
       "red"
-    ], 
-    "cost": 1500, 
+    ],
+    "cost": 1500,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2558, 
-    "long_desc": "A bright red potion is here.", 
-    "rent": 500, 
-    "short_desc": "a bright red potion", 
+    ],
+    "extra_descs": [],
+    "id": 2558,
+    "long_desc": "A bright red potion is here.",
+    "rent": 500,
+    "short_desc": "a bright red potion",
     "type": {
-      "note": "POTION", 
+      "note": "POTION",
       "value": 10
-    }, 
+    },
     "values": [
-      15, 
-      15, 
-      -1, 
+      15,
+      15,
+      -1,
       -1
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "potion", 
+      "potion",
       "green"
-    ], 
-    "cost": 1500, 
+    ],
+    "cost": 1500,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2559, 
-    "long_desc": "A green potion is here.", 
-    "rent": 150, 
-    "short_desc": "a green potion", 
+    ],
+    "extra_descs": [],
+    "id": 2559,
+    "long_desc": "A green potion is here.",
+    "rent": 150,
+    "short_desc": "a green potion",
     "type": {
-      "note": "POTION", 
+      "note": "POTION",
       "value": 10
-    }, 
+    },
     "values": [
-      20, 
-      4, 
-      2, 
+      20,
+      4,
+      2,
       14
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "potion", 
+      "potion",
       "effervescent"
-    ], 
-    "cost": 1000, 
+    ],
+    "cost": 1000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "Ahh!  Schwepes Sparkling Soda a refreshing drink.", 
+        "desc": "Ahh!  Schwepes Sparkling Soda a refreshing drink.",
         "keywords": [
-          "potion", 
+          "potion",
           "effervescent"
         ]
       }
-    ], 
-    "id": 2560, 
-    "long_desc": "An effervescent potion is bubbling away here", 
-    "rent": 150, 
-    "short_desc": "an effervescent potion", 
+    ],
+    "id": 2560,
+    "long_desc": "An effervescent potion is bubbling away here",
+    "rent": 150,
+    "short_desc": "an effervescent potion",
     "type": {
-      "note": "POTION", 
+      "note": "POTION",
       "value": 10
-    }, 
+    },
     "values": [
-      16, 
-      18, 
-      19, 
+      16,
+      18,
+      19,
       20
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "white", 
-      "milky", 
+      "white",
+      "milky",
       "potion"
-    ], 
-    "cost": 750, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2561, 
-    "long_desc": "A milky white potion is here.", 
-    "rent": 50, 
-    "short_desc": "a milky white potion", 
+    ],
+    "cost": 750,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2561,
+    "long_desc": "A milky white potion is here.",
+    "rent": 50,
+    "short_desc": "a milky white potion",
     "type": {
-      "note": "POTION", 
+      "note": "POTION",
       "value": 10
-    }, 
+    },
     "values": [
-      14, 
-      42, 
-      -1, 
+      14,
+      42,
+      -1,
       -1
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "staff", 
+      "staff",
       "black"
-    ], 
-    "cost": 500, 
+    ],
+    "cost": 500,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2562, 
-    "long_desc": "A black staff is leaning against the wall here.", 
-    "rent": 50, 
-    "short_desc": "a black staff", 
+    ],
+    "extra_descs": [],
+    "id": 2562,
+    "long_desc": "A black staff is leaning against the wall here.",
+    "rent": 50,
+    "short_desc": "a black staff",
     "type": {
-      "note": "STAFF", 
+      "note": "STAFF",
       "value": 4
-    }, 
+    },
     "values": [
-      18, 
-      2, 
-      2, 
+      18,
+      2,
+      2,
       2
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 3, 
-        "note": "INT", 
+        "location": 3,
+        "note": "INT",
         "value": -6
       }
-    ], 
+    ],
     "aliases": [
-      "flute", 
+      "flute",
       "golden"
-    ], 
-    "cost": 15000, 
+    ],
+    "cost": 15000,
     "effects": [
       {
-        "note": "INVISIBLE", 
+        "note": "INVISIBLE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2563, 
-    "long_desc": "A golden flute has been left here.", 
-    "rent": 5000, 
-    "short_desc": "a golden flute", 
+    ],
+    "extra_descs": [],
+    "id": 2563,
+    "long_desc": "A golden flute has been left here.",
+    "rent": 5000,
+    "short_desc": "a golden flute",
     "type": {
-      "note": "STAFF", 
+      "note": "STAFF",
       "value": 4
-    }, 
+    },
     "values": [
-      22, 
-      1, 
-      1, 
+      22,
+      1,
+      1,
       7
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 4
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "figurine", 
-      "humanoid", 
+      "figurine",
+      "humanoid",
       "small"
-    ], 
-    "cost": 6000, 
+    ],
+    "cost": 6000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2564, 
-    "long_desc": "A small figurine in the shape of a humanoid is standing here.", 
-    "rent": 650, 
-    "short_desc": "a small figurine", 
+    ],
+    "extra_descs": [],
+    "id": 2564,
+    "long_desc": "A small figurine in the shape of a humanoid is standing here.",
+    "rent": 650,
+    "short_desc": "a small figurine",
     "type": {
-      "note": "STAFF", 
+      "note": "STAFF",
       "value": 4
-    }, 
+    },
     "values": [
-      21, 
-      10, 
-      10, 
+      21,
+      10,
+      10,
       32
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 4
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "belt", 
+      "belt",
       "holster"
-    ], 
-    "cost": 290, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2565, 
-    "long_desc": "A holstered belt is here.", 
-    "rent": 29, 
-    "short_desc": "a holstered belt", 
+    ],
+    "cost": 290,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2565,
+    "long_desc": "A holstered belt is here.",
+    "rent": 29,
+    "short_desc": "a holstered belt",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      20, 
-      0, 
-      -1, 
+      20,
+      0,
+      -1,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WAIST", 
+        "note": "WEAR_WAIST",
         "value": 2048
       }
-    ], 
+    ],
     "weight": 4
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "wand"
-    ], 
-    "cost": 2500, 
+    ],
+    "cost": 2500,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2566, 
-    "long_desc": "A blackened wand is here.", 
-    "rent": 500, 
-    "short_desc": "a blackened wand", 
+    ],
+    "extra_descs": [],
+    "id": 2566,
+    "long_desc": "A blackened wand is here.",
+    "rent": 500,
+    "short_desc": "a blackened wand",
     "type": {
-      "note": "WAND", 
+      "note": "WAND",
       "value": 3
-    }, 
+    },
     "values": [
-      17, 
-      5, 
-      1, 
+      17,
+      5,
+      1,
       26
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 4
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 2, 
-        "note": "DEX", 
+        "location": 2,
+        "note": "DEX",
         "value": 1
       }
-    ], 
+    ],
     "aliases": [
-      "chisel", 
+      "chisel",
       "runed"
-    ], 
-    "cost": 1500, 
+    ],
+    "cost": 1500,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2567, 
-    "long_desc": "A runed chisel is here.", 
-    "rent": 500, 
-    "short_desc": "a runed chisel", 
+    ],
+    "extra_descs": [],
+    "id": 2567,
+    "long_desc": "A runed chisel is here.",
+    "rent": 500,
+    "short_desc": "a runed chisel",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      2, 
-      3, 
+      0,
+      2,
+      3,
       11
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 6
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "pouch", 
-      "belt", 
+      "pouch",
+      "belt",
       "beltpouch"
-    ], 
-    "cost": 750, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2568, 
-    "long_desc": "A beltpouch is here.", 
-    "rent": 50, 
-    "short_desc": "a beltpouch", 
+    ],
+    "cost": 750,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2568,
+    "long_desc": "A beltpouch is here.",
+    "rent": 50,
+    "short_desc": "a beltpouch",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      50, 
-      0, 
-      -1, 
+      50,
+      0,
+      -1,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WAIST", 
+        "note": "WEAR_WAIST",
         "value": 2048
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "dust"
-    ], 
-    "cost": 1000, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2569, 
-    "long_desc": "Some sparkling dust is in a pile here.", 
-    "rent": 150, 
-    "short_desc": "some sparkling dust", 
+    ],
+    "cost": 1000,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2569,
+    "long_desc": "Some sparkling dust is in a pile here.",
+    "rent": 150,
+    "short_desc": "some sparkling dust",
     "type": {
-      "note": "STAFF", 
+      "note": "STAFF",
       "value": 4
-    }, 
+    },
     "values": [
-      20, 
-      1, 
-      1, 
+      20,
+      1,
+      1,
       38
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": -8
-      }, 
+      },
       {
-        "location": 24, 
-        "note": "SAVING_SPELL", 
+        "location": 24,
+        "note": "SAVING_SPELL",
         "value": -3
       }
-    ], 
+    ],
     "aliases": [
-      "cowl", 
+      "cowl",
       "dark"
-    ], 
-    "cost": 1200, 
+    ],
+    "cost": 1200,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "HUM", 
+        "note": "HUM",
         "value": 2
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_GOOD", 
+        "note": "ANTI_GOOD",
         "value": 512
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2570, 
-    "long_desc": "A dark cowl is here.", 
-    "rent": 400, 
-    "short_desc": "a dark cowl", 
+    ],
+    "extra_descs": [],
+    "id": 2570,
+    "long_desc": "A dark cowl is here.",
+    "rent": 400,
+    "short_desc": "a dark cowl",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_NECK", 
+        "note": "WEAR_NECK",
         "value": 4
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "wand", 
+      "wand",
       "ashen"
-    ], 
-    "cost": 2000, 
+    ],
+    "cost": 2000,
     "effects": [
       {
-        "note": "ANTI_GOOD", 
+        "note": "ANTI_GOOD",
         "value": 512
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2571, 
-    "long_desc": "An ashen wand is here", 
-    "rent": 600, 
-    "short_desc": "an ashen wand", 
+    ],
+    "extra_descs": [],
+    "id": 2571,
+    "long_desc": "An ashen wand is here",
+    "rent": 600,
+    "short_desc": "an ashen wand",
     "type": {
-      "note": "WAND", 
+      "note": "WAND",
       "value": 3
-    }, 
+    },
     "values": [
-      20, 
-      4, 
-      4, 
+      20,
+      4,
+      4,
       5
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 4
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "club", 
+      "club",
       "spiked"
-    ], 
-    "cost": 750, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 2572, 
-    "long_desc": "A huge spiked club has been left here.", 
-    "rent": 200, 
-    "short_desc": "a huge spiked club", 
+    ],
+    "cost": 750,
+    "effects": [],
+    "extra_descs": [],
+    "id": 2572,
+    "long_desc": "A huge spiked club has been left here.",
+    "rent": 200,
+    "short_desc": "a huge spiked club",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      3, 
-      5, 
+      0,
+      3,
+      5,
       8
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 29
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": -9
-      }, 
+      },
       {
-        "location": 24, 
-        "note": "SAVING_SPELL", 
+        "location": 24,
+        "note": "SAVING_SPELL",
         "value": -2
       }
-    ], 
+    ],
     "aliases": [
-      "robe", 
+      "robe",
       "grey"
-    ], 
-    "cost": 5000, 
+    ],
+    "cost": 5000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_GOOD", 
+        "note": "ANTI_GOOD",
         "value": 512
-      }, 
+      },
       {
-        "note": "ANTI_EVIL", 
+        "note": "ANTI_EVIL",
         "value": 1024
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2573, 
-    "long_desc": "A pile of grey cloth has been left here.", 
-    "rent": 750, 
-    "short_desc": "a grey robe", 
+    ],
+    "extra_descs": [],
+    "id": 2573,
+    "long_desc": "A pile of grey cloth has been left here.",
+    "rent": 750,
+    "short_desc": "a grey robe",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      50, 
-      0, 
-      -1, 
+      50,
+      0,
+      -1,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_ABOUT", 
+        "note": "WEAR_ABOUT",
         "value": 1024
       }
-    ], 
+    ],
     "weight": 8
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": -5
       }
-    ], 
+    ],
     "aliases": [
-      "bracelet", 
+      "bracelet",
       "silver"
-    ], 
-    "cost": 5000, 
+    ],
+    "cost": 5000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_GOOD", 
+        "note": "ANTI_GOOD",
         "value": 512
-      }, 
+      },
       {
-        "note": "ANTI_EVIL", 
+        "note": "ANTI_EVIL",
         "value": 1024
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2574, 
-    "long_desc": "A glinting hoop of silvery metal is here.", 
-    "rent": 500, 
-    "short_desc": "a glinting silver bracelet", 
+    ],
+    "extra_descs": [],
+    "id": 2574,
+    "long_desc": "A glinting hoop of silvery metal is here.",
+    "rent": 500,
+    "short_desc": "a glinting silver bracelet",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WRIST", 
+        "note": "WEAR_WRIST",
         "value": 4096
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": -12
-      }, 
+      },
       {
-        "location": 24, 
-        "note": "SAVING_SPELL", 
+        "location": 24,
+        "note": "SAVING_SPELL",
         "value": -3
       }
-    ], 
+    ],
     "aliases": [
-      "cloak", 
+      "cloak",
       "grey"
-    ], 
-    "cost": 12000, 
+    ],
+    "cost": 12000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_GOOD", 
+        "note": "ANTI_GOOD",
         "value": 512
-      }, 
+      },
       {
-        "note": "ANTI_EVIL", 
+        "note": "ANTI_EVIL",
         "value": 1024
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2575, 
-    "long_desc": "A pile of grey cloth has been left here.", 
-    "rent": 1200, 
-    "short_desc": "a long grey cloak", 
+    ],
+    "extra_descs": [],
+    "id": 2575,
+    "long_desc": "A pile of grey cloth has been left here.",
+    "rent": 1200,
+    "short_desc": "a long grey cloak",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_NECK", 
+        "note": "WEAR_NECK",
         "value": 4
       }
-    ], 
+    ],
     "weight": 7
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 3
       }
-    ], 
+    ],
     "aliases": [
       "staff"
-    ], 
-    "cost": 9000, 
+    ],
+    "cost": 9000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_GOOD", 
+        "note": "ANTI_GOOD",
         "value": 512
-      }, 
+      },
       {
-        "note": "ANTI_EVIL", 
+        "note": "ANTI_EVIL",
         "value": 1024
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2576, 
-    "long_desc": "A grey piece of wood shod in iron has been left here.", 
-    "rent": 3000, 
-    "short_desc": "an iron shod staff", 
+    ],
+    "extra_descs": [],
+    "id": 2576,
+    "long_desc": "A grey piece of wood shod in iron has been left here.",
+    "rent": 3000,
+    "short_desc": "an iron shod staff",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      2, 
-      7, 
+      0,
+      2,
+      7,
       8
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 7
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": -5
       }
-    ], 
+    ],
     "aliases": [
-      "minor", 
-      "ward", 
-      "cube", 
+      "minor",
+      "ward",
+      "cube",
       "clear"
-    ], 
-    "cost": 5000, 
+    ],
+    "cost": 5000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2577, 
-    "long_desc": "A small clear cube is sitting here.", 
-    "rent": 1000, 
-    "short_desc": "a ward minor", 
+    ],
+    "extra_descs": [],
+    "id": 2577,
+    "long_desc": "A small clear cube is sitting here.",
+    "rent": 1000,
+    "short_desc": "a ward minor",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": -9
-      }, 
+      },
       {
-        "location": 24, 
-        "note": "SAVING_SPELL", 
+        "location": 24,
+        "note": "SAVING_SPELL",
         "value": -2
       }
-    ], 
+    ],
     "aliases": [
-      "robe", 
+      "robe",
       "black"
-    ], 
-    "cost": 5000, 
+    ],
+    "cost": 5000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_GOOD", 
+        "note": "ANTI_GOOD",
         "value": 512
-      }, 
+      },
       {
-        "note": "ANTI_NEUTRAL", 
+        "note": "ANTI_NEUTRAL",
         "value": 2048
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2578, 
-    "long_desc": "A pile of black cloth is on the ground here.", 
-    "rent": 750, 
-    "short_desc": "a black robe", 
+    ],
+    "extra_descs": [],
+    "id": 2578,
+    "long_desc": "A pile of black cloth is on the ground here.",
+    "rent": 750,
+    "short_desc": "a black robe",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      50, 
-      0, 
-      -1, 
+      50,
+      0,
+      -1,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_ABOUT", 
+        "note": "WEAR_ABOUT",
         "value": 1024
       }
-    ], 
+    ],
     "weight": 8
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 2
       }
-    ], 
+    ],
     "aliases": [
-      "bracelet", 
+      "bracelet",
       "onyx"
-    ], 
-    "cost": 8500, 
+    ],
+    "cost": 8500,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_GOOD", 
+        "note": "ANTI_GOOD",
         "value": 512
-      }, 
+      },
       {
-        "note": "ANTI_NEUTRAL", 
+        "note": "ANTI_NEUTRAL",
         "value": 2048
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2579, 
-    "long_desc": "A hoop of black onyx is here.", 
-    "rent": 850, 
-    "short_desc": "an onyx bracelet", 
+    ],
+    "extra_descs": [],
+    "id": 2579,
+    "long_desc": "A hoop of black onyx is here.",
+    "rent": 850,
+    "short_desc": "an onyx bracelet",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WRIST", 
+        "note": "WEAR_WRIST",
         "value": 4096
       }
-    ], 
+    ],
     "weight": 6
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": -12
-      }, 
+      },
       {
-        "location": 24, 
-        "note": "SAVING_SPELL", 
+        "location": 24,
+        "note": "SAVING_SPELL",
         "value": -3
       }
-    ], 
+    ],
     "aliases": [
-      "cloak", 
-      "black", 
+      "cloak",
+      "black",
       "dark"
-    ], 
-    "cost": 9000, 
+    ],
+    "cost": 9000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_GOOD", 
+        "note": "ANTI_GOOD",
         "value": 512
-      }, 
+      },
       {
-        "note": "ANTI_NEUTRAL", 
+        "note": "ANTI_NEUTRAL",
         "value": 2048
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2580, 
-    "long_desc": "A pile of black cloth is on the ground here.", 
-    "rent": 950, 
-    "short_desc": "a dark black cloak", 
+    ],
+    "extra_descs": [],
+    "id": 2580,
+    "long_desc": "A pile of black cloth is on the ground here.",
+    "rent": 950,
+    "short_desc": "a dark black cloak",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_NECK", 
+        "note": "WEAR_NECK",
         "value": 4
       }
-    ], 
+    ],
     "weight": 8
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 3
       }
-    ], 
+    ],
     "aliases": [
-      "shard", 
-      "black", 
+      "shard",
+      "black",
       "obsidian"
-    ], 
-    "cost": 12000, 
+    ],
+    "cost": 12000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_GOOD", 
+        "note": "ANTI_GOOD",
         "value": 512
-      }, 
+      },
       {
-        "note": "ANTI_NEUTRAL", 
+        "note": "ANTI_NEUTRAL",
         "value": 2048
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2581, 
-    "long_desc": "A piece of black glass is here.", 
-    "rent": 2000, 
-    "short_desc": "a sharp shard of obsidian", 
+    ],
+    "extra_descs": [],
+    "id": 2581,
+    "long_desc": "A piece of black glass is here.",
+    "rent": 2000,
+    "short_desc": "a sharp shard of obsidian",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      2, 
-      7, 
+      0,
+      2,
+      7,
       1
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 8
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": -9
-      }, 
+      },
       {
-        "location": 24, 
-        "note": "SAVING_SPELL", 
+        "location": 24,
+        "note": "SAVING_SPELL",
         "value": -2
       }
-    ], 
+    ],
     "aliases": [
-      "robe", 
+      "robe",
       "white"
-    ], 
-    "cost": 7500, 
+    ],
+    "cost": 7500,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_EVIL", 
+        "note": "ANTI_EVIL",
         "value": 1024
-      }, 
+      },
       {
-        "note": "ANTI_NEUTRAL", 
+        "note": "ANTI_NEUTRAL",
         "value": 2048
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2582, 
-    "long_desc": "A pile of white cloth is on the ground here.", 
-    "rent": 750, 
-    "short_desc": "a white robe", 
+    ],
+    "extra_descs": [],
+    "id": 2582,
+    "long_desc": "A pile of white cloth is on the ground here.",
+    "rent": 750,
+    "short_desc": "a white robe",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      50, 
-      0, 
-      -1, 
+      50,
+      0,
+      -1,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_ABOUT", 
+        "note": "WEAR_ABOUT",
         "value": 1024
       }
-    ], 
+    ],
     "weight": 7
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 2
       }
-    ], 
+    ],
     "aliases": [
-      "bracelet", 
-      "white", 
+      "bracelet",
+      "white",
       "gold"
-    ], 
-    "cost": 5000, 
+    ],
+    "cost": 5000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_EVIL", 
+        "note": "ANTI_EVIL",
         "value": 1024
-      }, 
+      },
       {
-        "note": "ANTI_NEUTRAL", 
+        "note": "ANTI_NEUTRAL",
         "value": 2048
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2583, 
-    "long_desc": "A hoop of silvery metal is here.", 
-    "rent": 1000, 
-    "short_desc": "a white gold bracelet", 
+    ],
+    "extra_descs": [],
+    "id": 2583,
+    "long_desc": "A hoop of silvery metal is here.",
+    "rent": 1000,
+    "short_desc": "a white gold bracelet",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WRIST", 
+        "note": "WEAR_WRIST",
         "value": 4096
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": -12
-      }, 
+      },
       {
-        "location": 24, 
-        "note": "SAVING_SPELL", 
+        "location": 24,
+        "note": "SAVING_SPELL",
         "value": -3
       }
-    ], 
+    ],
     "aliases": [
-      "cloak", 
+      "cloak",
       "white"
-    ], 
-    "cost": 9000, 
+    ],
+    "cost": 9000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "BLESS", 
+        "note": "BLESS",
         "value": 256
-      }, 
+      },
       {
-        "note": "ANTI_EVIL", 
+        "note": "ANTI_EVIL",
         "value": 1024
-      }, 
+      },
       {
-        "note": "ANTI_NEUTRAL", 
+        "note": "ANTI_NEUTRAL",
         "value": 2048
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2584, 
-    "long_desc": "A pile of white cloth is on the ground here.", 
-    "rent": 1500, 
-    "short_desc": "a white cloak", 
+    ],
+    "extra_descs": [],
+    "id": 2584,
+    "long_desc": "A pile of white cloth is on the ground here.",
+    "rent": 1500,
+    "short_desc": "a white cloak",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_NECK", 
+        "note": "WEAR_NECK",
         "value": 4
       }
-    ], 
+    ],
     "weight": 7
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 1
-      }, 
+      },
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 2
       }
-    ], 
+    ],
     "aliases": [
-      "ivory", 
+      "ivory",
       "dagger"
-    ], 
-    "cost": 12000, 
+    ],
+    "cost": 12000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "BLESS", 
+        "note": "BLESS",
         "value": 256
-      }, 
+      },
       {
-        "note": "ANTI_EVIL", 
+        "note": "ANTI_EVIL",
         "value": 1024
-      }, 
+      },
       {
-        "note": "ANTI_NEUTRAL", 
+        "note": "ANTI_NEUTRAL",
         "value": 2048
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2585, 
-    "long_desc": "An ivory hilted dagger has been left here", 
-    "rent": 1500, 
-    "short_desc": "an ivory hilted dagger", 
+    ],
+    "extra_descs": [],
+    "id": 2585,
+    "long_desc": "An ivory hilted dagger has been left here",
+    "rent": 1500,
+    "short_desc": "an ivory hilted dagger",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      2, 
-      6, 
+      0,
+      2,
+      6,
       11
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 8
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": -2
-      }, 
+      },
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 3
       }
-    ], 
+    ],
     "aliases": [
-      "collar", 
+      "collar",
       "spiked"
-    ], 
-    "cost": 10000, 
+    ],
+    "cost": 10000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2586, 
-    "long_desc": "A small spiked collar is here.", 
-    "rent": 5000, 
-    "short_desc": "a spiked collar", 
+    ],
+    "extra_descs": [],
+    "id": 2586,
+    "long_desc": "A small spiked collar is here.",
+    "rent": 5000,
+    "short_desc": "a spiked collar",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_NECK", 
+        "note": "WEAR_NECK",
         "value": 4
       }
-    ], 
+    ],
     "weight": 9
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": -15
-      }, 
+      },
       {
-        "location": 24, 
-        "note": "SAVING_SPELL", 
+        "location": 24,
+        "note": "SAVING_SPELL",
         "value": -5
       }
-    ], 
+    ],
     "aliases": [
-      "cloak", 
+      "cloak",
       "shimmering"
-    ], 
-    "cost": 25000, 
+    ],
+    "cost": 25000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2587, 
-    "long_desc": "A multi-colored pile of cloth is here.", 
-    "rent": 5500, 
-    "short_desc": "a shimmering cloak of many colors", 
+    ],
+    "extra_descs": [],
+    "id": 2587,
+    "long_desc": "A multi-colored pile of cloth is here.",
+    "rent": 5500,
+    "short_desc": "a shimmering cloak of many colors",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      100, 
-      0, 
-      -1, 
+      100,
+      0,
+      -1,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_NECK", 
+        "note": "WEAR_NECK",
         "value": 4
       }
-    ], 
+    ],
     "weight": 8
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 12, 
-        "note": "MANA", 
+        "location": 12,
+        "note": "MANA",
         "value": 20
       }
-    ], 
+    ],
     "aliases": [
-      "emerald", 
+      "emerald",
       "ring"
-    ], 
-    "cost": 50000, 
+    ],
+    "cost": 50000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2588, 
-    "long_desc": "A small ring with a green gemstone is here.", 
-    "rent": 10000, 
-    "short_desc": "a small emerald ring", 
+    ],
+    "extra_descs": [],
+    "id": 2588,
+    "long_desc": "A small ring with a green gemstone is here.",
+    "rent": 10000,
+    "short_desc": "a small emerald ring",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_FINGER", 
+        "note": "WEAR_FINGER",
         "value": 2
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": -5
-      }, 
+      },
       {
-        "location": 3, 
-        "note": "INT", 
+        "location": 3,
+        "note": "INT",
         "value": 1
       }
-    ], 
+    ],
     "aliases": [
-      "bracelet", 
+      "bracelet",
       "emerald"
-    ], 
-    "cost": 30000, 
+    ],
+    "cost": 30000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2589, 
-    "long_desc": "A beautifully crafted hoop of emerald is here.", 
-    "rent": 3500, 
-    "short_desc": "an emerald bracelet", 
+    ],
+    "extra_descs": [],
+    "id": 2589,
+    "long_desc": "A beautifully crafted hoop of emerald is here.",
+    "rent": 3500,
+    "short_desc": "an emerald bracelet",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WRIST", 
+        "note": "WEAR_WRIST",
         "value": 4096
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": -10
-      }, 
+      },
       {
-        "location": 24, 
-        "note": "SAVING_SPELL", 
+        "location": 24,
+        "note": "SAVING_SPELL",
         "value": -2
       }
-    ], 
+    ],
     "aliases": [
-      "ward", 
-      "major", 
-      "clear", 
+      "ward",
+      "major",
+      "clear",
       "crystal"
-    ], 
-    "cost": 20000, 
+    ],
+    "cost": 20000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2590, 
-    "long_desc": "A large clear crystal cube is here.", 
-    "rent": 2000, 
-    "short_desc": "a ward major", 
+    ],
+    "extra_descs": [],
+    "id": 2590,
+    "long_desc": "A large clear crystal cube is here.",
+    "rent": 2000,
+    "short_desc": "a ward major",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 6
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 2, 
-        "note": "DEX", 
+        "location": 2,
+        "note": "DEX",
         "value": 2
-      }, 
+      },
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 5
       }
-    ], 
+    ],
     "aliases": [
-      "ebony", 
+      "ebony",
       "kris"
-    ], 
-    "cost": 60000, 
+    ],
+    "cost": 60000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2591, 
-    "long_desc": "A wavy bladed knife made of ebony is here.", 
-    "rent": 5000, 
-    "short_desc": "the ebony kris", 
+    ],
+    "extra_descs": [],
+    "id": 2591,
+    "long_desc": "A wavy bladed knife made of ebony is here.",
+    "rent": 5000,
+    "short_desc": "the ebony kris",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      3, 
-      4, 
+      0,
+      3,
+      4,
       11
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 9
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 2, 
-        "note": "DEX", 
+        "location": 2,
+        "note": "DEX",
         "value": 3
-      }, 
+      },
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": -5
       }
-    ], 
+    ],
     "aliases": [
-      "green", 
-      "scale", 
+      "green",
+      "scale",
       "shirt"
-    ], 
-    "cost": 10000, 
+    ],
+    "cost": 10000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "this Green dragon scale shirt was made from a poor unfortunate green dragon.", 
+        "desc": "this Green dragon scale shirt was made from a poor unfortunate green dragon.",
         "keywords": [
-          "green", 
-          "scale", 
+          "green",
+          "scale",
           "shirt"
         ]
       }
-    ], 
-    "id": 2592, 
-    "long_desc": "Some green dragon scales which have been sewn together are here.", 
-    "rent": 1000, 
-    "short_desc": "a tight fitting green dragon scale shirt", 
+    ],
+    "id": 2592,
+    "long_desc": "Some green dragon scales which have been sewn together are here.",
+    "rent": 1000,
+    "short_desc": "a tight fitting green dragon scale shirt",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      10, 
-      0, 
-      0, 
+      10,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_BODY", 
+        "note": "WEAR_BODY",
         "value": 8
       }
-    ], 
+    ],
     "weight": 9
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "key", 
-      "grey", 
+      "key",
+      "grey",
       "metal"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
-      }, 
+      },
       {
-        "note": "NODONATE", 
+        "note": "NODONATE",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOSELL", 
+        "note": "NOSELL",
         "value": 65536
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2593, 
-    "long_desc": "A key made of a strange grey metal has been left here.", 
-    "rent": 0, 
-    "short_desc": "a grey key", 
+    ],
+    "extra_descs": [],
+    "id": 2593,
+    "long_desc": "A key made of a strange grey metal has been left here.",
+    "rent": 0,
+    "short_desc": "a grey key",
     "type": {
-      "note": "KEY", 
+      "note": "KEY",
       "value": 18
-    }, 
+    },
     "values": [
-      2593, 
-      0, 
-      0, 
+      2593,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "key", 
-      "black", 
+      "key",
+      "black",
       "obsidian"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
-      }, 
+      },
       {
-        "note": "NODONATE", 
+        "note": "NODONATE",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOSELL", 
+        "note": "NOSELL",
         "value": 65536
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2594, 
-    "long_desc": "A key made of black obsidian has been left here.", 
-    "rent": 0, 
-    "short_desc": "a black key", 
+    ],
+    "extra_descs": [],
+    "id": 2594,
+    "long_desc": "A key made of black obsidian has been left here.",
+    "rent": 0,
+    "short_desc": "a black key",
     "type": {
-      "note": "KEY", 
+      "note": "KEY",
       "value": 18
-    }, 
+    },
     "values": [
-      2594, 
-      0, 
-      0, 
+      2594,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "key", 
-      "white", 
+      "key",
+      "white",
       "ivory"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
-      }, 
+      },
       {
-        "note": "NODONATE", 
+        "note": "NODONATE",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOSELL", 
+        "note": "NOSELL",
         "value": 65536
       }
-    ], 
-    "extra_descs": [], 
-    "id": 2595, 
-    "long_desc": "A key made of white ivory has been left here.", 
-    "rent": 0, 
-    "short_desc": "a white key", 
+    ],
+    "extra_descs": [],
+    "id": 2595,
+    "long_desc": "A key made of white ivory has been left here.",
+    "rent": 0,
+    "short_desc": "a white key",
     "type": {
-      "note": "KEY", 
+      "note": "KEY",
       "value": 18
-    }, 
+    },
     "values": [
-      2595, 
-      0, 
-      0, 
+      2595,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 2
   }
 ]

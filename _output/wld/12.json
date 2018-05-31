@@ -1,271 +1,271 @@
 [
   {
-    "desc": "The meeting room is plain and very simple.  A circular table sits\nin the middle of the room, lit by some unseen light source.  There\nare many chairs around the table, all empty.  The Immortal Board Room\nis to the north.", 
+    "desc": "The meeting room is plain and very simple.  A circular table sits\nin the middle of the room, lit by some unseen light source.  There\nare many chairs around the table, all empty.  The Immortal Board Room\nis to the north.",
     "exits": [
       {
-        "desc": "The Immortal Board Room can be seen to the north.", 
-        "dir": 0, 
+        "desc": "The Immortal Board Room can be seen to the north.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 1204
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 1200, 
-    "name": "The Meeting Room Of The Gods", 
+    ],
+    "id": 1200,
+    "name": "The Meeting Room Of The Gods",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 12
-  }, 
+  },
   {
-    "desc": "The Inn of the Gods is a small room, holding only a shelf with many\nsmall precious stones on it.  When a God comes to rent his belongings,\nhis essence is stored in the stones.  The Immortal Board Room is to\nthe south.", 
+    "desc": "The Inn of the Gods is a small room, holding only a shelf with many\nsmall precious stones on it.  When a God comes to rent his belongings,\nhis essence is stored in the stones.  The Immortal Board Room is to\nthe south.",
     "exits": [
       {
-        "desc": "The Immortal Board Room can be seen to the south.", 
-        "dir": 2, 
+        "desc": "The Immortal Board Room can be seen to the south.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 1204
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
-      }, 
+      },
       {
-        "note": "PRIVATE", 
+        "note": "PRIVATE",
         "value": 512
       }
-    ], 
-    "id": 1201, 
-    "name": "The Inn Of The Gods", 
+    ],
+    "id": 1201,
+    "name": "The Inn Of The Gods",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 12
-  }, 
+  },
   {
-    "desc": "The Ice Box is for little boys and girls that cannot play nice. Be good\nand maybe someone will come and get you.", 
-    "exits": [], 
-    "extra_descs": [], 
+    "desc": "The Ice Box is for little boys and girls that cannot play nice. Be good\nand maybe someone will come and get you.",
+    "exits": [],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
-      }, 
+      },
       {
-        "note": "PEACEFUL", 
+        "note": "PEACEFUL",
         "value": 16
-      }, 
+      },
       {
-        "note": "SOUNDPROOF", 
+        "note": "SOUNDPROOF",
         "value": 32
-      }, 
+      },
       {
-        "note": "NOMAGIC", 
+        "note": "NOMAGIC",
         "value": 128
       }
-    ], 
-    "id": 1202, 
-    "name": "The Ice Box Of The Gods", 
+    ],
+    "id": 1202,
+    "name": "The Ice Box Of The Gods",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 12
-  }, 
+  },
   {
-    "desc": "Here the Gods have magically created an exact copy of the mortal board\nroom.  Any God can easily post and read messages from the mortal board room\nwithout being seen by any mortals.  The Immortal Board Room is to the west.", 
+    "desc": "Here the Gods have magically created an exact copy of the mortal board\nroom.  Any God can easily post and read messages from the mortal board room\nwithout being seen by any mortals.  The Immortal Board Room is to the west.",
     "exits": [
       {
-        "desc": "The Immortal Board Room can be seen to the west.", 
-        "dir": 3, 
+        "desc": "The Immortal Board Room can be seen to the west.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 1204
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 1203, 
-    "name": "The Gods' Mortal Board Room", 
+    ],
+    "id": 1203,
+    "name": "The Gods' Mortal Board Room",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 12
-  }, 
+  },
   {
-    "desc": "The main hang out of the Gods, the Immortal Board Room is the place to\nbe.  Gods exchange messages here most every day.  The mortal board room is\nto the east and the meeting room for the gods is to the south.  To the north\nis the Gods' Inn and to the west is a post office for Gods.  There is a large\nstaircase leading down to the main temple in the city of Midgaard.  In the\nnortheast corner you spot a small staircase leading upwards.", 
+    "desc": "The main hang out of the Gods, the Immortal Board Room is the place to\nbe.  Gods exchange messages here most every day.  The mortal board room is\nto the east and the meeting room for the gods is to the south.  To the north\nis the Gods' Inn and to the west is a post office for Gods.  There is a large\nstaircase leading down to the main temple in the city of Midgaard.  In the\nnortheast corner you spot a small staircase leading upwards.",
     "exits": [
       {
-        "desc": "The Gods' Inn can be seen just to the north.", 
-        "dir": 0, 
+        "desc": "The Gods' Inn can be seen just to the north.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 1201
-      }, 
+      },
       {
-        "desc": "The Mortal Board Room can be seen just to the east.", 
-        "dir": 1, 
+        "desc": "The Mortal Board Room can be seen just to the east.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 1203
-      }, 
+      },
       {
-        "desc": "The Gods' Meeting Room is located to the south.", 
-        "dir": 2, 
+        "desc": "The Gods' Meeting Room is located to the south.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 1200
-      }, 
+      },
       {
-        "desc": "The Gods' Post Office is just to the west.", 
-        "dir": 3, 
+        "desc": "The Gods' Post Office is just to the west.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 1205
-      }, 
+      },
       {
-        "desc": "There is a small stair in the corner leading up to the social room of\nthe Gods.", 
-        "dir": 4, 
+        "desc": "There is a small stair in the corner leading up to the social room of\nthe Gods.",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 1206
-      }, 
+      },
       {
-        "desc": "You see the hustle and bustle of the Temple of Midgaard at the bottom of\nthe stairs.", 
-        "dir": 5, 
+        "desc": "You see the hustle and bustle of the Temple of Midgaard at the bottom of\nthe stairs.",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3001
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 1204, 
-    "name": "The Immortal Board Room", 
+    ],
+    "id": 1204,
+    "name": "The Immortal Board Room",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 12
-  }, 
+  },
   {
-    "desc": "The Post Office Of The Gods is the same as most Post Offices except that\nit is not as slow.  Even the Postal service knows not to anger the Gods.\nPiles of junk mail line the walls.  I guess even Gods get on mailing lists.\nThe Immortal Board Room is to the east.", 
+    "desc": "The Post Office Of The Gods is the same as most Post Offices except that\nit is not as slow.  Even the Postal service knows not to anger the Gods.\nPiles of junk mail line the walls.  I guess even Gods get on mailing lists.\nThe Immortal Board Room is to the east.",
     "exits": [
       {
-        "desc": "The Immortal Board Room is just to the east.", 
-        "dir": 1, 
+        "desc": "The Immortal Board Room is just to the east.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 1204
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 1205, 
-    "name": "The Post Office Of The Gods", 
+    ],
+    "id": 1205,
+    "name": "The Post Office Of The Gods",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 12
-  }, 
+  },
   {
-    "desc": "This elegantly decorated room has one simple purpose.  To socialize with\neveryone else around in one central location.", 
+    "desc": "This elegantly decorated room has one simple purpose.  To socialize with\neveryone else around in one central location.",
     "exits": [
       {
-        "desc": "The Immortal Board Room is just down through the floor.  Funny how you\ndidn't notice that exit before isn't it?", 
-        "dir": 5, 
+        "desc": "The Immortal Board Room is just down through the floor.  Funny how you\ndidn't notice that exit before isn't it?",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 1204
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 1206, 
-    "name": "The Social Gathering Room", 
+    ],
+    "id": 1206,
+    "name": "The Social Gathering Room",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 12
   }
 ]

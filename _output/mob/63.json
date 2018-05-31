@@ -2,1121 +2,1121 @@
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "spider", 
+      "spider",
       "young"
-    ], 
-    "alignment": 0, 
-    "armor_class": 7, 
+    ],
+    "alignment": 0,
+    "armor_class": 7,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 1, 
+      "bonus": 0,
+      "dice": 1,
       "sides": 7
-    }, 
-    "detail_desc": "He looks freshly hatched and sprightly.  His young fangs are just\ngrowing in as of late.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks freshly hatched and sprightly.  His young fangs are just\ngrowing in as of late.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 80, 
-    "id": 6301, 
-    "level": 3, 
-    "long_desc": "The young spider is ballooning by you.", 
+    },
+    "gold": 80,
+    "id": 6301,
+    "level": 3,
+    "long_desc": "The young spider is ballooning by you.",
     "max_hit_points": {
-      "bonus": 40, 
-      "dice": 1, 
+      "bonus": 40,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the young spider", 
-    "thac0": 18, 
+    },
+    "short_desc": "the young spider",
+    "thac0": 18,
     "xp": 350
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "yevaud", 
-      "dragon", 
+      "yevaud",
+      "dragon",
       "usurper"
-    ], 
-    "alignment": -1000, 
-    "armor_class": -3, 
+    ],
+    "alignment": -1000,
+    "armor_class": -3,
     "bare_hand_damage": {
-      "bonus": 7, 
-      "dice": 4, 
+      "bonus": 7,
+      "dice": 4,
       "sides": 7
-    }, 
-    "detail_desc": "Old, scaly, but still with a lot of bite in him left.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "Old, scaly, but still with a lot of bite in him left.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AGGR_GOOD", 
+        "note": "AGGR_GOOD",
         "value": 512
-      }, 
+      },
       {
-        "note": "AGGR_NEUTRAL", 
+        "note": "AGGR_NEUTRAL",
         "value": 1024
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 20000, 
-    "id": 6302, 
-    "level": 24, 
-    "long_desc": "Yevaud, the Usurper of Midgaard is here, grinning evilly at you.", 
+    },
+    "gold": 20000,
+    "id": 6302,
+    "level": 24,
+    "long_desc": "Yevaud, the Usurper of Midgaard is here, grinning evilly at you.",
     "max_hit_points": {
-      "bonus": 450, 
-      "dice": 5, 
+      "bonus": 450,
+      "dice": 5,
       "sides": 4
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Yevaud", 
-    "thac0": 0, 
+    },
+    "short_desc": "Yevaud",
+    "thac0": 0,
     "xp": 120000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "spider", 
+      "spider",
       "wolf"
-    ], 
-    "alignment": -300, 
-    "armor_class": 6, 
+    ],
+    "alignment": -300,
+    "armor_class": 6,
     "bare_hand_damage": {
-      "bonus": 3, 
-      "dice": 2, 
+      "bonus": 3,
+      "dice": 2,
       "sides": 5
-    }, 
-    "detail_desc": "The wolf spider is hairy, very hairy.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The wolf spider is hairy, very hairy.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 1250, 
-    "id": 6303, 
-    "level": 6, 
-    "long_desc": "The wolf spider is here, licking its bloody fangs.", 
+    },
+    "gold": 1250,
+    "id": 6303,
+    "level": 6,
+    "long_desc": "The wolf spider is here, licking its bloody fangs.",
     "max_hit_points": {
-      "bonus": 70, 
-      "dice": 3, 
+      "bonus": 70,
+      "dice": 3,
       "sides": 8
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the wolf spider", 
-    "thac0": 12, 
+    },
+    "short_desc": "the wolf spider",
+    "thac0": 12,
     "xp": 6000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "orc"
-    ], 
-    "alignment": -400, 
-    "armor_class": 8, 
+    ],
+    "alignment": -400,
+    "armor_class": 8,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 2, 
+      "bonus": 0,
+      "dice": 2,
       "sides": 3
-    }, 
-    "detail_desc": "You notice an evil look in his eyes, but he seems quite drained of life,\nand all he can do is glare at you while he's stuck in this web.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "You notice an evil look in his eyes, but he seems quite drained of life,\nand all he can do is glare at you while he's stuck in this web.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 10, 
-    "id": 6304, 
-    "level": 2, 
-    "long_desc": "The orc is stuck in the web and he can't get out.", 
+    },
+    "gold": 10,
+    "id": 6304,
+    "level": 2,
+    "long_desc": "The orc is stuck in the web and he can't get out.",
     "max_hit_points": {
-      "bonus": 10, 
-      "dice": 2, 
+      "bonus": 10,
+      "dice": 2,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_SITTING", 
+        "note": "POSITION_SITTING",
         "value": 6
-      }, 
+      },
       "load": {
-        "note": "POSITION_SITTING", 
+        "note": "POSITION_SITTING",
         "value": 6
       }
-    }, 
-    "short_desc": "the orc", 
-    "thac0": 19, 
+    },
+    "short_desc": "the orc",
+    "thac0": 19,
     "xp": 300
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "wasp", 
+      "wasp",
       "queen"
-    ], 
-    "alignment": -800, 
-    "armor_class": 1, 
+    ],
+    "alignment": -800,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 2, 
+      "bonus": 1,
+      "dice": 2,
       "sides": 8
-    }, 
-    "detail_desc": "You notice a glazed look in her eyes.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "You notice a glazed look in her eyes.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 2000, 
-    "id": 6305, 
-    "level": 14, 
-    "long_desc": "The queen wasp is here, thinking how tasty you look.", 
+    },
+    "gold": 2000,
+    "id": 6305,
+    "level": 14,
+    "long_desc": "The queen wasp is here, thinking how tasty you look.",
     "max_hit_points": {
-      "bonus": 172, 
-      "dice": 1, 
+      "bonus": 172,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the queen wasp", 
-    "thac0": 7, 
+    },
+    "short_desc": "the queen wasp",
+    "thac0": 7,
     "xp": 18000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "spider", 
+      "spider",
       "drone"
-    ], 
-    "alignment": -200, 
-    "armor_class": 4, 
+    ],
+    "alignment": -200,
+    "armor_class": 4,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 2, 
+      "bonus": 1,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "An ordinary drone spider.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "An ordinary drone spider.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 200, 
-    "id": 6306, 
-    "level": 6, 
-    "long_desc": "A drone spider walks around doing its master's bidding.", 
+    },
+    "gold": 200,
+    "id": 6306,
+    "level": 6,
+    "long_desc": "A drone spider walks around doing its master's bidding.",
     "max_hit_points": {
-      "bonus": 70, 
-      "dice": 3, 
+      "bonus": 70,
+      "dice": 3,
       "sides": 8
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the drone spider", 
-    "thac0": 14, 
+    },
+    "short_desc": "the drone spider",
+    "thac0": 14,
     "xp": 1600
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INVISIBLE", 
+        "note": "INVISIBLE",
         "value": 2
-      }, 
+      },
       {
-        "note": "DETECT_ALIGN", 
+        "note": "DETECT_ALIGN",
         "value": 4
-      }, 
+      },
       {
-        "note": "SENSE_LIFE", 
+        "note": "SENSE_LIFE",
         "value": 32
-      }, 
+      },
       {
-        "note": "WATERWALK", 
+        "note": "WATERWALK",
         "value": 64
-      }, 
+      },
       {
-        "note": "SNEAK", 
+        "note": "SNEAK",
         "value": 262144
       }
-    ], 
+    ],
     "aliases": [
-      "spider", 
+      "spider",
       "ethereal"
-    ], 
-    "alignment": 300, 
-    "armor_class": -2, 
+    ],
+    "alignment": 300,
+    "armor_class": -2,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 2, 
+      "bonus": 4,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "She winks in and out of reality.  It looks like it'd be difficult to hit her\nwithout a magical weapon.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "She winks in and out of reality.  It looks like it'd be difficult to hit her\nwithout a magical weapon.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 1250, 
-    "id": 6307, 
-    "level": 13, 
-    "long_desc": "An ethereal spider strides here, traveling to different worlds.", 
+    },
+    "gold": 1250,
+    "id": 6307,
+    "level": 13,
+    "long_desc": "An ethereal spider strides here, traveling to different worlds.",
     "max_hit_points": {
-      "bonus": 163, 
-      "dice": 1, 
+      "bonus": 163,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the ethereal spider", 
-    "thac0": 9, 
+    },
+    "short_desc": "the ethereal spider",
+    "thac0": 9,
     "xp": 16000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "slave", 
+      "slave",
       "human"
-    ], 
-    "alignment": -50, 
-    "armor_class": 4, 
+    ],
+    "alignment": -50,
+    "armor_class": 4,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 2, 
+      "bonus": 1,
+      "dice": 2,
       "sides": 7
-    }, 
-    "detail_desc": "The slave does not mind you, but will fight like a warrior if attacked.\nHe serves the spider Empress, Arachnos, though whether it is by choice\nor because he was beguiled, you are not fully certain.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The slave does not mind you, but will fight like a warrior if attacked.\nHe serves the spider Empress, Arachnos, though whether it is by choice\nor because he was beguiled, you are not fully certain.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1000, 
-    "id": 6308, 
-    "level": 11, 
-    "long_desc": "A human slave of Arachnos works here relentlessly.", 
+    },
+    "gold": 1000,
+    "id": 6308,
+    "level": 11,
+    "long_desc": "A human slave of Arachnos works here relentlessly.",
     "max_hit_points": {
-      "bonus": 130, 
-      "dice": 1, 
+      "bonus": 130,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the slave", 
-    "thac0": 8, 
+    },
+    "short_desc": "the slave",
+    "thac0": 8,
     "xp": 13500
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INVISIBLE", 
+        "note": "INVISIBLE",
         "value": 2
-      }, 
+      },
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SENSE_LIFE", 
+        "note": "SENSE_LIFE",
         "value": 32
-      }, 
+      },
       {
-        "note": "SNEAK", 
+        "note": "SNEAK",
         "value": 262144
       }
-    ], 
+    ],
     "aliases": [
       "quasit"
-    ], 
-    "alignment": -300, 
-    "armor_class": -10, 
+    ],
+    "alignment": -300,
+    "armor_class": -10,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 1, 
+      "bonus": 0,
+      "dice": 1,
       "sides": 8
-    }, 
-    "detail_desc": "Demoniac in nature, but more mischievous.  He twiddles his thumbs\nand creates a magical treasure!", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "Demoniac in nature, but more mischievous.  He twiddles his thumbs\nand creates a magical treasure!",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1500, 
-    "id": 6309, 
-    "level": 10, 
-    "long_desc": "A quasit blinks in and out, grinning at you.", 
+    },
+    "gold": 1500,
+    "id": 6309,
+    "level": 10,
+    "long_desc": "A quasit blinks in and out, grinning at you.",
     "max_hit_points": {
-      "bonus": 47, 
-      "dice": 1, 
+      "bonus": 47,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the quasit", 
-    "thac0": 1, 
+    },
+    "short_desc": "the quasit",
+    "thac0": 1,
     "xp": 11000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "spider", 
+      "spider",
       "bird"
-    ], 
-    "alignment": -800, 
-    "armor_class": 1, 
+    ],
+    "alignment": -800,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 2, 
+      "bonus": 2,
+      "dice": 2,
       "sides": 9
-    }, 
-    "detail_desc": "The Bird Spider has very powerful jaws.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The Bird Spider has very powerful jaws.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 1750, 
-    "id": 6310, 
-    "level": 14, 
-    "long_desc": "The bird spider snaps its powerful jaws.", 
+    },
+    "gold": 1750,
+    "id": 6310,
+    "level": 14,
+    "long_desc": "The bird spider snaps its powerful jaws.",
     "max_hit_points": {
-      "bonus": 100, 
-      "dice": 1, 
+      "bonus": 100,
+      "dice": 1,
       "sides": 8
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the bird spider", 
-    "thac0": 7, 
+    },
+    "short_desc": "the bird spider",
+    "thac0": 7,
     "xp": 18000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
       "hermit"
-    ], 
-    "alignment": 750, 
-    "armor_class": 4, 
+    ],
+    "alignment": 750,
+    "armor_class": 4,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 2, 
+      "bonus": 2,
+      "dice": 2,
       "sides": 5
-    }, 
-    "detail_desc": "A dishevelled veteran warrior in disguise is what he is, but he\nmeans well.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "A dishevelled veteran warrior in disguise is what he is, but he\nmeans well.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 750, 
-    "id": 6311, 
-    "level": 7, 
-    "long_desc": "The hermit sits here and warns, 'Go back before it is too late!'", 
+    },
+    "gold": 750,
+    "id": 6311,
+    "level": 7,
+    "long_desc": "The hermit sits here and warns, 'Go back before it is too late!'",
     "max_hit_points": {
-      "bonus": 90, 
-      "dice": 3, 
+      "bonus": 90,
+      "dice": 3,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the hermit", 
-    "thac0": 13, 
+    },
+    "short_desc": "the hermit",
+    "thac0": 13,
     "xp": 2500
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "donjonkeeper", 
+      "donjonkeeper",
       "keeper"
-    ], 
-    "alignment": 1000, 
-    "armor_class": -1, 
+    ],
+    "alignment": 1000,
+    "armor_class": -1,
     "bare_hand_damage": {
-      "bonus": 8, 
-      "dice": 2, 
+      "bonus": 8,
+      "dice": 2,
       "sides": 8
-    }, 
-    "detail_desc": "He delves deeper into you as you stare at him.  Only those free of taint\nwill be allowed to remain here safely.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He delves deeper into you as you stare at him.  Only those free of taint\nwill be allowed to remain here safely.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AGGR_EVIL", 
+        "note": "AGGR_EVIL",
         "value": 256
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 16000, 
-    "id": 6312, 
-    "level": 25, 
-    "long_desc": "The Donjonkeeper eyes you and wonders how pure your soul is.", 
+    },
+    "gold": 16000,
+    "id": 6312,
+    "level": 25,
+    "long_desc": "The Donjonkeeper eyes you and wonders how pure your soul is.",
     "max_hit_points": {
-      "bonus": 600, 
-      "dice": 1, 
+      "bonus": 600,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Donjonkeeper", 
-    "thac0": 0, 
+    },
+    "short_desc": "the Donjonkeeper",
+    "thac0": 0,
     "xp": 125000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "SNEAK", 
+        "note": "SNEAK",
         "value": 262144
       }
-    ], 
+    ],
     "aliases": [
       "guardian"
-    ], 
-    "alignment": 250, 
-    "armor_class": 1, 
+    ],
+    "alignment": 250,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 8, 
-      "dice": 2, 
+      "bonus": 8,
+      "dice": 2,
       "sides": 8
-    }, 
-    "detail_desc": "He looks like a lazy bum who sleeps half the time.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks like a lazy bum who sleeps half the time.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1000, 
-    "id": 6313, 
-    "level": 17, 
-    "long_desc": "The guardian is obviously not doing his job.", 
+    },
+    "gold": 1000,
+    "id": 6313,
+    "level": 17,
+    "long_desc": "The guardian is obviously not doing his job.",
     "max_hit_points": {
-      "bonus": 200, 
-      "dice": 1, 
+      "bonus": 200,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_SLEEPING", 
+        "note": "POSITION_SLEEPING",
         "value": 4
-      }, 
+      },
       "load": {
-        "note": "POSITION_SLEEPING", 
+        "note": "POSITION_SLEEPING",
         "value": 4
       }
-    }, 
-    "short_desc": "the guardian", 
-    "thac0": 4, 
+    },
+    "short_desc": "the guardian",
+    "thac0": 4,
     "xp": 24000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SENSE_LIFE", 
+        "note": "SENSE_LIFE",
         "value": 32
-      }, 
+      },
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "arachnos", 
-      "spider", 
+      "arachnos",
+      "spider",
       "empress"
-    ], 
-    "alignment": -1000, 
-    "armor_class": -2, 
+    ],
+    "alignment": -1000,
+    "armor_class": -2,
     "bare_hand_damage": {
-      "bonus": 25, 
-      "dice": 1, 
+      "bonus": 25,
+      "dice": 1,
       "sides": 8
-    }, 
-    "detail_desc": "She is a very attractive spider with an ornate gown.  She tempts you\ninto being one of her many slaves.  She does not possess the venomous\nfangs of normal spiders, but then, as you realize, she does not need\nthem.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "She is a very attractive spider with an ornate gown.  She tempts you\ninto being one of her many slaves.  She does not possess the venomous\nfangs of normal spiders, but then, as you realize, she does not need\nthem.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AGGR_GOOD", 
+        "note": "AGGR_GOOD",
         "value": 512
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 30000, 
-    "id": 6314, 
-    "level": 26, 
-    "long_desc": "Arachnos the Empress of Spiders welcomes you with an evil smile.", 
+    },
+    "gold": 30000,
+    "id": 6314,
+    "level": 26,
+    "long_desc": "Arachnos the Empress of Spiders welcomes you with an evil smile.",
     "max_hit_points": {
-      "bonus": 650, 
-      "dice": 6, 
+      "bonus": 650,
+      "dice": 6,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Arachnos", 
-    "thac0": 0, 
+    },
+    "short_desc": "Arachnos",
+    "thac0": 0,
     "xp": 155000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
       "ki-rin"
-    ], 
-    "alignment": 1000, 
-    "armor_class": -4, 
+    ],
+    "alignment": 1000,
+    "armor_class": -4,
     "bare_hand_damage": {
-      "bonus": 22, 
-      "dice": 4, 
+      "bonus": 22,
+      "dice": 4,
       "sides": 4
-    }, 
-    "detail_desc": "She is the last bastion of good in this realm.  Her mission is to\nsomeday free the slaves of the Empress.  She has been trapped here for\ntime eternal, and now the evil power of Arachnos feeds upon her intense\nmagical energies.  She will never give up here fight against evil,\nthough, and will continue her work in whatever manner presents itself.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "She is the last bastion of good in this realm.  Her mission is to\nsomeday free the slaves of the Empress.  She has been trapped here for\ntime eternal, and now the evil power of Arachnos feeds upon her intense\nmagical energies.  She will never give up here fight against evil,\nthough, and will continue her work in whatever manner presents itself.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AGGR_EVIL", 
+        "note": "AGGR_EVIL",
         "value": 256
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 15000, 
-    "id": 6315, 
-    "level": 26, 
-    "long_desc": "The Ki-Rin smiles good-naturedly to you.", 
+    },
+    "gold": 15000,
+    "id": 6315,
+    "level": 26,
+    "long_desc": "The Ki-Rin smiles good-naturedly to you.",
     "max_hit_points": {
-      "bonus": 2500, 
-      "dice": 10, 
+      "bonus": 2500,
+      "dice": 10,
       "sides": 8
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Ki-Rin", 
-    "thac0": 0, 
+    },
+    "short_desc": "the Ki-Rin",
+    "thac0": 0,
     "xp": 170000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "dragon", 
-      "wormkin", 
+      "dragon",
+      "wormkin",
       "young"
-    ], 
-    "alignment": 50, 
-    "armor_class": 3, 
+    ],
+    "alignment": 50,
+    "armor_class": 3,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 2, 
+      "bonus": 2,
+      "dice": 2,
       "sides": 5
-    }, 
-    "detail_desc": "It is a rather small dragon, and you almost feel sad about killing it.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "It is a rather small dragon, and you almost feel sad about killing it.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1000, 
-    "id": 6316, 
-    "level": 9, 
-    "long_desc": "A wormkin with no teeth plays here.", 
+    },
+    "gold": 1000,
+    "id": 6316,
+    "level": 9,
+    "long_desc": "A wormkin with no teeth plays here.",
     "max_hit_points": {
-      "bonus": 110, 
-      "dice": 5, 
+      "bonus": 110,
+      "dice": 5,
       "sides": 4
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the young wormkin", 
-    "thac0": 12, 
+    },
+    "short_desc": "the young wormkin",
+    "thac0": 12,
     "xp": 6500
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "dragon", 
-      "wormkin", 
+      "dragon",
+      "wormkin",
       "elder"
-    ], 
-    "alignment": -300, 
-    "armor_class": 1, 
+    ],
+    "alignment": -300,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 2, 
+      "bonus": 4,
+      "dice": 2,
       "sides": 6
-    }, 
-    "detail_desc": "A medium-sized dragon -- seems it hasn't killed anything yet by itself, \nthough there is a first time for everything...", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "A medium-sized dragon -- seems it hasn't killed anything yet by itself, \nthough there is a first time for everything...",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 5000, 
-    "id": 6317, 
-    "level": 16, 
-    "long_desc": "A wormkin that has grown a bit stares at you inquisitively.", 
+    },
+    "gold": 5000,
+    "id": 6317,
+    "level": 16,
+    "long_desc": "A wormkin that has grown a bit stares at you inquisitively.",
     "max_hit_points": {
-      "bonus": 210, 
-      "dice": 5, 
+      "bonus": 210,
+      "dice": 5,
       "sides": 4
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the elder wormkin", 
-    "thac0": 5, 
+    },
+    "short_desc": "the elder wormkin",
+    "thac0": 5,
     "xp": 24000
   }
 ]

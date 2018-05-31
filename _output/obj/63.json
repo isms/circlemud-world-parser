@@ -1,387 +1,387 @@
 [
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "key", 
+      "key",
       "black"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
       }
-    ], 
-    "extra_descs": [], 
-    "id": 6300, 
-    "long_desc": "A somewhat plain black key has been left here.", 
-    "rent": 0, 
-    "short_desc": "a black key", 
+    ],
+    "extra_descs": [],
+    "id": 6300,
+    "long_desc": "A somewhat plain black key has been left here.",
+    "rent": 0,
+    "short_desc": "a black key",
     "type": {
-      "note": "KEY", 
+      "note": "KEY",
       "value": 18
-    }, 
+    },
     "values": [
-      6300, 
-      0, 
-      0, 
+      6300,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 2, 
-        "note": "DEX", 
+        "location": 2,
+        "note": "DEX",
         "value": 2
-      }, 
+      },
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 3
       }
-    ], 
+    ],
     "aliases": [
-      "knife", 
+      "knife",
       "thief"
-    ], 
-    "cost": 1000, 
+    ],
+    "cost": 1000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_NEUTRAL", 
+        "note": "ANTI_NEUTRAL",
         "value": 2048
-      }, 
+      },
       {
-        "note": "ANTI_MAGIC_USER", 
+        "note": "ANTI_MAGIC_USER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "ANTI_CLERIC", 
+        "note": "ANTI_CLERIC",
         "value": 8192
-      }, 
+      },
       {
-        "note": "ANTI_WARRIOR", 
+        "note": "ANTI_WARRIOR",
         "value": 32768
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "A keen knife, very sharp -- you could cut the air in two!", 
+        "desc": "A keen knife, very sharp -- you could cut the air in two!",
         "keywords": [
-          "knife", 
+          "knife",
           "thief"
         ]
       }
-    ], 
-    "id": 6301, 
-    "long_desc": "A very sharp knife lies here.", 
-    "rent": 2500, 
-    "short_desc": "a very sharp knife", 
+    ],
+    "id": 6301,
+    "long_desc": "A very sharp knife lies here.",
+    "rent": 2500,
+    "short_desc": "a very sharp knife",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      8, 
-      1, 
+      0,
+      8,
+      1,
       11
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 9
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 3, 
-        "note": "INT", 
+        "location": 3,
+        "note": "INT",
         "value": 2
-      }, 
+      },
       {
-        "location": 12, 
-        "note": "MANA", 
+        "location": 12,
+        "note": "MANA",
         "value": 17
       }
-    ], 
+    ],
     "aliases": [
-      "hat", 
+      "hat",
       "wizard"
-    ], 
-    "cost": 20000, 
+    ],
+    "cost": 20000,
     "effects": [
       {
-        "note": "INVISIBLE", 
+        "note": "INVISIBLE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_CLERIC", 
+        "note": "ANTI_CLERIC",
         "value": 8192
-      }, 
+      },
       {
-        "note": "ANTI_THIEF", 
+        "note": "ANTI_THIEF",
         "value": 16384
-      }, 
+      },
       {
-        "note": "ANTI_WARRIOR", 
+        "note": "ANTI_WARRIOR",
         "value": 32768
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "A hat made of blue cloth.  It looks very comfortable.", 
+        "desc": "A hat made of blue cloth.  It looks very comfortable.",
         "keywords": [
-          "hat", 
+          "hat",
           "wizard"
         ]
       }
-    ], 
-    "id": 6302, 
-    "long_desc": "A blue wizard's hat lies here.", 
-    "rent": 10000, 
-    "short_desc": "a wizard's hat", 
+    ],
+    "id": 6302,
+    "long_desc": "A blue wizard's hat lies here.",
+    "rent": 10000,
+    "short_desc": "a wizard's hat",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      6, 
-      0, 
-      0, 
+      6,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HEAD", 
+        "note": "WEAR_HEAD",
         "value": 16
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 4, 
-        "note": "WIS", 
+        "location": 4,
+        "note": "WIS",
         "value": 3
-      }, 
+      },
       {
-        "location": 12, 
-        "note": "MANA", 
+        "location": 12,
+        "note": "MANA",
         "value": 13
       }
-    ], 
+    ],
     "aliases": [
-      "headress", 
-      "pontiff", 
-      "ornament", 
-      "cone", 
+      "headress",
+      "pontiff",
+      "ornament",
+      "cone",
       "head"
-    ], 
-    "cost": 20000, 
+    ],
+    "cost": 20000,
     "effects": [
       {
-        "note": "INVISIBLE", 
+        "note": "INVISIBLE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_MAGIC_USER", 
+        "note": "ANTI_MAGIC_USER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "ANTI_THIEF", 
+        "note": "ANTI_THIEF",
         "value": 16384
-      }, 
+      },
       {
-        "note": "ANTI_WARRIOR", 
+        "note": "ANTI_WARRIOR",
         "value": 32768
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "A starchy headress worn by powerful secular types.", 
+        "desc": "A starchy headress worn by powerful secular types.",
         "keywords": [
-          "headress", 
-          "pontiff", 
-          "ornament", 
-          "cone", 
+          "headress",
+          "pontiff",
+          "ornament",
+          "cone",
           "head"
         ]
       }
-    ], 
-    "id": 6303, 
-    "long_desc": "A white cone-shaped head ornament with religious symbols lies here.", 
-    "rent": 10000, 
-    "short_desc": "a pontiff's headress", 
+    ],
+    "id": 6303,
+    "long_desc": "A white cone-shaped head ornament with religious symbols lies here.",
+    "rent": 10000,
+    "short_desc": "a pontiff's headress",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      6, 
-      0, 
-      0, 
+      6,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HEAD", 
+        "note": "WEAR_HEAD",
         "value": 16
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 1, 
-        "note": "STR", 
+        "location": 1,
+        "note": "STR",
         "value": 1
-      }, 
+      },
       {
-        "location": 5, 
-        "note": "CON", 
+        "location": 5,
+        "note": "CON",
         "value": 2
       }
-    ], 
+    ],
     "aliases": [
-      "visor", 
-      "black", 
+      "visor",
+      "black",
       "knight"
-    ], 
-    "cost": 20000, 
+    ],
+    "cost": 20000,
     "effects": [
       {
-        "note": "INVISIBLE", 
+        "note": "INVISIBLE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_MAGIC_USER", 
+        "note": "ANTI_MAGIC_USER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "ANTI_CLERIC", 
+        "note": "ANTI_CLERIC",
         "value": 8192
-      }, 
+      },
       {
-        "note": "ANTI_THIEF", 
+        "note": "ANTI_THIEF",
         "value": 16384
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "A visor that protects the head, good for warriors.", 
+        "desc": "A visor that protects the head, good for warriors.",
         "keywords": [
-          "visor", 
-          "black", 
+          "visor",
+          "black",
           "knight"
         ]
       }
-    ], 
-    "id": 6304, 
-    "long_desc": "A black visor sits here.", 
-    "rent": 10000, 
-    "short_desc": "a black knight's visor", 
+    ],
+    "id": 6304,
+    "long_desc": "A black visor sits here.",
+    "rent": 10000,
+    "short_desc": "a black knight's visor",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      8, 
-      0, 
-      0, 
+      8,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HEAD", 
+        "note": "WEAR_HEAD",
         "value": 16
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "potion", 
-      "thick", 
+      "potion",
+      "thick",
       "white"
-    ], 
-    "cost": 21000, 
+    ],
+    "cost": 21000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
-    "extra_descs": [], 
-    "id": 6305, 
-    "long_desc": "A thick white potion has been left here.", 
-    "rent": 1000, 
-    "short_desc": "a thick white potion", 
+    ],
+    "extra_descs": [],
+    "id": 6305,
+    "long_desc": "A thick white potion has been left here.",
+    "rent": 1000,
+    "short_desc": "a thick white potion",
     "type": {
-      "note": "POTION", 
+      "note": "POTION",
       "value": 10
-    }, 
+    },
     "values": [
-      25, 
-      15, 
-      35, 
+      25,
+      15,
+      35,
       19
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 9
   }
 ]

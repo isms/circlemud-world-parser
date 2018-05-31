@@ -1,898 +1,898 @@
 [
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "goblin", 
+      "goblin",
       "slave"
-    ], 
-    "alignment": 350, 
-    "armor_class": 9, 
+    ],
+    "alignment": 350,
+    "armor_class": 9,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 1, 
+      "bonus": 0,
+      "dice": 1,
       "sides": 5
-    }, 
-    "detail_desc": "The defenseless goblin begs for mercy.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The defenseless goblin begs for mercy.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 0, 
-    "id": 5100, 
-    "level": 1, 
-    "long_desc": "A goblin slave lies here asleep.", 
+    },
+    "gold": 0,
+    "id": 5100,
+    "level": 1,
+    "long_desc": "A goblin slave lies here asleep.",
     "max_hit_points": {
-      "bonus": 11, 
-      "dice": 1, 
+      "bonus": 11,
+      "dice": 1,
       "sides": 11
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_SLEEPING", 
+        "note": "POSITION_SLEEPING",
         "value": 4
-      }, 
+      },
       "load": {
-        "note": "POSITION_SLEEPING", 
+        "note": "POSITION_SLEEPING",
         "value": 4
       }
-    }, 
-    "short_desc": "the goblin slave", 
-    "thac0": 20, 
+    },
+    "short_desc": "the goblin slave",
+    "thac0": 20,
     "xp": 100
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "drow", 
+      "drow",
       "commoner"
-    ], 
-    "alignment": -1000, 
-    "armor_class": 0, 
+    ],
+    "alignment": -1000,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 3, 
-      "dice": 13, 
+      "bonus": 3,
+      "dice": 13,
       "sides": 1
-    }, 
-    "detail_desc": "I doubt he is the type to give directions.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "I doubt he is the type to give directions.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 300, 
-    "id": 5101, 
-    "level": 10, 
-    "long_desc": "A drow commoner is here, walking around on guard duty.", 
+    },
+    "gold": 300,
+    "id": 5101,
+    "level": 10,
+    "long_desc": "A drow commoner is here, walking around on guard duty.",
     "max_hit_points": {
-      "bonus": 130, 
-      "dice": 1, 
+      "bonus": 130,
+      "dice": 1,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Drow commoner", 
-    "thac0": 12, 
+    },
+    "short_desc": "the Drow commoner",
+    "thac0": 12,
     "xp": 10750
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "drow", 
-      "noble", 
+      "drow",
+      "noble",
       "warrior"
-    ], 
-    "alignment": -1000, 
-    "armor_class": 0, 
+    ],
+    "alignment": -1000,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 7, 
-      "dice": 14, 
+      "bonus": 7,
+      "dice": 14,
       "sides": 1
-    }, 
-    "detail_desc": "He looks kind of annoyed!", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks kind of annoyed!",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1000, 
-    "id": 5102, 
-    "level": 12, 
-    "long_desc": "A drow warrior stands here guarding his home.", 
+    },
+    "gold": 1000,
+    "id": 5102,
+    "level": 12,
+    "long_desc": "A drow warrior stands here guarding his home.",
     "max_hit_points": {
-      "bonus": 160, 
-      "dice": 1, 
+      "bonus": 160,
+      "dice": 1,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the drow warrior", 
-    "thac0": 9, 
+    },
+    "short_desc": "the drow warrior",
+    "thac0": 9,
     "xp": 15000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "drow", 
-      "noble", 
+      "drow",
+      "noble",
       "mage"
-    ], 
-    "alignment": -1000, 
-    "armor_class": 2, 
+    ],
+    "alignment": -1000,
+    "armor_class": 2,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 8, 
+      "bonus": 2,
+      "dice": 8,
       "sides": 2
-    }, 
-    "detail_desc": "The mage prepares to cast a spell... at you!!", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The mage prepares to cast a spell... at you!!",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 2000, 
-    "id": 5103, 
-    "level": 15, 
-    "long_desc": "A drow mage is here protecting his home.", 
+    },
+    "gold": 2000,
+    "id": 5103,
+    "level": 15,
+    "long_desc": "A drow mage is here protecting his home.",
     "max_hit_points": {
-      "bonus": 190, 
-      "dice": 1, 
+      "bonus": 190,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the drow mage", 
-    "thac0": 8, 
+    },
+    "short_desc": "the drow mage",
+    "thac0": 8,
     "xp": 21000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "drow", 
+      "drow",
       "priestess"
-    ], 
-    "alignment": -1000, 
-    "armor_class": 0, 
+    ],
+    "alignment": -1000,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 14, 
+      "bonus": 4,
+      "dice": 14,
       "sides": 1
-    }, 
-    "detail_desc": "I wouldn't want go get on her bad side!", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "I wouldn't want go get on her bad side!",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 4000, 
-    "id": 5104, 
-    "level": 17, 
-    "long_desc": "A drow priestess is here shouting orders.", 
+    },
+    "gold": 4000,
+    "id": 5104,
+    "level": 17,
+    "long_desc": "A drow priestess is here shouting orders.",
     "max_hit_points": {
-      "bonus": 205, 
-      "dice": 1, 
+      "bonus": 205,
+      "dice": 1,
       "sides": 11
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the drow priestess", 
-    "thac0": 5, 
+    },
+    "short_desc": "the drow priestess",
+    "thac0": 5,
     "xp": 28000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "drow", 
+      "drow",
       "master"
-    ], 
-    "alignment": -1000, 
-    "armor_class": 0, 
+    ],
+    "alignment": -1000,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 18, 
+      "bonus": 4,
+      "dice": 18,
       "sides": 1
-    }, 
-    "detail_desc": "The drow master is ALWAYS ready for a fight.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The drow master is ALWAYS ready for a fight.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 10000, 
-    "id": 5105, 
-    "level": 21, 
-    "long_desc": "A drow master stares at you angrily.", 
+    },
+    "gold": 10000,
+    "id": 5105,
+    "level": 21,
+    "long_desc": "A drow master stares at you angrily.",
     "max_hit_points": {
-      "bonus": 248, 
-      "dice": 1, 
+      "bonus": 248,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the drow master", 
-    "thac0": 0, 
+    },
+    "short_desc": "the drow master",
+    "thac0": 0,
     "xp": 60000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "drow", 
+      "drow",
       "weaponsmaster"
-    ], 
-    "alignment": -1000, 
-    "armor_class": -2, 
+    ],
+    "alignment": -1000,
+    "armor_class": -2,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 12, 
+      "bonus": 4,
+      "dice": 12,
       "sides": 2
-    }, 
-    "detail_desc": "He definitely know his way around in combat.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He definitely know his way around in combat.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 15000, 
-    "id": 5106, 
-    "level": 23, 
-    "long_desc": "A drow weaponsmaster is here shadow boxing.", 
+    },
+    "gold": 15000,
+    "id": 5106,
+    "level": 23,
+    "long_desc": "A drow weaponsmaster is here shadow boxing.",
     "max_hit_points": {
-      "bonus": 405, 
-      "dice": 1, 
+      "bonus": 405,
+      "dice": 1,
       "sides": 25
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the weaponsmaster", 
-    "thac0": 0, 
+    },
+    "short_desc": "the weaponsmaster",
+    "thac0": 0,
     "xp": 80000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "drow", 
-      "matron", 
+      "drow",
+      "matron",
       "mother"
-    ], 
-    "alignment": -1000, 
-    "armor_class": -3, 
+    ],
+    "alignment": -1000,
+    "armor_class": -3,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 15, 
+      "bonus": 4,
+      "dice": 15,
       "sides": 2
-    }, 
-    "detail_desc": "She looks really and truly annoyed that you have found your way here.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "She looks really and truly annoyed that you have found your way here.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 30000, 
-    "id": 5107, 
-    "level": 24, 
-    "long_desc": "The Matron Mother of the house is standing here.", 
+    },
+    "gold": 30000,
+    "id": 5107,
+    "level": 24,
+    "long_desc": "The Matron Mother of the house is standing here.",
     "max_hit_points": {
-      "bonus": 450, 
-      "dice": 1, 
+      "bonus": 450,
+      "dice": 1,
       "sides": 50
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Matron Mother", 
-    "thac0": 0, 
+    },
+    "short_desc": "the Matron Mother",
+    "thac0": 0,
     "xp": 130000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "drow", 
-      "matron", 
+      "drow",
+      "matron",
       "mother"
-    ], 
-    "alignment": -1000, 
-    "armor_class": -4, 
+    ],
+    "alignment": -1000,
+    "armor_class": -4,
     "bare_hand_damage": {
-      "bonus": 24, 
-      "dice": 12, 
+      "bonus": 24,
+      "dice": 12,
       "sides": 2
-    }, 
-    "detail_desc": "She looks like she is about to rip your head of and eat it.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "She looks like she is about to rip your head of and eat it.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 40000, 
-    "id": 5108, 
-    "level": 25, 
-    "long_desc": "The Matron Mother of the first house is waiting for you.", 
+    },
+    "gold": 40000,
+    "id": 5108,
+    "level": 25,
+    "long_desc": "The Matron Mother of the first house is waiting for you.",
     "max_hit_points": {
-      "bonus": 350, 
-      "dice": 5, 
+      "bonus": 350,
+      "dice": 5,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Matron Mother", 
-    "thac0": 0, 
+    },
+    "short_desc": "the Matron Mother",
+    "thac0": 0,
     "xp": 150000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
       "drider"
-    ], 
-    "alignment": -1000, 
-    "armor_class": 2, 
+    ],
+    "alignment": -1000,
+    "armor_class": 2,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 2, 
+      "bonus": 2,
+      "dice": 2,
       "sides": 6
-    }, 
-    "detail_desc": "This half-spider, half-drow creature is a formidable opponent.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This half-spider, half-drow creature is a formidable opponent.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 200, 
-    "id": 5109, 
-    "level": 8, 
-    "long_desc": "The drider looks at you viciously while it draws its sword.", 
+    },
+    "gold": 200,
+    "id": 5109,
+    "level": 8,
+    "long_desc": "The drider looks at you viciously while it draws its sword.",
     "max_hit_points": {
-      "bonus": 195, 
-      "dice": 1, 
+      "bonus": 195,
+      "dice": 1,
       "sides": 6
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the drider", 
-    "thac0": 12, 
+    },
+    "short_desc": "the drider",
+    "thac0": 12,
     "xp": 4000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
       "drider"
-    ], 
-    "alignment": -1000, 
-    "armor_class": 0, 
+    ],
+    "alignment": -1000,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 8, 
-      "dice": 3, 
+      "bonus": 8,
+      "dice": 3,
       "sides": 6
-    }, 
-    "detail_desc": "This half-spider, half-drow creature is a formidable opponent.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This half-spider, half-drow creature is a formidable opponent.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 5110, 
-    "level": 11, 
-    "long_desc": "The drider looks at you viciously while it draws its sword.", 
+    },
+    "gold": 0,
+    "id": 5110,
+    "level": 11,
+    "long_desc": "The drider looks at you viciously while it draws its sword.",
     "max_hit_points": {
-      "bonus": 295, 
-      "dice": 1, 
+      "bonus": 295,
+      "dice": 1,
       "sides": 6
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the drider", 
-    "thac0": 10, 
+    },
+    "short_desc": "the drider",
+    "thac0": 10,
     "xp": 7000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SENSE_LIFE", 
+        "note": "SENSE_LIFE",
         "value": 32
-      }, 
+      },
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
       "yochlol"
-    ], 
-    "alignment": -1000, 
-    "armor_class": -6, 
+    ],
+    "alignment": -1000,
+    "armor_class": -6,
     "bare_hand_damage": {
-      "bonus": 30, 
-      "dice": 15, 
+      "bonus": 30,
+      "dice": 15,
       "sides": 2
-    }, 
-    "detail_desc": "The yochlol is not in a good mood.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The yochlol is not in a good mood.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 60000, 
-    "id": 5111, 
-    "level": 23, 
-    "long_desc": "A yochlol forms out of a swirling mist...", 
+    },
+    "gold": 60000,
+    "id": 5111,
+    "level": 23,
+    "long_desc": "A yochlol forms out of a swirling mist...",
     "max_hit_points": {
-      "bonus": 450, 
-      "dice": 25, 
+      "bonus": 450,
+      "dice": 25,
       "sides": 2
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the yochlol", 
-    "thac0": 0, 
+    },
+    "short_desc": "the yochlol",
+    "thac0": 0,
     "xp": 80000
   }
 ]

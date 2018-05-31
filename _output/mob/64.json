@@ -2,526 +2,526 @@
   {
     "affects": [
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "goat", 
+      "goat",
       "mountain"
-    ], 
-    "alignment": 0, 
-    "armor_class": 3, 
+    ],
+    "alignment": 0,
+    "armor_class": 3,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 2, 
+      "bonus": 1,
+      "dice": 2,
       "sides": 5
-    }, 
-    "detail_desc": "This goat is acclimated to the rugged terrain of the \nmountains.  It looks at you and shies away a little.", 
+    },
+    "detail_desc": "This goat is acclimated to the rugged terrain of the \nmountains.  It looks at you and shies away a little.",
     "extra_spec": {
       "BareHandAttack": 4
-    }, 
+    },
     "flags": [
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 0, 
-    "id": 6400, 
-    "level": 8, 
-    "long_desc": "A mountain goat nibbles at a piece of grass here.", 
+    },
+    "gold": 0,
+    "id": 6400,
+    "level": 8,
+    "long_desc": "A mountain goat nibbles at a piece of grass here.",
     "max_hit_points": {
-      "bonus": 95, 
-      "dice": 3, 
+      "bonus": 95,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "E", 
+    },
+    "mob_type": "E",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the mountain goat", 
-    "thac0": 13, 
+    },
+    "short_desc": "the mountain goat",
+    "thac0": 13,
     "xp": 4000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "demon", 
+      "demon",
       "decay"
-    ], 
-    "alignment": -1000, 
-    "armor_class": 2, 
+    ],
+    "alignment": -1000,
+    "armor_class": 2,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 2, 
+      "bonus": 1,
+      "dice": 2,
       "sides": 7
-    }, 
-    "detail_desc": "This demon has pure malevolence for anything living.  \nOops!  You're living!  I guess that means you!", 
+    },
+    "detail_desc": "This demon has pure malevolence for anything living.  \nOops!  You're living!  I guess that means you!",
     "extra_spec": {
       "BareHandAttack": 8
-    }, 
+    },
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 6401, 
-    "level": 12, 
-    "long_desc": "A cloaked and clawed demon of decay comes at you viciously!", 
+    },
+    "gold": 0,
+    "id": 6401,
+    "level": 12,
+    "long_desc": "A cloaked and clawed demon of decay comes at you viciously!",
     "max_hit_points": {
-      "bonus": 145, 
-      "dice": 3, 
+      "bonus": 145,
+      "dice": 3,
       "sides": 5
-    }, 
-    "mob_type": "E", 
+    },
+    "mob_type": "E",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Demon of Decay", 
-    "thac0": 9, 
+    },
+    "short_desc": "the Demon of Decay",
+    "thac0": 9,
     "xp": 10000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "book", 
-      "monster", 
+      "book",
+      "monster",
       "guardian"
-    ], 
-    "alignment": 0, 
-    "armor_class": 1, 
+    ],
+    "alignment": 0,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 2, 
+      "bonus": 2,
+      "dice": 2,
       "sides": 8
-    }, 
-    "detail_desc": "Ironically enough, the book-monster's head is War and\nPeace.  Hmm.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "Ironically enough, the book-monster's head is War and\nPeace.  Hmm.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 6402, 
-    "level": 14, 
-    "long_desc": "A mound of books rise up into a human shape and tries to hit you!", 
+    },
+    "gold": 0,
+    "id": 6402,
+    "level": 14,
+    "long_desc": "A mound of books rise up into a human shape and tries to hit you!",
     "max_hit_points": {
-      "bonus": 199, 
-      "dice": 1, 
+      "bonus": 199,
+      "dice": 1,
       "sides": 1
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Book Monster", 
-    "thac0": 7, 
+    },
+    "short_desc": "the Book Monster",
+    "thac0": 7,
     "xp": 18000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "bad", 
+      "bad",
       "feeling"
-    ], 
-    "alignment": 0, 
-    "armor_class": 0, 
+    ],
+    "alignment": 0,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 3, 
+      "bonus": 0,
+      "dice": 3,
       "sides": 8
-    }, 
-    "detail_desc": "It resembles a lot of other bad feelings you've had,\nbut a lot more tangible... magic?", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "It resembles a lot of other bad feelings you've had,\nbut a lot more tangible... magic?",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 6403, 
-    "level": 18, 
-    "long_desc": "A bad feeling chokes your throat.", 
+    },
+    "gold": 0,
+    "id": 6403,
+    "level": 18,
+    "long_desc": "A bad feeling chokes your throat.",
     "max_hit_points": {
-      "bonus": 249, 
-      "dice": 1, 
+      "bonus": 249,
+      "dice": 1,
       "sides": 1
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "a Bad Feeling", 
-    "thac0": 3, 
+    },
+    "short_desc": "a Bad Feeling",
+    "thac0": 3,
     "xp": 40000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
       "nightmare"
-    ], 
-    "alignment": 0, 
-    "armor_class": 0, 
+    ],
+    "alignment": 0,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 3, 
+      "bonus": 2,
+      "dice": 3,
       "sides": 8
-    }, 
-    "detail_desc": "It looks like you deepest, darkest fears personified.\nWait a minute!  It IS your deepest, darkest fears\npersonified!", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "It looks like you deepest, darkest fears personified.\nWait a minute!  It IS your deepest, darkest fears\npersonified!",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 6404, 
-    "level": 19, 
-    "long_desc": "Your worst nightmare coalesces in front of you and attacks!", 
+    },
+    "gold": 0,
+    "id": 6404,
+    "level": 19,
+    "long_desc": "Your worst nightmare coalesces in front of you and attacks!",
     "max_hit_points": {
-      "bonus": 299, 
-      "dice": 1, 
+      "bonus": 299,
+      "dice": 1,
       "sides": 1
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Your Worst Nightmare", 
-    "thac0": 2, 
+    },
+    "short_desc": "Your Worst Nightmare",
+    "thac0": 2,
     "xp": 45000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
       "guardian"
-    ], 
-    "alignment": 0, 
-    "armor_class": 0, 
+    ],
+    "alignment": 0,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 3, 
+      "bonus": 2,
+      "dice": 3,
       "sides": 6
-    }, 
-    "detail_desc": "The guardian guards the door.  That's about all its\nbrain can handle: guarding.", 
+    },
+    "detail_desc": "The guardian guards the door.  That's about all its\nbrain can handle: guarding.",
     "extra_spec": {
       "BareHandAttack": 9
-    }, 
+    },
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 6405, 
-    "level": 18, 
-    "long_desc": "A guardian guards the door.  It looks at you and attacks!", 
+    },
+    "gold": 0,
+    "id": 6405,
+    "level": 18,
+    "long_desc": "A guardian guards the door.  It looks at you and attacks!",
     "max_hit_points": {
-      "bonus": 249, 
-      "dice": 1, 
+      "bonus": 249,
+      "dice": 1,
       "sides": 1
-    }, 
-    "mob_type": "E", 
+    },
+    "mob_type": "E",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Guardian", 
-    "thac0": 3, 
+    },
+    "short_desc": "the Guardian",
+    "thac0": 3,
     "xp": 35000
   }
 ]

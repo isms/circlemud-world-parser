@@ -2,558 +2,558 @@
   {
     "affects": [
       {
-        "location": 1, 
-        "note": "STR", 
+        "location": 1,
+        "note": "STR",
         "value": -2
       }
-    ], 
+    ],
     "aliases": [
-      "ring", 
-      "yellow", 
+      "ring",
+      "yellow",
       "green"
-    ], 
-    "cost": 50, 
+    ],
+    "cost": 50,
     "effects": [
       {
-        "note": "NODONATE", 
+        "note": "NODONATE",
         "value": 8
-      }, 
+      },
       {
-        "note": "NODROP", 
+        "note": "NODROP",
         "value": 128
-      }, 
+      },
       {
-        "note": "NOSELL", 
+        "note": "NOSELL",
         "value": 65536
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It feels heavy.", 
+        "desc": "It feels heavy.",
         "keywords": [
-          "ring", 
-          "yellow", 
+          "ring",
+          "yellow",
           "green"
         ]
       }
-    ], 
-    "id": 4000, 
-    "long_desc": "A ring is here, with yellow and green ornamentation.  It looks very old.", 
-    "rent": 20, 
-    "short_desc": "a yellow and green ring", 
+    ],
+    "id": 4000,
+    "long_desc": "A ring is here, with yellow and green ornamentation.  It looks very old.",
+    "rent": 20,
+    "short_desc": "a yellow and green ring",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_FINGER", 
+        "note": "WEAR_FINGER",
         "value": 2
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "corpse", 
+      "corpse",
       "goblin"
-    ], 
-    "cost": 0, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 4001, 
-    "long_desc": "A halfway decayed corpse of a goblin is here, giving off a foul odor.", 
-    "rent": 500, 
-    "short_desc": "a goblin's corpse", 
+    ],
+    "cost": 0,
+    "effects": [],
+    "extra_descs": [],
+    "id": 4001,
+    "long_desc": "A halfway decayed corpse of a goblin is here, giving off a foul odor.",
+    "rent": 500,
+    "short_desc": "a goblin's corpse",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      1, 
-      0, 
-      -1, 
+      1,
+      0,
+      -1,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 20
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "coins"
-    ], 
-    "cost": 0, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 4002, 
-    "long_desc": "A small pile of coins is on the ground.", 
-    "rent": 0, 
-    "short_desc": "some coins", 
+    ],
+    "cost": 0,
+    "effects": [],
+    "extra_descs": [],
+    "id": 4002,
+    "long_desc": "A small pile of coins is on the ground.",
+    "rent": 0,
+    "short_desc": "some coins",
     "type": {
-      "note": "MONEY", 
+      "note": "MONEY",
       "value": 20
-    }, 
+    },
     "values": [
-      500, 
-      0, 
-      0, 
+      500,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 0
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "potion", 
+      "potion",
       "purple"
-    ], 
-    "cost": 35500, 
-    "effects": [], 
+    ],
+    "cost": 35500,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "It looks rather strange!", 
+        "desc": "It looks rather strange!",
         "keywords": [
-          "potion", 
+          "potion",
           "purple"
         ]
       }
-    ], 
-    "id": 4050, 
-    "long_desc": "A purple potion is here.", 
-    "rent": 2000, 
-    "short_desc": "a purple potion", 
+    ],
+    "id": 4050,
+    "long_desc": "A purple potion is here.",
+    "rent": 2000,
+    "short_desc": "a purple potion",
     "type": {
-      "note": "POTION", 
+      "note": "POTION",
       "value": 10
-    }, 
+    },
     "values": [
-      17, 
-      14, 
-      36, 
+      17,
+      14,
+      36,
       33
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 24, 
-        "note": "SAVING_SPELL", 
+        "location": 24,
+        "note": "SAVING_SPELL",
         "value": -2
-      }, 
+      },
       {
-        "location": 23, 
-        "note": "SAVING_BREATH", 
+        "location": 23,
+        "note": "SAVING_BREATH",
         "value": -2
       }
-    ], 
+    ],
     "aliases": [
-      "helmet", 
+      "helmet",
       "metal"
-    ], 
-    "cost": 3000, 
+    ],
+    "cost": 3000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It looks somehow magical!.", 
+        "desc": "It looks somehow magical!.",
         "keywords": [
-          "helmet", 
+          "helmet",
           "metal"
         ]
       }
-    ], 
-    "id": 4051, 
-    "long_desc": "A metal helmet in here.", 
-    "rent": 100, 
-    "short_desc": "a metal helmet", 
+    ],
+    "id": 4051,
+    "long_desc": "A metal helmet in here.",
+    "rent": 100,
+    "short_desc": "a metal helmet",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      -5, 
-      0, 
-      0, 
+      -5,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HEAD", 
+        "note": "WEAR_HEAD",
         "value": 16
       }
-    ], 
+    ],
     "weight": 4
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "mushroom"
-    ], 
-    "cost": 9, 
-    "effects": [], 
+    ],
+    "cost": 9,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "Let's put it this way - I wouldn't eat it!!", 
+        "desc": "Let's put it this way - I wouldn't eat it!!",
         "keywords": [
           "mushroom"
         ]
       }
-    ], 
-    "id": 4052, 
-    "long_desc": "A small mushroom is here.", 
-    "rent": 3, 
-    "short_desc": "a mushroom", 
+    ],
+    "id": 4052,
+    "long_desc": "A small mushroom is here.",
+    "rent": 3,
+    "short_desc": "a mushroom",
     "type": {
-      "note": "FOOD", 
+      "note": "FOOD",
       "value": 19
-    }, 
+    },
     "values": [
-      2, 
-      0, 
-      0, 
+      2,
+      0,
+      0,
       1
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 1
-      }, 
+      },
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 1
       }
-    ], 
+    ],
     "aliases": [
       "dirk"
-    ], 
-    "cost": 850, 
+    ],
+    "cost": 850,
     "effects": [
       {
-        "note": "ANTI_CLERIC", 
+        "note": "ANTI_CLERIC",
         "value": 8192
-      }, 
+      },
       {
-        "note": "ANTI_WARRIOR", 
+        "note": "ANTI_WARRIOR",
         "value": 32768
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It is a medium sized, beautifully crafted dirk made from some greyish alloy.\nIts blade is double-edged and very thin... this looks like a good thieves'\nweapon.", 
+        "desc": "It is a medium sized, beautifully crafted dirk made from some greyish alloy.\nIts blade is double-edged and very thin... this looks like a good thieves'\nweapon.",
         "keywords": [
           "dirk"
         ]
       }
-    ], 
-    "id": 4053, 
-    "long_desc": "A beautifully crafted dirk is lying here.", 
-    "rent": 500, 
-    "short_desc": "a thieves' dirk", 
+    ],
+    "id": 4053,
+    "long_desc": "A beautifully crafted dirk is lying here.",
+    "rent": 500,
+    "short_desc": "a thieves' dirk",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      2, 
-      4, 
+      0,
+      2,
+      4,
       11
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "blade", 
-      "black", 
+      "blade",
+      "black",
       "demon"
-    ], 
-    "cost": 10000, 
+    ],
+    "cost": 10000,
     "effects": [
       {
-        "note": "ANTI_MAGIC_USER", 
+        "note": "ANTI_MAGIC_USER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "ANTI_GOOD", 
+        "note": "ANTI_GOOD",
         "value": 512
-      }, 
+      },
       {
-        "note": "ANTI_NEUTRAL", 
+        "note": "ANTI_NEUTRAL",
         "value": 2048
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "You'll become as evil as the weapon, if you use it as you sense the forces\nof evil controlling the weapon...", 
+        "desc": "You'll become as evil as the weapon, if you use it as you sense the forces\nof evil controlling the weapon...",
         "keywords": [
-          "blade", 
-          "black", 
+          "blade",
+          "black",
           "demon"
         ]
       }
-    ], 
-    "id": 4100, 
-    "long_desc": "A black demon blade is here.", 
-    "rent": 800, 
-    "short_desc": "a black demon blade", 
+    ],
+    "id": 4100,
+    "long_desc": "A black demon blade is here.",
+    "rent": 800,
+    "short_desc": "a black demon blade",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      3, 
-      4, 
+      0,
+      3,
+      4,
       11
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 8
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 2
-      }, 
+      },
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 1
       }
-    ], 
+    ],
     "aliases": [
-      "gloves", 
+      "gloves",
       "swordmans"
-    ], 
-    "cost": 3500, 
+    ],
+    "cost": 3500,
     "effects": [
       {
-        "note": "ANTI_GOOD", 
+        "note": "ANTI_GOOD",
         "value": 512
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "They look like the right kind of equipment to use when fighting.", 
+        "desc": "They look like the right kind of equipment to use when fighting.",
         "keywords": [
-          "gloves", 
+          "gloves",
           "swordsmans"
         ]
       }
-    ], 
-    "id": 4101, 
-    "long_desc": "A pair of finely crafted gloves are lying on the ground here.", 
-    "rent": 800, 
-    "short_desc": "a pair of swordsmans' gloves", 
+    ],
+    "id": 4101,
+    "long_desc": "A pair of finely crafted gloves are lying on the ground here.",
+    "rent": 800,
+    "short_desc": "a pair of swordsmans' gloves",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HANDS", 
+        "note": "WEAR_HANDS",
         "value": 128
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "scroll", 
+      "scroll",
       "ysafg"
-    ], 
-    "cost": 1500, 
-    "effects": [], 
+    ],
+    "cost": 1500,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "It looks informative.", 
+        "desc": "It looks informative.",
         "keywords": [
-          "scroll", 
+          "scroll",
           "ysafg"
         ]
       }
-    ], 
-    "id": 4102, 
-    "long_desc": "A scroll which reads 'ysafg', it looks very fragile and quite old.", 
-    "rent": 10, 
-    "short_desc": "a scroll which reads 'ysafg'", 
+    ],
+    "id": 4102,
+    "long_desc": "A scroll which reads 'ysafg', it looks very fragile and quite old.",
+    "rent": 10,
+    "short_desc": "a scroll which reads 'ysafg'",
     "type": {
-      "note": "SCROLL", 
+      "note": "SCROLL",
       "value": 2
-    }, 
+    },
     "values": [
-      1, 
-      44, 
-      -1, 
+      1,
+      44,
+      -1,
       -1
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "slime", 
-      "mould", 
+      "slime",
+      "mould",
       "green"
-    ], 
-    "cost": 20, 
-    "effects": [], 
+    ],
+    "cost": 20,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "It wasn't meant to be food -- at least, certainly not for humans.", 
+        "desc": "It wasn't meant to be food -- at least, certainly not for humans.",
         "keywords": [
-          "smile", 
+          "smile",
           "mould"
         ]
       }
-    ], 
-    "id": 4103, 
-    "long_desc": "A green slime mould is here.  Stinks like you wouldn't believe!", 
-    "rent": 8, 
-    "short_desc": "a green slime mould", 
+    ],
+    "id": 4103,
+    "long_desc": "A green slime mould is here.  Stinks like you wouldn't believe!",
+    "rent": 8,
+    "short_desc": "a green slime mould",
     "type": {
-      "note": "FOOD", 
+      "note": "FOOD",
       "value": 19
-    }, 
+    },
     "values": [
-      24, 
-      0, 
-      0, 
+      24,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "slime", 
-      "mould", 
+      "slime",
+      "mould",
       "green"
-    ], 
-    "cost": 20, 
-    "effects": [], 
-    "extra_descs": [], 
-    "id": 4104, 
-    "long_desc": "A green slime mould is here.  Stinks like you wouldn't believe!", 
-    "rent": 8, 
-    "short_desc": "a green slime mould", 
+    ],
+    "cost": 20,
+    "effects": [],
+    "extra_descs": [],
+    "id": 4104,
+    "long_desc": "A green slime mould is here.  Stinks like you wouldn't believe!",
+    "rent": 8,
+    "short_desc": "a green slime mould",
     "type": {
-      "note": "FOOD", 
+      "note": "FOOD",
       "value": 19
-    }, 
+    },
     "values": [
-      24, 
-      0, 
-      0, 
+      24,
+      0,
+      0,
       1
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 1
   }
 ]

@@ -1,2956 +1,2956 @@
 [
   {
-    "desc": "The trail ends here where the mountains begin abruptly.\nLooking up, you note that the climb would be rough,\nhazardous, and probably not worth the effort; the energy\nbarrier continues up the mountain side out of sight.  The\nonly exit is back to the east.", 
+    "desc": "The trail ends here where the mountains begin abruptly.\nLooking up, you note that the climb would be rough,\nhazardous, and probably not worth the effort; the energy\nbarrier continues up the mountain side out of sight.  The\nonly exit is back to the east.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6201
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "You can faintly see the woods continue beyond it, but it\nseems there's no way through.  The field rises high up\ninto the air, and seems to form a ceiling above the woods,\npreventing a flying entrance.  You'd also bet it extends\ndeep into the ground.", 
+        "desc": "You can faintly see the woods continue beyond it, but it\nseems there's no way through.  The field rises high up\ninto the air, and seems to form a ceiling above the woods,\npreventing a flying entrance.  You'd also bet it extends\ndeep into the ground.",
         "keywords": [
-          "barrier", 
+          "barrier",
           "energy"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6200, 
-    "name": "In The Forest", 
+    ],
+    "flags": [],
+    "id": 6200,
+    "name": "In The Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "To the west the mountains rise high up, rocky and\nlifeless.  The trail you are walking on heads west\nto the end of the forest, and back east.  Each way the\nstrange energy barrier stands just to the north,\ninscrutable, magical, and impenetrable.", 
+    "desc": "To the west the mountains rise high up, rocky and\nlifeless.  The trail you are walking on heads west\nto the end of the forest, and back east.  Each way the\nstrange energy barrier stands just to the north,\ninscrutable, magical, and impenetrable.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6202
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6200
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "You can faintly see the woods continue beyond it, but it\nseems there's no way through.  The field rises high up\ninto the air, and seems to form a ceiling above the woods,\npreventing a flying entrance.  You'd also bet it extends\ndeep into the ground.", 
+        "desc": "You can faintly see the woods continue beyond it, but it\nseems there's no way through.  The field rises high up\ninto the air, and seems to form a ceiling above the woods,\npreventing a flying entrance.  You'd also bet it extends\ndeep into the ground.",
         "keywords": [
-          "barrier", 
+          "barrier",
           "energy"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6201, 
-    "name": "In The Forest", 
+    ],
+    "flags": [],
+    "id": 6201,
+    "name": "In The Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "This trail runs parallel to the energy barrier to your\nnorth, seemingly all the way up to the mountains to the\nwest that form the boundries of this valley.  Walking\nalong, you scare a small squirrel, which leaps through\nthe barrier without a second thought!  Your hand is still\nrepulsed by the magical field, however.", 
+    "desc": "This trail runs parallel to the energy barrier to your\nnorth, seemingly all the way up to the mountains to the\nwest that form the boundries of this valley.  Walking\nalong, you scare a small squirrel, which leaps through\nthe barrier without a second thought!  Your hand is still\nrepulsed by the magical field, however.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6203
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6201
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "You can faintly see the woods continue beyond it, but it\nseems there's no way through.  The field rises high up\ninto the air, and seems to form a ceiling above the woods,\npreventing a flying entrance.  You'd also bet it extends\ndeep into the ground.", 
+        "desc": "You can faintly see the woods continue beyond it, but it\nseems there's no way through.  The field rises high up\ninto the air, and seems to form a ceiling above the woods,\npreventing a flying entrance.  You'd also bet it extends\ndeep into the ground.",
         "keywords": [
-          "barrier", 
+          "barrier",
           "energy"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6202, 
-    "name": "In The Forest", 
+    ],
+    "flags": [],
+    "id": 6202,
+    "name": "In The Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The northern pathway stops abruptly here, halted by\nsome sort of glowing energy barrier running through the\nwoods.  A game trail, seemingly well traveled, runs east-\nwest along the magical barrier's length.  Very strange.", 
+    "desc": "The northern pathway stops abruptly here, halted by\nsome sort of glowing energy barrier running through the\nwoods.  A game trail, seemingly well traveled, runs east-\nwest along the magical barrier's length.  Very strange.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6204
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6139
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6202
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "You can faintly see the woods continue beyond it, but it\nseems there's no way through.  The field rises high up\ninto the air, and seems to form a ceiling above the woods,\npreventing a flying entrance.  You'd also bet it extends\ndeep into the ground.", 
+        "desc": "You can faintly see the woods continue beyond it, but it\nseems there's no way through.  The field rises high up\ninto the air, and seems to form a ceiling above the woods,\npreventing a flying entrance.  You'd also bet it extends\ndeep into the ground.",
         "keywords": [
-          "barrier", 
+          "barrier",
           "energy"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6203, 
-    "name": "In The Forest", 
+    ],
+    "flags": [],
+    "id": 6203,
+    "name": "In The Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The energy barrier runs through the woods on its east-\nwest course here, just north of the trail you are walking\non.  A faint humming seems to eminate from the glowing\nfield, pushing the normal sounds of the forest into the\nbackground.  For a short moment, you wonder if the field\nis keeping something in, or you out.  It makes you\nwonder...", 
+    "desc": "The energy barrier runs through the woods on its east-\nwest course here, just north of the trail you are walking\non.  A faint humming seems to eminate from the glowing\nfield, pushing the normal sounds of the forest into the\nbackground.  For a short moment, you wonder if the field\nis keeping something in, or you out.  It makes you\nwonder...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6205
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6203
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "You can faintly see the woods continue beyond it, but it\nseems there's no way through.  The field rises high up\ninto the air, and seems to form a ceiling above the woods,\npreventing a flying entrance.  You'd also bet it extends\ndeep into the ground.", 
+        "desc": "You can faintly see the woods continue beyond it, but it\nseems there's no way through.  The field rises high up\ninto the air, and seems to form a ceiling above the woods,\npreventing a flying entrance.  You'd also bet it extends\ndeep into the ground.",
         "keywords": [
-          "barrier", 
+          "barrier",
           "energy"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6204, 
-    "name": "In The Forest", 
+    ],
+    "flags": [],
+    "id": 6204,
+    "name": "In The Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The energy field makes a sudden ninety-degree turn\nhere, running to the north and west out of sight through\nthe thickening woods.  The trail you are on curves to\nskirt the edge of the magical barrier in either direction.\nCurious... who or what is keeping this field in place,\nand for what purpose?", 
+    "desc": "The energy field makes a sudden ninety-degree turn\nhere, running to the north and west out of sight through\nthe thickening woods.  The trail you are on curves to\nskirt the edge of the magical barrier in either direction.\nCurious... who or what is keeping this field in place,\nand for what purpose?",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6206
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6204
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "You can faintly see the woods continue beyond it, but it\nseems there's no way through.  The field rises high up\ninto the air, and seems to form a ceiling above the woods,\npreventing a flying entrance.  You'd also bet it extends\ndeep into the ground.", 
+        "desc": "You can faintly see the woods continue beyond it, but it\nseems there's no way through.  The field rises high up\ninto the air, and seems to form a ceiling above the woods,\npreventing a flying entrance.  You'd also bet it extends\ndeep into the ground.",
         "keywords": [
-          "barrier", 
+          "barrier",
           "energy"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6205, 
-    "name": "In The Forest", 
+    ],
+    "flags": [],
+    "id": 6205,
+    "name": "In The Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The woods thicken here, and surpisingly, you see a tree\ncompletely cut in half by the magical barrier running\nnorth-south here.  The tree looks healthy and unaffected\nby the energy field passing right through its center.\nOdd...", 
+    "desc": "The woods thicken here, and surpisingly, you see a tree\ncompletely cut in half by the magical barrier running\nnorth-south here.  The tree looks healthy and unaffected\nby the energy field passing right through its center.\nOdd...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6207
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6205
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "You can faintly see the woods continue beyond it, but it\nseems there's no way through.  The field rises high up\ninto the air, and seems to form a ceiling above the woods,\npreventing a flying entrance.  You'd also bet it extends\ndeep into the ground.", 
+        "desc": "You can faintly see the woods continue beyond it, but it\nseems there's no way through.  The field rises high up\ninto the air, and seems to form a ceiling above the woods,\npreventing a flying entrance.  You'd also bet it extends\ndeep into the ground.",
         "keywords": [
-          "barrier", 
+          "barrier",
           "energy"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6206, 
-    "name": "In The Forest", 
+    ],
+    "flags": [],
+    "id": 6206,
+    "name": "In The Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The magical energy barrier runs straight north-south,\nunaffected by dips in the grounds, intervening rocks and\ntrees, everything.  From the north, you hear a faint\nrushing noise above the humming of the field.  The trail\nyou are on continues to the north and south, only a few\nfeet away from the barrier it follows.", 
+    "desc": "The magical energy barrier runs straight north-south,\nunaffected by dips in the grounds, intervening rocks and\ntrees, everything.  From the north, you hear a faint\nrushing noise above the humming of the field.  The trail\nyou are on continues to the north and south, only a few\nfeet away from the barrier it follows.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6208
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6206
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "You can faintly see the woods continue beyond it, but it\nseems there's no way through.  The field rises high up\ninto the air, and seems to form a ceiling above the woods,\npreventing a flying entrance.  You'd also bet it extends\ndeep into the ground.", 
+        "desc": "You can faintly see the woods continue beyond it, but it\nseems there's no way through.  The field rises high up\ninto the air, and seems to form a ceiling above the woods,\npreventing a flying entrance.  You'd also bet it extends\ndeep into the ground.",
         "keywords": [
-          "barrier", 
+          "barrier",
           "energy"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6207, 
-    "name": "In The Forest", 
+    ],
+    "flags": [],
+    "id": 6207,
+    "name": "In The Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "Here the field changes color, becoming almost\ntransparent.  Beyond, you think you can make out a few\nshapes, but nothing too terribly distinct.  From the north\ncomes the rushing sound of water, and through the trees\nyou believe you can see a river cutting through the\nforest.  The trail you are on leads north-south through\nthe woods, following the energy barrier all along its\nlength.", 
+    "desc": "Here the field changes color, becoming almost\ntransparent.  Beyond, you think you can make out a few\nshapes, but nothing too terribly distinct.  From the north\ncomes the rushing sound of water, and through the trees\nyou believe you can see a river cutting through the\nforest.  The trail you are on leads north-south through\nthe woods, following the energy barrier all along its\nlength.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6209
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6207
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6210
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "You can see a clearing beyond, the barrier not fully blocking\nout the area behind.  You think it might be possible to push\nyour way through, if the damn thing doesn't kill you first.", 
+        "desc": "You can see a clearing beyond, the barrier not fully blocking\nout the area behind.  You think it might be possible to push\nyour way through, if the damn thing doesn't kill you first.",
         "keywords": [
-          "barrier", 
+          "barrier",
           "energy"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6208, 
-    "name": "In The Forest", 
+    ],
+    "flags": [],
+    "id": 6208,
+    "name": "In The Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "A river flows through the forest here, its water clean\nand clear.  The energy barrier runs right out into the\nmiddle of the river, and then makes another ninety-degree\nturn to the west.  The water seems to have no problem\npenetrating the magical field, however.\n   The river seems too wide and too swift to cross here.\nIt appears the only way to go is back to the south.", 
+    "desc": "A river flows through the forest here, its water clean\nand clear.  The energy barrier runs right out into the\nmiddle of the river, and then makes another ninety-degree\nturn to the west.  The water seems to have no problem\npenetrating the magical field, however.\n   The river seems too wide and too swift to cross here.\nIt appears the only way to go is back to the south.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6208
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "You can faintly see the woods continue beyond it, but it\nseems there's no way through.  The field rises high up\ninto the air, and seems to form a ceiling above the woods,\npreventing a flying entrance.  You'd also bet it extends\ndeep into the ground.", 
+        "desc": "You can faintly see the woods continue beyond it, but it\nseems there's no way through.  The field rises high up\ninto the air, and seems to form a ceiling above the woods,\npreventing a flying entrance.  You'd also bet it extends\ndeep into the ground.",
         "keywords": [
-          "barrier", 
+          "barrier",
           "energy"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6209, 
-    "name": "The River's Edge", 
+    ],
+    "flags": [],
+    "id": 6209,
+    "name": "The River's Edge",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The energy barrier seems to push against you\nineffectively as you shove your way through it.  All your\nhairs stick up on your body from the static electricity,\nand electric shocks sting your body from every metallic\npiece of equipment you are carrying.  You think with a\nfinal shove, you can break through to the other side...", 
+    "desc": "The energy barrier seems to push against you\nineffectively as you shove your way through it.  All your\nhairs stick up on your body from the static electricity,\nand electric shocks sting your body from every metallic\npiece of equipment you are carrying.  You think with a\nfinal shove, you can break through to the other side...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6208
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6211
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 6210, 
-    "name": "Just Passing Through...", 
+    ],
+    "id": 6210,
+    "name": "Just Passing Through...",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "To the west the magical energy barrier crackles and\nhums to itself, almost looking harmless.  Almost -- all\naround on the ground are charred corpses and bodies.\nSeveral poles with skulls on top face to the west, warning\ntravellers on the forest paths away from here.  The air\nsmells of death and decay, and the air is very still.  You\nfeel uncomfortable.", 
+    "desc": "To the west the magical energy barrier crackles and\nhums to itself, almost looking harmless.  Almost -- all\naround on the ground are charred corpses and bodies.\nSeveral poles with skulls on top face to the west, warning\ntravellers on the forest paths away from here.  The air\nsmells of death and decay, and the air is very still.  You\nfeel uncomfortable.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6210
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6212
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "Demi-human, from the size.  The foreheads slop down to a\nblocky brow, and the braincase seems rather small.  On\na hunch, you check one of the feet of a torched body.\nCloven, like a pig's... Orcs.", 
+        "desc": "Demi-human, from the size.  The foreheads slop down to a\nblocky brow, and the braincase seems rather small.  On\na hunch, you check one of the feet of a torched body.\nCloven, like a pig's... Orcs.",
         "keywords": [
-          "corpse", 
-          "body", 
-          "bodies", 
-          "corpses", 
-          "skull", 
+          "corpse",
+          "body",
+          "bodies",
+          "corpses",
+          "skull",
           "skulls"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 6211, 
-    "name": "By The Barrier", 
+    ],
+    "id": 6211,
+    "name": "By The Barrier",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "Several trails in the forest intersect here in a small\nclearing.  The dirt seems matted down, and you see many\nfootprints in the soil.   Nearby you hear a bird's chirp\nabruptly cut off in a loud squawk, and then silence.  The\npaths seem well-traveled, the undergrowth matted down and\nthe foilage hacked away to leave plenty of room or a\ntraveller to pass in every cardinal direction, excepting\nthe west path seems fairly overgrown...\n   You feel watched.", 
+    "desc": "Several trails in the forest intersect here in a small\nclearing.  The dirt seems matted down, and you see many\nfootprints in the soil.   Nearby you hear a bird's chirp\nabruptly cut off in a loud squawk, and then silence.  The\npaths seem well-traveled, the undergrowth matted down and\nthe foilage hacked away to leave plenty of room or a\ntraveller to pass in every cardinal direction, excepting\nthe west path seems fairly overgrown...\n   You feel watched.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6213
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6211
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6217
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6228
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "Cloven hoofs, two feet... they walk erect whatever they are.", 
+        "desc": "Cloven hoofs, two feet... they walk erect whatever they are.",
         "keywords": [
-          "foot", 
-          "footprint", 
-          "footprints", 
-          "print", 
+          "foot",
+          "footprint",
+          "footprints",
+          "print",
           "prints"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6212, 
-    "name": "A Clearing In The Forest", 
+    ],
+    "flags": [],
+    "id": 6212,
+    "name": "A Clearing In The Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The northern trail winds through the trees, heading\nfrom a forest clearings to the south to where there appears\nto be a river's edge to the north.  This trail appears to\nbe well-used and you spot many tracks in the earth.  Again\nthe hairs on the back of your neck stand up, and you wonder\nif you're being spied upon.", 
+    "desc": "The northern trail winds through the trees, heading\nfrom a forest clearings to the south to where there appears\nto be a river's edge to the north.  This trail appears to\nbe well-used and you spot many tracks in the earth.  Again\nthe hairs on the back of your neck stand up, and you wonder\nif you're being spied upon.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6214
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6212
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6213, 
-    "name": "A Forest Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6213,
+    "name": "A Forest Trail",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "A beautiful river flows swiftly by, the current looking\nquite dangerous in fact.  Out in the center of the river\nyou spot the energy barrier enclosure... no way out here.\nLooking up, you see a bird fly right through the barrier\noverhead and wonder as to the force field's nature.  This\npath leads south into the forest, and westwards along the\nriver's edge.", 
+    "desc": "A beautiful river flows swiftly by, the current looking\nquite dangerous in fact.  Out in the center of the river\nyou spot the energy barrier enclosure... no way out here.\nLooking up, you see a bird fly right through the barrier\noverhead and wonder as to the force field's nature.  This\npath leads south into the forest, and westwards along the\nriver's edge.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6213
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6215
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6214, 
-    "name": "The River's Edge", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6214,
+    "name": "The River's Edge",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The river flows on its course, unhampered by the energy\nbarrier passing right down its center for as far as you\ncan see in both directions.  The path you are on travels\nalong the length of the river to the east and west\ninbetween the water and the forest's edge.  Once again you\nshiver and feel that unmistakeable sense that you are\nbeing watched.  Disturbing.", 
+    "desc": "The river flows on its course, unhampered by the energy\nbarrier passing right down its center for as far as you\ncan see in both directions.  The path you are on travels\nalong the length of the river to the east and west\ninbetween the water and the forest's edge.  Once again you\nshiver and feel that unmistakeable sense that you are\nbeing watched.  Disturbing.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6214
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6216
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6215, 
-    "name": "The River's Edge", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6215,
+    "name": "The River's Edge",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "A large out-cropping of rock blocks this path along the\nriver to the west, and you don't spot any way around it; \nthe woods are too thick to the south, the river too swift \nto the north, the magical barrier above you.  This is a \nnice area, however, as evidenced by the amount of traffic\nthis path gets.  From the marks in the grass, you guess \nthat this is a favored resting spot.", 
+    "desc": "A large out-cropping of rock blocks this path along the\nriver to the west, and you don't spot any way around it; \nthe woods are too thick to the south, the river too swift \nto the north, the magical barrier above you.  This is a \nnice area, however, as evidenced by the amount of traffic\nthis path gets.  From the marks in the grass, you guess \nthat this is a favored resting spot.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6215
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6216, 
-    "name": "The River's Edge", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6216,
+    "name": "The River's Edge",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "This well-used forest trail leads south.  Among the \nfoot-tracks in the dirt, you spot a few animal tracks as \nwell, leading you to believe that these trails are used by\nhunters.  Why would they be enclosed in this manner, \nhowever?\n   There is a clearing to the north, and the path\ncontinues to the south.", 
+    "desc": "This well-used forest trail leads south.  Among the \nfoot-tracks in the dirt, you spot a few animal tracks as \nwell, leading you to believe that these trails are used by\nhunters.  Why would they be enclosed in this manner, \nhowever?\n   There is a clearing to the north, and the path\ncontinues to the south.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6212
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6219
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6217, 
-    "name": "A Forest Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6217,
+    "name": "A Forest Trail",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "This trail leads north-south... obviously a gaming\ntrail.  The woods, mostly deciduous trees with the\naccompanying ground foilage, crowd in to either side.\nA shrub to your left shows a fresh cutting wound...\nlooks like a sharp object like a knife or machete did\nthe damage.\n   A crackle in the leaves spins you around, to see\nnothing.  Something is watching you, you feel it.\nWhere?", 
+    "desc": "This trail leads north-south... obviously a gaming\ntrail.  The woods, mostly deciduous trees with the\naccompanying ground foilage, crowd in to either side.\nA shrub to your left shows a fresh cutting wound...\nlooks like a sharp object like a knife or machete did\nthe damage.\n   A crackle in the leaves spins you around, to see\nnothing.  Something is watching you, you feel it.\nWhere?",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6233
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6226
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6218, 
-    "name": "A Forest Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6218,
+    "name": "A Forest Trail",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The trail changes direction here, turning to the north \nand west.  A large tree to your south bears an interesting\nartifact; a rusty arrowhead embedded in the wood.  It \nlooks as if the arrow had been  broken off at the head, \nthe wood scratched at, and the arrowhead left behind.  \nOtherwise, there doesn't seem to be much of interest in \nthis particular section of the woods.", 
+    "desc": "The trail changes direction here, turning to the north \nand west.  A large tree to your south bears an interesting\nartifact; a rusty arrowhead embedded in the wood.  It \nlooks as if the arrow had been  broken off at the head, \nthe wood scratched at, and the arrowhead left behind.  \nOtherwise, there doesn't seem to be much of interest in \nthis particular section of the woods.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6217
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6220
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6219, 
-    "name": "A Forest Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6219,
+    "name": "A Forest Trail",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "This is a winding east-west path through the thickening\nforest.  The grass along the path is matted down from \nfrequent traffic.  The path continues to the east, and \nthere seems to be a small clearing to the west.\n   A faint noise makes you stand stock still.  You could \nhave sworn you heard a voice nearby.  Whatever it was, it \nwasn't speaking common.", 
+    "desc": "This is a winding east-west path through the thickening\nforest.  The grass along the path is matted down from \nfrequent traffic.  The path continues to the east, and \nthere seems to be a small clearing to the west.\n   A faint noise makes you stand stock still.  You could \nhave sworn you heard a voice nearby.  Whatever it was, it \nwasn't speaking common.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6219
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6221
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6220, 
-    "name": "A Forest Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6220,
+    "name": "A Forest Trail",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "In the middle of this small clearing in the forest is a\nfairly large rock sticking up out of the ground.  Paths \nlead away to the east, west, and south from here.  The \ntrees above block out the sky fairly effectively, also\nblotting out the glowing energy barrier above your head.", 
+    "desc": "In the middle of this small clearing in the forest is a\nfairly large rock sticking up out of the ground.  Paths \nlead away to the east, west, and south from here.  The \ntrees above block out the sky fairly effectively, also\nblotting out the glowing energy barrier above your head.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6220
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6222
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6227
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "There is dried blood on it.", 
+        "desc": "There is dried blood on it.",
         "keywords": [
-          "rock", 
+          "rock",
           "boulder"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6221, 
-    "name": "A Small Clearing", 
+    ],
+    "flags": [],
+    "id": 6221,
+    "name": "A Small Clearing",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "A smaller northern path leads away from the main east-\nwest trail here towards a clearing.  The main path leads \nwindingly around the trees to the east and west, the woods\nblocking out whatever may be ahead.  Again you get that \nstrange feeling of being watched.", 
+    "desc": "A smaller northern path leads away from the main east-\nwest trail here towards a clearing.  The main path leads \nwindingly around the trees to the east and west, the woods\nblocking out whatever may be ahead.  Again you get that \nstrange feeling of being watched.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6221
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6223
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6225
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6222, 
-    "name": "A Forest Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6222,
+    "name": "A Forest Trail",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The trail leads east and west here through the forest.  \nTo the west you spot an area where a smaller path breaks \noff from the main track.  Eastwards seems to be another \nsmall clearing that seems to be well used; there are many\ntracks leading in that direction.", 
+    "desc": "The trail leads east and west here through the forest.  \nTo the west you spot an area where a smaller path breaks \noff from the main track.  Eastwards seems to be another \nsmall clearing that seems to be well used; there are many\ntracks leading in that direction.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6224
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6222
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6223, 
-    "name": "A Forest Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6223,
+    "name": "A Forest Trail",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The ground has been cleared of vegetation in this small\nclearing, and several large, man-made salt licks lie on\nthe ground and stand on poles here.  There are many animal\ntracks in the earth -- the salt licks must attract \nwildlife for miles around.  You think this would be a good\nplace to hide and wait for dinner if you were a hunter...", 
+    "desc": "The ground has been cleared of vegetation in this small\nclearing, and several large, man-made salt licks lie on\nthe ground and stand on poles here.  There are many animal\ntracks in the earth -- the salt licks must attract \nwildlife for miles around.  You think this would be a good\nplace to hide and wait for dinner if you were a hunter...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6223
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6224, 
-    "name": "The Dead End", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6224,
+    "name": "The Dead End",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "This trail leads east-west through the forest foilage,\naround the trees and up and down the slight rises.  The\narea is quiet and serene, except for the energy barrier\nkeeping you in to the south.  For just a moment, you wonder\nif you're still being watched...", 
+    "desc": "This trail leads east-west through the forest foilage,\naround the trees and up and down the slight rises.  The\narea is quiet and serene, except for the energy barrier\nkeeping you in to the south.  For just a moment, you wonder\nif you're still being watched...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6222
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6226
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6225, 
-    "name": "A Forest Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6225,
+    "name": "A Forest Trail",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The trail bends here, leading away to the north and \neast.  Far off the the distance you hear the squawk of a \nlarge bird-of-prey searching the skies for a meal.  The \nferns around you rustle gently in the light breeze.  \nSomehow, the threatening aura that pervades over the rest\nof the area seems absent here.  You feel almost relaxed...", 
+    "desc": "The trail bends here, leading away to the north and \neast.  Far off the the distance you hear the squawk of a \nlarge bird-of-prey searching the skies for a meal.  The \nferns around you rustle gently in the light breeze.  \nSomehow, the threatening aura that pervades over the rest\nof the area seems absent here.  You feel almost relaxed...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6218
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 6226, 
-    "name": "A Forest Trail", 
+    ],
+    "id": 6226,
+    "name": "A Forest Trail",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "A bend in the forest trail allows you to go east and\nnorth here.  To the east you spot a small clearing, while\nnorthwards this trail seems to join a much larger one \nleading through the woods.  On the ground is half of a \nbroken knife handle, made of bone and dried leather,\nuseless now.  You wonder if the owner is watching you \nnow -- something certainly is.", 
+    "desc": "A bend in the forest trail allows you to go east and\nnorth here.  To the east you spot a small clearing, while\nnorthwards this trail seems to join a much larger one \nleading through the woods.  On the ground is half of a \nbroken knife handle, made of bone and dried leather,\nuseless now.  You wonder if the owner is watching you \nnow -- something certainly is.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6232
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6221
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6227, 
-    "name": "A Forest Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6227,
+    "name": "A Forest Trail",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "This path leads from the main clearing to the west to \nintersect with a north-south path just to the east.  A \nsmall sapling on the north side of the trail has a rope \ntied around one of its top branches; an unused snare \nevidently.  You still feel as if you're being watched in \nthe back of your mind, and adrenaline pumps into your\nbrain like a lightning fuzz.", 
+    "desc": "This path leads from the main clearing to the west to \nintersect with a north-south path just to the east.  A \nsmall sapling on the north side of the trail has a rope \ntied around one of its top branches; an unused snare \nevidently.  You still feel as if you're being watched in \nthe back of your mind, and adrenaline pumps into your\nbrain like a lightning fuzz.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6212
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6229
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6228, 
-    "name": "A Forest Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6228,
+    "name": "A Forest Trail",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "A north-south trail leads through the woods here, with \na small side trail leading off to the east.  The trees \nprovide adequate cover from the sky, but through a few \nholes in the foilage you spot the magical barrier above \nyou, keeping you from escaping by flight.  You feel \nslightly captured.", 
+    "desc": "A north-south trail leads through the woods here, with \na small side trail leading off to the east.  The trees \nprovide adequate cover from the sky, but through a few \nholes in the foilage you spot the magical barrier above \nyou, keeping you from escaping by flight.  You feel \nslightly captured.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6228
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6230
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6229, 
-    "name": "A Forest Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6229,
+    "name": "A Forest Trail",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "Two trails come together here, a large northern path \nheading away from tracks leading to the east and west.  \nThe western path seems to be the most traveled, and the \neast hardly at all.  There seems to be less trees around \nhere... it seems as if many have been cut down by some\nsort of crude tools.  This land clearing appears to be \nespecially true to the east.", 
+    "desc": "Two trails come together here, a large northern path \nheading away from tracks leading to the east and west.  \nThe western path seems to be the most traveled, and the \neast hardly at all.  There seems to be less trees around \nhere... it seems as if many have been cut down by some\nsort of crude tools.  This land clearing appears to be \nespecially true to the east.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6229
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6231
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6232
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6230, 
-    "name": "A Forest Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6230,
+    "name": "A Forest Trail",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The trees have been cut down around here, and many of \nthe trunks hollowed out with sharp stones and lined with \ntreated leather to make almost-waterproof tubs.  A foul \nsmelling brown fluid, tannin evidently, fills many of \nthese, soaking into various bits and pieces of animal \nhides.  Crude, but workable.", 
+    "desc": "The trees have been cut down around here, and many of \nthe trunks hollowed out with sharp stones and lined with \ntreated leather to make almost-waterproof tubs.  A foul \nsmelling brown fluid, tannin evidently, fills many of \nthese, soaking into various bits and pieces of animal \nhides.  Crude, but workable.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6230
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6231, 
-    "name": "A Clearing", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6231,
+    "name": "A Clearing",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The trail is widening to the west, where the path leads\nall the way up to the side of the mountains that enclose \nthis valley.  Many of the trees have been cut down around\nhere, and it definitely looks as if the forest is ending.\nEastwards the trail leads on into the thick of the forest.\nA small split off trail leads away to the south here.", 
+    "desc": "The trail is widening to the west, where the path leads\nall the way up to the side of the mountains that enclose \nthis valley.  Many of the trees have been cut down around\nhere, and it definitely looks as if the forest is ending.\nEastwards the trail leads on into the thick of the forest.\nA small split off trail leads away to the south here.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6230
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6227
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6233
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6232, 
-    "name": "A Forest Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6232,
+    "name": "A Forest Trail",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The ground is growing more rocky here.  The trees and \nother foilage in the forest grow sparse here, finding it \nhard to find purchase in the soil.   The forest ends just \nto the west, with the trail you are on leading right on up\nto the side of the mountains.  A side trail leads south \nhere, and the trail also leads back into the thick of the \nforest to the east.", 
+    "desc": "The ground is growing more rocky here.  The trees and \nother foilage in the forest grow sparse here, finding it \nhard to find purchase in the soil.   The forest ends just \nto the west, with the trail you are on leading right on up\nto the side of the mountains.  A side trail leads south \nhere, and the trail also leads back into the thick of the \nforest to the east.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6232
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6218
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6234
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6233, 
-    "name": "A Forest Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6233,
+    "name": "A Forest Trail",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The ground is getting very rocky here, causing the \ntrees of the woods to become more sparse.  Several bushes \nhave found purchase in the soil, but not near enough to \nblock free movement in this area.  The trail leads on up \nto what appears to be a cave in the side of the mountain \nto the west, and a side trail runs along the forest's edge\nto the north.  To the east, the trail runs deep into the \nforest out of sight.", 
+    "desc": "The ground is getting very rocky here, causing the \ntrees of the woods to become more sparse.  Several bushes \nhave found purchase in the soil, but not near enough to \nblock free movement in this area.  The trail leads on up \nto what appears to be a cave in the side of the mountain \nto the west, and a side trail runs along the forest's edge\nto the north.  To the east, the trail runs deep into the \nforest out of sight.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6241
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6233
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6242
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6234, 
-    "name": "A Rocky Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6234,
+    "name": "A Rocky Trail",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The trail you are on bends around a large double-\ntrunked tree and leads away to the north and west.  The \ngreen canopy of leaves overhead make this area fairly dark\nand ominous, and that creepy 'watched' feeling returns to\nhit you with full force.", 
+    "desc": "The trail you are on bends around a large double-\ntrunked tree and leads away to the north and west.  The \ngreen canopy of leaves overhead make this area fairly dark\nand ominous, and that creepy 'watched' feeling returns to\nhit you with full force.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6229
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6236
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6235, 
-    "name": "A Forest Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6235,
+    "name": "A Forest Trail",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The trail continues here to the east and west, with a \nsmall trail splitting off towards a large clearing to the\nsouth.  Two wooden poles with skulls on top warn you away\nfrom the south, and succeed in making you feel quite\nuncomfortable.  Strange...", 
+    "desc": "The trail continues here to the east and west, with a \nsmall trail splitting off towards a large clearing to the\nsouth.  Two wooden poles with skulls on top warn you away\nfrom the south, and succeed in making you feel quite\nuncomfortable.  Strange...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6235
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6237
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6238
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6236, 
-    "name": "A Forest Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6236,
+    "name": "A Forest Trail",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The earth has been upturned many times here, and\nseveral white rocks stick up from the ground in odd\npositions.\n   Graveyard.\n   This must be where they bury their dead -- just dig a\nhole and throw the corpse inside, ignoring any previous\noccupants in the ground.  How uncivilized... you hope you\naren't taken care of in this matter when your time\ncomes...", 
+    "desc": "The earth has been upturned many times here, and\nseveral white rocks stick up from the ground in odd\npositions.\n   Graveyard.\n   This must be where they bury their dead -- just dig a\nhole and throw the corpse inside, ignoring any previous\noccupants in the ground.  How uncivilized... you hope you\naren't taken care of in this matter when your time\ncomes...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6236
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6237, 
-    "name": "A Large Clearing", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6237,
+    "name": "A Large Clearing",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The trail splits here, one fork heading north towards \nthe rushing sounds of a river, and west where the forest \nseems to be thinning out a lot.  A sudden motion out of \nthe corner of your eye catches your eyes, and you turn \nyour head.  Nothing, there's nothing there at all.\n   You wonder if you're being stalked.", 
+    "desc": "The trail splits here, one fork heading north towards \nthe rushing sounds of a river, and west where the forest \nseems to be thinning out a lot.  A sudden motion out of \nthe corner of your eye catches your eyes, and you turn \nyour head.  Nothing, there's nothing there at all.\n   You wonder if you're being stalked.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6239
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6236
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6241
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6238, 
-    "name": "A Forest Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6238,
+    "name": "A Forest Trail",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The river flows swiftly on its course to the north.\nThe trail you are on leads on by the water's edge to the\nwest, and back into the forest to the south.  A large\nboulder is just to the west, blocking all travel in that\ndirection.  Out in the center of the river, the 'roof' of\nthe energy field meets the northern 'wall'.  The water\npasses right on through the magical barrier, however...\nthe barrier is obviously porous to some materials.", 
+    "desc": "The river flows swiftly on its course to the north.\nThe trail you are on leads on by the water's edge to the\nwest, and back into the forest to the south.  A large\nboulder is just to the west, blocking all travel in that\ndirection.  Out in the center of the river, the 'roof' of\nthe energy field meets the northern 'wall'.  The water\npasses right on through the magical barrier, however...\nthe barrier is obviously porous to some materials.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6238
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6240
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6239, 
-    "name": "A River's Edge", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6239,
+    "name": "A River's Edge",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The river pours down the side of the mountains to the \nwest, originating from a large hole in the face of one of \nthe sheer rock protuberances.  The energy barrier climbs \nright up the mountain, and seals off any means of escape \nby that means.  The trail you are on runs by the side of \nthe river to the east, and a path leads by the forest side\nto the south.", 
+    "desc": "The river pours down the side of the mountains to the \nwest, originating from a large hole in the face of one of \nthe sheer rock protuberances.  The energy barrier climbs \nright up the mountain, and seals off any means of escape \nby that means.  The trail you are on runs by the side of \nthe river to the east, and a path leads by the forest side\nto the south.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6239
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6241
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6240, 
-    "name": "A River's Edge", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6240,
+    "name": "A River's Edge",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The forest is just to your west, with a side trail \nleading deep inside from here.  The main trail you are on,\nhowever, heads north towards the river, and south near \nwhere a trail leads up to a cave in the mountain side.  \nThere doesn't seem to be a whole lot to capture your \nattention here...", 
+    "desc": "The forest is just to your west, with a side trail \nleading deep inside from here.  The main trail you are on,\nhowever, heads north towards the river, and south near \nwhere a trail leads up to a cave in the mountain side.  \nThere doesn't seem to be a whole lot to capture your \nattention here...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6240
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6238
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6234
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 6241, 
-    "name": "A Rocky Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 6241,
+    "name": "A Rocky Trail",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "You are half blinded by the differences of the outdoors\nillumination and the pure darkness of the cave.  A deep,\ncloying stench flows out from the cave mouth; the smells\nof decay, unwashed bodies, and sickness in one roiling \nodor.  Your stomach turns involuntarily, and you wonder \nabout going back down the hill to the east, instead of \ngoing even further down the western tunnel.", 
+    "desc": "You are half blinded by the differences of the outdoors\nillumination and the pure darkness of the cave.  A deep,\ncloying stench flows out from the cave mouth; the smells\nof decay, unwashed bodies, and sickness in one roiling \nodor.  Your stomach turns involuntarily, and you wonder \nabout going back down the hill to the east, instead of \ngoing even further down the western tunnel.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6234
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6243
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6242, 
-    "name": "A Cave Entrance", 
+    ],
+    "id": 6242,
+    "name": "A Cave Entrance",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The tunnel forks here, one branch leading north, the \nother west.  Additionally, you can head back outside to \nthe east, which seems like a very good idea to your \ntortured nasal passages.  Your eyes water from the stench,\nand you clench your left hand tightly to keep control of \nyour bile.\n   Forcing your eyes open, you notice the warning signs\npainted around the tunnel to the north.", 
+    "desc": "The tunnel forks here, one branch leading north, the \nother west.  Additionally, you can head back outside to \nthe east, which seems like a very good idea to your \ntortured nasal passages.  Your eyes water from the stench,\nand you clench your left hand tightly to keep control of \nyour bile.\n   Forcing your eyes open, you notice the warning signs\npainted around the tunnel to the north.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6255
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6242
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6244
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "They are orcish, and you could swear they were all warning\nsymbols.", 
+        "desc": "They are orcish, and you could swear they were all warning\nsymbols.",
         "keywords": [
-          "painting", 
-          "sign", 
+          "painting",
+          "sign",
           "signs"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6243, 
-    "name": "A Tunnel Forking", 
+    ],
+    "id": 6243,
+    "name": "A Tunnel Forking",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The floor is slick with the humidity that boils out of\nthe lower reaches of this cave, bringing that most awful \nsmell with it.  Again, you consider saving your nose the \ntrip west and down the tunnel, and heading back east to \nthe cave entrance.", 
+    "desc": "The floor is slick with the humidity that boils out of\nthe lower reaches of this cave, bringing that most awful \nsmell with it.  Again, you consider saving your nose the \ntrip west and down the tunnel, and heading back east to \nthe cave entrance.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6243
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6245
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6244, 
-    "name": "A Tunnel", 
+    ],
+    "id": 6244,
+    "name": "A Tunnel",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "The tunnel takes a deep dip here, and opens up into a \nlargish cave to the west.  There seems to be a few faint \nlights from inside, and you hear some heavy breathing and \nlow grunts from that direction.  The cave entrance to the \neast seems far too far away for your comfort...", 
+    "desc": "The tunnel takes a deep dip here, and opens up into a \nlargish cave to the west.  There seems to be a few faint \nlights from inside, and you hear some heavy breathing and \nlow grunts from that direction.  The cave entrance to the \neast seems far too far away for your comfort...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6244
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6251
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6245, 
-    "name": "A Tunnel", 
+    ],
+    "id": 6245,
+    "name": "A Tunnel",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "Heaps of rotting meat and cups of near-drinkable water\nsit here; the orc food stores.  You stand here and wonder\nin near-disbelief at how the orcs could find this stuff\npalatable.  They're orcs; its their nature and their\nstomachs you guess.  Oddly enough, you don't even care to \ncatalog what they have available -- there's no chance you're \ngoing to take any of this...", 
+    "desc": "Heaps of rotting meat and cups of near-drinkable water\nsit here; the orc food stores.  You stand here and wonder\nin near-disbelief at how the orcs could find this stuff\npalatable.  They're orcs; its their nature and their\nstomachs you guess.  Oddly enough, you don't even care to \ncatalog what they have available -- there's no chance you're \ngoing to take any of this...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6247
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6249
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6246, 
-    "name": "A Cave", 
+    ],
+    "id": 6246,
+    "name": "A Cave",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "A single corpse lies here, well away from a pile of \nsimilars to the east.  There are several sharpened stakes \nand rocks sitting about conveniently.  The way the corpse \nis lying, the stone next to its hand... this is a suicide \narea!  You look down upon the orc and comprehend its \nsuffering in its twisted form.  How sad.", 
+    "desc": "A single corpse lies here, well away from a pile of \nsimilars to the east.  There are several sharpened stakes \nand rocks sitting about conveniently.  The way the corpse \nis lying, the stone next to its hand... this is a suicide \narea!  You look down upon the orc and comprehend its \nsuffering in its twisted form.  How sad.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6248
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6250
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6246
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6247, 
-    "name": "A Cave", 
+    ],
+    "id": 6247,
+    "name": "A Cave",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "There are bodies here... corpses.  Orcs, the lot of \nthem, every single one of them horribly disfigured in \nsome senseless way; one whose arms were removed, another \nwho lacks anything that could sensibly be called a face. \nA few twitch feebly with the last remains of life, the \nrest just decompose.  The dim sense of horror budding in \nyour head blossoms as you realize the pile in the corner \nconsists of dead orc children awaiting burial.", 
+    "desc": "There are bodies here... corpses.  Orcs, the lot of \nthem, every single one of them horribly disfigured in \nsome senseless way; one whose arms were removed, another \nwho lacks anything that could sensibly be called a face. \nA few twitch feebly with the last remains of life, the \nrest just decompose.  The dim sense of horror budding in \nyour head blossoms as you realize the pile in the corner \nconsists of dead orc children awaiting burial.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6251
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6247
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6248, 
-    "name": "A Cave", 
+    ],
+    "id": 6248,
+    "name": "A Cave",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "A few sleeping pallets, made of moldy straw and \nstinking furs are arranged around a small firepit here.  \nA wooden cup, carved by a crude tool and cruder hands \nsits near the ashes filled with water you consider \nundrinkable.  Somewhere to the east you hear an orc \nchild's whining cry, and a voice hushes it urgently.  \nBeware, orcs!  Adventurers are here!  Hide your children!", 
+    "desc": "A few sleeping pallets, made of moldy straw and \nstinking furs are arranged around a small firepit here.  \nA wooden cup, carved by a crude tool and cruder hands \nsits near the ashes filled with water you consider \nundrinkable.  Somewhere to the east you hear an orc \nchild's whining cry, and a voice hushes it urgently.  \nBeware, orcs!  Adventurers are here!  Hide your children!",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6246
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6250
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6252
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6249, 
-    "name": "A Cave", 
+    ],
+    "id": 6249,
+    "name": "A Cave",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "Several grass sleeping pallets are here, clustered \naround the remains of an old fire.  The sloping of the \ncave's ceiling allow for smoke ventilation towards the \nsurface in here you note, lucky for the orcs.  A few \nstrings of burnt meat still hang over the fire, untended \nand uneaten.  On the floor near your feet you spy a small, \ntwisted piece of wire... one orc's idea of a treasured ring, \nno doubt.  Kicking the trinket away, you try to push the \npity out of your heart for these wretches.", 
+    "desc": "Several grass sleeping pallets are here, clustered \naround the remains of an old fire.  The sloping of the \ncave's ceiling allow for smoke ventilation towards the \nsurface in here you note, lucky for the orcs.  A few \nstrings of burnt meat still hang over the fire, untended \nand uneaten.  On the floor near your feet you spy a small, \ntwisted piece of wire... one orc's idea of a treasured ring, \nno doubt.  Kicking the trinket away, you try to push the \npity out of your heart for these wretches.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6247
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6251
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6253
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6249
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6250, 
-    "name": "A Cave", 
+    ],
+    "id": 6250,
+    "name": "A Cave",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "You are standing just inside a largish cave, about a \nhundred feet in diameter.  A few dim make-shift lanterns \nburning animal fat illuminate the area, just enough so you\ncan see the rotted food on the floor, and a few bodies \nsprawled throughout the whole area.  Your disgust quickly \nturns to horror as you see a horrible creature, half...\nwell, half something and half orc dash between two \nstalagmites.", 
+    "desc": "You are standing just inside a largish cave, about a \nhundred feet in diameter.  A few dim make-shift lanterns \nburning animal fat illuminate the area, just enough so you\ncan see the rotted food on the floor, and a few bodies \nsprawled throughout the whole area.  Your disgust quickly \nturns to horror as you see a horrible creature, half...\nwell, half something and half orc dash between two \nstalagmites.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6248
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6245
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6254
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6250
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6251, 
-    "name": "A Cave", 
+    ],
+    "id": 6251,
+    "name": "A Cave",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "This must be the orc chief's area.  There's an old \nprize -- a stolen timeworn human armchair sitting near \nthe south wall as a throne.  A mammoth sleeping pallet \nmade of piled furs is nearby.  Next to that is the pile \nof orc treasure; a pile of well-polished coppers.  You \nlook at the pile of worthless coins and wonder at the \nimage of orcish raiders.\n   These orcs aren't raiders, they are victims.", 
+    "desc": "This must be the orc chief's area.  There's an old \nprize -- a stolen timeworn human armchair sitting near \nthe south wall as a throne.  A mammoth sleeping pallet \nmade of piled furs is nearby.  Next to that is the pile \nof orc treasure; a pile of well-polished coppers.  You \nlook at the pile of worthless coins and wonder at the \nimage of orcish raiders.\n   These orcs aren't raiders, they are victims.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6249
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6253
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6252, 
-    "name": "A Cave", 
+    ],
+    "id": 6252,
+    "name": "A Cave",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "Many sleeping pallets are arranged near the walls, each\nmade of heavy fur padding for comfort and warmth.  Many \nare covered with blood and other, unidentifiable \nsubstances.  Looking around, your only coherent thought \nis, 'Don't want to know... don't want to know...'", 
+    "desc": "Many sleeping pallets are arranged near the walls, each\nmade of heavy fur padding for comfort and warmth.  Many \nare covered with blood and other, unidentifiable \nsubstances.  Looking around, your only coherent thought \nis, 'Don't want to know... don't want to know...'",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6250
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6254
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6252
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6253, 
-    "name": "A Cave", 
+    ],
+    "id": 6253,
+    "name": "A Cave",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "This area of the cave is one vast orc sickroom.  \nMutated and mangled orcs lie on the floor, seeming quiet, \nlifeless.  They're not even worth your time, you think, \nunless you've the mercy to put them out of their misery.\n   You look at the corruption of nature's design and \nwonder what forces are at work here... the barrier, the \norcs...  What's going on here?", 
+    "desc": "This area of the cave is one vast orc sickroom.  \nMutated and mangled orcs lie on the floor, seeming quiet, \nlifeless.  They're not even worth your time, you think, \nunless you've the mercy to put them out of their misery.\n   You look at the corruption of nature's design and \nwonder what forces are at work here... the barrier, the \norcs...  What's going on here?",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6251
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6253
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6254, 
-    "name": "A Cave", 
+    ],
+    "id": 6254,
+    "name": "A Cave",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "This forking off from the mail tunnel seems odd; the \nwalls are strangely smooth, as if they were carved out by \nforces unknown.  The end is abrupt and short, but there is\na steel door inset in the wall of the west side of the \ntunnel.  The smell from the lower tunnel doesn't seem \nnearly as bad here... this might be a good place to rest\nand catch your breath.", 
+    "desc": "This forking off from the mail tunnel seems odd; the \nwalls are strangely smooth, as if they were carved out by \nforces unknown.  The end is abrupt and short, but there is\na steel door inset in the wall of the west side of the \ntunnel.  The smell from the lower tunnel doesn't seem \nnearly as bad here... this might be a good place to rest\nand catch your breath.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6243
-      }, 
+      },
       {
-        "desc": "A large steel door.  There seems to be no hinges or knob,\nbut there is a small keyhole in the exact center of it.", 
-        "dir": 3, 
+        "desc": "A large steel door.  There seems to be no hinges or knob,\nbut there is a small keyhole in the exact center of it.",
+        "dir": 3,
         "door_flag": {
-          "note": "PICKPROOF", 
+          "note": "PICKPROOF",
           "value": 2
-        }, 
-        "key_number": 6200, 
+        },
+        "key_number": 6200,
         "keywords": [
-          "door", 
+          "door",
           "steel"
-        ], 
+        ],
         "room_linked": 6256
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6255, 
-    "name": "A Tunnel", 
+    ],
+    "id": 6255,
+    "name": "A Tunnel",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "This section of man-made tunnel heads north from here,\ndoors on either side.  A few glowing spots on the ceiling \nilluminate the area to almost a daylight level.  From the \nnorth you hear some horrible cries of pain and anguish \nthat make you cringe inside and think twice about heading \nin that direction.", 
+    "desc": "This section of man-made tunnel heads north from here,\ndoors on either side.  A few glowing spots on the ceiling \nilluminate the area to almost a daylight level.  From the \nnorth you hear some horrible cries of pain and anguish \nthat make you cringe inside and think twice about heading \nin that direction.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6258
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "PICKPROOF", 
+          "note": "PICKPROOF",
           "value": 2
-        }, 
-        "key_number": 6200, 
+        },
+        "key_number": 6200,
         "keywords": [
-          "door", 
+          "door",
           "steel"
-        ], 
+        ],
         "room_linked": 6255
-      }, 
+      },
       {
-        "desc": "This is a normal, wooden door.", 
-        "dir": 3, 
+        "desc": "This is a normal, wooden door.",
+        "dir": 3,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
+          "door",
           "wooden"
-        ], 
+        ],
         "room_linked": 6257
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6256, 
-    "name": "A Tunnel", 
+    ],
+    "id": 6256,
+    "name": "A Tunnel",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "This is a bedroom, catered to someone with a definite \nsense of taste.  There's a chest of drawers made of a \nsolid section of oak tree.  In fact, most of the furniture\nhere has that 'natural look' about it.  The bed is filled \nwith soft down with an ornate table lamp close by.  Nice \nplace.", 
+    "desc": "This is a bedroom, catered to someone with a definite \nsense of taste.  There's a chest of drawers made of a \nsolid section of oak tree.  In fact, most of the furniture\nhere has that 'natural look' about it.  The bed is filled \nwith soft down with an ornate table lamp close by.  Nice \nplace.",
     "exits": [
       {
-        "desc": "A normal, wooden door.", 
-        "dir": 1, 
+        "desc": "A normal, wooden door.",
+        "dir": 1,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
+          "door",
           "wooden"
-        ], 
+        ],
         "room_linked": 6256
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6257, 
-    "name": "A Bedroom", 
+    ],
+    "id": 6257,
+    "name": "A Bedroom",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "This tunnel opens up into a large room to the north, \nand to the south, leads towards a set of doors.  The light\nis crisp and bright, clearly showing the lack of tool \nmarks on the hewn walls... magic?  The room just ahead is \nlarge, and also well-lighted, giving it an almost clinical\natmosphere.  Somewhere in the recesses of that room \nsomething cries out in a horrible crackling voice.  Not \ngood.", 
+    "desc": "This tunnel opens up into a large room to the north, \nand to the south, leads towards a set of doors.  The light\nis crisp and bright, clearly showing the lack of tool \nmarks on the hewn walls... magic?  The room just ahead is \nlarge, and also well-lighted, giving it an almost clinical\natmosphere.  Somewhere in the recesses of that room \nsomething cries out in a horrible crackling voice.  Not \ngood.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6266
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6256
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6258, 
-    "name": "A Tunnel", 
+    ],
+    "id": 6258,
+    "name": "A Tunnel",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "A full fledge operating table is set up here, outfitted\nwith a full set of restraints.  A ledge nearby has a whole\narray of sterile medical equipment on it, covered over by \na clear lid.  There's a drain in the floor with gradients \nleading to it to carry away the blood.  For some reason, \nyou don't imagine this as a voluntary operating theatre...", 
+    "desc": "A full fledge operating table is set up here, outfitted\nwith a full set of restraints.  A ledge nearby has a whole\narray of sterile medical equipment on it, covered over by \na clear lid.  There's a drain in the floor with gradients \nleading to it to carry away the blood.  For some reason, \nyou don't imagine this as a voluntary operating theatre...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6260
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6262
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6259, 
-    "name": "The Laboratory", 
+    ],
+    "id": 6259,
+    "name": "The Laboratory",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "Another table is set up will all sorts of alchemical \napparatus here, vials and beakers, distillation equipment \nand et cetera.  The stuff looks expensive, but bulky and \nfragile; not good treasure to cart away with you at all.", 
+    "desc": "Another table is set up will all sorts of alchemical \napparatus here, vials and beakers, distillation equipment \nand et cetera.  The stuff looks expensive, but bulky and \nfragile; not good treasure to cart away with you at all.",
     "exits": [
       {
-        "desc": "A steel cell door.", 
-        "dir": 1, 
+        "desc": "A steel cell door.",
+        "dir": 1,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": 6200, 
+        },
+        "key_number": 6200,
         "keywords": [
-          "door", 
+          "door",
           "steel"
-        ], 
+        ],
         "room_linked": 6261
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6263
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6259
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6260, 
-    "name": "The Laboratory", 
+    ],
+    "id": 6260,
+    "name": "The Laboratory",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "This is a small, dirty cage, with only a bucket for \nwastes, another bucket for food, and a dirty towel for a \nbed.  The whole room has a terrible stench about it.", 
+    "desc": "This is a small, dirty cage, with only a bucket for \nwastes, another bucket for food, and a dirty towel for a \nbed.  The whole room has a terrible stench about it.",
     "exits": [
       {
-        "desc": "A steel cell door.", 
-        "dir": 3, 
+        "desc": "A steel cell door.",
+        "dir": 3,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": 6200, 
+        },
+        "key_number": 6200,
         "keywords": [
-          "door", 
+          "door",
           "steel"
-        ], 
+        ],
         "room_linked": 6260
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6261, 
-    "name": "A Cage", 
+    ],
+    "id": 6261,
+    "name": "A Cage",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "Some small cages sit here, containing many different \ntypes of rodents.  Leaning down to look better, you are \nvery surprised as a tiny, common garden mouse growls at \nyou and tries to rip your face off through the bars.  \nThere are some bulges on its back, and it doesn't seem to \nbe in a very good mood.  It quivers some, not fully in\ncontrol of its motor functions.  Poor thing.", 
+    "desc": "Some small cages sit here, containing many different \ntypes of rodents.  Leaning down to look better, you are \nvery surprised as a tiny, common garden mouse growls at \nyou and tries to rip your face off through the bars.  \nThere are some bulges on its back, and it doesn't seem to \nbe in a very good mood.  It quivers some, not fully in\ncontrol of its motor functions.  Poor thing.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6259
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6263
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6265
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6262, 
-    "name": "The Laboratory", 
+    ],
+    "id": 6262,
+    "name": "The Laboratory",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "A rack stands near the cages on the eastern wall, \nfilled with shackles and manacles, bullwhips and worse.  \nThey all look well-used.  You give a shiver, and carry on.", 
+    "desc": "A rack stands near the cages on the eastern wall, \nfilled with shackles and manacles, bullwhips and worse.  \nThey all look well-used.  You give a shiver, and carry on.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6260
-      }, 
+      },
       {
-        "desc": "A steel cell door.", 
-        "dir": 1, 
+        "desc": "A steel cell door.",
+        "dir": 1,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": 6200, 
+        },
+        "key_number": 6200,
         "keywords": [
-          "door", 
+          "door",
           "cell"
-        ], 
+        ],
         "room_linked": 6264
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6266
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6262
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6263, 
-    "name": "The Laboratory", 
+    ],
+    "id": 6263,
+    "name": "The Laboratory",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "This is a small, dirty cage, with only a bucket for \nwastes, another bucket for food, and a dirty towel for a \nbed.  The whole room has a terrible stench about it.", 
+    "desc": "This is a small, dirty cage, with only a bucket for \nwastes, another bucket for food, and a dirty towel for a \nbed.  The whole room has a terrible stench about it.",
     "exits": [
       {
-        "desc": "A steel cell door.", 
-        "dir": 3, 
+        "desc": "A steel cell door.",
+        "dir": 3,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": 6200, 
+        },
+        "key_number": 6200,
         "keywords": [
-          "door", 
+          "door",
           "steel"
-        ], 
+        ],
         "room_linked": 6263
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6264, 
-    "name": "A Cage", 
+    ],
+    "id": 6264,
+    "name": "A Cage",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "This is the southwest corner of the lab.  There's no \nequipment here, merely several pairs of heavy steel \nshackles on the southern wall.  There's also some a few \nsmall bloodstains on the floor beneath the shackles.", 
+    "desc": "This is the southwest corner of the lab.  There's no \nequipment here, merely several pairs of heavy steel \nshackles on the southern wall.  There's also some a few \nsmall bloodstains on the floor beneath the shackles.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6262
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6266
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6265, 
-    "name": "The Laboratory", 
+    ],
+    "id": 6265,
+    "name": "The Laboratory",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "This is a fairly roomy laboratory that extends to the \nnorth, with cages set on the east side of the room.  A \nmetal table here is empty, although you can see some \noutlines in the dust that suggest books had laid here \nonce.", 
+    "desc": "This is a fairly roomy laboratory that extends to the \nnorth, with cages set on the east side of the room.  A \nmetal table here is empty, although you can see some \noutlines in the dust that suggest books had laid here \nonce.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6263
-      }, 
+      },
       {
-        "desc": "A steel cell door.", 
-        "dir": 1, 
+        "desc": "A steel cell door.",
+        "dir": 1,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": 6200, 
+        },
+        "key_number": 6200,
         "keywords": [
-          "cell", 
+          "cell",
           "door"
-        ], 
+        ],
         "room_linked": 6267
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6258
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6265
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6266, 
-    "name": "The Laboratory", 
+    ],
+    "id": 6266,
+    "name": "The Laboratory",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 62
-  }, 
+  },
   {
-    "desc": "This is a small, dirty cage, with only a bucket for \nwastes, another bucket for food, and a dirty towel for a \nbed.  The whole room has a terrible stench about it.", 
+    "desc": "This is a small, dirty cage, with only a bucket for \nwastes, another bucket for food, and a dirty towel for a \nbed.  The whole room has a terrible stench about it.",
     "exits": [
       {
-        "desc": "A steel cell door.", 
-        "dir": 3, 
+        "desc": "A steel cell door.",
+        "dir": 3,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": 6200, 
+        },
+        "key_number": 6200,
         "keywords": [
-          "door", 
+          "door",
           "cell"
-        ], 
+        ],
         "room_linked": 6266
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6267, 
-    "name": "A Cage", 
+    ],
+    "id": 6267,
+    "name": "A Cage",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 62
   }
 ]

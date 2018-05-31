@@ -1,22 +1,22 @@
 [
   {
-    "bottom_room": 0, 
-    "doors": [], 
-    "id": 0, 
-    "lifespan": 10, 
+    "bottom_room": 0,
+    "doors": [],
+    "id": 0,
+    "lifespan": 10,
     "mobs": [
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 1, 
-        "mob": 1, 
+        "equipped": [],
+        "inventory": [],
+        "max": 1,
+        "mob": 1,
         "room": 1
       }
-    ], 
-    "name": "Limbo - Internal", 
-    "objects": [], 
-    "remove_objects": [], 
-    "reset_mode": 2, 
+    ],
+    "name": "Limbo - Internal",
+    "objects": [],
+    "remove_objects": [],
+    "reset_mode": 2,
     "top_room": 99
   }
 ]

@@ -1,1449 +1,1449 @@
 [
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "mace", 
+      "mace",
       "egyptian"
-    ], 
-    "cost": 800, 
-    "effects": [], 
+    ],
+    "cost": 800,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "The mace is formed from solid brass, and engraved in strange hieroglyphs.", 
+        "desc": "The mace is formed from solid brass, and engraved in strange hieroglyphs.",
         "keywords": [
-          "mace", 
+          "mace",
           "egyptian"
         ]
       }
-    ], 
-    "id": 5300, 
-    "long_desc": "A hierogylph-engraved mace has been left here.", 
-    "rent": 50, 
-    "short_desc": "an egyptian mace", 
+    ],
+    "id": 5300,
+    "long_desc": "A hierogylph-engraved mace has been left here.",
+    "rent": 50,
+    "short_desc": "an egyptian mace",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      2, 
-      6, 
+      0,
+      2,
+      6,
       7
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 10
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "robe", 
+      "robe",
       "sand"
-    ], 
-    "cost": 500, 
-    "effects": [], 
+    ],
+    "cost": 500,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "The robes are colored a sandy off-white, and are in fact caked and covered\nwith sand as well.  You don't seem to be able to remove all of the sand, no\nmatter how much you try.", 
+        "desc": "The robes are colored a sandy off-white, and are in fact caked and covered\nwith sand as well.  You don't seem to be able to remove all of the sand, no\nmatter how much you try.",
         "keywords": [
-          "robes", 
+          "robes",
           "sand"
         ]
       }
-    ], 
-    "id": 5301, 
-    "long_desc": "Sand-colored robes lie here.", 
-    "rent": 40, 
-    "short_desc": "some sand-colored robes", 
+    ],
+    "id": 5301,
+    "long_desc": "Sand-colored robes lie here.",
+    "rent": 40,
+    "short_desc": "some sand-colored robes",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      4, 
-      0, 
-      0, 
+      4,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_ABOUT", 
+        "note": "WEAR_ABOUT",
         "value": 1024
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 2, 
-        "note": "DEX", 
+        "location": 2,
+        "note": "DEX",
         "value": 1
-      }, 
+      },
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 1
       }
-    ], 
+    ],
     "aliases": [
-      "dirk", 
+      "dirk",
       "obsidian"
-    ], 
-    "cost": 1000, 
+    ],
+    "cost": 1000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The blade of the dirk is black, glassy obsidian, chipped razor sharp.", 
+        "desc": "The blade of the dirk is black, glassy obsidian, chipped razor sharp.",
         "keywords": [
-          "dirk", 
+          "dirk",
           "obsidian"
         ]
       }
-    ], 
-    "id": 5302, 
-    "long_desc": "A flat dirk made of chipped obsidian lies here.", 
-    "rent": 100, 
-    "short_desc": "an obsidian dirk", 
+    ],
+    "id": 5302,
+    "long_desc": "A flat dirk made of chipped obsidian lies here.",
+    "rent": 100,
+    "short_desc": "an obsidian dirk",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      3, 
-      3, 
+      0,
+      3,
+      3,
       11
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 8
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 2, 
-        "note": "DEX", 
+        "location": 2,
+        "note": "DEX",
         "value": 1
-      }, 
+      },
       {
-        "location": 13, 
-        "note": "HIT", 
+        "location": 13,
+        "note": "HIT",
         "value": 5
       }
-    ], 
+    ],
     "aliases": [
-      "turban", 
+      "turban",
       "cloth"
-    ], 
-    "cost": 1500, 
+    ],
+    "cost": 1500,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The turban used to be white cloth, now it is covered with oil and dirt from\nthe head and hair of its previous owner, who must not have bathed much.", 
+        "desc": "The turban used to be white cloth, now it is covered with oil and dirt from\nthe head and hair of its previous owner, who must not have bathed much.",
         "keywords": [
-          "turban", 
+          "turban",
           "cloth"
         ]
       }
-    ], 
-    "id": 5303, 
-    "long_desc": "A dirty cloth turban has been forgotten here.", 
-    "rent": 250, 
-    "short_desc": "a dirty cloth turban", 
+    ],
+    "id": 5303,
+    "long_desc": "A dirty cloth turban has been forgotten here.",
+    "rent": 250,
+    "short_desc": "a dirty cloth turban",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      5, 
-      0, 
-      0, 
+      5,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HEAD", 
+        "note": "WEAR_HEAD",
         "value": 16
       }
-    ], 
+    ],
     "weight": 10
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "wrappings", 
+      "wrappings",
       "cloth"
-    ], 
-    "cost": 1250, 
-    "effects": [], 
+    ],
+    "cost": 1250,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "The cloth wrappings are old, wrinkled, and stink of embalming fluid.", 
+        "desc": "The cloth wrappings are old, wrinkled, and stink of embalming fluid.",
         "keywords": [
-          "wrappings", 
+          "wrappings",
           "cloth"
         ]
       }
-    ], 
-    "id": 5304, 
-    "long_desc": "Long cloth wrappings lie on the ground in a pile.", 
-    "rent": 175, 
-    "short_desc": "some cloth wrappings", 
+    ],
+    "id": 5304,
+    "long_desc": "Long cloth wrappings lie on the ground in a pile.",
+    "rent": 175,
+    "short_desc": "some cloth wrappings",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      5, 
-      0, 
-      0, 
+      5,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_BODY", 
+        "note": "WEAR_BODY",
         "value": 8
       }
-    ], 
+    ],
     "weight": 15
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "bottle", 
+      "bottle",
       "fluid"
-    ], 
-    "cost": 250, 
-    "effects": [], 
+    ],
+    "cost": 250,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "The bottle is dusty and the fluid has a strange sickly-sweet smell to it.", 
+        "desc": "The bottle is dusty and the fluid has a strange sickly-sweet smell to it.",
         "keywords": [
-          "bottle", 
+          "bottle",
           "fluid"
         ]
       }
-    ], 
-    "id": 5305, 
-    "long_desc": "A dusty bottle lies here on the ground.", 
-    "rent": 50, 
-    "short_desc": "a bottle of embalming fluid", 
+    ],
+    "id": 5305,
+    "long_desc": "A dusty bottle lies here on the ground.",
+    "rent": 50,
+    "short_desc": "a bottle of embalming fluid",
     "type": {
-      "note": "POTION", 
+      "note": "POTION",
       "value": 10
-    }, 
+    },
     "values": [
-      5, 
-      33, 
-      -1, 
+      5,
+      33,
+      -1,
       -1
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "jar", 
+      "jar",
       "formaldehyde"
-    ], 
-    "cost": 300, 
-    "effects": [], 
+    ],
+    "cost": 300,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "The jar is sticky and smells really bad.", 
+        "desc": "The jar is sticky and smells really bad.",
         "keywords": [
-          "jar", 
+          "jar",
           "formaldehyde"
         ]
       }
-    ], 
-    "id": 5306, 
-    "long_desc": "A small jar lies here on the ground.", 
-    "rent": 60, 
-    "short_desc": "a jar of formaldehyde", 
+    ],
+    "id": 5306,
+    "long_desc": "A small jar lies here on the ground.",
+    "rent": 60,
+    "short_desc": "a jar of formaldehyde",
     "type": {
-      "note": "POTION", 
+      "note": "POTION",
       "value": 10
-    }, 
+    },
     "values": [
-      10, 
-      16, 
-      -1, 
+      10,
+      16,
+      -1,
       -1
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 6
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 13, 
-        "note": "HIT", 
+        "location": 13,
+        "note": "HIT",
         "value": 10
-      }, 
+      },
       {
-        "location": 14, 
-        "note": "MOVE", 
+        "location": 14,
+        "note": "MOVE",
         "value": 50
       }
-    ], 
+    ],
     "aliases": [
-      "ball", 
+      "ball",
       "fire"
-    ], 
-    "cost": 3500, 
+    ],
+    "cost": 3500,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_WARRIOR", 
+        "note": "ANTI_WARRIOR",
         "value": 32768
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The ball of fire is hot to the touch and very very bright.", 
+        "desc": "The ball of fire is hot to the touch and very very bright.",
         "keywords": [
-          "ball", 
+          "ball",
           "fire"
         ]
       }
-    ], 
-    "id": 5307, 
-    "long_desc": "A little ball of fire hovers in the air before your eyes.", 
-    "rent": 500, 
-    "short_desc": "a small hot ball of fire", 
+    ],
+    "id": 5307,
+    "long_desc": "A little ball of fire hovers in the air before your eyes.",
+    "rent": 500,
+    "short_desc": "a small hot ball of fire",
     "type": {
-      "note": "LIGHT", 
+      "note": "LIGHT",
       "value": 1
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      -1, 
+      0,
+      0,
+      -1,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 10
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 2
-      }, 
+      },
       {
-        "location": 19, 
-        "note": "DAMROLL", 
+        "location": 19,
+        "note": "DAMROLL",
         "value": 3
       }
-    ], 
+    ],
     "aliases": [
-      "scimitar", 
+      "scimitar",
       "stone"
-    ], 
-    "cost": 10000, 
+    ],
+    "cost": 10000,
     "effects": [
       {
-        "note": "HUM", 
+        "note": "HUM",
         "value": 2
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_MAGIC_USER", 
+        "note": "ANTI_MAGIC_USER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "ANTI_CLERIC", 
+        "note": "ANTI_CLERIC",
         "value": 8192
-      }, 
+      },
       {
-        "note": "ANTI_THIEF", 
+        "note": "ANTI_THIEF",
         "value": 16384
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The scimitar is formed from solid stone, chipped and carved to perfection,\nwith a sharp, cold blade that is marred only by a few nicks here and there.", 
+        "desc": "The scimitar is formed from solid stone, chipped and carved to perfection,\nwith a sharp, cold blade that is marred only by a few nicks here and there.",
         "keywords": [
-          "scimitar", 
+          "scimitar",
           "stone"
         ]
       }
-    ], 
-    "id": 5308, 
-    "long_desc": "A curved scimitar made of stone rests on the ground.", 
-    "rent": 750, 
-    "short_desc": "a stone scimitar", 
+    ],
+    "id": 5308,
+    "long_desc": "A curved scimitar made of stone rests on the ground.",
+    "rent": 750,
+    "short_desc": "a stone scimitar",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      4, 
-      3, 
+      0,
+      4,
+      3,
       3
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 18
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "key", 
+      "key",
       "stone"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The key is made from stone, but is otherwise unremarkable.", 
+        "desc": "The key is made from stone, but is otherwise unremarkable.",
         "keywords": [
-          "key", 
+          "key",
           "stone"
         ]
       }
-    ], 
-    "id": 5309, 
-    "long_desc": "A stone key has been dropped here.", 
-    "rent": 0, 
-    "short_desc": "a stone key", 
+    ],
+    "id": 5309,
+    "long_desc": "A stone key has been dropped here.",
+    "rent": 0,
+    "short_desc": "a stone key",
     "type": {
-      "note": "KEY", 
+      "note": "KEY",
       "value": 18
-    }, 
+    },
     "values": [
-      5309, 
-      0, 
-      0, 
+      5309,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 15
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "sarcophagus", 
+      "sarcophagus",
       "stone"
-    ], 
-    "cost": 5000, 
-    "effects": [], 
+    ],
+    "cost": 5000,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "The sarcophagus is engraved on the sides with the images of pharoahs,\ngreat wars fought long ago, mighty pyramids being constructed...\n\nA raised image atop the sarcophagus is formed in the visage of one of\nthe mighty pharoahs, painted in gold and studded with precious gems.\n\nYou see a small keyhole in the side of the sarcophagus.", 
+        "desc": "The sarcophagus is engraved on the sides with the images of pharoahs,\ngreat wars fought long ago, mighty pyramids being constructed...\n\nA raised image atop the sarcophagus is formed in the visage of one of\nthe mighty pharoahs, painted in gold and studded with precious gems.\n\nYou see a small keyhole in the side of the sarcophagus.",
         "keywords": [
-          "sarcophagus", 
+          "sarcophagus",
           "stone"
         ]
       }
-    ], 
-    "id": 5310, 
-    "long_desc": "A mighty stone sarcophagus lies in the center of the tomb.", 
-    "rent": 5000, 
-    "short_desc": "a mighty stone sarcophagus", 
+    ],
+    "id": 5310,
+    "long_desc": "A mighty stone sarcophagus lies in the center of the tomb.",
+    "rent": 5000,
+    "short_desc": "a mighty stone sarcophagus",
     "type": {
-      "note": "CONTAINER", 
+      "note": "CONTAINER",
       "value": 15
-    }, 
+    },
     "values": [
-      500, 
-      15, 
-      5309, 
+      500,
+      15,
+      5309,
       0
-    ], 
-    "wear": [], 
+    ],
+    "wear": [],
     "weight": 5000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "dust"
-    ], 
-    "cost": 1, 
-    "effects": [], 
+    ],
+    "cost": 1,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "The dust is old.  As you sift it through your hands you find tiny chips\nof aged bone inside -- it must be the ancient remains of something.", 
+        "desc": "The dust is old.  As you sift it through your hands you find tiny chips\nof aged bone inside -- it must be the ancient remains of something.",
         "keywords": [
           "dust"
         ]
       }
-    ], 
-    "id": 5311, 
-    "long_desc": "A small pile of dust is being scattered by the breeze.", 
-    "rent": 1, 
-    "short_desc": "some ancient dust", 
+    ],
+    "id": 5311,
+    "long_desc": "A small pile of dust is being scattered by the breeze.",
+    "rent": 1,
+    "short_desc": "some ancient dust",
     "type": {
-      "note": "TRASH", 
+      "note": "TRASH",
       "value": 13
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "scarab", 
+      "scarab",
       "emerald"
-    ], 
-    "cost": 0, 
+    ],
+    "cost": 0,
     "effects": [
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The scarab is intricately detailed, down to the tiny hairs on its\ninsectile legs and the faceting of the emeralds in its eyes.", 
+        "desc": "The scarab is intricately detailed, down to the tiny hairs on its\ninsectile legs and the faceting of the emeralds in its eyes.",
         "keywords": [
-          "scarab", 
+          "scarab",
           "emerald"
         ]
       }
-    ], 
-    "id": 5312, 
-    "long_desc": "A small emerald scarab lies here on the ground.", 
-    "rent": 0, 
-    "short_desc": "a small emerald scarab", 
+    ],
+    "id": 5312,
+    "long_desc": "A small emerald scarab lies here on the ground.",
+    "rent": 0,
+    "short_desc": "a small emerald scarab",
     "type": {
-      "note": "KEY", 
+      "note": "KEY",
       "value": 18
-    }, 
+    },
     "values": [
-      5312, 
-      0, 
-      0, 
+      5312,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 17, 
-        "note": "AC", 
+        "location": 17,
+        "note": "AC",
         "value": -5
-      }, 
+      },
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 1
       }
-    ], 
+    ],
     "aliases": [
       "lamp"
-    ], 
-    "cost": 25000, 
+    ],
+    "cost": 25000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "HUM", 
+        "note": "HUM",
         "value": 2
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_EVIL", 
+        "note": "ANTI_EVIL",
         "value": 1024
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The lamp is quite old and tarnished.  You rub at it to get some of the\ngrime off, but it doesn't seem like anybody is home.", 
+        "desc": "The lamp is quite old and tarnished.  You rub at it to get some of the\ngrime off, but it doesn't seem like anybody is home.",
         "keywords": [
           "lamp"
         ]
       }
-    ], 
-    "id": 5313, 
-    "long_desc": "A small, tarnished, battered lamp has been dropped here.", 
-    "rent": 600, 
-    "short_desc": "the lamp", 
+    ],
+    "id": 5313,
+    "long_desc": "A small, tarnished, battered lamp has been dropped here.",
+    "rent": 600,
+    "short_desc": "the lamp",
     "type": {
-      "note": "STAFF", 
+      "note": "STAFF",
       "value": 4
-    }, 
+    },
     "values": [
-      25, 
-      5, 
-      5, 
+      25,
+      5,
+      5,
       51
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 10
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 3, 
-        "note": "INT", 
+        "location": 3,
+        "note": "INT",
         "value": 1
-      }, 
+      },
       {
-        "location": 4, 
-        "note": "WIS", 
+        "location": 4,
+        "note": "WIS",
         "value": 2
       }
-    ], 
+    ],
     "aliases": [
       "ankh"
-    ], 
-    "cost": 10000, 
+    ],
+    "cost": 10000,
     "effects": [
       {
-        "note": "BLESS", 
+        "note": "BLESS",
         "value": 256
-      }, 
+      },
       {
-        "note": "ANTI_EVIL", 
+        "note": "ANTI_EVIL",
         "value": 1024
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The ankh is a small brass symbol of an ancient religion.  It glows\nwith a soft bright light that is soothing to you.", 
+        "desc": "The ankh is a small brass symbol of an ancient religion.  It glows\nwith a soft bright light that is soothing to you.",
         "keywords": [
           "ankh"
         ]
       }
-    ], 
-    "id": 5314, 
-    "long_desc": "A small brass ankh has been left here.", 
-    "rent": 300, 
-    "short_desc": "an ankh", 
+    ],
+    "id": 5314,
+    "long_desc": "A small brass ankh has been left here.",
+    "rent": 300,
+    "short_desc": "an ankh",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      7, 
-      0, 
-      0, 
+      7,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 9
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "book", 
+      "book",
       "riddles"
-    ], 
-    "cost": 7500, 
-    "effects": [], 
+    ],
+    "cost": 7500,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "The book has well-worn pages, containing many befuddling riddles\nto surprise, confuse, and amuse you.  You find yourself bewildered\nby its contents and put it down to sort your head out.", 
+        "desc": "The book has well-worn pages, containing many befuddling riddles\nto surprise, confuse, and amuse you.  You find yourself bewildered\nby its contents and put it down to sort your head out.",
         "keywords": [
-          "book", 
+          "book",
           "riddles"
         ]
       }
-    ], 
-    "id": 5315, 
-    "long_desc": "A medium-sized parchment book with well-worn pages lies here.", 
-    "rent": 250, 
-    "short_desc": "a book of riddles", 
+    ],
+    "id": 5315,
+    "long_desc": "A medium-sized parchment book with well-worn pages lies here.",
+    "rent": 250,
+    "short_desc": "a book of riddles",
     "type": {
-      "note": "SCROLL", 
+      "note": "SCROLL",
       "value": 2
-    }, 
+    },
     "values": [
-      21, 
-      201, 
-      20, 
+      21,
+      201,
+      20,
       22
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 15
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 5, 
-        "note": "CON", 
+        "location": 5,
+        "note": "CON",
         "value": 1
-      }, 
+      },
       {
-        "location": 18, 
-        "note": "HITROLL", 
+        "location": 18,
+        "note": "HITROLL",
         "value": 4
       }
-    ], 
+    ],
     "aliases": [
-      "paw", 
+      "paw",
       "lion"
-    ], 
-    "cost": 18000, 
+    ],
+    "cost": 18000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The massive paw has straps on it formed of bronze, so that it will\nfit snugly over your hand.  As you put it on, it melds with your hand,\nbecoming an extension of your arm.", 
+        "desc": "The massive paw has straps on it formed of bronze, so that it will\nfit snugly over your hand.  As you put it on, it melds with your hand,\nbecoming an extension of your arm.",
         "keywords": [
-          "paw", 
+          "paw",
           "lion"
         ]
       }
-    ], 
-    "id": 5316, 
-    "long_desc": "The mighty paw of a lion-like creature has been dropped here.", 
-    "rent": 600, 
-    "short_desc": "a lion's paw", 
+    ],
+    "id": 5316,
+    "long_desc": "The mighty paw of a lion-like creature has been dropped here.",
+    "rent": 600,
+    "short_desc": "a lion's paw",
     "type": {
-      "note": "WEAPON", 
+      "note": "WEAPON",
       "value": 5
-    }, 
+    },
     "values": [
-      0, 
-      1, 
-      14, 
+      0,
+      1,
+      14,
       5
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_WIELD", 
+        "note": "WEAR_WIELD",
         "value": 8192
       }
-    ], 
+    ],
     "weight": 20
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "parchment", 
+      "parchment",
       "answer"
-    ], 
-    "cost": 1, 
+    ],
+    "cost": 1,
     "effects": [
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "You cannot decipher the strange hieroglyphics that cover the\nsheet of parchment.", 
+        "desc": "You cannot decipher the strange hieroglyphics that cover the\nsheet of parchment.",
         "keywords": [
-          "answer", 
-          "hieroglyphics", 
+          "answer",
+          "hieroglyphics",
           "parchment"
         ]
       }
-    ], 
-    "id": 5317, 
-    "long_desc": "A small piece of parchment covered in hieroglyphics lies here.", 
-    "rent": 1, 
-    "short_desc": "the answer", 
+    ],
+    "id": 5317,
+    "long_desc": "A small piece of parchment covered in hieroglyphics lies here.",
+    "rent": 1,
+    "short_desc": "the answer",
     "type": {
-      "note": "KEY", 
+      "note": "KEY",
       "value": 18
-    }, 
+    },
     "values": [
-      5317, 
-      0, 
-      0, 
+      5317,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "treasure"
-    ], 
-    "cost": 23850, 
-    "effects": [], 
+    ],
+    "cost": 23850,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "The treasure is incredibly large, filled with gold coins and valuables, more\nwealth than you could ever possibly imagine accumulated in one place.", 
+        "desc": "The treasure is incredibly large, filled with gold coins and valuables, more\nwealth than you could ever possibly imagine accumulated in one place.",
         "keywords": [
           "treasure"
         ]
       }
-    ], 
-    "id": 5318, 
-    "long_desc": "The massive treasure of the sphinx lies here in a big pile.", 
-    "rent": 0, 
-    "short_desc": "the treasure of the sphinx", 
+    ],
+    "id": 5318,
+    "long_desc": "The massive treasure of the sphinx lies here in a big pile.",
+    "rent": 0,
+    "short_desc": "the treasure of the sphinx",
     "type": {
-      "note": "MONEY", 
+      "note": "MONEY",
       "value": 20
-    }, 
+    },
     "values": [
-      23850, 
-      0, 
-      0, 
+      23850,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 23
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "sand", 
+      "sand",
       "pile"
-    ], 
-    "cost": 12986, 
-    "effects": [], 
+    ],
+    "cost": 12986,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "You think you see some coins and valuables glinting amongst the grains of\nsand.", 
+        "desc": "You think you see some coins and valuables glinting amongst the grains of\nsand.",
         "keywords": [
-          "sand", 
+          "sand",
           "pile"
         ]
       }
-    ], 
-    "id": 5319, 
-    "long_desc": "You see a small pile of sand.", 
-    "rent": 0, 
-    "short_desc": "a pile of sand", 
+    ],
+    "id": 5319,
+    "long_desc": "You see a small pile of sand.",
+    "rent": 0,
+    "short_desc": "a pile of sand",
     "type": {
-      "note": "MONEY", 
+      "note": "MONEY",
       "value": 20
-    }, 
+    },
     "values": [
-      12986, 
-      0, 
-      0, 
+      12986,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 12
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 13, 
-        "note": "HIT", 
+        "location": 13,
+        "note": "HIT",
         "value": -50
-      }, 
+      },
       {
-        "location": 14, 
-        "note": "MOVE", 
+        "location": 14,
+        "note": "MOVE",
         "value": -100
       }
-    ], 
+    ],
     "aliases": [
-      "curse", 
+      "curse",
       "mummy"
-    ], 
-    "cost": 500, 
+    ],
+    "cost": 500,
     "effects": [
       {
-        "note": "NORENT", 
+        "note": "NORENT",
         "value": 4
-      }, 
+      },
       {
-        "note": "NODONATE", 
+        "note": "NODONATE",
         "value": 8
-      }, 
+      },
       {
-        "note": "INVISIBLE", 
+        "note": "INVISIBLE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "NODROP", 
+        "note": "NODROP",
         "value": 128
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "Rumor has it that whomever disturbs the grave of the mummy shall be\ncursed for all eternity, and that the descendents of that person shall\nlikewise be cursed for ten generations to follow.", 
+        "desc": "Rumor has it that whomever disturbs the grave of the mummy shall be\ncursed for all eternity, and that the descendents of that person shall\nlikewise be cursed for ten generations to follow.",
         "keywords": [
-          "curse", 
+          "curse",
           "mummy"
         ]
       }
-    ], 
-    "id": 5320, 
-    "long_desc": "Some fortunate soul has escaped the mummy's curse, for now.", 
-    "rent": 50, 
-    "short_desc": "the curse of the mummy", 
+    ],
+    "id": 5320,
+    "long_desc": "Some fortunate soul has escaped the mummy's curse, for now.",
+    "rent": 50,
+    "short_desc": "the curse of the mummy",
     "type": {
-      "note": "TRASH", 
+      "note": "TRASH",
       "value": 13
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 1
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "elixir", 
-      "small", 
+      "elixir",
+      "small",
       "glass"
-    ], 
-    "cost": 10000, 
+    ],
+    "cost": 10000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The elixir is deceptively small.  Something tells you that its\ncontents are truly quite potent.  Perhaps too potent for ordinary\nmortals to attempt to consume.", 
+        "desc": "The elixir is deceptively small.  Something tells you that its\ncontents are truly quite potent.  Perhaps too potent for ordinary\nmortals to attempt to consume.",
         "keywords": [
-          "elixir", 
-          "small", 
+          "elixir",
+          "small",
           "glass"
         ]
       }
-    ], 
-    "id": 5321, 
-    "long_desc": "A small glass elixir lies under your feet.", 
-    "rent": 500, 
-    "short_desc": "a small elixir", 
+    ],
+    "id": 5321,
+    "long_desc": "A small glass elixir lies under your feet.",
+    "rent": 500,
+    "short_desc": "a small elixir",
     "type": {
-      "note": "POTION", 
+      "note": "POTION",
       "value": 10
-    }, 
+    },
     "values": [
-      30, 
-      39, 
-      1, 
+      30,
+      39,
+      1,
       36
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 2
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 12, 
-        "note": "MANA", 
+        "location": 12,
+        "note": "MANA",
         "value": 25
-      }, 
+      },
       {
-        "location": 13, 
-        "note": "HIT", 
+        "location": 13,
+        "note": "HIT",
         "value": 10
       }
-    ], 
+    ],
     "aliases": [
-      "mask", 
+      "mask",
       "golden"
-    ], 
-    "cost": 15000, 
+    ],
+    "cost": 15000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "This beautiful mask was shaped from solid gold and magically enchanted\nto perfectly fit the face of any who choose to wear it, its golden features\nand turquoise highlights even moving to match the expressions of the face\nof the wearer.", 
+        "desc": "This beautiful mask was shaped from solid gold and magically enchanted\nto perfectly fit the face of any who choose to wear it, its golden features\nand turquoise highlights even moving to match the expressions of the face\nof the wearer.",
         "keywords": [
-          "mask", 
+          "mask",
           "golden"
         ]
       }
-    ], 
-    "id": 5322, 
-    "long_desc": "A beautiful, intricately detailed mask has been forgotten here.", 
-    "rent": 750, 
-    "short_desc": "a golden mask", 
+    ],
+    "id": 5322,
+    "long_desc": "A beautiful, intricately detailed mask has been forgotten here.",
+    "rent": 750,
+    "short_desc": "a golden mask",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      10, 
-      0, 
-      0, 
+      10,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HEAD", 
+        "note": "WEAR_HEAD",
         "value": 16
       }
-    ], 
+    ],
     "weight": 10
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "diamond"
-    ], 
-    "cost": 0, 
-    "effects": [], 
+    ],
+    "cost": 0,
+    "effects": [],
     "extra_descs": [
       {
-        "desc": "Aha!\n\nYou see a multifaceted gemstone, which strangely reflects no\nlight, making it very hard to see when it lies on the ground.", 
+        "desc": "Aha!\n\nYou see a multifaceted gemstone, which strangely reflects no\nlight, making it very hard to see when it lies on the ground.",
         "keywords": [
           "diamond"
         ]
       }
-    ], 
-    "id": 5323, 
-    "long_desc": "", 
-    "rent": 0, 
-    "short_desc": "the diamond", 
+    ],
+    "id": 5323,
+    "long_desc": "",
+    "rent": 0,
+    "short_desc": "the diamond",
     "type": {
-      "note": "TRASH", 
+      "note": "TRASH",
       "value": 13
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 21, 
-        "note": "SAVING_ROD", 
+        "location": 21,
+        "note": "SAVING_ROD",
         "value": -5
-      }, 
+      },
       {
-        "location": 24, 
-        "note": "SAVING_SPELL", 
+        "location": 24,
+        "note": "SAVING_SPELL",
         "value": -5
       }
-    ], 
+    ],
     "aliases": [
-      "wand", 
-      "sun", 
-      "brass", 
+      "wand",
+      "sun",
+      "brass",
       "pipe"
-    ], 
-    "cost": 25000, 
+    ],
+    "cost": 25000,
     "effects": [
       {
-        "note": "GLOW", 
+        "note": "GLOW",
         "value": 1
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_WARRIOR", 
+        "note": "ANTI_WARRIOR",
         "value": 32768
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "This small brass shaft is a holy weapon used by the ancient people of\nthis land to defend against the deadliest of foes.  It shines with the\nbrilliant blazing light of the sun.", 
+        "desc": "This small brass shaft is a holy weapon used by the ancient people of\nthis land to defend against the deadliest of foes.  It shines with the\nbrilliant blazing light of the sun.",
         "keywords": [
-          "wand", 
-          "sun", 
-          "brass", 
+          "wand",
+          "sun",
+          "brass",
           "pipe"
         ]
       }
-    ], 
-    "id": 5324, 
-    "long_desc": "A small length of brass pipe shines here with its own light.", 
-    "rent": 1000, 
-    "short_desc": "a blazing sun wand", 
+    ],
+    "id": 5324,
+    "long_desc": "A small length of brass pipe shines here with its own light.",
+    "rent": 1000,
+    "short_desc": "a blazing sun wand",
     "type": {
-      "note": "WAND", 
+      "note": "WAND",
       "value": 3
-    }, 
+    },
     "values": [
-      25, 
-      5, 
-      5, 
+      25,
+      5,
+      5,
       27
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 10
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 3, 
-        "note": "INT", 
+        "location": 3,
+        "note": "INT",
         "value": 1
-      }, 
+      },
       {
-        "location": 12, 
-        "note": "MANA", 
+        "location": 12,
+        "note": "MANA",
         "value": 35
       }
-    ], 
+    ],
     "aliases": [
-      "ring", 
+      "ring",
       "sandy"
-    ], 
-    "cost": 20000, 
+    ],
+    "cost": 20000,
     "effects": [
       {
-        "note": "HUM", 
+        "note": "HUM",
         "value": 2
-      }, 
+      },
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The ring is small, smooth, sandy-coloured and unremarkable, save that\nit gives off a continuous low humming noise that tickles your fingertips.", 
+        "desc": "The ring is small, smooth, sandy-coloured and unremarkable, save that\nit gives off a continuous low humming noise that tickles your fingertips.",
         "keywords": [
-          "ring", 
+          "ring",
           "sandy"
         ]
       }
-    ], 
-    "id": 5325, 
-    "long_desc": "A small sandy-coloured ring has been carelessly dropped here.", 
-    "rent": 750, 
-    "short_desc": "a sandy-coloured ring", 
+    ],
+    "id": 5325,
+    "long_desc": "A small sandy-coloured ring has been carelessly dropped here.",
+    "rent": 750,
+    "short_desc": "a sandy-coloured ring",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      8, 
-      0, 
-      0, 
+      8,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_FINGER", 
+        "note": "WEAR_FINGER",
         "value": 2
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 4, 
-        "note": "WIS", 
+        "location": 4,
+        "note": "WIS",
         "value": 2
       }
-    ], 
+    ],
     "aliases": [
-      "sphinx", 
+      "sphinx",
       "golden"
-    ], 
-    "cost": 50000, 
+    ],
+    "cost": 50000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The golden sphinx is incredibly detailed and very small, fitting easily\ninto the palm of your hand.  You can even make out the expression\nof wisdom and peace on its face.", 
+        "desc": "The golden sphinx is incredibly detailed and very small, fitting easily\ninto the palm of your hand.  You can even make out the expression\nof wisdom and peace on its face.",
         "keywords": [
-          "sphinx", 
+          "sphinx",
           "golden"
         ]
       }
-    ], 
-    "id": 5326, 
-    "long_desc": "A small golden sphinx glints in the light.", 
-    "rent": 750, 
-    "short_desc": "a small golden sphinx", 
+    ],
+    "id": 5326,
+    "long_desc": "A small golden sphinx glints in the light.",
+    "rent": 750,
+    "short_desc": "a small golden sphinx",
     "type": {
-      "note": "TREASURE", 
+      "note": "TREASURE",
       "value": 8
-    }, 
+    },
     "values": [
-      0, 
-      0, 
-      0, 
+      0,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_HOLD", 
+        "note": "WEAR_HOLD",
         "value": 16384
       }
-    ], 
+    ],
     "weight": 5
-  }, 
+  },
   {
     "affects": [
       {
-        "location": 1, 
-        "note": "STR", 
+        "location": 1,
+        "note": "STR",
         "value": 3
-      }, 
+      },
       {
-        "location": 14, 
-        "note": "MOVE", 
+        "location": 14,
+        "note": "MOVE",
         "value": 80
       }
-    ], 
+    ],
     "aliases": [
-      "leggings", 
+      "leggings",
       "sphinxian"
-    ], 
-    "cost": 20000, 
+    ],
+    "cost": 20000,
     "effects": [
       {
-        "note": "MAGIC", 
+        "note": "MAGIC",
         "value": 64
-      }, 
+      },
       {
-        "note": "ANTI_EVIL", 
+        "note": "ANTI_EVIL",
         "value": 1024
       }
-    ], 
-    "extra_descs": [], 
-    "id": 5327, 
-    "long_desc": "Massive leggings formed from the body of a sphinx stand here.", 
-    "rent": 500, 
-    "short_desc": "a pair of sphinxian leggings", 
+    ],
+    "extra_descs": [],
+    "id": 5327,
+    "long_desc": "Massive leggings formed from the body of a sphinx stand here.",
+    "rent": 500,
+    "short_desc": "a pair of sphinxian leggings",
     "type": {
-      "note": "ARMOR", 
+      "note": "ARMOR",
       "value": 9
-    }, 
+    },
     "values": [
-      10, 
-      0, 
-      0, 
+      10,
+      0,
+      0,
       0
-    ], 
+    ],
     "wear": [
       {
-        "note": "WEAR_TAKE", 
+        "note": "WEAR_TAKE",
         "value": 1
-      }, 
+      },
       {
-        "note": "WEAR_LEGS", 
+        "note": "WEAR_LEGS",
         "value": 32
       }
-    ], 
+    ],
     "weight": 20
   }
 ]

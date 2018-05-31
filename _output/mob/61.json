@@ -2,905 +2,905 @@
   {
     "affects": [
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "warg", 
+      "warg",
       "vicious"
-    ], 
-    "alignment": -350, 
-    "armor_class": 5, 
+    ],
+    "alignment": -350,
+    "armor_class": 5,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 2, 
+      "bonus": 0,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "It is an exceptionally large wolf with thick, black fur.  Saliva is dripping\nquickly from its long, white fangs.  It looks quite dangerous and very angry.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "It is an exceptionally large wolf with thick, black fur.  Saliva is dripping\nquickly from its long, white fangs.  It looks quite dangerous and very angry.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 6100, 
-    "level": 5, 
-    "long_desc": "A vicious warg is here, snarling angrily at you.", 
+    },
+    "gold": 0,
+    "id": 6100,
+    "level": 5,
+    "long_desc": "A vicious warg is here, snarling angrily at you.",
     "max_hit_points": {
-      "bonus": 60, 
-      "dice": 1, 
+      "bonus": 60,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the vicious warg", 
-    "thac0": 16, 
+    },
+    "short_desc": "the vicious warg",
+    "thac0": 16,
     "xp": 1000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "warg", 
+      "warg",
       "ferocious"
-    ], 
-    "alignment": -350, 
-    "armor_class": 5, 
+    ],
+    "alignment": -350,
+    "armor_class": 5,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 2, 
+      "bonus": 4,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "It is an exceptionally large wolf with thick, black fur.  Saliva is dripping\nquickly from its long, white fangs.  It looks quite dangerous and very angry.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "It is an exceptionally large wolf with thick, black fur.  Saliva is dripping\nquickly from its long, white fangs.  It looks quite dangerous and very angry.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 6101, 
-    "level": 5, 
-    "long_desc": "A ferocious warg is here, snarling angrily at you.", 
+    },
+    "gold": 0,
+    "id": 6101,
+    "level": 5,
+    "long_desc": "A ferocious warg is here, snarling angrily at you.",
     "max_hit_points": {
-      "bonus": 80, 
-      "dice": 1, 
+      "bonus": 80,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the ferocious warg", 
-    "thac0": 16, 
+    },
+    "short_desc": "the ferocious warg",
+    "thac0": 16,
     "xp": 1000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "wolf", 
+      "wolf",
       "grey"
-    ], 
-    "alignment": -150, 
-    "armor_class": 7, 
+    ],
+    "alignment": -150,
+    "armor_class": 7,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 1, 
+      "bonus": 0,
+      "dice": 1,
       "sides": 7
-    }, 
-    "detail_desc": "The large, grey wolf eyes you with interest while licking its lips.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The large, grey wolf eyes you with interest while licking its lips.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 6102, 
-    "level": 3, 
-    "long_desc": "A large, grey wolf is here, glaring hungrily at you.", 
+    },
+    "gold": 0,
+    "id": 6102,
+    "level": 3,
+    "long_desc": "A large, grey wolf is here, glaring hungrily at you.",
     "max_hit_points": {
-      "bonus": 35, 
-      "dice": 1, 
+      "bonus": 35,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the large, grey wolf", 
-    "thac0": 18, 
+    },
+    "short_desc": "the large, grey wolf",
+    "thac0": 18,
     "xp": 450
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "wolf", 
+      "wolf",
       "black"
-    ], 
-    "alignment": -150, 
-    "armor_class": 7, 
+    ],
+    "alignment": -150,
+    "armor_class": 7,
     "bare_hand_damage": {
-      "bonus": 3, 
-      "dice": 1, 
+      "bonus": 3,
+      "dice": 1,
       "sides": 7
-    }, 
-    "detail_desc": "The large, black wolf eyes you with interest while licking its lips.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The large, black wolf eyes you with interest while licking its lips.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 6103, 
-    "level": 3, 
-    "long_desc": "A large, black wolf is here, glaring hungrily at you.", 
+    },
+    "gold": 0,
+    "id": 6103,
+    "level": 3,
+    "long_desc": "A large, black wolf is here, glaring hungrily at you.",
     "max_hit_points": {
-      "bonus": 45, 
-      "dice": 1, 
+      "bonus": 45,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the large, black wolf", 
-    "thac0": 18, 
+    },
+    "short_desc": "the large, black wolf",
+    "thac0": 18,
     "xp": 450
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SENSE_LIFE", 
+        "note": "SENSE_LIFE",
         "value": 32
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "SNEAK", 
+        "note": "SNEAK",
         "value": 262144
-      }, 
+      },
       {
-        "note": "HIDE", 
+        "note": "HIDE",
         "value": 524288
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "tree", 
+      "tree",
       "ancient"
-    ], 
-    "alignment": 0, 
-    "armor_class": -10, 
+    ],
+    "alignment": 0,
+    "armor_class": -10,
     "bare_hand_damage": {
-      "bonus": 22, 
-      "dice": 4, 
+      "bonus": 22,
+      "dice": 4,
       "sides": 4
-    }, 
-    "detail_desc": "Its roots are extremely big and large parts of them are above ground.\nSomething about it makes you think that this is not a normal oak tree.\n\nThe enormous grey trunk shivers slightly, as if sighing deeply.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "Its roots are extremely big and large parts of them are above ground.\nSomething about it makes you think that this is not a normal oak tree.\n\nThe enormous grey trunk shivers slightly, as if sighing deeply.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 6110, 
-    "level": 30, 
-    "long_desc": "A huge, ancient tree towers above you.", 
+    },
+    "gold": 0,
+    "id": 6110,
+    "level": 30,
+    "long_desc": "A huge, ancient tree towers above you.",
     "max_hit_points": {
-      "bonus": 1299, 
-      "dice": 1, 
+      "bonus": 1299,
+      "dice": 1,
       "sides": 1
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the ancient tree", 
-    "thac0": 0, 
+    },
+    "short_desc": "the ancient tree",
+    "thac0": 0,
     "xp": 500000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SENSE_LIFE", 
+        "note": "SENSE_LIFE",
         "value": 32
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "SNEAK", 
+        "note": "SNEAK",
         "value": 262144
-      }, 
+      },
       {
-        "note": "HIDE", 
+        "note": "HIDE",
         "value": 524288
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "tree", 
+      "tree",
       "ancient"
-    ], 
-    "alignment": 0, 
-    "armor_class": -10, 
+    ],
+    "alignment": 0,
+    "armor_class": -10,
     "bare_hand_damage": {
-      "bonus": 18, 
-      "dice": 4, 
+      "bonus": 18,
+      "dice": 4,
       "sides": 4
-    }, 
-    "detail_desc": "Its roots are extremely big and large parts of them are above ground.\nSomething about it makes you think that this is not a normal oak tree.\n\nThe enormous grey trunk emits a deep, moaning sound.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "Its roots are extremely big and large parts of them are above ground.\nSomething about it makes you think that this is not a normal oak tree.\n\nThe enormous grey trunk emits a deep, moaning sound.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 6111, 
-    "level": 30, 
-    "long_desc": "A huge, ancient tree towers above you.", 
+    },
+    "gold": 0,
+    "id": 6111,
+    "level": 30,
+    "long_desc": "A huge, ancient tree towers above you.",
     "max_hit_points": {
-      "bonus": 999, 
-      "dice": 1, 
+      "bonus": 999,
+      "dice": 1,
       "sides": 1
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the ancient tree", 
-    "thac0": 0, 
+    },
+    "short_desc": "the ancient tree",
+    "thac0": 0,
     "xp": 400000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "dragon", 
+      "dragon",
       "green"
-    ], 
-    "alignment": -1000, 
-    "armor_class": 0, 
+    ],
+    "alignment": -1000,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 9, 
-      "dice": 2, 
+      "bonus": 9,
+      "dice": 2,
       "sides": 6
-    }, 
-    "detail_desc": "This enormous winged serpent has dark green scales covering most of its\ncolossal body.  Numerous holes in its heavy wings tell of many fights as\ndoes the nicks in the horns on its head.  It smells as disgusting as only\ndragons do.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This enormous winged serpent has dark green scales covering most of its\ncolossal body.  Numerous holes in its heavy wings tell of many fights as\ndoes the nicks in the horns on its head.  It smells as disgusting as only\ndragons do.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 6112, 
-    "level": 20, 
-    "long_desc": "A huge green dragon is here, its narrow yellow eyes glowing with rage.", 
+    },
+    "gold": 0,
+    "id": 6112,
+    "level": 20,
+    "long_desc": "A huge green dragon is here, its narrow yellow eyes glowing with rage.",
     "max_hit_points": {
-      "bonus": 248, 
-      "dice": 1, 
+      "bonus": 248,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the green dragon", 
-    "thac0": 1, 
+    },
+    "short_desc": "the green dragon",
+    "thac0": 1,
     "xp": 40000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "spider", 
+      "spider",
       "poisonous"
-    ], 
-    "alignment": -350, 
-    "armor_class": 2, 
+    ],
+    "alignment": -350,
+    "armor_class": 2,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 2, 
+      "bonus": 1,
+      "dice": 2,
       "sides": 5
-    }, 
-    "detail_desc": "This disgusting creature is at the size of a human crawling on all four.  It\nhas eight hairy legs that gives it a tremendous speed on almost any surface\nand sharp poisonous fangs to paralyze or kill its prey.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This disgusting creature is at the size of a human crawling on all four.  It\nhas eight hairy legs that gives it a tremendous speed on almost any surface\nand sharp poisonous fangs to paralyze or kill its prey.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 6113, 
-    "level": 8, 
-    "long_desc": "A huge, poisonous spider is here.", 
+    },
+    "gold": 0,
+    "id": 6113,
+    "level": 8,
+    "long_desc": "A huge, poisonous spider is here.",
     "max_hit_points": {
-      "bonus": 98, 
-      "dice": 1, 
+      "bonus": 98,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the huge, poisonous spider", 
-    "thac0": 13, 
+    },
+    "short_desc": "the huge, poisonous spider",
+    "thac0": 13,
     "xp": 4000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SENSE_LIFE", 
+        "note": "SENSE_LIFE",
         "value": 32
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "queen", 
+      "queen",
       "spider"
-    ], 
-    "alignment": -1000, 
-    "armor_class": 1, 
+    ],
+    "alignment": -1000,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 3, 
-      "dice": 2, 
+      "bonus": 3,
+      "dice": 2,
       "sides": 8
-    }, 
-    "detail_desc": "This disgusting creature is at the size of a small elephant.  It has eight\nhuge, hairy legs that would give it a tremendous speed on almost any surface\nif it wasn't so immensely fat.  Its large, bulbous eyes stare back at you.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This disgusting creature is at the size of a small elephant.  It has eight\nhuge, hairy legs that would give it a tremendous speed on almost any surface\nif it wasn't so immensely fat.  Its large, bulbous eyes stare back at you.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "AGGR_GOOD", 
+        "note": "AGGR_GOOD",
         "value": 512
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 0, 
-    "id": 6114, 
-    "level": 15, 
-    "long_desc": "The huge, bulky Queen spider is here.", 
+    },
+    "gold": 0,
+    "id": 6114,
+    "level": 15,
+    "long_desc": "The huge, bulky Queen spider is here.",
     "max_hit_points": {
-      "bonus": 185, 
-      "dice": 1, 
+      "bonus": 185,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Queen spider", 
-    "thac0": 6, 
+    },
+    "short_desc": "the Queen spider",
+    "thac0": 6,
     "xp": 31000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INVISIBLE", 
+        "note": "INVISIBLE",
         "value": 2
-      }, 
+      },
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SENSE_LIFE", 
+        "note": "SENSE_LIFE",
         "value": 32
-      }, 
+      },
       {
-        "note": "WATERWALK", 
+        "note": "WATERWALK",
         "value": 64
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "SNEAK", 
+        "note": "SNEAK",
         "value": 262144
-      }, 
+      },
       {
-        "note": "HIDE", 
+        "note": "HIDE",
         "value": 524288
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "shargugh", 
+      "shargugh",
       "brownie"
-    ], 
-    "alignment": 1000, 
-    "armor_class": -10, 
+    ],
+    "alignment": 1000,
+    "armor_class": -10,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 1, 
+      "bonus": 0,
+      "dice": 1,
       "sides": 8
-    }, 
-    "detail_desc": "This little fellow is only three foot tall with wild matted brown hair and\nlong tangled brown beard.  He wears ragged brown and green clothing and looks\nas if he is having great fun.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This little fellow is only three foot tall with wild matted brown hair and\nlong tangled brown beard.  He wears ragged brown and green clothing and looks\nas if he is having great fun.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1000, 
-    "id": 6115, 
-    "level": 10, 
-    "long_desc": "Shargugh the Forest Brownie is here, grinning broadly at you.", 
+    },
+    "gold": 1000,
+    "id": 6115,
+    "level": 10,
+    "long_desc": "Shargugh the Forest Brownie is here, grinning broadly at you.",
     "max_hit_points": {
-      "bonus": 47, 
-      "dice": 1, 
+      "bonus": 47,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Shargugh", 
-    "thac0": 1, 
+    },
+    "short_desc": "Shargugh",
+    "thac0": 1,
     "xp": 11000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SENSE_LIFE", 
+        "note": "SENSE_LIFE",
         "value": 32
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "elder", 
+      "elder",
       "druid"
-    ], 
-    "alignment": 0, 
-    "armor_class": 0, 
+    ],
+    "alignment": 0,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 3, 
+      "bonus": 4,
+      "dice": 3,
       "sides": 6
-    }, 
-    "detail_desc": "The druid looks quite old.  You would think of him as venerable but yet you\nknow he would be a tough foe.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The druid looks quite old.  You would think of him as venerable but yet you\nknow he would be a tough foe.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGR_EVIL", 
+        "note": "AGGR_EVIL",
         "value": 256
-      }, 
+      },
       {
-        "note": "AGGR_GOOD", 
+        "note": "AGGR_GOOD",
         "value": 512
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 5000, 
-    "id": 6116, 
-    "level": 19, 
-    "long_desc": "The Elder druid is here.  He looks very upset about your presence in his home.", 
+    },
+    "gold": 5000,
+    "id": 6116,
+    "level": 19,
+    "long_desc": "The Elder druid is here.  He looks very upset about your presence in his home.",
     "max_hit_points": {
-      "bonus": 236, 
-      "dice": 1, 
+      "bonus": 236,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Elder druid", 
-    "thac0": 2, 
+    },
+    "short_desc": "the Elder druid",
+    "thac0": 2,
     "xp": 45000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "SNEAK", 
+        "note": "SNEAK",
         "value": 262144
       }
-    ], 
+    ],
     "aliases": [
-      "isha", 
+      "isha",
       "elf"
-    ], 
-    "alignment": -1000, 
-    "armor_class": 0, 
+    ],
+    "alignment": -1000,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 3, 
+      "bonus": 4,
+      "dice": 3,
       "sides": 6
-    }, 
-    "detail_desc": "She is no less than beautiful, skin as dark as the night and hair\nshining like silver in the moonlight.  Her slender body is adorned\nwith a sleeveless shirt and a short skirt made from black scales\njoined with silver threads.  Her back is covered by a large, hooded\ncloak as black as her skin and in her broad silver belt hangs a long,\nslender sword in a silver scabbard.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "She is no less than beautiful, skin as dark as the night and hair\nshining like silver in the moonlight.  Her slender body is adorned\nwith a sleeveless shirt and a short skirt made from black scales\njoined with silver threads.  Her back is covered by a large, hooded\ncloak as black as her skin and in her broad silver belt hangs a long,\nslender sword in a silver scabbard.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 5000, 
-    "id": 6117, 
-    "level": 20, 
-    "long_desc": "Isha the Dark Elf is here, observing you silently.", 
+    },
+    "gold": 5000,
+    "id": 6117,
+    "level": 20,
+    "long_desc": "Isha the Dark Elf is here, observing you silently.",
     "max_hit_points": {
-      "bonus": 245, 
-      "dice": 1, 
+      "bonus": 245,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Isha the Dark Elf", 
-    "thac0": 1, 
+    },
+    "short_desc": "Isha the Dark Elf",
+    "thac0": 1,
     "xp": 40000
   }
 ]

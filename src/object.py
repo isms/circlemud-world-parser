@@ -1,11 +1,11 @@
 # coding: utf-8
-from src.constants import OBJECT_AFFECT_LOCATION_FLAGS
-from src.constants import OBJECT_EXTRA_EFFECTS_FLAGS
-from src.constants import OBJECT_TYPE_FLAGS
-from src.constants import OBJECT_WEAR_FLAGS
-from src.utils import bitvector_to_flags
-from src.utils import clean_bitvector
-from src.utils import lookup_value_to_dict
+from constants import OBJECT_AFFECT_LOCATION_FLAGS
+from constants import OBJECT_EXTRA_EFFECTS_FLAGS
+from constants import OBJECT_TYPE_FLAGS
+from constants import OBJECT_WEAR_FLAGS
+from utils import bitvector_to_flags
+from utils import clean_bitvector
+from utils import lookup_value_to_dict
 
 
 def parse_extra_descs(extra_fields):

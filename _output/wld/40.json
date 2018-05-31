@@ -1,4589 +1,4589 @@
 [
   {
-    "desc": "You are on a path leading north, small hills surround you.\nYou feel the forces of evil approach you from the north.  Off\nin the distance to the northeast you can see the beginning of\na large mountain range.", 
+    "desc": "You are on a path leading north, small hills surround you.\nYou feel the forces of evil approach you from the north.  Off\nin the distance to the northeast you can see the beginning of\na large mountain range.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4001
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3500
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 4000, 
-    "name": "The Hills", 
+    ],
+    "id": 4000,
+    "name": "The Hills",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are on a small path leading north, dark threatening hills\nsurround you on almost all sides.  A fair distance off to the\nnorth, you can see the enormous shadow of a strangely solitaire\nmountain.", 
+    "desc": "You are on a small path leading north, dark threatening hills\nsurround you on almost all sides.  A fair distance off to the\nnorth, you can see the enormous shadow of a strangely solitaire\nmountain.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4002
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4000
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 4001, 
-    "name": "The Hills", 
+    ],
+    "id": 4001,
+    "name": "The Hills",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "The path stops here, to the north is a single mountain and around\nyou are some threatening hills.  A small trail leads up the hillside\nthrough the rocks to a dark cave located to the north.  Off to the\nnortheast, you can see the southern end of what appears to be a large\nmountain range.", 
+    "desc": "The path stops here, to the north is a single mountain and around\nyou are some threatening hills.  A small trail leads up the hillside\nthrough the rocks to a dark cave located to the north.  Off to the\nnortheast, you can see the southern end of what appears to be a large\nmountain range.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4010
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4001
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 4002, 
-    "name": "The End Of The Path", 
+    ],
+    "id": 4002,
+    "name": "The End Of The Path",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are standing in a small cave, about fifteen feet across at\nthe widest point and about forty feet long.  Off to the south you\nsense fresh air and you surmise that the entrance must be located\noff in that direction.  To the north a small tunnel continues into\nthe mountain.", 
+    "desc": "You are standing in a small cave, about fifteen feet across at\nthe widest point and about forty feet long.  Off to the south you\nsense fresh air and you surmise that the entrance must be located\noff in that direction.  To the north a small tunnel continues into\nthe mountain.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4002
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4010, 
-    "name": "The Cave", 
+    ],
+    "id": 4010,
+    "name": "The Cave",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You force your way into a narrow tunnel, aided by the wet walls\nwhich help you slide through the passageway.  The smell of mouldy\nmoss is growing greater the farther north you head, but you can smell\nfresh air off to the south as a light breeze wafts past you.", 
+    "desc": "You force your way into a narrow tunnel, aided by the wet walls\nwhich help you slide through the passageway.  The smell of mouldy\nmoss is growing greater the farther north you head, but you can smell\nfresh air off to the south as a light breeze wafts past you.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4014
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4010
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4011, 
-    "name": "The Tunnel", 
+    ],
+    "id": 4011,
+    "name": "The Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You find yourself at a turn in this narrow tunnel.  The tunnel\nappears to open up to the north into a cave of some sort while to\nthe east it leads onwards through the mountain.", 
+    "desc": "You find yourself at a turn in this narrow tunnel.  The tunnel\nappears to open up to the north into a cave of some sort while to\nthe east it leads onwards through the mountain.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4016
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4013
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4012, 
-    "name": "The Tunnel", 
+    ],
+    "id": 4012,
+    "name": "The Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "Standing in the middle of the dusty floor of this tunnel, you can\nsee that it is not a highly travelled passageway.  It looks to lead\nin an east-west direction.", 
+    "desc": "Standing in the middle of the dusty floor of this tunnel, you can\nsee that it is not a highly travelled passageway.  It looks to lead\nin an east-west direction.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4014
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4012
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4013, 
-    "name": "The Tunnel", 
+    ],
+    "id": 4013,
+    "name": "The Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You find yourself at a small intersection of sorts in this tunnel.\nThe main tunnel appears to curve from south to west but there is an\nentrance into a cave to the north.  The entrance itself looks to be\nunnatural and much more recent than the tunnel or even the cave.", 
+    "desc": "You find yourself at a small intersection of sorts in this tunnel.\nThe main tunnel appears to curve from south to west but there is an\nentrance into a cave to the north.  The entrance itself looks to be\nunnatural and much more recent than the tunnel or even the cave.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4018
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4011
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4013
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4014, 
-    "name": "The Tunnel", 
+    ],
+    "id": 4014,
+    "name": "The Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You clamber on through this narrow tunnel.  The walls are damp\nwith condensation and the weight of the rock above you is beginning\nto make you feel almost claustrophobic.  The tunnel makes a jagged\nturn from west to north here.", 
+    "desc": "You clamber on through this narrow tunnel.  The walls are damp\nwith condensation and the weight of the rock above you is beginning\nto make you feel almost claustrophobic.  The tunnel makes a jagged\nturn from west to north here.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4019
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4014
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4015, 
-    "name": "The Tunnel", 
+    ],
+    "id": 4015,
+    "name": "The Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You find yourself in a fairly large cave.  Large enough that the\neastern and western ends are almots completely shrouded in darkness.\nA small tunnel breaks through the southern wall, and it too is full\nof shadows.", 
+    "desc": "You find yourself in a fairly large cave.  Large enough that the\neastern and western ends are almots completely shrouded in darkness.\nA small tunnel breaks through the southern wall, and it too is full\nof shadows.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4017
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4012
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4023
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4016, 
-    "name": "The Large Cave", 
+    ],
+    "id": 4016,
+    "name": "The Large Cave",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You move along the cave to the west end of it and find that there\nappears to be no other exit from here.  The walls are fairly smooth\nand look to have been naturally carved out of the rock by the passage\nof water.", 
+    "desc": "You move along the cave to the west end of it and find that there\nappears to be no other exit from here.  The walls are fairly smooth\nand look to have been naturally carved out of the rock by the passage\nof water.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4016
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4017, 
-    "name": "The Large Cave", 
+    ],
+    "id": 4017,
+    "name": "The Large Cave",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You find yourself at the southern end of a cave as it begins\nto turn into a tunnel which leads off to the south.  The cave\ncontinues northwards deeper into the darkness.\nYou notice a large pile of bones in the corner.", 
+    "desc": "You find yourself at the southern end of a cave as it begins\nto turn into a tunnel which leads off to the south.  The cave\ncontinues northwards deeper into the darkness.\nYou notice a large pile of bones in the corner.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4025
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4014
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "You had better watch out - some of the bones are human!", 
+        "desc": "You had better watch out - some of the bones are human!",
         "keywords": [
-          "pile", 
+          "pile",
           "bones"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4018, 
-    "name": "The Cave", 
+    ],
+    "id": 4018,
+    "name": "The Cave",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You stand in the middle of a fairly wide passageway that leads\nin a north-south direction.  The walls are quite smooth, almost as\nif a river had gouged them out of the earth.", 
+    "desc": "You stand in the middle of a fairly wide passageway that leads\nin a north-south direction.  The walls are quite smooth, almost as\nif a river had gouged them out of the earth.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4026
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4015
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4019, 
-    "name": "The Tunnel", 
+    ],
+    "id": 4019,
+    "name": "The Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are standing in a small alcove off the main tunnel.  There is\na fairly wide hole broken through the floor of the alcove.  The only\nother exit is to the north.", 
+    "desc": "You are standing in a small alcove off the main tunnel.  There is\na fairly wide hole broken through the floor of the alcove.  The only\nother exit is to the north.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4027
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4064
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4020, 
-    "name": "The Hole", 
+    ],
+    "id": 4020,
+    "name": "The Hole",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "As you stand at the end of this tunnel, you notice a large hole\nsitting in the floor by the northwestern corner of the walls.  The\ntunnel itself leads off towards the east.  The air here feels very\ndamp and you feel like your clothes are becoming sticky with sweat.", 
+    "desc": "As you stand at the end of this tunnel, you notice a large hole\nsitting in the floor by the northwestern corner of the walls.  The\ntunnel itself leads off towards the east.  The air here feels very\ndamp and you feel like your clothes are becoming sticky with sweat.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4022
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4115
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4021, 
-    "name": "The Hole", 
+    ],
+    "id": 4021,
+    "name": "The Hole",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are standing in the middle of a damp tunnel.  The moisture\nin the air is so thick that you can almost seem it seeping into your\nclothes.  The tunnel continues to the north and west.  A large cave\nopens up to the east.", 
+    "desc": "You are standing in the middle of a damp tunnel.  The moisture\nin the air is so thick that you can almost seem it seeping into your\nclothes.  The tunnel continues to the north and west.  A large cave\nopens up to the east.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4024
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4023
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4021
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4022, 
-    "name": "The Damp Tunnel", 
+    ],
+    "id": 4022,
+    "name": "The Damp Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are in the western part of the large cave, to the east you can\nsee a tunnel.  The air near the tunnel entrance is heavy with moisture,\ngiving you a feeling as if you were standing in the rain.  The walls\nof the cave are almost totally shrouded in darkness and shadow as is\nthe southern end of the cavern.", 
+    "desc": "You are in the western part of the large cave, to the east you can\nsee a tunnel.  The air near the tunnel entrance is heavy with moisture,\ngiving you a feeling as if you were standing in the rain.  The walls\nof the cave are almost totally shrouded in darkness and shadow as is\nthe southern end of the cavern.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4016
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4022
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4023, 
-    "name": "The Large Cave", 
+    ],
+    "id": 4023,
+    "name": "The Large Cave",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "The tunnel you are in now is very humid, and the air seems to almost\nhang with moisture.  The walls drip with an almost constant water flow,\nand the ground is covered with small pools of stagnent water.\n   The tunnel leads away to the south, and to the west you can feel that\nthe air is even damper than here.", 
+    "desc": "The tunnel you are in now is very humid, and the air seems to almost\nhang with moisture.  The walls drip with an almost constant water flow,\nand the ground is covered with small pools of stagnent water.\n   The tunnel leads away to the south, and to the west you can feel that\nthe air is even damper than here.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4022
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4059
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4024, 
-    "name": "The Damp Tunnel", 
+    ],
+    "id": 4024,
+    "name": "The Damp Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You find yourself standing in the northern end of a reasonably\nlarge cave.  The cave wall to the east has an opening that appears\nto lead to a junction of several tunnels.", 
+    "desc": "You find yourself standing in the northern end of a reasonably\nlarge cave.  The cave wall to the east has an opening that appears\nto lead to a junction of several tunnels.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4026
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4018
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4025, 
-    "name": "The Cave", 
+    ],
+    "id": 4025,
+    "name": "The Cave",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You find yourself standing in the midst of an intersection\nof numerous tunnels.  There is a musty smell emanating from the\ntunnel to the north, whilst the one to the west appears to open\nup almost immediately into a cave.  The tunnels to the south and\neast are totally shrouded in darkness.", 
+    "desc": "You find yourself standing in the midst of an intersection\nof numerous tunnels.  There is a musty smell emanating from the\ntunnel to the north, whilst the one to the west appears to open\nup almost immediately into a cave.  The tunnels to the south and\neast are totally shrouded in darkness.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4028
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4027
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4019
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4025
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4026, 
-    "name": "The Many Tunnels", 
+    ],
+    "id": 4026,
+    "name": "The Many Tunnels",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You find yourself at an elbow turn in the tunnel as it turns to the\nwest and north.  You spot a small alcove hidden in the shadows just to\nthe south of you, and you can feel a breeze coming from somewhere to the\nnorth you believe.", 
+    "desc": "You find yourself at an elbow turn in the tunnel as it turns to the\nwest and north.  You spot a small alcove hidden in the shadows just to\nthe south of you, and you can feel a breeze coming from somewhere to the\nnorth you believe.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4029
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4020
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4026
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4027, 
-    "name": "The Tunnel", 
+    ],
+    "id": 4027,
+    "name": "The Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are in a fairly small north-south leading tunnel.  There\nis a a small light visible off to the north.  As you stop for a\nmoment, you notice a strange smell from the north.", 
+    "desc": "You are in a fairly small north-south leading tunnel.  There\nis a a small light visible off to the north.  As you stop for a\nmoment, you notice a strange smell from the north.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4030
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4026
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4028, 
-    "name": "The Smelly Tunnel", 
+    ],
+    "id": 4028,
+    "name": "The Smelly Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are in a cave that is filled with fresh air, you sense the\nwind blowing from the north.  To the south you see a small tunnel\ncontinue into the mountain.", 
+    "desc": "You are in a cave that is filled with fresh air, you sense the\nwind blowing from the north.  To the south you see a small tunnel\ncontinue into the mountain.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4031
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4027
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4029, 
-    "name": "The Cave", 
+    ],
+    "id": 4029,
+    "name": "The Cave",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are in a light cave, through a hole large above you, you\nsee the sky.  A small tunnel to the south is the only way out.\nYou notice the source of the strange smell, all around you there\nare corpses of several monsters.", 
+    "desc": "You are in a light cave, through a hole large above you, you\nsee the sky.  A small tunnel to the south is the only way out.\nYou notice the source of the strange smell, all around you there\nare corpses of several monsters.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4028
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "Looking at the corpses lying around the cave, they all appear to\nhave been torn to shreds by some large creature.  As a further\nnot too unexpected point to note, they all smell terrible.", 
+        "desc": "Looking at the corpses lying around the cave, they all appear to\nhave been torn to shreds by some large creature.  As a further\nnot too unexpected point to note, they all smell terrible.",
         "keywords": [
-          "corpse", 
+          "corpse",
           "corpses"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4030, 
-    "name": "The Light Cave", 
+    ],
+    "id": 4030,
+    "name": "The Light Cave",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are in a small valley, surrounded by hills and a mountain to \nthe south.  In the mountain there is a cave.  To the north you can\nenter the hills.  There is a small trail leading up a steep hill to\nthe east.", 
+    "desc": "You are in a small valley, surrounded by hills and a mountain to \nthe south.  In the mountain there is a cave.  To the north you can\nenter the hills.  There is a small trail leading up a steep hill to\nthe east.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4032
-      }, 
+      },
       {
-        "desc": "You spot a small trail leading into the hills to the east.", 
-        "dir": 1, 
+        "desc": "You spot a small trail leading into the hills to the east.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4045
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4029
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 4031, 
-    "name": "The Valley", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 4031,
+    "name": "The Valley",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are on a winding path that leads through the foothills on the\nnorth side of Mount Moria.  The path continues north.", 
+    "desc": "You are on a winding path that leads through the foothills on the\nnorth side of Mount Moria.  The path continues north.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4033
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4031
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 4032, 
-    "name": "The Foothills", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 4032,
+    "name": "The Foothills",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You stand at a point by a small path that splits off here.  The\npath continues north and south while a rough trail leads east into\nthe mountains.", 
+    "desc": "You stand at a point by a small path that splits off here.  The\npath continues north and south while a rough trail leads east into\nthe mountains.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4034
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4037
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4032
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 4033, 
-    "name": "The Intersection In The Foothills", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 4033,
+    "name": "The Intersection In The Foothills",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "The grass here is unusually high.  You notice several areas where\nsomeone or something large has crushed spots of it down.  Several\nvery large rocks litter this area.  You can go north towards the end\nof the foothills, west to go deeper into the foothills, or south to\na small path intersection.", 
+    "desc": "The grass here is unusually high.  You notice several areas where\nsomeone or something large has crushed spots of it down.  Several\nvery large rocks litter this area.  You can go north towards the end\nof the foothills, west to go deeper into the foothills, or south to\na small path intersection.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4035
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4033
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4042
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 4034, 
-    "name": "The Grassy Area In The Foothills", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 4034,
+    "name": "The Grassy Area In The Foothills",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You find yourself standing at the northern edge of the foothills\nwhere they meet the plains which lie to the north.  You can head back\ninto the foothills to the south or the plains to the north.", 
+    "desc": "You find yourself standing at the northern edge of the foothills\nwhere they meet the plains which lie to the north.  You can head back\ninto the foothills to the south or the plains to the north.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4036
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4034
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 4035, 
-    "name": "At The Foothills' End", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 4035,
+    "name": "At The Foothills' End",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are in the plains.  The path leads to the south.  As you look\naround you notice a small almost invisible trail leading away to the\nwest towards a copse of trees.", 
+    "desc": "You are in the plains.  The path leads to the south.  As you look\naround you notice a small almost invisible trail leading away to the\nwest towards a copse of trees.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4035
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4075
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 4036, 
-    "name": "The Plains", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 4036,
+    "name": "The Plains",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You stand on a path that leads through the foothills in an\neast-west direction.  Some distance off to the west you can see\na small intersection of paths and off to the east you see that\nthe path seems to come to an end as part of the mountain chain\njuts out of the ground, blocking your view of the sky.", 
+    "desc": "You stand on a path that leads through the foothills in an\neast-west direction.  Some distance off to the west you can see\na small intersection of paths and off to the east you see that\nthe path seems to come to an end as part of the mountain chain\njuts out of the ground, blocking your view of the sky.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4038
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4033
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 4037, 
-    "name": "The Path Through The Foothills", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 4037,
+    "name": "The Path Through The Foothills",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You find yourself standing at the bottom of a large mountain in\nthe mountain chain which begins at Mount Moria and stretches north\ntowards the top of the world.  A small path leads off through the\nfoothills towards the west, where you can see plains quite a ways\naway.  To the east you spot a small worn trail leading up the side\nof the mountain.", 
+    "desc": "You find yourself standing at the bottom of a large mountain in\nthe mountain chain which begins at Mount Moria and stretches north\ntowards the top of the world.  A small path leads off through the\nfoothills towards the west, where you can see plains quite a ways\naway.  To the east you spot a small worn trail leading up the side\nof the mountain.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4039
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4037
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 4038, 
-    "name": "The Base Of The Mountain", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 4038,
+    "name": "The Base Of The Mountain",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You stand partway up the mountainside on a narrow yet well worn\ntrail.  The trail curves its way up the side of the mountain towards\nthe top and westwards down the mountain into the foothills below.", 
+    "desc": "You stand partway up the mountainside on a narrow yet well worn\ntrail.  The trail curves its way up the side of the mountain towards\nthe top and westwards down the mountain into the foothills below.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4038
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4040
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 4039, 
-    "name": "A Trail Up The Mountain", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 4039,
+    "name": "A Trail Up The Mountain",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You find yourself at what is essentially the summit of this mountain.\nIt certainly seemed taller from the ground didn't it?  The plateau you\nstand on is close to thirty metres across and a small gouge in the north\nside of it looks to lead to a small cavern.  A small trail leads down\ntowards a valley that was hidden away on the east side of the mountain.", 
+    "desc": "You find yourself at what is essentially the summit of this mountain.\nIt certainly seemed taller from the ground didn't it?  The plateau you\nstand on is close to thirty metres across and a small gouge in the north\nside of it looks to lead to a small cavern.  A small trail leads down\ntowards a valley that was hidden away on the east side of the mountain.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4041
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4076
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4039
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 4040, 
-    "name": "The Mountain Top", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 4040,
+    "name": "The Mountain Top",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "Following the gouge down to the cave entrance, you clamber through\nthe small entranceway only to find yourself in what appears to be the\nliving den of a large carnivorous animal!", 
+    "desc": "Following the gouge down to the cave entrance, you clamber through\nthe small entranceway only to find yourself in what appears to be the\nliving den of a large carnivorous animal!",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4040
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4041, 
-    "name": "The Lion's Den", 
+    ],
+    "id": 4041,
+    "name": "The Lion's Den",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You continue to move through the foothills and notice that off in\nthe distance to the west, you can see a rather large cave entrance in\nthe side of a large hill.  The hill seems to jut up from the rest of\nthe foothills quite unnaturally.  A path leads off towards the east\nas it seems to begin from nothing here.", 
+    "desc": "You continue to move through the foothills and notice that off in\nthe distance to the west, you can see a rather large cave entrance in\nthe side of a large hill.  The hill seems to jut up from the rest of\nthe foothills quite unnaturally.  A path leads off towards the east\nas it seems to begin from nothing here.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4034
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4043
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 4042, 
-    "name": "The Level Foothills", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 4042,
+    "name": "The Level Foothills",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You stand in a large tunnel, much larger than it seemed from\nthe outside.  The ceiling is at least twenty feet above, and the\nwidth of the tunnel runs at least fifteen feet.  You can feel the\nfresh air coming from the east, and off to the west, it looks to\nlead into darkness.", 
+    "desc": "You stand in a large tunnel, much larger than it seemed from\nthe outside.  The ceiling is at least twenty feet above, and the\nwidth of the tunnel runs at least fifteen feet.  You can feel the\nfresh air coming from the east, and off to the west, it looks to\nlead into darkness.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4042
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4044
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4043, 
-    "name": "The Cave Entrance", 
+    ],
+    "id": 4043,
+    "name": "The Cave Entrance",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You find yourself inside a rather large cavern.  The ceiling stands\nat least twenty five feet above you, if not more.  The walls are so far\naway, that the shadows of the room obscure them almost completely.  Out\nof all of the grandeur in this cave however, nothing seems to catch your\neye quite as much as the enormous table standing in the middle of the\nsandy floor.  It stands tall enough for you to walk under it without the\nneed to hunch over.  A large tunnel leads out of the eastern wall of the\ncavern.", 
+    "desc": "You find yourself inside a rather large cavern.  The ceiling stands\nat least twenty five feet above you, if not more.  The walls are so far\naway, that the shadows of the room obscure them almost completely.  Out\nof all of the grandeur in this cave however, nothing seems to catch your\neye quite as much as the enormous table standing in the middle of the\nsandy floor.  It stands tall enough for you to walk under it without the\nneed to hunch over.  A large tunnel leads out of the eastern wall of the\ncavern.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4043
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4044, 
-    "name": "The Hill Giant Cave", 
+    ],
+    "id": 4044,
+    "name": "The Hill Giant Cave",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "This trail leads up a steep hill to a point where it levels out as\nit begins to pass between the mountains that surround you.  It continues\nthrough the hills to the east and heads down to the valley to the west.", 
+    "desc": "This trail leads up a steep hill to a point where it levels out as\nit begins to pass between the mountains that surround you.  It continues\nthrough the hills to the east and heads down to the valley to the west.",
     "exits": [
       {
-        "desc": "The rocky trail continues.", 
-        "dir": 1, 
+        "desc": "The rocky trail continues.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4046
-      }, 
+      },
       {
-        "desc": "The valley lies at the bottom of the steep trail.", 
-        "dir": 3, 
+        "desc": "The valley lies at the bottom of the steep trail.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4031
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 4045, 
-    "name": "The Steep Trail", 
+    ],
+    "id": 4045,
+    "name": "The Steep Trail",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "The trail between the mountains seems almost endless as you continue\nto trek along it.  It continues to both the east and west.", 
+    "desc": "The trail between the mountains seems almost endless as you continue\nto trek along it.  It continues to both the east and west.",
     "exits": [
       {
-        "desc": "The trail continues eastwards.", 
-        "dir": 1, 
+        "desc": "The trail continues eastwards.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4047
-      }, 
+      },
       {
-        "desc": "The trail continues westwards.", 
-        "dir": 3, 
+        "desc": "The trail continues westwards.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4045
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 4046, 
-    "name": "Between The Mountains", 
+    ],
+    "id": 4046,
+    "name": "Between The Mountains",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "After a long trek, you find yourself in the foothills again.  You spot\na narrow trail leading away to the northwest not too far distant to the\nwest.", 
+    "desc": "After a long trek, you find yourself in the foothills again.  You spot\na narrow trail leading away to the northwest not too far distant to the\nwest.",
     "exits": [
       {
-        "desc": "You can head towards the narrow trail this way.", 
-        "dir": 1, 
+        "desc": "You can head towards the narrow trail this way.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4049
-      }, 
+      },
       {
-        "desc": "The trail leading back through the mountains seems to go on forever.", 
-        "dir": 3, 
+        "desc": "The trail leading back through the mountains seems to go on forever.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4046
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 4047, 
-    "name": "The Foothills", 
+    ],
+    "id": 4047,
+    "name": "The Foothills",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "A short trek through the foothills and you find yourself facing a\ntrail that leads between the mountains to the west.  The trail through\nthem looks to be very long and probably quite tiring.  You spot a narrow\ntrail leading away to the northwest not too far distant to the west.", 
+    "desc": "A short trek through the foothills and you find yourself facing a\ntrail that leads between the mountains to the west.  The trail through\nthem looks to be very long and probably quite tiring.  You spot a narrow\ntrail leading away to the northwest not too far distant to the west.",
     "exits": [
       {
-        "desc": "You can head towards the narrow trail this way.", 
-        "dir": 1, 
+        "desc": "You can head towards the narrow trail this way.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4049
-      }, 
+      },
       {
-        "desc": "The trail leading through the mountains seems to go on forever.", 
-        "dir": 3, 
+        "desc": "The trail leading through the mountains seems to go on forever.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4046
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 4048, 
-    "name": "The Foothills", 
+    ],
+    "id": 4048,
+    "name": "The Foothills",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are at a point on the trail where it turns slowly from an\nalmost straight westwards trail into a trail meandering towards\nthe northwest.", 
+    "desc": "You are at a point on the trail where it turns slowly from an\nalmost straight westwards trail into a trail meandering towards\nthe northwest.",
     "exits": [
       {
-        "desc": "A small trail leads away to the northwest.", 
-        "dir": 0, 
+        "desc": "A small trail leads away to the northwest.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5628
-      }, 
+      },
       {
-        "desc": "A trail heads towards the mountains to the west.", 
-        "dir": 3, 
+        "desc": "A trail heads towards the mountains to the west.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4048
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 4049, 
-    "name": "The Foothills", 
+    ],
+    "id": 4049,
+    "name": "The Foothills",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are at a bend in the tunnel here.  It turns from an eastwards\nheading to a southwards one.  The walls are cold and seem to be damp\nwith moisture.  you can see some greenish moss growing up near the\nroof of the passageway on the northern wall.", 
+    "desc": "You are at a bend in the tunnel here.  It turns from an eastwards\nheading to a southwards one.  The walls are cold and seem to be damp\nwith moisture.  you can see some greenish moss growing up near the\nroof of the passageway on the northern wall.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4051
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4053
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4050, 
-    "name": "The Tunnel", 
+    ],
+    "id": 4050,
+    "name": "The Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "Standing in this part of the tunnel, you notice that not only does\nthe tunnel get suddenly narrower, but the floor does not seem to be\nnearly as smooth as it was before.  In fact, the floor drops almost\nfive feet in jagged steps as you look eastward.  The western path\nseems to be quite smooth however.", 
+    "desc": "Standing in this part of the tunnel, you notice that not only does\nthe tunnel get suddenly narrower, but the floor does not seem to be\nnearly as smooth as it was before.  In fact, the floor drops almost\nfive feet in jagged steps as you look eastward.  The western path\nseems to be quite smooth however.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4052
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4050
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4051, 
-    "name": "The Tunnel", 
+    ],
+    "id": 4051,
+    "name": "The Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "Continuing along the tunnel, you find that the floor has begun\nto smooth itself out once more.  Looking about, you notice a small\nspring of water bubbling up near the southern wall.", 
+    "desc": "Continuing along the tunnel, you find that the floor has begun\nto smooth itself out once more.  Looking about, you notice a small\nspring of water bubbling up near the southern wall.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4100
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4051
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4052, 
-    "name": "The Tunnel", 
+    ],
+    "id": 4052,
+    "name": "The Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You continue along the tunnel to find yourself at a right\nangle turn.  The passage leads north and east from here.  The\nway to the north seems to be a longer tunnel which continues\non through the gloom of the underearth.  The way to the east\nis a fresh change from what would normally be found this far\nunderground in that the tunnel seems to open  up into a fairly\nlarge and well lit cave.", 
+    "desc": "You continue along the tunnel to find yourself at a right\nangle turn.  The passage leads north and east from here.  The\nway to the north seems to be a longer tunnel which continues\non through the gloom of the underearth.  The way to the east\nis a fresh change from what would normally be found this far\nunderground in that the tunnel seems to open  up into a fairly\nlarge and well lit cave.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4050
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4054
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4053, 
-    "name": "The Tunnel", 
+    ],
+    "id": 4053,
+    "name": "The Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "The cave you stand in now is lit by an eerie flickering light,\nwhich probably comes from the enormous fire which is burning a\nshort distance to the south in what looks to be the middle of\nthe cave.  The flickering light creates some really strange and\nalmost frightening shadows on the walls, almost hiding the two\ntunnels that lead away from here, one to the east and one to the\nwest.", 
+    "desc": "The cave you stand in now is lit by an eerie flickering light,\nwhich probably comes from the enormous fire which is burning a\nshort distance to the south in what looks to be the middle of\nthe cave.  The flickering light creates some really strange and\nalmost frightening shadows on the walls, almost hiding the two\ntunnels that lead away from here, one to the east and one to the\nwest.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4055
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4056
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4053
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4054, 
-    "name": "The Light Cave", 
+    ],
+    "id": 4054,
+    "name": "The Light Cave",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You stand in yet another small and damp tunnel.  The ceiling hangs\nquite low overhead and the passage twists off into darkness.  The only\nexit from here looks to be off to the west.", 
+    "desc": "You stand in yet another small and damp tunnel.  The ceiling hangs\nquite low overhead and the passage twists off into darkness.  The only\nexit from here looks to be off to the west.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4054
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4055, 
-    "name": "The Maze", 
+    ],
+    "id": 4055,
+    "name": "The Maze",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "The cave you stand in now is lit by an eerie flickering light,\nwhich comes from the enormous fire which is burning right in\nfront of you in the middle of this large cave.  The fire gives\noff more than enough light to see both the north and south ends\nof the cave.", 
+    "desc": "The cave you stand in now is lit by an eerie flickering light,\nwhich comes from the enormous fire which is burning right in\nfront of you in the middle of this large cave.  The fire gives\noff more than enough light to see both the north and south ends\nof the cave.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4054
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4061
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The fire seems to have been burning for quite a long time.  The\nceiling is covered with soot from the smoke, and ashes are littered\nall over the floor of the cave.", 
+        "desc": "The fire seems to have been burning for quite a long time.  The\nceiling is covered with soot from the smoke, and ashes are littered\nall over the floor of the cave.",
         "keywords": [
           "fire"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4056, 
-    "name": "The Light Cave", 
+    ],
+    "id": 4056,
+    "name": "The Light Cave",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You stand in yet another small and damp tunnel.  The ceiling hangs\nquite low overhead and the passage twists off into darkness.  The only\nexits from here look to be off to the north and south.", 
+    "desc": "You stand in yet another small and damp tunnel.  The ceiling hangs\nquite low overhead and the passage twists off into darkness.  The only\nexits from here look to be off to the north and south.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4055
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4062
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4057, 
-    "name": "The Maze", 
+    ],
+    "id": 4057,
+    "name": "The Maze",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You stand in yet another small and damp tunnel.  The ceiling hangs\nquite low overhead and the passage twists off into darkness.  The only\nexits from here look to be off to the south and west.", 
+    "desc": "You stand in yet another small and damp tunnel.  The ceiling hangs\nquite low overhead and the passage twists off into darkness.  The only\nexits from here look to be off to the south and west.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4063
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4057
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4058, 
-    "name": "The Maze", 
+    ],
+    "id": 4058,
+    "name": "The Maze",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are standing in a tunnel deep inside the heart of Mount Moria.  A\nsmall rivulet of water runs alongside the wall to the north as the tunnel\nseems to lead slightly down towards the east.\n   The tunnel continues on to the east as it plunges deeper into the earth,\nand upwards a bit towards the west where the air seems to be quite damp.", 
+    "desc": "You are standing in a tunnel deep inside the heart of Mount Moria.  A\nsmall rivulet of water runs alongside the wall to the north as the tunnel\nseems to lead slightly down towards the east.\n   The tunnel continues on to the east as it plunges deeper into the earth,\nand upwards a bit towards the west where the air seems to be quite damp.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4060
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4024
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4059, 
-    "name": "The Tunnel", 
+    ],
+    "id": 4059,
+    "name": "The Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You stand in a section of this small tunnel which seems to be\nalmost level.  There is a small pool of water collecting beside\nthe north wall indicating perhaps a low spot on the floor.  The\npool is being fed by a small rivulet which is coursing along the\nnorthern wall from the west, but yet the water level in the pool\ndoes not seem to be changing.\n   Looking either way down the tunnel, you can see that the tunnel\nclimbs to the west, and to the east, a strange flickering light\nshows that the tunnel opens up into a cave of sorts.", 
+    "desc": "You stand in a section of this small tunnel which seems to be\nalmost level.  There is a small pool of water collecting beside\nthe north wall indicating perhaps a low spot on the floor.  The\npool is being fed by a small rivulet which is coursing along the\nnorthern wall from the west, but yet the water level in the pool\ndoes not seem to be changing.\n   Looking either way down the tunnel, you can see that the tunnel\nclimbs to the west, and to the east, a strange flickering light\nshows that the tunnel opens up into a cave of sorts.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4061
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4059
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4060, 
-    "name": "The Tunnel", 
+    ],
+    "id": 4060,
+    "name": "The Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "The cave you stand in now is lit by an eerie flickering light,\nwhich probably comes from the enormous fire which is burning a\nshort distance to the north in what looks to be the middle of\nthe cave.  The flickering light creates some really strange and\nalmost frightening shadows on the walls, almost hiding the two\ntunnels that lead away from here, one to the west and one to the\nsouth.", 
+    "desc": "The cave you stand in now is lit by an eerie flickering light,\nwhich probably comes from the enormous fire which is burning a\nshort distance to the north in what looks to be the middle of\nthe cave.  The flickering light creates some really strange and\nalmost frightening shadows on the walls, almost hiding the two\ntunnels that lead away from here, one to the west and one to the\nsouth.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4056
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4065
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4060
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4061, 
-    "name": "The Light Cave", 
+    ],
+    "id": 4061,
+    "name": "The Light Cave",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You stand in yet another small and damp tunnel.  The ceiling hangs\nquite low overhead and the passage twists off into darkness.  The only\nexits from here look to be off to the east and west.", 
+    "desc": "You stand in yet another small and damp tunnel.  The ceiling hangs\nquite low overhead and the passage twists off into darkness.  The only\nexits from here look to be off to the east and west.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4063
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4061
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4062, 
-    "name": "The Maze", 
+    ],
+    "id": 4062,
+    "name": "The Maze",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You stand in yet another small and damp tunnel.  The ceiling hangs\nquite low overhead and the passage twists off into darkness.  The only\nexits from here look to be off to the east and north.", 
+    "desc": "You stand in yet another small and damp tunnel.  The ceiling hangs\nquite low overhead and the passage twists off into darkness.  The only\nexits from here look to be off to the east and north.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4058
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4064
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4063, 
-    "name": "The Maze", 
+    ],
+    "id": 4063,
+    "name": "The Maze",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You stand in a small chamber beneath the earth.  The chamber\ncloses down to tunnel size to the west as the only obvious exit\nleads away in that direction.  Before heading off that way, you\ndecide to look around the cave.  The walls are slightly damp to\nthe touch, and the ceiling is very smooth.  Almost right in the\ncentre of the ceiling, a well rounded hole has been made.", 
+    "desc": "You stand in a small chamber beneath the earth.  The chamber\ncloses down to tunnel size to the west as the only obvious exit\nleads away in that direction.  Before heading off that way, you\ndecide to look around the cave.  The walls are slightly damp to\nthe touch, and the ceiling is very smooth.  Almost right in the\ncentre of the ceiling, a well rounded hole has been made.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4063
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4020
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4064, 
-    "name": "The Tunnel", 
+    ],
+    "id": 4064,
+    "name": "The Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You stand in yet another small and damp tunnel.  The ceiling hangs\nquite low overhead and the passage twists off into darkness.  The only\nexits from here look to be off to the east and north.  To the north,\nyou can see the entrance to what looks to be a large and well lit cave.", 
+    "desc": "You stand in yet another small and damp tunnel.  The ceiling hangs\nquite low overhead and the passage twists off into darkness.  The only\nexits from here look to be off to the east and north.  To the north,\nyou can see the entrance to what looks to be a large and well lit cave.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4061
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4066
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4065, 
-    "name": "The Maze", 
+    ],
+    "id": 4065,
+    "name": "The Maze",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You stand in yet another small and damp tunnel.  The ceiling hangs\nquite low overhead and the passage twists off into darkness.  The only\nexits from here look to be off to the east, south, and north.  To the\nsouth, the tunnel looks to open up into a cavern.", 
+    "desc": "You stand in yet another small and damp tunnel.  The ceiling hangs\nquite low overhead and the passage twists off into darkness.  The only\nexits from here look to be off to the east, south, and north.  To the\nsouth, the tunnel looks to open up into a cavern.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4062
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4067
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4069
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4066, 
-    "name": "The Maze", 
+    ],
+    "id": 4066,
+    "name": "The Maze",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You stand in yet another small and damp tunnel.  The ceiling hangs\nquite low overhead and the passage twists off into darkness.  The only\nexits from here look to be off to the west and north.", 
+    "desc": "You stand in yet another small and damp tunnel.  The ceiling hangs\nquite low overhead and the passage twists off into darkness.  The only\nexits from here look to be off to the west and north.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4063
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4066
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4067, 
-    "name": "The Maze", 
+    ],
+    "id": 4067,
+    "name": "The Maze",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You find yourself in what is perhaps the largest cave you\nhave ever been in.  It stretches through the darkness to the\neast and south.  The cave is nigh filled with echoes created\nby the sound of your breathing.  Stalactites and stalagmites\nhang down from the ceiling and climb upwards from the ground\nof the cavern respectively.", 
+    "desc": "You find yourself in what is perhaps the largest cave you\nhave ever been in.  It stretches through the darkness to the\neast and south.  The cave is nigh filled with echoes created\nby the sound of your breathing.  Stalactites and stalagmites\nhang down from the ceiling and climb upwards from the ground\nof the cavern respectively.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4069
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4070
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4068, 
-    "name": "The Large Cave", 
+    ],
+    "id": 4068,
+    "name": "The Large Cave",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You find yourself in what is perhaps the largest cave you\nhave ever been in.  It stretches through the darkness to the\nwest and south.  The cave is nigh filled with echoes created\nby the sound of your breathing.  Stalactites and stalagmites\nhang down from the ceiling and climb upwards from the ground\nof the cavern respectively.  A narrow tunnel leads away from\nthe cave to the north.", 
+    "desc": "You find yourself in what is perhaps the largest cave you\nhave ever been in.  It stretches through the darkness to the\nwest and south.  The cave is nigh filled with echoes created\nby the sound of your breathing.  Stalactites and stalagmites\nhang down from the ceiling and climb upwards from the ground\nof the cavern respectively.  A narrow tunnel leads away from\nthe cave to the north.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4066
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4071
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4068
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4069, 
-    "name": "The Large Cave", 
+    ],
+    "id": 4069,
+    "name": "The Large Cave",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You find yourself in what is perhaps the largest cave you\nhave ever been in.  It stretches through the darkness to the\neast and north.  The cave is nigh filled with echoes created\nby the sound of your breathing.  Stalactites and stalagmites\nhang down from the ceiling and climb upwards from the ground\nof the cavern respectively.", 
+    "desc": "You find yourself in what is perhaps the largest cave you\nhave ever been in.  It stretches through the darkness to the\neast and north.  The cave is nigh filled with echoes created\nby the sound of your breathing.  Stalactites and stalagmites\nhang down from the ceiling and climb upwards from the ground\nof the cavern respectively.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4068
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4071
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4070, 
-    "name": "The Large Cave", 
+    ],
+    "id": 4070,
+    "name": "The Large Cave",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You find yourself in what is perhaps the largest cave you\nhave ever been in.  It stretches through the darkness to the\nwest and south.  The cave is nigh filled with echoes created\nby the sound of your breathing.  Stalactites and stalagmites\nhang down from the ceiling and climb upwards from the ground\nof the cavern respectively.  A narrow tunnel leads away from\nthe cave to the east.", 
+    "desc": "You find yourself in what is perhaps the largest cave you\nhave ever been in.  It stretches through the darkness to the\nwest and south.  The cave is nigh filled with echoes created\nby the sound of your breathing.  Stalactites and stalagmites\nhang down from the ceiling and climb upwards from the ground\nof the cavern respectively.  A narrow tunnel leads away from\nthe cave to the east.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4069
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4072
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4070
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4071, 
-    "name": "The Large Cave", 
+    ],
+    "id": 4071,
+    "name": "The Large Cave",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You stand in a narrow tunnel.  It makes a turn from east to south\nhere as it heads through the rock of the mountain.  The western wall\nof the tunnel looks to have broken through a small, natural crack in\nthe rock to lead into what appears to be a fairly large cave.", 
+    "desc": "You stand in a narrow tunnel.  It makes a turn from east to south\nhere as it heads through the rock of the mountain.  The western wall\nof the tunnel looks to have broken through a small, natural crack in\nthe rock to lead into what appears to be a fairly large cave.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4073
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4074
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4071
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4072, 
-    "name": "The Tunnel", 
+    ],
+    "id": 4072,
+    "name": "The Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "The tunnel comes to a sudden halt here.  How very bizarre.  The\nonly exit is back to the west, where the tunnel leads back through\nthe mountain.  There is absolutely nothing of any interest down at\nthe end of this passageway either.  How odd.", 
+    "desc": "The tunnel comes to a sudden halt here.  How very bizarre.  The\nonly exit is back to the west, where the tunnel leads back through\nthe mountain.  There is absolutely nothing of any interest down at\nthe end of this passageway either.  How odd.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4072
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4073, 
-    "name": "The End Of The Tunnel", 
+    ],
+    "id": 4073,
+    "name": "The End Of The Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are at a small hole in the floor.  Alas, you can only leave\nnorth because to leave down into the unknown, you must be able to\nfit through the hole, which is far too small for you!", 
+    "desc": "You are at a small hole in the floor.  Alas, you can only leave\nnorth because to leave down into the unknown, you must be able to\nfit through the hole, which is far too small for you!",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4072
-      }, 
+      },
       {
-        "desc": "The small hole in the floor refuses to give up its secrets about\nwhat can be found below.", 
-        "dir": 5, 
+        "desc": "The small hole in the floor refuses to give up its secrets about\nwhat can be found below.",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": -1
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The small hole in the floor refuses to give up its secrets about\nwhat can be found below.", 
+        "desc": "The small hole in the floor refuses to give up its secrets about\nwhat can be found below.",
         "keywords": [
-          "hole", 
+          "hole",
           "floor"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4074, 
-    "name": "The Hole", 
+    ],
+    "id": 4074,
+    "name": "The Hole",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "Standing in this copse of trees gives you an eerie feeling.  Off to\nthe east you can see the plains, and just to the north a strange shadow\nseems to be changing shape constantly and almost seems to beckon you to\nenter it.", 
+    "desc": "Standing in this copse of trees gives you an eerie feeling.  Off to\nthe east you can see the plains, and just to the north a strange shadow\nseems to be changing shape constantly and almost seems to beckon you to\nenter it.",
     "exits": [
       {
-        "desc": "There is a strange shadow forming before you.", 
-        "dir": 0, 
+        "desc": "There is a strange shadow forming before you.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 2500
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4036
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 4075, 
-    "name": "The Copse Of Trees", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 4075,
+    "name": "The Copse Of Trees",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You find yourself on a mountain trail twisting down towards a small\nhidden valley located in the shadow of another mountain a short distance\nto the east.  The trail is fairly rough going and looks to dip down into\nthe small valley before climbing up the side of the other mountain.  As\nyou look at the valley from a closer vantage point, you realize that it\nis much smaller than you had expected, being maybe thirty feet long.  It\nis quite surprising how deceptive distances can be this high up in the\nmountains, isn't it?", 
+    "desc": "You find yourself on a mountain trail twisting down towards a small\nhidden valley located in the shadow of another mountain a short distance\nto the east.  The trail is fairly rough going and looks to dip down into\nthe small valley before climbing up the side of the other mountain.  As\nyou look at the valley from a closer vantage point, you realize that it\nis much smaller than you had expected, being maybe thirty feet long.  It\nis quite surprising how deceptive distances can be this high up in the\nmountains, isn't it?",
     "exits": [
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4040
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4077
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 4076, 
-    "name": "On A Mountain Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 4076,
+    "name": "On A Mountain Trail",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "This valley seems to be a complete waste of a climb down the\nmountainside.  Of course, there is always the carefully hidden\ntrail that you just noticed on the eastern side of the valley,\nleading up the eastern mountain that is blocking most of the sky\nfrom you.", 
+    "desc": "This valley seems to be a complete waste of a climb down the\nmountainside.  Of course, there is always the carefully hidden\ntrail that you just noticed on the eastern side of the valley,\nleading up the eastern mountain that is blocking most of the sky\nfrom you.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6400
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4076
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 4077, 
-    "name": "In The Hidden Valley", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 4077,
+    "name": "In The Hidden Valley",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "This small valley is hidden away in the shadow of the large\nmountain to the east.  The trail leading up it to the east seems\nto vanish before your eyes, but you are quickly able to find it\nonce again.  A trail leads up the mountain to the west as well.", 
+    "desc": "This small valley is hidden away in the shadow of the large\nmountain to the east.  The trail leading up it to the east seems\nto vanish before your eyes, but you are quickly able to find it\nonce again.  A trail leads up the mountain to the west as well.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6400
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4076
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 4078, 
-    "name": "In The Hidden Valley", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 4078,
+    "name": "In The Hidden Valley",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "As you continue along this tunnel which heads deeper and deeper into\nthe earth, you notice that the tunnel must be a lot steeper than you\npreviously expected as there is a small rivulet of water gushing down\nthe one side of the tunnel.  The tunnel appears to extend straight to\nthe east for quite some distance.", 
+    "desc": "As you continue along this tunnel which heads deeper and deeper into\nthe earth, you notice that the tunnel must be a lot steeper than you\npreviously expected as there is a small rivulet of water gushing down\nthe one side of the tunnel.  The tunnel appears to extend straight to\nthe east for quite some distance.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4101
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4052
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4100, 
-    "name": "The Tunnel", 
+    ],
+    "id": 4100,
+    "name": "The Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "The tunnel seems to be slightly sloped here as it continues in its\neast-west direction.  The tunnel walls are far apart, almost allowing\nfor four people to travel abreast with ease.  The walls do not seem to\nbe very damp, but there is a small rivulet running along the northern\nwall of the tunnel.", 
+    "desc": "The tunnel seems to be slightly sloped here as it continues in its\neast-west direction.  The tunnel walls are far apart, almost allowing\nfor four people to travel abreast with ease.  The walls do not seem to\nbe very damp, but there is a small rivulet running along the northern\nwall of the tunnel.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4102
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4100
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4101, 
-    "name": "The Long Tunnel", 
+    ],
+    "id": 4101,
+    "name": "The Long Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "As you travel along this long tunnel, you begin to wonder just\nhow long it is.  The walls are fairly far apart, but you can see\nthat they begin to close in rather rapidly to the east.  In fact,\nthe manner in which they come together almost reminds you of a\nfunnel.", 
+    "desc": "As you travel along this long tunnel, you begin to wonder just\nhow long it is.  The walls are fairly far apart, but you can see\nthat they begin to close in rather rapidly to the east.  In fact,\nthe manner in which they come together almost reminds you of a\nfunnel.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4103
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4101
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4102, 
-    "name": "The Long Tunnel", 
+    ],
+    "id": 4102,
+    "name": "The Long Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are standing in a long east-west tunnel.  It is not all that\nwide at this point, perhaps wide enough for two people to stand side\nby side without impeding each other.  Off to the west it appears that\nthe tunnel opens up some more while to the east it dives further down\ninto the earth, and you can see a small hole about two feet in diameter\nabout waist height in the southern wall.", 
+    "desc": "You are standing in a long east-west tunnel.  It is not all that\nwide at this point, perhaps wide enough for two people to stand side\nby side without impeding each other.  Off to the west it appears that\nthe tunnel opens up some more while to the east it dives further down\ninto the earth, and you can see a small hole about two feet in diameter\nabout waist height in the southern wall.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4104
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4106
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4102
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4103, 
-    "name": "The Long Tunnel", 
+    ],
+    "id": 4103,
+    "name": "The Long Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You find yourself in a small bulbous cavern ending.  The somewhat\ncircular 'room' is about thirty feet in diameter and you can see one\nexit from it; a tunnel leading sharply upwards from the western wall.\nThe walls of this cavern are quite indistinct and you cannot see any\nmoss or dampness on them whatsoever.", 
+    "desc": "You find yourself in a small bulbous cavern ending.  The somewhat\ncircular 'room' is about thirty feet in diameter and you can see one\nexit from it; a tunnel leading sharply upwards from the western wall.\nThe walls of this cavern are quite indistinct and you cannot see any\nmoss or dampness on them whatsoever.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4103
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4104, 
-    "name": "The Long Tunnel", 
+    ],
+    "id": 4104,
+    "name": "The Long Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are standing in what appears to be the north-east corner of\nthis large cavern.  The cave is lit by the eerie, soft, golden light\nwhich looks to be emanating from the walls themselves.  The cave\nitself is enormous, extending quite a distance to the west and south.", 
+    "desc": "You are standing in what appears to be the north-east corner of\nthis large cavern.  The cave is lit by the eerie, soft, golden light\nwhich looks to be emanating from the walls themselves.  The cave\nitself is enormous, extending quite a distance to the west and south.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4108
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4106
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It looks good, but as you look closely you notice that it has no value.", 
+        "desc": "It looks good, but as you look closely you notice that it has no value.",
         "keywords": [
-          "light", 
-          "gold", 
+          "light",
+          "gold",
           "golden"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4105, 
-    "name": "The Golden Cave", 
+    ],
+    "id": 4105,
+    "name": "The Golden Cave",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are standing in what appears to be the north-west corner of\nthis large cavern.  The cave is lit by the eerie, soft, golden light\nwhich looks to be emanating from the walls themselves.  The cave\nitself is enormous, extending quite a distance to the east and south.\nThere is a hole in the northern wall, about two feet in diameter.\nAll that can be seen through the hole is darkness.", 
+    "desc": "You are standing in what appears to be the north-west corner of\nthis large cavern.  The cave is lit by the eerie, soft, golden light\nwhich looks to be emanating from the walls themselves.  The cave\nitself is enormous, extending quite a distance to the east and south.\nThere is a hole in the northern wall, about two feet in diameter.\nAll that can be seen through the hole is darkness.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4103
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4105
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4109
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It looks good, but as you look closely you notice that it has no value.", 
+        "desc": "It looks good, but as you look closely you notice that it has no value.",
         "keywords": [
-          "light", 
-          "gold", 
+          "light",
+          "gold",
           "golden"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4106, 
-    "name": "The Golden Cave", 
+    ],
+    "id": 4106,
+    "name": "The Golden Cave",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are standing at the elbow turn of a small passageway.  It turns\nquite sharply to the south and west.  To the south, it appears that the\npassage continues, but to the west you can see what almost appears to\nbe a golden light.", 
+    "desc": "You are standing at the elbow turn of a small passageway.  It turns\nquite sharply to the south and west.  To the south, it appears that the\npassage continues, but to the west you can see what almost appears to\nbe a golden light.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4113
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4108
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4107, 
-    "name": "The Passage", 
+    ],
+    "id": 4107,
+    "name": "The Passage",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are standing in what appears to be the south-east corner of\nthis large cavern.  The cave is lit by the eerie, soft, golden light\nwhich looks to be emanating from the walls themselves.  The cave\nitself is enormous, extending quite a distance to the west and north.\nA crack in the wall to the east appears to lead into a passageway of\nsorts.", 
+    "desc": "You are standing in what appears to be the south-east corner of\nthis large cavern.  The cave is lit by the eerie, soft, golden light\nwhich looks to be emanating from the walls themselves.  The cave\nitself is enormous, extending quite a distance to the west and north.\nA crack in the wall to the east appears to lead into a passageway of\nsorts.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4105
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4107
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4109
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It looks good, but as you look closely you notice that it has no value.", 
+        "desc": "It looks good, but as you look closely you notice that it has no value.",
         "keywords": [
-          "light", 
-          "gold", 
+          "light",
+          "gold",
           "golden"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4108, 
-    "name": "The Golden Cave", 
+    ],
+    "id": 4108,
+    "name": "The Golden Cave",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are standing in what appears to be the middle of the western\nwall of this large cavern.  The cave is lit by the eerie, soft, golden\nlight which looks to be emanating from the walls themselves.  The cave\nitself is enormous, extending quite a distance to the east, south,\nand north.", 
+    "desc": "You are standing in what appears to be the middle of the western\nwall of this large cavern.  The cave is lit by the eerie, soft, golden\nlight which looks to be emanating from the walls themselves.  The cave\nitself is enormous, extending quite a distance to the east, south,\nand north.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4106
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4108
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4114
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It looks good, but as you look closely you notice that it has no value.", 
+        "desc": "It looks good, but as you look closely you notice that it has no value.",
         "keywords": [
-          "light", 
-          "gold", 
+          "light",
+          "gold",
           "golden"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4109, 
-    "name": "The Golden Cave", 
+    ],
+    "id": 4109,
+    "name": "The Golden Cave",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You find yourself standing in a small alcove as the tunnel comes to\na somewhat sudden end.  Looking about you suddenly notice a rather big\nhole in the floor of the tunnel.  In fact, it seems that another step\nforward and you would have fallen into it.\n   The tunnel itself leads to the west, and looking down into the hole\nin the floor reveals little beyond the fact that it seems to be very\ndeep and very dark.  There is a very strange smell emanating from the\nhole, it almost smells like something down there is rotting.", 
+    "desc": "You find yourself standing in a small alcove as the tunnel comes to\na somewhat sudden end.  Looking about you suddenly notice a rather big\nhole in the floor of the tunnel.  In fact, it seems that another step\nforward and you would have fallen into it.\n   The tunnel itself leads to the west, and looking down into the hole\nin the floor reveals little beyond the fact that it seems to be very\ndeep and very dark.  There is a very strange smell emanating from the\nhole, it almost smells like something down there is rotting.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4111
-      }, 
+      },
       {
-        "desc": "Before you head down, you drop a rock to see how deep the hole is...\nAfter about five minutes, it still hasn't hit bottom.  Thus, for\nreasons of sanity, you decide not to go this way.", 
-        "dir": 5, 
+        "desc": "Before you head down, you drop a rock to see how deep the hole is...\nAfter about five minutes, it still hasn't hit bottom.  Thus, for\nreasons of sanity, you decide not to go this way.",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": -1
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "Before you head down, you drop a rock to see how deep the hole is...\nAfter about five minutes, it still hasn't hit bottom.  Thus, for\nreasons of sanity, you decide not to go this way.", 
+        "desc": "Before you head down, you drop a rock to see how deep the hole is...\nAfter about five minutes, it still hasn't hit bottom.  Thus, for\nreasons of sanity, you decide not to go this way.",
         "keywords": [
-          "hole", 
+          "hole",
           "floor"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4110, 
-    "name": "The Hole", 
+    ],
+    "id": 4110,
+    "name": "The Hole",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "The walls of this small tunnel are almost completely covered in a\nstrange orange moss that flakes off to the touch.  The tunnel leads\nin an east-west direction and the air within is very damp and very\nstagnant.  There is no detectable breeze at all but a strange smell\nemanates from the east.  There is a small, almost unnoticed hole in\nthe southern wall.", 
+    "desc": "The walls of this small tunnel are almost completely covered in a\nstrange orange moss that flakes off to the touch.  The tunnel leads\nin an east-west direction and the air within is very damp and very\nstagnant.  There is no detectable breeze at all but a strange smell\nemanates from the east.  There is a small, almost unnoticed hole in\nthe southern wall.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4110
-      }, 
+      },
       {
-        "desc": "The hole looks very small.  You will probably have to crawl through\nit.", 
-        "dir": 2, 
+        "desc": "The hole looks very small.  You will probably have to crawl through\nit.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4126
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4112
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The moss on the walls is orange.  When you touch it, it feels very\nscrubby and flakes off to the touch leaving a slight orange tinge\non your fingertips.", 
+        "desc": "The moss on the walls is orange.  When you touch it, it feels very\nscrubby and flakes off to the touch leaving a slight orange tinge\non your fingertips.",
         "keywords": [
-          "moss", 
-          "walls", 
+          "moss",
+          "walls",
           "wall"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4111, 
-    "name": "The Tunnel", 
+    ],
+    "id": 4111,
+    "name": "The Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "The tunnel in which you currently stand is fairly wide (very wide\nrelative to almost all the other tunnels around here it seems) and\nyet the air is quite damp.  The walls have a thin coating of moisture\nupon them which looks and feels somewhat oiley.  The tunnel leads in\nan east-west direction.", 
+    "desc": "The tunnel in which you currently stand is fairly wide (very wide\nrelative to almost all the other tunnels around here it seems) and\nyet the air is quite damp.  The walls have a thin coating of moisture\nupon them which looks and feels somewhat oiley.  The tunnel leads in\nan east-west direction.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4111
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4113
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The coating of moisture on the walls has strange little patterns of\ncolour weaving through it, almost as if someone had spilled oil on\na horizontal water surface.", 
+        "desc": "The coating of moisture on the walls has strange little patterns of\ncolour weaving through it, almost as if someone had spilled oil on\na horizontal water surface.",
         "keywords": [
-          "wall", 
-          "walls", 
-          "moisture", 
-          "coat", 
+          "wall",
+          "walls",
+          "moisture",
+          "coat",
           "coating"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4112, 
-    "name": "The Tunnel", 
+    ],
+    "id": 4112,
+    "name": "The Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "This north-south passageway looks to be a natural creation, except\nthat the walls looks to have been roughly hewn in order to smooth them\na somewhat to make passage easier.  The walls still meander as the\npassage makes its way deeper into the bowels of the earth.  A bizarre\nshadow in the eastern wall leads you to suspect that a small passage\nmeets the tunnel there.", 
+    "desc": "This north-south passageway looks to be a natural creation, except\nthat the walls looks to have been roughly hewn in order to smooth them\na somewhat to make passage easier.  The walls still meander as the\npassage makes its way deeper into the bowels of the earth.  A bizarre\nshadow in the eastern wall leads you to suspect that a small passage\nmeets the tunnel there.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4107
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4112
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4116
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4113, 
-    "name": "The Passage", 
+    ],
+    "id": 4113,
+    "name": "The Passage",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are standing in what appears to be the south-west corner of\nthis large cavern.  The cave is lit by the eerie, soft, golden light\nwhich looks to be emanating from the walls themselves.  The cave\nitself is enormous, extending quite a distance to the north and a\nstrange shadow formation seems to indicate a passage entrance to the\nwest.", 
+    "desc": "You are standing in what appears to be the south-west corner of\nthis large cavern.  The cave is lit by the eerie, soft, golden light\nwhich looks to be emanating from the walls themselves.  The cave\nitself is enormous, extending quite a distance to the north and a\nstrange shadow formation seems to indicate a passage entrance to the\nwest.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4109
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4115
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It looks good, but as you look closely you notice that it has no value.", 
+        "desc": "It looks good, but as you look closely you notice that it has no value.",
         "keywords": [
-          "light", 
-          "gold", 
+          "light",
+          "gold",
           "golden"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4114, 
-    "name": "The Golden Cave", 
+    ],
+    "id": 4114,
+    "name": "The Golden Cave",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You find yourself in a small passage ending.  It is quite dark in here.\nAs you look about the damp walls, you notice that the passageway almost\nappears to curve upwards towards the ceiling.  Looking up, you notice that\nthere is a small hole, just large enough to pass through.  Looking closely\nat the curved part of the wall, it appears that someone (or something) has\ncarved small handholds into the wall to ease passage upwards.  The tunnel\nitself leads off to the east.", 
+    "desc": "You find yourself in a small passage ending.  It is quite dark in here.\nAs you look about the damp walls, you notice that the passageway almost\nappears to curve upwards towards the ceiling.  Looking up, you notice that\nthere is a small hole, just large enough to pass through.  Looking closely\nat the curved part of the wall, it appears that someone (or something) has\ncarved small handholds into the wall to ease passage upwards.  The tunnel\nitself leads off to the east.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4114
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4021
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4115, 
-    "name": "The Dark Passage", 
+    ],
+    "id": 4115,
+    "name": "The Dark Passage",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You find yourself in quite an ordinary passageway which leads north\nand south.  It looks to be wide enough for two people to walk side by\nside with plenty of room.  The passage appears to be almost rectangular\nin form.  Far off to the south you can see the pinpoint of a light.", 
+    "desc": "You find yourself in quite an ordinary passageway which leads north\nand south.  It looks to be wide enough for two people to walk side by\nside with plenty of room.  The passage appears to be almost rectangular\nin form.  Far off to the south you can see the pinpoint of a light.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4113
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4120
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "Well, you can't see where it comes from...", 
+        "desc": "Well, you can't see where it comes from...",
         "keywords": [
           "light"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4116, 
-    "name": "The Passage", 
+    ],
+    "id": 4116,
+    "name": "The Passage",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are currently standing in a narrow passageway that does not seem\nto have been heavily visited at any time.  It leads northwards towards\na lit room and south towards what appears to be a chamber.", 
+    "desc": "You are currently standing in a narrow passageway that does not seem\nto have been heavily visited at any time.  It leads northwards towards\na lit room and south towards what appears to be a chamber.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4114
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4122
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4117, 
-    "name": "The Secret Tunnel", 
+    ],
+    "id": 4117,
+    "name": "The Secret Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "This rather large cave is surprisingly very well lit.  There are\nabout twenty torches spread about the room set in sconces which hang\nseveral feet above your head.  The dancing shadows created by the\nflickering flames catch your eyes for a few minutes and threaten to\nhold you entranced.\n   Looking about the cave, it appears to continue to the west and\nsouth.  In the north wall a strange vertical crack looks as if it may\nlead somewhere.", 
+    "desc": "This rather large cave is surprisingly very well lit.  There are\nabout twenty torches spread about the room set in sconces which hang\nseveral feet above your head.  The dancing shadows created by the\nflickering flames catch your eyes for a few minutes and threaten to\nhold you entranced.\n   Looking about the cave, it appears to continue to the west and\nsouth.  In the north wall a strange vertical crack looks as if it may\nlead somewhere.",
     "exits": [
       {
-        "desc": "It looks like quite the tight fit.", 
-        "dir": 0, 
+        "desc": "It looks like quite the tight fit.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4126
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4123
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4119
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4118, 
-    "name": "The Cave", 
+    ],
+    "id": 4118,
+    "name": "The Cave",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "This rather large cave is surprisingly very well lit.  There are\nabout twenty torches spread about the room set in sconces which hang\nseveral feet above your head.  The dancing shadows created by the\nflickering flames catch your eyes for a few minutes and threaten to\nhold you entranced.\n   Looking about the cave, it appears to continue to the east and\nsouth.", 
+    "desc": "This rather large cave is surprisingly very well lit.  There are\nabout twenty torches spread about the room set in sconces which hang\nseveral feet above your head.  The dancing shadows created by the\nflickering flames catch your eyes for a few minutes and threaten to\nhold you entranced.\n   Looking about the cave, it appears to continue to the east and\nsouth.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4118
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4124
-      }, 
+      },
       {
-        "desc": "The rock wall to the west looks odd for some strange reason.", 
-        "dir": 3, 
+        "desc": "The rock wall to the west looks odd for some strange reason.",
+        "dir": 3,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "wall", 
+          "wall",
           "rock"
-        ], 
+        ],
         "room_linked": 4121
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4119, 
-    "name": "The Cave", 
+    ],
+    "id": 4119,
+    "name": "The Cave",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You stand in a fairly normal passage, slightly wider than is\nnecessary for one person, but not quite wide enough for two.  The\nceiling dips here rather surprisingly, or wait, is that because the\nfloor climbs upwards toward it?  The tunnel seems to narrow slightly\nmore as you look to the south, and widens up somewhat as you look\nnorthward.  The light to the south continues to flicker.", 
+    "desc": "You stand in a fairly normal passage, slightly wider than is\nnecessary for one person, but not quite wide enough for two.  The\nceiling dips here rather surprisingly, or wait, is that because the\nfloor climbs upwards toward it?  The tunnel seems to narrow slightly\nmore as you look to the south, and widens up somewhat as you look\nnorthward.  The light to the south continues to flicker.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4116
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4125
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It nearly is enough to light the passage.", 
+        "desc": "It nearly is enough to light the passage.",
         "keywords": [
           "light"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4120, 
-    "name": "The Passage", 
+    ],
+    "id": 4120,
+    "name": "The Passage",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You stand in a very unnatural hallway, about ten feet across and\nabout ten or twelve feet up.  The passageway funnels down towards \nthe west where it leads to a doorway that looks to be about five feet\nacross.  The east end of the tunnel comes to a sudden end at a very\nsmooth rock wall.", 
+    "desc": "You stand in a very unnatural hallway, about ten feet across and\nabout ten or twelve feet up.  The passageway funnels down towards \nthe west where it leads to a doorway that looks to be about five feet\nacross.  The east end of the tunnel comes to a sudden end at a very\nsmooth rock wall.",
     "exits": [
       {
-        "desc": "The rock wall to the east looks like it might be able to be moved.", 
-        "dir": 1, 
+        "desc": "The rock wall to the east looks like it might be able to be moved.",
+        "dir": 1,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "wall", 
+          "wall",
           "rock"
-        ], 
+        ],
         "room_linked": 4119
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4122
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The rock wall to the east looks like it might be able to be moved.", 
+        "desc": "The rock wall to the east looks like it might be able to be moved.",
         "keywords": [
-          "wall", 
+          "wall",
           "rock"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4121, 
-    "name": "The Secret Tunnel", 
+    ],
+    "id": 4121,
+    "name": "The Secret Tunnel",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You stand in a small chamber that you never would have thought\ncould exist.  This small, almost perfectly round cave does not\nappear to be a natural formation at all, since the walls are far\ntoo smooth and the doorways to the north and east are both almost\nexactly five feet wide and eleven feet tall.", 
+    "desc": "You stand in a small chamber that you never would have thought\ncould exist.  This small, almost perfectly round cave does not\nappear to be a natural formation at all, since the walls are far\ntoo smooth and the doorways to the north and east are both almost\nexactly five feet wide and eleven feet tall.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4117
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4121
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4122, 
-    "name": "The Secret Chamber", 
+    ],
+    "id": 4122,
+    "name": "The Secret Chamber",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "This rather large cave is surprisingly very well lit.  There are\nabout twenty torches spread about the room set in sconces which hang\nseveral feet above your head.  The dancing shadows created by the\nflickering flames catch your eyes for a few minutes and threaten to\nhold you entranced.\n   Looking about the cave, it appears to continue to the west and\nnorth.", 
+    "desc": "This rather large cave is surprisingly very well lit.  There are\nabout twenty torches spread about the room set in sconces which hang\nseveral feet above your head.  The dancing shadows created by the\nflickering flames catch your eyes for a few minutes and threaten to\nhold you entranced.\n   Looking about the cave, it appears to continue to the west and\nnorth.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4118
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4124
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4123, 
-    "name": "The Cave", 
+    ],
+    "id": 4123,
+    "name": "The Cave",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "This rather large cave is surprisingly very well lit.  There are\nabout twenty torches spread about the room set in sconces which hang\nseveral feet above your head.  The dancing shadows created by the\nflickering flames catch your eyes for a few minutes and threaten to\nhold you entranced.\n   Looking about the cave, it appears to continue to the east and\nnorth.  There is a passageway leading out of the western wall of the\ncave which looks to turn northwards.", 
+    "desc": "This rather large cave is surprisingly very well lit.  There are\nabout twenty torches spread about the room set in sconces which hang\nseveral feet above your head.  The dancing shadows created by the\nflickering flames catch your eyes for a few minutes and threaten to\nhold you entranced.\n   Looking about the cave, it appears to continue to the east and\nnorth.  There is a passageway leading out of the western wall of the\ncave which looks to turn northwards.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4119
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4123
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4125
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4124, 
-    "name": "The Cave", 
+    ],
+    "id": 4124,
+    "name": "The Cave",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are at the end of a narrow passage which leads away from\nhere to the north.  The southern wall is bare and almost seems to\ndance with the shadows created by the flickering light emanating\nfrom the cave to the east.", 
+    "desc": "You are at the end of a narrow passage which leads away from\nhere to the north.  The southern wall is bare and almost seems to\ndance with the shadows created by the flickering light emanating\nfrom the cave to the east.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4120
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4124
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 4125, 
-    "name": "The Passage", 
+    ],
+    "id": 4125,
+    "name": "The Passage",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 40
-  }, 
+  },
   {
-    "desc": "You are in a very narrow crawlway.  To back out of it, you would have\nto move carefully in order to not catch anything on the jutting rocks of\nthe ceiling and walls.  The diameter of the crawlway is about two feet,\nand is a rather tight squeeze.  You'd better hope that there aren't any\nworms or similar creatures down this way since it might be difficult to\ndefend yourself in here.", 
+    "desc": "You are in a very narrow crawlway.  To back out of it, you would have\nto move carefully in order to not catch anything on the jutting rocks of\nthe ceiling and walls.  The diameter of the crawlway is about two feet,\nand is a rather tight squeeze.  You'd better hope that there aren't any\nworms or similar creatures down this way since it might be difficult to\ndefend yourself in here.",
     "exits": [
       {
-        "desc": "You can see a small hole marking the north exit of the crawlway.", 
-        "dir": 0, 
+        "desc": "You can see a small hole marking the north exit of the crawlway.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4111
-      }, 
+      },
       {
-        "desc": "You can see the light emanating from the southern exit of the crawlway.", 
-        "dir": 2, 
+        "desc": "You can see the light emanating from the southern exit of the crawlway.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 4118
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SOUNDPROOF", 
+        "note": "SOUNDPROOF",
         "value": 32
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 64
-      }, 
+      },
       {
-        "note": "TUNNEL", 
+        "note": "TUNNEL",
         "value": 256
-      }, 
+      },
       {
-        "note": "PRIVATE", 
+        "note": "PRIVATE",
         "value": 512
       }
-    ], 
-    "id": 4126, 
-    "name": "The Crawlway", 
+    ],
+    "id": 4126,
+    "name": "The Crawlway",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 40
   }
 ]

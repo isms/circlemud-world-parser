@@ -1,3200 +1,3200 @@
 [
   {
-    "desc": "This trail slopes up and away from the main road to \nthe west.  At points the trail seems to fade into \nobscurity against the grey stone and near-grey mountain \ngrass prevalent here.  The trail leads generally eastward \nand up higher into the rocky ground.  There is a sign \nhere, seemingly out-of-place in this rough country.", 
+    "desc": "This trail slopes up and away from the main road to \nthe west.  At points the trail seems to fade into \nobscurity against the grey stone and near-grey mountain \ngrass prevalent here.  The trail leads generally eastward \nand up higher into the rocky ground.  There is a sign \nhere, seemingly out-of-place in this rough country.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3301
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3500
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "        ,_____________________________.\n        |                             |\n\t|         Gabadiel's          |\n\t|          Smithery           |\n\t|      -------------->        |\n\t|\t\t\t      |\n        |           -- BUAG SIGNS INC.|\n\t`-----------------------------'\n\t\t     |  |\n\t\t     |  |\n\t\t     |  |\n\t\t     |  |     ", 
+        "desc": "        ,_____________________________.\n        |                             |\n\t|         Gabadiel's          |\n\t|          Smithery           |\n\t|      -------------->        |\n\t|\t\t\t      |\n        |           -- BUAG SIGNS INC.|\n\t`-----------------------------'\n\t\t     |  |\n\t\t     |  |\n\t\t     |  |\n\t\t     |  |     ",
         "keywords": [
           "sign"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 64
       }
-    ], 
-    "id": 3300, 
-    "name": "A Scraggly Trail", 
+    ],
+    "id": 3300,
+    "name": "A Scraggly Trail",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "What could barely be called a trail leads west back \ndown the mountainside, and down into a very small valley \nwhere a small house sits in the middle of a well-groomed \nyard.  The door to the house is open and inviting, \nwelcoming you for a visit.", 
+    "desc": "What could barely be called a trail leads west back \ndown the mountainside, and down into a very small valley \nwhere a small house sits in the middle of a well-groomed \nyard.  The door to the house is open and inviting, \nwelcoming you for a visit.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3300
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3302
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3301, 
-    "name": "A Scraggly Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3301,
+    "name": "A Scraggly Trail",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "You are standing in the western end of a very, very \nsmall valley, just about room enough for the one house \nstanding to your east.  You can see from here that the \ndoor to the cozy cottage is open and inviting, but the \ninterior seems very dark.  A path bordered by shrubberies \nleads up to the structure, and ends where you are \nstanding; right by the easiest path back up into the \nmountains.", 
+    "desc": "You are standing in the western end of a very, very \nsmall valley, just about room enough for the one house \nstanding to your east.  You can see from here that the \ndoor to the cozy cottage is open and inviting, but the \ninterior seems very dark.  A path bordered by shrubberies \nleads up to the structure, and ends where you are \nstanding; right by the easiest path back up into the \nmountains.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3303
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3301
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3302, 
-    "name": "A Groomed Path", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3302,
+    "name": "A Groomed Path",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The path you are on leads from the front door of the\ncottage to your east, to the edge of the small valley\nto the west.  The building seems quiet...almost too\nquiet.  A small voice in the back of your head, the\nsame voice that has saved your life on countless\noccasions, seems to be telling you that something is\nvery, very wrong here.", 
+    "desc": "The path you are on leads from the front door of the\ncottage to your east, to the edge of the small valley\nto the west.  The building seems quiet...almost too\nquiet.  A small voice in the back of your head, the\nsame voice that has saved your life on countless\noccasions, seems to be telling you that something is\nvery, very wrong here.",
     "exits": [
       {
-        "desc": "It is a normal front door to a house.", 
-        "dir": 1, 
+        "desc": "It is a normal front door to a house.",
+        "dir": 1,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
+          "door",
           "front"
-        ], 
+        ],
         "room_linked": 3304
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3302
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3303, 
-    "name": "Outside A House", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3303,
+    "name": "Outside A House",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "Devastation greets your eyes.\n   The forge has been blasted apart, along with most of \nthe back door.  Hammers, tongs, and anvils lie about in \none gigantic mess, and the smith's bed smoulders yet.  \nThis place has been utterly wrecked and blasted apart, by \nmore than one man you would think from all the tracks in \nthe dust...", 
+    "desc": "Devastation greets your eyes.\n   The forge has been blasted apart, along with most of \nthe back door.  Hammers, tongs, and anvils lie about in \none gigantic mess, and the smith's bed smoulders yet.  \nThis place has been utterly wrecked and blasted apart, by \nmore than one man you would think from all the tracks in \nthe dust...",
     "exits": [
       {
-        "desc": "It is a normal hole torn in the wall leading outside into\na garden.", 
-        "dir": 1, 
+        "desc": "It is a normal hole torn in the wall leading outside into\na garden.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3305
-      }, 
+      },
       {
-        "desc": "It is a normal front door.", 
-        "dir": 3, 
+        "desc": "It is a normal front door.",
+        "dir": 3,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
+          "door",
           "front"
-        ], 
+        ],
         "room_linked": 3303
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "Ha!  Lucky, you were always lucky!  Under the pillow is a\nhalf-written letter, unaddressed.  The bits of text that\naren't smudged, burnt, and smeared tell tale of the smith/mage\nGabadiel's masterwork: a sword of unequalled power, and two\nswords that came before, discarded as 'Not quite what I was\nworking towards'.  Looking around, you notice a distinct lack\nof any swords.  You think you may have a motive now...", 
+        "desc": "Ha!  Lucky, you were always lucky!  Under the pillow is a\nhalf-written letter, unaddressed.  The bits of text that\naren't smudged, burnt, and smeared tell tale of the smith/mage\nGabadiel's masterwork: a sword of unequalled power, and two\nswords that came before, discarded as 'Not quite what I was\nworking towards'.  Looking around, you notice a distinct lack\nof any swords.  You think you may have a motive now...",
         "keywords": [
           "bed"
         ]
-      }, 
+      },
       {
-        "desc": "Three sets of prints lead out where the back door used to stand.", 
+        "desc": "Three sets of prints lead out where the back door used to stand.",
         "keywords": [
-          "tracks", 
+          "tracks",
           "dust"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3304, 
-    "name": "The Smithery", 
+    ],
+    "id": 3304,
+    "name": "The Smithery",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "This garden was probably once kept orderly and weedless.\nUnfortunately, it seems someone has been careless with a\nfireball.  There is nothing here now but blast-marks and\nashes, and the remains of a trail leading to the east edge\nof this tiny valley.", 
+    "desc": "This garden was probably once kept orderly and weedless.\nUnfortunately, it seems someone has been careless with a\nfireball.  There is nothing here now but blast-marks and\nashes, and the remains of a trail leading to the east edge\nof this tiny valley.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3306
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3304
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "They lead east.", 
+        "desc": "They lead east.",
         "keywords": [
-          "tracks", 
+          "tracks",
           "track"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 3305, 
-    "name": "A Small Garden", 
+    ],
+    "flags": [],
+    "id": 3305,
+    "name": "A Small Garden",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "You are standing on a ridge in the mountains, just east\nof a very small valley.  You spot a tiny cottage sitting \nin the center of the valley, and the ridge continues \nsouth.  Looking at the sheer drops to the north and west, \nyou consider not taking those directions.", 
+    "desc": "You are standing on a ridge in the mountains, just east\nof a very small valley.  You spot a tiny cottage sitting \nin the center of the valley, and the ridge continues \nsouth.  Looking at the sheer drops to the north and west, \nyou consider not taking those directions.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3307
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3305
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The tracks lead south.", 
+        "desc": "The tracks lead south.",
         "keywords": [
-          "tracks", 
+          "tracks",
           "track"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 3306, 
-    "name": "Mountain Ridge", 
+    ],
+    "flags": [],
+    "id": 3306,
+    "name": "Mountain Ridge",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The mountain range continues north from here, and \nwidens out into a small plateau just to your south.  Going\neast and west from here would be a bad idea, considering \nthe steepness of the drop.  From this height, you have a \nfairly good panoramic view to the south, including what \nappears to be a small mountain village to your south and \nwest, and a tall, ominous peak westwards from here.", 
+    "desc": "The mountain range continues north from here, and \nwidens out into a small plateau just to your south.  Going\neast and west from here would be a bad idea, considering \nthe steepness of the drop.  From this height, you have a \nfairly good panoramic view to the south, including what \nappears to be a small mountain village to your south and \nwest, and a tall, ominous peak westwards from here.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3306
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3308
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "They lead south.", 
+        "desc": "They lead south.",
         "keywords": [
-          "tracks", 
+          "tracks",
           "track"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 3307, 
-    "name": "The Mountain Ridge", 
+    ],
+    "flags": [],
+    "id": 3307,
+    "name": "The Mountain Ridge",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "You are standing on a small plateau in the mountains, \njust south of a ridge that leads northwards through the \nrocky area.  To the east, south, and west are gentle \nslopes leading down into different areas of the mountains.\n   A giant, dark peak looks down over you to the west, \nlooking quite spooky indeed!", 
+    "desc": "You are standing on a small plateau in the mountains, \njust south of a ridge that leads northwards through the \nrocky area.  To the east, south, and west are gentle \nslopes leading down into different areas of the mountains.\n   A giant, dark peak looks down over you to the west, \nlooking quite spooky indeed!",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3307
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3341
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3309
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3359
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The three sets of tracks split up here, one west, one east,\none south.", 
+        "desc": "The three sets of tracks split up here, one west, one east,\none south.",
         "keywords": [
-          "tracks", 
+          "tracks",
           "track"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 3308, 
-    "name": "The Diverging Paths", 
+    ],
+    "flags": [],
+    "id": 3308,
+    "name": "The Diverging Paths",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "This slopes leads down and to the west from here.  Up \nabove, you see a plateau at the southern end of a long \nmountain ridge.  Surpisingly, there seems to be signs of \ntraffic in this area, leading into the large depression \nhere.  The going looks somewhat dangerous, and you decide \nto exercise a little caution.", 
+    "desc": "This slopes leads down and to the west from here.  Up \nabove, you see a plateau at the southern end of a long \nmountain ridge.  Surpisingly, there seems to be signs of \ntraffic in this area, leading into the large depression \nhere.  The going looks somewhat dangerous, and you decide \nto exercise a little caution.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3308
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3310
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3308
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "A few boot prints lead way in the dust here.  There is \ndefinitely traffic here, but this area is not what you \nwould call well-travelled.", 
+        "desc": "A few boot prints lead way in the dust here.  There is \ndefinitely traffic here, but this area is not what you \nwould call well-travelled.",
         "keywords": [
-          "signs", 
+          "signs",
           "tracks"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 3309, 
-    "name": "A Steep Slope", 
+    ],
+    "flags": [],
+    "id": 3309,
+    "name": "A Steep Slope",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "You are standing upon another mini-plateau, bordered by\na sheer wall of rock to the north.  You can climb up the \nslope to the east, or continue along the flat area to the \nwest.  Another slope leads downwards to the south, looking\nunsafe but climbable.", 
+    "desc": "You are standing upon another mini-plateau, bordered by\na sheer wall of rock to the north.  You can climb up the \nslope to the east, or continue along the flat area to the \nwest.  Another slope leads downwards to the south, looking\nunsafe but climbable.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3309
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3314
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3311
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3310, 
-    "name": "A Small Plateau", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3310,
+    "name": "A Small Plateau",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "This plateau ends here, with a steep drop-off to the \nsouth, and a solid wall of rock to the north.  Eastwards \nthe plateau continues, and you think you can climb up the \nsteep rocky slope just west of here.  You are afforded a \ngood view of the lower regions of this depression, and you\nthink you spot what might be a cave south and down from \nhere...", 
+    "desc": "This plateau ends here, with a steep drop-off to the \nsouth, and a solid wall of rock to the north.  Eastwards \nthe plateau continues, and you think you can climb up the \nsteep rocky slope just west of here.  You are afforded a \ngood view of the lower regions of this depression, and you\nthink you spot what might be a cave south and down from \nhere...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3310
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3312
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3311, 
-    "name": "A Small Plateau", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3311,
+    "name": "A Small Plateau",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "This slope is fairly treacherous, but looks to be \nsomewhat safer to the north.  East the slope leads down \nto a small plateau that also looks considerably safer \nthan your other choices.  The shale under your feet \nslips badly, and you are almost thrown off balance; \nthis is no place to be without mountaineering equipment.", 
+    "desc": "This slope is fairly treacherous, but looks to be \nsomewhat safer to the north.  East the slope leads down \nto a small plateau that also looks considerably safer \nthan your other choices.  The shale under your feet \nslips badly, and you are almost thrown off balance; \nthis is no place to be without mountaineering equipment.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3313
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3311
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3312, 
-    "name": "A Rocky Slope", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3312,
+    "name": "A Rocky Slope",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "You are standing on a point outcropping with a \nbeautiful view of the mountains to the north.  Far \nbelow, you see what appears to be a foot-path climb \nup to the central mountain, a peak that looks dark \nand disturbing.  You get very bad vibes from that \nmountain for some reason, and it doesn't seem like \na very good idea to try to find a way to get there.\n   The only safe way to leave this overlook is to \nthe south.", 
+    "desc": "You are standing on a point outcropping with a \nbeautiful view of the mountains to the north.  Far \nbelow, you see what appears to be a foot-path climb \nup to the central mountain, a peak that looks dark \nand disturbing.  You get very bad vibes from that \nmountain for some reason, and it doesn't seem like \na very good idea to try to find a way to get there.\n   The only safe way to leave this overlook is to \nthe south.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3312
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3313, 
-    "name": "The Overlook", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3313,
+    "name": "The Overlook",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "You slip and slide your way across the steep ground, \ntrying desperately to keep your balance.  You can climb \nup to a small plateau to the north from here, or carefully\nhead down to the floor of the depression to the west.  \nYou're not sure which is safer...", 
+    "desc": "You slip and slide your way across the steep ground, \ntrying desperately to keep your balance.  You can climb \nup to a small plateau to the north from here, or carefully\nhead down to the floor of the depression to the west.  \nYou're not sure which is safer...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3310
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3315
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3314, 
-    "name": "A Rocky Slope", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3314,
+    "name": "A Rocky Slope",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "A small path leads south here, away from the rocky \nslope leading up to the east.  A small spring burbles \nhere, evidently the cause of much of the traffic.  \nLooking up, you see sheer rock walls surrounding much \nof the depression, making an effective fortress of\nthis place.", 
+    "desc": "A small path leads south here, away from the rocky \nslope leading up to the east.  A small spring burbles \nhere, evidently the cause of much of the traffic.  \nLooking up, you see sheer rock walls surrounding much \nof the depression, making an effective fortress of\nthis place.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3314
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3316
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3315, 
-    "name": "The Depression Floor", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3315,
+    "name": "The Depression Floor",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The small path you are standing on leads north, and\neast into what appears to be a large cave hollowed out\nof the mountainside.  The whole place seems quiet, too\nquiet in fact.  Your little adventurer's intuition is\nbusily warning you of traps.", 
+    "desc": "The small path you are standing on leads north, and\neast into what appears to be a large cave hollowed out\nof the mountainside.  The whole place seems quiet, too\nquiet in fact.  Your little adventurer's intuition is\nbusily warning you of traps.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3315
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3317
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3316, 
-    "name": "The Depression Floor", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3316,
+    "name": "The Depression Floor",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "A cave leads into the heart of the mountainside, well-\nlit by sconces upon the walls.  A large rock sits by \nthe side here, near a small firepit.  Debris litters the \narea; rabbit bones, half of a broken whetstone, and random\nlitter.  The ground is devoid of grass, and well trodden \nby many pairs of boots.  Strange that someone should live \nso deep in the mountains...", 
+    "desc": "A cave leads into the heart of the mountainside, well-\nlit by sconces upon the walls.  A large rock sits by \nthe side here, near a small firepit.  Debris litters the \narea; rabbit bones, half of a broken whetstone, and random\nlitter.  The ground is devoid of grass, and well trodden \nby many pairs of boots.  Strange that someone should live \nso deep in the mountains...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3318
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3316
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 3317, 
-    "name": "A Cave Entrance", 
+    ],
+    "id": 3317,
+    "name": "A Cave Entrance",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "You are near the entrance of the cave.  The outside \nlight streams in from the west, accompanied by a slight \nbreeze, making the flames in the sconces flutter a bit\nand throw stange shadows upon the walls.  This passageway \nheads north and south from here, each way seeming dark and\nstuffy compared to outdoors.  From the tracks in the \nfloor, you guess that the north is the more used.", 
+    "desc": "You are near the entrance of the cave.  The outside \nlight streams in from the west, accompanied by a slight \nbreeze, making the flames in the sconces flutter a bit\nand throw stange shadows upon the walls.  This passageway \nheads north and south from here, each way seeming dark and\nstuffy compared to outdoors.  From the tracks in the \nfloor, you guess that the north is the more used.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3319
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3331
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3317
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3318, 
-    "name": "A Cave Passageway", 
+    ],
+    "id": 3318,
+    "name": "A Cave Passageway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The passage turns here, one end leading south, towards \nthe cave's entrance, and east -- that much deeper into the\nmountain.  The light sconces keep the area bright enough \nto see, but not nearly bright enough for you to be quite \ncomfortable in this strange place.  From far off you hear \nthe echoes of what sound to be voices.", 
+    "desc": "The passage turns here, one end leading south, towards \nthe cave's entrance, and east -- that much deeper into the\nmountain.  The light sconces keep the area bright enough \nto see, but not nearly bright enough for you to be quite \ncomfortable in this strange place.  From far off you hear \nthe echoes of what sound to be voices.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3320
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3318
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3319, 
-    "name": "A Cave Passageway", 
+    ],
+    "id": 3319,
+    "name": "A Cave Passageway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "This twisty passage leads east and west from here.  \nEastwards you hear the unmistakable sounds of low \nvoices.  The echoes seem to be playing funny effects \non you, however, and you are not sure  from how far \noff these voices might be coming.", 
+    "desc": "This twisty passage leads east and west from here.  \nEastwards you hear the unmistakable sounds of low \nvoices.  The echoes seem to be playing funny effects \non you, however, and you are not sure  from how far \noff these voices might be coming.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3321
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3319
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3320, 
-    "name": "A Cave Passageway", 
+    ],
+    "id": 3320,
+    "name": "A Cave Passageway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The passage you are standing in turns west and south \nfrom here.  One of the sconces here is out, making this \narea extremely dark and hard to see in.  You do see lights\nfrom the south, however, seemingly brighter than the \nsconces you've seen along the walls so far.", 
+    "desc": "The passage you are standing in turns west and south \nfrom here.  One of the sconces here is out, making this \narea extremely dark and hard to see in.  You do see lights\nfrom the south, however, seemingly brighter than the \nsconces you've seen along the walls so far.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3322
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3320
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3321, 
-    "name": "A Cave Passageway", 
+    ],
+    "id": 3321,
+    "name": "A Cave Passageway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "This is a T-intersection in the cave passageway, the \nnorth leading back towards the cave's entrance (you \nthink!), the west leading towards a well-lighted area.  \nEastwards the passageway continues into the shadowy \nrecesses of the mountain uninvitingly.  The echoes of \nvoices are confusing you a bit, and you are not sure \nwhether you should try to remain quiet or not.", 
+    "desc": "This is a T-intersection in the cave passageway, the \nnorth leading back towards the cave's entrance (you \nthink!), the west leading towards a well-lighted area.  \nEastwards the passageway continues into the shadowy \nrecesses of the mountain uninvitingly.  The echoes of \nvoices are confusing you a bit, and you are not sure \nwhether you should try to remain quiet or not.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3321
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3324
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3323
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3322, 
-    "name": "A Cave Passageway", 
+    ],
+    "id": 3322,
+    "name": "A Cave Passageway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "Many sconces line the walls here, casting light on \nsome weapon racks and chests of armor.  Everything\nis neat, orderly, and actually well-dusted.  Someone\ncares for these items...frequently it seems.", 
+    "desc": "Many sconces line the walls here, casting light on \nsome weapon racks and chests of armor.  Everything\nis neat, orderly, and actually well-dusted.  Someone\ncares for these items...frequently it seems.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3322
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3323, 
-    "name": "A Cave", 
+    ],
+    "id": 3323,
+    "name": "A Cave",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The passageway you are in leads south and west from \nhere.  Many large stones and rocks are on the floor of the\ncave, making walking difficult in the dim light from the \nsconces on the walls.  You hear the continued echo of \nvoices, seemingly fainter now.  Must be the strange \nacoustics of this place...", 
+    "desc": "The passageway you are in leads south and west from \nhere.  Many large stones and rocks are on the floor of the\ncave, making walking difficult in the dim light from the \nsconces on the walls.  You hear the continued echo of \nvoices, seemingly fainter now.  Must be the strange \nacoustics of this place...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3325
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3322
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3324, 
-    "name": "A Cave Passageway", 
+    ],
+    "id": 3324,
+    "name": "A Cave Passageway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The cave twists around like a coiled snake, leading \neast and north from here.  You begin to wonder if your \norientations are still correct.  That worries you for\nsome reason.", 
+    "desc": "The cave twists around like a coiled snake, leading \neast and north from here.  You begin to wonder if your \norientations are still correct.  That worries you for\nsome reason.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3324
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3326
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3325, 
-    "name": "A Cave Passageway", 
+    ],
+    "id": 3325,
+    "name": "A Cave Passageway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "You can head north and west through the cave passageways\nhere, both ways dimly lit by the ever-present sconces on \nthe walls.  The echoes you heard earlier seem to be getting\nlouder, and seem to be coming from the northern passage.  \nYou feeled a bit chilled from the cooled cave air and \nshiver a bit in the faint whisper of a breeze.  This place \nis a little too eerie and dark to be comfortable in.", 
+    "desc": "You can head north and west through the cave passageways\nhere, both ways dimly lit by the ever-present sconces on \nthe walls.  The echoes you heard earlier seem to be getting\nlouder, and seem to be coming from the northern passage.  \nYou feeled a bit chilled from the cooled cave air and \nshiver a bit in the faint whisper of a breeze.  This place \nis a little too eerie and dark to be comfortable in.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3327
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3325
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3326, 
-    "name": "A Cave Passageway", 
+    ],
+    "id": 3326,
+    "name": "A Cave Passageway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The echoes are growing louder, and seem to be coming \nfrom the northern end of this corridor.  Southwards you \nsee the tunnel continue right before yet another bend in \nthe passagway.  You spot a small piece of red cloth torn \nagainst a sharp rock jutting out from the passage's side.  \nIt looks like silk, very nice in fact.", 
+    "desc": "The echoes are growing louder, and seem to be coming \nfrom the northern end of this corridor.  Southwards you \nsee the tunnel continue right before yet another bend in \nthe passagway.  You spot a small piece of red cloth torn \nagainst a sharp rock jutting out from the passage's side.  \nIt looks like silk, very nice in fact.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3328
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3326
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3327, 
-    "name": "A Cave Passageway", 
+    ],
+    "id": 3327,
+    "name": "A Cave Passageway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The main passageway leads south from here, and a smaller\ncave tunnel leads away to the west.  Two large boulders \nsit against the wall, wiped clean of dirt and grime.  A \npaper food wrapper has been trodden under several pairs of \nfeet here; at best guess, you'd say this would probably be \na guard post.", 
+    "desc": "The main passageway leads south from here, and a smaller\ncave tunnel leads away to the west.  Two large boulders \nsit against the wall, wiped clean of dirt and grime.  A \npaper food wrapper has been trodden under several pairs of \nfeet here; at best guess, you'd say this would probably be \na guard post.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3327
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3329
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3328, 
-    "name": "A Cave Passageway", 
+    ],
+    "id": 3328,
+    "name": "A Cave Passageway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The cave passageway ends abruptly here to the north in a\nlarge wooden door set into the stone walls.  The craftsmanship\nis superb!  You can also head back to the main passage to the\nwest, where there seems to be more light than here.  An echo\nfrom down the passage makes you wonder for a moment if you are\nbeing followed, but you see nothing there...", 
+    "desc": "The cave passageway ends abruptly here to the north in a\nlarge wooden door set into the stone walls.  The craftsmanship\nis superb!  You can also head back to the main passage to the\nwest, where there seems to be more light than here.  An echo\nfrom down the passage makes you wonder for a moment if you are\nbeing followed, but you see nothing there...",
     "exits": [
       {
-        "desc": "It is a sturdy wooden door.", 
-        "dir": 0, 
+        "desc": "It is a sturdy wooden door.",
+        "dir": 0,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
+          "door",
           "wooden"
-        ], 
+        ],
         "room_linked": 3330
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3328
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3329, 
-    "name": "The End Of The Passageway", 
+    ],
+    "id": 3329,
+    "name": "The End Of The Passageway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "This natural cavern has been turned into a combination \noffice/storeroom.  A small brook rushes through the south \nwall, and flows back into the west wall through a tiny \nhole.  Boxes and crates are stacked against the walls, and \na beat up oaken desk stands near the door stacked with \npapers written upon by an unsteady hand.  Some large \nlanterns keep the place very well lighted.", 
+    "desc": "This natural cavern has been turned into a combination \noffice/storeroom.  A small brook rushes through the south \nwall, and flows back into the west wall through a tiny \nhole.  Boxes and crates are stacked against the walls, and \na beat up oaken desk stands near the door stacked with \npapers written upon by an unsteady hand.  Some large \nlanterns keep the place very well lighted.",
     "exits": [
       {
-        "desc": "It is a sturdy wooden door.", 
-        "dir": 2, 
+        "desc": "It is a sturdy wooden door.",
+        "dir": 2,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
+          "door",
           "wooden"
-        ], 
+        ],
         "room_linked": 3329
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3330, 
-    "name": "A Cavern", 
+    ],
+    "id": 3330,
+    "name": "A Cavern",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "You are standing south of the main entrance to this \ncave.  The passage you are in continues south, very badly \nlit along its length by the sconces lining the walls \nevery fifteen feet or so.  From somewhere deep in the \nrecesses of the cave, you hear a faint, rhythmic thumping \nsound distorted by the passage's strange acoustics.", 
+    "desc": "You are standing south of the main entrance to this \ncave.  The passage you are in continues south, very badly \nlit along its length by the sconces lining the walls \nevery fifteen feet or so.  From somewhere deep in the \nrecesses of the cave, you hear a faint, rhythmic thumping \nsound distorted by the passage's strange acoustics.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3318
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3332
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3331, 
-    "name": "A Cave Passageway", 
+    ],
+    "id": 3331,
+    "name": "A Cave Passageway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "You are standing at the southern bend of this passage,\nable to head east and north from here.  The rock around you\nechoes the sound of far-off pounding to you, making the\nplace seem somehow alive, with a heartbeat.  This place\nis fairly eerie, now that you come to think of it.", 
+    "desc": "You are standing at the southern bend of this passage,\nable to head east and north from here.  The rock around you\nechoes the sound of far-off pounding to you, making the\nplace seem somehow alive, with a heartbeat.  This place\nis fairly eerie, now that you come to think of it.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3331
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3333
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3332, 
-    "name": "A Cave Passageway", 
+    ],
+    "id": 3332,
+    "name": "A Cave Passageway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The passageway makes a U-turn here, heading north and\nwestwards to the other side of the 'U'.  The air seems\nhumid and hard to breathe.  Some algae grows near the\nfloor in the slick spots, giving a definite subtle smell\nof rot to the air.", 
+    "desc": "The passageway makes a U-turn here, heading north and\nwestwards to the other side of the 'U'.  The air seems\nhumid and hard to breathe.  Some algae grows near the\nfloor in the slick spots, giving a definite subtle smell\nof rot to the air.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3334
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3332
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3333, 
-    "name": "A Cave Passageway", 
+    ],
+    "id": 3333,
+    "name": "A Cave Passageway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The tunnel twists to the south and east from here, \nits dark length seemingly dismal and lifeless.  A faint \nthumping sound reverberates from the walls, making you \nperk your ears for the direction of the noise.", 
+    "desc": "The tunnel twists to the south and east from here, \nits dark length seemingly dismal and lifeless.  A faint \nthumping sound reverberates from the walls, making you \nperk your ears for the direction of the noise.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3335
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3333
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3334, 
-    "name": "A Cave Passageway", 
+    ],
+    "id": 3334,
+    "name": "A Cave Passageway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "This area darker than the rest of the passageway, due\nto the fact that the sconces along the walls stop abruptly\nhere.  The way to the south is completely dark, in direct\ncontrast to the tunnels to the west.  You peer hard to the\nsouth, but can make out nothing in the impenetrable \ndarkness.  And still that distant thumping impinges on \nyour consciousness...", 
+    "desc": "This area darker than the rest of the passageway, due\nto the fact that the sconces along the walls stop abruptly\nhere.  The way to the south is completely dark, in direct\ncontrast to the tunnels to the west.  You peer hard to the\nsouth, but can make out nothing in the impenetrable \ndarkness.  And still that distant thumping impinges on \nyour consciousness...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3336
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3334
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3335, 
-    "name": "A Cave Passageway", 
+    ],
+    "id": 3335,
+    "name": "A Cave Passageway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "You are standing in a north-south tunnel carved \nnaturally through the stone of the mountain.  To the \nnorth the tunnel is lighted by sconces along the wall, \nbanishing the deep, deep darkness you now stand in.  To \nthe south you can see nothing.  A deep thumping noise \nseems to be getting louder and louder as you stand here, \ncoming from somewhere deep inside.", 
+    "desc": "You are standing in a north-south tunnel carved \nnaturally through the stone of the mountain.  To the \nnorth the tunnel is lighted by sconces along the wall, \nbanishing the deep, deep darkness you now stand in.  To \nthe south you can see nothing.  A deep thumping noise \nseems to be getting louder and louder as you stand here, \ncoming from somewhere deep inside.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3335
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3337
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3336, 
-    "name": "A Cave Passageway", 
+    ],
+    "id": 3336,
+    "name": "A Cave Passageway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The passageway switches directions again in the dark \ngloom of the mountain, heading to the north and east from \nhere.  As you round the corner, a trick of the acoustics \nmake the deep thrumming and pounding you've been hearing \nsound as if its coming from two feet away!  Very unsettling.", 
+    "desc": "The passageway switches directions again in the dark \ngloom of the mountain, heading to the north and east from \nhere.  As you round the corner, a trick of the acoustics \nmake the deep thrumming and pounding you've been hearing \nsound as if its coming from two feet away!  Very unsettling.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3336
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3338
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3337, 
-    "name": "A Cave Passageway", 
+    ],
+    "id": 3337,
+    "name": "A Cave Passageway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The tunnel weaves around, twisting to the north and \nwest here.  The darkness around you is near total.  Ahead, \nyou hear the sounds of something metal banging against \nstone.  Could someone be mining out the tunnel, perhaps?", 
+    "desc": "The tunnel weaves around, twisting to the north and \nwest here.  The darkness around you is near total.  Ahead, \nyou hear the sounds of something metal banging against \nstone.  Could someone be mining out the tunnel, perhaps?",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3339
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3337
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3338, 
-    "name": "A Cave Passageway", 
+    ],
+    "id": 3338,
+    "name": "A Cave Passageway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "A glimmer of light to the east alerts you to the fact\nthat something is going on in the tunnel nearby.  The south\nexit of the tunnel leads off into complete darkness.  All\naround on the ground are piles of earth and stone, making\nyou have to wend through the tunnel carefully.  Hmm.", 
+    "desc": "A glimmer of light to the east alerts you to the fact\nthat something is going on in the tunnel nearby.  The south\nexit of the tunnel leads off into complete darkness.  All\naround on the ground are piles of earth and stone, making\nyou have to wend through the tunnel carefully.  Hmm.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3340
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3338
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3339, 
-    "name": "A Cave Passageway", 
+    ],
+    "id": 3339,
+    "name": "A Cave Passageway",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The tunnel stops abruptly here at a fissure in the stone.\nAll around on the ground are rocks and gravel, mined from\nthe fissure in an attempt to widen it enough for passage.\nA few pieces of paper litter and wrappers tells you that\nthe work here is relatively recent.", 
+    "desc": "The tunnel stops abruptly here at a fissure in the stone.\nAll around on the ground are rocks and gravel, mined from\nthe fissure in an attempt to widen it enough for passage.\nA few pieces of paper litter and wrappers tells you that\nthe work here is relatively recent.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3339
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3340, 
-    "name": "The End Of The Passage", 
+    ],
+    "id": 3340,
+    "name": "The End Of The Passage",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "This treacherous slope leads ever-downward quite a ways,\ndown to a valley where there seems to be a small village!  \nWhat a village is doing this far from civilization, and how\nthey survive you've no idea.  From the smoke wafting from \nsome of the chimneys, it looks like this place is still \ninhabited as well.\n   Now if you can only get down this slope without breaking\nan ankle...", 
+    "desc": "This treacherous slope leads ever-downward quite a ways,\ndown to a valley where there seems to be a small village!  \nWhat a village is doing this far from civilization, and how\nthey survive you've no idea.  From the smoke wafting from \nsome of the chimneys, it looks like this place is still \ninhabited as well.\n   Now if you can only get down this slope without breaking\nan ankle...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3342
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3308
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3341, 
-    "name": "A Rocky Slope", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3341,
+    "name": "A Rocky Slope",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "You're slipping and sliding across this slope, trying to\nget to your destination without breaking your leg or falling\nand shattering your head.  Below, you spot some movement in\nthe village, giving proof the place is not a ghost-town.\n   The main road of the village starts at the bottom of \nthe slope just to the east, and the slope continues west\nand up far, far up the mountain.", 
+    "desc": "You're slipping and sliding across this slope, trying to\nget to your destination without breaking your leg or falling\nand shattering your head.  Below, you spot some movement in\nthe village, giving proof the place is not a ghost-town.\n   The main road of the village starts at the bottom of \nthe slope just to the east, and the slope continues west\nand up far, far up the mountain.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3343
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3341
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 3342, 
-    "name": "A Rocky Slope", 
+    ],
+    "id": 3342,
+    "name": "A Rocky Slope",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "This place leaves you very unimpressed.  And bored.  \nYou are definitely bored by this place.  The people are \nlistless, going about their daily chores with a slowness \nthat pains your eyes.  A slope to the west climbs up the \nmountainside, and two open shops made of wood and stone \nare to your north and south.  East-wards this road continues.\n   There is a small sign here.", 
+    "desc": "This place leaves you very unimpressed.  And bored.  \nYou are definitely bored by this place.  The people are \nlistless, going about their daily chores with a slowness \nthat pains your eyes.  A slope to the west climbs up the \nmountainside, and two open shops made of wood and stone \nare to your north and south.  East-wards this road continues.\n   There is a small sign here.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3344
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3346
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3345
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3342
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "\n        ,_____________________________.\n        |                             |\n\t|   Stanneg by the Mountains  |\n\t|                             |\n\t|       Population: 27        |\n\t|\t\t\t      |\n        |           -- BUAG SIGNS INC.|\n\t`-----------------------------'\n\t\t     |  |\n\t\t     |  |\n\t\t     |  |\n\t\t     |  |   \n", 
+        "desc": "\n        ,_____________________________.\n        |                             |\n\t|   Stanneg by the Mountains  |\n\t|                             |\n\t|       Population: 27        |\n\t|\t\t\t      |\n        |           -- BUAG SIGNS INC.|\n\t`-----------------------------'\n\t\t     |  |\n\t\t     |  |\n\t\t     |  |\n\t\t     |  |   \n",
         "keywords": [
           "sign"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 3343, 
-    "name": "Main Road", 
+    ],
+    "flags": [],
+    "id": 3343,
+    "name": "Main Road",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "Hmm.  Looks like there's no one here, not even an bartender.\nEvidently you've come during off hours, since no bar could be\nTHIS dull.  The walls are decorated with mounted animal heads\nand arrows and longbows and other hunting equipment/trophies.\nAll of it looks rather plain.", 
+    "desc": "Hmm.  Looks like there's no one here, not even an bartender.\nEvidently you've come during off hours, since no bar could be\nTHIS dull.  The walls are decorated with mounted animal heads\nand arrows and longbows and other hunting equipment/trophies.\nAll of it looks rather plain.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3343
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3344, 
-    "name": "The Mountain Tavern", 
+    ],
+    "id": 3344,
+    "name": "The Mountain Tavern",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "A bored shopkeeper waves an idle hand towards his stock\nof stuff.  Browse, type list, buy, sell, whatever...", 
+    "desc": "A bored shopkeeper waves an idle hand towards his stock\nof stuff.  Browse, type list, buy, sell, whatever...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3343
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3345, 
-    "name": "The General Store", 
+    ],
+    "id": 3345,
+    "name": "The General Store",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "Nothing is going on in this section of village either.  To the\neast is an actual road intersection, and to the west you see one\nof the ends of this road.  A large grassy area to the south is\nfenced off for a horse corral.", 
+    "desc": "Nothing is going on in this section of village either.  To the\neast is an actual road intersection, and to the west you see one\nof the ends of this road.  A large grassy area to the south is\nfenced off for a horse corral.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3348
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3347
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3343
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3346, 
-    "name": "Main Road", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3346,
+    "name": "Main Road",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "Many horses look up at you when you enter this corral.\nThe horses are kept in by a big wooden fence, which they\nseem quite happy to been kept in by.  You don't see anyone\naround taking care of these horses, but someone is probably\nclose by.", 
+    "desc": "Many horses look up at you when you enter this corral.\nThe horses are kept in by a big wooden fence, which they\nseem quite happy to been kept in by.  You don't see anyone\naround taking care of these horses, but someone is probably\nclose by.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3346
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3347, 
-    "name": "The Corral", 
+    ],
+    "id": 3347,
+    "name": "The Corral",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "You are standing in an intersection deep in the heart\nof Stanneg by the Mountains.  In fact, this is the ONLY\nintersection anywhere in Stanneg by the Mountain it \nappears.\n   There are some buildings to the north, and south, and\neast, and west.  None particularly stand out from the \nothers.", 
+    "desc": "You are standing in an intersection deep in the heart\nof Stanneg by the Mountains.  In fact, this is the ONLY\nintersection anywhere in Stanneg by the Mountain it \nappears.\n   There are some buildings to the north, and south, and\neast, and west.  None particularly stand out from the \nothers.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3349
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3355
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3353
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3346
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3348, 
-    "name": "The Intersection", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3348,
+    "name": "The Intersection",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "This road runs north through Stanneg by the Mountains, \nif through would be the operative word for such a motley \ncollection of buildings.  Westwards is a small, open-roofed\nbuilding that appears to be a farmer's market.  The road \nyou are on continues north, and comes to an intersection \njust south of here.", 
+    "desc": "This road runs north through Stanneg by the Mountains, \nif through would be the operative word for such a motley \ncollection of buildings.  Westwards is a small, open-roofed\nbuilding that appears to be a farmer's market.  The road \nyou are on continues north, and comes to an intersection \njust south of here.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3351
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3348
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3350
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3349, 
-    "name": "A Small Road", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3349,
+    "name": "A Small Road",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "One farmer's wife stands here, waiting for someone to\nbuy the food her family has grown.  She looks bored, but\nnot unhappy... no competition!", 
+    "desc": "One farmer's wife stands here, waiting for someone to\nbuy the food her family has grown.  She looks bored, but\nnot unhappy... no competition!",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3349
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3350, 
-    "name": "The Farmer's Market", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3350,
+    "name": "The Farmer's Market",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The small, north-south road running through Stanneg\nby the Mountains ends here, curving to become the front\nwalk of a private home to the east.  The road runs south\nfrom this house, towards the center of the village.", 
+    "desc": "The small, north-south road running through Stanneg\nby the Mountains ends here, curving to become the front\nwalk of a private home to the east.  The road runs south\nfrom this house, towards the center of the village.",
     "exits": [
       {
-        "desc": "A normal, wooden front door to a normal looking home.  It is\nnothing to write home about.", 
-        "dir": 1, 
+        "desc": "A normal, wooden front door to a normal looking home.  It is\nnothing to write home about.",
+        "dir": 1,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
+          "door",
           "front"
-        ], 
+        ],
         "room_linked": 3352
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3349
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3351, 
-    "name": "A Small Road", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3351,
+    "name": "A Small Road",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The interior of this home is simple and rustic.  A \nladder leads up to the loft, where the sleeping pallets \nare tucked away.  A wood-burning stove keeps the place \nwell heated and cozy.  A homemade rocking chair stands \ncrooked in the corner, draped with a old looking afghan.  \nThis home is a nice place, very comfortable.", 
+    "desc": "The interior of this home is simple and rustic.  A \nladder leads up to the loft, where the sleeping pallets \nare tucked away.  A wood-burning stove keeps the place \nwell heated and cozy.  A homemade rocking chair stands \ncrooked in the corner, draped with a old looking afghan.  \nThis home is a nice place, very comfortable.",
     "exits": [
       {
-        "desc": "There is a normal appearing door set in the western wall.", 
-        "dir": 3, 
+        "desc": "There is a normal appearing door set in the western wall.",
+        "dir": 3,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
+          "door",
           "front"
-        ], 
+        ],
         "room_linked": 3351
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3352, 
-    "name": "A Private Home", 
+    ],
+    "id": 3352,
+    "name": "A Private Home",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The road ends here, leading up to a stone house\nto the south.  Smoke rises from the chimney in a dark\nstream, and the windows are frosted over with humidity.\nNorth, you see the main intersection of Stanneg.", 
+    "desc": "The road ends here, leading up to a stone house\nto the south.  Smoke rises from the chimney in a dark\nstream, and the windows are frosted over with humidity.\nNorth, you see the main intersection of Stanneg.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3348
-      }, 
+      },
       {
-        "desc": "A normal looking front door made of wood serves as the entrance. ", 
-        "dir": 2, 
+        "desc": "A normal looking front door made of wood serves as the entrance. ",
+        "dir": 2,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
+          "door",
           "front"
-        ], 
+        ],
         "room_linked": 3354
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3353, 
-    "name": "A Small Road", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3353,
+    "name": "A Small Road",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "This home strikes you as unbearable warm and uncomfortable.\nThe fireplace is going at a full-bonfire, a mammoth stack of\nfirewood beside it against the wall.  The decorations seem\nsomewhat spartan and plain; a landscape, an old hunting \nbow... nothing much of interest.", 
+    "desc": "This home strikes you as unbearable warm and uncomfortable.\nThe fireplace is going at a full-bonfire, a mammoth stack of\nfirewood beside it against the wall.  The decorations seem\nsomewhat spartan and plain; a landscape, an old hunting \nbow... nothing much of interest.",
     "exits": [
       {
-        "desc": "You see a normal looking wooden door.", 
-        "dir": 0, 
+        "desc": "You see a normal looking wooden door.",
+        "dir": 0,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
+          "door",
           "front"
-        ], 
+        ],
         "room_linked": 3353
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3354, 
-    "name": "A Private Home", 
+    ],
+    "id": 3354,
+    "name": "A Private Home",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The main road through Stanneg ends here at a large well\nthat leads deep, deep into the earth.  To the north of the \nwell is a large building, with a large WELCOME mat outside \nits front door.  Westwards you see the a road intersection \nin the center of the tiny village.  Around you is a rocky \nterrain in the middle of this mountain range...not very \nmany places else to go.", 
+    "desc": "The main road through Stanneg ends here at a large well\nthat leads deep, deep into the earth.  To the north of the \nwell is a large building, with a large WELCOME mat outside \nits front door.  Westwards you see the a road intersection \nin the center of the tiny village.  Around you is a rocky \nterrain in the middle of this mountain range...not very \nmany places else to go.",
     "exits": [
       {
-        "desc": "There is a large set of double doors, made of wood blocking the way.", 
-        "dir": 0, 
+        "desc": "There is a large set of double doors, made of wood blocking the way.",
+        "dir": 0,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
-          "doors", 
+          "door",
+          "doors",
           "double"
-        ], 
+        ],
         "room_linked": 3356
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3348
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3355, 
-    "name": "Main Road", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3355,
+    "name": "Main Road",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "This is a plainly decorated room, the main room of the\nStanneg Inn.  A large arch to the west leads to a common\nroom where food and drink can be ordered, and a set of\nrickety wooden stairs lead up to the rooms are.  A thread-\nbare rug lies in the middle of the floor, evidently well-\nloved by a cat or two from the quantity of hair on it.", 
+    "desc": "This is a plainly decorated room, the main room of the\nStanneg Inn.  A large arch to the west leads to a common\nroom where food and drink can be ordered, and a set of\nrickety wooden stairs lead up to the rooms are.  A thread-\nbare rug lies in the middle of the floor, evidently well-\nloved by a cat or two from the quantity of hair on it.",
     "exits": [
       {
-        "desc": "There is a large set of double doors, made of wood set into the wall.", 
-        "dir": 2, 
+        "desc": "There is a large set of double doors, made of wood set into the wall.",
+        "dir": 2,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
-          "doors", 
+          "door",
+          "doors",
           "double"
-        ], 
+        ],
         "room_linked": 3355
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3357
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3358
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3356, 
-    "name": "Stanneg Inn", 
+    ],
+    "id": 3356,
+    "name": "Stanneg Inn",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "A large fireplace warms this room in great waves of\nheat, to combat the chill drafts eminating from the windows\non the west and north sides of this room.  A few benches\nand tables are clustered in the center of the room, for\nthe use of the locals.  Fairly plain, for a frequented\ngathering place.", 
+    "desc": "A large fireplace warms this room in great waves of\nheat, to combat the chill drafts eminating from the windows\non the west and north sides of this room.  A few benches\nand tables are clustered in the center of the room, for\nthe use of the locals.  Fairly plain, for a frequented\ngathering place.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3356
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3357, 
-    "name": "The Common Room", 
+    ],
+    "id": 3357,
+    "name": "The Common Room",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "A hall leads away to the west lined with small brown\ndoors.  A small table has a ledger on it, seemingly\nalmost unused.  The hall is plain and without any \ndecoration, except for a nice painting of (what else)\na mountain hanging above the stairs that lead back\ndown to the inn proper.", 
+    "desc": "A hall leads away to the west lined with small brown\ndoors.  A small table has a ledger on it, seemingly\nalmost unused.  The hall is plain and without any \ndecoration, except for a nice painting of (what else)\na mountain hanging above the stairs that lead back\ndown to the inn proper.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3356
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3358, 
-    "name": "The Reception", 
+    ],
+    "id": 3358,
+    "name": "The Reception",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "This slope is fairly shallow and easy to walk on, \ndespite the loose shale and gravel.  To the east is a high \nridge you could stand on, and to the west is a flat area \nnear two trails leading up and down into the mountains.  \nHigh above you, to your west, is that ominous, dark peak, \nwhich seems to radiating a sense of hopelessness...", 
+    "desc": "This slope is fairly shallow and easy to walk on, \ndespite the loose shale and gravel.  To the east is a high \nridge you could stand on, and to the west is a flat area \nnear two trails leading up and down into the mountains.  \nHigh above you, to your west, is that ominous, dark peak, \nwhich seems to radiating a sense of hopelessness...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3308
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3360
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3359, 
-    "name": "A Rocky Slope", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3359,
+    "name": "A Rocky Slope",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "This ledge overlooks a small path that leads up and \ndown from here.  Below, you see the path head down to a \nlarge flat area where a small cottage lies nestled in the \nmountains, smoke rising from it in a curling line.  Above, \nthe path seems to head towards that dark peak piercing the \nsky.  You notice a few boot-tracks in the earth, seemingly \nto lead down towards the cottage.", 
+    "desc": "This ledge overlooks a small path that leads up and \ndown from here.  Below, you see the path head down to a \nlarge flat area where a small cottage lies nestled in the \nmountains, smoke rising from it in a curling line.  Above, \nthe path seems to head towards that dark peak piercing the \nsky.  You notice a few boot-tracks in the earth, seemingly \nto lead down towards the cottage.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3359
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3363
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3361
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3360, 
-    "name": "A Ledge", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3360,
+    "name": "A Ledge",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "Now that you approach closer to the cottage, you notice \nthat the smoke is not coming from the chimney, but rather \nthe gutted ruins of the building.  Something torched this \nplace, badly.  You see no signs of life among the wreckage.\nYou can enter one of the particularly large holes in the \nwall to the west, with caution.", 
+    "desc": "Now that you approach closer to the cottage, you notice \nthat the smoke is not coming from the chimney, but rather \nthe gutted ruins of the building.  Something torched this \nplace, badly.  You see no signs of life among the wreckage.\nYou can enter one of the particularly large holes in the \nwall to the west, with caution.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3362
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3360
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3361, 
-    "name": "Outside Of A Cottage", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3361,
+    "name": "Outside Of A Cottage",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "This whole place is smouldering still from whatever \ndecided to try to burn it to the ground.  On the floor \nnear the center of the ruined structure is the burnt and \ndessicated corpse of a man, outstretched and blackened.  \nThere's not much to see here; whatever decided to destroy \nthis place did it very well.", 
+    "desc": "This whole place is smouldering still from whatever \ndecided to try to burn it to the ground.  On the floor \nnear the center of the ruined structure is the burnt and \ndessicated corpse of a man, outstretched and blackened.  \nThere's not much to see here; whatever decided to destroy \nthis place did it very well.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3361
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3362, 
-    "name": "The Torched Cottage", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3362,
+    "name": "The Torched Cottage",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "This mountain trail leads straight up into the evil \nlooking mountains.  High above you, one mountain peak \nseems to radiate danger and fear, and the trail seems \nto be leading straight up to it.  You wonder if it is \nwise to continue this way...\n   The trail goes even higher up to the west, and back \ndown to the west.", 
+    "desc": "This mountain trail leads straight up into the evil \nlooking mountains.  High above you, one mountain peak \nseems to radiate danger and fear, and the trail seems \nto be leading straight up to it.  You wonder if it is \nwise to continue this way...\n   The trail goes even higher up to the west, and back \ndown to the west.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3364
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3360
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3363, 
-    "name": "A Mountain Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3363,
+    "name": "A Mountain Trail",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The trail leads up even higher into the mountains to the\nwest here.  You shiver as the cold mountain air washes over\nyou, and your back prickles as you wonder if anything lives\nup here, or anything _dangerous_ for that matter.  Maybe \nheading back down to the east would be a good idea...", 
+    "desc": "The trail leads up even higher into the mountains to the\nwest here.  You shiver as the cold mountain air washes over\nyou, and your back prickles as you wonder if anything lives\nup here, or anything _dangerous_ for that matter.  Maybe \nheading back down to the east would be a good idea...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3363
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3365
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3364, 
-    "name": "A Mountain Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3364,
+    "name": "A Mountain Trail",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The trail leads up the side of the tallest mountain in \nthe range -- the one that sticks up into the dark sky like\na monument to death and futility.  The trail leads back to \nsafety to the east, and goes even higher to the west.", 
+    "desc": "The trail leads up the side of the tallest mountain in \nthe range -- the one that sticks up into the dark sky like\na monument to death and futility.  The trail leads back to \nsafety to the east, and goes even higher to the west.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3364
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3366
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3365, 
-    "name": "A Mountain Trail", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3365,
+    "name": "A Mountain Trail",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "This is as close to the peak as you're going to get, \nunless you use that tiny, tiny path leading up to your \nnorth.  Up the side of the mountain you see a great cave \nhollowed out, the inside pitch black.  The path leads down \nthe mountains to your east, which seems to be the best \nplace to go.", 
+    "desc": "This is as close to the peak as you're going to get, \nunless you use that tiny, tiny path leading up to your \nnorth.  Up the side of the mountain you see a great cave \nhollowed out, the inside pitch black.  The path leads down \nthe mountains to your east, which seems to be the best \nplace to go.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3367
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3365
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 64
-      }, 
+      },
       {
-        "note": "PRIVATE", 
+        "note": "PRIVATE",
         "value": 512
       }
-    ], 
-    "id": 3366, 
-    "name": "Near The Peak", 
+    ],
+    "id": 3366,
+    "name": "Near The Peak",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "This path leads up, up, up the side of the mountain, to \nthe evil-seeming cave.  It also heads down to the south--a \nlot safer place to be.  In fact, you hear footsteps above \nyour head...", 
+    "desc": "This path leads up, up, up the side of the mountain, to \nthe evil-seeming cave.  It also heads down to the south--a \nlot safer place to be.  In fact, you hear footsteps above \nyour head...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3366
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3368
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 64
-      }, 
+      },
       {
-        "note": "PRIVATE", 
+        "note": "PRIVATE",
         "value": 512
       }
-    ], 
-    "id": 3367, 
-    "name": "A Small, Dangerous Path", 
+    ],
+    "id": 3367,
+    "name": "A Small, Dangerous Path",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "Unfortunately, you realize too late that this bigger \nledge that leads north to the darkened cave is an ideal \nspot for an ambush.  This ledge gives you a beautiful \npanoramic view of the entire mountain range, however.  \nBreathtaking!", 
+    "desc": "Unfortunately, you realize too late that this bigger \nledge that leads north to the darkened cave is an ideal \nspot for an ambush.  This ledge gives you a beautiful \npanoramic view of the entire mountain range, however.  \nBreathtaking!",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3369
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3367
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 64
-      }, 
+      },
       {
-        "note": "PRIVATE", 
+        "note": "PRIVATE",
         "value": 512
       }
-    ], 
-    "id": 3368, 
-    "name": "A Small, Dangerous Path", 
+    ],
+    "id": 3368,
+    "name": "A Small, Dangerous Path",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "You are standing in the entrance of a simply huge cave!\nThe size is stunning!  All around the entrance are burnt \nbones and various types of wooden and metal debris.  Giant \nclaw marks are all along the ground, leading back deeper \ninto the cave.\n   Two tunnels lead off from here, one up, one down.  There\nare claw marks leading in either direction.", 
+    "desc": "You are standing in the entrance of a simply huge cave!\nThe size is stunning!  All around the entrance are burnt \nbones and various types of wooden and metal debris.  Giant \nclaw marks are all along the ground, leading back deeper \ninto the cave.\n   Two tunnels lead off from here, one up, one down.  There\nare claw marks leading in either direction.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3368
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3370
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3373
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 64
-      }, 
+      },
       {
-        "note": "PRIVATE", 
+        "note": "PRIVATE",
         "value": 512
       }
-    ], 
-    "id": 3369, 
-    "name": "The Cave Entrance", 
+    ],
+    "id": 3369,
+    "name": "The Cave Entrance",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The tunnels slopes up to the north deeper into the \nmountain.  A rather gusty breeze riffles your clothing \nfrom ahead somewhere.  The claw marks in the stone floor \ncontinue up the passage, through the darkness.", 
+    "desc": "The tunnels slopes up to the north deeper into the \nmountain.  A rather gusty breeze riffles your clothing \nfrom ahead somewhere.  The claw marks in the stone floor \ncontinue up the passage, through the darkness.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3371
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3369
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 64
-      }, 
+      },
       {
-        "note": "PRIVATE", 
+        "note": "PRIVATE",
         "value": 512
       }
-    ], 
-    "id": 3370, 
-    "name": "A Sloping Tunnel", 
+    ],
+    "id": 3370,
+    "name": "A Sloping Tunnel",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "The tunnel continues its slope upwards, and the wind \nblows at you even stronger yet.  The claw tracks in the \nstone stop abruptly here, where there seems to be a lot\nof unearthed dirt and stone around, heaped upon the floor.  \nYou feel uneasy about this place.", 
+    "desc": "The tunnel continues its slope upwards, and the wind \nblows at you even stronger yet.  The claw tracks in the \nstone stop abruptly here, where there seems to be a lot\nof unearthed dirt and stone around, heaped upon the floor.  \nYou feel uneasy about this place.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3372
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3370
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It has been dug from somewhere, but where?", 
+        "desc": "It has been dug from somewhere, but where?",
         "keywords": [
-          "dirt", 
+          "dirt",
           "stone"
         ]
-      }, 
+      },
       {
-        "desc": "They stop very abruptly here, right where the piles of earth begin,\nit seems.", 
+        "desc": "They stop very abruptly here, right where the piles of earth begin,\nit seems.",
         "keywords": [
-          "claw", 
-          "claws", 
-          "track", 
-          "tracks", 
-          "mark", 
+          "claw",
+          "claws",
+          "track",
+          "tracks",
+          "mark",
           "marks"
         ]
-      }, 
+      },
       {
-        "desc": "The floor up ahead looks... strange.  You don't think going ahead\nwould be a good idea.", 
+        "desc": "The floor up ahead looks... strange.  You don't think going ahead\nwould be a good idea.",
         "keywords": [
           "floor"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 64
-      }, 
+      },
       {
-        "note": "PRIVATE", 
+        "note": "PRIVATE",
         "value": 512
       }
-    ], 
-    "id": 3371, 
-    "name": "A Sloping Tunnel", 
+    ],
+    "id": 3371,
+    "name": "A Sloping Tunnel",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "You fall through the illusionary floor.\n\n  You hit the poisoned spikes below.\n\n  You die very slowly of bloodloss, your head impaled at \nan awkward angle.", 
+    "desc": "You fall through the illusionary floor.\n\n  You hit the poisoned spikes below.\n\n  You die very slowly of bloodloss, your head impaled at \nan awkward angle.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3371
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DEATH", 
+        "note": "DEATH",
         "value": 2
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 64
-      }, 
+      },
       {
-        "note": "PRIVATE", 
+        "note": "PRIVATE",
         "value": 512
       }
-    ], 
-    "id": 3372, 
-    "name": "The Pit", 
+    ],
+    "id": 3372,
+    "name": "The Pit",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "This tunnel slopes deep, down into the mountain's heart.\nThe air feels still and uncomfortably warm, despite the \ncloseness of the cave's entrance above you.  There's a \ndeep, musky odor in the air, and the giant claw marks \ncontinue downwards.", 
+    "desc": "This tunnel slopes deep, down into the mountain's heart.\nThe air feels still and uncomfortably warm, despite the \ncloseness of the cave's entrance above you.  There's a \ndeep, musky odor in the air, and the giant claw marks \ncontinue downwards.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3369
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3374
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 64
-      }, 
+      },
       {
-        "note": "PRIVATE", 
+        "note": "PRIVATE",
         "value": 512
       }
-    ], 
-    "id": 3373, 
-    "name": "A Sloping Tunnel", 
+    ],
+    "id": 3373,
+    "name": "A Sloping Tunnel",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "A bright light greets your eyes from the north, in \ndirect contrast to the darkness of the tunnel overhead.  \nYou break  out in a sweat due to the overwhelming warmth \nof the air.  The musky odor has grown quite intense, \ndrowning out everything else in the air and making it hard \nto breathe.  Something in your gut begins squirming \nuncomfortably as you wonder what's ahead...", 
+    "desc": "A bright light greets your eyes from the north, in \ndirect contrast to the darkness of the tunnel overhead.  \nYou break  out in a sweat due to the overwhelming warmth \nof the air.  The musky odor has grown quite intense, \ndrowning out everything else in the air and making it hard \nto breathe.  Something in your gut begins squirming \nuncomfortably as you wonder what's ahead...",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3375
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3373
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 64
-      }, 
+      },
       {
-        "note": "PRIVATE", 
+        "note": "PRIVATE",
         "value": 512
       }
-    ], 
-    "id": 3374, 
-    "name": "A Sloping Tunnel", 
+    ],
+    "id": 3374,
+    "name": "A Sloping Tunnel",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 33
-  }, 
+  },
   {
-    "desc": "This place is huge!!!  It should be considering the \ndragon's great bulk.  However, instead of seeing the \ncustomary carnage and mound of gold that one is accustomed \nto seeing in a dragon lair, this one is decorated subtly \nwith tapestries and drapes, and other comforts of human \nlife.  There is even a huge-dragon sized bed -- undoubtedly \nconjured to life by its elder dragon owner.", 
+    "desc": "This place is huge!!!  It should be considering the \ndragon's great bulk.  However, instead of seeing the \ncustomary carnage and mound of gold that one is accustomed \nto seeing in a dragon lair, this one is decorated subtly \nwith tapestries and drapes, and other comforts of human \nlife.  There is even a huge-dragon sized bed -- undoubtedly \nconjured to life by its elder dragon owner.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3374
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 64
-      }, 
+      },
       {
-        "note": "PRIVATE", 
+        "note": "PRIVATE",
         "value": 512
       }
-    ], 
-    "id": 3375, 
-    "name": "The Lair", 
+    ],
+    "id": 3375,
+    "name": "The Lair",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 33
   }
 ]

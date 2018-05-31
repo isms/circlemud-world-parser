@@ -3,8 +3,8 @@ clean:
 	rm -rf _output/*
 
 test:
-	flake8
-	python tests.py
+	flake8 src/
+	python src/tests.py
 
 all: clean
 	bash convert_all.sh world/

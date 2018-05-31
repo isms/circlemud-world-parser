@@ -1,1465 +1,1465 @@
 [
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "asp", 
+      "asp",
       "snake"
-    ], 
-    "alignment": 0, 
-    "armor_class": 8, 
+    ],
+    "alignment": 0,
+    "armor_class": 8,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 1, 
+      "bonus": 1,
+      "dice": 1,
       "sides": 6
-    }, 
-    "detail_desc": "The asp is a small, smooth-scaled snake the color of worn pottery.\nThe poison bite of this snake has felled many a mighty pharoah.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The asp is a small, smooth-scaled snake the color of worn pottery.\nThe poison bite of this snake has felled many a mighty pharoah.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 10, 
-    "id": 5300, 
-    "level": 5, 
-    "long_desc": "A small, poisonous asp slithers over your feet.", 
+    },
+    "gold": 10,
+    "id": 5300,
+    "level": 5,
+    "long_desc": "A small, poisonous asp slithers over your feet.",
     "max_hit_points": {
-      "bonus": 50, 
-      "dice": 5, 
+      "bonus": 50,
+      "dice": 5,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the horrible asp", 
-    "thac0": 14, 
+    },
+    "short_desc": "the horrible asp",
+    "thac0": 14,
     "xp": 1000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "cobra", 
+      "cobra",
       "snake"
-    ], 
-    "alignment": 0, 
-    "armor_class": 7, 
+    ],
+    "alignment": 0,
+    "armor_class": 7,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 2, 
+      "bonus": 2,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "The cobra snake waves back and forth before you, its hood displaying brilliant\ncolors designed to serve notice to its prey that it is about to strike.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The cobra snake waves back and forth before you, its hood displaying brilliant\ncolors designed to serve notice to its prey that it is about to strike.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 25, 
-    "id": 5301, 
-    "level": 7, 
-    "long_desc": "A cobra snake rears up and opens its fearsome hood.", 
+    },
+    "gold": 25,
+    "id": 5301,
+    "level": 7,
+    "long_desc": "A cobra snake rears up and opens its fearsome hood.",
     "max_hit_points": {
-      "bonus": 70, 
-      "dice": 7, 
+      "bonus": 70,
+      "dice": 7,
       "sides": 7
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the hooded cobra snake", 
-    "thac0": 13, 
+    },
+    "short_desc": "the hooded cobra snake",
+    "thac0": 13,
     "xp": 2000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
       "mongoose"
-    ], 
-    "alignment": 10, 
-    "armor_class": 6, 
+    ],
+    "alignment": 10,
+    "armor_class": 6,
     "bare_hand_damage": {
-      "bonus": 3, 
-      "dice": 3, 
+      "bonus": 3,
+      "dice": 3,
       "sides": 5
-    }, 
-    "detail_desc": "The mongoose is a wily rodent, a quick hunter of nasty poisonous snakes.\nShe sniffs you and appears to be looking for food in your hand.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The mongoose is a wily rodent, a quick hunter of nasty poisonous snakes.\nShe sniffs you and appears to be looking for food in your hand.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 100, 
-    "id": 5302, 
-    "level": 11, 
-    "long_desc": "A small mongoose slinks along the ground, hunting snakes.", 
+    },
+    "gold": 100,
+    "id": 5302,
+    "level": 11,
+    "long_desc": "A small mongoose slinks along the ground, hunting snakes.",
     "max_hit_points": {
-      "bonus": 110, 
-      "dice": 11, 
+      "bonus": 110,
+      "dice": 11,
       "sides": 11
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the wily little mongoose", 
-    "thac0": 10, 
+    },
+    "short_desc": "the wily little mongoose",
+    "thac0": 10,
     "xp": 10000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "pyramid", 
+      "pyramid",
       "watcher"
-    ], 
-    "alignment": 250, 
-    "armor_class": 5, 
+    ],
+    "alignment": 250,
+    "armor_class": 5,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 2, 
+      "bonus": 2,
+      "dice": 2,
       "sides": 6
-    }, 
-    "detail_desc": "The pyramid watcher has made a pledge to destroy any would-be looters of\nthe tombs of the pharoahs.  He is clad from head to foot in utilitarian\nsand-colored clothing.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The pyramid watcher has made a pledge to destroy any would-be looters of\nthe tombs of the pharoahs.  He is clad from head to foot in utilitarian\nsand-colored clothing.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 200, 
-    "id": 5303, 
-    "level": 8, 
-    "long_desc": "The pyramid watcher protects the tombs from intruders.", 
+    },
+    "gold": 200,
+    "id": 5303,
+    "level": 8,
+    "long_desc": "The pyramid watcher protects the tombs from intruders.",
     "max_hit_points": {
-      "bonus": 80, 
-      "dice": 8, 
+      "bonus": 80,
+      "dice": 8,
       "sides": 8
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the pyramid watcher", 
-    "thac0": 12, 
+    },
+    "short_desc": "the pyramid watcher",
+    "thac0": 12,
     "xp": 3750
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
-      }, 
+      },
       {
-        "note": "SNEAK", 
+        "note": "SNEAK",
         "value": 262144
-      }, 
+      },
       {
-        "note": "HIDE", 
+        "note": "HIDE",
         "value": 524288
       }
-    ], 
+    ],
     "aliases": [
-      "thief", 
+      "thief",
       "tomb"
-    ], 
-    "alignment": -250, 
-    "armor_class": 5, 
+    ],
+    "alignment": -250,
+    "armor_class": 5,
     "bare_hand_damage": {
-      "bonus": 3, 
-      "dice": 2, 
+      "bonus": 3,
+      "dice": 2,
       "sides": 6
-    }, 
-    "detail_desc": "The thief brushes against you briefly, then slinks back into the shadows.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The thief brushes against you briefly, then slinks back into the shadows.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 500, 
-    "id": 5304, 
-    "level": 10, 
-    "long_desc": "A sneaky tomb thief moves about in search of treasure.", 
+    },
+    "gold": 500,
+    "id": 5304,
+    "level": 10,
+    "long_desc": "A sneaky tomb thief moves about in search of treasure.",
     "max_hit_points": {
-      "bonus": 100, 
-      "dice": 10, 
+      "bonus": 100,
+      "dice": 10,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the tomb thief", 
-    "thac0": 10, 
+    },
+    "short_desc": "the tomb thief",
+    "thac0": 10,
     "xp": 9000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
-      }, 
+      },
       {
-        "note": "SNEAK", 
+        "note": "SNEAK",
         "value": 262144
       }
-    ], 
+    ],
     "aliases": [
-      "ali", 
-      "baba", 
+      "ali",
+      "baba",
       "thief"
-    ], 
-    "alignment": -300, 
-    "armor_class": 0, 
+    ],
+    "alignment": -300,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 3, 
+      "bonus": 2,
+      "dice": 3,
       "sides": 8
-    }, 
-    "detail_desc": "You see a tall, full-bearded man with a mischevious glint in his eye.  Ali Baba\nhas made his life from stealing things from others, including many items stolen\nrecently from under the nose of the hapless guardians of this pyramid.  Someday\nhe might get caught, but not today...", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "You see a tall, full-bearded man with a mischevious glint in his eye.  Ali Baba\nhas made his life from stealing things from others, including many items stolen\nrecently from under the nose of the hapless guardians of this pyramid.  Someday\nhe might get caught, but not today...",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1000, 
-    "id": 5305, 
-    "level": 18, 
-    "long_desc": "Ali Baba is here, hunting for the pharoah's tomb.", 
+    },
+    "gold": 1000,
+    "id": 5305,
+    "level": 18,
+    "long_desc": "Ali Baba is here, hunting for the pharoah's tomb.",
     "max_hit_points": {
-      "bonus": 180, 
-      "dice": 18, 
+      "bonus": 180,
+      "dice": 18,
       "sides": 18
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Ali Baba", 
-    "thac0": 2, 
+    },
+    "short_desc": "Ali Baba",
+    "thac0": 2,
     "xp": 30000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "magic", 
+      "magic",
       "carpet"
-    ], 
-    "alignment": 500, 
-    "armor_class": 7, 
+    ],
+    "alignment": 500,
+    "armor_class": 7,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 2, 
+      "bonus": 2,
+      "dice": 2,
       "sides": 5
-    }, 
-    "detail_desc": "The carpet is simply beautiful, made from intricately woven silken material.  \nIt seems to rise up at the touch of your feet.  Wait, it is rising, a few feet\nabove the ground!  In fact, it seems to be ALIVE!", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The carpet is simply beautiful, made from intricately woven silken material.  \nIt seems to rise up at the touch of your feet.  Wait, it is rising, a few feet\nabove the ground!  In fact, it seems to be ALIVE!",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 250, 
-    "id": 5306, 
-    "level": 9, 
-    "long_desc": "A small woven carpet lies under your feet.", 
+    },
+    "gold": 250,
+    "id": 5306,
+    "level": 9,
+    "long_desc": "A small woven carpet lies under your feet.",
     "max_hit_points": {
-      "bonus": 90, 
-      "dice": 9, 
+      "bonus": 90,
+      "dice": 9,
       "sides": 9
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the magic carpet", 
-    "thac0": 11, 
+    },
+    "short_desc": "the magic carpet",
+    "thac0": 11,
     "xp": 6000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SENSE_LIFE", 
+        "note": "SENSE_LIFE",
         "value": 32
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "mummy", 
+      "mummy",
       "corpse"
-    ], 
-    "alignment": -600, 
-    "armor_class": 4, 
+    ],
+    "alignment": -600,
+    "armor_class": 4,
     "bare_hand_damage": {
-      "bonus": 6, 
-      "dice": 1, 
+      "bonus": 6,
+      "dice": 1,
       "sides": 6
-    }, 
-    "detail_desc": "You only see the disfigured, rotting features of decaying human flesh,\nanimated by the distempered spirit of a long-deceased person.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "You only see the disfigured, rotting features of decaying human flesh,\nanimated by the distempered spirit of a long-deceased person.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 750, 
-    "id": 5307, 
-    "level": 12, 
-    "long_desc": "A mummy reaches for you, disturbed by your presence.", 
+    },
+    "gold": 750,
+    "id": 5307,
+    "level": 12,
+    "long_desc": "A mummy reaches for you, disturbed by your presence.",
     "max_hit_points": {
-      "bonus": 120, 
-      "dice": 12, 
+      "bonus": 120,
+      "dice": 12,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the mummy", 
-    "thac0": 8, 
+    },
+    "short_desc": "the mummy",
+    "thac0": 8,
     "xp": 15000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "sand", 
-      "man", 
+      "sand",
+      "man",
       "sandman"
-    ], 
-    "alignment": 0, 
-    "armor_class": 2, 
+    ],
+    "alignment": 0,
+    "armor_class": 2,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 2, 
+      "bonus": 4,
+      "dice": 2,
       "sides": 7
-    }, 
-    "detail_desc": "The sandman is exactly that -- some sort of strange being formed from the sands\nof the desert floor.  It seems quite large and strong and at home in the heat\nand sandy winds.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The sandman is exactly that -- some sort of strange being formed from the sands\nof the desert floor.  It seems quite large and strong and at home in the heat\nand sandy winds.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1500, 
-    "id": 5308, 
-    "level": 14, 
-    "long_desc": "A sandman rises up from the desert floor.", 
+    },
+    "gold": 1500,
+    "id": 5308,
+    "level": 14,
+    "long_desc": "A sandman rises up from the desert floor.",
     "max_hit_points": {
-      "bonus": 140, 
-      "dice": 14, 
+      "bonus": 140,
+      "dice": 14,
       "sides": 14
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the sandman", 
-    "thac0": 6, 
+    },
+    "short_desc": "the sandman",
+    "thac0": 6,
     "xp": 18000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "efreeti", 
+      "efreeti",
       "efreet"
-    ], 
-    "alignment": -600, 
-    "armor_class": -1, 
+    ],
+    "alignment": -600,
+    "armor_class": -1,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 4, 
+      "bonus": 4,
+      "dice": 4,
       "sides": 6
-    }, 
-    "detail_desc": "The efreeti is a mighty being formed from living fire.  He gazes down at\nyou with disdain and scorn, arms folded across his mighty chest.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The efreeti is a mighty being formed from living fire.  He gazes down at\nyou with disdain and scorn, arms folded across his mighty chest.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 11000, 
-    "id": 5309, 
-    "level": 20, 
-    "long_desc": "The efreeti stands here, sheathed in a column of fire.", 
+    },
+    "gold": 11000,
+    "id": 5309,
+    "level": 20,
+    "long_desc": "The efreeti stands here, sheathed in a column of fire.",
     "max_hit_points": {
-      "bonus": 200, 
-      "dice": 20, 
+      "bonus": 200,
+      "dice": 20,
       "sides": 20
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the efreeti", 
-    "thac0": 0, 
+    },
+    "short_desc": "the efreeti",
+    "thac0": 0,
     "xp": 40000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "caryatid", 
+      "caryatid",
       "column"
-    ], 
-    "alignment": 0, 
-    "armor_class": -3, 
+    ],
+    "alignment": 0,
+    "armor_class": -3,
     "bare_hand_damage": {
-      "bonus": 8, 
-      "dice": 4, 
+      "bonus": 8,
+      "dice": 4,
       "sides": 6
-    }, 
-    "detail_desc": "The column has been carved into a set of four shapely women, each facing\noutward into the room.  The sandstone of the caryatid is smooth with age,\nbut you can still make out a deadly stone sword in the hands of each figure.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The column has been carved into a set of four shapely women, each facing\noutward into the room.  The sandstone of the caryatid is smooth with age,\nbut you can still make out a deadly stone sword in the hands of each figure.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 35000, 
-    "id": 5310, 
-    "level": 24, 
-    "long_desc": "A sandstone column stands here, carved into a feminine figure.", 
+    },
+    "gold": 35000,
+    "id": 5310,
+    "level": 24,
+    "long_desc": "A sandstone column stands here, carved into a feminine figure.",
     "max_hit_points": {
-      "bonus": 240, 
-      "dice": 24, 
+      "bonus": 240,
+      "dice": 24,
       "sides": 24
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the caryatid", 
-    "thac0": -4, 
+    },
+    "short_desc": "the caryatid",
+    "thac0": -4,
     "xp": 100000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "djinn", 
+      "djinn",
       "genie"
-    ], 
-    "alignment": 600, 
-    "armor_class": -6, 
+    ],
+    "alignment": 600,
+    "armor_class": -6,
     "bare_hand_damage": {
-      "bonus": 12, 
-      "dice": 6, 
+      "bonus": 12,
+      "dice": 6,
       "sides": 6
-    }, 
-    "detail_desc": "The djinn is a mighty being formed from the air itself and frequently\nimprisoned in a small lamp, used to do the bidding of those who find him.\nHe smiles down at you congenially, arms folded across his blue-tinged \nskin, and strokes his goatee.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The djinn is a mighty being formed from the air itself and frequently\nimprisoned in a small lamp, used to do the bidding of those who find him.\nHe smiles down at you congenially, arms folded across his blue-tinged \nskin, and strokes his goatee.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 60000, 
-    "id": 5311, 
-    "level": 28, 
-    "long_desc": "The djinn issues forth from the confines of a small lamp.", 
+    },
+    "gold": 60000,
+    "id": 5311,
+    "level": 28,
+    "long_desc": "The djinn issues forth from the confines of a small lamp.",
     "max_hit_points": {
-      "bonus": 280, 
-      "dice": 28, 
+      "bonus": 280,
+      "dice": 28,
       "sides": 28
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the djinn", 
-    "thac0": -8, 
+    },
+    "short_desc": "the djinn",
+    "thac0": -8,
     "xp": 310000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "hieracosphinx", 
+      "hieracosphinx",
       "sphinx"
-    ], 
-    "alignment": -200, 
-    "armor_class": 3, 
+    ],
+    "alignment": -200,
+    "armor_class": 3,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 1, 
+      "bonus": 5,
+      "dice": 1,
       "sides": 10
-    }, 
-    "detail_desc": "The hieracosphinx are cunning, small, but nasty creatures, having the heads\nof birds, mighty wingspans, and a full set of four paws to rend their victims\nto pieces.  They tend to be quite jealous of the sharper wits of their older\ncousins.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The hieracosphinx are cunning, small, but nasty creatures, having the heads\nof birds, mighty wingspans, and a full set of four paws to rend their victims\nto pieces.  They tend to be quite jealous of the sharper wits of their older\ncousins.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 7500, 
-    "id": 5312, 
-    "level": 15, 
-    "long_desc": "A hieracosphinx looks at you cunningly.", 
+    },
+    "gold": 7500,
+    "id": 5312,
+    "level": 15,
+    "long_desc": "A hieracosphinx looks at you cunningly.",
     "max_hit_points": {
-      "bonus": 150, 
-      "dice": 15, 
+      "bonus": 150,
+      "dice": 15,
       "sides": 15
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the hieracosphinx", 
-    "thac0": 5, 
+    },
+    "short_desc": "the hieracosphinx",
+    "thac0": 5,
     "xp": 21000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "gynosphinx", 
+      "gynosphinx",
       "sphinx"
-    ], 
-    "alignment": 100, 
-    "armor_class": 0, 
+    ],
+    "alignment": 100,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 10, 
-      "dice": 2, 
+      "bonus": 10,
+      "dice": 2,
       "sides": 10
-    }, 
-    "detail_desc": "The gynosphinx is a crafty but gentle creature, having the body of a\nbeautiful dark-skinned woman from the waist up, a feathery set of wings\nand the hind legs of a mighty cat.  Right now she is confused, having \njust heard a puzzling riddle from a cousin criosphinx.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The gynosphinx is a crafty but gentle creature, having the body of a\nbeautiful dark-skinned woman from the waist up, a feathery set of wings\nand the hind legs of a mighty cat.  Right now she is confused, having \njust heard a puzzling riddle from a cousin criosphinx.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 10000, 
-    "id": 5313, 
-    "level": 19, 
-    "long_desc": "A gynosphinx sits here, befuddled by a riddle.", 
+    },
+    "gold": 10000,
+    "id": 5313,
+    "level": 19,
+    "long_desc": "A gynosphinx sits here, befuddled by a riddle.",
     "max_hit_points": {
-      "bonus": 190, 
-      "dice": 19, 
+      "bonus": 190,
+      "dice": 19,
       "sides": 19
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the gynosphinx", 
-    "thac0": 1, 
+    },
+    "short_desc": "the gynosphinx",
+    "thac0": 1,
     "xp": 35000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "criosphinx", 
+      "criosphinx",
       "sphinx"
-    ], 
-    "alignment": 300, 
-    "armor_class": -2, 
+    ],
+    "alignment": 300,
+    "armor_class": -2,
     "bare_hand_damage": {
-      "bonus": 15, 
-      "dice": 3, 
+      "bonus": 15,
+      "dice": 3,
       "sides": 10
-    }, 
-    "detail_desc": "The criosphinx is a calm and friendly creature, having the head of a ram atop\nthe body of a well-furred feline with eagle-like wings.  He delights in riddles,\nand in poking occasional fun at his easily confused lesser cousins.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The criosphinx is a calm and friendly creature, having the head of a ram atop\nthe body of a well-furred feline with eagle-like wings.  He delights in riddles,\nand in poking occasional fun at his easily confused lesser cousins.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 25000, 
-    "id": 5314, 
-    "level": 23, 
-    "long_desc": "A criosphinx calmly watches you.", 
+    },
+    "gold": 25000,
+    "id": 5314,
+    "level": 23,
+    "long_desc": "A criosphinx calmly watches you.",
     "max_hit_points": {
-      "bonus": 230, 
-      "dice": 23, 
+      "bonus": 230,
+      "dice": 23,
       "sides": 23
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the criosphinx", 
-    "thac0": -3, 
+    },
+    "short_desc": "the criosphinx",
+    "thac0": -3,
     "xp": 80000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "androsphinx", 
+      "androsphinx",
       "sphinx"
-    ], 
-    "alignment": 400, 
-    "armor_class": -6, 
+    ],
+    "alignment": 400,
+    "armor_class": -6,
     "bare_hand_damage": {
-      "bonus": 20, 
-      "dice": 4, 
+      "bonus": 20,
+      "dice": 4,
       "sides": 10
-    }, 
-    "detail_desc": "The mighty androsphinx is a huge creature, with the body of a lion whose\nface  is quite man-like, perhaps even handsome, and a massive pair of feathered\nwings.  Tales are told of pharoahs that were rendered permanently deaf by the \nmighty roar of this sphinx.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The mighty androsphinx is a huge creature, with the body of a lion whose\nface  is quite man-like, perhaps even handsome, and a massive pair of feathered\nwings.  Tales are told of pharoahs that were rendered permanently deaf by the \nmighty roar of this sphinx.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 50000, 
-    "id": 5315, 
-    "level": 27, 
-    "long_desc": "A mighty androsphinx tosses its lion-like mane.", 
+    },
+    "gold": 50000,
+    "id": 5315,
+    "level": 27,
+    "long_desc": "A mighty androsphinx tosses its lion-like mane.",
     "max_hit_points": {
-      "bonus": 270, 
-      "dice": 27, 
+      "bonus": 270,
+      "dice": 27,
       "sides": 27
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the androsphinx", 
-    "thac0": -7, 
+    },
+    "short_desc": "the androsphinx",
+    "thac0": -7,
     "xp": 200000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "great", 
+      "great",
       "sphinx"
-    ], 
-    "alignment": 500, 
-    "armor_class": -20, 
+    ],
+    "alignment": 500,
+    "armor_class": -20,
     "bare_hand_damage": {
-      "bonus": 25, 
-      "dice": 5, 
+      "bonus": 25,
+      "dice": 5,
       "sides": 10
-    }, 
-    "detail_desc": "The great sphinx towers tens of feet above you, resting here in a state of \ndormancy.  It has become almost indistinguishable from the sand that surrounds\nit, although you can still make out the features of the handsome face that once\nadvised many rulers.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The great sphinx towers tens of feet above you, resting here in a state of \ndormancy.  It has become almost indistinguishable from the sand that surrounds\nit, although you can still make out the features of the handsome face that once\nadvised many rulers.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 125000, 
-    "id": 5316, 
-    "level": 41, 
-    "long_desc": "A mighty sphinx rests here in the sand, dormant now for centuries.", 
+    },
+    "gold": 125000,
+    "id": 5316,
+    "level": 41,
+    "long_desc": "A mighty sphinx rests here in the sand, dormant now for centuries.",
     "max_hit_points": {
-      "bonus": 410, 
-      "dice": 41, 
+      "bonus": 410,
+      "dice": 41,
       "sides": 41
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the great sphinx", 
-    "thac0": -21, 
+    },
+    "short_desc": "the great sphinx",
+    "thac0": -21,
     "xp": 1500000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "ramses", 
+      "ramses",
       "mummy"
-    ], 
-    "alignment": 150, 
-    "armor_class": -18, 
+    ],
+    "alignment": 150,
+    "armor_class": -18,
     "bare_hand_damage": {
-      "bonus": 40, 
-      "dice": 8, 
+      "bonus": 40,
+      "dice": 8,
       "sides": 5
-    }, 
-    "detail_desc": "As your light spills over his face and body, you can see his features\nbegin to fill out, swell, and harden, until an apparently healthy man \nstands before you, clad only in the raiments he was left in when he last \nslept.  His hair is a soft black, his skin a deep chocolate, and his \ntall frame is totally still, his chest not even moving to breathe.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "As your light spills over his face and body, you can see his features\nbegin to fill out, swell, and harden, until an apparently healthy man \nstands before you, clad only in the raiments he was left in when he last \nslept.  His hair is a soft black, his skin a deep chocolate, and his \ntall frame is totally still, his chest not even moving to breathe.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 88000, 
-    "id": 5317, 
-    "level": 38, 
-    "long_desc": "You have awakened the mighty servant to the pharoahs, Ramses.", 
+    },
+    "gold": 88000,
+    "id": 5317,
+    "level": 38,
+    "long_desc": "You have awakened the mighty servant to the pharoahs, Ramses.",
     "max_hit_points": {
-      "bonus": 380, 
-      "dice": 38, 
+      "bonus": 380,
+      "dice": 38,
       "sides": 38
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Ramses the Damned", 
-    "thac0": -18, 
+    },
+    "short_desc": "Ramses the Damned",
+    "thac0": -18,
     "xp": 1000000
   }
 ]

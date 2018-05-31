@@ -2,4895 +2,4895 @@
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SENSE_LIFE", 
+        "note": "SENSE_LIFE",
         "value": 32
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "SNEAK", 
+        "note": "SNEAK",
         "value": 262144
       }
-    ], 
+    ],
     "aliases": [
-      "shadow", 
+      "shadow",
       "guardian"
-    ], 
-    "alignment": -350, 
-    "armor_class": 1, 
+    ],
+    "alignment": -350,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 2, 
+      "bonus": 5,
+      "dice": 2,
       "sides": 5
-    }, 
-    "detail_desc": "It seems to be made of nothing more than darkness...", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "It seems to be made of nothing more than darkness...",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 100, 
-    "id": 2500, 
-    "level": 9, 
-    "long_desc": "A shadow guardian screams a challenge and attacks.", 
+    },
+    "gold": 100,
+    "id": 2500,
+    "level": 9,
+    "long_desc": "A shadow guardian screams a challenge and attacks.",
     "max_hit_points": {
-      "bonus": 90, 
-      "dice": 9, 
+      "bonus": 90,
+      "dice": 9,
       "sides": 9
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the shadow guardian", 
-    "thac0": 10, 
+    },
+    "short_desc": "the shadow guardian",
+    "thac0": 10,
     "xp": 4000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
       "adventurer"
-    ], 
-    "alignment": 400, 
-    "armor_class": 6, 
+    ],
+    "alignment": 400,
+    "armor_class": 6,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 2, 
+      "bonus": 4,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "He looks haggard and sickly; no doubt he's been lost here for quite some time.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks haggard and sickly; no doubt he's been lost here for quite some time.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 286, 
-    "id": 2501, 
-    "level": 8, 
-    "long_desc": "An emaciated adventurer is here looking lost and hopeless.", 
+    },
+    "gold": 286,
+    "id": 2501,
+    "level": 8,
+    "long_desc": "An emaciated adventurer is here looking lost and hopeless.",
     "max_hit_points": {
-      "bonus": 10, 
-      "dice": 10, 
+      "bonus": 10,
+      "dice": 10,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_SITTING", 
+        "note": "POSITION_SITTING",
         "value": 6
-      }, 
+      },
       "load": {
-        "note": "POSITION_SITTING", 
+        "note": "POSITION_SITTING",
         "value": 6
       }
-    }, 
-    "short_desc": "the lost adventurer", 
-    "thac0": 12, 
+    },
+    "short_desc": "the lost adventurer",
+    "thac0": 12,
     "xp": 1500
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
       "edgar"
-    ], 
-    "alignment": 1000, 
-    "armor_class": 10, 
+    ],
+    "alignment": 1000,
+    "armor_class": 10,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 1, 
+      "bonus": 1,
+      "dice": 1,
       "sides": 8
-    }, 
-    "detail_desc": "Edgar says 'pardon me, can you tell me where to buy cups?'\n\nYou see before you, one of Midgaard's finest fighting elite, the mighty\nbunny slayer himself, Edgar the Horrible!", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "Edgar says 'pardon me, can you tell me where to buy cups?'\n\nYou see before you, one of Midgaard's finest fighting elite, the mighty\nbunny slayer himself, Edgar the Horrible!",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 23, 
-    "id": 2502, 
-    "level": 1, 
-    "long_desc": "Edgar the Human Swordpupil is standing here, looking quite lost.", 
+    },
+    "gold": 23,
+    "id": 2502,
+    "level": 1,
+    "long_desc": "Edgar the Human Swordpupil is standing here, looking quite lost.",
     "max_hit_points": {
-      "bonus": 10, 
-      "dice": 3, 
+      "bonus": 10,
+      "dice": 3,
       "sides": 9
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Edgar", 
-    "thac0": 20, 
+    },
+    "short_desc": "Edgar",
+    "thac0": 20,
     "xp": 100
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "diamond", 
+      "diamond",
       "golem"
-    ], 
-    "alignment": 500, 
-    "armor_class": -10, 
+    ],
+    "alignment": 500,
+    "armor_class": -10,
     "bare_hand_damage": {
-      "bonus": 15, 
-      "dice": 3, 
+      "bonus": 15,
+      "dice": 3,
       "sides": 6
-    }, 
-    "detail_desc": "It looks quite strong.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "It looks quite strong.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 985, 
-    "id": 2503, 
-    "level": 23, 
-    "long_desc": "A huge diamond golem is standing guard here.", 
+    },
+    "gold": 985,
+    "id": 2503,
+    "level": 23,
+    "long_desc": "A huge diamond golem is standing guard here.",
     "max_hit_points": {
-      "bonus": 230, 
-      "dice": 23, 
+      "bonus": 230,
+      "dice": 23,
       "sides": 23
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the diamond golem", 
-    "thac0": 5, 
+    },
+    "short_desc": "the diamond golem",
+    "thac0": 5,
     "xp": 15000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "mage", 
+      "mage",
       "young"
-    ], 
-    "alignment": 450, 
-    "armor_class": -1, 
+    ],
+    "alignment": 450,
+    "armor_class": -1,
     "bare_hand_damage": {
-      "bonus": 8, 
-      "dice": 1, 
+      "bonus": 8,
+      "dice": 1,
       "sides": 8
-    }, 
-    "detail_desc": "He seems to be contemplating life, love and the mysteries of the universe.\nThen again, he may just have a headache.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He seems to be contemplating life, love and the mysteries of the universe.\nThen again, he may just have a headache.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 436, 
-    "id": 2504, 
-    "level": 10, 
-    "long_desc": "A young mage wanders about, oblivious to all.", 
+    },
+    "gold": 436,
+    "id": 2504,
+    "level": 10,
+    "long_desc": "A young mage wanders about, oblivious to all.",
     "max_hit_points": {
-      "bonus": 100, 
-      "dice": 10, 
+      "bonus": 100,
+      "dice": 10,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the mage", 
-    "thac0": 10, 
+    },
+    "short_desc": "the mage",
+    "thac0": 10,
     "xp": 3500
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "strick", 
+      "strick",
       "bartender"
-    ], 
-    "alignment": 750, 
-    "armor_class": -6, 
+    ],
+    "alignment": 750,
+    "armor_class": -6,
     "bare_hand_damage": {
-      "bonus": 20, 
-      "dice": 3, 
+      "bonus": 20,
+      "dice": 3,
       "sides": 7
-    }, 
-    "detail_desc": "He looks rather harmless, but then again so does a sleeping dragon.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks rather harmless, but then again so does a sleeping dragon.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 2000, 
-    "id": 2505, 
-    "level": 25, 
-    "long_desc": "Strick is here levitating drinks to his customers.", 
+    },
+    "gold": 2000,
+    "id": 2505,
+    "level": 25,
+    "long_desc": "Strick is here levitating drinks to his customers.",
     "max_hit_points": {
-      "bonus": 30000, 
-      "dice": 1, 
+      "bonus": 30000,
+      "dice": 1,
       "sides": 1
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Strick the bartender", 
-    "thac0": 1, 
+    },
+    "short_desc": "Strick the bartender",
+    "thac0": 1,
     "xp": 20000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "tatorious", 
+      "tatorious",
       "wizard"
-    ], 
-    "alignment": 900, 
-    "armor_class": -8, 
+    ],
+    "alignment": 900,
+    "armor_class": -8,
     "bare_hand_damage": {
-      "bonus": 21, 
-      "dice": 3, 
+      "bonus": 21,
+      "dice": 3,
       "sides": 7
-    }, 
-    "detail_desc": "Tatorious winks at you mischievously.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "Tatorious winks at you mischievously.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 5000, 
-    "id": 2506, 
-    "level": 25, 
-    "long_desc": "Tatorious the wizard is here counting his earnings.", 
+    },
+    "gold": 5000,
+    "id": 2506,
+    "level": 25,
+    "long_desc": "Tatorious the wizard is here counting his earnings.",
     "max_hit_points": {
-      "bonus": 30000, 
-      "dice": 1, 
+      "bonus": 30000,
+      "dice": 1,
       "sides": 1
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Tatorious", 
-    "thac0": 0, 
+    },
+    "short_desc": "Tatorious",
+    "thac0": 0,
     "xp": 24000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "ezmerelda", 
+      "ezmerelda",
       "cook"
-    ], 
-    "alignment": -500, 
-    "armor_class": -1, 
+    ],
+    "alignment": -500,
+    "armor_class": -1,
     "bare_hand_damage": {
-      "bonus": 8, 
-      "dice": 3, 
+      "bonus": 8,
+      "dice": 3,
       "sides": 4
-    }, 
-    "detail_desc": "She does not look like the typical cook you would find in a kitchen,\nbut she certainly fits what you would expect in a tower fulls of\nmages.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "She does not look like the typical cook you would find in a kitchen,\nbut she certainly fits what you would expect in a tower fulls of\nmages.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 1092, 
-    "id": 2507, 
-    "level": 20, 
-    "long_desc": "Ezmerelda the cook is here stirring a large pot of something.", 
+    },
+    "gold": 1092,
+    "id": 2507,
+    "level": 20,
+    "long_desc": "Ezmerelda the cook is here stirring a large pot of something.",
     "max_hit_points": {
-      "bonus": 200, 
-      "dice": 20, 
+      "bonus": 200,
+      "dice": 20,
       "sides": 20
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Ezmerelda", 
-    "thac0": 6, 
+    },
+    "short_desc": "Ezmerelda",
+    "thac0": 6,
     "xp": 31300
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "assistant", 
-      "mage", 
+      "assistant",
+      "mage",
       "cook"
-    ], 
-    "alignment": -200, 
-    "armor_class": 1, 
+    ],
+    "alignment": -200,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 3, 
+      "bonus": 4,
+      "dice": 3,
       "sides": 4
-    }, 
-    "detail_desc": "This young man is busy adding strange ingredients to the large pot.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This young man is busy adding strange ingredients to the large pot.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 116, 
-    "id": 2508, 
-    "level": 11, 
-    "long_desc": "The cook's assistant is here assisting the cook.", 
+    },
+    "gold": 116,
+    "id": 2508,
+    "level": 11,
+    "long_desc": "The cook's assistant is here assisting the cook.",
     "max_hit_points": {
-      "bonus": 110, 
-      "dice": 11, 
+      "bonus": 110,
+      "dice": 11,
       "sides": 11
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the cook's assistant", 
-    "thac0": 8, 
+    },
+    "short_desc": "the cook's assistant",
+    "thac0": 8,
     "xp": 4600
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "prisoner"
-    ], 
-    "alignment": 100, 
-    "armor_class": 2, 
+    ],
+    "alignment": 100,
+    "armor_class": 2,
     "bare_hand_damage": {
-      "bonus": 9, 
-      "dice": 2, 
+      "bonus": 9,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "Though his clothes are all in rags, you can see that at one time they\nmust have been fine garments.  A metal muzzle has been fitted over the\npoor wretch's mouth, whether to keep him from screaming, or to silence\nhis spell casting you cannot tell.\n\nHe looks quite mad, no doubt he has been mistreated horribly.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "Though his clothes are all in rags, you can see that at one time they\nmust have been fine garments.  A metal muzzle has been fitted over the\npoor wretch's mouth, whether to keep him from screaming, or to silence\nhis spell casting you cannot tell.\n\nHe looks quite mad, no doubt he has been mistreated horribly.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 0, 
-    "id": 2509, 
-    "level": 16, 
-    "long_desc": "A prisoner is chained to the wall here.", 
+    },
+    "gold": 0,
+    "id": 2509,
+    "level": 16,
+    "long_desc": "A prisoner is chained to the wall here.",
     "max_hit_points": {
-      "bonus": 30, 
-      "dice": 3, 
+      "bonus": 30,
+      "dice": 3,
       "sides": 30
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the prisoner", 
-    "thac0": 6, 
+    },
+    "short_desc": "the prisoner",
+    "thac0": 6,
     "xp": 1800
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "jailor", 
+      "jailor",
       "mage"
-    ], 
-    "alignment": 100, 
-    "armor_class": -3, 
+    ],
+    "alignment": 100,
+    "armor_class": -3,
     "bare_hand_damage": {
-      "bonus": 10, 
-      "dice": 3, 
+      "bonus": 10,
+      "dice": 3,
       "sides": 5
-    }, 
-    "detail_desc": "He looks rather dirty.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks rather dirty.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1326, 
-    "id": 2510, 
-    "level": 17, 
-    "long_desc": "The Jailor is here enjoying a comfortable nap.", 
+    },
+    "gold": 1326,
+    "id": 2510,
+    "level": 17,
+    "long_desc": "The Jailor is here enjoying a comfortable nap.",
     "max_hit_points": {
-      "bonus": 170, 
-      "dice": 17, 
+      "bonus": 170,
+      "dice": 17,
       "sides": 17
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_SLEEPING", 
+        "note": "POSITION_SLEEPING",
         "value": 4
-      }, 
+      },
       "load": {
-        "note": "POSITION_SLEEPING", 
+        "note": "POSITION_SLEEPING",
         "value": 4
       }
-    }, 
-    "short_desc": "the Jailor", 
-    "thac0": 5, 
+    },
+    "short_desc": "the Jailor",
+    "thac0": 5,
     "xp": 12000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SENSE_LIFE", 
+        "note": "SENSE_LIFE",
         "value": 32
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
       "broom"
-    ], 
-    "alignment": 50, 
-    "armor_class": 2, 
+    ],
+    "alignment": 50,
+    "armor_class": 2,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 2, 
+      "bonus": 4,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "The broom screams 'Take that you lout!'", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The broom screams 'Take that you lout!'",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 2511, 
-    "level": 7, 
-    "long_desc": "A straw broom is here leaning against the wall.", 
+    },
+    "gold": 0,
+    "id": 2511,
+    "level": 7,
+    "long_desc": "A straw broom is here leaning against the wall.",
     "max_hit_points": {
-      "bonus": 70, 
-      "dice": 7, 
+      "bonus": 70,
+      "dice": 7,
       "sides": 7
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the broom", 
-    "thac0": 10, 
+    },
+    "short_desc": "the broom",
+    "thac0": 10,
     "xp": 1600
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SENSE_LIFE", 
+        "note": "SENSE_LIFE",
         "value": 32
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "lesser", 
-      "guardian", 
+      "lesser",
+      "guardian",
       "hands"
-    ], 
-    "alignment": -400, 
-    "armor_class": -5, 
+    ],
+    "alignment": -400,
+    "armor_class": -5,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 2, 
+      "bonus": 5,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "The hands twitch with anticipation of strangling someone.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The hands twitch with anticipation of strangling someone.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 2512, 
-    "level": 9, 
-    "long_desc": "A pair of disembodied hands floats in the air here.", 
+    },
+    "gold": 0,
+    "id": 2512,
+    "level": 9,
+    "long_desc": "A pair of disembodied hands floats in the air here.",
     "max_hit_points": {
-      "bonus": 90, 
-      "dice": 9, 
+      "bonus": 90,
+      "dice": 9,
       "sides": 9
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the pair of disembodied hands", 
-    "thac0": 7, 
+    },
+    "short_desc": "the pair of disembodied hands",
+    "thac0": 7,
     "xp": 3100
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SENSE_LIFE", 
+        "note": "SENSE_LIFE",
         "value": 32
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "guardian", 
-      "greater", 
+      "guardian",
+      "greater",
       "eyes"
-    ], 
-    "alignment": -600, 
-    "armor_class": -9, 
+    ],
+    "alignment": -600,
+    "armor_class": -9,
     "bare_hand_damage": {
-      "bonus": 8, 
-      "dice": 3, 
+      "bonus": 8,
+      "dice": 3,
       "sides": 4
-    }, 
-    "detail_desc": "The eyes smoulder with hatred.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The eyes smoulder with hatred.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 2513, 
-    "level": 15, 
-    "long_desc": "A pair of disembodied eyes floats here glaring at you.", 
+    },
+    "gold": 0,
+    "id": 2513,
+    "level": 15,
+    "long_desc": "A pair of disembodied eyes floats here glaring at you.",
     "max_hit_points": {
-      "bonus": 150, 
-      "dice": 15, 
+      "bonus": 150,
+      "dice": 15,
       "sides": 15
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the pair of disembodied eyes", 
-    "thac0": 5, 
+    },
+    "short_desc": "the pair of disembodied eyes",
+    "thac0": 5,
     "xp": 9100
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "mage", 
+      "mage",
       "visitor"
-    ], 
-    "alignment": 250, 
-    "armor_class": -2, 
+    ],
+    "alignment": 250,
+    "armor_class": -2,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 2, 
+      "bonus": 5,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "He looks quite sleepy.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks quite sleepy.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 726, 
-    "id": 2514, 
-    "level": 12, 
-    "long_desc": "A visiting mage is here snoring away in peaceful slumber.", 
+    },
+    "gold": 726,
+    "id": 2514,
+    "level": 12,
+    "long_desc": "A visiting mage is here snoring away in peaceful slumber.",
     "max_hit_points": {
-      "bonus": 120, 
-      "dice": 12, 
+      "bonus": 120,
+      "dice": 12,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_SLEEPING", 
+        "note": "POSITION_SLEEPING",
         "value": 4
-      }, 
+      },
       "load": {
-        "note": "POSITION_SLEEPING", 
+        "note": "POSITION_SLEEPING",
         "value": 4
       }
-    }, 
-    "short_desc": "the mage", 
-    "thac0": 8, 
+    },
+    "short_desc": "the mage",
+    "thac0": 8,
     "xp": 6200
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "apprentice", 
+      "apprentice",
       "young"
-    ], 
-    "alignment": 400, 
-    "armor_class": 2, 
+    ],
+    "alignment": 400,
+    "armor_class": 2,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 2, 
+      "bonus": 5,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "She looks quite intent on her studies.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "She looks quite intent on her studies.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 369, 
-    "id": 2515, 
-    "level": 7, 
-    "long_desc": "A young apprentice magic user is here doing magical studies.", 
+    },
+    "gold": 369,
+    "id": 2515,
+    "level": 7,
+    "long_desc": "A young apprentice magic user is here doing magical studies.",
     "max_hit_points": {
-      "bonus": 25, 
-      "dice": 7, 
+      "bonus": 25,
+      "dice": 7,
       "sides": 6
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_SITTING", 
+        "note": "POSITION_SITTING",
         "value": 6
-      }, 
+      },
       "load": {
-        "note": "POSITION_SITTING", 
+        "note": "POSITION_SITTING",
         "value": 6
       }
-    }, 
-    "short_desc": "the young apprentice magic user", 
-    "thac0": 7, 
+    },
+    "short_desc": "the young apprentice magic user",
+    "thac0": 7,
     "xp": 2950
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "apprentice", 
+      "apprentice",
       "young"
-    ], 
-    "alignment": 380, 
-    "armor_class": 2, 
+    ],
+    "alignment": 380,
+    "armor_class": 2,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 2, 
+      "bonus": 5,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "He looks to be oblivious to all but the spell he is memorizing.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks to be oblivious to all but the spell he is memorizing.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 487, 
-    "id": 2516, 
-    "level": 7, 
-    "long_desc": "A young apprentice is here mumbling words of magic to himself.", 
+    },
+    "gold": 487,
+    "id": 2516,
+    "level": 7,
+    "long_desc": "A young apprentice is here mumbling words of magic to himself.",
     "max_hit_points": {
-      "bonus": 25, 
-      "dice": 7, 
+      "bonus": 25,
+      "dice": 7,
       "sides": 6
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the young apprentice", 
-    "thac0": 6, 
+    },
+    "short_desc": "the young apprentice",
+    "thac0": 6,
     "xp": 2750
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "apprentice", 
+      "apprentice",
       "young"
-    ], 
-    "alignment": 350, 
-    "armor_class": 2, 
+    ],
+    "alignment": 350,
+    "armor_class": 2,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 2, 
+      "bonus": 4,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "He seems to be dreaming.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He seems to be dreaming.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 211, 
-    "id": 2517, 
-    "level": 7, 
-    "long_desc": "A young apprentice is sleeping here.", 
+    },
+    "gold": 211,
+    "id": 2517,
+    "level": 7,
+    "long_desc": "A young apprentice is sleeping here.",
     "max_hit_points": {
-      "bonus": 25, 
-      "dice": 7, 
+      "bonus": 25,
+      "dice": 7,
       "sides": 6
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_SLEEPING", 
+        "note": "POSITION_SLEEPING",
         "value": 4
-      }, 
+      },
       "load": {
-        "note": "POSITION_SLEEPING", 
+        "note": "POSITION_SLEEPING",
         "value": 4
       }
-    }, 
-    "short_desc": "the young apprentice", 
-    "thac0": 7, 
+    },
+    "short_desc": "the young apprentice",
+    "thac0": 7,
     "xp": 2650
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "apprentice", 
+      "apprentice",
       "young"
-    ], 
-    "alignment": -200, 
-    "armor_class": 1, 
+    ],
+    "alignment": -200,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 2, 
+      "bonus": 5,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "He looks like a mischievous youth.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks like a mischievous youth.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 382, 
-    "id": 2518, 
-    "level": 7, 
-    "long_desc": "A young apprentice is here teasing a cornered kitten.", 
+    },
+    "gold": 382,
+    "id": 2518,
+    "level": 7,
+    "long_desc": "A young apprentice is here teasing a cornered kitten.",
     "max_hit_points": {
-      "bonus": 25, 
-      "dice": 7, 
+      "bonus": 25,
+      "dice": 7,
       "sides": 6
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the young apprentice", 
-    "thac0": 7, 
+    },
+    "short_desc": "the young apprentice",
+    "thac0": 7,
     "xp": 2300
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
       "kitten"
-    ], 
-    "alignment": 500, 
-    "armor_class": 1, 
+    ],
+    "alignment": 500,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 1, 
+      "bonus": 1,
+      "dice": 1,
       "sides": 4
-    }, 
-    "detail_desc": "The little ball of fur looks very unhappy.  Singed fur and a few minor\nburns mark its mottled coat.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The little ball of fur looks very unhappy.  Singed fur and a few minor\nburns mark its mottled coat.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 0, 
-    "id": 2519, 
-    "level": 1, 
-    "long_desc": "A small kitten is here meowing in terror.", 
+    },
+    "gold": 0,
+    "id": 2519,
+    "level": 1,
+    "long_desc": "A small kitten is here meowing in terror.",
     "max_hit_points": {
-      "bonus": 10, 
-      "dice": 1, 
+      "bonus": 10,
+      "dice": 1,
       "sides": 1
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the small kitten", 
-    "thac0": 20, 
+    },
+    "short_desc": "the small kitten",
+    "thac0": 20,
     "xp": 11
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
       "student"
-    ], 
-    "alignment": 350, 
-    "armor_class": 1, 
+    ],
+    "alignment": 350,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 6, 
-      "dice": 2, 
+      "bonus": 6,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "The student yawns.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The student yawns.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 263, 
-    "id": 2520, 
-    "level": 8, 
-    "long_desc": "A student of spells is here looking quite bored.", 
+    },
+    "gold": 263,
+    "id": 2520,
+    "level": 8,
+    "long_desc": "A student of spells is here looking quite bored.",
     "max_hit_points": {
-      "bonus": 80, 
-      "dice": 8, 
+      "bonus": 80,
+      "dice": 8,
       "sides": 8
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_SITTING", 
+        "note": "POSITION_SITTING",
         "value": 6
-      }, 
+      },
       "load": {
-        "note": "POSITION_SITTING", 
+        "note": "POSITION_SITTING",
         "value": 6
       }
-    }, 
-    "short_desc": "the student", 
-    "thac0": 9, 
+    },
+    "short_desc": "the student",
+    "thac0": 9,
     "xp": 3000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "instructor", 
-      "teacher", 
+      "instructor",
+      "teacher",
       "mage"
-    ], 
-    "alignment": 300, 
-    "armor_class": -2, 
+    ],
+    "alignment": 300,
+    "armor_class": -2,
     "bare_hand_damage": {
-      "bonus": 8, 
-      "dice": 3, 
+      "bonus": 8,
+      "dice": 3,
       "sides": 4
-    }, 
-    "detail_desc": "He looks quite angry at your interruption.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks quite angry at your interruption.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 880, 
-    "id": 2521, 
-    "level": 14, 
-    "long_desc": "The instructor screams at your interruption and attacks you.", 
+    },
+    "gold": 880,
+    "id": 2521,
+    "level": 14,
+    "long_desc": "The instructor screams at your interruption and attacks you.",
     "max_hit_points": {
-      "bonus": 140, 
-      "dice": 14, 
+      "bonus": 140,
+      "dice": 14,
       "sides": 14
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the instructor of magic", 
-    "thac0": 6, 
+    },
+    "short_desc": "the instructor of magic",
+    "thac0": 6,
     "xp": 18500
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INVISIBLE", 
+        "note": "INVISIBLE",
         "value": 2
-      }, 
+      },
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
       "student"
-    ], 
-    "alignment": 400, 
-    "armor_class": -2, 
+    ],
+    "alignment": 400,
+    "armor_class": -2,
     "bare_hand_damage": {
-      "bonus": 6, 
-      "dice": 2, 
+      "bonus": 6,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "He blinks in and out of existence, trying to master the spell.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He blinks in and out of existence, trying to master the spell.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 198, 
-    "id": 2522, 
-    "level": 8, 
-    "long_desc": "A student of spells is here trying to master invisibility.", 
+    },
+    "gold": 198,
+    "id": 2522,
+    "level": 8,
+    "long_desc": "A student of spells is here trying to master invisibility.",
     "max_hit_points": {
-      "bonus": 80, 
-      "dice": 8, 
+      "bonus": 80,
+      "dice": 8,
       "sides": 8
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the student of spells", 
-    "thac0": 8, 
+    },
+    "short_desc": "the student of spells",
+    "thac0": 8,
     "xp": 2200
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "teacher", 
+      "teacher",
       "mage"
-    ], 
-    "alignment": 300, 
-    "armor_class": -4, 
+    ],
+    "alignment": 300,
+    "armor_class": -4,
     "bare_hand_damage": {
-      "bonus": 9, 
-      "dice": 3, 
+      "bonus": 9,
+      "dice": 3,
       "sides": 4
-    }, 
-    "detail_desc": "The teacher is quite fierce and rather frightening.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The teacher is quite fierce and rather frightening.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1256, 
-    "id": 2523, 
-    "level": 15, 
-    "long_desc": "A spell teacher screams at your interruption and attacks.", 
+    },
+    "gold": 1256,
+    "id": 2523,
+    "level": 15,
+    "long_desc": "A spell teacher screams at your interruption and attacks.",
     "max_hit_points": {
-      "bonus": 150, 
-      "dice": 15, 
+      "bonus": 150,
+      "dice": 15,
       "sides": 15
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the spell teacher", 
-    "thac0": 5, 
+    },
+    "short_desc": "the spell teacher",
+    "thac0": 5,
     "xp": 20500
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
       "student"
-    ], 
-    "alignment": 400, 
-    "armor_class": -2, 
+    ],
+    "alignment": 400,
+    "armor_class": -2,
     "bare_hand_damage": {
-      "bonus": 7, 
-      "dice": 2, 
+      "bonus": 7,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "She looks to have collapsed from sheer boredom.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "She looks to have collapsed from sheer boredom.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 567, 
-    "id": 2524, 
-    "level": 9, 
-    "long_desc": "A student of spells has fallen asleep at her desk here.", 
+    },
+    "gold": 567,
+    "id": 2524,
+    "level": 9,
+    "long_desc": "A student of spells has fallen asleep at her desk here.",
     "max_hit_points": {
-      "bonus": 90, 
-      "dice": 9, 
+      "bonus": 90,
+      "dice": 9,
       "sides": 9
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_SLEEPING", 
+        "note": "POSITION_SLEEPING",
         "value": 4
-      }, 
+      },
       "load": {
-        "note": "POSITION_SLEEPING", 
+        "note": "POSITION_SLEEPING",
         "value": 4
       }
-    }, 
-    "short_desc": "the student of spells", 
-    "thac0": 11, 
+    },
+    "short_desc": "the student of spells",
+    "thac0": 11,
     "xp": 3800
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "wizard", 
-      "speaker", 
+      "wizard",
+      "speaker",
       "mage"
-    ], 
-    "alignment": 400, 
-    "armor_class": -5, 
+    ],
+    "alignment": 400,
+    "armor_class": -5,
     "bare_hand_damage": {
-      "bonus": 8, 
-      "dice": 3, 
+      "bonus": 8,
+      "dice": 3,
       "sides": 4
-    }, 
-    "detail_desc": "This wizzened old man looks like he could easily pass for the oldest\nliving man.  Of course, having heard stories about some of the magic\navailable to the people living here, and what toll the magic draws...\nthis man might be as young as you.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This wizzened old man looks like he could easily pass for the oldest\nliving man.  Of course, having heard stories about some of the magic\navailable to the people living here, and what toll the magic draws...\nthis man might be as young as you.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 2468, 
-    "id": 2525, 
-    "level": 18, 
-    "long_desc": "An old wizard is here making a speech here.", 
+    },
+    "gold": 2468,
+    "id": 2525,
+    "level": 18,
+    "long_desc": "An old wizard is here making a speech here.",
     "max_hit_points": {
-      "bonus": 180, 
-      "dice": 18, 
+      "bonus": 180,
+      "dice": 18,
       "sides": 18
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the wizard", 
-    "thac0": 4, 
+    },
+    "short_desc": "the wizard",
+    "thac0": 4,
     "xp": 31000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "mage", 
+      "mage",
       "young"
-    ], 
-    "alignment": 300, 
-    "armor_class": -1, 
+    ],
+    "alignment": 300,
+    "armor_class": -1,
     "bare_hand_damage": {
-      "bonus": 8, 
-      "dice": 2, 
+      "bonus": 8,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "This young fellow looks quite confident in his abilities to defend\nhimself.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This young fellow looks quite confident in his abilities to defend\nhimself.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 695, 
-    "id": 2526, 
-    "level": 9, 
-    "long_desc": "A young mage is here learning hand to hand combat.", 
+    },
+    "gold": 695,
+    "id": 2526,
+    "level": 9,
+    "long_desc": "A young mage is here learning hand to hand combat.",
     "max_hit_points": {
-      "bonus": 90, 
-      "dice": 9, 
+      "bonus": 90,
+      "dice": 9,
       "sides": 9
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the young mage", 
-    "thac0": 11, 
+    },
+    "short_desc": "the young mage",
+    "thac0": 11,
     "xp": 3800
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "mistress", 
+      "mistress",
       "battle"
-    ], 
-    "alignment": 200, 
-    "armor_class": -2, 
+    ],
+    "alignment": 200,
+    "armor_class": -2,
     "bare_hand_damage": {
-      "bonus": 8, 
-      "dice": 3, 
+      "bonus": 8,
+      "dice": 3,
       "sides": 5
-    }, 
-    "detail_desc": "She looks quite rugged. In fact, she more resembles a warrior than a magic\nuser.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "She looks quite rugged. In fact, she more resembles a warrior than a magic\nuser.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 3211, 
-    "id": 2527, 
-    "level": 17, 
-    "long_desc": "The battle mistress is here teaching the fine uses of a dagger.", 
+    },
+    "gold": 3211,
+    "id": 2527,
+    "level": 17,
+    "long_desc": "The battle mistress is here teaching the fine uses of a dagger.",
     "max_hit_points": {
-      "bonus": 170, 
-      "dice": 17, 
+      "bonus": 170,
+      "dice": 17,
       "sides": 17
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the battle mistress", 
-    "thac0": 2, 
+    },
+    "short_desc": "the battle mistress",
+    "thac0": 2,
     "xp": 23050
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "mage", 
+      "mage",
       "teacher"
-    ], 
-    "alignment": 200, 
-    "armor_class": 1, 
+    ],
+    "alignment": 200,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 3, 
+      "bonus": 4,
+      "dice": 3,
       "sides": 4
-    }, 
-    "detail_desc": "The teacher looks to be worn out by a long day of magic working, difficult\nspells, and inattentive students.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The teacher looks to be worn out by a long day of magic working, difficult\nspells, and inattentive students.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1002, 
-    "id": 2528, 
-    "level": 15, 
-    "long_desc": "A spell teacher is here relaxing.", 
+    },
+    "gold": 1002,
+    "id": 2528,
+    "level": 15,
+    "long_desc": "A spell teacher is here relaxing.",
     "max_hit_points": {
-      "bonus": 150, 
-      "dice": 15, 
+      "bonus": 150,
+      "dice": 15,
       "sides": 15
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_RESTING", 
+        "note": "POSITION_RESTING",
         "value": 5
-      }, 
+      },
       "load": {
-        "note": "POSITION_RESTING", 
+        "note": "POSITION_RESTING",
         "value": 5
       }
-    }, 
-    "short_desc": "the spell teacher", 
-    "thac0": 5, 
+    },
+    "short_desc": "the spell teacher",
+    "thac0": 5,
     "xp": 15800
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
       "wizard"
-    ], 
-    "alignment": 350, 
-    "armor_class": -5, 
+    ],
+    "alignment": 350,
+    "armor_class": -5,
     "bare_hand_damage": {
-      "bonus": 9, 
-      "dice": 3, 
+      "bonus": 9,
+      "dice": 3,
       "sides": 4
-    }, 
-    "detail_desc": "Dreams of magic and power are probably flowing through his head right\nnow, better not wake him up.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "Dreams of magic and power are probably flowing through his head right\nnow, better not wake him up.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1567, 
-    "id": 2529, 
-    "level": 20, 
-    "long_desc": "An aged wizard is sleeping here.", 
+    },
+    "gold": 1567,
+    "id": 2529,
+    "level": 20,
+    "long_desc": "An aged wizard is sleeping here.",
     "max_hit_points": {
-      "bonus": 200, 
-      "dice": 20, 
+      "bonus": 200,
+      "dice": 20,
       "sides": 20
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_SLEEPING", 
+        "note": "POSITION_SLEEPING",
         "value": 4
-      }, 
+      },
       "load": {
-        "note": "POSITION_SLEEPING", 
+        "note": "POSITION_SLEEPING",
         "value": 4
       }
-    }, 
-    "short_desc": "the aged wizard", 
-    "thac0": 5, 
+    },
+    "short_desc": "the aged wizard",
+    "thac0": 5,
     "xp": 37500
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "scribe", 
+      "scribe",
       "mage"
-    ], 
-    "alignment": 400, 
-    "armor_class": -1, 
+    ],
+    "alignment": 400,
+    "armor_class": -1,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 3, 
+      "bonus": 4,
+      "dice": 3,
       "sides": 4
-    }, 
-    "detail_desc": "He appears to be copying out some spell ingredients or components right\nnow.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He appears to be copying out some spell ingredients or components right\nnow.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 312, 
-    "id": 2530, 
-    "level": 14, 
-    "long_desc": "A scribe is here working on some manuscripts.", 
+    },
+    "gold": 312,
+    "id": 2530,
+    "level": 14,
+    "long_desc": "A scribe is here working on some manuscripts.",
     "max_hit_points": {
-      "bonus": 140, 
-      "dice": 14, 
+      "bonus": 140,
+      "dice": 14,
       "sides": 14
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the scribe", 
-    "thac0": 6, 
+    },
+    "short_desc": "the scribe",
+    "thac0": 6,
     "xp": 14850
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "scribe", 
+      "scribe",
       "mage"
-    ], 
-    "alignment": 500, 
-    "armor_class": -1, 
+    ],
+    "alignment": 500,
+    "armor_class": -1,
     "bare_hand_damage": {
-      "bonus": 10, 
-      "dice": 2, 
+      "bonus": 10,
+      "dice": 2,
       "sides": 4
-    }, 
-    "detail_desc": "She is quite cute.  Too bad her only interest seems to be the words of\nlore she is translating.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "She is quite cute.  Too bad her only interest seems to be the words of\nlore she is translating.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 684, 
-    "id": 2531, 
-    "level": 15, 
-    "long_desc": "A scribe is here working diligently on some translations.", 
+    },
+    "gold": 684,
+    "id": 2531,
+    "level": 15,
+    "long_desc": "A scribe is here working diligently on some translations.",
     "max_hit_points": {
-      "bonus": 150, 
-      "dice": 15, 
+      "bonus": 150,
+      "dice": 15,
       "sides": 15
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the scribe", 
-    "thac0": 6, 
+    },
+    "short_desc": "the scribe",
+    "thac0": 6,
     "xp": 16550
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "master", 
+      "master",
       "scribe"
-    ], 
-    "alignment": 100, 
-    "armor_class": -5, 
+    ],
+    "alignment": 100,
+    "armor_class": -5,
     "bare_hand_damage": {
-      "bonus": 8, 
-      "dice": 3, 
+      "bonus": 8,
+      "dice": 3,
       "sides": 5
-    }, 
-    "detail_desc": "He seems to be so old, his skin has become nothing but a giant wrinkle.\nThe master scribe screams 'How dare you interrupt my important work???'", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He seems to be so old, his skin has become nothing but a giant wrinkle.\nThe master scribe screams 'How dare you interrupt my important work???'",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 5634, 
-    "id": 2532, 
-    "level": 22, 
-    "long_desc": "The Master Scribe is here looking a little upset", 
+    },
+    "gold": 5634,
+    "id": 2532,
+    "level": 22,
+    "long_desc": "The Master Scribe is here looking a little upset",
     "max_hit_points": {
-      "bonus": 220, 
-      "dice": 22, 
+      "bonus": 220,
+      "dice": 22,
       "sides": 22
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Master Scribe", 
-    "thac0": 4, 
+    },
+    "short_desc": "the Master Scribe",
+    "thac0": 4,
     "xp": 29500
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "assistant", 
+      "assistant",
       "scribe"
-    ], 
-    "alignment": 100, 
-    "armor_class": -2, 
+    ],
+    "alignment": 100,
+    "armor_class": -2,
     "bare_hand_damage": {
-      "bonus": 6, 
-      "dice": 3, 
+      "bonus": 6,
+      "dice": 3,
       "sides": 4
-    }, 
-    "detail_desc": "You can tell that he isn't trusted with the more important documents,\nsince those ones are rolled and sealed with wax.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "You can tell that he isn't trusted with the more important documents,\nsince those ones are rolled and sealed with wax.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1050, 
-    "id": 2533, 
-    "level": 16, 
-    "long_desc": "The scribe's assistant is here folding parchments.", 
+    },
+    "gold": 1050,
+    "id": 2533,
+    "level": 16,
+    "long_desc": "The scribe's assistant is here folding parchments.",
     "max_hit_points": {
-      "bonus": 160, 
-      "dice": 16, 
+      "bonus": 160,
+      "dice": 16,
       "sides": 16
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the scribe's assistant", 
-    "thac0": 6, 
+    },
+    "short_desc": "the scribe's assistant",
+    "thac0": 6,
     "xp": 21300
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "master", 
-      "enchanter", 
+      "master",
+      "enchanter",
       "mage"
-    ], 
-    "alignment": -200, 
-    "armor_class": -5, 
+    ],
+    "alignment": -200,
+    "armor_class": -5,
     "bare_hand_damage": {
-      "bonus": 6, 
-      "dice": 3, 
+      "bonus": 6,
+      "dice": 3,
       "sides": 5
-    }, 
-    "detail_desc": "The Enchanter is hard at work, concentrating on a spell which could\neither destroy the weapon or make it many times more powerful than\nit already is.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The Enchanter is hard at work, concentrating on a spell which could\neither destroy the weapon or make it many times more powerful than\nit already is.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 6812, 
-    "id": 2534, 
-    "level": 23, 
-    "long_desc": "The Enchanter is here placing a dweomer upon well made sword.", 
+    },
+    "gold": 6812,
+    "id": 2534,
+    "level": 23,
+    "long_desc": "The Enchanter is here placing a dweomer upon well made sword.",
     "max_hit_points": {
-      "bonus": 230, 
-      "dice": 23, 
+      "bonus": 230,
+      "dice": 23,
       "sides": 23
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Enchanter", 
-    "thac0": 4, 
+    },
+    "short_desc": "the Enchanter",
+    "thac0": 4,
     "xp": 30500
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "sword", 
+      "sword",
       "dancing"
-    ], 
-    "alignment": -500, 
-    "armor_class": -10, 
+    ],
+    "alignment": -500,
+    "armor_class": -10,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 3, 
+      "bonus": 5,
+      "dice": 3,
       "sides": 5
-    }, 
-    "detail_desc": "It looks quite sharp.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "It looks quite sharp.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 2535, 
-    "level": 10, 
-    "long_desc": "A well crafted sword lies on the work table here.", 
+    },
+    "gold": 0,
+    "id": 2535,
+    "level": 10,
+    "long_desc": "A well crafted sword lies on the work table here.",
     "max_hit_points": {
-      "bonus": 100, 
-      "dice": 10, 
+      "bonus": 100,
+      "dice": 10,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the dancing sword", 
-    "thac0": 1, 
+    },
+    "short_desc": "the dancing sword",
+    "thac0": 1,
     "xp": 4000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
       "alchemist"
-    ], 
-    "alignment": 150, 
-    "armor_class": -4, 
+    ],
+    "alignment": 150,
+    "armor_class": -4,
     "bare_hand_damage": {
-      "bonus": 10, 
-      "dice": 3, 
+      "bonus": 10,
+      "dice": 3,
       "sides": 5
-    }, 
-    "detail_desc": "He looks like he has been quaffing too many potions.  His eyes dart\naround wildly, and he starts to drool.\n\nThe Mad Alchemist throws back his head and cackles with insane glee!", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks like he has been quaffing too many potions.  His eyes dart\naround wildly, and he starts to drool.\n\nThe Mad Alchemist throws back his head and cackles with insane glee!",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 2346, 
-    "id": 2536, 
-    "level": 24, 
-    "long_desc": "The Mad Alchemist babbles something incomprehensible and attacks.", 
+    },
+    "gold": 2346,
+    "id": 2536,
+    "level": 24,
+    "long_desc": "The Mad Alchemist babbles something incomprehensible and attacks.",
     "max_hit_points": {
-      "bonus": 240, 
-      "dice": 24, 
+      "bonus": 240,
+      "dice": 24,
       "sides": 24
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Mad Alchemist", 
-    "thac0": 4, 
+    },
+    "short_desc": "the Mad Alchemist",
+    "thac0": 4,
     "xp": 31500
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "master", 
+      "master",
       "summoner"
-    ], 
-    "alignment": -200, 
-    "armor_class": -2, 
+    ],
+    "alignment": -200,
+    "armor_class": -2,
     "bare_hand_damage": {
-      "bonus": 6, 
-      "dice": 3, 
+      "bonus": 6,
+      "dice": 3,
       "sides": 5
-    }, 
-    "detail_desc": "The Summoner looks to be hard at work, concentrating on keeping control\nover the gateway before he loses his soul to the creatures on the other\nside of it.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The Summoner looks to be hard at work, concentrating on keeping control\nover the gateway before he loses his soul to the creatures on the other\nside of it.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1019, 
-    "id": 2537, 
-    "level": 22, 
-    "long_desc": "The Master Summoner is here holding gateways open to other planes.", 
+    },
+    "gold": 1019,
+    "id": 2537,
+    "level": 22,
+    "long_desc": "The Master Summoner is here holding gateways open to other planes.",
     "max_hit_points": {
-      "bonus": 220, 
-      "dice": 22, 
+      "bonus": 220,
+      "dice": 22,
       "sides": 22
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Master Summoner", 
-    "thac0": 5, 
+    },
+    "short_desc": "the Master Summoner",
+    "thac0": 5,
     "xp": 27050
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "master", 
+      "master",
       "charmer"
-    ], 
-    "alignment": -400, 
-    "armor_class": -4, 
+    ],
+    "alignment": -400,
+    "armor_class": -4,
     "bare_hand_damage": {
-      "bonus": 10, 
-      "dice": 3, 
+      "bonus": 10,
+      "dice": 3,
       "sides": 5
-    }, 
-    "detail_desc": "The Master Charmer sizes you up, always looking for a new pet.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The Master Charmer sizes you up, always looking for a new pet.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 4672, 
-    "id": 2538, 
-    "level": 23, 
-    "long_desc": "The Master Charmer utters the words, 'uuuzzldctz'.", 
+    },
+    "gold": 4672,
+    "id": 2538,
+    "level": 23,
+    "long_desc": "The Master Charmer utters the words, 'uuuzzldctz'.",
     "max_hit_points": {
-      "bonus": 230, 
-      "dice": 23, 
+      "bonus": 230,
+      "dice": 23,
       "sides": 23
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Master Charmer", 
-    "thac0": 4, 
+    },
+    "short_desc": "the Master Charmer",
+    "thac0": 4,
     "xp": 31050
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "golem", 
+      "golem",
       "wooden"
-    ], 
-    "alignment": 100, 
-    "armor_class": -5, 
+    ],
+    "alignment": 100,
+    "armor_class": -5,
     "bare_hand_damage": {
-      "bonus": 10, 
-      "dice": 1, 
+      "bonus": 10,
+      "dice": 1,
       "sides": 10
-    }, 
-    "detail_desc": "He looks flammable.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks flammable.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 1000, 
-    "id": 2539, 
-    "level": 16, 
-    "long_desc": "A wooden golem stands a silent vigil here, guarding the stairs.", 
+    },
+    "gold": 1000,
+    "id": 2539,
+    "level": 16,
+    "long_desc": "A wooden golem stands a silent vigil here, guarding the stairs.",
     "max_hit_points": {
-      "bonus": 160, 
-      "dice": 16, 
+      "bonus": 160,
+      "dice": 16,
       "sides": 16
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the wooden golem", 
-    "thac0": 7, 
+    },
+    "short_desc": "the wooden golem",
+    "thac0": 7,
     "xp": 17500
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "master", 
+      "master",
       "spellbinder"
-    ], 
-    "alignment": -500, 
-    "armor_class": -4, 
+    ],
+    "alignment": -500,
+    "armor_class": -4,
     "bare_hand_damage": {
-      "bonus": 8, 
-      "dice": 3, 
+      "bonus": 8,
+      "dice": 3,
       "sides": 5
-    }, 
-    "detail_desc": "The Master Spellbinder snarls at you and attacks.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The Master Spellbinder snarls at you and attacks.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 2315, 
-    "id": 2540, 
-    "level": 23, 
-    "long_desc": "The Master Spellbinder is here re-charging a blackened wand.", 
+    },
+    "gold": 2315,
+    "id": 2540,
+    "level": 23,
+    "long_desc": "The Master Spellbinder is here re-charging a blackened wand.",
     "max_hit_points": {
-      "bonus": 230, 
-      "dice": 23, 
+      "bonus": 230,
+      "dice": 23,
       "sides": 23
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Master Spellbinder", 
-    "thac0": 5, 
+    },
+    "short_desc": "the Master Spellbinder",
+    "thac0": 5,
     "xp": 30500
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "master", 
+      "master",
       "maker"
-    ], 
-    "alignment": 300, 
-    "armor_class": -2, 
+    ],
+    "alignment": 300,
+    "armor_class": -2,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 3, 
+      "bonus": 5,
+      "dice": 3,
       "sides": 5
-    }, 
-    "detail_desc": "The Golem Master appears to be very meticulous about his work, to\nthe point of fussing over it.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The Golem Master appears to be very meticulous about his work, to\nthe point of fussing over it.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 2678, 
-    "id": 2541, 
-    "level": 21, 
-    "long_desc": "The Golem Maker is here chiseling some stone.", 
+    },
+    "gold": 2678,
+    "id": 2541,
+    "level": 21,
+    "long_desc": "The Golem Maker is here chiseling some stone.",
     "max_hit_points": {
-      "bonus": 210, 
-      "dice": 21, 
+      "bonus": 210,
+      "dice": 21,
       "sides": 21
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Golem Maker", 
-    "thac0": 6, 
+    },
+    "short_desc": "the Golem Maker",
+    "thac0": 6,
     "xp": 26850
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "golem", 
+      "golem",
       "granite"
-    ], 
-    "alignment": 300, 
-    "armor_class": -6, 
+    ],
+    "alignment": 300,
+    "armor_class": -6,
     "bare_hand_damage": {
-      "bonus": 10, 
-      "dice": 4, 
+      "bonus": 10,
+      "dice": 4,
       "sides": 5
-    }, 
-    "detail_desc": "It looks like a statue, until you see it shamble towards you.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "It looks like a statue, until you see it shamble towards you.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 2542, 
-    "level": 20, 
-    "long_desc": "A granite golem stands here waiting to do its master's bidding.", 
+    },
+    "gold": 0,
+    "id": 2542,
+    "level": 20,
+    "long_desc": "A granite golem stands here waiting to do its master's bidding.",
     "max_hit_points": {
-      "bonus": 200, 
-      "dice": 20, 
+      "bonus": 200,
+      "dice": 20,
       "sides": 20
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the granite golem", 
-    "thac0": 7, 
+    },
+    "short_desc": "the granite golem",
+    "thac0": 7,
     "xp": 25600
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "golem", 
+      "golem",
       "bronze"
-    ], 
-    "alignment": 350, 
-    "armor_class": -3, 
+    ],
+    "alignment": 350,
+    "armor_class": -3,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 4, 
+      "bonus": 5,
+      "dice": 4,
       "sides": 5
-    }, 
-    "detail_desc": "He looks rather dim witted.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks rather dim witted.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 2543, 
-    "level": 18, 
-    "long_desc": "A bronze golem stands here shining in the light.", 
+    },
+    "gold": 0,
+    "id": 2543,
+    "level": 18,
+    "long_desc": "A bronze golem stands here shining in the light.",
     "max_hit_points": {
-      "bonus": 180, 
-      "dice": 18, 
+      "bonus": 180,
+      "dice": 18,
       "sides": 18
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the bronze golem", 
-    "thac0": 8, 
+    },
+    "short_desc": "the bronze golem",
+    "thac0": 8,
     "xp": 22350
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "golem", 
+      "golem",
       "flesh"
-    ], 
-    "alignment": 200, 
-    "armor_class": -1, 
+    ],
+    "alignment": 200,
+    "armor_class": -1,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 4, 
+      "bonus": 4,
+      "dice": 4,
       "sides": 4
-    }, 
-    "detail_desc": "It looks to be made of a potpourri of different body parts; some don't\neven resemble anything human.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "It looks to be made of a potpourri of different body parts; some don't\neven resemble anything human.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 2544, 
-    "level": 12, 
-    "long_desc": "A flesh golem stands guard here", 
+    },
+    "gold": 0,
+    "id": 2544,
+    "level": 12,
+    "long_desc": "A flesh golem stands guard here",
     "max_hit_points": {
-      "bonus": 120, 
-      "dice": 12, 
+      "bonus": 120,
+      "dice": 12,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the flesh golem", 
-    "thac0": 9, 
+    },
+    "short_desc": "the flesh golem",
+    "thac0": 9,
     "xp": 8520
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "golem", 
+      "golem",
       "cloth"
-    ], 
-    "alignment": 350, 
-    "armor_class": 1, 
+    ],
+    "alignment": 350,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 3, 
+      "bonus": 1,
+      "dice": 3,
       "sides": 4
-    }, 
-    "detail_desc": "It looks like a bunch of old rags, quite surprising it can actually walk.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "It looks like a bunch of old rags, quite surprising it can actually walk.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 2545, 
-    "level": 8, 
-    "long_desc": "A cloth golem wanders around here.", 
+    },
+    "gold": 0,
+    "id": 2545,
+    "level": 8,
+    "long_desc": "A cloth golem wanders around here.",
     "max_hit_points": {
-      "bonus": 80, 
-      "dice": 8, 
+      "bonus": 80,
+      "dice": 8,
       "sides": 8
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the cloth golem", 
-    "thac0": 10, 
+    },
+    "short_desc": "the cloth golem",
+    "thac0": 10,
     "xp": 2100
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "golem", 
+      "golem",
       "adamantite"
-    ], 
-    "alignment": 350, 
-    "armor_class": -10, 
+    ],
+    "alignment": 350,
+    "armor_class": -10,
     "bare_hand_damage": {
-      "bonus": 3, 
-      "dice": 3, 
+      "bonus": 3,
+      "dice": 3,
       "sides": 7
-    }, 
-    "detail_desc": "It seems to be forged of dark metal.  It looks strong and durable,\nbut somewhat un-intelligent.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "It seems to be forged of dark metal.  It looks strong and durable,\nbut somewhat un-intelligent.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 10000, 
-    "id": 2546, 
-    "level": 25, 
-    "long_desc": "An adamantite golem stands here looking very dangerous.", 
+    },
+    "gold": 10000,
+    "id": 2546,
+    "level": 25,
+    "long_desc": "An adamantite golem stands here looking very dangerous.",
     "max_hit_points": {
-      "bonus": 250, 
-      "dice": 25, 
+      "bonus": 250,
+      "dice": 25,
       "sides": 25
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the adamantite golem", 
-    "thac0": 0, 
+    },
+    "short_desc": "the adamantite golem",
+    "thac0": 0,
     "xp": 35650
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "golem", 
+      "golem",
       "clay"
-    ], 
-    "alignment": 200, 
-    "armor_class": -1, 
+    ],
+    "alignment": 200,
+    "armor_class": -1,
     "bare_hand_damage": {
-      "bonus": 3, 
-      "dice": 4, 
+      "bonus": 3,
+      "dice": 4,
       "sides": 5
-    }, 
-    "detail_desc": "This large golem almost looks like it is made of dirt.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This large golem almost looks like it is made of dirt.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 2547, 
-    "level": 15, 
-    "long_desc": "A clay golem stands guard here.", 
+    },
+    "gold": 0,
+    "id": 2547,
+    "level": 15,
+    "long_desc": "A clay golem stands guard here.",
     "max_hit_points": {
-      "bonus": 150, 
-      "dice": 15, 
+      "bonus": 150,
+      "dice": 15,
       "sides": 15
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the clay golem", 
-    "thac0": 5, 
+    },
+    "short_desc": "the clay golem",
+    "thac0": 5,
     "xp": 18320
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "master", 
-      "illusionist", 
-      "mage", 
+      "master",
+      "illusionist",
+      "mage",
       "dragon"
-    ], 
-    "alignment": 150, 
-    "armor_class": -4, 
+    ],
+    "alignment": 150,
+    "armor_class": -4,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 3, 
+      "bonus": 5,
+      "dice": 3,
       "sides": 5
-    }, 
-    "detail_desc": "The image of an ugly dragon flickers slightly, and where the dragon\nwas now stands a small harmless looking old man.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The image of an ugly dragon flickers slightly, and where the dragon\nwas now stands a small harmless looking old man.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 2345, 
-    "id": 2548, 
-    "level": 21, 
-    "long_desc": "An enormous multi-colored three-headed dragon growls at you.", 
+    },
+    "gold": 2345,
+    "id": 2548,
+    "level": 21,
+    "long_desc": "An enormous multi-colored three-headed dragon growls at you.",
     "max_hit_points": {
-      "bonus": 210, 
-      "dice": 21, 
+      "bonus": 210,
+      "dice": 21,
       "sides": 21
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Master of Illusions", 
-    "thac0": 6, 
+    },
+    "short_desc": "the Master of Illusions",
+    "thac0": 6,
     "xp": 26450
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "necromancer", 
+      "necromancer",
       "master"
-    ], 
-    "alignment": -950, 
-    "armor_class": -8, 
+    ],
+    "alignment": -950,
+    "armor_class": -8,
     "bare_hand_damage": {
-      "bonus": 7, 
-      "dice": 3, 
+      "bonus": 7,
+      "dice": 3,
       "sides": 7
-    }, 
-    "detail_desc": "Attired all in black, the Necromancer is tall and gangly, but still quite\nan imposing figure.  A dark cowl shrouds most of his face, but two blazing\nembers which serve as eyes can be seen through the shadow.\nThe Necromancer shrieks some obscenities and orders his minions to attack.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "Attired all in black, the Necromancer is tall and gangly, but still quite\nan imposing figure.  A dark cowl shrouds most of his face, but two blazing\nembers which serve as eyes can be seen through the shadow.\nThe Necromancer shrieks some obscenities and orders his minions to attack.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 11684, 
-    "id": 2549, 
-    "level": 25, 
-    "long_desc": "The Necromancer is here raising undead servants.", 
+    },
+    "gold": 11684,
+    "id": 2549,
+    "level": 25,
+    "long_desc": "The Necromancer is here raising undead servants.",
     "max_hit_points": {
-      "bonus": 250, 
-      "dice": 25, 
+      "bonus": 250,
+      "dice": 25,
       "sides": 25
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Necromancer", 
-    "thac0": 0, 
+    },
+    "short_desc": "the Necromancer",
+    "thac0": 0,
     "xp": 35250
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "skeleton", 
+      "skeleton",
       "undead"
-    ], 
-    "alignment": -500, 
-    "armor_class": -2, 
+    ],
+    "alignment": -500,
+    "armor_class": -2,
     "bare_hand_damage": {
-      "bonus": 10, 
-      "dice": 3, 
+      "bonus": 10,
+      "dice": 3,
       "sides": 4
-    }, 
-    "detail_desc": "It feels no pain, and hacks at you ruthlessly.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "It feels no pain, and hacks at you ruthlessly.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 2550, 
-    "level": 15, 
-    "long_desc": "An animated skeleton screams silently and attacks.", 
+    },
+    "gold": 0,
+    "id": 2550,
+    "level": 15,
+    "long_desc": "An animated skeleton screams silently and attacks.",
     "max_hit_points": {
-      "bonus": 150, 
-      "dice": 15, 
+      "bonus": 150,
+      "dice": 15,
       "sides": 15
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the animated skeleton", 
-    "thac0": 5, 
+    },
+    "short_desc": "the animated skeleton",
+    "thac0": 5,
     "xp": 16500
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "undead", 
+      "undead",
       "giant"
-    ], 
-    "alignment": -500, 
-    "armor_class": -4, 
+    ],
+    "alignment": -500,
+    "armor_class": -4,
     "bare_hand_damage": {
-      "bonus": 10, 
-      "dice": 3, 
+      "bonus": 10,
+      "dice": 3,
       "sides": 5
-    }, 
-    "detail_desc": "This thing seems to be the reanimated corpse of a giant, creating an\nenormous zombie.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This thing seems to be the reanimated corpse of a giant, creating an\nenormous zombie.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 2551, 
-    "level": 18, 
-    "long_desc": "An undead giant lumbers towards you.", 
+    },
+    "gold": 0,
+    "id": 2551,
+    "level": 18,
+    "long_desc": "An undead giant lumbers towards you.",
     "max_hit_points": {
-      "bonus": 180, 
-      "dice": 18, 
+      "bonus": 180,
+      "dice": 18,
       "sides": 18
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the undead giant", 
-    "thac0": 5, 
+    },
+    "short_desc": "the undead giant",
+    "thac0": 5,
     "xp": 22000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "witch", 
+      "witch",
       "hag"
-    ], 
-    "alignment": -450, 
-    "armor_class": -2, 
+    ],
+    "alignment": -450,
+    "armor_class": -2,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 3, 
+      "bonus": 5,
+      "dice": 3,
       "sides": 6
-    }, 
-    "detail_desc": "She has no face at all, just blank skin, rather disturbing.  From about\nwhere her mouth should be, comes a disgusting giggling sound that makes\nyour skin crawl with revulsion.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "She has no face at all, just blank skin, rather disturbing.  From about\nwhere her mouth should be, comes a disgusting giggling sound that makes\nyour skin crawl with revulsion.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 2150, 
-    "id": 2552, 
-    "level": 20, 
-    "long_desc": "An ugly witch is here scrying out secrets.", 
+    },
+    "gold": 2150,
+    "id": 2552,
+    "level": 20,
+    "long_desc": "An ugly witch is here scrying out secrets.",
     "max_hit_points": {
-      "bonus": 200, 
-      "dice": 20, 
+      "bonus": 200,
+      "dice": 20,
       "sides": 20
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the ugly witch", 
-    "thac0": 5, 
+    },
+    "short_desc": "the ugly witch",
+    "thac0": 5,
     "xp": 26850
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "librarian", 
+      "librarian",
       "mage"
-    ], 
-    "alignment": 450, 
-    "armor_class": -6, 
+    ],
+    "alignment": 450,
+    "armor_class": -6,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 3, 
+      "bonus": 5,
+      "dice": 3,
       "sides": 6
-    }, 
-    "detail_desc": "He looks like a rather peaceful old man.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks like a rather peaceful old man.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1287, 
-    "id": 2553, 
-    "level": 23, 
-    "long_desc": "The Librarian has fallen asleep at his desk here.", 
+    },
+    "gold": 1287,
+    "id": 2553,
+    "level": 23,
+    "long_desc": "The Librarian has fallen asleep at his desk here.",
     "max_hit_points": {
-      "bonus": 230, 
-      "dice": 23, 
+      "bonus": 230,
+      "dice": 23,
       "sides": 23
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_SLEEPING", 
+        "note": "POSITION_SLEEPING",
         "value": 4
-      }, 
+      },
       "load": {
-        "note": "POSITION_SLEEPING", 
+        "note": "POSITION_SLEEPING",
         "value": 4
       }
-    }, 
-    "short_desc": "the Librarian", 
-    "thac0": 3, 
+    },
+    "short_desc": "the Librarian",
+    "thac0": 3,
     "xp": 29500
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
       "apprentice"
-    ], 
-    "alignment": 0, 
-    "armor_class": -12, 
+    ],
+    "alignment": 0,
+    "armor_class": -12,
     "bare_hand_damage": {
-      "bonus": 6, 
-      "dice": 3, 
+      "bonus": 6,
+      "dice": 3,
       "sides": 6
-    }, 
-    "detail_desc": "A powerful wizard in his own right, the apprentice of the master of balance\nhas given up his station in the mage guild hierarchy in order to serve the\nGreat Master in hopes of gleaning secrets one could never hope to uncover\nalone.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "A powerful wizard in his own right, the apprentice of the master of balance\nhas given up his station in the mage guild hierarchy in order to serve the\nGreat Master in hopes of gleaning secrets one could never hope to uncover\nalone.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 6723, 
-    "id": 2554, 
-    "level": 24, 
-    "long_desc": "The Master's apprentice leaps to halt your passage.", 
+    },
+    "gold": 6723,
+    "id": 2554,
+    "level": 24,
+    "long_desc": "The Master's apprentice leaps to halt your passage.",
     "max_hit_points": {
-      "bonus": 240, 
-      "dice": 24, 
+      "bonus": 240,
+      "dice": 24,
       "sides": 24
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Master's apprentice", 
-    "thac0": -3, 
+    },
+    "short_desc": "the Master's apprentice",
+    "thac0": -3,
     "xp": 30750
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "SNEAK", 
+        "note": "SNEAK",
         "value": 262144
       }
-    ], 
+    ],
     "aliases": [
-      "cat", 
-      "grey", 
+      "cat",
+      "grey",
       "familiar"
-    ], 
-    "alignment": 0, 
-    "armor_class": -5, 
+    ],
+    "alignment": 0,
+    "armor_class": -5,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 5, 
+      "bonus": 5,
+      "dice": 5,
       "sides": 5
-    }, 
-    "detail_desc": "The grey cat cocks an ear towards you, sensing your scrutiny, then purrs\ncontentedly.  It looks rather harmless, until you notice its very large\nclaws.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The grey cat cocks an ear towards you, sensing your scrutiny, then purrs\ncontentedly.  It looks rather harmless, until you notice its very large\nclaws.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 0, 
-    "id": 2555, 
-    "level": 15, 
-    "long_desc": "A grey cat is lounging lazily here.", 
+    },
+    "gold": 0,
+    "id": 2555,
+    "level": 15,
+    "long_desc": "A grey cat is lounging lazily here.",
     "max_hit_points": {
-      "bonus": 150, 
-      "dice": 15, 
+      "bonus": 150,
+      "dice": 15,
       "sides": 15
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the grey cat", 
-    "thac0": 5, 
+    },
+    "short_desc": "the grey cat",
+    "thac0": 5,
     "xp": 18750
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
       }
-    ], 
+    ],
     "aliases": [
-      "master", 
-      "guildmaster", 
+      "master",
+      "guildmaster",
       "grey"
-    ], 
-    "alignment": 0, 
-    "armor_class": -20, 
+    ],
+    "alignment": 0,
+    "armor_class": -20,
     "bare_hand_damage": {
-      "bonus": 20, 
-      "dice": 2, 
+      "bonus": 20,
+      "dice": 2,
       "sides": 5
-    }, 
-    "detail_desc": "He looks quite peaceful.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks quite peaceful.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "AGGR_EVIL", 
+        "note": "AGGR_EVIL",
         "value": 256
-      }, 
+      },
       {
-        "note": "AGGR_GOOD", 
+        "note": "AGGR_GOOD",
         "value": 512
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 15350, 
-    "id": 2556, 
-    "level": 30, 
-    "long_desc": "The Master of Neutrality is here contemplating the balance of the Universe.", 
+    },
+    "gold": 15350,
+    "id": 2556,
+    "level": 30,
+    "long_desc": "The Master of Neutrality is here contemplating the balance of the Universe.",
     "max_hit_points": {
-      "bonus": 300, 
-      "dice": 30, 
+      "bonus": 300,
+      "dice": 30,
       "sides": 30
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Master of Neutrality", 
-    "thac0": -10, 
+    },
+    "short_desc": "the Master of Neutrality",
+    "thac0": -10,
     "xp": 150000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "apprentice", 
+      "apprentice",
       "black"
-    ], 
-    "alignment": -750, 
-    "armor_class": -6, 
+    ],
+    "alignment": -750,
+    "armor_class": -6,
     "bare_hand_damage": {
-      "bonus": 6, 
-      "dice": 3, 
+      "bonus": 6,
+      "dice": 3,
       "sides": 6
-    }, 
-    "detail_desc": "She bears a wicked looking scar down the side of her face, though once\nshe must have been beautiful, now the scar combined with what seems to\nbe a permanent scowl make her looks quite fearsome.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "She bears a wicked looking scar down the side of her face, though once\nshe must have been beautiful, now the scar combined with what seems to\nbe a permanent scowl make her looks quite fearsome.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 13876, 
-    "id": 2557, 
-    "level": 20, 
-    "long_desc": "A black robed apprentice jumps from the shadows and attacks.", 
+    },
+    "gold": 13876,
+    "id": 2557,
+    "level": 20,
+    "long_desc": "A black robed apprentice jumps from the shadows and attacks.",
     "max_hit_points": {
-      "bonus": 200, 
-      "dice": 20, 
+      "bonus": 200,
+      "dice": 20,
       "sides": 20
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the black robed apprentice", 
-    "thac0": 2, 
+    },
+    "short_desc": "the black robed apprentice",
+    "thac0": 2,
     "xp": 27800
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "SNEAK", 
+        "note": "SNEAK",
         "value": 262144
       }
-    ], 
+    ],
     "aliases": [
-      "cat", 
-      "black", 
+      "cat",
+      "black",
       "familiar"
-    ], 
-    "alignment": -800, 
-    "armor_class": -4, 
+    ],
+    "alignment": -800,
+    "armor_class": -4,
     "bare_hand_damage": {
-      "bonus": 3, 
-      "dice": 3, 
+      "bonus": 3,
+      "dice": 3,
       "sides": 7
-    }, 
-    "detail_desc": "It looks both mean and dangerous.  Petting seems to be completely out of\nthe question.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "It looks both mean and dangerous.  Petting seems to be completely out of\nthe question.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 2558, 
-    "level": 16, 
-    "long_desc": "A black cat with its fur up hisses at you.", 
+    },
+    "gold": 0,
+    "id": 2558,
+    "level": 16,
+    "long_desc": "A black cat with its fur up hisses at you.",
     "max_hit_points": {
-      "bonus": 160, 
-      "dice": 16, 
+      "bonus": 160,
+      "dice": 16,
       "sides": 16
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the black cat", 
-    "thac0": 5, 
+    },
+    "short_desc": "the black cat",
+    "thac0": 5,
     "xp": 19950
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
       }
-    ], 
+    ],
     "aliases": [
-      "master", 
-      "guildmaster", 
+      "master",
+      "guildmaster",
       "black"
-    ], 
-    "alignment": -1000, 
-    "armor_class": -20, 
+    ],
+    "alignment": -1000,
+    "armor_class": -20,
     "bare_hand_damage": {
-      "bonus": 20, 
-      "dice": 2, 
+      "bonus": 20,
+      "dice": 2,
       "sides": 5
-    }, 
-    "detail_desc": "The Master glares at you.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The Master glares at you.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "AGGR_GOOD", 
+        "note": "AGGR_GOOD",
         "value": 512
-      }, 
+      },
       {
-        "note": "AGGR_NEUTRAL", 
+        "note": "AGGR_NEUTRAL",
         "value": 1024
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 22100, 
-    "id": 2559, 
-    "level": 30, 
-    "long_desc": "The Master of the Black Robes is here plotting vile deeds.", 
+    },
+    "gold": 22100,
+    "id": 2559,
+    "level": 30,
+    "long_desc": "The Master of the Black Robes is here plotting vile deeds.",
     "max_hit_points": {
-      "bonus": 300, 
-      "dice": 30, 
+      "bonus": 300,
+      "dice": 30,
       "sides": 30
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Master of the Black Robes", 
-    "thac0": -10, 
+    },
+    "short_desc": "the Master of the Black Robes",
+    "thac0": -10,
     "xp": 150000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "apprentice", 
+      "apprentice",
       "white"
-    ], 
-    "alignment": 750, 
-    "armor_class": -6, 
+    ],
+    "alignment": 750,
+    "armor_class": -6,
     "bare_hand_damage": {
-      "bonus": 6, 
-      "dice": 3, 
+      "bonus": 6,
+      "dice": 3,
       "sides": 6
-    }, 
-    "detail_desc": "He looks like a fanatic.\nThe white robed apprentice screams 'Thou art unworthy of this honour!'", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks like a fanatic.\nThe white robed apprentice screams 'Thou art unworthy of this honour!'",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 7400, 
-    "id": 2560, 
-    "level": 20, 
-    "long_desc": "A white robed apprentice screams at your desecration of goodness.", 
+    },
+    "gold": 7400,
+    "id": 2560,
+    "level": 20,
+    "long_desc": "A white robed apprentice screams at your desecration of goodness.",
     "max_hit_points": {
-      "bonus": 200, 
-      "dice": 20, 
+      "bonus": 200,
+      "dice": 20,
       "sides": 20
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the white robed apprentice", 
-    "thac0": 2, 
+    },
+    "short_desc": "the white robed apprentice",
+    "thac0": 2,
     "xp": 27850
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "SNEAK", 
+        "note": "SNEAK",
         "value": 262144
       }
-    ], 
+    ],
     "aliases": [
-      "cat", 
-      "white", 
+      "cat",
+      "white",
       "familiar"
-    ], 
-    "alignment": 800, 
-    "armor_class": -4, 
+    ],
+    "alignment": 800,
+    "armor_class": -4,
     "bare_hand_damage": {
-      "bonus": 3, 
-      "dice": 3, 
+      "bonus": 3,
+      "dice": 3,
       "sides": 7
-    }, 
-    "detail_desc": "It seems to be nothing more than a large ball of fluff with claws.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "It seems to be nothing more than a large ball of fluff with claws.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 2561, 
-    "level": 15, 
-    "long_desc": "A white cat is here preening its fur.", 
+    },
+    "gold": 0,
+    "id": 2561,
+    "level": 15,
+    "long_desc": "A white cat is here preening its fur.",
     "max_hit_points": {
-      "bonus": 10, 
-      "dice": 15, 
+      "bonus": 10,
+      "dice": 15,
       "sides": 8
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the white cat", 
-    "thac0": 4, 
+    },
+    "short_desc": "the white cat",
+    "thac0": 4,
     "xp": 7950
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
       }
-    ], 
+    ],
     "aliases": [
-      "master", 
-      "guildmaster", 
+      "master",
+      "guildmaster",
       "white"
-    ], 
-    "alignment": 1000, 
-    "armor_class": -20, 
+    ],
+    "alignment": 1000,
+    "armor_class": -20,
     "bare_hand_damage": {
-      "bonus": 20, 
-      "dice": 2, 
+      "bonus": 20,
+      "dice": 2,
       "sides": 5
-    }, 
-    "detail_desc": "He looks like a self-righteous bastard.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He looks like a self-righteous bastard.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "AGGR_EVIL", 
+        "note": "AGGR_EVIL",
         "value": 256
-      }, 
+      },
       {
-        "note": "AGGR_NEUTRAL", 
+        "note": "AGGR_NEUTRAL",
         "value": 1024
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 21900, 
-    "id": 2562, 
-    "level": 30, 
-    "long_desc": "The Master of Goodness is here frowning at your intrusion.", 
+    },
+    "gold": 21900,
+    "id": 2562,
+    "level": 30,
+    "long_desc": "The Master of Goodness is here frowning at your intrusion.",
     "max_hit_points": {
-      "bonus": 300, 
-      "dice": 30, 
+      "bonus": 300,
+      "dice": 30,
       "sides": 30
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Master of Goodness", 
-    "thac0": -10, 
+    },
+    "short_desc": "the Master of Goodness",
+    "thac0": -10,
     "xp": 150000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "SNEAK", 
+        "note": "SNEAK",
         "value": 262144
       }
-    ], 
+    ],
     "aliases": [
-      "cat", 
-      "calico", 
+      "cat",
+      "calico",
       "familiar"
-    ], 
-    "alignment": 0, 
-    "armor_class": -9, 
+    ],
+    "alignment": 0,
+    "armor_class": -9,
     "bare_hand_damage": {
-      "bonus": 10, 
-      "dice": 5, 
+      "bonus": 10,
+      "dice": 5,
       "sides": 5
-    }, 
-    "detail_desc": "It looks incredibly large for a cat, no doubt a giant of its species.\nA beautiful jewel encrusted collar about its neck is its only adornment.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "It looks incredibly large for a cat, no doubt a giant of its species.\nA beautiful jewel encrusted collar about its neck is its only adornment.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 2563, 
-    "level": 25, 
-    "long_desc": "A large calico cat is lounging about here.", 
+    },
+    "gold": 0,
+    "id": 2563,
+    "level": 25,
+    "long_desc": "A large calico cat is lounging about here.",
     "max_hit_points": {
-      "bonus": 250, 
-      "dice": 25, 
+      "bonus": 250,
+      "dice": 25,
       "sides": 25
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the calico cat", 
-    "thac0": 1, 
+    },
+    "short_desc": "the calico cat",
+    "thac0": 1,
     "xp": 30000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
-      }, 
+      },
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
       }
-    ], 
+    ],
     "aliases": [
-      "guildmaster", 
-      "grand", 
+      "guildmaster",
+      "grand",
       "mistress"
-    ], 
-    "alignment": 0, 
-    "armor_class": -30, 
+    ],
+    "alignment": 0,
+    "armor_class": -30,
     "bare_hand_damage": {
-      "bonus": 20, 
-      "dice": 3, 
+      "bonus": 20,
+      "dice": 3,
       "sides": 4
-    }, 
-    "detail_desc": "She looks quite comfortable on her emerald throne. Amazingly young and\npretty for one of such stature in the guild, no doubt she has kept her\nyouthful appearance through the use of strong magics.\nThe Grand Mistress pets her familiar and smiles at you in confidence.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "She looks quite comfortable on her emerald throne. Amazingly young and\npretty for one of such stature in the guild, no doubt she has kept her\nyouthful appearance through the use of strong magics.\nThe Grand Mistress pets her familiar and smiles at you in confidence.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SPEC", 
+        "note": "SPEC",
         "value": 1
-      }, 
+      },
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "F", 
+      "note": "F",
       "value": 2
-    }, 
-    "gold": 50000, 
-    "id": 2564, 
-    "level": 50, 
-    "long_desc": "The Grand Mistress of Magic is sitting here.", 
+    },
+    "gold": 50000,
+    "id": 2564,
+    "level": 50,
+    "long_desc": "The Grand Mistress of Magic is sitting here.",
     "max_hit_points": {
-      "bonus": 500, 
-      "dice": 50, 
+      "bonus": 500,
+      "dice": 50,
       "sides": 50
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Grand Mistress", 
-    "thac0": -20, 
+    },
+    "short_desc": "the Grand Mistress",
+    "thac0": -20,
     "xp": 500000
   }
 ]

@@ -1,77 +1,77 @@
 [
   {
-    "bottom_room": 1200, 
-    "doors": [], 
-    "id": 12, 
-    "lifespan": 10, 
+    "bottom_room": 1200,
+    "doors": [],
+    "id": 12,
+    "lifespan": 10,
     "mobs": [
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 1, 
-        "mob": 1201, 
+        "equipped": [],
+        "inventory": [],
+        "max": 1,
+        "mob": 1201,
         "room": 1205
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 1, 
-        "mob": 1200, 
+        "equipped": [],
+        "inventory": [],
+        "max": 1,
+        "mob": 1200,
         "room": 1201
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 2, 
-        "mob": 1202, 
+        "equipped": [],
+        "inventory": [],
+        "max": 2,
+        "mob": 1202,
         "room": 1201
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 2, 
-        "mob": 1202, 
+        "equipped": [],
+        "inventory": [],
+        "max": 2,
+        "mob": 1202,
         "room": 1200
       }
-    ], 
-    "name": "God Simplex", 
+    ],
+    "name": "God Simplex",
     "objects": [
       {
-        "contents": [], 
-        "id": 3096, 
-        "max": 5, 
+        "contents": [],
+        "id": 3096,
+        "max": 5,
         "room": 1206
-      }, 
+      },
       {
-        "contents": [], 
-        "id": 3097, 
-        "max": 1, 
+        "contents": [],
+        "id": 3097,
+        "max": 1,
         "room": 1202
-      }, 
+      },
       {
-        "contents": [], 
-        "id": 3098, 
-        "max": 1, 
+        "contents": [],
+        "id": 3098,
+        "max": 1,
         "room": 1204
-      }, 
+      },
       {
-        "contents": [], 
-        "id": 3099, 
-        "max": 2, 
+        "contents": [],
+        "id": 3099,
+        "max": 2,
         "room": 1203
       }
-    ], 
+    ],
     "remove_objects": [
       {
-        "id": 3096, 
+        "id": 3096,
         "room": 1206
-      }, 
+      },
       {
-        "id": 3099, 
+        "id": 3099,
         "room": 1203
       }
-    ], 
-    "reset_mode": 2, 
+    ],
+    "reset_mode": 2,
     "top_room": 1299
   }
 ]

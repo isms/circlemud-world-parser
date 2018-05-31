@@ -1,3871 +1,3871 @@
 [
   {
-    "desc": "You are standing at the end of a dusty road, near the eastern edge of the\nlarge forest of Haon-Dor.  To the east you see the road heading back to the\nwalled city, Midgaard, and to the west is a narrow trail leading through the\nforest.", 
+    "desc": "You are standing at the end of a dusty road, near the eastern edge of the\nlarge forest of Haon-Dor.  To the east you see the road heading back to the\nwalled city, Midgaard, and to the west is a narrow trail leading through the\nforest.",
     "exits": [
       {
-        "desc": "To the east a dusty road takes you back to the walls of Midgaard, and its large\nwest gate.", 
-        "dir": 1, 
+        "desc": "To the east a dusty road takes you back to the walls of Midgaard, and its large\nwest gate.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6090
-      }, 
+      },
       {
-        "desc": "You see a narrow forest trail winding westward in between the trees.", 
-        "dir": 3, 
+        "desc": "You see a narrow forest trail winding westward in between the trees.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6001
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The forest trail winds westwards through the trees.", 
+        "desc": "The forest trail winds westwards through the trees.",
         "keywords": [
           "trail"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are quite tall considering most of them appear to be quite young.\nOn one of the trees, crude letters forming the word 'Haon-Dor' have been\ncarved into the bark.", 
+        "desc": "The trees are quite tall considering most of them appear to be quite young.\nOn one of the trees, crude letters forming the word 'Haon-Dor' have been\ncarved into the bark.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6000, 
-    "name": "The Edge Of The Forest", 
+    ],
+    "flags": [],
+    "id": 6000,
+    "name": "The Edge Of The Forest",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a trail leading through the forest.  There seems to be a small\npath leading north into the shadows.  To the east is the forest edge and to\nthe west the trail leads further into the forest.", 
+    "desc": "You are on a trail leading through the forest.  There seems to be a small\npath leading north into the shadows.  To the east is the forest edge and to\nthe west the trail leads further into the forest.",
     "exits": [
       {
-        "desc": "You see evidence of a small path leading through a break in the trees to the\nnorth.", 
-        "dir": 0, 
+        "desc": "You see evidence of a small path leading through a break in the trees to the\nnorth.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6060
-      }, 
+      },
       {
-        "desc": "The trail continues eastwards out of the forest.", 
-        "dir": 1, 
+        "desc": "The trail continues eastwards out of the forest.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6000
-      }, 
+      },
       {
-        "desc": "You see the narrow forest trail winding westwards in between the trees.", 
-        "dir": 3, 
+        "desc": "You see the narrow forest trail winding westwards in between the trees.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6002
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The forest trail winds east-west through the trees.", 
+        "desc": "The forest trail winds east-west through the trees.",
         "keywords": [
           "trail"
         ]
-      }, 
+      },
       {
-        "desc": "The trees here are quite young and fresh.  They seem to accommodate many kinds\nof birds, insects and other small animals.", 
+        "desc": "The trees here are quite young and fresh.  They seem to accommodate many kinds\nof birds, insects and other small animals.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
-      }, 
+      },
       {
-        "desc": "Very cute little creatures, they seem to enjoy life.", 
+        "desc": "Very cute little creatures, they seem to enjoy life.",
         "keywords": [
-          "birds", 
-          "insects", 
+          "birds",
+          "insects",
           "animals"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6001, 
-    "name": "A Trail Through The Light Forest", 
+    ],
+    "flags": [],
+    "id": 6001,
+    "name": "A Trail Through The Light Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a narrow trail winding east and west through the forest.  To the\nwest, the forest gradually becomes more dense.  A small forest path leads off\nto the south.", 
+    "desc": "You are on a narrow trail winding east and west through the forest.  To the\nwest, the forest gradually becomes more dense.  A small forest path leads off\nto the south.",
     "exits": [
       {
-        "desc": "The trail continues eastwards through the young trees.", 
-        "dir": 1, 
+        "desc": "The trail continues eastwards through the young trees.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6001
-      }, 
+      },
       {
-        "desc": "The small path leads south through the young trees.", 
-        "dir": 2, 
+        "desc": "The small path leads south through the young trees.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6011
-      }, 
+      },
       {
-        "desc": "You see the narrow forest trail winding westwards into the dense forest.", 
-        "dir": 3, 
+        "desc": "You see the narrow forest trail winding westwards into the dense forest.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6003
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The narrow path is probably used by the animals living in the forest.", 
+        "desc": "The narrow path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The forest trail winds east-west through the trees.", 
+        "desc": "The forest trail winds east-west through the trees.",
         "keywords": [
           "trail"
         ]
-      }, 
+      },
       {
-        "desc": "The young, slender trees look beautiful, their fresh, green leaves moving\nlightly in the wind.", 
+        "desc": "The young, slender trees look beautiful, their fresh, green leaves moving\nlightly in the wind.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6002, 
-    "name": "A Trail Through The Light Forest", 
+    ],
+    "flags": [],
+    "id": 6002,
+    "name": "A Trail Through The Light Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a trail winding east and west through the dense forest.  To\nthe east, the forest gradually seems to become lighter.", 
+    "desc": "You are on a trail winding east and west through the dense forest.  To\nthe east, the forest gradually seems to become lighter.",
     "exits": [
       {
-        "desc": "The trail continues eastwards to the younger part of the forest.", 
-        "dir": 1, 
+        "desc": "The trail continues eastwards to the younger part of the forest.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6002
-      }, 
+      },
       {
-        "desc": "You see the narrow trail winding westwards through the dense forest.", 
-        "dir": 3, 
+        "desc": "You see the narrow trail winding westwards through the dense forest.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6004
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The forest trail seems almost fragile compared to the massive trunks.", 
+        "desc": "The forest trail seems almost fragile compared to the massive trunks.",
         "keywords": [
           "trail"
         ]
-      }, 
+      },
       {
-        "desc": "The dense crowns of the mature trees leave only a fraction of the sky to be\nseen through the leaves.", 
+        "desc": "The dense crowns of the mature trees leave only a fraction of the sky to be\nseen through the leaves.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6003, 
-    "name": "A Trail Through The Dense Forest", 
+    ],
+    "flags": [],
+    "id": 6003,
+    "name": "A Trail Through The Dense Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a trail winding east and west through the dense forest.  To the\nwest, the trees are so huge and their crowns so dense that forest remains in\ntotal darkness.  A small path leads south through the trees.", 
+    "desc": "You are on a trail winding east and west through the dense forest.  To the\nwest, the trees are so huge and their crowns so dense that forest remains in\ntotal darkness.  A small path leads south through the trees.",
     "exits": [
       {
-        "desc": "The trail continues eastwards through the dense forest.", 
-        "dir": 1, 
+        "desc": "The trail continues eastwards through the dense forest.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6003
-      }, 
+      },
       {
-        "desc": "The small path leads south through the trees.", 
-        "dir": 2, 
+        "desc": "The small path leads south through the trees.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6005
-      }, 
+      },
       {
-        "desc": "The narrow trail almost seems to disappear between the enormous trunks.", 
-        "dir": 3, 
+        "desc": "The narrow trail almost seems to disappear between the enormous trunks.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6100
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The narrow path is probably used by the animals living in the forest.", 
+        "desc": "The narrow path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The forest trail seems almost fragile compared to the massive trunks.", 
+        "desc": "The forest trail seems almost fragile compared to the massive trunks.",
         "keywords": [
           "trail"
         ]
-      }, 
+      },
       {
-        "desc": "The crowns of the old trees almost cut out all light.", 
+        "desc": "The crowns of the old trees almost cut out all light.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6004, 
-    "name": "A Trail Through The Dense Forest", 
+    ],
+    "flags": [],
+    "id": 6004,
+    "name": "A Trail Through The Dense Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small path leading through the dense forest.  The crowns of\nthe old trees leave the forest in an unreal twilight illumination.  The path\ncontinues north and south.", 
+    "desc": "You are on a small path leading through the dense forest.  The crowns of\nthe old trees leave the forest in an unreal twilight illumination.  The path\ncontinues north and south.",
     "exits": [
       {
-        "desc": "The small path leads north through the trees.", 
-        "dir": 0, 
+        "desc": "The small path leads north through the trees.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6004
-      }, 
+      },
       {
-        "desc": "The small path leads south through the trees.", 
-        "dir": 2, 
+        "desc": "The small path leads south through the trees.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6006
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The narrow path is probably used by the animals living in the forest.", 
+        "desc": "The narrow path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6005, 
-    "name": "A Small Path In The Dense Forest", 
+    ],
+    "flags": [],
+    "id": 6005,
+    "name": "A Small Path In The Dense Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small path leading through the dense forest.  The crowns of\nthe old trees leave the forest in an unreal twilight illumination.  The path\ncontinues north and east.", 
+    "desc": "You are on a small path leading through the dense forest.  The crowns of\nthe old trees leave the forest in an unreal twilight illumination.  The path\ncontinues north and east.",
     "exits": [
       {
-        "desc": "The small path leads north through the trees.", 
-        "dir": 0, 
+        "desc": "The small path leads north through the trees.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6005
-      }, 
+      },
       {
-        "desc": "The small path leads east through the trees.", 
-        "dir": 1, 
+        "desc": "The small path leads east through the trees.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6007
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The narrow path is probably used by the animals living in the forest.", 
+        "desc": "The narrow path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6006, 
-    "name": "A Small Path In The Dense Forest", 
+    ],
+    "flags": [],
+    "id": 6006,
+    "name": "A Small Path In The Dense Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small path leading through the dense forest.  The crowns of\nthe old trees leave the forest in an unreal twilight illumination.  The forest\ngradually lightens to the east.  Paths lead east, west and south.", 
+    "desc": "You are on a small path leading through the dense forest.  The crowns of\nthe old trees leave the forest in an unreal twilight illumination.  The forest\ngradually lightens to the east.  Paths lead east, west and south.",
     "exits": [
       {
-        "desc": "You can barely make out a clearing to the east.", 
-        "dir": 1, 
+        "desc": "You can barely make out a clearing to the east.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6008
-      }, 
+      },
       {
-        "desc": "The small path leads south through the trees.", 
-        "dir": 2, 
+        "desc": "The small path leads south through the trees.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6012
-      }, 
+      },
       {
-        "desc": "The small path leads west through the trees.", 
-        "dir": 3, 
+        "desc": "The small path leads west through the trees.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6006
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The narrow path is probably used by the animals living in the forest.", 
+        "desc": "The narrow path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6007, 
-    "name": "An Intersection In The Dense Forest", 
+    ],
+    "flags": [],
+    "id": 6007,
+    "name": "An Intersection In The Dense Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are in a clearing in the forest.  Lots of fresh stumps of varying sizes\nprotrude from the ground and heavy logs are stacked neatly in a big pile\nsupported by stakes set into the ground.  Paths lead north, east and west.", 
+    "desc": "You are in a clearing in the forest.  Lots of fresh stumps of varying sizes\nprotrude from the ground and heavy logs are stacked neatly in a big pile\nsupported by stakes set into the ground.  Paths lead north, east and west.",
     "exits": [
       {
-        "desc": "The small path leads north through the trees.", 
-        "dir": 0, 
+        "desc": "The small path leads north through the trees.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6011
-      }, 
+      },
       {
-        "desc": "The small path leads east through the trees.", 
-        "dir": 1, 
+        "desc": "The small path leads east through the trees.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6009
-      }, 
+      },
       {
-        "desc": "The small path leads west through the trees.", 
-        "dir": 3, 
+        "desc": "The small path leads west through the trees.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6007
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "Even though the logs have been chopped to shorter pieces, they are quite heavy\nas they are fresh and still filled with sap.", 
+        "desc": "Even though the logs have been chopped to shorter pieces, they are quite heavy\nas they are fresh and still filled with sap.",
         "keywords": [
-          "log", 
+          "log",
           "logs"
         ]
-      }, 
+      },
       {
-        "desc": "The narrow path is probably used by the animals living in the forest.", 
+        "desc": "The narrow path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The stakes keep the logs from rolling down.", 
+        "desc": "The stakes keep the logs from rolling down.",
         "keywords": [
-          "stake", 
+          "stake",
           "stakes"
         ]
-      }, 
+      },
       {
-        "desc": "There are more stumps than logs and some of the stumps are partly covered in\nmoss.", 
+        "desc": "There are more stumps than logs and some of the stumps are partly covered in\nmoss.",
         "keywords": [
-          "stump", 
+          "stump",
           "stumps"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6008, 
-    "name": "The Forest Clearing", 
+    ],
+    "flags": [],
+    "id": 6008,
+    "name": "The Forest Clearing",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are outside a small cabin built entirely from heavy logs.  There is a\nwooden door to the north and small paths lead west and south through the trees.", 
+    "desc": "You are outside a small cabin built entirely from heavy logs.  There is a\nwooden door to the north and small paths lead west and south through the trees.",
     "exits": [
       {
-        "desc": "The wooden door is quite sturdy but does not appear to be equipped with a lock.", 
-        "dir": 0, 
+        "desc": "The wooden door is quite sturdy but does not appear to be equipped with a lock.",
+        "dir": 0,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
+          "door",
           "wooden"
-        ], 
+        ],
         "room_linked": 6010
-      }, 
+      },
       {
-        "desc": "The small path leads south through the dense forest.", 
-        "dir": 2, 
+        "desc": "The small path leads south through the dense forest.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6014
-      }, 
+      },
       {
-        "desc": "The small path leads west through the light forest.", 
-        "dir": 3, 
+        "desc": "The small path leads west through the light forest.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6008
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It looks simple but comfortable and the slender trees make the whole place seem\npretty idyllic.  It is a cabin built from wooden logs.", 
+        "desc": "It looks simple but comfortable and the slender trees make the whole place seem\npretty idyllic.  It is a cabin built from wooden logs.",
         "keywords": [
-          "cabin", 
-          "logs", 
+          "cabin",
+          "logs",
           "log"
         ]
-      }, 
+      },
       {
-        "desc": "The path is probably used by the cabin's inhabitants.", 
+        "desc": "The path is probably used by the cabin's inhabitants.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are fairly young, not much more than a hundred years or so.", 
+        "desc": "The trees are fairly young, not much more than a hundred years or so.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6009, 
-    "name": "Outside A Small Cabin In The Forest", 
+    ],
+    "flags": [],
+    "id": 6009,
+    "name": "Outside A Small Cabin In The Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are inside a small one-room cabin made entirely from heavy logs.\nIt is very sparsely furnished, containing only the most basic housekeeping\nequipment, such as a bed, a chair and a table.", 
+    "desc": "You are inside a small one-room cabin made entirely from heavy logs.\nIt is very sparsely furnished, containing only the most basic housekeeping\nequipment, such as a bed, a chair and a table.",
     "exits": [
       {
-        "desc": "The wooden door leads south.", 
-        "dir": 2, 
+        "desc": "The wooden door leads south.",
+        "dir": 2,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
-          "door", 
+          "door",
           "wooden"
-        ], 
+        ],
         "room_linked": 6009
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It is definitely not the most comfortable bed you have seen in your life.", 
+        "desc": "It is definitely not the most comfortable bed you have seen in your life.",
         "keywords": [
           "bed"
         ]
-      }, 
+      },
       {
-        "desc": "It is made from oak and looks strong and sturdy.", 
+        "desc": "It is made from oak and looks strong and sturdy.",
         "keywords": [
           "chair"
         ]
-      }, 
+      },
       {
-        "desc": "A heavy table that doesn't even appear to rock.  It seems to have something\ncarved on it.", 
+        "desc": "A heavy table that doesn't even appear to rock.  It seems to have something\ncarved on it.",
         "keywords": [
           "table"
         ]
-      }, 
+      },
       {
-        "desc": "On the table is carved :\n                                                  /) /)\n          Danny and Mari, Oct 31, 1991           ( o o )\n                                                  = x =\n                                                 m     m\n                                              ***(========-", 
+        "desc": "On the table is carved :\n                                                  /) /)\n          Danny and Mari, Oct 31, 1991           ( o o )\n                                                  = x =\n                                                 m     m\n                                              ***(========-",
         "keywords": [
-          "carving", 
-          "carvings", 
+          "carving",
+          "carvings",
           "carved"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6010, 
-    "name": "Inside The Cabin", 
+    ],
+    "id": 6010,
+    "name": "Inside The Cabin",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small path leading through the forest.  The trees are tall and\nslender.  Paths lead north and south.", 
+    "desc": "You are on a small path leading through the forest.  The trees are tall and\nslender.  Paths lead north and south.",
     "exits": [
       {
-        "desc": "The path leads north through the young trees.", 
-        "dir": 0, 
+        "desc": "The path leads north through the young trees.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6002
-      }, 
+      },
       {
-        "desc": "The path leads south through the young trees.", 
-        "dir": 2, 
+        "desc": "The path leads south through the young trees.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6008
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The narrow path is probably used by the animals living in the forest.", 
+        "desc": "The narrow path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are fairly young, not much more than a hundred years or so.", 
+        "desc": "The trees are fairly young, not much more than a hundred years or so.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6011, 
-    "name": "A Small Path Through The Light Forest", 
+    ],
+    "flags": [],
+    "id": 6011,
+    "name": "A Small Path Through The Light Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small path leading through the dense forest.  The crowns of the\nold trees leave the forest floor in an unreal twilight illumination.  Paths\nlead north, east and south.", 
+    "desc": "You are on a small path leading through the dense forest.  The crowns of the\nold trees leave the forest floor in an unreal twilight illumination.  Paths\nlead north, east and south.",
     "exits": [
       {
-        "desc": "The small path leads north through the trees.", 
-        "dir": 0, 
+        "desc": "The small path leads north through the trees.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6007
-      }, 
+      },
       {
-        "desc": "The small path leads east through the trees.", 
-        "dir": 1, 
+        "desc": "The small path leads east through the trees.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6013
-      }, 
+      },
       {
-        "desc": "The small path leads south through the trees.", 
-        "dir": 2, 
+        "desc": "The small path leads south through the trees.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6021
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The narrow path is probably used by the animals living in the forest.", 
+        "desc": "The narrow path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6012, 
-    "name": "An Intersection In The Dense Forest", 
+    ],
+    "flags": [],
+    "id": 6012,
+    "name": "An Intersection In The Dense Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small path leading through the dense forest.  The crowns of\nthe old trees leave the forest in an unreal twilight illumination.  The path\ncontinues east and west.", 
+    "desc": "You are on a small path leading through the dense forest.  The crowns of\nthe old trees leave the forest in an unreal twilight illumination.  The path\ncontinues east and west.",
     "exits": [
       {
-        "desc": "The small path leads east through the trees.", 
-        "dir": 1, 
+        "desc": "The small path leads east through the trees.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6014
-      }, 
+      },
       {
-        "desc": "The small path leads west through the trees.", 
-        "dir": 3, 
+        "desc": "The small path leads west through the trees.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6012
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The narrow path is probably used by the animals living in the forest.", 
+        "desc": "The narrow path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6013, 
-    "name": "A Small Path In The Dense Forest", 
+    ],
+    "flags": [],
+    "id": 6013,
+    "name": "A Small Path In The Dense Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small path leading through the dense forest.  The forest\ngradually lightens to the north.  Paths lead north, east and west.", 
+    "desc": "You are on a small path leading through the dense forest.  The forest\ngradually lightens to the north.  Paths lead north, east and west.",
     "exits": [
       {
-        "desc": "The path leads north to a lighter part of the forest.", 
-        "dir": 0, 
+        "desc": "The path leads north to a lighter part of the forest.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6009
-      }, 
+      },
       {
-        "desc": "The small path leads east through the trees.", 
-        "dir": 1, 
+        "desc": "The small path leads east through the trees.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6015
-      }, 
+      },
       {
-        "desc": "The small path leads west through the trees.", 
-        "dir": 3, 
+        "desc": "The small path leads west through the trees.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6013
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The narrow path is probably used by the animals living in the forest.", 
+        "desc": "The narrow path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The crowns of the old trees leave the forest in an unreal twilight\nillumination.", 
+        "desc": "The crowns of the old trees leave the forest in an unreal twilight\nillumination.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6014, 
-    "name": "An Intersection In The Dense Forest", 
+    ],
+    "flags": [],
+    "id": 6014,
+    "name": "An Intersection In The Dense Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small path leading through the dense forest.  The crowns of\nthe old trees leave the forest in an unreal twilight illumination.  The path\ncontinues south and west.", 
+    "desc": "You are on a small path leading through the dense forest.  The crowns of\nthe old trees leave the forest in an unreal twilight illumination.  The path\ncontinues south and west.",
     "exits": [
       {
-        "desc": "The small path leads south through the trees.", 
-        "dir": 2, 
+        "desc": "The small path leads south through the trees.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6016
-      }, 
+      },
       {
-        "desc": "The small path leads west through the trees.", 
-        "dir": 3, 
+        "desc": "The small path leads west through the trees.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6014
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The narrow path is probably used by the animals living in the forest.", 
+        "desc": "The narrow path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6015, 
-    "name": "A Small Path In The Dense Forest", 
+    ],
+    "flags": [],
+    "id": 6015,
+    "name": "A Small Path In The Dense Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small path leading through the dense forest.  The crowns of\nthe old trees leave the forest in an unreal twilight illumination.  The path\ncontinues north, south and east.", 
+    "desc": "You are on a small path leading through the dense forest.  The crowns of\nthe old trees leave the forest in an unreal twilight illumination.  The path\ncontinues north, south and east.",
     "exits": [
       {
-        "desc": "The small path leads north through the trees.", 
-        "dir": 0, 
+        "desc": "The small path leads north through the trees.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6015
-      }, 
+      },
       {
-        "desc": "The small path leads east through the trees.", 
-        "dir": 1, 
+        "desc": "The small path leads east through the trees.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6028
-      }, 
+      },
       {
-        "desc": "The small path leads south through the trees.", 
-        "dir": 2, 
+        "desc": "The small path leads south through the trees.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6017
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The narrow path is probably used by the animals living in the forest.", 
+        "desc": "The narrow path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6016, 
-    "name": "A Small Path In The Dense Forest", 
+    ],
+    "flags": [],
+    "id": 6016,
+    "name": "A Small Path In The Dense Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are at a turn on a small path leading through the dense forest.  The\nforest seems to become lighter to the west.  The path continues north and west.", 
+    "desc": "You are at a turn on a small path leading through the dense forest.  The\nforest seems to become lighter to the west.  The path continues north and west.",
     "exits": [
       {
-        "desc": "The small path leads north through the trees.", 
-        "dir": 0, 
+        "desc": "The small path leads north through the trees.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6016
-      }, 
+      },
       {
-        "desc": "The small path leads west through the trees to a lighter part of the forest.", 
-        "dir": 3, 
+        "desc": "The small path leads west through the trees to a lighter part of the forest.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6018
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The narrow path is probably used by the animals living in the forest.", 
+        "desc": "The narrow path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The crowns of the old trees leave the forest in an unreal twilight\nillumination.  A large branch looms above you, over the path.", 
+        "desc": "The crowns of the old trees leave the forest in an unreal twilight\nillumination.  A large branch looms above you, over the path.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
-      }, 
+      },
       {
-        "desc": "The branch of a large oak stretches out above the path from the east.", 
+        "desc": "The branch of a large oak stretches out above the path from the east.",
         "keywords": [
-          "up", 
-          "branches", 
-          "branch", 
+          "up",
+          "branches",
+          "branch",
           "large"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6017, 
-    "name": "A Small Path In The Dense Forest", 
+    ],
+    "flags": [],
+    "id": 6017,
+    "name": "A Small Path In The Dense Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small path leading through the forest.  A path leads north to\na small field and other paths lead east and west into the dense forest.", 
+    "desc": "You are on a small path leading through the forest.  A path leads north to\na small field and other paths lead east and west into the dense forest.",
     "exits": [
       {
-        "desc": "The path leads north to a small, grassy field.", 
-        "dir": 0, 
+        "desc": "The path leads north to a small, grassy field.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6023
-      }, 
+      },
       {
-        "desc": "The path leads east to a dense part of the forest.", 
-        "dir": 1, 
+        "desc": "The path leads east to a dense part of the forest.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6017
-      }, 
+      },
       {
-        "desc": "The path leads west to a dense part of the forest.", 
-        "dir": 3, 
+        "desc": "The path leads west to a dense part of the forest.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6019
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The narrow path is probably used by the animals living in the forest.", 
+        "desc": "The narrow path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The tall trees are young and slender, not much more than a hundred years or so.", 
+        "desc": "The tall trees are young and slender, not much more than a hundred years or so.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6018, 
-    "name": "An Intersection In The Light Forest", 
+    ],
+    "flags": [],
+    "id": 6018,
+    "name": "An Intersection In The Light Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small path leading through the dense forest.  The forest seems\nto become lighter to the east.  The path continues north and east.", 
+    "desc": "You are on a small path leading through the dense forest.  The forest seems\nto become lighter to the east.  The path continues north and east.",
     "exits": [
       {
-        "desc": "The small path leads north through the trees.", 
-        "dir": 0, 
+        "desc": "The small path leads north through the trees.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6020
-      }, 
+      },
       {
-        "desc": "The small path leads east through the trees to a lighter part of the forest.", 
-        "dir": 1, 
+        "desc": "The small path leads east through the trees to a lighter part of the forest.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6018
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The narrow path is probably used by the animals living in the forest.", 
+        "desc": "The narrow path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The crowns of the old trees leave the forest in an unreal twilight\nillumination.", 
+        "desc": "The crowns of the old trees leave the forest in an unreal twilight\nillumination.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6019, 
-    "name": "A Small Path In The Dense Forest", 
+    ],
+    "flags": [],
+    "id": 6019,
+    "name": "A Small Path In The Dense Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small path leading through the dense forest.  The crowns of\nthe old trees leave the forest in an unreal twilight illumination.  The path\ncontinues south and west.", 
+    "desc": "You are on a small path leading through the dense forest.  The crowns of\nthe old trees leave the forest in an unreal twilight illumination.  The path\ncontinues south and west.",
     "exits": [
       {
-        "desc": "The small path leads south through the trees.", 
-        "dir": 2, 
+        "desc": "The small path leads south through the trees.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6019
-      }, 
+      },
       {
-        "desc": "The small path leads west through the trees.", 
-        "dir": 3, 
+        "desc": "The small path leads west through the trees.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6021
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The narrow path is probably used by the animals living in the forest.", 
+        "desc": "The narrow path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6020, 
-    "name": "A Small Path In The Dense Forest", 
+    ],
+    "flags": [],
+    "id": 6020,
+    "name": "A Small Path In The Dense Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small path leading through the dense forest.  To the west\nyou see a dark cave entrance, leading into a small hillside.  The path\ncontinues north and east.", 
+    "desc": "You are on a small path leading through the dense forest.  To the west\nyou see a dark cave entrance, leading into a small hillside.  The path\ncontinues north and east.",
     "exits": [
       {
-        "desc": "The small path leads north through the trees.", 
-        "dir": 0, 
+        "desc": "The small path leads north through the trees.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6012
-      }, 
+      },
       {
-        "desc": "The small path leads east through the trees.", 
-        "dir": 1, 
+        "desc": "The small path leads east through the trees.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6020
-      }, 
+      },
       {
-        "desc": "The cave is very dark.", 
-        "dir": 3, 
+        "desc": "The cave is very dark.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6022
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The narrow path is probably used by the animals living in the forest.", 
+        "desc": "The narrow path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The crowns of the old trees leave the forest in an unreal twilight\nillumination.", 
+        "desc": "The crowns of the old trees leave the forest in an unreal twilight\nillumination.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
-      }, 
+      },
       {
-        "desc": "The irregular opening is eight feet wide and six feet tall.  An acrid smell\nemanates from within.", 
+        "desc": "The irregular opening is eight feet wide and six feet tall.  An acrid smell\nemanates from within.",
         "keywords": [
-          "cave", 
+          "cave",
           "entrance"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6021, 
-    "name": "A Small Path In The Dense Forest", 
+    ],
+    "flags": [],
+    "id": 6021,
+    "name": "A Small Path In The Dense Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are in a natural cave.  Various sorts of debris cover the stone floor,\nemitting a rather unpleasant smell that makes the air thick and hard to\nbreathe.  The only obvious exit is east.", 
+    "desc": "You are in a natural cave.  Various sorts of debris cover the stone floor,\nemitting a rather unpleasant smell that makes the air thick and hard to\nbreathe.  The only obvious exit is east.",
     "exits": [
       {
-        "desc": "The cave opening is to the east.", 
-        "dir": 1, 
+        "desc": "The cave opening is to the east.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6021
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It consists mostly of gnawed bones mixed with small pieces of torn fur.", 
+        "desc": "It consists mostly of gnawed bones mixed with small pieces of torn fur.",
         "keywords": [
           "debris"
         ]
-      }, 
+      },
       {
-        "desc": "Quite uninteresting.", 
+        "desc": "Quite uninteresting.",
         "keywords": [
-          "cave", 
-          "walls", 
-          "floor", 
+          "cave",
+          "walls",
+          "floor",
           "stone"
         ]
-      }, 
+      },
       {
-        "desc": "Kind of transparent, but quite noticeable nevertheless.", 
+        "desc": "Kind of transparent, but quite noticeable nevertheless.",
         "keywords": [
-          "air", 
+          "air",
           "smell"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 6022, 
-    "name": "Inside The Cave", 
+    ],
+    "id": 6022,
+    "name": "Inside The Cave",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are in a grass covered field somewhere in the forest.  The tall grass\nnearly reaches your waist, and the surrounding oaks and beeches form an almost\nwall-like thicket on the east side of the field.  To the northeast you can see\na small lake.  A small path leads south through the trees, and the field opens\nup to the north and west.", 
+    "desc": "You are in a grass covered field somewhere in the forest.  The tall grass\nnearly reaches your waist, and the surrounding oaks and beeches form an almost\nwall-like thicket on the east side of the field.  To the northeast you can see\na small lake.  A small path leads south through the trees, and the field opens\nup to the north and west.",
     "exits": [
       {
-        "desc": "Wind blowing in from the north carries with it the smell of a newly killed\nanimal, as well as the noise of many birds, which you can see circling there.", 
-        "dir": 0, 
+        "desc": "Wind blowing in from the north carries with it the smell of a newly killed\nanimal, as well as the noise of many birds, which you can see circling there.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6026
-      }, 
+      },
       {
-        "desc": "The ground slopes gently downward to the eastern tree line.", 
-        "dir": 1, 
+        "desc": "The ground slopes gently downward to the eastern tree line.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6024
-      }, 
+      },
       {
-        "desc": "The small path leads south in between the trees.", 
-        "dir": 2, 
+        "desc": "The small path leads south in between the trees.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6018
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The tall grass makes a nice hiding place for animals.", 
+        "desc": "The tall grass makes a nice hiding place for animals.",
         "keywords": [
           "grass"
         ]
-      }, 
+      },
       {
-        "desc": "The narrow path is probably used by the animals living in the forest.", 
+        "desc": "The narrow path is probably used by the animals living in the forest.",
         "keywords": [
           "path"
         ]
-      }, 
+      },
       {
-        "desc": "The trees form a close thicket, blocking any exit to the west.", 
+        "desc": "The trees form a close thicket, blocking any exit to the west.",
         "keywords": [
-          "tree", 
-          "trees", 
+          "tree",
+          "trees",
           "thicket"
         ]
-      }, 
+      },
       {
-        "desc": "Many carrion birds are circling to the north, you presume they are waiting for\ntheir turn to feast on a corpse.", 
+        "desc": "Many carrion birds are circling to the north, you presume they are waiting for\ntheir turn to feast on a corpse.",
         "keywords": [
-          "birds", 
-          "bird", 
+          "birds",
+          "bird",
           "circling"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6023, 
-    "name": "A Grassy Field", 
+    ],
+    "flags": [],
+    "id": 6023,
+    "name": "A Grassy Field",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are in a lower part of the grassy field, south of a small lake.  The\ngrass here has been trampled by the many animals coming here for water, leaving\nthe ground covered in tracks of different types.  To the west you see a break\nin the wall of trees surrounding the field, and to the north is a small lake.", 
+    "desc": "You are in a lower part of the grassy field, south of a small lake.  The\ngrass here has been trampled by the many animals coming here for water, leaving\nthe ground covered in tracks of different types.  To the west you see a break\nin the wall of trees surrounding the field, and to the north is a small lake.",
     "exits": [
       {
-        "desc": "The animal tracks lead off to the north, and around the lake there.", 
-        "dir": 0, 
+        "desc": "The animal tracks lead off to the north, and around the lake there.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6025
-      }, 
+      },
       {
-        "desc": "To the south-west you see a break in the tree line, leading back to the\nforest path.", 
-        "dir": 3, 
+        "desc": "To the south-west you see a break in the tree line, leading back to the\nforest path.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6023
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The tall grass makes a nice hiding place for animals.", 
+        "desc": "The tall grass makes a nice hiding place for animals.",
         "keywords": [
           "grass"
         ]
-      }, 
+      },
       {
-        "desc": "The trampled grass path leads to the lake north of here.", 
+        "desc": "The trampled grass path leads to the lake north of here.",
         "keywords": [
-          "path", 
+          "path",
           "trampled"
         ]
-      }, 
+      },
       {
-        "desc": "The trees form a close thicket, blocking any exit to the south and east.", 
+        "desc": "The trees form a close thicket, blocking any exit to the south and east.",
         "keywords": [
-          "tree", 
-          "trees", 
+          "tree",
+          "trees",
           "thicket"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6024, 
-    "name": "The Lower Part Of The Grassy Field", 
+    ],
+    "flags": [],
+    "id": 6024,
+    "name": "The Lower Part Of The Grassy Field",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "The grass stops shortly before the lake, replaced by mud covered in tracks\nfrom the local animals.  When you come close many animals scatter into the tall\ngrass and some even into the forest.  To the west you see birds circling in the\nhigh in the air, and to the north you see a small lake, surrounded by tall\nreeds.  The field continues to the south, and the forest blocks passage to the\neast.", 
+    "desc": "The grass stops shortly before the lake, replaced by mud covered in tracks\nfrom the local animals.  When you come close many animals scatter into the tall\ngrass and some even into the forest.  To the west you see birds circling in the\nhigh in the air, and to the north you see a small lake, surrounded by tall\nreeds.  The field continues to the south, and the forest blocks passage to the\neast.",
     "exits": [
       {
-        "desc": "The lake looks inviting, and you can see some sort of water fowl floating\naround among the reeds.", 
-        "dir": 0, 
+        "desc": "The lake looks inviting, and you can see some sort of water fowl floating\naround among the reeds.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6027
-      }, 
+      },
       {
-        "desc": "To the south an animal trail leads of towards a the other side of the lower\nfield.", 
-        "dir": 2, 
+        "desc": "To the south an animal trail leads of towards a the other side of the lower\nfield.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6024
-      }, 
+      },
       {
-        "desc": "The smell of carrion drifts down to you from higher on the field to the west.", 
-        "dir": 3, 
+        "desc": "The smell of carrion drifts down to you from higher on the field to the west.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6026
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The tall grass makes a nice hiding place for animals.", 
+        "desc": "The tall grass makes a nice hiding place for animals.",
         "keywords": [
           "grass"
         ]
-      }, 
+      },
       {
-        "desc": "Animals from all around come here to drink.  The lake itself is not very big,\nbut it stretches off to the north from here.", 
+        "desc": "Animals from all around come here to drink.  The lake itself is not very big,\nbut it stretches off to the north from here.",
         "keywords": [
           "lake"
         ]
-      }, 
+      },
       {
-        "desc": "The trees form a close thicket, blocking any exit to the north or east.", 
+        "desc": "The trees form a close thicket, blocking any exit to the north or east.",
         "keywords": [
-          "tree", 
-          "trees", 
+          "tree",
+          "trees",
           "thicket"
         ]
-      }, 
+      },
       {
-        "desc": "Many carrion birds are circling to the west, you presume they are waiting for\ntheir turn to feast on a corpse.", 
+        "desc": "Many carrion birds are circling to the west, you presume they are waiting for\ntheir turn to feast on a corpse.",
         "keywords": [
-          "birds", 
-          "bird", 
+          "birds",
+          "bird",
           "circling"
         ]
-      }, 
+      },
       {
-        "desc": "You see tracks of both hooved and other sorts of animals.  Evidence of all\nsizes of animals is here in the mud, showing just how lively the forest is.", 
+        "desc": "You see tracks of both hooved and other sorts of animals.  Evidence of all\nsizes of animals is here in the mud, showing just how lively the forest is.",
         "keywords": [
-          "track", 
-          "tracks", 
+          "track",
+          "tracks",
           "mud"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6025, 
-    "name": "Beside The Lake In A Grassy Field", 
+    ],
+    "flags": [],
+    "id": 6025,
+    "name": "Beside The Lake In A Grassy Field",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "As you come close, scavenging animals and birds of all sorts scatter,\nleaving only the boldest and stupidest encircling the corpse of a large boar.\nCarrion birds circle overhead, and smaller animals stare out of the tall grass\nat you.  The grass here has been trampled, and a large area around the corpse\nis stained by blood.  A trail leads down the sloping field to a lake, and to\nthe south you see the path back to the forest.", 
+    "desc": "As you come close, scavenging animals and birds of all sorts scatter,\nleaving only the boldest and stupidest encircling the corpse of a large boar.\nCarrion birds circle overhead, and smaller animals stare out of the tall grass\nat you.  The grass here has been trampled, and a large area around the corpse\nis stained by blood.  A trail leads down the sloping field to a lake, and to\nthe south you see the path back to the forest.",
     "exits": [
       {
-        "desc": "A small lake lies down the sloping field to the east.  Some of the animals\nthat fled from here have gone there, and are watching, waiting for you to\nleave so they can resume their feasting.", 
-        "dir": 1, 
+        "desc": "A small lake lies down the sloping field to the east.  Some of the animals\nthat fled from here have gone there, and are watching, waiting for you to\nleave so they can resume their feasting.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6025
-      }, 
+      },
       {
-        "desc": "The field continues to the south, and you can see the path back to the forest\nthere.", 
-        "dir": 2, 
+        "desc": "The field continues to the south, and you can see the path back to the forest\nthere.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6023
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The tall grass makes a nice hiding place for animals.  You see some of the\nanimals you frightened away peeking furtively out at you.", 
+        "desc": "The tall grass makes a nice hiding place for animals.  You see some of the\nanimals you frightened away peeking furtively out at you.",
         "keywords": [
           "grass"
         ]
-      }, 
+      },
       {
-        "desc": "The narrow path is probably used by the animals living in the forest.", 
+        "desc": "The narrow path is probably used by the animals living in the forest.",
         "keywords": [
           "path"
         ]
-      }, 
+      },
       {
-        "desc": "The trees form a close thicket, blocking any exit to the north and west.", 
+        "desc": "The trees form a close thicket, blocking any exit to the north and west.",
         "keywords": [
-          "tree", 
-          "trees", 
+          "tree",
+          "trees",
           "thicket"
         ]
-      }, 
+      },
       {
-        "desc": "Many birds of varying size circle overhead, waiting for you to leave.  You\nhope they don't decide that you could be a corpse with just a little effort.", 
+        "desc": "Many birds of varying size circle overhead, waiting for you to leave.  You\nhope they don't decide that you could be a corpse with just a little effort.",
         "keywords": [
-          "birds", 
+          "birds",
           "circling"
         ]
-      }, 
+      },
       {
-        "desc": "Several pairs of eyes peer out at you, urging you to leave.  The just might\ndecide that en masse they could kill you, so you probably don't want to tarry\nhere.", 
+        "desc": "Several pairs of eyes peer out at you, urging you to leave.  The just might\ndecide that en masse they could kill you, so you probably don't want to tarry\nhere.",
         "keywords": [
-          "animal", 
-          "animals", 
+          "animal",
+          "animals",
           "small"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6026, 
-    "name": "The Northern Section Of A Grassy Field", 
+    ],
+    "flags": [],
+    "id": 6026,
+    "name": "The Northern Section Of A Grassy Field",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are in the middle of a small lake, fed from a small stream coming\nthrough the forest from the northwest.  The water is not that clear, but\nyou can see fish swimming around below you.  The bank is clear to the\nsouth, providing a safe place to get back to the field.", 
+    "desc": "You are in the middle of a small lake, fed from a small stream coming\nthrough the forest from the northwest.  The water is not that clear, but\nyou can see fish swimming around below you.  The bank is clear to the\nsouth, providing a safe place to get back to the field.",
     "exits": [
       {
-        "desc": "Some animals have gathered on the bank to watch you, curious about what you\nare doing.", 
-        "dir": 2, 
+        "desc": "Some animals have gathered on the bank to watch you, curious about what you\nare doing.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6025
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "Trout and perhaps a catfish or two swim about below you, totally ignoring\nyour presence.", 
+        "desc": "Trout and perhaps a catfish or two swim about below you, totally ignoring\nyour presence.",
         "keywords": [
           "fish"
         ]
-      }, 
+      },
       {
-        "desc": "Animals from all around come here to drink.  The lake itself is not very big,\nbut it stretches off to the north from here.", 
+        "desc": "Animals from all around come here to drink.  The lake itself is not very big,\nbut it stretches off to the north from here.",
         "keywords": [
           "lake"
         ]
-      }, 
+      },
       {
-        "desc": "Trees cover the bank on most sides, preventing you from docking there.", 
+        "desc": "Trees cover the bank on most sides, preventing you from docking there.",
         "keywords": [
-          "tree", 
-          "trees", 
+          "tree",
+          "trees",
           "thicket"
         ]
-      }, 
+      },
       {
-        "desc": "Reeds grow up around the edges of the lake, providing cover for the small\nwater fowl that live here.", 
+        "desc": "Reeds grow up around the edges of the lake, providing cover for the small\nwater fowl that live here.",
         "keywords": [
-          "reed", 
+          "reed",
           "reeds"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6027, 
-    "name": "On The Lake", 
+    ],
+    "flags": [],
+    "id": 6027,
+    "name": "On The Lake",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small path leading through the dense forest.  The crowns of\nthe old trees leave the forest in an unreal twilight illumination.  The path\ncontinues to the west and south.", 
+    "desc": "You are on a small path leading through the dense forest.  The crowns of\nthe old trees leave the forest in an unreal twilight illumination.  The path\ncontinues to the west and south.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6029
-      }, 
+      },
       {
-        "desc": "The small path leads west through the trees.", 
-        "dir": 3, 
+        "desc": "The small path leads west through the trees.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6016
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The narrow path is probably used by the animals living in the forest.", 
+        "desc": "The narrow path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6028, 
-    "name": "A Small Path In The Dense Forest", 
+    ],
+    "flags": [],
+    "id": 6028,
+    "name": "A Small Path In The Dense Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are at the end of a small path leading through the dense forest.  The\ncrowns of the old trees leave the forest in an unreal twilight illumination.\nThis rough clearing is dominated by a very large oak tree, probably the\nlargest in this part of the forest.  The path leads back to the north.", 
+    "desc": "You are at the end of a small path leading through the dense forest.  The\ncrowns of the old trees leave the forest in an unreal twilight illumination.\nThis rough clearing is dominated by a very large oak tree, probably the\nlargest in this part of the forest.  The path leads back to the north.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6028
-      }, 
+      },
       {
-        "desc": "You see the lower branches of the towering oak.", 
-        "dir": 4, 
+        "desc": "You see the lower branches of the towering oak.",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6030
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The narrow path is probably used by the animals living in the forest.", 
+        "desc": "The narrow path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks, with one large oak off to your\nright.", 
+        "desc": "The trees are mostly old beeches and oaks, with one large oak off to your\nright.",
         "keywords": [
           "trees"
         ]
-      }, 
+      },
       {
-        "desc": "It has some lower branches that you think you could reach if you stretched.\nYou might even be able to climb all the top, though from here it looks like\nsomething else had that idea before you.  There is a faint animal shape pacing\non one of the highest branches.", 
+        "desc": "It has some lower branches that you think you could reach if you stretched.\nYou might even be able to climb all the top, though from here it looks like\nsomething else had that idea before you.  There is a faint animal shape pacing\non one of the highest branches.",
         "keywords": [
-          "large", 
-          "oak", 
+          "large",
+          "oak",
           "tree"
         ]
-      }, 
+      },
       {
-        "desc": "From here it looks vaguely feline, though you could get a much better view\nfrom in the tree.  You are not sure if it has seen you yet.", 
+        "desc": "From here it looks vaguely feline, though you could get a much better view\nfrom in the tree.  You are not sure if it has seen you yet.",
         "keywords": [
-          "animal", 
+          "animal",
           "shape"
         ]
-      }, 
+      },
       {
-        "desc": "They look quite sturdy, certainly capable of holding your weight should you\ndecide to climb up the tree using them.", 
+        "desc": "They look quite sturdy, certainly capable of holding your weight should you\ndecide to climb up the tree using them.",
         "keywords": [
-          "limb", 
+          "limb",
           "limbs"
         ]
-      }, 
+      },
       {
-        "desc": "You could probably see most of the forest, and perhaps even the city from the\ntop of the tree... of course, you'd have to deal with whatever that shape is\npacing on one of the upper limbs.", 
+        "desc": "You could probably see most of the forest, and perhaps even the city from the\ntop of the tree... of course, you'd have to deal with whatever that shape is\npacing on one of the upper limbs.",
         "keywords": [
-          "top", 
-          "highest", 
+          "top",
+          "highest",
           "high"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 6029, 
-    "name": "Near A Large Tree In The Dense Forest", 
+    ],
+    "id": 6029,
+    "name": "Near A Large Tree In The Dense Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are in a huge oak, about one third of the way to the top.  The branches\nabove you block out much of the light, but enough filters through for you to\nsee.  Small animals and birds scatter at your approach, rustling the leaves\nall about you.  You could easily climb back down to the ground, or continue up\nthe tree.  One large branch juts outward to the west, possibly providing a\nthird choice of exit.", 
+    "desc": "You are in a huge oak, about one third of the way to the top.  The branches\nabove you block out much of the light, but enough filters through for you to\nsee.  Small animals and birds scatter at your approach, rustling the leaves\nall about you.  You could easily climb back down to the ground, or continue up\nthe tree.  One large branch juts outward to the west, possibly providing a\nthird choice of exit.",
     "exits": [
       {
-        "desc": "This limb looks large and strong enough for you to walk most of the way along\nits length to the west.", 
-        "dir": 3, 
+        "desc": "This limb looks large and strong enough for you to walk most of the way along\nits length to the west.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6031
-      }, 
+      },
       {
-        "desc": "More large branches spread out from the tree above you.", 
-        "dir": 4, 
+        "desc": "More large branches spread out from the tree above you.",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6032
-      }, 
+      },
       {
-        "desc": "The rough clearing is just a quick climb and jump below you.", 
-        "dir": 5, 
+        "desc": "The rough clearing is just a quick climb and jump below you.",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6029
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "After a short period of looking, you notice a bird's nest on a limb not far\nabove you, and a large squirrel's nest in the crook of a large limb that\nstretches out towards the west.", 
+        "desc": "After a short period of looking, you notice a bird's nest on a limb not far\nabove you, and a large squirrel's nest in the crook of a large limb that\nstretches out towards the west.",
         "keywords": [
-          "nest", 
+          "nest",
           "nests"
         ]
-      }, 
+      },
       {
-        "desc": "A variety of squirrels, chipmunks, and birds make their homes in this and the\nsurrounding trees.  If you look closely you may be able to see some of their\nrapidly emptying nests.", 
+        "desc": "A variety of squirrels, chipmunks, and birds make their homes in this and the\nsurrounding trees.  If you look closely you may be able to see some of their\nrapidly emptying nests.",
         "keywords": [
-          "animals", 
-          "bird", 
+          "animals",
+          "bird",
           "birds"
         ]
-      }, 
+      },
       {
-        "desc": "The shape above you moves with definite grace and confidence.  You think that\nit must be a Bobcat, stalking smaller tree-dwelling animals.", 
+        "desc": "The shape above you moves with definite grace and confidence.  You think that\nit must be a Bobcat, stalking smaller tree-dwelling animals.",
         "keywords": [
           "feline"
         ]
-      }, 
+      },
       {
-        "desc": "From here it looks feline.  You still don't think it has noticed you, despite\nthe noise you made while climbing up here.", 
+        "desc": "From here it looks feline.  You still don't think it has noticed you, despite\nthe noise you made while climbing up here.",
         "keywords": [
-          "pacing", 
-          "pace", 
-          "animal", 
+          "pacing",
+          "pace",
+          "animal",
           "shape"
         ]
-      }, 
+      },
       {
-        "desc": "They look quite sturdy, certainly capable of holding your weight should you\ndecide to climb around in the tree using them.", 
+        "desc": "They look quite sturdy, certainly capable of holding your weight should you\ndecide to climb around in the tree using them.",
         "keywords": [
-          "limb", 
+          "limb",
           "limbs"
         ]
-      }, 
+      },
       {
-        "desc": "You could probably see most of the forest, and perhaps even the city from the\ntop of the tree... of course, you would have to deal with whatever that shape\nis that you see pacing on one of the upper limbs.", 
+        "desc": "You could probably see most of the forest, and perhaps even the city from the\ntop of the tree... of course, you would have to deal with whatever that shape\nis that you see pacing on one of the upper limbs.",
         "keywords": [
-          "top", 
-          "highest", 
+          "top",
+          "highest",
           "high"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6030, 
-    "name": "In The Lower Branches Of A Large Oak", 
+    ],
+    "flags": [],
+    "id": 6030,
+    "name": "In The Lower Branches Of A Large Oak",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "This sturdy branch hangs far out over a path to the west, which you might\nbe able to jump down to.  Several squirrels scamper into hiding as you\napproach, leaving you alone and swaying slightly with the wind.  To your north\nyou can see a small log cabin through the trees, and to the southeast there\nseems to be some sort of clearing, with many birds circling above it.", 
+    "desc": "This sturdy branch hangs far out over a path to the west, which you might\nbe able to jump down to.  Several squirrels scamper into hiding as you\napproach, leaving you alone and swaying slightly with the wind.  To your north\nyou can see a small log cabin through the trees, and to the southeast there\nseems to be some sort of clearing, with many birds circling above it.",
     "exits": [
       {
-        "desc": "Back to the east you see the tree trunk.  It is much less precarious there\ncompared to here... perhaps you should go back.", 
-        "dir": 1, 
+        "desc": "Back to the east you see the tree trunk.  It is much less precarious there\ncompared to here... perhaps you should go back.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6030
-      }, 
+      },
       {
-        "desc": "Below you is a small path, probably used by the forest animals.  You think\nthat you could jump down with a little effort.", 
-        "dir": 5, 
+        "desc": "Below you is a small path, probably used by the forest animals.  You think\nthat you could jump down with a little effort.",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6016
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "You notice that several of the squirrels sought refuge in a large nest that is\nwell within your reach.  Looking into the nest, you see two pairs of eyes\nstaring back at you.", 
+        "desc": "You notice that several of the squirrels sought refuge in a large nest that is\nwell within your reach.  Looking into the nest, you see two pairs of eyes\nstaring back at you.",
         "keywords": [
-          "nest", 
+          "nest",
           "nests"
         ]
-      }, 
+      },
       {
-        "desc": "A variety of squirrels, chipmunks, and birds make their homes in this and the\nsurrounding trees.  If you look closely you may be able to see some of their\nrapidly emptying nests.", 
+        "desc": "A variety of squirrels, chipmunks, and birds make their homes in this and the\nsurrounding trees.  If you look closely you may be able to see some of their\nrapidly emptying nests.",
         "keywords": [
-          "animals", 
-          "bird", 
+          "animals",
+          "bird",
           "birds"
         ]
-      }, 
+      },
       {
-        "desc": "The shape above you moves with definite grace and confidence.  You think that\nit must be a Bobcat, stalking smaller tree-dwelling animals.", 
+        "desc": "The shape above you moves with definite grace and confidence.  You think that\nit must be a Bobcat, stalking smaller tree-dwelling animals.",
         "keywords": [
           "feline"
         ]
-      }, 
+      },
       {
-        "desc": "From here it looks feline.  You still don't think it has noticed you, despite\nthe noise you made while climbing up here.", 
+        "desc": "From here it looks feline.  You still don't think it has noticed you, despite\nthe noise you made while climbing up here.",
         "keywords": [
-          "pacing", 
-          "pace", 
-          "animal", 
+          "pacing",
+          "pace",
+          "animal",
           "shape"
         ]
-      }, 
+      },
       {
-        "desc": "The limbs look quite sturdy, certainly capable of holding your weight should\nyou decide to climb around in the tree using them.", 
+        "desc": "The limbs look quite sturdy, certainly capable of holding your weight should\nyou decide to climb around in the tree using them.",
         "keywords": [
-          "limb", 
+          "limb",
           "limbs"
         ]
-      }, 
+      },
       {
-        "desc": "You could probably see most of the forest, and perhaps even the city from the\ntop of the tree... of course, you would have to deal with whatever that shape\nis that you see pacing on one of the upper limbs.", 
+        "desc": "You could probably see most of the forest, and perhaps even the city from the\ntop of the tree... of course, you would have to deal with whatever that shape\nis that you see pacing on one of the upper limbs.",
         "keywords": [
-          "top", 
-          "highest", 
+          "top",
+          "highest",
           "high"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 6031, 
-    "name": "Out On A Limb In A Large Oak", 
+    ],
+    "id": 6031,
+    "name": "Out On A Limb In A Large Oak",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are in a huge oak, about midway to the top.  The branches above you\nblock out much of the light, but enough filters through for you to see.  A few\nbirds have remained to watch you from the fringe branches, well out of your\nreach.  Scratches mar the tree here, and torn bark is scattered near you on the\nbranch.  It would seem some large forest cat lives nearby, so you had better be\ncareful!  You can continue a bit farther up the tree, or descend to limbs that\ndon't sway so much.", 
+    "desc": "You are in a huge oak, about midway to the top.  The branches above you\nblock out much of the light, but enough filters through for you to see.  A few\nbirds have remained to watch you from the fringe branches, well out of your\nreach.  Scratches mar the tree here, and torn bark is scattered near you on the\nbranch.  It would seem some large forest cat lives nearby, so you had better be\ncareful!  You can continue a bit farther up the tree, or descend to limbs that\ndon't sway so much.",
     "exits": [
       {
-        "desc": "Above you the tree narrows farther, but it still looks like you could climb up\nthere.  A feline shape is pacing about above you, trying to get to a large\nwounded bird.  Perhaps you should try to see what sort of cat this is before\nyou interrupt its hunt... it might eat you instead of the bird.", 
-        "dir": 4, 
+        "desc": "Above you the tree narrows farther, but it still looks like you could climb up\nthere.  A feline shape is pacing about above you, trying to get to a large\nwounded bird.  Perhaps you should try to see what sort of cat this is before\nyou interrupt its hunt... it might eat you instead of the bird.",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6033
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6030
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "A medium sized bird's nest is close to you here, and it looks like it has some\nnice looking eggs in it too!", 
+        "desc": "A medium sized bird's nest is close to you here, and it looks like it has some\nnice looking eggs in it too!",
         "keywords": [
-          "nest", 
+          "nest",
           "nests"
         ]
-      }, 
+      },
       {
-        "desc": "A variety of squirrels, chipmunks, and birds make their homes in this and the\nsurrounding trees.  If you look closely you may be able to see some of their\nrapidly emptying nests.", 
+        "desc": "A variety of squirrels, chipmunks, and birds make their homes in this and the\nsurrounding trees.  If you look closely you may be able to see some of their\nrapidly emptying nests.",
         "keywords": [
-          "animal", 
-          "animals", 
-          "bird", 
+          "animal",
+          "animals",
+          "bird",
           "birds"
         ]
-      }, 
+      },
       {
-        "desc": "It looks like a Bobcat, and it seems quite intent on getting to a large bird\nthat it has wounded.  It has not seen you yet, or perhaps just thinks you are\ntoo easy a meal.", 
+        "desc": "It looks like a Bobcat, and it seems quite intent on getting to a large bird\nthat it has wounded.  It has not seen you yet, or perhaps just thinks you are\ntoo easy a meal.",
         "keywords": [
-          "feline", 
-          "cat", 
-          "pacing", 
-          "pace", 
+          "feline",
+          "cat",
+          "pacing",
+          "pace",
           "shape"
         ]
-      }, 
+      },
       {
-        "desc": "They look quite sturdy, certainly capable of holding your weight should you\ndecide to climb around in the tree using them.", 
+        "desc": "They look quite sturdy, certainly capable of holding your weight should you\ndecide to climb around in the tree using them.",
         "keywords": [
-          "limb", 
+          "limb",
           "limbs"
         ]
-      }, 
+      },
       {
-        "desc": "You could probably see most of the forest, and perhaps even the city from the\ntop of the tree... of course, you would have to deal with whatever that shape\nis that you see pacing on one of the upper limbs.", 
+        "desc": "You could probably see most of the forest, and perhaps even the city from the\ntop of the tree... of course, you would have to deal with whatever that shape\nis that you see pacing on one of the upper limbs.",
         "keywords": [
-          "top", 
-          "highest", 
+          "top",
+          "highest",
           "high"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6032, 
-    "name": "Midway To The Top Of The Large Oak", 
+    ],
+    "flags": [],
+    "id": 6032,
+    "name": "Midway To The Top Of The Large Oak",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "The tree top gently sways in the wind, and you think you are as high as\nyou can safely go in the tree.  The limbs here show evidence of a small battle,\nwith ripped bark and loose feathers scattered everywhere.  Looking around, you\ncan see the forest stretching out below you in all directions.  To the east you\nsee Midgaard, and to the south the river runs through a deep chasm.  North and\nwest of here you can see another small village, and on the western horizon you\nsee a large mountain.", 
+    "desc": "The tree top gently sways in the wind, and you think you are as high as\nyou can safely go in the tree.  The limbs here show evidence of a small battle,\nwith ripped bark and loose feathers scattered everywhere.  Looking around, you\ncan see the forest stretching out below you in all directions.  To the east you\nsee Midgaard, and to the south the river runs through a deep chasm.  North and\nwest of here you can see another small village, and on the western horizon you\nsee a large mountain.",
     "exits": [
       {
-        "desc": "Below you many of the animals you frightened earlier have returned to their\nvarious nests and homes.  You can see a small hint of the path far below you\nthrough the branches.", 
-        "dir": 5, 
+        "desc": "Below you many of the animals you frightened earlier have returned to their\nvarious nests and homes.  You can see a small hint of the path far below you\nthrough the branches.",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6032
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "Off to the southwest you can see a grass covered field, and a small lake;\nnortwest of you is a small cabin and a large pile of wood.  Far to west the\ntreetops form a tight canopy, blocking out almost all sunlight and your view.\nIt is said that large wolves live there.  You've also heard rumors of horrible\nspiders and drow living there.  You'd be best off leaving that area to more\nexperienced adventurers. ", 
+        "desc": "Off to the southwest you can see a grass covered field, and a small lake;\nnortwest of you is a small cabin and a large pile of wood.  Far to west the\ntreetops form a tight canopy, blocking out almost all sunlight and your view.\nIt is said that large wolves live there.  You've also heard rumors of horrible\nspiders and drow living there.  You'd be best off leaving that area to more\nexperienced adventurers. ",
         "keywords": [
-          "around", 
-          "trees", 
-          "everywhere", 
-          "woods", 
+          "around",
+          "trees",
+          "everywhere",
+          "woods",
           "forest"
         ]
-      }, 
+      },
       {
-        "desc": "A long mountain range stretches across the horizon to the north and northeast.\nYou have heard rumors of many different sorts of creatures living there,\nvarying from Dwarves and Humans to Ogres and various humanoid creatures.  Some\nsay that evil Dark Elves dwell in the underworld deep below the lands of the\nDwarves.  The caves of Moria also are found there, populated by all sorts of\nevil creatures.", 
+        "desc": "A long mountain range stretches across the horizon to the north and northeast.\nYou have heard rumors of many different sorts of creatures living there,\nvarying from Dwarves and Humans to Ogres and various humanoid creatures.  Some\nsay that evil Dark Elves dwell in the underworld deep below the lands of the\nDwarves.  The caves of Moria also are found there, populated by all sorts of\nevil creatures.",
         "keywords": [
-          "mountain", 
-          "range", 
+          "mountain",
+          "range",
           "northeast"
         ]
-      }, 
+      },
       {
-        "desc": "To the south you see a river flowing roughly from the northeast to the west.\nIt emerges from a dark opening in the side of a mountain and flows through\nMidgaard, and on into the forest.  It has eroded a deep chasm in the soft stone\nunder the forest floor, and is not visible for long after it enters the forest\nproper.", 
+        "desc": "To the south you see a river flowing roughly from the northeast to the west.\nIt emerges from a dark opening in the side of a mountain and flows through\nMidgaard, and on into the forest.  It has eroded a deep chasm in the soft stone\nunder the forest floor, and is not visible for long after it enters the forest\nproper.",
         "keywords": [
-          "river", 
+          "river",
           "chasm"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6033, 
-    "name": "High In The Large Oak", 
+    ],
+    "flags": [],
+    "id": 6033,
+    "name": "High In The Large Oak",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small shaded path leading through the trees.  The forest\ngradually lightens to the east.  The path continues to the north, and to the\nsouth you see the main trail.", 
+    "desc": "You are on a small shaded path leading through the trees.  The forest\ngradually lightens to the east.  The path continues to the north, and to the\nsouth you see the main trail.",
     "exits": [
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 0, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6065
-      }, 
+      },
       {
-        "desc": "Through a break in the tree line you see the main trail that heads back towards\nMidgaard.", 
-        "dir": 2, 
+        "desc": "Through a break in the tree line you see the main trail that heads back towards\nMidgaard.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6001
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The shaded path is probably used by the small animals living in the forest.", 
+        "desc": "The shaded path is probably used by the small animals living in the forest.",
         "keywords": [
-          "path", 
-          "paths", 
+          "path",
+          "paths",
           "shaded"
         ]
-      }, 
+      },
       {
-        "desc": "They are mostly young oaks and tall beeches.", 
+        "desc": "They are mostly young oaks and tall beeches.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6060, 
-    "name": "A Shaded Path Through The Forest", 
+    ],
+    "flags": [],
+    "id": 6060,
+    "name": "A Shaded Path Through The Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are at a turn on a small shadowed path leading through the forest.  The\nforest seems to become lighter to the west.  The path continues north and west.", 
+    "desc": "You are at a turn on a small shadowed path leading through the forest.  The\nforest seems to become lighter to the west.  The path continues north and west.",
     "exits": [
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 0, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6066
-      }, 
+      },
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 3, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6062
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The shadowy path is probably used by the small animals living in the forest.", 
+        "desc": "The shadowy path is probably used by the small animals living in the forest.",
         "keywords": [
-          "path", 
-          "paths", 
-          "shaded", 
+          "path",
+          "paths",
+          "shaded",
           "shadowed"
         ]
-      }, 
+      },
       {
-        "desc": "The crowns of the old trees leave the forest in an unreal twilight\nillumination.  A large branch looms above you, over the path.", 
+        "desc": "The crowns of the old trees leave the forest in an unreal twilight\nillumination.  A large branch looms above you, over the path.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6061, 
-    "name": "A Shaded Path Through The Forest", 
+    ],
+    "flags": [],
+    "id": 6061,
+    "name": "A Shaded Path Through The Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small shaded path leading through the dense forest.  The\ncrowns of the old trees leave the forest floor in an unreal twililght\nillumination.  To the north you see a small clearing.  Paths lead east and\nwest.", 
+    "desc": "You are on a small shaded path leading through the dense forest.  The\ncrowns of the old trees leave the forest floor in an unreal twililght\nillumination.  To the north you see a small clearing.  Paths lead east and\nwest.",
     "exits": [
       {
-        "desc": "Through the underbrush you see a small clearing.", 
-        "dir": 0, 
+        "desc": "Through the underbrush you see a small clearing.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6067
-      }, 
+      },
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 1, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6061
-      }, 
+      },
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 3, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6063
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The shaded path is probably used by the small animals living in the forest.", 
+        "desc": "The shaded path is probably used by the small animals living in the forest.",
         "keywords": [
-          "path", 
-          "paths", 
-          "shaded", 
+          "path",
+          "paths",
+          "shaded",
           "shadowy"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6062, 
-    "name": "A Shaded Path Through The Dense Forest", 
+    ],
+    "flags": [],
+    "id": 6062,
+    "name": "A Shaded Path Through The Dense Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small shaded path through the dense forest.  The crowns of\nthe old trees leave the forest in an unreal twilight illumination.  The path\ncontinues north and east.", 
+    "desc": "You are on a small shaded path through the dense forest.  The crowns of\nthe old trees leave the forest in an unreal twilight illumination.  The path\ncontinues north and east.",
     "exits": [
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 0, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6068
-      }, 
+      },
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 1, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6062
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The shaded path is probably used by the animals living in the forest.", 
+        "desc": "The shaded path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
-          "paths", 
+          "path",
+          "paths",
           "shaded"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6063, 
-    "name": "A Shaded Path Through The Dense Forest", 
+    ],
+    "flags": [],
+    "id": 6063,
+    "name": "A Shaded Path Through The Dense Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small shadowy path leading through the dense forest.  The\ncrowns of the old trees leave the forest in an unreal twilight illumination.\nThe path continues north and south.", 
+    "desc": "You are on a small shadowy path leading through the dense forest.  The\ncrowns of the old trees leave the forest in an unreal twilight illumination.\nThe path continues north and south.",
     "exits": [
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 0, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6069
-      }, 
+      },
       {
-        "desc": "The path winds its way into darkness.", 
-        "dir": 2, 
+        "desc": "The path winds its way into darkness.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6100
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The shadowy path is probably used by the animals living in the forest.", 
+        "desc": "The shadowy path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
-          "paths", 
+          "path",
+          "paths",
           "shadowy"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6064, 
-    "name": "A Shadowy Path Through The Dense Forest", 
+    ],
+    "flags": [],
+    "id": 6064,
+    "name": "A Shadowy Path Through The Dense Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are at a turn on a small shaded path winding through the trees.  The\nforest gradually becomes more dense to the west.  The path continues west and\nsouth from here.", 
+    "desc": "You are at a turn on a small shaded path winding through the trees.  The\nforest gradually becomes more dense to the west.  The path continues west and\nsouth from here.",
     "exits": [
       {
-        "desc": "Through the trees to the south you can almost see the main trail leading back\nto Midgaard.", 
-        "dir": 2, 
+        "desc": "Through the trees to the south you can almost see the main trail leading back\nto Midgaard.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6060
-      }, 
+      },
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 3, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6066
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The shadowed path is probably used by the small animals living in the forest.", 
+        "desc": "The shadowed path is probably used by the small animals living in the forest.",
         "keywords": [
-          "path", 
-          "paths", 
+          "path",
+          "paths",
           "shaded"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly young oaks and tall beeches.", 
+        "desc": "The trees are mostly young oaks and tall beeches.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6065, 
-    "name": "A Shaded Path Through The Forest", 
+    ],
+    "flags": [],
+    "id": 6065,
+    "name": "A Shaded Path Through The Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are at a fork in the small shaded path winding through the trees.  The\nforest gradually becomes more dense to the west.  The path branches to the\nnorth and south here, and also continues to the east.", 
+    "desc": "You are at a fork in the small shaded path winding through the trees.  The\nforest gradually becomes more dense to the west.  The path branches to the\nnorth and south here, and also continues to the east.",
     "exits": [
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 0, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6071
-      }, 
+      },
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 1, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6065
-      }, 
+      },
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 2, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6061
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The shaded path is probably used by the small animals living in the forest.", 
+        "desc": "The shaded path is probably used by the small animals living in the forest.",
         "keywords": [
-          "path", 
-          "paths", 
+          "path",
+          "paths",
           "shaded"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6066, 
-    "name": "A Fork On The Shaded Path Through The Forest", 
+    ],
+    "flags": [],
+    "id": 6066,
+    "name": "A Fork On The Shaded Path Through The Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are standing in a small clearing, beside a large fallen tree.  A large\namount of the tree has already decomposed, but some pieces remain, scattered\nabout the clearing.  Paths border the clearing to the north and south.", 
+    "desc": "You are standing in a small clearing, beside a large fallen tree.  A large\namount of the tree has already decomposed, but some pieces remain, scattered\nabout the clearing.  Paths border the clearing to the north and south.",
     "exits": [
       {
-        "desc": "A shaded path winds its way northeast between the trees.", 
-        "dir": 0, 
+        "desc": "A shaded path winds its way northeast between the trees.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6072
-      }, 
+      },
       {
-        "desc": "A shaded path winds its way east between the trees.", 
-        "dir": 2, 
+        "desc": "A shaded path winds its way east between the trees.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6062
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The shaded paths are probably used by the animals living in the forest.", 
+        "desc": "The shaded paths are probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The tree has mostly rotted away, providing nourishment to many small plants\ngrowing here in the clearing.  The few pieces that remain are not all that\nlarge, but one log in particular catches your eye and seems to remind you of\nsomething.  Under one of these logs would be a great place for an animal to\nmake its den...", 
+        "desc": "The tree has mostly rotted away, providing nourishment to many small plants\ngrowing here in the clearing.  The few pieces that remain are not all that\nlarge, but one log in particular catches your eye and seems to remind you of\nsomething.  Under one of these logs would be a great place for an animal to\nmake its den...",
         "keywords": [
-          "fallen", 
-          "rotten", 
-          "decomposed", 
+          "fallen",
+          "rotten",
+          "decomposed",
           "tree"
         ]
-      }, 
+      },
       {
-        "desc": "When the large tree fell it must have brought a few of the smaller trees down\nwith it in order to make a clearing like this.", 
+        "desc": "When the large tree fell it must have brought a few of the smaller trees down\nwith it in order to make a clearing like this.",
         "keywords": [
-          "clearing", 
+          "clearing",
           "clear"
         ]
-      }, 
+      },
       {
-        "desc": "Under a log you think you see some sort of hole, or animal's den.  Looking\ncloser, you can make out the form of what you believe to be a Badger resting\ninside of the den.", 
+        "desc": "Under a log you think you see some sort of hole, or animal's den.  Looking\ncloser, you can make out the form of what you believe to be a Badger resting\ninside of the den.",
         "keywords": [
-          "under", 
-          "animal", 
+          "under",
+          "animal",
           "den"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6067, 
-    "name": "At The Fallen Tree", 
+    ],
+    "flags": [],
+    "id": 6067,
+    "name": "At The Fallen Tree",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small shaded path leading through the dense forest.  The\ncrowns of the old trees leave the forest in an unreal twilight illumination.\nThe path continues north, south, and west.", 
+    "desc": "You are on a small shaded path leading through the dense forest.  The\ncrowns of the old trees leave the forest in an unreal twilight illumination.\nThe path continues north, south, and west.",
     "exits": [
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 0, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6073
-      }, 
+      },
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 2, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6063
-      }, 
+      },
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 3, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6069
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The shaded path is probably used by the animals living in the forest.", 
+        "desc": "The shaded path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
-          "paths", 
+          "path",
+          "paths",
           "shaded"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6068, 
-    "name": "An Intersection On The Shaded Path", 
+    ],
+    "flags": [],
+    "id": 6068,
+    "name": "An Intersection On The Shaded Path",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small shadowy path leading through the dense forest.  The\ncrowns of the old trees leave the forest in an unreal twilight illumination.\nThe path continues south and east.", 
+    "desc": "You are on a small shadowy path leading through the dense forest.  The\ncrowns of the old trees leave the forest in an unreal twilight illumination.\nThe path continues south and east.",
     "exits": [
       {
-        "desc": "The path winds its way between the old trees.", 
-        "dir": 1, 
+        "desc": "The path winds its way between the old trees.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6068
-      }, 
+      },
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 2, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6064
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The shadowy path is probably used by the animals living in the forest.", 
+        "desc": "The shadowy path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
-          "paths", 
-          "shaded", 
+          "path",
+          "paths",
+          "shaded",
           "shadowy"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6069, 
-    "name": "A Shadowy Path Through The Dense Forest", 
+    ],
+    "flags": [],
+    "id": 6069,
+    "name": "A Shadowy Path Through The Dense Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are wandering amongst the trees in the light forest, without the aid\nof a path or trail.  More sunlight trickles through the treetops here, making\nyour travel a bit easier.  Small animals scurry away as you approach.  You\nare no longer on a path, so you may go whichever way you please.", 
+    "desc": "You are wandering amongst the trees in the light forest, without the aid\nof a path or trail.  More sunlight trickles through the treetops here, making\nyour travel a bit easier.  Small animals scurry away as you approach.  You\nare no longer on a path, so you may go whichever way you please.",
     "exits": [
       {
-        "desc": "The trees seem to part, exposing a trail into the shade.", 
-        "dir": 0, 
+        "desc": "The trees seem to part, exposing a trail into the shade.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6078
-      }, 
+      },
       {
-        "desc": "The trees seem to part, exposing a trail into the shade.", 
-        "dir": 1, 
+        "desc": "The trees seem to part, exposing a trail into the shade.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6070
-      }, 
+      },
       {
-        "desc": "The trees seem to part, exposing a trail into the shade.", 
-        "dir": 2, 
+        "desc": "The trees seem to part, exposing a trail into the shade.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6061
-      }, 
+      },
       {
-        "desc": "The trees seem to part, exposing a trail into the shade.", 
-        "dir": 3, 
+        "desc": "The trees seem to part, exposing a trail into the shade.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6072
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The path is long behind you now... you aren't sure which direction it lies\nin anymore.", 
+        "desc": "The path is long behind you now... you aren't sure which direction it lies\nin anymore.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are younger here than to those to the west.", 
+        "desc": "The trees are younger here than to those to the west.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6070, 
-    "name": "Off Of The Path In The Shaded Forest", 
+    ],
+    "flags": [],
+    "id": 6070,
+    "name": "Off Of The Path In The Shaded Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small shaded path leading in between the trees.  The forest\ngradually lightens to the east.  Paths lead west and south, and you think you\nsee a small path leading eastward.", 
+    "desc": "You are on a small shaded path leading in between the trees.  The forest\ngradually lightens to the east.  Paths lead west and south, and you think you\nsee a small path leading eastward.",
     "exits": [
       {
-        "desc": "It looks like a small path begins between two trees to the east, but you\naren't quite certain.", 
-        "dir": 1, 
+        "desc": "It looks like a small path begins between two trees to the east, but you\naren't quite certain.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6070
-      }, 
+      },
       {
-        "desc": "The path winds its way through the trees to an split in the path.", 
-        "dir": 2, 
+        "desc": "The path winds its way through the trees to an split in the path.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6066
-      }, 
+      },
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 3, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6072
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The shadowy path is probably used by the small animals living in the forest.", 
+        "desc": "The shadowy path is probably used by the small animals living in the forest.",
         "keywords": [
-          "path", 
-          "paths", 
-          "shadowy", 
+          "path",
+          "paths",
+          "shadowy",
           "shadowed"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6071, 
-    "name": "A Shaded Path Through The Forest", 
+    ],
+    "flags": [],
+    "id": 6071,
+    "name": "A Shaded Path Through The Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small shaded path leading between the trees.  The forest\ngradually becomes more dense to the west.  Paths lead north and east, and you\nsee a small clearing to the south.", 
+    "desc": "You are on a small shaded path leading between the trees.  The forest\ngradually becomes more dense to the west.  Paths lead north and east, and you\nsee a small clearing to the south.",
     "exits": [
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 0, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6075
-      }, 
+      },
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 1, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6071
-      }, 
+      },
       {
-        "desc": "A lightly traveled path heads southward to a small clearing.", 
-        "dir": 2, 
+        "desc": "A lightly traveled path heads southward to a small clearing.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6067
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The shaded path is probably used by the small animals living in the forest.", 
+        "desc": "The shaded path is probably used by the small animals living in the forest.",
         "keywords": [
-          "path", 
-          "paths", 
+          "path",
+          "paths",
           "shaded"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6072, 
-    "name": "A Shaded Path Though The Forest", 
+    ],
+    "flags": [],
+    "id": 6072,
+    "name": "A Shaded Path Though The Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small shadowy path leading through the dense forest.  To the\nnorth the terrain becomes quite hilly and rough.  The crowns of the old trees\nleave the forest in an unreal twilight illumination.  The path continues north\nand south.", 
+    "desc": "You are on a small shadowy path leading through the dense forest.  To the\nnorth the terrain becomes quite hilly and rough.  The crowns of the old trees\nleave the forest in an unreal twilight illumination.  The path continues north\nand south.",
     "exits": [
       {
-        "desc": "The path winds its way into the hills and denser forest.", 
-        "dir": 0, 
+        "desc": "The path winds its way into the hills and denser forest.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6076
-      }, 
+      },
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 2, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6068
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The shadowy path is probably used by the animals living in the forest.", 
+        "desc": "The shadowy path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
-          "paths", 
+          "path",
+          "paths",
           "shadowy"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
-      }, 
+      },
       {
-        "desc": "To the northwest you see hills covered by dense forest.", 
+        "desc": "To the northwest you see hills covered by dense forest.",
         "keywords": [
-          "hill", 
-          "hills", 
+          "hill",
+          "hills",
           "terrain"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6073, 
-    "name": "A Shadowy Path Through The Dense Forest", 
+    ],
+    "flags": [],
+    "id": 6073,
+    "name": "A Shadowy Path Through The Dense Forest",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You have just left the shaded path, and you are now standing at the head of\na very short trail.  It looks like someone begin clearing away the underbrush\nhere, but didn't get finished.  You may leave in any direction, but the path\nis to the west.", 
+    "desc": "You have just left the shaded path, and you are now standing at the head of\na very short trail.  It looks like someone begin clearing away the underbrush\nhere, but didn't get finished.  You may leave in any direction, but the path\nis to the west.",
     "exits": [
       {
-        "desc": "The trees seem to part, exposing a trail into the shade.", 
-        "dir": 0, 
+        "desc": "The trees seem to part, exposing a trail into the shade.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6074
-      }, 
+      },
       {
-        "desc": "The trees seem to part, exposing a trail into the shade.", 
-        "dir": 1, 
+        "desc": "The trees seem to part, exposing a trail into the shade.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6070
-      }, 
+      },
       {
-        "desc": "The trees seem to part, exposing a trail into the shade.", 
-        "dir": 2, 
+        "desc": "The trees seem to part, exposing a trail into the shade.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6070
-      }, 
+      },
       {
-        "desc": "Through the underbrush you see a small path winding its way northward.", 
-        "dir": 3, 
+        "desc": "Through the underbrush you see a small path winding its way northward.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6075
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The narrow path is probably used by the animals living in the forest.", 
+        "desc": "The narrow path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6074, 
-    "name": "A Small Trail Through The Forest", 
+    ],
+    "flags": [],
+    "id": 6074,
+    "name": "A Small Trail Through The Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a small shaded path leading between the trees.  The forest\ngradually becomes more dense to the west, and to the northwest the terrain\nis quite hilly.  The path continues north and south.  To the east you see a\ntrail winding through the younger section of the forest.", 
+    "desc": "You are on a small shaded path leading between the trees.  The forest\ngradually becomes more dense to the west, and to the northwest the terrain\nis quite hilly.  The path continues north and south.  To the east you see a\ntrail winding through the younger section of the forest.",
     "exits": [
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 0, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6078
-      }, 
+      },
       {
-        "desc": "You think you see the beginnings of a small trail through the younger part of\nthe forest.", 
-        "dir": 1, 
+        "desc": "You think you see the beginnings of a small trail through the younger part of\nthe forest.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6074
-      }, 
+      },
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 2, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6072
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The shaded path is probably used by the animals living in the forest.", 
+        "desc": "The shaded path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
-          "paths", 
+          "path",
+          "paths",
           "shaded"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
-      }, 
+      },
       {
-        "desc": "To the northwest the ground becomes more hilly. You have heard that a halfling\nvillage is somewhere in the hills.", 
+        "desc": "To the northwest the ground becomes more hilly. You have heard that a halfling\nvillage is somewhere in the hills.",
         "keywords": [
-          "hills", 
-          "hill", 
+          "hills",
+          "hill",
           "terrain"
         ]
-      }, 
+      },
       {
-        "desc": "You think you see the beginnings of a small trail to the east, winding through\nthe younger part of the forest.", 
+        "desc": "You think you see the beginnings of a small trail to the east, winding through\nthe younger part of the forest.",
         "keywords": [
           "trail"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6075, 
-    "name": "A Shaded Path Through The Forest", 
+    ],
+    "flags": [],
+    "id": 6075,
+    "name": "A Shaded Path Through The Forest",
     "sector_type": {
-      "note": "FOREST", 
+      "note": "FOREST",
       "value": 3
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are standing among tightly packed trees between several hills.  You\nlost track of the path long ago, and now must rely on your instincts to guide\nyou.  The ground is very rough and rocky here, and only the most hardy plants\nsurvive.  The crowns of the old trees leave the hills in an unreal twilight\nillumination.", 
+    "desc": "You are standing among tightly packed trees between several hills.  You\nlost track of the path long ago, and now must rely on your instincts to guide\nyou.  The ground is very rough and rocky here, and only the most hardy plants\nsurvive.  The crowns of the old trees leave the hills in an unreal twilight\nillumination.",
     "exits": [
       {
-        "desc": "All you see are trees and hillsides.", 
-        "dir": 0, 
+        "desc": "All you see are trees and hillsides.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6081
-      }, 
+      },
       {
-        "desc": "All you see are trees and hillsides.", 
-        "dir": 1, 
+        "desc": "All you see are trees and hillsides.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6077
-      }, 
+      },
       {
-        "desc": "All you see are trees and hillsides.", 
-        "dir": 2, 
+        "desc": "All you see are trees and hillsides.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6076
-      }, 
+      },
       {
-        "desc": "All you see are trees and a shadowy path.", 
-        "dir": 3, 
+        "desc": "All you see are trees and a shadowy path.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6073
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The path is probably around here somewhere... if only you had paid more\nattention.", 
+        "desc": "The path is probably around here somewhere... if only you had paid more\nattention.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
-      }, 
+      },
       {
-        "desc": "Hills rise up all around you, blocking your view of the terrain.", 
+        "desc": "Hills rise up all around you, blocking your view of the terrain.",
         "keywords": [
-          "hills", 
+          "hills",
           "hill"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 6076, 
-    "name": "In The Dense Forest Between The Hills", 
+    ],
+    "id": 6076,
+    "name": "In The Dense Forest Between The Hills",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are standing among tightly packed trees between several hills.  You\nlost track of the path long ago, and now must rely on your instincts to guide\nyou.  The ground is very rough and rocky here, and only the most hardy plants\nsurvive.  The crowns of the old trees leave the hills in an unreal twilight\nillumination.", 
+    "desc": "You are standing among tightly packed trees between several hills.  You\nlost track of the path long ago, and now must rely on your instincts to guide\nyou.  The ground is very rough and rocky here, and only the most hardy plants\nsurvive.  The crowns of the old trees leave the hills in an unreal twilight\nillumination.",
     "exits": [
       {
-        "desc": "All you see are trees and hillsides.", 
-        "dir": 0, 
+        "desc": "All you see are trees and hillsides.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6081
-      }, 
+      },
       {
-        "desc": "All you see are trees and hillsides.", 
-        "dir": 1, 
+        "desc": "All you see are trees and hillsides.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6076
-      }, 
+      },
       {
-        "desc": "All you see are trees and hillsides.", 
-        "dir": 2, 
+        "desc": "All you see are trees and hillsides.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6079
-      }, 
+      },
       {
-        "desc": "All you see are trees and hillsides.", 
-        "dir": 3, 
+        "desc": "All you see are trees and hillsides.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6077
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The path is probably around here somewhere...if only you had paid more\nattention.", 
+        "desc": "The path is probably around here somewhere...if only you had paid more\nattention.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
-      }, 
+      },
       {
-        "desc": "Hills rise up all around you, blocking your view of the terrain.", 
+        "desc": "Hills rise up all around you, blocking your view of the terrain.",
         "keywords": [
-          "hills", 
+          "hills",
           "hill"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 6077, 
-    "name": "In The Dense Forest Between The Hills", 
+    ],
+    "id": 6077,
+    "name": "In The Dense Forest Between The Hills",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are at the end of a small shaded path leading between the trees.  The\nforest is quite thick here, and the ground is very rough and hilly, halting\nyour progress.  The path lies to the south.", 
+    "desc": "You are at the end of a small shaded path leading between the trees.  The\nforest is quite thick here, and the ground is very rough and hilly, halting\nyour progress.  The path lies to the south.",
     "exits": [
       {
-        "desc": "The path winds its way between the trees.", 
-        "dir": 2, 
+        "desc": "The path winds its way between the trees.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6075
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The shaded path is probably used by the animals living in the forest.", 
+        "desc": "The shaded path is probably used by the animals living in the forest.",
         "keywords": [
-          "path", 
-          "paths", 
+          "path",
+          "paths",
           "shaded"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
-      }, 
+      },
       {
-        "desc": "The terrian is very hilly and rough to the north and west.  You have heard\nthat there is a halfling village somewhere in the hills.", 
+        "desc": "The terrian is very hilly and rough to the north and west.  You have heard\nthat there is a halfling village somewhere in the hills.",
         "keywords": [
-          "hills", 
+          "hills",
           "hill"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 6078, 
-    "name": "In The Dense Forest Between The Hills", 
+    ],
+    "flags": [],
+    "id": 6078,
+    "name": "In The Dense Forest Between The Hills",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are standing among tightly packed trees between several hills.  You\nlost track of the path long ago, and now must rely on your instincts to guide\nyou.  The ground is very rough and rocky here, and only the most hardy plants\nsurvive.  The crowns of the old trees leave the hills in an unreal twilight\nillumination.", 
+    "desc": "You are standing among tightly packed trees between several hills.  You\nlost track of the path long ago, and now must rely on your instincts to guide\nyou.  The ground is very rough and rocky here, and only the most hardy plants\nsurvive.  The crowns of the old trees leave the hills in an unreal twilight\nillumination.",
     "exits": [
       {
-        "desc": "All you see are trees and hillsides.", 
-        "dir": 0, 
+        "desc": "All you see are trees and hillsides.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6081
-      }, 
+      },
       {
-        "desc": "All you see are trees and hillsides.", 
-        "dir": 1, 
+        "desc": "All you see are trees and hillsides.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6078
-      }, 
+      },
       {
-        "desc": "All you see are trees and a shadowy path.", 
-        "dir": 2, 
+        "desc": "All you see are trees and a shadowy path.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6073
-      }, 
+      },
       {
-        "desc": "All you see are trees and hillsides.", 
-        "dir": 3, 
+        "desc": "All you see are trees and hillsides.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6080
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The path is probably around here somewhere...if only you had paid more\nattention.", 
+        "desc": "The path is probably around here somewhere...if only you had paid more\nattention.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
-      }, 
+      },
       {
-        "desc": "Hills rise up all around you, blocking your view of the terrain.", 
+        "desc": "Hills rise up all around you, blocking your view of the terrain.",
         "keywords": [
-          "hills", 
+          "hills",
           "hill"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 6079, 
-    "name": "In The Dense Forest Between The Hills", 
+    ],
+    "id": 6079,
+    "name": "In The Dense Forest Between The Hills",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are standing among tightly packed trees between several hills.  You\nlost track of the path long ago, and now must rely on your instincts to guide\nyou.  The ground is very rough and rocky here, and only the most hardy plants\nsurvive.  The crowns of the old trees leave the hills in an unreal twilight\nillumination.", 
+    "desc": "You are standing among tightly packed trees between several hills.  You\nlost track of the path long ago, and now must rely on your instincts to guide\nyou.  The ground is very rough and rocky here, and only the most hardy plants\nsurvive.  The crowns of the old trees leave the hills in an unreal twilight\nillumination.",
     "exits": [
       {
-        "desc": "All you see are trees and hillsides.", 
-        "dir": 0, 
+        "desc": "All you see are trees and hillsides.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6081
-      }, 
+      },
       {
-        "desc": "All you see are trees and hillsides.", 
-        "dir": 1, 
+        "desc": "All you see are trees and hillsides.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6082
-      }, 
+      },
       {
-        "desc": "All you see are trees and hillsides.", 
-        "dir": 2, 
+        "desc": "All you see are trees and hillsides.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6076
-      }, 
+      },
       {
-        "desc": "All you see are trees and hillsides.", 
-        "dir": 3, 
+        "desc": "All you see are trees and hillsides.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6081
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The path is probably around here somewhere...if only you had paid more\nattention.", 
+        "desc": "The path is probably around here somewhere...if only you had paid more\nattention.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
-      }, 
+      },
       {
-        "desc": "Hills rise up all around you, blocking your view of the terrain.", 
+        "desc": "Hills rise up all around you, blocking your view of the terrain.",
         "keywords": [
-          "hills", 
+          "hills",
           "hill"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 6080, 
-    "name": "In The Dense Forest Between The Hills", 
+    ],
+    "id": 6080,
+    "name": "In The Dense Forest Between The Hills",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are standing among tightly packed trees between several hills.  You\nlost track of the path long ago, and now must rely on your instincts to guide\nyou.  The ground is very rough and rocky here, and only the most hardy plants\nsurvive.  The crowns of the old trees leave the hills in an unreal twilight\nillumination.", 
+    "desc": "You are standing among tightly packed trees between several hills.  You\nlost track of the path long ago, and now must rely on your instincts to guide\nyou.  The ground is very rough and rocky here, and only the most hardy plants\nsurvive.  The crowns of the old trees leave the hills in an unreal twilight\nillumination.",
     "exits": [
       {
-        "desc": "All you see are trees and hillsides.", 
-        "dir": 0, 
+        "desc": "All you see are trees and hillsides.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6078
-      }, 
+      },
       {
-        "desc": "All you see are trees and hillsides.", 
-        "dir": 1, 
+        "desc": "All you see are trees and hillsides.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6077
-      }, 
+      },
       {
-        "desc": "All you see are trees and hillsides.", 
-        "dir": 2, 
+        "desc": "All you see are trees and hillsides.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6076
-      }, 
+      },
       {
-        "desc": "All you see are trees and a shadowy path.", 
-        "dir": 3, 
+        "desc": "All you see are trees and a shadowy path.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6073
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The path is probably around here somewhere...if only you had paid more\nattention.", 
+        "desc": "The path is probably around here somewhere...if only you had paid more\nattention.",
         "keywords": [
-          "path", 
+          "path",
           "paths"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
-      }, 
+      },
       {
-        "desc": "Hills rise up all around you, blocking your view of the terrain.", 
+        "desc": "Hills rise up all around you, blocking your view of the terrain.",
         "keywords": [
-          "hills", 
+          "hills",
           "hill"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 6081, 
-    "name": "In The Dense Forest Between The Hills", 
+    ],
+    "id": 6081,
+    "name": "In The Dense Forest Between The Hills",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are standing among tightly packed trees on a medium sized hill. The\ndense forest spreads out all around you, and the crowns of the old trees leave\nthe hills in an unreal twilight illumination.", 
+    "desc": "You are standing among tightly packed trees on a medium sized hill. The\ndense forest spreads out all around you, and the crowns of the old trees leave\nthe hills in an unreal twilight illumination.",
     "exits": [
       {
-        "desc": "All you see are trees and hillsides.", 
-        "dir": 0, 
+        "desc": "All you see are trees and hillsides.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6081
-      }, 
+      },
       {
-        "desc": "All you see are trees and hillsides.", 
-        "dir": 1, 
+        "desc": "All you see are trees and hillsides.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6079
-      }, 
+      },
       {
-        "desc": "All you see are trees and hillsides.", 
-        "dir": 2, 
+        "desc": "All you see are trees and hillsides.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6076
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The trees are mostly old beeches and oaks.", 
+        "desc": "The trees are mostly old beeches and oaks.",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
-      }, 
+      },
       {
-        "desc": "Hills rise up all around you, blocking your view of the terrain.", 
+        "desc": "Hills rise up all around you, blocking your view of the terrain.",
         "keywords": [
-          "hills", 
+          "hills",
           "hill"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 6082, 
-    "name": "In The Dense Forest Between The Hills", 
+    ],
+    "id": 6082,
+    "name": "In The Dense Forest Between The Hills",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a dust covered east-west road through the western plains.  An\noccasional hunter or adventurer can be seen, heading to or from the forest.\nTo the east is the walled city, Midgaard, and to the west the road ends at\nthe head of a narrow trail into a large forest.", 
+    "desc": "You are on a dust covered east-west road through the western plains.  An\noccasional hunter or adventurer can be seen, heading to or from the forest.\nTo the east is the walled city, Midgaard, and to the west the road ends at\nthe head of a narrow trail into a large forest.",
     "exits": [
       {
-        "desc": "Far to the east you see the large walls guarding Midgaard.", 
-        "dir": 1, 
+        "desc": "Far to the east you see the large walls guarding Midgaard.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6091
-      }, 
+      },
       {
-        "desc": "To the west the dusty trail ends, and becomes a narrow trail into the cool\nshadows of the forest.", 
-        "dir": 3, 
+        "desc": "To the west the dusty trail ends, and becomes a narrow trail into the cool\nshadows of the forest.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6000
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The forest trail winds westwards through the trees.", 
+        "desc": "The forest trail winds westwards through the trees.",
         "keywords": [
           "trail"
         ]
-      }, 
+      },
       {
-        "desc": "The trees are quite tall considering most of them appear to be quite young.", 
+        "desc": "The trees are quite tall considering most of them appear to be quite young.",
         "keywords": [
-          "tree", 
-          "trees", 
+          "tree",
+          "trees",
           "forest"
         ]
-      }, 
+      },
       {
-        "desc": "The road is well used, and quite dusty.", 
+        "desc": "The road is well used, and quite dusty.",
         "keywords": [
-          "road", 
-          "dust", 
+          "road",
+          "dust",
           "dusty"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 6090, 
-    "name": "A Road Through The Plains", 
+    ],
+    "id": 6090,
+    "name": "A Road Through The Plains",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a dust covered east-west road through the western plains.  An\noccasional hunter or adventurer can be seen, heading to or from the forest.\nTo the east is the walled city, Midgaard, and to the west the road continues \ntowards a large forest.", 
+    "desc": "You are on a dust covered east-west road through the western plains.  An\noccasional hunter or adventurer can be seen, heading to or from the forest.\nTo the east is the walled city, Midgaard, and to the west the road continues \ntowards a large forest.",
     "exits": [
       {
-        "desc": "Far to the east you see the walls and western gate of Midgaard.", 
-        "dir": 1, 
+        "desc": "Far to the east you see the walls and western gate of Midgaard.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6092
-      }, 
+      },
       {
-        "desc": "You see the large forest, Haon-Dor, stretching out far to the west, and to the\nnorthwest you the forest gives way to hills.", 
-        "dir": 3, 
+        "desc": "You see the large forest, Haon-Dor, stretching out far to the west, and to the\nnorthwest you the forest gives way to hills.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6090
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The large forest of Haon-Dor spreads out to the west.  Small and large game\nis plentiful there... as is adventure, and of course, danger!", 
+        "desc": "The large forest of Haon-Dor spreads out to the west.  Small and large game\nis plentiful there... as is adventure, and of course, danger!",
         "keywords": [
-          "forest", 
-          "haondor", 
+          "forest",
+          "haondor",
           "haon-dor"
         ]
-      }, 
+      },
       {
-        "desc": "Some small trees grow amongst the underbrush of the plains.  These slowly gain\nin height as you travel farther westward towards Haon-Dor", 
+        "desc": "Some small trees grow amongst the underbrush of the plains.  These slowly gain\nin height as you travel farther westward towards Haon-Dor",
         "keywords": [
-          "tree", 
+          "tree",
           "trees"
         ]
-      }, 
+      },
       {
-        "desc": "The road is well used, and quite dusty.", 
+        "desc": "The road is well used, and quite dusty.",
         "keywords": [
-          "road", 
-          "dust", 
+          "road",
+          "dust",
           "dusty"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 6091, 
-    "name": "A Road Through The Plains", 
+    ],
+    "id": 6091,
+    "name": "A Road Through The Plains",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 60
-  }, 
+  },
   {
-    "desc": "You are on a dust covered east-west road crossing the grassy plains between\nMidgaard the forest of Haon-Dor.  An occasional hunter or adventurer can be \nseen, heading to or from the forest.  To the east is the walled city, Midgaard, \nand to the west the road continues towards a large forest.", 
+    "desc": "You are on a dust covered east-west road crossing the grassy plains between\nMidgaard the forest of Haon-Dor.  An occasional hunter or adventurer can be \nseen, heading to or from the forest.  To the east is the walled city, Midgaard, \nand to the west the road continues towards a large forest.",
     "exits": [
       {
-        "desc": "To the east you see the walls and West Gate of Midgaard.", 
-        "dir": 1, 
+        "desc": "To the east you see the walls and West Gate of Midgaard.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3052
-      }, 
+      },
       {
-        "desc": "To the west the road continues towards the forest.", 
-        "dir": 3, 
+        "desc": "To the west the road continues towards the forest.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6091
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The large forest of Haon-dor spreads out to the west.  Small and large game\nis plentiful there...as is adventure, and of course, danger!", 
+        "desc": "The large forest of Haon-dor spreads out to the west.  Small and large game\nis plentiful there...as is adventure, and of course, danger!",
         "keywords": [
           "forest"
         ]
-      }, 
+      },
       {
-        "desc": "The road is well used, and quite dusty.", 
+        "desc": "The road is well used, and quite dusty.",
         "keywords": [
-          "road", 
-          "dust", 
+          "road",
+          "dust",
           "dusty"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 6092, 
-    "name": "A Road Through The Plains", 
+    ],
+    "id": 6092,
+    "name": "A Road Through The Plains",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 60
   }
 ]

@@ -1,2273 +1,2273 @@
 [
   {
-    "desc": "You are at the concourse, the city wall is just west.  A small promenade\ngoes east, and the bridge is just north of here.  The concourse continues\nsouth along the city wall.", 
+    "desc": "You are at the concourse, the city wall is just west.  A small promenade\ngoes east, and the bridge is just north of here.  The concourse continues\nsouth along the city wall.",
     "exits": [
       {
-        "desc": "You see the Bridge.", 
-        "dir": 0, 
+        "desc": "You see the Bridge.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3051
-      }, 
+      },
       {
-        "desc": "You see the promenade.", 
-        "dir": 1, 
+        "desc": "You see the promenade.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3101
-      }, 
+      },
       {
-        "desc": "The promenade continues far south.", 
-        "dir": 2, 
+        "desc": "The promenade continues far south.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3127
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3100, 
-    "name": "The Northwest End Of The Concourse", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3100,
+    "name": "The Northwest End Of The Concourse",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "The river gently flows westwards just north of here.  The promenade\ncontinues further east and to the west you see the city wall.  Park Road\nleads south from here.", 
+    "desc": "The river gently flows westwards just north of here.  The promenade\ncontinues further east and to the west you see the city wall.  Park Road\nleads south from here.",
     "exits": [
       {
-        "desc": "The promenade continues.", 
-        "dir": 1, 
+        "desc": "The promenade continues.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3102
-      }, 
+      },
       {
-        "desc": "Park Road leads south.", 
-        "dir": 2, 
+        "desc": "Park Road leads south.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3131
-      }, 
+      },
       {
-        "desc": "You see the Concourse.", 
-        "dir": 3, 
+        "desc": "You see the Concourse.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3100
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3101, 
-    "name": "The Promenade", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3101,
+    "name": "The Promenade",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "The river gently flows westwards just north of here.  The promenade\ncontinues both east and west.  South of here you see the entrance to\nthe park, and a small building seems to be just west of the entrance.", 
+    "desc": "The river gently flows westwards just north of here.  The promenade\ncontinues both east and west.  South of here you see the entrance to\nthe park, and a small building seems to be just west of the entrance.",
     "exits": [
       {
-        "desc": "You see the promenade.", 
-        "dir": 1, 
+        "desc": "You see the promenade.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3103
-      }, 
+      },
       {
-        "desc": "You see the park entrance.", 
-        "dir": 2, 
+        "desc": "You see the park entrance.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3105
-      }, 
+      },
       {
-        "desc": "You see the promenade.", 
-        "dir": 3, 
+        "desc": "You see the promenade.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3101
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3102, 
-    "name": "The Promenade", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3102,
+    "name": "The Promenade",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "The river gently flows westwards just north of here.  The promenade\ncontinues both east and west.  A small path leads south.  Looking across\nthe river you see the levee.", 
+    "desc": "The river gently flows westwards just north of here.  The promenade\ncontinues both east and west.  A small path leads south.  Looking across\nthe river you see the levee.",
     "exits": [
       {
-        "desc": "You see the Concourse.", 
-        "dir": 1, 
+        "desc": "You see the Concourse.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3104
-      }, 
+      },
       {
-        "desc": "The small path leads south.", 
-        "dir": 2, 
+        "desc": "The small path leads south.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3132
-      }, 
+      },
       {
-        "desc": "You see the promenade.", 
-        "dir": 3, 
+        "desc": "You see the promenade.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3102
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3103, 
-    "name": "The Promenade", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3103,
+    "name": "The Promenade",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are at the Concourse.  The city wall is just east and a small\npromenade goes west.  Looking across the river you see a building that\nresembles a warehouse.  The Concourse continues south along the city\nwall.", 
+    "desc": "You are at the Concourse.  The city wall is just east and a small\npromenade goes west.  Looking across the river you see a building that\nresembles a warehouse.  The Concourse continues south along the city\nwall.",
     "exits": [
       {
-        "desc": "The Concourse continues south.", 
-        "dir": 2, 
+        "desc": "The Concourse continues south.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3130
-      }, 
+      },
       {
-        "desc": "You see the promenade.", 
-        "dir": 3, 
+        "desc": "You see the promenade.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3103
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It is built from large grey rocks that have been fastened to each other with\nsome kind of mortar.  It is far too high to climb.", 
+        "desc": "It is built from large grey rocks that have been fastened to each other with\nsome kind of mortar.  It is far too high to climb.",
         "keywords": [
           "wall"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 3104, 
-    "name": "The Northeast End Of The Concourse", 
+    ],
+    "flags": [],
+    "id": 3104,
+    "name": "The Northeast End Of The Concourse",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are standing just inside the small park of Midgaard.  To the north is\nthe promenade and a small path leads south into the park.  To your east is\nthe famous Park Cafe.", 
+    "desc": "You are standing just inside the small park of Midgaard.  To the north is\nthe promenade and a small path leads south into the park.  To your east is\nthe famous Park Cafe.",
     "exits": [
       {
-        "desc": "You see the promenade.", 
-        "dir": 0, 
+        "desc": "You see the promenade.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3102
-      }, 
+      },
       {
-        "desc": "You see Park Cafe.", 
-        "dir": 1, 
+        "desc": "You see Park Cafe.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3106
-      }, 
+      },
       {
-        "desc": "You see the park.", 
-        "dir": 2, 
+        "desc": "You see the park.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3108
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 3105, 
-    "name": "The Park Entrance", 
+    ],
+    "id": 3105,
+    "name": "The Park Entrance",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are inside Park Cafe, a very cozy place with many tables and\nseats where you can relax and enjoy the view.  To the east you can\nsee the entrance to the park.", 
+    "desc": "You are inside Park Cafe, a very cozy place with many tables and\nseats where you can relax and enjoy the view.  To the east you can\nsee the entrance to the park.",
     "exits": [
       {
-        "desc": "You see the park entrance.", 
-        "dir": 3, 
+        "desc": "You see the park entrance.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3105
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOMAGIC", 
+        "note": "NOMAGIC",
         "value": 128
       }
-    ], 
-    "id": 3106, 
-    "name": "Park Cafe", 
+    ],
+    "id": 3106,
+    "name": "Park Cafe",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are walking along a small path through the park.  The path continues\nsouth and east.", 
+    "desc": "You are walking along a small path through the park.  The path continues\nsouth and east.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3108
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3113
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3107, 
-    "name": "A Small Path In The Park", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3107,
+    "name": "A Small Path In The Park",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are standing on a small path inside the park.  The park entrance is\njust north of here, and Park Cafe is just east of the entrance.  The path\nleads further east and west.", 
+    "desc": "You are standing on a small path inside the park.  The park entrance is\njust north of here, and Park Cafe is just east of the entrance.  The path\nleads further east and west.",
     "exits": [
       {
-        "desc": "You see the northern park entrance.", 
-        "dir": 0, 
+        "desc": "You see the northern park entrance.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3105
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3109
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3107
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3108, 
-    "name": "A Small Path In The Park", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3108,
+    "name": "A Small Path In The Park",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are on a small path running through the park.  It continues west and\nsouth and just north of here you see the southern wall of Park Cafe.", 
+    "desc": "You are on a small path running through the park.  It continues west and\nsouth and just north of here you see the southern wall of Park Cafe.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3115
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3108
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3109, 
-    "name": "A Small Path In The Park", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3109,
+    "name": "A Small Path In The Park",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are inside a tidy office.", 
+    "desc": "You are inside a tidy office.",
     "exits": [
       {
-        "desc": "You see Park Road.", 
-        "dir": 1, 
+        "desc": "You see Park Road.",
+        "dir": 1,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": 3105, 
+        },
+        "key_number": 3105,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 3111
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3110, 
-    "name": "Cityguard HeadQuarters", 
+    ],
+    "id": 3110,
+    "name": "Cityguard HeadQuarters",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "The road continues north and south.  A building is just west of here, you\nnotice a sign on the door.  The park entrance is to the east.", 
+    "desc": "The road continues north and south.  A building is just west of here, you\nnotice a sign on the door.  The park entrance is to the east.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3131
-      }, 
+      },
       {
-        "desc": "You see the park entrance.", 
-        "dir": 1, 
+        "desc": "You see the park entrance.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3112
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3118
-      }, 
+      },
       {
-        "desc": "You see the Cityguard HeadQuarters.", 
-        "dir": 3, 
+        "desc": "You see the Cityguard HeadQuarters.",
+        "dir": 3,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": 3105, 
+        },
+        "key_number": 3105,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 3110
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The sign on the door says:\n\n                 Cityguard HeadQuarters\n\n           WARNING: Authorized Personnel Only!\n", 
+        "desc": "The sign on the door says:\n\n                 Cityguard HeadQuarters\n\n           WARNING: Authorized Personnel Only!\n",
         "keywords": [
-          "building", 
-          "door", 
+          "building",
+          "door",
           "sign"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 3111, 
-    "name": "Park Road", 
+    ],
+    "flags": [],
+    "id": 3111,
+    "name": "Park Road",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are standing at the western end of the park.  A small path leads east\ninto the park and going west through the entrance you will reach Park Road.", 
+    "desc": "You are standing at the western end of the park.  A small path leads east\ninto the park and going west through the entrance you will reach Park Road.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3113
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3111
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 3112, 
-    "name": "The Western Park Entrance", 
+    ],
+    "id": 3112,
+    "name": "The Western Park Entrance",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are in the park.  The paths lead north and west.  Westward is the\npark entrance and to the east you see a small pond.", 
+    "desc": "You are in the park.  The paths lead north and west.  Westward is the\npark entrance and to the east you see a small pond.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3107
-      }, 
+      },
       {
-        "desc": "You see the pond.", 
-        "dir": 1, 
+        "desc": "You see the pond.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3114
-      }, 
+      },
       {
-        "desc": "You see the western park entrance.", 
-        "dir": 3, 
+        "desc": "You see the western park entrance.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3112
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3113, 
-    "name": "A Path In The Park", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3113,
+    "name": "A Path In The Park",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are swimming around in the pond, feeling rather stupid.  You can get\nback on the path from the eastern and western end of the pond.", 
+    "desc": "You are swimming around in the pond, feeling rather stupid.  You can get\nback on the path from the eastern and western end of the pond.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3115
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3113
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3114, 
-    "name": "The Pond", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3114,
+    "name": "The Pond",
     "sector_type": {
-      "note": "WATER_SWIM", 
+      "note": "WATER_SWIM",
       "value": 6
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are in the park.  The paths lead north and east.  Eastward is the\npark entrance and to the west you see a small pond.", 
+    "desc": "You are in the park.  The paths lead north and east.  Eastward is the\npark entrance and to the west you see a small pond.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3109
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3116
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3114
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3115, 
-    "name": "A Path In The Park", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3115,
+    "name": "A Path In The Park",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are standing at the eastern end of the park.  A small path leads west\ninto the park.  Going east through the entrance you will reach Emerald\nAvenue.", 
+    "desc": "You are standing at the eastern end of the park.  A small path leads west\ninto the park.  Going east through the entrance you will reach Emerald\nAvenue.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3117
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3115
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 3116, 
-    "name": "The Eastern Park Entrance", 
+    ],
+    "id": 3116,
+    "name": "The Eastern Park Entrance",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are standing on the north end of Emerald Avenue.  To the north is the\npromenade and to the west is the park entrance.  To the east is the not very\nbig Town Hall of Midgaard.", 
+    "desc": "You are standing on the north end of Emerald Avenue.  To the north is the\npromenade and to the west is the park entrance.  To the east is the not very\nbig Town Hall of Midgaard.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3132
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3137
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3119
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3116
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3117, 
-    "name": "Emerald Avenue", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3117,
+    "name": "Emerald Avenue",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are on Park Road which leads north and south.", 
+    "desc": "You are on Park Road which leads north and south.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3111
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3135
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3118, 
-    "name": "Park Road", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3118,
+    "name": "Park Road",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are standing at a bend on Emerald Avenue.  The road leads north and\nwest.", 
+    "desc": "You are standing at a bend on Emerald Avenue.  The road leads north and\nwest.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3117
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3133
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3119, 
-    "name": "Emerald Avenue", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3119,
+    "name": "Emerald Avenue",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are in the middle of the road cross.  Roads lead in all directions.\nA huge black iron chain as thick as a tree trunk is fastened into the ground\nat the center of the road cross.  Its other end leads directly upwards towards\nthe sky.\nA road sign is here.", 
+    "desc": "You are in the middle of the road cross.  Roads lead in all directions.\nA huge black iron chain as thick as a tree trunk is fastened into the ground\nat the center of the road cross.  Its other end leads directly upwards towards\nthe sky.\nA road sign is here.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3133
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3136
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3134
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3135
-      }, 
+      },
       {
-        "desc": "The chain disappears in the clouds.", 
-        "dir": 4, 
+        "desc": "The chain disappears in the clouds.",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 7914
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The sign points in all directions:\n\n   North - Emerald Avenue.\n   East  - Park Road.\n   South - Emerald Avenue.\n   West  - Park Road.\n\nSomeone has added the following with red paint:\n\n   Up    - Redferne's Flying Citadel.\n", 
+        "desc": "The sign points in all directions:\n\n   North - Emerald Avenue.\n   East  - Park Road.\n   South - Emerald Avenue.\n   West  - Park Road.\n\nSomeone has added the following with red paint:\n\n   Up    - Redferne's Flying Citadel.\n",
         "keywords": [
           "sign"
         ]
-      }, 
+      },
       {
-        "desc": "The chain reaches the clouds high above you.  It must take some really\npowerful magic to hold such a chain in place.", 
+        "desc": "The chain reaches the clouds high above you.  It must take some really\npowerful magic to hold such a chain in place.",
         "keywords": [
           "chain"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 3120, 
-    "name": "The Road Crossing", 
+    ],
+    "flags": [],
+    "id": 3120,
+    "name": "The Road Crossing",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are standing at a bend on Emerald Avenue.  The road leads south and\neast.", 
+    "desc": "You are standing at a bend on Emerald Avenue.  The road leads south and\neast.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3134
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3125
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3121, 
-    "name": "Emerald Avenue", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3121,
+    "name": "Emerald Avenue",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are on Park Road which leads south and north.  Elm Street is east of\nhere.", 
+    "desc": "You are on Park Road which leads south and north.  Elm Street is east of\nhere.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3136
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3123
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3126
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3122, 
-    "name": "Park Road", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3122,
+    "name": "Park Road",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are on Elm street.  Park Road is to the west and Elm Street continues\nin eastward direction.", 
+    "desc": "You are on Elm street.  Park Road is to the west and Elm Street continues\nin eastward direction.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3124
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3122
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3123, 
-    "name": "Elm Street", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3123,
+    "name": "Elm Street",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are at the end of Elm Street.", 
+    "desc": "You are at the end of Elm Street.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3123
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3124, 
-    "name": "The End Of Elm Street", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3124,
+    "name": "The End Of Elm Street",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are on Emerald Avenue which continues north.  The Concourse is south\nof here.", 
+    "desc": "You are on Emerald Avenue which continues north.  The Concourse is south\nof here.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3121
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3128
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3125, 
-    "name": "Emerald Avenue", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3125,
+    "name": "Emerald Avenue",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are on Park Road which continues north.  The Concourse is south of\nhere.", 
+    "desc": "You are on Park Road which continues north.  The Concourse is south of\nhere.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3122
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3129
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3126, 
-    "name": "Park Road", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3126,
+    "name": "Park Road",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are at the southwest corner of the city wall.  The Concourse leads\nboth north and east.", 
+    "desc": "You are at the southwest corner of the city wall.  The Concourse leads\nboth north and east.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3100
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3128
-      }, 
+      },
       {
-        "desc": "Through the South Gate you can see a small path leading southwards.", 
-        "dir": 3, 
+        "desc": "Through the South Gate you can see a small path leading southwards.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3504
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3127, 
-    "name": "On The Concourse", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3127,
+    "name": "On The Concourse",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "The Concourse continues both east and west.  Emerald Avenue is north of\nhere.", 
+    "desc": "The Concourse continues both east and west.  Emerald Avenue is north of\nhere.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3125
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3129
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3127
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3128, 
-    "name": "On The Concourse", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3128,
+    "name": "On The Concourse",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "The Concourse continues both east and west.  Park Road is north of here\nand an iron grate leads south to the graveyard.", 
+    "desc": "The Concourse continues both east and west.  Park Road is north of here\nand an iron grate leads south to the graveyard.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3126
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3130
-      }, 
+      },
       {
-        "desc": "Through the solid iron bars you see the graveyard.", 
-        "dir": 2, 
+        "desc": "Through the solid iron bars you see the graveyard.",
+        "dir": 2,
         "door_flag": {
-          "note": "PICKPROOF", 
+          "note": "PICKPROOF",
           "value": 2
-        }, 
-        "key_number": 3106, 
+        },
+        "key_number": 3106,
         "keywords": [
           "grate"
-        ], 
+        ],
         "room_linked": 3150
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3128
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3129, 
-    "name": "On The Concourse", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3129,
+    "name": "On The Concourse",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are at the southeast corner of the city wall.  The Concourse leads\nboth north and west.", 
+    "desc": "You are at the southeast corner of the city wall.  The Concourse leads\nboth north and west.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3104
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3129
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3130, 
-    "name": "On The Concourse", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3130,
+    "name": "On The Concourse",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are at Park Road which continues north and south.", 
+    "desc": "You are at Park Road which continues north and south.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3101
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3111
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3131, 
-    "name": "Park Road", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3131,
+    "name": "Park Road",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are at Emerald Avenue which continues north and south.  Penny Lane leads\neast from here.", 
+    "desc": "You are at Emerald Avenue which continues north and south.  Penny Lane leads\neast from here.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3103
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3139
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3117
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3132, 
-    "name": "Emerald Avenue", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3132,
+    "name": "Emerald Avenue",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are standing at a bend on Emerald Avenue.  To the east the road goes on\nand to the south is the Road Crossing.", 
+    "desc": "You are standing at a bend on Emerald Avenue.  To the east the road goes on\nand to the south is the Road Crossing.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3119
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3120
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3133, 
-    "name": "Emerald Avenue", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3133,
+    "name": "Emerald Avenue",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are standing at a bend on Emerald Avenue.  To the west the road goes on\nand to the north is the Road Crossing.", 
+    "desc": "You are standing at a bend on Emerald Avenue.  To the west the road goes on\nand to the north is the Road Crossing.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3120
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3121
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3134, 
-    "name": "Emerald Avenue", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3134,
+    "name": "Emerald Avenue",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are at a bend on Park Road.  To the north the road goes on and to the\neast is the Road Crossing.", 
+    "desc": "You are at a bend on Park Road.  To the north the road goes on and to the\neast is the Road Crossing.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3118
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3120
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3135, 
-    "name": "Park Road", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3135,
+    "name": "Park Road",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are at a bend on Park Road.  To the south the road goes on and to the\nwest is the Road Crossing.", 
+    "desc": "You are at a bend on Park Road.  To the south the road goes on and to the\nwest is the Road Crossing.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3122
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3120
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3136, 
-    "name": "Park Road", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3136,
+    "name": "Park Road",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are standing in the waiting room at the town hall.  Wooden chairs stand\nalong the walls and a long desk with a typewriter is placed in the middle of\nthe room.", 
+    "desc": "You are standing in the waiting room at the town hall.  Wooden chairs stand\nalong the walls and a long desk with a typewriter is placed in the middle of\nthe room.",
     "exits": [
       {
-        "desc": "It looks like some kind of office.", 
-        "dir": 1, 
+        "desc": "It looks like some kind of office.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3138
-      }, 
+      },
       {
-        "desc": "The exit west leads to Emerald Avenue.", 
-        "dir": 3, 
+        "desc": "The exit west leads to Emerald Avenue.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3117
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "Not the very least comfortable.", 
+        "desc": "Not the very least comfortable.",
         "keywords": [
-          "chair", 
+          "chair",
           "chairs"
         ]
-      }, 
+      },
       {
-        "desc": "An extremely heavy desk.  It is so large that it doesn't even need drawers.\nEverything can be stored on its top.", 
+        "desc": "An extremely heavy desk.  It is so large that it doesn't even need drawers.\nEverything can be stored on its top.",
         "keywords": [
           "desk"
         ]
-      }, 
+      },
       {
-        "desc": "It is an ancient Quifatronic T-1000 mk I.  These machines are known for their\nincredible durability, and for their even more incredible weight.  They make\na Cray II look like a laptop.", 
+        "desc": "It is an ancient Quifatronic T-1000 mk I.  These machines are known for their\nincredible durability, and for their even more incredible weight.  They make\na Cray II look like a laptop.",
         "keywords": [
           "typewriter"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3137, 
-    "name": "The Waiting Room", 
+    ],
+    "id": 3137,
+    "name": "The Waiting Room",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 30
-  }, 
+  },
   {
-    "desc": "You are in the not very big office of the Mayor of Midgaard.  A large and\npolished but completely empty desk is standing in front of an armchair that\nlooks so comfortable that it most of all resembles a bed with the head end\nraised slightly.", 
+    "desc": "You are in the not very big office of the Mayor of Midgaard.  A large and\npolished but completely empty desk is standing in front of an armchair that\nlooks so comfortable that it most of all resembles a bed with the head end\nraised slightly.",
     "exits": [
       {
-        "desc": "The waiting room is to the west.", 
-        "dir": 3, 
+        "desc": "The waiting room is to the west.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3137
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "This desk is obviously very old.  Nevertheless it looks as if has never been\nused.", 
+        "desc": "This desk is obviously very old.  Nevertheless it looks as if has never been\nused.",
         "keywords": [
           "desk"
         ]
-      }, 
+      },
       {
-        "desc": "This chair is really a masterpiece.  A chair where one can sit as comfortably\nas in a bed.  All auditoriums should be equipped with these things.  A shame\nthat there wouldn't be room for the students too, though.", 
+        "desc": "This chair is really a masterpiece.  A chair where one can sit as comfortably\nas in a bed.  All auditoriums should be equipped with these things.  A shame\nthat there wouldn't be room for the students too, though.",
         "keywords": [
-          "chair", 
+          "chair",
           "armchair"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3138, 
-    "name": "The Mayor's Office", 
+    ],
+    "id": 3138,
+    "name": "The Mayor's Office",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 30
-  }, 
+  },
   {
-    "desc": "You are on Penny Lane.  Emerald Avenue is to the west and Penny Lane\ncontinues in eastward direction.", 
+    "desc": "You are on Penny Lane.  Emerald Avenue is to the west and Penny Lane\ncontinues in eastward direction.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3140
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3132
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3139, 
-    "name": "Penny Lane", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3139,
+    "name": "Penny Lane",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are on Penny Lane.  The narrow road continues north and west.", 
+    "desc": "You are on Penny Lane.  The narrow road continues north and west.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3141
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3139
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3140, 
-    "name": "Penny Lane", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3140,
+    "name": "Penny Lane",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are at the end of Penny Lane.  The only exit appears to be south.", 
+    "desc": "You are at the end of Penny Lane.  The only exit appears to be south.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3140
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3141, 
-    "name": "The End Of Penny Lane", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3141,
+    "name": "The End Of Penny Lane",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are on a well-kept gravel road that leads north-south through the\ngraveyard.  On both sides of the road grow dark evergreen trees.  An iron\ngrate is to the north.", 
+    "desc": "You are on a well-kept gravel road that leads north-south through the\ngraveyard.  On both sides of the road grow dark evergreen trees.  An iron\ngrate is to the north.",
     "exits": [
       {
-        "desc": "Through the solid iron bars you see the Concourse.", 
-        "dir": 0, 
+        "desc": "Through the solid iron bars you see the Concourse.",
+        "dir": 0,
         "door_flag": {
-          "note": "PICKPROOF", 
+          "note": "PICKPROOF",
           "value": 2
-        }, 
-        "key_number": 3106, 
+        },
+        "key_number": 3106,
         "keywords": [
           "grate"
-        ], 
+        ],
         "room_linked": 3129
-      }, 
+      },
       {
-        "desc": "The gravel road continues southward.", 
-        "dir": 2, 
+        "desc": "The gravel road continues southward.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3151
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3150, 
-    "name": "A Gravel Road In The Graveyard", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3150,
+    "name": "A Gravel Road In The Graveyard",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are on a well-kept gravel road that leads north-south through the\ngraveyard.  On both sides of the road grow dark evergreen trees.", 
+    "desc": "You are on a well-kept gravel road that leads north-south through the\ngraveyard.  On both sides of the road grow dark evergreen trees.",
     "exits": [
       {
-        "desc": "The gravel road continues northwards.", 
-        "dir": 0, 
+        "desc": "The gravel road continues northwards.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3150
-      }, 
+      },
       {
-        "desc": "The gravel road continues southward.", 
-        "dir": 2, 
+        "desc": "The gravel road continues southward.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3152
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3151, 
-    "name": "A Gravel Road In The Graveyard", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3151,
+    "name": "A Gravel Road In The Graveyard",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are on a well-kept gravel road that leads north-south through the\ngraveyard.  On both sides of the road grow dark evergreen trees.", 
+    "desc": "You are on a well-kept gravel road that leads north-south through the\ngraveyard.  On both sides of the road grow dark evergreen trees.",
     "exits": [
       {
-        "desc": "The gravel road continues northwards.", 
-        "dir": 0, 
+        "desc": "The gravel road continues northwards.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3151
-      }, 
+      },
       {
-        "desc": "The gravel road continues southward.", 
-        "dir": 2, 
+        "desc": "The gravel road continues southward.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3153
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3152, 
-    "name": "A Gravel Road In The Graveyard", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3152,
+    "name": "A Gravel Road In The Graveyard",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are on a well-kept gravel road that leads north-south through the\ngraveyard.  On both sides of the road grow dark evergreen trees.", 
+    "desc": "You are on a well-kept gravel road that leads north-south through the\ngraveyard.  On both sides of the road grow dark evergreen trees.",
     "exits": [
       {
-        "desc": "The gravel road continues northwards.", 
-        "dir": 0, 
+        "desc": "The gravel road continues northwards.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3152
-      }, 
+      },
       {
-        "desc": "The gravel road continues southward to an open space before a small\nbuilding.", 
-        "dir": 2, 
+        "desc": "The gravel road continues southward to an open space before a small\nbuilding.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3154
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3153, 
-    "name": "A Gravel Road In The Graveyard", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3153,
+    "name": "A Gravel Road In The Graveyard",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 34
-  }, 
+  },
   {
-    "desc": "You are on an open space before a small chapel.  A gravel road leads north\nthrough the graveyard and the chapel entrance is to the south.", 
+    "desc": "You are on an open space before a small chapel.  A gravel road leads north\nthrough the graveyard and the chapel entrance is to the south.",
     "exits": [
       {
-        "desc": "The gravel road continues northwards.", 
-        "dir": 0, 
+        "desc": "The gravel road continues northwards.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3153
-      }, 
+      },
       {
-        "desc": "The chapel door is made of dark wood.", 
-        "dir": 2, 
+        "desc": "The chapel door is made of dark wood.",
+        "dir": 2,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 3155
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3154, 
-    "name": "In Front Of The Chapel", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3154,
+    "name": "In Front Of The Chapel",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You are in a small, dark chapel.  The dark brown glass in the tiny windows\ndo not let much light through.  A few rows of worn wooden benches stand here\nand an ancient altar sits in the middle of the floor.", 
+    "desc": "You are in a small, dark chapel.  The dark brown glass in the tiny windows\ndo not let much light through.  A few rows of worn wooden benches stand here\nand an ancient altar sits in the middle of the floor.",
     "exits": [
       {
-        "desc": "The chapel door is made of dark wood.", 
-        "dir": 0, 
+        "desc": "The chapel door is made of dark wood.",
+        "dir": 0,
         "door_flag": {
-          "note": "DOOR", 
+          "note": "DOOR",
           "value": 1
-        }, 
-        "key_number": -1, 
+        },
+        "key_number": -1,
         "keywords": [
           "door"
-        ], 
+        ],
         "room_linked": 3154
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "The windows must be meant to be dark.  At least they are completely clean.", 
+        "desc": "The windows must be meant to be dark.  At least they are completely clean.",
         "keywords": [
-          "glass", 
+          "glass",
           "windows"
         ]
-      }, 
+      },
       {
-        "desc": "The altar looks very old... you examine the floor around the altar and notice\nthat it seems less dusty than the rest of the room... someone must clean here\nregularly... maybe that old guy in Park Cafe, he looked like that sort...", 
+        "desc": "The altar looks very old... you examine the floor around the altar and notice\nthat it seems less dusty than the rest of the room... someone must clean here\nregularly... maybe that old guy in Park Cafe, he looked like that sort...",
         "keywords": [
           "altar"
         ]
-      }, 
+      },
       {
-        "desc": "The benches are not of the comfortable kind.", 
+        "desc": "The benches are not of the comfortable kind.",
         "keywords": [
-          "benches", 
+          "benches",
           "rows"
         ]
       }
-    ], 
+    ],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 3155, 
-    "name": "Inside The Chapel", 
+    ],
+    "id": 3155,
+    "name": "Inside The Chapel",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 34
-  }, 
+  },
   {
-    "desc": "The arch under the bridge is covered by seaweed about a foot above the\nsurface of the river.  The water gently flows through an opening in the lower\npart of the city wall.", 
+    "desc": "The arch under the bridge is covered by seaweed about a foot above the\nsurface of the river.  The water gently flows through an opening in the lower\npart of the city wall.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3201
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 900
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "It is built from large grey rocks that have been fastened to each other with\nsome kind of mortar.  Looks pretty solid.", 
+        "desc": "It is built from large grey rocks that have been fastened to each other with\nsome kind of mortar.  Looks pretty solid.",
         "keywords": [
           "wall"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 3200, 
-    "name": "Under The Bridge", 
+    ],
+    "flags": [],
+    "id": 3200,
+    "name": "Under The Bridge",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "North of here you see the miserable buildings of Poor Alley.  The\nriver flows west towards the bridge.  The riverbanks are too steep to\nclimb.", 
+    "desc": "North of here you see the miserable buildings of Poor Alley.  The\nriver flows west towards the bridge.  The riverbanks are too steep to\nclimb.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3202
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3200
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3201, 
-    "name": "On The River", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3201,
+    "name": "On The River",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "North of here you see the dump.  The river flows from east to west.  The\nriverbanks are too steep to climb.", 
+    "desc": "North of here you see the dump.  The river flows from east to west.  The\nriverbanks are too steep to climb.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3203
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3201
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3202, 
-    "name": "On The River", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3202,
+    "name": "On The River",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "The levee is directly north of here.  The river flows in an east west\ndirection.", 
+    "desc": "The levee is directly north of here.  The river flows in an east west\ndirection.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3049
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3204
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3202
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3203, 
-    "name": "On The River", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3203,
+    "name": "On The River",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "You see the warehouse on the northern riverbank.  East of here you see the\ncity wall.  The river flows west towards the levee.", 
+    "desc": "You see the warehouse on the northern riverbank.  East of here you see the\ncity wall.  The river flows west towards the levee.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3205
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3203
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3204, 
-    "name": "On The River", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3204,
+    "name": "On The River",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 31
-  }, 
+  },
   {
-    "desc": "The river enters from a hole in the eastern city wall.  The hole has been\nblocked by several vertically positioned iron bars set into the wall.", 
+    "desc": "The river enters from a hole in the eastern city wall.  The hole has been\nblocked by several vertically positioned iron bars set into the wall.",
     "exits": [
       {
-        "desc": "The iron bars make it difficult to pass through the hole in the wall.\nBeyond the bars you see that the river leads into a cavern below the\nmountain range to the east.", 
-        "dir": 1, 
+        "desc": "The iron bars make it difficult to pass through the hole in the wall.\nBeyond the bars you see that the river leads into a cavern below the\nmountain range to the east.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5001
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3204
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 3205, 
-    "name": "On The River", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 3205,
+    "name": "On The River",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 31
   }
 ]

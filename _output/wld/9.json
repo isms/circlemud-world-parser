@@ -1,952 +1,952 @@
 [
   {
-    "desc": "As the river exits the city of Midgaard it picks up speed and whisks\nyou along high banks flanked by the trees of Haon-Dor.  As the city\nfades in the east, you approach a gloomy forest to the west.", 
+    "desc": "As the river exits the city of Midgaard it picks up speed and whisks\nyou along high banks flanked by the trees of Haon-Dor.  As the city\nfades in the east, you approach a gloomy forest to the west.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3200
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 901
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 900, 
-    "name": "On The Swift Flowing River", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 900,
+    "name": "On The Swift Flowing River",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "The river is deep, and runs swiftly in an east-west direction.  To the\nnorth the river eddies and enters a backwash where a small bank extends\ndown from a dark, thick stand of trees.  It doesn't look particulary\ninviting however.", 
+    "desc": "The river is deep, and runs swiftly in an east-west direction.  To the\nnorth the river eddies and enters a backwash where a small bank extends\ndown from a dark, thick stand of trees.  It doesn't look particulary\ninviting however.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 6120
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 900
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 902
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 901, 
-    "name": "The Riverbank", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 901,
+    "name": "The Riverbank",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "The river twists and turns and nearly tosses you out of your boat.\nThe water is dark, cold, almost reptilian in sheen.  It seems almost\nalive.  The river runs east and south.", 
+    "desc": "The river twists and turns and nearly tosses you out of your boat.\nThe water is dark, cold, almost reptilian in sheen.  It seems almost\nalive.  The river runs east and south.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 901
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 903
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 902, 
-    "name": "The Twisty Part Of The River", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 902,
+    "name": "The Twisty Part Of The River",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "The dark forest of Haon-Dor recedes behind you to the northeast.\nThe river continues in a westerly direction toward the river delta,\nwhere you can just make out a large island.", 
+    "desc": "The dark forest of Haon-Dor recedes behind you to the northeast.\nThe river continues in a westerly direction toward the river delta,\nwhere you can just make out a large island.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 902
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 904
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 903, 
-    "name": "The Scenic Route", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 903,
+    "name": "The Scenic Route",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "You are at the edge of the river delta, where the river empties\nout on its way to the sea.  The water here is Black.  Deep.  Dark.\nDeadly.  The tidal waves sweep you around and around up and down.", 
+    "desc": "You are at the edge of the river delta, where the river empties\nout on its way to the sea.  The water here is Black.  Deep.  Dark.\nDeadly.  The tidal waves sweep you around and around up and down.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 911
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 903
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 906
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 905
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 904, 
-    "name": "The Swift River Delta", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 904,
+    "name": "The Swift River Delta",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "You bob up and down in the waves comming dangerously close to some\nlarge, jagged rocks on the eastern shore of an unusual looking island.\nThere is no way you could possibly land there without getting killed.", 
+    "desc": "You bob up and down in the waves comming dangerously close to some\nlarge, jagged rocks on the eastern shore of an unusual looking island.\nThere is no way you could possibly land there without getting killed.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 904
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 906
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 905, 
-    "name": "Near The Rocks", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 905,
+    "name": "Near The Rocks",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "You are making your way along a channel in the river delta between\nthe island to the west and the shore to the south and east.  To the\nsouth an aging broken down looking pier juts out from land and toward\nthe west the channel works it way close to the island as it moves around\nits southern tip.", 
+    "desc": "You are making your way along a channel in the river delta between\nthe island to the west and the shore to the south and east.  To the\nsouth an aging broken down looking pier juts out from land and toward\nthe west the channel works it way close to the island as it moves around\nits southern tip.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 905
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 904
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 907
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 908
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 906, 
-    "name": "The South River Delta", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 906,
+    "name": "The South River Delta",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "You float next to a crumbling pier long since neglected.\nTo the west the water gets sluggish and there are many weeds and\nsome seaweed floating about.", 
+    "desc": "You float next to a crumbling pier long since neglected.\nTo the west the water gets sluggish and there are many weeds and\nsome seaweed floating about.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 906
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 908
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 907, 
-    "name": "The Pier", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 907,
+    "name": "The Pier",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "The going is rough here.  The tide struggles with the normal flow\nof the river and here near the edge of the sea there is a large\namount of growth.  To the west the channel passes the southern tip of\nthe island and heads for open waters.", 
+    "desc": "The going is rough here.  The tide struggles with the normal flow\nof the river and here near the edge of the sea there is a large\namount of growth.  To the west the channel passes the southern tip of\nthe island and heads for open waters.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 906
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 907
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 909
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 908, 
-    "name": "Mired In Seaweed", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 908,
+    "name": "Mired In Seaweed",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "The delta meets the sea here.  To the west you see nothing but\nocean on the horizon.  Sea birds squawk noisily at your approach\nand take flight from a nearby beach head on the island.  It looks\nas though this could be the last stop for those heading out to sea.", 
+    "desc": "The delta meets the sea here.  To the west you see nothing but\nocean on the horizon.  Sea birds squawk noisily at your approach\nand take flight from a nearby beach head on the island.  It looks\nas though this could be the last stop for those heading out to sea.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 910
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 908
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 909, 
-    "name": "The Last Stop", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 909,
+    "name": "The Last Stop",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "This is a secluded looking beach on the southern tip of the island.\nThere isn't much to see here and there is no way to cross the steep\nrocky cliffs that wall in this place.", 
+    "desc": "This is a secluded looking beach on the southern tip of the island.\nThere isn't much to see here and there is no way to cross the steep\nrocky cliffs that wall in this place.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 909
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 910, 
-    "name": "The Beach Head", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 910,
+    "name": "The Beach Head",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "The river splits as runs up against the island and a navigatble\nchannel slips off to the north and west.", 
+    "desc": "The river splits as runs up against the island and a navigatble\nchannel slips off to the north and west.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 912
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 904
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 912
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 911, 
-    "name": "The North Channel", 
+    ],
+    "id": 911,
+    "name": "The North Channel",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "The river current carries you swiftly westward as the channel\nbegins to narrow as it squeezes past the north end of the island.", 
+    "desc": "The river current carries you swiftly westward as the channel\nbegins to narrow as it squeezes past the north end of the island.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 911
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 911
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 913
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 912, 
-    "name": "The North Channel", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 912,
+    "name": "The North Channel",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "You are sitting just off a small landing on the island that\nappears to be nothing more than a short path that leads to the\nside of a hill.", 
+    "desc": "You are sitting just off a small landing on the island that\nappears to be nothing more than a short path that leads to the\nside of a hill.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 912
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 914
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOMOB", 
+        "note": "NOMOB",
         "value": 4
       }
-    ], 
-    "id": 913, 
-    "name": "Near The Isle", 
+    ],
+    "id": 913,
+    "name": "Near The Isle",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "Bodies lie everywhere.  Commoner, peasant, duke, duchess.  The Gods\nwill not hear you call here.  Hence they will not answer you.  To the\nsouth the path ends at a dark cave entrance.\nA sign has been posted beside the entrance.", 
+    "desc": "Bodies lie everywhere.  Commoner, peasant, duke, duchess.  The Gods\nwill not hear you call here.  Hence they will not answer you.  To the\nsouth the path ends at a dark cave entrance.\nA sign has been posted beside the entrance.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 913
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 915
       }
-    ], 
+    ],
     "extra_descs": [
       {
-        "desc": "A sign beside the dark cave opening reads:\n\n   WARNING! Only fools and dead people pass this way.\n   The tests of Minos, our glorious ruler, await.\n", 
+        "desc": "A sign beside the dark cave opening reads:\n\n   WARNING! Only fools and dead people pass this way.\n   The tests of Minos, our glorious ruler, await.\n",
         "keywords": [
-          "sign", 
+          "sign",
           "cave"
         ]
       }
-    ], 
-    "flags": [], 
-    "id": 914, 
-    "name": "The Lane Of The Lying", 
+    ],
+    "flags": [],
+    "id": 914,
+    "name": "The Lane Of The Lying",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "Ah... you find yourself in Minos' battlefield playground.  \nMinos loves to torture his people through these places.  He\ncollects the monsters of the world and puts them here.", 
+    "desc": "Ah... you find yourself in Minos' battlefield playground.  \nMinos loves to torture his people through these places.  He\ncollects the monsters of the world and puts them here.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 916
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 915, 
-    "name": "The First Trial Of Minos", 
+    ],
+    "id": 915,
+    "name": "The First Trial Of Minos",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "Minos' voice reveberates from the four walls of this room:\n'Get some rest and make sure you're healed.  You'll need it for\nthe next monster in my playground.  Or are you strong enough?'\n   To the south is the entrance to the next challenge of Minos'\nstronghold.", 
+    "desc": "Minos' voice reveberates from the four walls of this room:\n'Get some rest and make sure you're healed.  You'll need it for\nthe next monster in my playground.  Or are you strong enough?'\n   To the south is the entrance to the next challenge of Minos'\nstronghold.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 917
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 916, 
-    "name": "The Second Trial Of Minos", 
+    ],
+    "id": 916,
+    "name": "The Second Trial Of Minos",
     "sector_type": {
-      "note": "CITY", 
+      "note": "CITY",
       "value": 1
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "You go inside a red room.  Very red.  As if the Minos King used\nthem to disembowel his guests.  The path continues eastward.  You\nsee blue lights in that direction.", 
+    "desc": "You go inside a red room.  Very red.  As if the Minos King used\nthem to disembowel his guests.  The path continues eastward.  You\nsee blue lights in that direction.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 918
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 917, 
-    "name": "The Third Trial Of Minos", 
+    ],
+    "id": 917,
+    "name": "The Third Trial Of Minos",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "Minos must be a monster hacking machine.  You see a blue light\nflicker on and off.  A voice crackles, 'WHY ARE YOU HERE!'", 
+    "desc": "Minos must be a monster hacking machine.  You see a blue light\nflicker on and off.  A voice crackles, 'WHY ARE YOU HERE!'",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 919
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 918, 
-    "name": "The Fourth Trial Of Minos", 
+    ],
+    "id": 918,
+    "name": "The Fourth Trial Of Minos",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "This is General Woundwort's quarters.  Hraka abound.  The frayed\ncorpses of rabbits lie scattered about this hell-hole.  The General\nis not a very neat person as you can tell.", 
+    "desc": "This is General Woundwort's quarters.  Hraka abound.  The frayed\ncorpses of rabbits lie scattered about this hell-hole.  The General\nis not a very neat person as you can tell.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 920
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 919, 
-    "name": "The Fifth Trial Of Minos", 
+    ],
+    "id": 919,
+    "name": "The Fifth Trial Of Minos",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "Dare we surmise how many more rooms Minos has?  The paths appear to be\nendless.  You shudder the sounds of death cries from the east.  A loud\nvoice bellows another warning: 'Leave now or face my wrath!'\nThere is a crawlway leading upwards at the far end of the room and\nthere is a fresh breeze comming from there.", 
+    "desc": "Dare we surmise how many more rooms Minos has?  The paths appear to be\nendless.  You shudder the sounds of death cries from the east.  A loud\nvoice bellows another warning: 'Leave now or face my wrath!'\nThere is a crawlway leading upwards at the far end of the room and\nthere is a fresh breeze comming from there.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 921
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 923
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 920, 
-    "name": "The Sixth Trial Of Minos", 
+    ],
+    "id": 920,
+    "name": "The Sixth Trial Of Minos",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "This is Minos' room.  What else did you expect?  The room is lavishly\ndecorated for this bovine king.  Everything is so opulent that it makes\nyour eyes bulge.  Survive and reap his fortune!  The only exit is a large\noak door in the east wall.", 
+    "desc": "This is Minos' room.  What else did you expect?  The room is lavishly\ndecorated for this bovine king.  Everything is so opulent that it makes\nyour eyes bulge.  Survive and reap his fortune!  The only exit is a large\noak door in the east wall.",
     "exits": [
       {
-        "desc": "You see a rather large oak door bound with iron and securely locked.", 
-        "dir": 1, 
+        "desc": "You see a rather large oak door bound with iron and securely locked.",
+        "dir": 1,
         "door_flag": {
-          "note": "PICKPROOF", 
+          "note": "PICKPROOF",
           "value": 2
-        }, 
-        "key_number": 900, 
+        },
+        "key_number": 900,
         "keywords": [
-          "door", 
+          "door",
           "oak"
-        ], 
+        ],
         "room_linked": 922
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 921, 
-    "name": "The Final Trial Of Minos", 
+    ],
+    "id": 921,
+    "name": "The Final Trial Of Minos",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "The treasure room of Minos is dark save for your lantern.\nHopefully it has not been looted yet by the many legendary thieves\nof Midgaard.  A clever looking secret passage leads upward from here.", 
+    "desc": "The treasure room of Minos is dark save for your lantern.\nHopefully it has not been looted yet by the many legendary thieves\nof Midgaard.  A clever looking secret passage leads upward from here.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 910
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
-      }, 
+      },
       {
-        "note": "PRIVATE", 
+        "note": "PRIVATE",
         "value": 512
       }
-    ], 
-    "id": 922, 
-    "name": "The Royal Chamber", 
+    ],
+    "id": 922,
+    "name": "The Royal Chamber",
     "sector_type": {
-      "note": "INSIDE", 
+      "note": "INSIDE",
       "value": 0
-    }, 
+    },
     "zone_number": 9
-  }, 
+  },
   {
-    "desc": "You sit amongst the rocks above a small beach at the southern\nend of the island.  You could clamber down easy enough, but getting\nback up would be another story.", 
+    "desc": "You sit amongst the rocks above a small beach at the southern\nend of the island.  You could clamber down easy enough, but getting\nback up would be another story.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 910
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 923, 
-    "name": "Above, On The Beach", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 923,
+    "name": "Above, On The Beach",
     "sector_type": {
-      "note": "HILLS", 
+      "note": "HILLS",
       "value": 4
-    }, 
+    },
     "zone_number": 9
   }
 ]

@@ -1,516 +1,516 @@
 [
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "wyvern"
-    ], 
-    "alignment": -700, 
-    "armor_class": 3, 
+    ],
+    "alignment": -700,
+    "armor_class": 3,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 2, 
+      "bonus": 1,
+      "dice": 2,
       "sides": 6
-    }, 
-    "detail_desc": "This huge winged creature looks really menacing as it circles only inches\nabove your head, flapping its wings and squawking very loudly.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "This huge winged creature looks really menacing as it circles only inches\nabove your head, flapping its wings and squawking very loudly.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "AGGR_GOOD", 
+        "note": "AGGR_GOOD",
         "value": 512
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 3500, 
-    "level": 8, 
-    "long_desc": "A monstrous wyvern slowly circles just above your head.", 
+    },
+    "gold": 0,
+    "id": 3500,
+    "level": 8,
+    "long_desc": "A monstrous wyvern slowly circles just above your head.",
     "max_hit_points": {
-      "bonus": 90, 
-      "dice": 2, 
+      "bonus": 90,
+      "dice": 2,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the wyvern", 
-    "thac0": 13, 
+    },
+    "short_desc": "the wyvern",
+    "thac0": 13,
     "xp": 3575
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "goblin", 
+      "goblin",
       "mountain"
-    ], 
-    "alignment": -250, 
-    "armor_class": 6, 
+    ],
+    "alignment": -250,
+    "armor_class": 6,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 1, 
+      "bonus": 0,
+      "dice": 1,
       "sides": 8
-    }, 
-    "detail_desc": "You see before you a small and twisted creature with knotted muscles and\ndisgustingly green skin.  Doesn't look like the type you'd invite to dinner.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "You see before you a small and twisted creature with knotted muscles and\ndisgustingly green skin.  Doesn't look like the type you'd invite to dinner.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 50, 
-    "id": 3501, 
-    "level": 4, 
-    "long_desc": "A mountain goblin is wandering around mumbling to himself...", 
+    },
+    "gold": 50,
+    "id": 3501,
+    "level": 4,
+    "long_desc": "A mountain goblin is wandering around mumbling to himself...",
     "max_hit_points": {
-      "bonus": 55, 
-      "dice": 1, 
+      "bonus": 55,
+      "dice": 1,
       "sides": 1
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the goblin", 
-    "thac0": 17, 
+    },
+    "short_desc": "the goblin",
+    "thac0": 17,
     "xp": 600
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "goblin", 
+      "goblin",
       "lieutenant"
-    ], 
-    "alignment": -600, 
-    "armor_class": 3, 
+    ],
+    "alignment": -600,
+    "armor_class": 3,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 2, 
+      "bonus": 1,
+      "dice": 2,
       "sides": 5
-    }, 
-    "detail_desc": "The goblin lieutenant is rather angry, and looking for one of his men to\nbeat up upon, but maybe you will do just fine...", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The goblin lieutenant is rather angry, and looking for one of his men to\nbeat up upon, but maybe you will do just fine...",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "AGGR_GOOD", 
+        "note": "AGGR_GOOD",
         "value": 512
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 300, 
-    "id": 3502, 
-    "level": 7, 
-    "long_desc": "A goblin lieutenant stands here, attempting to get his men in order.", 
+    },
+    "gold": 300,
+    "id": 3502,
+    "level": 7,
+    "long_desc": "A goblin lieutenant stands here, attempting to get his men in order.",
     "max_hit_points": {
-      "bonus": 100, 
-      "dice": 1, 
+      "bonus": 100,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the goblin lieutenant", 
-    "thac0": 15, 
+    },
+    "short_desc": "the goblin lieutenant",
+    "thac0": 15,
     "xp": 2000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "goblin", 
+      "goblin",
       "leader"
-    ], 
-    "alignment": -900, 
-    "armor_class": 1, 
+    ],
+    "alignment": -900,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 3, 
-      "dice": 2, 
+      "bonus": 3,
+      "dice": 2,
       "sides": 5
-    }, 
-    "detail_desc": "The leader doesn't look too happy that you have found him here.  He grabs\nfor his shortsword and lunges for your neck.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The leader doesn't look too happy that you have found him here.  He grabs\nfor his shortsword and lunges for your neck.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AGGR_GOOD", 
+        "note": "AGGR_GOOD",
         "value": 512
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1000, 
-    "id": 3503, 
-    "level": 9, 
-    "long_desc": "The goblin leader surveys the room.", 
+    },
+    "gold": 1000,
+    "id": 3503,
+    "level": 9,
+    "long_desc": "The goblin leader surveys the room.",
     "max_hit_points": {
-      "bonus": 120, 
-      "dice": 1, 
+      "bonus": 120,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the goblin leader", 
-    "thac0": 10, 
+    },
+    "short_desc": "the goblin leader",
+    "thac0": 10,
     "xp": 8000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
-      "boy", 
+      "boy",
       "small"
-    ], 
-    "alignment": 500, 
-    "armor_class": 6, 
+    ],
+    "alignment": 500,
+    "armor_class": 6,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 1, 
+      "bonus": 0,
+      "dice": 1,
       "sides": 8
-    }, 
-    "detail_desc": "The poor boy has numerous cuts and scratches, but appears to be all right.\nHe is apparently the only survivor of the ambush.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The poor boy has numerous cuts and scratches, but appears to be all right.\nHe is apparently the only survivor of the ambush.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 0, 
-    "id": 3504, 
-    "level": 4, 
-    "long_desc": "A small boy sits here, licking his wounds.", 
+    },
+    "gold": 0,
+    "id": 3504,
+    "level": 4,
+    "long_desc": "A small boy sits here, licking his wounds.",
     "max_hit_points": {
-      "bonus": 47, 
-      "dice": 1, 
+      "bonus": 47,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_RESTING", 
+        "note": "POSITION_RESTING",
         "value": 5
-      }, 
+      },
       "load": {
-        "note": "POSITION_RESTING", 
+        "note": "POSITION_RESTING",
         "value": 5
       }
-    }, 
-    "short_desc": "the small boy", 
-    "thac0": 17, 
+    },
+    "short_desc": "the small boy",
+    "thac0": 17,
     "xp": 600
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "innkeeper"
-    ], 
-    "alignment": 400, 
-    "armor_class": 1, 
+    ],
+    "alignment": 400,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 1, 
-      "dice": 2, 
+      "bonus": 1,
+      "dice": 2,
       "sides": 8
-    }, 
-    "detail_desc": "The Innkeeper now spends most of his days waiting for customers, while the\nnights are spent watching out for goblins.  His inn is no longer the happy\nplace that is used to be in days past.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The Innkeeper now spends most of his days waiting for customers, while the\nnights are spent watching out for goblins.  His inn is no longer the happy\nplace that is used to be in days past.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1500, 
-    "id": 3505, 
-    "level": 10, 
-    "long_desc": "The Innkeeper stands here, cleaning glasses.", 
+    },
+    "gold": 1500,
+    "id": 3505,
+    "level": 10,
+    "long_desc": "The Innkeeper stands here, cleaning glasses.",
     "max_hit_points": {
-      "bonus": 200, 
-      "dice": 1, 
+      "bonus": 200,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Innkeeper", 
-    "thac0": 8, 
+    },
+    "short_desc": "the Innkeeper",
+    "thac0": 8,
     "xp": 7000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
       }
-    ], 
+    ],
     "aliases": [
       "bard"
-    ], 
-    "alignment": 600, 
-    "armor_class": 3, 
+    ],
+    "alignment": 600,
+    "armor_class": 3,
     "bare_hand_damage": {
-      "bonus": 0, 
-      "dice": 2, 
+      "bonus": 0,
+      "dice": 2,
       "sides": 6
-    }, 
-    "detail_desc": "You can smell the alcohol on his breath from across the room.  This poor\nbard has been sitting here quite a while, drinking himself into oblivion.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "You can smell the alcohol on his breath from across the room.  This poor\nbard has been sitting here quite a while, drinking himself into oblivion.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1500, 
-    "id": 3506, 
-    "level": 8, 
-    "long_desc": "A sullen bard is here, drinking away his problems.", 
+    },
+    "gold": 1500,
+    "id": 3506,
+    "level": 8,
+    "long_desc": "A sullen bard is here, drinking away his problems.",
     "max_hit_points": {
-      "bonus": 110, 
-      "dice": 1, 
+      "bonus": 110,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_SITTING", 
+        "note": "POSITION_SITTING",
         "value": 6
-      }, 
+      },
       "load": {
-        "note": "POSITION_SITTING", 
+        "note": "POSITION_SITTING",
         "value": 6
       }
-    }, 
-    "short_desc": "the bard", 
-    "thac0": 13, 
+    },
+    "short_desc": "the bard",
+    "thac0": 13,
     "xp": 3750
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "SNEAK", 
+        "note": "SNEAK",
         "value": 262144
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 32768
       }
-    ], 
+    ],
     "aliases": [
-      "horseman", 
+      "horseman",
       "dark"
-    ], 
-    "alignment": -900, 
-    "armor_class": 4, 
+    ],
+    "alignment": -900,
+    "armor_class": 4,
     "bare_hand_damage": {
-      "bonus": 7, 
-      "dice": 1, 
+      "bonus": 7,
+      "dice": 1,
       "sides": 5
-    }, 
-    "detail_desc": "The man is obviously an outlaw, and has no qualms about slashing you into\nlittle bits.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The man is obviously an outlaw, and has no qualms about slashing you into\nlittle bits.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
-      }, 
+      },
       {
-        "note": "WIMPY", 
+        "note": "WIMPY",
         "value": 128
-      }, 
+      },
       {
-        "note": "HELPER", 
+        "note": "HELPER",
         "value": 4096
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1000, 
-    "id": 3507, 
-    "level": 8, 
-    "long_desc": "A dark horseman is here, mounted on his black steed.", 
+    },
+    "gold": 1000,
+    "id": 3507,
+    "level": 8,
+    "long_desc": "A dark horseman is here, mounted on his black steed.",
     "max_hit_points": {
-      "bonus": 97, 
-      "dice": 1, 
+      "bonus": 97,
+      "dice": 1,
       "sides": 12
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the dark horseman", 
-    "thac0": 12, 
+    },
+    "short_desc": "the dark horseman",
+    "thac0": 12,
     "xp": 4000
   }
 ]

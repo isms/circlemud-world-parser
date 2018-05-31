@@ -1,3567 +1,3567 @@
 [
   {
-    "desc": "You encounter some rapids as you enter this tunnel cut out of\nthe mountains by the river.", 
+    "desc": "You encounter some rapids as you enter this tunnel cut out of\nthe mountains by the river.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5002
-      }, 
+      },
       {
-        "desc": "There appear to be some bars here, making passage to the west\ndifficult.", 
-        "dir": 3, 
+        "desc": "There appear to be some bars here, making passage to the west\ndifficult.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 3205
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5001, 
-    "name": "A Long Tunnel", 
+    ],
+    "id": 5001,
+    "name": "A Long Tunnel",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "The tunnel branches off north.", 
+    "desc": "The tunnel branches off north.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5008
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5003
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5001
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5002, 
-    "name": "A Long Tunnel", 
+    ],
+    "id": 5002,
+    "name": "A Long Tunnel",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "The tunnel branches off south.", 
+    "desc": "The tunnel branches off south.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5004
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5017
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5002
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5003, 
-    "name": "A Long Tunnel", 
+    ],
+    "id": 5003,
+    "name": "A Long Tunnel",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "The tunnel branches off to the north and south.", 
+    "desc": "The tunnel branches off to the north and south.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5643
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5005
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5018
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5003
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5004, 
-    "name": "A Tunnel Intersection", 
+    ],
+    "id": 5004,
+    "name": "A Tunnel Intersection",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "You are floating on a jet-black underground lake fed by dripping\nwater and lime from above.  The tunnel continues to the east and the\nriver leads back west.  Leading upwards to the northwest is a roughly\nhewn hallway.", 
+    "desc": "You are floating on a jet-black underground lake fed by dripping\nwater and lime from above.  The tunnel continues to the east and the\nriver leads back west.  Leading upwards to the northwest is a roughly\nhewn hallway.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5671
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5006
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5023
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5004
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5005, 
-    "name": "An Underground Lake", 
+    ],
+    "id": 5005,
+    "name": "An Underground Lake",
     "sector_type": {
-      "note": "WATER_NOSWIM", 
+      "note": "WATER_NOSWIM",
       "value": 7
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "The tunnel rises sharply to the east.  Another narrow tunnel\nleads away to the north.", 
+    "desc": "The tunnel rises sharply to the east.  Another narrow tunnel\nleads away to the north.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5016
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5007
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5005
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
-      }, 
+      },
       {
-        "note": "TUNNEL", 
+        "note": "TUNNEL",
         "value": 256
       }
-    ], 
-    "id": 5006, 
-    "name": "A Long Narrow Tunnel", 
+    ],
+    "id": 5006,
+    "name": "A Long Narrow Tunnel",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "The tunnel continues east and west.  To the east the tunnel dives\ndown into a bright light.  A small passage way opens to the north.", 
+    "desc": "The tunnel continues east and west.  To the east the tunnel dives\ndown into a bright light.  A small passage way opens to the north.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5026
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5006
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5007, 
-    "name": "A Wide Tunnel", 
+    ],
+    "id": 5007,
+    "name": "A Wide Tunnel",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "You stand at the edge of a large pile of rubble created from the last\nrockslide.", 
+    "desc": "You stand at the edge of a large pile of rubble created from the last\nrockslide.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5002
-      }, 
+      },
       {
-        "desc": "You can easily slide down the rocks without getting hurt.", 
-        "dir": 5, 
+        "desc": "You can easily slide down the rocks without getting hurt.",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5009
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5008, 
-    "name": "The Cave-In", 
+    ],
+    "id": 5008,
+    "name": "The Cave-In",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "You are at the bottom of a large pile of rubble.  A tunnel branches\noff to the north and east.", 
+    "desc": "You are at the bottom of a large pile of rubble.  A tunnel branches\noff to the north and east.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5010
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5012
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5008
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5009, 
-    "name": "At The Foot Of The Rubble", 
+    ],
+    "id": 5009,
+    "name": "At The Foot Of The Rubble",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "You stand in the middle of a large and beautiful cave.  A path leads\ndeeper into the darkness.", 
+    "desc": "You stand in the middle of a large and beautiful cave.  A path leads\ndeeper into the darkness.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5009
-      }, 
+      },
       {
-        "desc": "You look down into the cave.  Bones are strewn about everywhere.", 
-        "dir": 5, 
+        "desc": "You look down into the cave.  Bones are strewn about everywhere.",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5011
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5010, 
-    "name": "A Cave Entrance", 
+    ],
+    "id": 5010,
+    "name": "A Cave Entrance",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "This cavern overwhelms you.  The walls and ceiling seem miles away.\nBones of previous adventurers lie strewn on the cavern floor.  There is\na passage that spirals downwards in the northeast corner of the cavern.", 
+    "desc": "This cavern overwhelms you.  The walls and ceiling seem miles away.\nBones of previous adventurers lie strewn on the cavern floor.  There is\na passage that spirals downwards in the northeast corner of the cavern.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5010
-      }, 
+      },
       {
-        "desc": "The passageway spirals down into the gloom.", 
-        "dir": 5, 
+        "desc": "The passageway spirals down into the gloom.",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5100
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5011, 
-    "name": "A Giant Cave", 
+    ],
+    "id": 5011,
+    "name": "A Giant Cave",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "The tunnel turns to the south and west.", 
+    "desc": "The tunnel turns to the south and west.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5013
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5009
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5012, 
-    "name": "A Narrow Bend", 
+    ],
+    "id": 5012,
+    "name": "A Narrow Bend",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "You are standing in a large cave.  Many furs are spread out on the floor.", 
+    "desc": "You are standing in a large cave.  Many furs are spread out on the floor.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5012
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5014
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5013, 
-    "name": "A Large Cave", 
+    ],
+    "id": 5013,
+    "name": "A Large Cave",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "The walls here are extremely damp, as well as the floor.", 
+    "desc": "The walls here are extremely damp, as well as the floor.",
     "exits": [
       {
-        "desc": "You hear drops of water.", 
-        "dir": 1, 
+        "desc": "You hear drops of water.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5015
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5013
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5014, 
-    "name": "A Damp Hallway", 
+    ],
+    "id": 5014,
+    "name": "A Damp Hallway",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "You are wading in a knee deep pool of lime-water.", 
+    "desc": "You are wading in a knee deep pool of lime-water.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5016
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5014
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5015, 
-    "name": "An Underground Pool", 
+    ],
+    "id": 5015,
+    "name": "An Underground Pool",
     "sector_type": {
-      "note": "WATER_SWIM", 
+      "note": "WATER_SWIM",
       "value": 6
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "The walls of the tunnel are extremely damp here.  The tunnel\nleads sharply upwards to the south as it starts to get narrow.", 
+    "desc": "The walls of the tunnel are extremely damp here.  The tunnel\nleads sharply upwards to the south as it starts to get narrow.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5006
-      }, 
+      },
       {
-        "desc": "You hear drops of water.", 
-        "dir": 3, 
+        "desc": "You hear drops of water.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5015
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5016, 
-    "name": "A Damp Hallway", 
+    ],
+    "id": 5016,
+    "name": "A Damp Hallway",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "This crawlway is just big enough for a human to crawl through or a\nhalfling to walk through.", 
+    "desc": "This crawlway is just big enough for a human to crawl through or a\nhalfling to walk through.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5003
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5018
-      }, 
+      },
       {
-        "desc": "You smell the fragrant odor of fungus.", 
-        "dir": 2, 
+        "desc": "You smell the fragrant odor of fungus.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5019
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5017, 
-    "name": "A Narrow Crawlway", 
+    ],
+    "id": 5017,
+    "name": "A Narrow Crawlway",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "You have entered a very large cavern.  The rock formations would amaze\nalmost any dwarf.", 
+    "desc": "You have entered a very large cavern.  The rock formations would amaze\nalmost any dwarf.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5004
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5017
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5018, 
-    "name": "A Large Cavern", 
+    ],
+    "id": 5018,
+    "name": "A Large Cavern",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "As you walk through the fungus patch, you are shot at by many millions of\nspores.  You can hardly breathe.", 
+    "desc": "As you walk through the fungus patch, you are shot at by many millions of\nspores.  You can hardly breathe.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5017
-      }, 
+      },
       {
-        "desc": "The fragrant smell of fungus spores continues to the east.", 
-        "dir": 1, 
+        "desc": "The fragrant smell of fungus spores continues to the east.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5020
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5019, 
-    "name": "A Fungus Patch", 
+    ],
+    "id": 5019,
+    "name": "A Fungus Patch",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "As you walk along the path, millions of spores are shot at you.  It is\ndifficult to breathe.", 
+    "desc": "As you walk along the path, millions of spores are shot at you.  It is\ndifficult to breathe.",
     "exits": [
       {
-        "desc": "A giant mushroom temple stands to the south.", 
-        "dir": 2, 
+        "desc": "A giant mushroom temple stands to the south.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5021
-      }, 
+      },
       {
-        "desc": "The fragrant smell of spores continues to the west.", 
-        "dir": 3, 
+        "desc": "The fragrant smell of spores continues to the west.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5019
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5020, 
-    "name": "The Fungus Path", 
+    ],
+    "id": 5020,
+    "name": "The Fungus Path",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "You find yourself standing inside of a giant mushroom.  The inside\nis decorated in the fashion of a temple.", 
+    "desc": "You find yourself standing inside of a giant mushroom.  The inside\nis decorated in the fashion of a temple.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5020
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5022
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5021, 
-    "name": "The Fungus Temple", 
+    ],
+    "id": 5021,
+    "name": "The Fungus Temple",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "You follow a path sloping down from the fungus temple.", 
+    "desc": "You follow a path sloping down from the fungus temple.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5023
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5021
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5022, 
-    "name": "A Sloping Passage", 
+    ],
+    "id": 5022,
+    "name": "A Sloping Passage",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "You are on a path that gently slopes up from the underground pool.", 
+    "desc": "You are on a path that gently slopes up from the underground pool.",
     "exits": [
       {
-        "desc": "You hear sounds of trickling water.", 
-        "dir": 0, 
+        "desc": "You hear sounds of trickling water.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5005
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5022
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5023, 
-    "name": "A Sloping Passage", 
+    ],
+    "id": 5023,
+    "name": "A Sloping Passage",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sand constantly shifting around\nyou.  A pyramid lies to the east and a snow-capped mountain range to the \nwest.", 
+    "desc": "A vast desert stretches for miles, the sand constantly shifting around\nyou.  A pyramid lies to the east and a snow-capped mountain range to the \nwest.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5030
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5034
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5025
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5024, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5024,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the east and a snow-capped mountain range to the \nwest.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the east and a snow-capped mountain range to the \nwest.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5024
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5031
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5026
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5025, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5025,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the east and a snow-capped mountain range to the\nwest.  The hole which you tumbled out of is too high for you to reach.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the east and a snow-capped mountain range to the\nwest.  The hole which you tumbled out of is too high for you to reach.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5025
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5036
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5027
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5026, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5026,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the east and a snow-capped mountain range to the\nwest.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the east and a snow-capped mountain range to the\nwest.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5033
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5028
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5027, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5027,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north-east and a snow-capped mountain range to\nthe west.  You spy a narrow dirt trail leading away to the west into the\nfoothills.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north-east and a snow-capped mountain range to\nthe west.  You spy a narrow dirt trail leading away to the west into the\nfoothills.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5027
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5033
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5029
-      }, 
+      },
       {
-        "desc": "A small dirt trail leads off to the west where it joins a large clay road\nsome distance away.", 
-        "dir": 3, 
+        "desc": "A small dirt trail leads off to the west where it joins a large clay road\nsome distance away.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 12068
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5028, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5028,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north-east and a snow-capped mountain range to\nthe west.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north-east and a snow-capped mountain range to\nthe west.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5028
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5037
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5044
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5029, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5029,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "You stand beside a small pool of crystal-blue water bathed in the\nshade of a few scarce palm trees.  To the north you see a small\nencampment stopped for the day.", 
+    "desc": "You stand beside a small pool of crystal-blue water bathed in the\nshade of a few scarce palm trees.  To the north you see a small\nencampment stopped for the day.",
     "exits": [
       {
-        "desc": "You see three tents and some camels hitched to a stake.  Shadows moving \nacross the tents suggest activity.", 
-        "dir": 0, 
+        "desc": "You see three tents and some camels hitched to a stake.  Shadows moving \nacross the tents suggest activity.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5056
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5036
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5032
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5025
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5030, 
-    "name": "A Small Oasis", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5030,
+    "name": "A Small Oasis",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the east.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the east.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5031
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5031
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5032
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5024
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5031, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5031,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the east.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the east.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5035
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5036
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5033
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5032
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5032, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5032,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north-east.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north-east.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5037
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5037
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5043
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5028
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5033, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5033,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the south-east.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the south-east.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5038
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5035
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5034
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5035
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5034, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5034,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the east, it looks enormous, even from this distance.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the east, it looks enormous, even from this distance.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5039
-      }, 
+      },
       {
-        "desc": "Even from here, you can sense a great evil residing within the pyramid\nprotruding from the sand to the east.", 
-        "dir": 1, 
+        "desc": "Even from here, you can sense a great evil residing within the pyramid\nprotruding from the sand to the east.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5300
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5032
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5034
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5035, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5035,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north-east.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north-east.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5035
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5041
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5032
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5030
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5036, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5036,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north-east.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north-east.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5048
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5033
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5042
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5033
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5037, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5037,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the south.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the south.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5046
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5045
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5040
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5034
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5038, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5038,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting\naround you.  A pyramid lies to the south.  The gates of a city lie a\nshort distance off to the north.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting\naround you.  A pyramid lies to the south.  The gates of a city lie a\nshort distance off to the north.",
     "exits": [
       {
-        "desc": "Some city gates stand off to the north.", 
-        "dir": 0, 
+        "desc": "Some city gates stand off to the north.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5411
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5039
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5048
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5039
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5039, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5039,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  You are standing near a gigantic pyramid located a couple hundred\nmeters west of you.  From here you can sense the great evil which resides\nwithin the massive structure.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  You are standing near a gigantic pyramid located a couple hundred\nmeters west of you.  From here you can sense the great evil which resides\nwithin the massive structure.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5036
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5049
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5041
-      }, 
+      },
       {
-        "desc": "The pyramid can be seen across the sands to the west.", 
-        "dir": 3, 
+        "desc": "The pyramid can be seen across the sands to the west.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5300
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5040, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5040,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north.",
     "exits": [
       {
-        "desc": "Even from here, you can sense a great evil residing within the pyramid\nprotruding from the sand to the north.", 
-        "dir": 0, 
+        "desc": "Even from here, you can sense a great evil residing within the pyramid\nprotruding from the sand to the north.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5040
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5048
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5041
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5037
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5041, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5041,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5049
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5055
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5043
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5041
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5042, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5042,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5042
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5055
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5044
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5033
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5043, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5043,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north and a ruined city to the west.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north and a ruined city to the west.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5050
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5055
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5029
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5200
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5044, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5044,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the south.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the south.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5045
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5052
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5045
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5038
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5045, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5045,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the south-west.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the south-west.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5038
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5047
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5047
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5039
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5046, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5046,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the west.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the west.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5046
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5051
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5053
-      }, 
+      },
       {
-        "desc": "Even from here, you can sense a great evil residing within the pyramid\nprotruding from the sand to the west.", 
-        "dir": 3, 
+        "desc": "Even from here, you can sense a great evil residing within the pyramid\nprotruding from the sand to the west.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5040
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5047, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5047,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the west.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the west.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5039
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5048
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5053
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5041
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5048, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5048,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north-west.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north-west.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5053
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5054
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5050
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5042
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5049, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5049,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see... and a pyramid in the distance.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see... and a pyramid in the distance.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5300
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 1, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5054
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5044
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5042
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5050, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5050,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the south-west and a deep canyon to the east.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the south-west and a deep canyon to the east.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5051
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5052
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5047
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5051, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5051,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the south-west and a deep canyon to the east.  Just\nbelow you can make out a tiny ledge.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the south-west and a deep canyon to the east.  Just\nbelow you can make out a tiny ledge.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5051
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5053
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5045
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 5, 
+        "desc": "",
+        "dir": 5,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5063
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5052, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5052,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the west and a deep canyon to the east.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the west and a deep canyon to the east.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5052
-      }, 
+      },
       {
-        "desc": "A rickety rope bridge stretches across the canyon... it doesn't look too safe.", 
-        "dir": 1, 
+        "desc": "A rickety rope bridge stretches across the canyon... it doesn't look too safe.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5062
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5054
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5049
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5053, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5053,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the west and a deep canyon to the east.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the west and a deep canyon to the east.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5053
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5055
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5050
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5054, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5054,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north-west and a deep canyon to the east.", 
+    "desc": "A vast desert stretches for miles, the sands constantly shifting around  \nyou.  A pyramid lies to the north-west and a deep canyon to the east.",
     "exits": [
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 0, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5054
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5055
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5043
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5055, 
-    "name": "The Great Eastern Desert", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5055,
+    "name": "The Great Eastern Desert",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "This small group of desert nomads has stopped for the day to rest\nand refresh themselves beside this beautiful oasis.  Three tents and some\ncamels make up the party.  From within two of the tents you hear muffled\nvoices, obviously surprised at your visit.", 
+    "desc": "This small group of desert nomads has stopped for the day to rest\nand refresh themselves beside this beautiful oasis.  Three tents and some\ncamels make up the party.  From within two of the tents you hear muffled\nvoices, obviously surprised at your visit.",
     "exits": [
       {
-        "desc": "Some camels are tied up to a mass of stakes plugged into the ground.", 
-        "dir": 0, 
+        "desc": "Some camels are tied up to a mass of stakes plugged into the ground.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5058
-      }, 
+      },
       {
-        "desc": "You see inside one of the tents a huddled mass of people, probably slaves.", 
-        "dir": 1, 
+        "desc": "You see inside one of the tents a huddled mass of people, probably slaves.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5057
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 2, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5030
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5025
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 64
       }
-    ], 
-    "id": 5056, 
-    "name": "A Nomad Camp", 
+    ],
+    "id": 5056,
+    "name": "A Nomad Camp",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "This is a small and simple tent with few possessions in sight.  Lying\nhere and there are young-looking men and women, possibly slaves to the\nleader of this band.", 
+    "desc": "This is a small and simple tent with few possessions in sight.  Lying\nhere and there are young-looking men and women, possibly slaves to the\nleader of this band.",
     "exits": [
       {
-        "desc": "You see the center of the nomad camp.", 
-        "dir": 3, 
+        "desc": "You see the center of the nomad camp.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5056
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 64
       }
-    ], 
-    "id": 5057, 
-    "name": "Inside A Small Tent", 
+    ],
+    "id": 5057,
+    "name": "Inside A Small Tent",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "Here stand about ten camels, all hitched to some stakes plugged into \nthe ground.  To the east you see a small tent while to the north you see a \nlarger, fancier tent.", 
+    "desc": "Here stand about ten camels, all hitched to some stakes plugged into \nthe ground.  To the east you see a small tent while to the north you see a \nlarger, fancier tent.",
     "exits": [
       {
-        "desc": "This tent seems to be the temporary abode of the nomad leader.  You make a\nmental note to visit it before you leave.", 
-        "dir": 0, 
+        "desc": "This tent seems to be the temporary abode of the nomad leader.  You make a\nmental note to visit it before you leave.",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5060
-      }, 
+      },
       {
-        "desc": "In this tent there are very large men, all carrying weapons.", 
-        "dir": 1, 
+        "desc": "In this tent there are very large men, all carrying weapons.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5059
-      }, 
+      },
       {
-        "desc": "You see the center of the nomad camp.", 
-        "dir": 2, 
+        "desc": "You see the center of the nomad camp.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5056
-      }, 
+      },
       {
-        "desc": "Sand as far as the eye can see.", 
-        "dir": 3, 
+        "desc": "Sand as far as the eye can see.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5024
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 64
       }
-    ], 
-    "id": 5058, 
-    "name": "Beside The Camels", 
+    ],
+    "id": 5058,
+    "name": "Beside The Camels",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "This tent has a few furnishings, but mainly it holds the band's \nprotectors.  They all stare at you coldly as you enter.", 
+    "desc": "This tent has a few furnishings, but mainly it holds the band's \nprotectors.  They all stare at you coldly as you enter.",
     "exits": [
       {
-        "desc": "Outside you see some peaceful camels.", 
-        "dir": 3, 
+        "desc": "Outside you see some peaceful camels.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5058
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 64
       }
-    ], 
-    "id": 5059, 
-    "name": "The Warriors' Tent", 
+    ],
+    "id": 5059,
+    "name": "The Warriors' Tent",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "This tent is as lavishly decorated on the inside as it is on the\noutside.  A fancy carpet lies on the sand and numerous baskets line the\nwalls.", 
+    "desc": "This tent is as lavishly decorated on the inside as it is on the\noutside.  A fancy carpet lies on the sand and numerous baskets line the\nwalls.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5061
-      }, 
+      },
       {
-        "desc": "You see some peaceful camels.", 
-        "dir": 2, 
+        "desc": "You see some peaceful camels.",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5058
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 64
       }
-    ], 
-    "id": 5060, 
-    "name": "The Main Tent", 
+    ],
+    "id": 5060,
+    "name": "The Main Tent",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "This is where the leader of this band of nomads resides.  He is \ndefinitely rich as you inspect the tapestries, baskets, and a few\npaintings as well.", 
+    "desc": "This is where the leader of this band of nomads resides.  He is \ndefinitely rich as you inspect the tapestries, baskets, and a few\npaintings as well.",
     "exits": [
       {
-        "desc": "You see the entrance to this tent.", 
-        "dir": 3, 
+        "desc": "You see the entrance to this tent.",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5060
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 64
       }
-    ], 
-    "id": 5061, 
-    "name": "The Main Tent", 
+    ],
+    "id": 5061,
+    "name": "The Main Tent",
     "sector_type": {
-      "note": "FIELD", 
+      "note": "FIELD",
       "value": 2
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "You carefully begin to walk across the bridge, but suddenly the rope\nbreaks and you fall...\n                     ... and fall\n                            and fall\n                               and fall\n                                    ... to your death on the rocks below.", 
+    "desc": "You carefully begin to walk across the bridge, but suddenly the rope\nbreaks and you fall...\n                     ... and fall\n                            and fall\n                               and fall\n                                    ... to your death on the rocks below.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5053
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DEATH", 
+        "note": "DEATH",
         "value": 2
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5062, 
-    "name": "The Rickety Rope Bridge", 
+    ],
+    "id": 5062,
+    "name": "The Rickety Rope Bridge",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "Being very careful not to lose your balance, you look around and\nfind that this canyon is about a half a kilometer deep.  To the west is\na dark cave leading under the desert sands and above you a rope bridge\nspans the gap.", 
+    "desc": "Being very careful not to lose your balance, you look around and\nfind that this canyon is about a half a kilometer deep.  To the west is\na dark cave leading under the desert sands and above you a rope bridge\nspans the gap.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5064
-      }, 
+      },
       {
-        "desc": "The desert sands blow down in your face.", 
-        "dir": 4, 
+        "desc": "The desert sands blow down in your face.",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5052
       }
-    ], 
-    "extra_descs": [], 
-    "flags": [], 
-    "id": 5063, 
-    "name": "The Wind-Swept Ledge", 
+    ],
+    "extra_descs": [],
+    "flags": [],
+    "id": 5063,
+    "name": "The Wind-Swept Ledge",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "The air in here is MUCH cooler than outside.  From the west you hear \nstrange sounds, but can see nothing.  The cave slopes down into the \ndarkness.", 
+    "desc": "The air in here is MUCH cooler than outside.  From the west you hear \nstrange sounds, but can see nothing.  The cave slopes down into the \ndarkness.",
     "exits": [
       {
-        "desc": "Outside is lighter and very windy.", 
-        "dir": 1, 
+        "desc": "Outside is lighter and very windy.",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5063
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5065
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5064, 
-    "name": "The Cave Mouth", 
+    ],
+    "id": 5064,
+    "name": "The Cave Mouth",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "You have stumbled upon the home of something.  From the treasure\nhaphazardly strewn about and the rotting carcasses, you would guess\nthat this is a dragon's lair.  As to what type, you can't really say.\nThe cave narrows out into a tunnel to the west.", 
+    "desc": "You have stumbled upon the home of something.  From the treasure\nhaphazardly strewn about and the rotting carcasses, you would guess\nthat this is a dragon's lair.  As to what type, you can't really say.\nThe cave narrows out into a tunnel to the west.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5064
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5066
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
-      }, 
+      },
       {
-        "note": "NOTRACK", 
+        "note": "NOTRACK",
         "value": 64
-      }, 
+      },
       {
-        "note": "NOMAGIC", 
+        "note": "NOMAGIC",
         "value": 128
       }
-    ], 
-    "id": 5065, 
-    "name": "The Mysterious Lair", 
+    ],
+    "id": 5065,
+    "name": "The Mysterious Lair",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "This tunnel seems to go on forever into the darkness.  You carefully\nfeel your way along the walls.", 
+    "desc": "This tunnel seems to go on forever into the darkness.  You carefully\nfeel your way along the walls.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5065
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5067
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5066, 
-    "name": "A Wide Tunnel", 
+    ],
+    "id": 5066,
+    "name": "A Wide Tunnel",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "The tunnel becomes very narrow and you fight to squeeze your way through.\nThe floor seems to level off a little.", 
+    "desc": "The tunnel becomes very narrow and you fight to squeeze your way through.\nThe floor seems to level off a little.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5066
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 2, 
+        "desc": "",
+        "dir": 2,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5068
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5067, 
-    "name": "A Narrower Tunnel", 
+    ],
+    "id": 5067,
+    "name": "A Narrower Tunnel",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "This part of the tunnel is the hardest to move through as the walls\nmove in to meet you.", 
+    "desc": "This part of the tunnel is the hardest to move through as the walls\nmove in to meet you.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 0, 
+        "desc": "",
+        "dir": 0,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5067
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5069
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
-      }, 
+      },
       {
-        "note": "TUNNEL", 
+        "note": "TUNNEL",
         "value": 256
       }
-    ], 
-    "id": 5068, 
-    "name": "A Narrow Crack", 
+    ],
+    "id": 5068,
+    "name": "A Narrow Crack",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "It is dark and damp and bats hang from the ceiling.  A narrow crack is\nin the east wall.  The floor now slopes upwards.", 
+    "desc": "It is dark and damp and bats hang from the ceiling.  A narrow crack is\nin the east wall.  The floor now slopes upwards.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5068
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 3, 
+        "desc": "",
+        "dir": 3,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5070
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5069, 
-    "name": "A Small Cavern", 
+    ],
+    "id": 5069,
+    "name": "A Small Cavern",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
-  }, 
+  },
   {
-    "desc": "From within this shaft you can see a narrow hole in the roof just\nlarge enough for one person.  Back east is the cavern.", 
+    "desc": "From within this shaft you can see a narrow hole in the roof just\nlarge enough for one person.  Back east is the cavern.",
     "exits": [
       {
-        "desc": "", 
-        "dir": 1, 
+        "desc": "",
+        "dir": 1,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5069
-      }, 
+      },
       {
-        "desc": "", 
-        "dir": 4, 
+        "desc": "",
+        "dir": 4,
         "door_flag": {
-          "note": "NO_DOOR", 
+          "note": "NO_DOOR",
           "value": 0
-        }, 
-        "key_number": -1, 
-        "keywords": [], 
+        },
+        "key_number": -1,
+        "keywords": [],
         "room_linked": 5009
       }
-    ], 
-    "extra_descs": [], 
+    ],
+    "extra_descs": [],
     "flags": [
       {
-        "note": "DARK", 
+        "note": "DARK",
         "value": 1
-      }, 
+      },
       {
-        "note": "INDOORS", 
+        "note": "INDOORS",
         "value": 8
       }
-    ], 
-    "id": 5070, 
-    "name": "A Small Shaft", 
+    ],
+    "id": 5070,
+    "name": "A Small Shaft",
     "sector_type": {
-      "note": "MOUNTAIN", 
+      "note": "MOUNTAIN",
       "value": 5
-    }, 
+    },
     "zone_number": 50
   }
 ]

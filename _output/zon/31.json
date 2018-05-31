@@ -1,344 +1,344 @@
 [
   {
-    "bottom_room": 3100, 
+    "bottom_room": 3100,
     "doors": [
       {
-        "exit": 3, 
-        "room": 3111, 
+        "exit": 3,
+        "room": 3111,
         "state": 2
-      }, 
+      },
       {
-        "exit": 1, 
-        "room": 3110, 
+        "exit": 1,
+        "room": 3110,
         "state": 2
-      }, 
+      },
       {
-        "exit": 2, 
-        "room": 3129, 
+        "exit": 2,
+        "room": 3129,
         "state": 2
-      }, 
+      },
       {
-        "exit": 0, 
-        "room": 3150, 
+        "exit": 0,
+        "room": 3150,
         "state": 2
-      }, 
+      },
       {
-        "exit": 2, 
-        "room": 3154, 
+        "exit": 2,
+        "room": 3154,
         "state": 1
-      }, 
+      },
       {
-        "exit": 0, 
-        "room": 3155, 
+        "exit": 0,
+        "room": 3155,
         "state": 1
       }
-    ], 
-    "id": 31, 
-    "lifespan": 40, 
+    ],
+    "id": 31,
+    "lifespan": 40,
     "mobs": [
       {
         "equipped": [
           {
-            "contents": [], 
-            "id": 3022, 
-            "location": 16, 
-            "max": 100, 
+            "contents": [],
+            "id": 3022,
+            "location": 16,
+            "max": 100,
             "note": "WIELD"
           }
-        ], 
+        ],
         "inventory": [
           {
-            "contents": [], 
-            "id": 3105, 
+            "contents": [],
+            "id": 3105,
             "max": 2
           }
-        ], 
-        "max": 20, 
-        "mob": 3060, 
+        ],
+        "max": 20,
+        "mob": 3060,
         "room": 3111
-      }, 
+      },
       {
         "equipped": [
           {
-            "contents": [], 
-            "id": 3022, 
-            "location": 16, 
-            "max": 100, 
+            "contents": [],
+            "id": 3022,
+            "location": 16,
+            "max": 100,
             "note": "WIELD"
           }
-        ], 
-        "inventory": [], 
-        "max": 20, 
-        "mob": 3060, 
+        ],
+        "inventory": [],
+        "max": 20,
+        "mob": 3060,
         "room": 3111
-      }, 
+      },
       {
         "equipped": [
           {
-            "contents": [], 
-            "id": 3022, 
-            "location": 16, 
-            "max": 100, 
+            "contents": [],
+            "id": 3022,
+            "location": 16,
+            "max": 100,
             "note": "WIELD"
           }
-        ], 
-        "inventory": [], 
-        "max": 20, 
-        "mob": 3060, 
+        ],
+        "inventory": [],
+        "max": 20,
+        "mob": 3060,
         "room": 3111
-      }, 
+      },
       {
         "equipped": [
           {
-            "contents": [], 
-            "id": 3022, 
-            "location": 16, 
-            "max": 100, 
+            "contents": [],
+            "id": 3022,
+            "location": 16,
+            "max": 100,
             "note": "WIELD"
           }
-        ], 
-        "inventory": [], 
-        "max": 20, 
-        "mob": 3060, 
+        ],
+        "inventory": [],
+        "max": 20,
+        "mob": 3060,
         "room": 3111
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 4, 
-        "mob": 3068, 
+        "equipped": [],
+        "inventory": [],
+        "max": 4,
+        "mob": 3068,
         "room": 3106
-      }, 
+      },
       {
-        "equipped": [], 
+        "equipped": [],
         "inventory": [
           {
-            "contents": [], 
-            "id": 3100, 
+            "contents": [],
+            "id": 3100,
             "max": 500
-          }, 
+          },
           {
-            "contents": [], 
-            "id": 3101, 
+            "contents": [],
+            "id": 3101,
             "max": 500
-          }, 
+          },
           {
-            "contents": [], 
-            "id": 3102, 
+            "contents": [],
+            "id": 3102,
             "max": 500
           }
-        ], 
-        "max": 1, 
-        "mob": 3100, 
+        ],
+        "max": 1,
+        "mob": 3100,
         "room": 3106
-      }, 
+      },
       {
-        "equipped": [], 
+        "equipped": [],
         "inventory": [
           {
-            "contents": [], 
-            "id": 3106, 
+            "contents": [],
+            "id": 3106,
             "max": 2
           }
-        ], 
-        "max": 1, 
-        "mob": 3101, 
+        ],
+        "max": 1,
+        "mob": 3101,
         "room": 3106
-      }, 
+      },
       {
-        "equipped": [], 
+        "equipped": [],
         "inventory": [
           {
-            "contents": [], 
-            "id": 3107, 
+            "contents": [],
+            "id": 3107,
             "max": 2
           }
-        ], 
-        "max": 1, 
-        "mob": 3102, 
+        ],
+        "max": 1,
+        "mob": 3102,
         "room": 3110
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 4, 
-        "mob": 3103, 
+        "equipped": [],
+        "inventory": [],
+        "max": 4,
+        "mob": 3103,
         "room": 3110
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 4, 
-        "mob": 3103, 
+        "equipped": [],
+        "inventory": [],
+        "max": 4,
+        "mob": 3103,
         "room": 3110
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 4, 
-        "mob": 3103, 
+        "equipped": [],
+        "inventory": [],
+        "max": 4,
+        "mob": 3103,
         "room": 3110
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 4, 
-        "mob": 3103, 
+        "equipped": [],
+        "inventory": [],
+        "max": 4,
+        "mob": 3103,
         "room": 3110
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 1, 
-        "mob": 3104, 
+        "equipped": [],
+        "inventory": [],
+        "max": 1,
+        "mob": 3104,
         "room": 3137
-      }, 
+      },
       {
         "equipped": [
           {
-            "contents": [], 
-            "id": 3112, 
-            "location": 17, 
-            "max": 1, 
+            "contents": [],
+            "id": 3112,
+            "location": 17,
+            "max": 1,
             "note": "HOLD"
           }
-        ], 
-        "inventory": [], 
-        "max": 1, 
-        "mob": 3105, 
+        ],
+        "inventory": [],
+        "max": 1,
+        "mob": 3105,
         "room": 3138
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 1, 
-        "mob": 3106, 
+        "equipped": [],
+        "inventory": [],
+        "max": 1,
+        "mob": 3106,
         "room": 3120
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 1, 
-        "mob": 3120, 
+        "equipped": [],
+        "inventory": [],
+        "max": 1,
+        "mob": 3120,
         "room": 3114
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 1, 
-        "mob": 3121, 
+        "equipped": [],
+        "inventory": [],
+        "max": 1,
+        "mob": 3121,
         "room": 3114
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 1, 
-        "mob": 3122, 
+        "equipped": [],
+        "inventory": [],
+        "max": 1,
+        "mob": 3122,
         "room": 3109
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 2, 
-        "mob": 3123, 
+        "equipped": [],
+        "inventory": [],
+        "max": 2,
+        "mob": 3123,
         "room": 3113
-      }, 
+      },
       {
-        "equipped": [], 
-        "inventory": [], 
-        "max": 2, 
-        "mob": 3123, 
+        "equipped": [],
+        "inventory": [],
+        "max": 2,
+        "mob": 3123,
         "room": 3115
       }
-    ], 
-    "name": "Southern part of Midgaard", 
+    ],
+    "name": "Southern part of Midgaard",
     "objects": [
       {
         "contents": [
           {
-            "contents": [], 
-            "id": 3108, 
+            "contents": [],
+            "id": 3108,
             "max": 1
           }
-        ], 
-        "id": 3109, 
-        "max": 1, 
+        ],
+        "id": 3109,
+        "max": 1,
         "room": 3110
-      }, 
+      },
       {
         "contents": [
           {
-            "contents": [], 
-            "id": 3115, 
+            "contents": [],
+            "id": 3115,
             "max": 1
           }
-        ], 
-        "id": 3110, 
-        "max": 1, 
+        ],
+        "id": 3110,
+        "max": 1,
         "room": 3110
-      }, 
+      },
       {
-        "contents": [], 
-        "id": 3111, 
-        "max": 3, 
+        "contents": [],
+        "id": 3111,
+        "max": 3,
         "room": 3101
-      }, 
+      },
       {
-        "contents": [], 
-        "id": 3111, 
-        "max": 3, 
+        "contents": [],
+        "id": 3111,
+        "max": 3,
         "room": 3102
-      }, 
+      },
       {
-        "contents": [], 
-        "id": 3111, 
-        "max": 3, 
+        "contents": [],
+        "id": 3111,
+        "max": 3,
         "room": 3103
-      }, 
+      },
       {
-        "contents": [], 
-        "id": 3113, 
-        "max": 1, 
+        "contents": [],
+        "id": 3113,
+        "max": 1,
         "room": 3141
-      }, 
+      },
       {
-        "contents": [], 
-        "id": 3114, 
-        "max": 1, 
+        "contents": [],
+        "id": 3114,
+        "max": 1,
         "room": 3141
-      }, 
+      },
       {
-        "contents": [], 
-        "id": 3116, 
-        "max": 1, 
+        "contents": [],
+        "id": 3116,
+        "max": 1,
         "room": 3155
-      }, 
+      },
       {
-        "contents": [], 
-        "id": 3117, 
-        "max": 1, 
+        "contents": [],
+        "id": 3117,
+        "max": 1,
         "room": 3124
       }
-    ], 
+    ],
     "remove_objects": [
       {
-        "id": 3111, 
+        "id": 3111,
         "room": 3101
-      }, 
+      },
       {
-        "id": 3111, 
+        "id": 3111,
         "room": 3102
-      }, 
+      },
       {
-        "id": 3111, 
+        "id": 3111,
         "room": 3103
-      }, 
+      },
       {
-        "id": 3113, 
+        "id": 3113,
         "room": 3141
       }
-    ], 
-    "reset_mode": 2, 
+    ],
+    "reset_mode": 2,
     "top_room": 3299
   }
 ]

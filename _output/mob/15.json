@@ -2,1487 +2,1487 @@
   {
     "affects": [
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
       }
-    ], 
+    ],
     "aliases": [
-      "allah", 
-      "god", 
+      "allah",
+      "god",
       "yahweh"
-    ], 
-    "alignment": 1000, 
-    "armor_class": -10, 
+    ],
+    "alignment": 1000,
+    "armor_class": -10,
     "bare_hand_damage": {
-      "bonus": 9, 
-      "dice": 8, 
+      "bonus": 9,
+      "dice": 8,
       "sides": 8
-    }, 
-    "detail_desc": "The sight is for each man a different, a mirror into the true nature of\neach person's body and soul.  At first a proud, bitter old man, but just\nas easily a gentle extended hand, a smile, and gardens... gardens.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The sight is for each man a different, a mirror into the true nature of\neach person's body and soul.  At first a proud, bitter old man, but just\nas easily a gentle extended hand, a smile, and gardens... gardens.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AWARE", 
+        "note": "AWARE",
         "value": 16
-      }, 
+      },
       {
-        "note": "AGGR_EVIL", 
+        "note": "AGGR_EVIL",
         "value": 256
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
-      }, 
+      },
       {
-        "note": "NOCHARM", 
+        "note": "NOCHARM",
         "value": 8192
-      }, 
+      },
       {
-        "note": "NOSUMMON", 
+        "note": "NOSUMMON",
         "value": 16384
-      }, 
+      },
       {
-        "note": "NOSLEEP", 
+        "note": "NOSLEEP",
         "value": 32768
-      }, 
+      },
       {
-        "note": "NOBASH", 
+        "note": "NOBASH",
         "value": 65536
-      }, 
+      },
       {
-        "note": "NOBLIND", 
+        "note": "NOBLIND",
         "value": 131072
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 0, 
-    "id": 1500, 
-    "level": 30, 
-    "long_desc": "You resist the urge to avert your eyes from the sight of the one true God.", 
+    },
+    "gold": 0,
+    "id": 1500,
+    "level": 30,
+    "long_desc": "You resist the urge to avert your eyes from the sight of the one true God.",
     "max_hit_points": {
-      "bonus": 2999, 
-      "dice": 1, 
+      "bonus": 2999,
+      "dice": 1,
       "sides": 1
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Allah", 
-    "thac0": -10, 
+    },
+    "short_desc": "Allah",
+    "thac0": -10,
     "xp": 400000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
       }
-    ], 
+    ],
     "aliases": [
-      "michael", 
-      "angel", 
+      "michael",
+      "angel",
       "archangel"
-    ], 
-    "alignment": 1000, 
-    "armor_class": -7, 
+    ],
+    "alignment": 1000,
+    "armor_class": -7,
     "bare_hand_damage": {
-      "bonus": 7, 
-      "dice": 6, 
+      "bonus": 7,
+      "dice": 6,
       "sides": 7
-    }, 
-    "detail_desc": "At first you see nothing but a bright and comforting glow; then the\nimage sharpens suddenly, and you see a face, eyes, hands, but then\nthat too fades, and you see nothing.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "At first you see nothing but a bright and comforting glow; then the\nimage sharpens suddenly, and you see a face, eyes, hands, but then\nthat too fades, and you see nothing.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 0, 
-    "id": 1501, 
-    "level": 29, 
-    "long_desc": "The archangel Michael turns and begins to look you over.", 
+    },
+    "gold": 0,
+    "id": 1501,
+    "level": 29,
+    "long_desc": "The archangel Michael turns and begins to look you over.",
     "max_hit_points": {
-      "bonus": 1900, 
-      "dice": 1, 
+      "bonus": 1900,
+      "dice": 1,
       "sides": 100
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Michael", 
-    "thac0": -6, 
+    },
+    "short_desc": "Michael",
+    "thac0": -6,
     "xp": 280000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
       }
-    ], 
+    ],
     "aliases": [
-      "gabriel", 
-      "angel", 
+      "gabriel",
+      "angel",
       "archangel"
-    ], 
-    "alignment": 1000, 
-    "armor_class": -7, 
+    ],
+    "alignment": 1000,
+    "armor_class": -7,
     "bare_hand_damage": {
-      "bonus": 7, 
-      "dice": 6, 
+      "bonus": 7,
+      "dice": 6,
       "sides": 7
-    }, 
-    "detail_desc": "Known as the Messenger, it is this angel that has brought the Divine Word\nto the chosen prophets, and in turn brought the Seal of the Prophets on a\nmiraculous journey to the holy city of Jerusalem.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "Known as the Messenger, it is this angel that has brought the Divine Word\nto the chosen prophets, and in turn brought the Seal of the Prophets on a\nmiraculous journey to the holy city of Jerusalem.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 0, 
-    "id": 1502, 
-    "level": 29, 
-    "long_desc": "The archangel Gabriel smiles, and begins to tell you something.", 
+    },
+    "gold": 0,
+    "id": 1502,
+    "level": 29,
+    "long_desc": "The archangel Gabriel smiles, and begins to tell you something.",
     "max_hit_points": {
-      "bonus": 1900, 
-      "dice": 1, 
+      "bonus": 1900,
+      "dice": 1,
       "sides": 100
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Gabriel", 
-    "thac0": -6, 
+    },
+    "short_desc": "Gabriel",
+    "thac0": -6,
     "xp": 280000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
       }
-    ], 
+    ],
     "aliases": [
-      "raphael", 
-      "angel", 
+      "raphael",
+      "angel",
       "archangel"
-    ], 
-    "alignment": 1000, 
-    "armor_class": -7, 
+    ],
+    "alignment": 1000,
+    "armor_class": -7,
     "bare_hand_damage": {
-      "bonus": 7, 
-      "dice": 6, 
+      "bonus": 7,
+      "dice": 6,
       "sides": 7
-    }, 
-    "detail_desc": "It is impossible to get a solid glance at the archangel.  He is nothing\nthat is human, and with a mere whisper, he dispels every image that you\nattempt to create in your mind.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "It is impossible to get a solid glance at the archangel.  He is nothing\nthat is human, and with a mere whisper, he dispels every image that you\nattempt to create in your mind.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 0, 
-    "id": 1503, 
-    "level": 29, 
-    "long_desc": "The archangel Raphael looks up and frowns at you in disapproval.", 
+    },
+    "gold": 0,
+    "id": 1503,
+    "level": 29,
+    "long_desc": "The archangel Raphael looks up and frowns at you in disapproval.",
     "max_hit_points": {
-      "bonus": 1900, 
-      "dice": 1, 
+      "bonus": 1900,
+      "dice": 1,
       "sides": 100
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Raphael", 
-    "thac0": -6, 
+    },
+    "short_desc": "Raphael",
+    "thac0": -6,
     "xp": 280000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
       }
-    ], 
+    ],
     "aliases": [
-      "uriel", 
-      "angel", 
+      "uriel",
+      "angel",
       "archangel"
-    ], 
-    "alignment": 1000, 
-    "armor_class": -7, 
+    ],
+    "alignment": 1000,
+    "armor_class": -7,
     "bare_hand_damage": {
-      "bonus": 7, 
-      "dice": 6, 
+      "bonus": 7,
+      "dice": 6,
       "sides": 7
-    }, 
-    "detail_desc": "After the Fall of the bringer of light, the Lord had need for the\nservice of a fourth, and it was this angel, Uriel, that rose to the\nhighest ranks.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "After the Fall of the bringer of light, the Lord had need for the\nservice of a fourth, and it was this angel, Uriel, that rose to the\nhighest ranks.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 0, 
-    "id": 1504, 
-    "level": 29, 
-    "long_desc": "Uriel, the angel of darkness, stands here guarding the way forward.", 
+    },
+    "gold": 0,
+    "id": 1504,
+    "level": 29,
+    "long_desc": "Uriel, the angel of darkness, stands here guarding the way forward.",
     "max_hit_points": {
-      "bonus": 1900, 
-      "dice": 1, 
+      "bonus": 1900,
+      "dice": 1,
       "sides": 100
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Uriel", 
-    "thac0": -6, 
+    },
+    "short_desc": "Uriel",
+    "thac0": -6,
     "xp": 280000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "SANCTUARY", 
+        "note": "SANCTUARY",
         "value": 128
       }
-    ], 
+    ],
     "aliases": [
-      "cherub", 
-      "cherubin", 
+      "cherub",
+      "cherubin",
       "cherubim"
-    ], 
-    "alignment": 0, 
-    "armor_class": 0, 
+    ],
+    "alignment": 0,
+    "armor_class": 0,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 3, 
+      "bonus": 4,
+      "dice": 3,
       "sides": 6
-    }, 
-    "detail_desc": "The monster before you seems to be nothing more than a baby or young\nchild, wrapped in a glowing white cloth, but as you try to walk past,\nthe beast grins and cackles, drawing its sword and blocking the way.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The monster before you seems to be nothing more than a baby or young\nchild, wrapped in a glowing white cloth, but as you try to walk past,\nthe beast grins and cackles, drawing its sword and blocking the way.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 1505, 
-    "level": 17, 
-    "long_desc": "The cherubin of the blazing sword looks at you and begins to chuckle.", 
+    },
+    "gold": 0,
+    "id": 1505,
+    "level": 17,
+    "long_desc": "The cherubin of the blazing sword looks at you and begins to chuckle.",
     "max_hit_points": {
-      "bonus": 260, 
-      "dice": 10, 
+      "bonus": 260,
+      "dice": 10,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the cherubin", 
-    "thac0": 1, 
+    },
+    "short_desc": "the cherubin",
+    "thac0": 1,
     "xp": 40000
-  }, 
+  },
   {
-    "affects": [], 
+    "affects": [],
     "aliases": [
       "jester"
-    ], 
-    "alignment": -300, 
-    "armor_class": 1, 
+    ],
+    "alignment": -300,
+    "armor_class": 1,
     "bare_hand_damage": {
-      "bonus": 2, 
-      "dice": 2, 
+      "bonus": 2,
+      "dice": 2,
       "sides": 8
-    }, 
-    "detail_desc": "He is dimly aware of your gaze.  Chuckling softly, you hear him mutter\nsomething obscure: dragons, the temple, the falling of great empires.\nHe laughs at you and takes another drink.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He is dimly aware of your gaze.  Chuckling softly, you hear him mutter\nsomething obscure: dragons, the temple, the falling of great empires.\nHe laughs at you and takes another drink.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 3450, 
-    "id": 1506, 
-    "level": 13, 
-    "long_desc": "A mad, drunken jester is sitting here, lost in his deepening stupor.", 
+    },
+    "gold": 3450,
+    "id": 1506,
+    "level": 13,
+    "long_desc": "A mad, drunken jester is sitting here, lost in his deepening stupor.",
     "max_hit_points": {
-      "bonus": 180, 
-      "dice": 10, 
+      "bonus": 180,
+      "dice": 10,
       "sides": 2
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_SITTING", 
+        "note": "POSITION_SITTING",
         "value": 6
-      }, 
+      },
       "load": {
-        "note": "POSITION_SITTING", 
+        "note": "POSITION_SITTING",
         "value": 6
       }
-    }, 
-    "short_desc": "the jester", 
-    "thac0": 6, 
+    },
+    "short_desc": "the jester",
+    "thac0": 6,
     "xp": 21000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "INVISIBLE", 
+        "note": "INVISIBLE",
         "value": 2
       }
-    ], 
+    ],
     "aliases": [
-      "jinn", 
+      "jinn",
       "sprite"
-    ], 
-    "alignment": 0, 
-    "armor_class": -2, 
+    ],
+    "alignment": 0,
+    "armor_class": -2,
     "bare_hand_damage": {
-      "bonus": 3, 
-      "dice": 3, 
+      "bonus": 3,
+      "dice": 3,
       "sides": 9
-    }, 
-    "detail_desc": "You have heard legends of these creatures, the mischievous little demons\nsaid to be trapped in lamps and bottles, capable of granting all kinds of\npowerful wishes.  To you, it looks like nothing more than an annoying little\nsprite.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "You have heard legends of these creatures, the mischievous little demons\nsaid to be trapped in lamps and bottles, capable of granting all kinds of\npowerful wishes.  To you, it looks like nothing more than an annoying little\nsprite.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "STAY_ZONE", 
+        "note": "STAY_ZONE",
         "value": 64
       }
-    ], 
+    ],
     "gender": {
-      "note": "N", 
+      "note": "N",
       "value": 0
-    }, 
-    "gold": 0, 
-    "id": 1507, 
-    "level": 23, 
-    "long_desc": "One of the jinn dances in and out of the air before your eyes, taunting you.", 
+    },
+    "gold": 0,
+    "id": 1507,
+    "level": 23,
+    "long_desc": "One of the jinn dances in and out of the air before your eyes, taunting you.",
     "max_hit_points": {
-      "bonus": 400, 
-      "dice": 25, 
+      "bonus": 400,
+      "dice": 25,
       "sides": 2
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the jinn", 
-    "thac0": 0, 
+    },
+    "short_desc": "the jinn",
+    "thac0": 0,
     "xp": 70000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "man", 
+      "man",
       "old"
-    ], 
-    "alignment": -1000, 
-    "armor_class": -5, 
+    ],
+    "alignment": -1000,
+    "armor_class": -5,
     "bare_hand_damage": {
-      "bonus": 6, 
-      "dice": 4, 
+      "bonus": 6,
+      "dice": 4,
       "sides": 9
-    }, 
-    "detail_desc": "He wears a faded uniform, decorated with honors of his own creation,\nslackened jaws and pasty white bags sagging under his ugly, hating eyes.\nA tuft of reckless dark hair scatters across his forehead, and his right\nhand shakes and shakes.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He wears a faded uniform, decorated with honors of his own creation,\nslackened jaws and pasty white bags sagging under his ugly, hating eyes.\nA tuft of reckless dark hair scatters across his forehead, and his right\nhand shakes and shakes.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 34000, 
-    "id": 1508, 
-    "level": 26, 
-    "long_desc": "A slumped, shaking old man stands up and begins to yell at the world.", 
+    },
+    "gold": 34000,
+    "id": 1508,
+    "level": 26,
+    "long_desc": "A slumped, shaking old man stands up and begins to yell at the world.",
     "max_hit_points": {
-      "bonus": 840, 
-      "dice": 4, 
+      "bonus": 840,
+      "dice": 4,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the slumped old man", 
-    "thac0": -4, 
+    },
+    "short_desc": "the slumped old man",
+    "thac0": -4,
     "xp": 180000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "caliph", 
-      "hakim", 
+      "caliph",
+      "hakim",
       "al-hakim"
-    ], 
-    "alignment": -1000, 
-    "armor_class": -5, 
+    ],
+    "alignment": -1000,
+    "armor_class": -5,
     "bare_hand_damage": {
-      "bonus": 6, 
-      "dice": 4, 
+      "bonus": 6,
+      "dice": 4,
       "sides": 9
-    }, 
-    "detail_desc": "The darkest skin, and eyes so white.  Covered only in a shoddy woolen\ntunic, he has not bathed in months nor eaten in days, and yet his smile,\nso charming.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The darkest skin, and eyes so white.  Covered only in a shoddy woolen\ntunic, he has not bathed in months nor eaten in days, and yet his smile,\nso charming.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 34000, 
-    "id": 1509, 
-    "level": 26, 
-    "long_desc": "The mad Caliph al-Hakim is here, dissecting a young boy.", 
+    },
+    "gold": 34000,
+    "id": 1509,
+    "level": 26,
+    "long_desc": "The mad Caliph al-Hakim is here, dissecting a young boy.",
     "max_hit_points": {
-      "bonus": 840, 
-      "dice": 4, 
+      "bonus": 840,
+      "dice": 4,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "al-Hakim", 
-    "thac0": -4, 
+    },
+    "short_desc": "al-Hakim",
+    "thac0": -4,
     "xp": 180000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "judas", 
-      "escariot", 
+      "judas",
+      "escariot",
       "apostle"
-    ], 
-    "alignment": -1000, 
-    "armor_class": -4, 
+    ],
+    "alignment": -1000,
+    "armor_class": -4,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 4, 
+      "bonus": 5,
+      "dice": 4,
       "sides": 6
-    }, 
-    "detail_desc": "You see nothing but the sadness of a man who would sell his own God.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "You see nothing but the sadness of a man who would sell his own God.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 1, 
-    "id": 1510, 
-    "level": 25, 
-    "long_desc": "The wayward apostle approaches slowly, extending his arms in a hug.", 
+    },
+    "gold": 1,
+    "id": 1510,
+    "level": 25,
+    "long_desc": "The wayward apostle approaches slowly, extending his arms in a hug.",
     "max_hit_points": {
-      "bonus": 650, 
-      "dice": 5, 
+      "bonus": 650,
+      "dice": 5,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Judas Escariot", 
-    "thac0": -3, 
+    },
+    "short_desc": "Judas Escariot",
+    "thac0": -3,
     "xp": 145000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
       "pharoah"
-    ], 
-    "alignment": -1000, 
-    "armor_class": -4, 
+    ],
+    "alignment": -1000,
+    "armor_class": -4,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 4, 
+      "bonus": 5,
+      "dice": 4,
       "sides": 6
-    }, 
-    "detail_desc": "Richly clothed and postured in arrogance and love of power, he looks at\nyou with nothing more than a smirk of contempt.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "Richly clothed and postured in arrogance and love of power, he looks at\nyou with nothing more than a smirk of contempt.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 25000, 
-    "id": 1511, 
-    "level": 25, 
-    "long_desc": "Pharoah has been sent here in retribution for a lifetime of evils.", 
+    },
+    "gold": 25000,
+    "id": 1511,
+    "level": 25,
+    "long_desc": "Pharoah has been sent here in retribution for a lifetime of evils.",
     "max_hit_points": {
-      "bonus": 650, 
-      "dice": 5, 
+      "bonus": 650,
+      "dice": 5,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Pharoah", 
-    "thac0": -3, 
+    },
+    "short_desc": "Pharoah",
+    "thac0": -3,
     "xp": 145000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "abu", 
-      "bakr", 
-      "first", 
+      "abu",
+      "bakr",
+      "first",
       "caliph"
-    ], 
-    "alignment": 1000, 
-    "armor_class": -4, 
+    ],
+    "alignment": 1000,
+    "armor_class": -4,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 4, 
+      "bonus": 5,
+      "dice": 4,
       "sides": 6
-    }, 
-    "detail_desc": "You see a simple man, dressed in dark and unadorned robes, bent over and\npensive, reliving the memories of a man he never thought would die.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "You see a simple man, dressed in dark and unadorned robes, bent over and\npensive, reliving the memories of a man he never thought would die.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 25000, 
-    "id": 1512, 
-    "level": 25, 
-    "long_desc": "Abu Bakr, first of the Rashidun, mourns over the death of the Prophet.", 
+    },
+    "gold": 25000,
+    "id": 1512,
+    "level": 25,
+    "long_desc": "Abu Bakr, first of the Rashidun, mourns over the death of the Prophet.",
     "max_hit_points": {
-      "bonus": 650, 
-      "dice": 5, 
+      "bonus": 650,
+      "dice": 5,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Abu Bakr", 
-    "thac0": -3, 
+    },
+    "short_desc": "Abu Bakr",
+    "thac0": -3,
     "xp": 145000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "umar", 
-      "second", 
+      "umar",
+      "second",
       "caliph"
-    ], 
-    "alignment": 1000, 
-    "armor_class": -4, 
+    ],
+    "alignment": 1000,
+    "armor_class": -4,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 4, 
+      "bonus": 5,
+      "dice": 4,
       "sides": 6
-    }, 
-    "detail_desc": "You are amazed at the piety of the man.  He looks at you in sadness,\nsaying: \"I do not wish to fight you, but if you refuse the truth of\nthe Word, then I must.\"", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "You are amazed at the piety of the man.  He looks at you in sadness,\nsaying: \"I do not wish to fight you, but if you refuse the truth of\nthe Word, then I must.\"",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 25000, 
-    "id": 1513, 
-    "level": 25, 
-    "long_desc": "You see Umar, second of the Rashidun, the successors of the Prophet.", 
+    },
+    "gold": 25000,
+    "id": 1513,
+    "level": 25,
+    "long_desc": "You see Umar, second of the Rashidun, the successors of the Prophet.",
     "max_hit_points": {
-      "bonus": 650, 
-      "dice": 5, 
+      "bonus": 650,
+      "dice": 5,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Umar", 
-    "thac0": -3, 
+    },
+    "short_desc": "Umar",
+    "thac0": -3,
     "xp": 145000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "uthman", 
-      "third", 
+      "uthman",
+      "third",
       "caliph"
-    ], 
-    "alignment": 1000, 
-    "armor_class": -5, 
+    ],
+    "alignment": 1000,
+    "armor_class": -5,
     "bare_hand_damage": {
-      "bonus": 6, 
-      "dice": 4, 
+      "bonus": 6,
+      "dice": 4,
       "sides": 9
-    }, 
-    "detail_desc": "He was chosen as leader by a clique of jealous rivals who could agree\nupon no other.  The memory of the Prophet fading quickly from the minds\nof the faithful, he could do little, and was in the end killed by his\nenemies.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He was chosen as leader by a clique of jealous rivals who could agree\nupon no other.  The memory of the Prophet fading quickly from the minds\nof the faithful, he could do little, and was in the end killed by his\nenemies.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 34000, 
-    "id": 1514, 
-    "level": 26, 
-    "long_desc": "The third of the rightly-guided Caliphs, Uthman, stands before you.", 
+    },
+    "gold": 34000,
+    "id": 1514,
+    "level": 26,
+    "long_desc": "The third of the rightly-guided Caliphs, Uthman, stands before you.",
     "max_hit_points": {
-      "bonus": 840, 
-      "dice": 4, 
+      "bonus": 840,
+      "dice": 4,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Uthman", 
-    "thac0": -4, 
+    },
+    "short_desc": "Uthman",
+    "thac0": -4,
     "xp": 180000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "ali", 
-      "fourth", 
-      "last", 
+      "ali",
+      "fourth",
+      "last",
       "caliph"
-    ], 
-    "alignment": 1000, 
-    "armor_class": -5, 
+    ],
+    "alignment": 1000,
+    "armor_class": -5,
     "bare_hand_damage": {
-      "bonus": 6, 
-      "dice": 4, 
+      "bonus": 6,
+      "dice": 4,
       "sides": 9
-    }, 
-    "detail_desc": "Some view him as the closest to God among all of the Caliphs, the one\nmost deserving of our respect and reverence.  Still others saw him as\na schismatic, a heretic, one to be killed and forgotten.  To look at\nhim now is for you to decide for yourself.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "Some view him as the closest to God among all of the Caliphs, the one\nmost deserving of our respect and reverence.  Still others saw him as\na schismatic, a heretic, one to be killed and forgotten.  To look at\nhim now is for you to decide for yourself.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 34000, 
-    "id": 1515, 
-    "level": 26, 
-    "long_desc": "You have come before Ali, fourth and last of the Rashidun.", 
+    },
+    "gold": 34000,
+    "id": 1515,
+    "level": 26,
+    "long_desc": "You have come before Ali, fourth and last of the Rashidun.",
     "max_hit_points": {
-      "bonus": 840, 
-      "dice": 4, 
+      "bonus": 840,
+      "dice": 4,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Ali", 
-    "thac0": -4, 
+    },
+    "short_desc": "Ali",
+    "thac0": -4,
     "xp": 180000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "angel", 
-      "beautiful", 
+      "angel",
+      "beautiful",
       "iblis"
-    ], 
-    "alignment": -1000, 
-    "armor_class": -4, 
+    ],
+    "alignment": -1000,
+    "armor_class": -4,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 4, 
+      "bonus": 5,
+      "dice": 4,
       "sides": 6
-    }, 
-    "detail_desc": "He smiles calmly, and begins to tell you of the time when he would not\nkneel, would not prostrate himself before the first human beings.  And\nthen he gestures at you, smiling, and conjures an image of all the \ntemptations that will be yours if you in turn but follow him.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He smiles calmly, and begins to tell you of the time when he would not\nkneel, would not prostrate himself before the first human beings.  And\nthen he gestures at you, smiling, and conjures an image of all the \ntemptations that will be yours if you in turn but follow him.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 25000, 
-    "id": 1516, 
-    "level": 25, 
-    "long_desc": "You gaze in awe at the most beautiful of all angels, Iblis, the Fallen.", 
+    },
+    "gold": 25000,
+    "id": 1516,
+    "level": 25,
+    "long_desc": "You gaze in awe at the most beautiful of all angels, Iblis, the Fallen.",
     "max_hit_points": {
-      "bonus": 650, 
-      "dice": 10, 
+      "bonus": 650,
+      "dice": 10,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "Iblis", 
-    "thac0": -3, 
+    },
+    "short_desc": "Iblis",
+    "thac0": -3,
     "xp": 145000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "iblis", 
-      "satan", 
-      "devil", 
+      "iblis",
+      "satan",
+      "devil",
       "voice"
-    ], 
-    "alignment": -1000, 
-    "armor_class": -4, 
+    ],
+    "alignment": -1000,
+    "armor_class": -4,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 4, 
+      "bonus": 5,
+      "dice": 4,
       "sides": 6
-    }, 
-    "detail_desc": "There is no physical figure attached to the presence that dominates this\nplace, just tormented laughter, moaning, screaming, and begging.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "There is no physical figure attached to the presence that dominates this\nplace, just tormented laughter, moaning, screaming, and begging.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 25000, 
-    "id": 1517, 
-    "level": 25, 
-    "long_desc": "You pause nervously as a voice whispers at you from over your shoulder.", 
+    },
+    "gold": 25000,
+    "id": 1517,
+    "level": 25,
+    "long_desc": "You pause nervously as a voice whispers at you from over your shoulder.",
     "max_hit_points": {
-      "bonus": 650, 
-      "dice": 10, 
+      "bonus": 650,
+      "dice": 10,
       "sides": 5
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the Temptation", 
-    "thac0": -3, 
+    },
+    "short_desc": "the Temptation",
+    "thac0": -3,
     "xp": 145000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "serpent", 
-      "dragon", 
-      "devil", 
+      "serpent",
+      "dragon",
+      "devil",
       "iblis"
-    ], 
-    "alignment": -1000, 
-    "armor_class": -5, 
+    ],
+    "alignment": -1000,
+    "armor_class": -5,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 4, 
+      "bonus": 5,
+      "dice": 4,
       "sides": 8
-    }, 
-    "detail_desc": "The serpent of babylon, the aged and violet hued monster that has \nwatched all of mankind succumb before its power, turns to you as\nits last victim.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The serpent of babylon, the aged and violet hued monster that has \nwatched all of mankind succumb before its power, turns to you as\nits last victim.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 40000, 
-    "id": 1518, 
-    "level": 27, 
-    "long_desc": "A raging dragon turns to you in violent lust for your soul.", 
+    },
+    "gold": 40000,
+    "id": 1518,
+    "level": 27,
+    "long_desc": "A raging dragon turns to you in violent lust for your soul.",
     "max_hit_points": {
-      "bonus": 825, 
-      "dice": 75, 
+      "bonus": 825,
+      "dice": 75,
       "sides": 2
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the raging dragon", 
-    "thac0": -4, 
+    },
+    "short_desc": "the raging dragon",
+    "thac0": -4,
     "xp": 180000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "demon", 
+      "demon",
       "fire"
-    ], 
-    "alignment": -1000, 
-    "armor_class": -5, 
+    ],
+    "alignment": -1000,
+    "armor_class": -5,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 4, 
+      "bonus": 5,
+      "dice": 4,
       "sides": 8
-    }, 
-    "detail_desc": "You see nothing but the inexorably red and burning anger of the \nlord of the underworld that you fear to be your fate.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "You see nothing but the inexorably red and burning anger of the \nlord of the underworld that you fear to be your fate.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "SCAVENGER", 
+        "note": "SCAVENGER",
         "value": 4
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 40000, 
-    "id": 1519, 
-    "level": 27, 
-    "long_desc": "The hell-fire around you is dominated by a massive, burning demon.", 
+    },
+    "gold": 40000,
+    "id": 1519,
+    "level": 27,
+    "long_desc": "The hell-fire around you is dominated by a massive, burning demon.",
     "max_hit_points": {
-      "bonus": 825, 
-      "dice": 75, 
+      "bonus": 825,
+      "dice": 75,
       "sides": 2
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the demon", 
-    "thac0": -4, 
+    },
+    "short_desc": "the demon",
+    "thac0": -4,
     "xp": 180000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "baby", 
+      "baby",
       "innocent"
-    ], 
-    "alignment": 1000, 
-    "armor_class": -4, 
+    ],
+    "alignment": 1000,
+    "armor_class": -4,
     "bare_hand_damage": {
-      "bonus": 4, 
-      "dice": 4, 
+      "bonus": 4,
+      "dice": 4,
       "sides": 6
-    }, 
-    "detail_desc": "The baby is barely aware of your presence, lost in a sleepy and\ncontented yawn.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "The baby is barely aware of your presence, lost in a sleepy and\ncontented yawn.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 20000, 
-    "id": 1520, 
-    "level": 22, 
-    "long_desc": "Lying on the ground wrapped in blankets is the most innocent of babies.", 
+    },
+    "gold": 20000,
+    "id": 1520,
+    "level": 22,
+    "long_desc": "Lying on the ground wrapped in blankets is the most innocent of babies.",
     "max_hit_points": {
-      "bonus": 150, 
-      "dice": 5, 
+      "bonus": 150,
+      "dice": 5,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_SLEEPING", 
+        "note": "POSITION_SLEEPING",
         "value": 4
-      }, 
+      },
       "load": {
-        "note": "POSITION_SLEEPING", 
+        "note": "POSITION_SLEEPING",
         "value": 4
       }
-    }, 
-    "short_desc": "the innocent baby", 
-    "thac0": -3, 
+    },
+    "short_desc": "the innocent baby",
+    "thac0": -3,
     "xp": 145000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
-      "boy", 
+      "boy",
       "teenage"
-    ], 
-    "alignment": 1000, 
-    "armor_class": -4, 
+    ],
+    "alignment": 1000,
+    "armor_class": -4,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 4, 
+      "bonus": 5,
+      "dice": 4,
       "sides": 6
-    }, 
-    "detail_desc": "He is young, and has not yet seen the bloodiness of this world.  You follow\nhis gaze and notice that he is gazing in wonderment at the fullness of the\nmoon.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He is young, and has not yet seen the bloodiness of this world.  You follow\nhis gaze and notice that he is gazing in wonderment at the fullness of the\nmoon.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 22000, 
-    "id": 1521, 
-    "level": 24, 
-    "long_desc": "You stop in surprise at the sight of a teenage boy staring off to the distance.", 
+    },
+    "gold": 22000,
+    "id": 1521,
+    "level": 24,
+    "long_desc": "You stop in surprise at the sight of a teenage boy staring off to the distance.",
     "max_hit_points": {
-      "bonus": 680, 
-      "dice": 5, 
+      "bonus": 680,
+      "dice": 5,
       "sides": 10
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the teenage boy", 
-    "thac0": -3, 
+    },
+    "short_desc": "the teenage boy",
+    "thac0": -3,
     "xp": 145000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
       "man"
-    ], 
-    "alignment": 1000, 
-    "armor_class": -5, 
+    ],
+    "alignment": 1000,
+    "armor_class": -5,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 4, 
+      "bonus": 5,
+      "dice": 4,
       "sides": 8
-    }, 
-    "detail_desc": "He is tired, the lines of age marking his face, but in his robe, \nkneeling, he is the image of perfect contentment.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "He is tired, the lines of age marking his face, but in his robe, \nkneeling, he is the image of perfect contentment.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "MEMORY", 
+        "note": "MEMORY",
         "value": 2048
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 40000, 
-    "id": 1522, 
-    "level": 26, 
-    "long_desc": "A middle-aged man is here, kneeling in prayer.", 
+    },
+    "gold": 40000,
+    "id": 1522,
+    "level": 26,
+    "long_desc": "A middle-aged man is here, kneeling in prayer.",
     "max_hit_points": {
-      "bonus": 820, 
-      "dice": 75, 
+      "bonus": 820,
+      "dice": 75,
       "sides": 2
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_RESTING", 
+        "note": "POSITION_RESTING",
         "value": 5
-      }, 
+      },
       "load": {
-        "note": "POSITION_RESTING", 
+        "note": "POSITION_RESTING",
         "value": 5
       }
-    }, 
-    "short_desc": "the man", 
-    "thac0": -4, 
+    },
+    "short_desc": "the man",
+    "thac0": -4,
     "xp": 180000
-  }, 
+  },
   {
     "affects": [
       {
-        "note": "DETECT_INVIS", 
+        "note": "DETECT_INVIS",
         "value": 8
-      }, 
+      },
       {
-        "note": "INFRAVISION", 
+        "note": "INFRAVISION",
         "value": 1024
       }
-    ], 
+    ],
     "aliases": [
       "soul"
-    ], 
-    "alignment": 1000, 
-    "armor_class": -5, 
+    ],
+    "alignment": 1000,
+    "armor_class": -5,
     "bare_hand_damage": {
-      "bonus": 5, 
-      "dice": 4, 
+      "bonus": 5,
+      "dice": 4,
       "sides": 8
-    }, 
-    "detail_desc": "You sense certain tastes and smells, the winds through the gardens.\nNothing can explain or describe this perfection, this utter bliss.", 
-    "extra_spec": {}, 
+    },
+    "detail_desc": "You sense certain tastes and smells, the winds through the gardens.\nNothing can explain or describe this perfection, this utter bliss.",
+    "extra_spec": {},
     "flags": [
       {
-        "note": "SENTINEL", 
+        "note": "SENTINEL",
         "value": 2
-      }, 
+      },
       {
-        "note": "AGGRESSIVE", 
+        "note": "AGGRESSIVE",
         "value": 32
       }
-    ], 
+    ],
     "gender": {
-      "note": "M", 
+      "note": "M",
       "value": 1
-    }, 
-    "gold": 0, 
-    "id": 1523, 
-    "level": 28, 
-    "long_desc": "You are overwhelmed by the presence of a soul that has transcended its body.", 
+    },
+    "gold": 0,
+    "id": 1523,
+    "level": 28,
+    "long_desc": "You are overwhelmed by the presence of a soul that has transcended its body.",
     "max_hit_points": {
-      "bonus": 820, 
-      "dice": 100, 
+      "bonus": 820,
+      "dice": 100,
       "sides": 2
-    }, 
-    "mob_type": "S", 
+    },
+    "mob_type": "S",
     "position": {
       "default": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
-      }, 
+      },
       "load": {
-        "note": "POSITION_STANDING", 
+        "note": "POSITION_STANDING",
         "value": 8
       }
-    }, 
-    "short_desc": "the bodyless soul", 
-    "thac0": -4, 
+    },
+    "short_desc": "the bodyless soul",
+    "thac0": -4,
     "xp": 190000
   }
 ]
