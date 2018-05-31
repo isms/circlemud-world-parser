@@ -100,8 +100,7 @@ def parse_zone(text):
     fields = [line.rstrip() for line in text.strip().split('\n')]
 
     # remove comment lines
-    actual_line = lambda line: not line.startswith('*')
-    fields = [f for f in fields if actual_line(f)]
+    fields = [f for f in fields if not f.startswith('*')]
 
     d['id'] = int(fields[0])
     d['name'] = fields[1].rstrip('~')
