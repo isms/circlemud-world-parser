@@ -9,7 +9,8 @@ for type in "mob" "obj" "shp" "wld" "zon"; do
 
     # convert the files
     for file in $files; do
-        number=$( echo $file | cut -d "/" -f 3 | cut -d "." -f 1 )
+        filename=$(basename -- "$file")
+        number=${filename%%.*}
         output="_output/$type/$number.json"
         echo parsing $file to $output
         python src/parse.py --dest $output $file
