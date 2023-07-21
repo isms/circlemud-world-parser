@@ -1,0 +1,11 @@
+[tool.ruff]
+line-length = 120
+
+[tool.black]
+line-length = 120
+skip-string-normalization = true
+extend-exclude = '''
+(
+  tests.py    # exclude a file named foo.py in the root of the project
+)
+'''
