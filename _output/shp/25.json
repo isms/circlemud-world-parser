@@ -8,9 +8,9 @@
         "value": 19
       },
       {
-        "namelist": "container",
-        "note": "LIQ",
-        "value": null
+        "namelist": null,
+        "note": "DRINKCON",
+        "value": 17
       }
     ],
     "flags": [

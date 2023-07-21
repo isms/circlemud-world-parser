@@ -15,13 +15,27 @@ from utils import clean_bitvector
 def buy_type_to_dict(line):
     # optional namelist of form "<Buy Type 1 (int)> [Buy Namelist 1 (str)]"
     # ref: "The CircleMUD Builder's Manual," section 7.2
-    try:
-        split_index = line.index(' ')
-        item_type = line[:split_index]
-        namelist = line[split_index + 1:].lower()
-    except ValueError:
+
+    # at some point (2.x-3.x) the codebase went from `LIQ CONTAINER`` to `DRINKCON`
+    # but some shops were not fixed; there are still many references on the web
+    # to `LIQ CONTAINER` but this seems like an oversight in some cases and
+    # outdated in others
+    #
+    # as it happens, this also caused a parsing problem because the item type
+    # was not expected to have spaces, and `LIQ CONTAINER` was the only type
+    # that did have a space in it
+    #
+    # ref: https://github.com/isms/circlemud-world-parser/issues/1
+    if "LIQ CONTAINER" in line:
+        line = line.replace("LIQ CONTAINER", "DRINKCON")
+
+    tokens = line.strip().split()
+    if len(tokens) == 1:
         item_type = line
         namelist = None
+    else:
+        item_type = tokens[0]
+        namelist = [token.lower() for token in tokens[1:]]
 
     # lookup the bitvector value from the flag for standardization
     reverse = {v: k for k, v in OBJECT_TYPE_FLAGS.items()}

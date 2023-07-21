@@ -3,9 +3,9 @@
     "buy_rate": 1.0,
     "buy_types": [
       {
-        "namelist": "container",
-        "note": "LIQ",
-        "value": null
+        "namelist": null,
+        "note": "DRINKCON",
+        "value": 17
       }
     ],
     "flags": [
