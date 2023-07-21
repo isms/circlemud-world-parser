@@ -60,14 +60,21 @@ def split_on_vnums(file_text):
     """
     split_re = r"""^\#(\d+)"""
     split_pattern = re.compile(split_re, re.MULTILINE)
+    pieces = split_pattern.split(file_text)
+    if not pieces:
+        return
+    
+    pieces_iter = iter(pieces)
+    next(pieces_iter)  # burn the next one, we won't use it
 
-    pieces = iter(split_pattern.split(file_text))
-    next(pieces)  # burn the next one, we won't use it
-
-    while pieces:
-        vnum = next(pieces)
-        text = next(pieces)
-        yield ''.join((vnum, text))
+    while True:
+        try:
+            vnum = next(pieces_iter)
+            text = next(pieces_iter)
+            yield ''.join((vnum, text))
+        except StopIteration:
+            return
+        
 
 
 def parse_from_string(file_text, parse_function, splitter):
