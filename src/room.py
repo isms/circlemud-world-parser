@@ -37,10 +37,7 @@ def parse_exits(text):
         exit['keywords'] = keys.split()
         exit['key_number'] = int(key_num)
         exit['room_linked'] = int(to)
-        exit['door_flag'] = {
-            'value': int(flag),
-            'note': ROOM_DOOR_FLAGS.get(int(flag), None)
-        }
+        exit['door_flag'] = {'value': int(flag), 'note': ROOM_DOOR_FLAGS.get(int(flag), None)}
         exits.append(exit)
 
     return exits
@@ -58,8 +55,7 @@ def parse_room(text):
     parts = text.split('~')
     vnum, name = parts[0].split('\n')
     desc = parts[1].strip()
-    zone, flags, sector = parts[2].strip() \
-        .split('\n')[0].strip().split(' ')
+    zone, flags, sector = parts[2].strip().split('\n')[0].strip().split(' ')
 
     d = dict()
     d['id'] = int(vnum)

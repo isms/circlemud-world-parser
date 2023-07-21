@@ -13,7 +13,7 @@ def clean_bitvector(bitvector):
 
 def bitvector_letter_to_number(letter):
     index = string.ascii_letters.index(letter)
-    return 2 ** index
+    return 2**index
 
 
 def bitvector_letters_to_numbers(letters):
@@ -25,7 +25,7 @@ def bitvector_number_to_numbers(value):
     bin_string = bin(value)[2:]  # e.g.: 129 -> '10000001'
     for i, v in enumerate(reversed(bin_string)):
         if v == '1':
-            yield 2 ** i
+            yield 2**i
 
 
 def bitvector_to_numbers(value):
@@ -36,8 +36,7 @@ def bitvector_to_numbers(value):
 
 def bitvector_to_flags(bitvector, flag_dict):
     numbers = bitvector_to_numbers(bitvector)
-    flags = [{'value': number, 'note': flag_dict.get(number, None)}
-             for number in numbers]
+    flags = [{'value': number, 'note': flag_dict.get(number, None)} for number in numbers]
     return flags
 
 
@@ -63,7 +62,7 @@ def split_on_vnums(file_text):
     pieces = split_pattern.split(file_text)
     if not pieces:
         return
-    
+
     pieces_iter = iter(pieces)
     next(pieces_iter)  # burn the next one, we won't use it
 
@@ -74,7 +73,6 @@ def split_on_vnums(file_text):
             yield ''.join((vnum, text))
         except StopIteration:
             return
-        
 
 
 def parse_from_string(file_text, parse_function, splitter):
@@ -91,7 +89,6 @@ def parse_from_string(file_text, parse_function, splitter):
     errors = []
 
     for text in texts:
-
         try:
             d = parse_function(text)
             dicts.append(d)

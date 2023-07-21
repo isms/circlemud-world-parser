@@ -39,23 +39,20 @@ def parse_commands(commands, d):
     doors = []
 
     for i, curr in enumerate(commands):
-
         if curr == 'S':
             break  # we're done
 
         # load a mob in a room
         elif curr.startswith('M'):
             _, mob, max, room = get_command_fields(curr)
-            mobs.append(dict(mob=mob, max=max, room=room,
-                             inventory=[], equipped=[]))
+            mobs.append(dict(mob=mob, max=max, room=room, inventory=[], equipped=[]))
 
         # equip a mob with an object
         elif curr.startswith('E'):
             _, obj, max, location = get_command_fields(curr)
             note = MOB_EQUIP.get(location, None)
             contents = get_contents(commands, i, obj)
-            new_obj = dict(location=location, max=max, id=obj,
-                           note=note, contents=contents)
+            new_obj = dict(location=location, max=max, id=obj, note=note, contents=contents)
             mobs[-1]['equipped'].append(new_obj)
 
         # put an object in a mob's inventory

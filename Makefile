@@ -9,5 +9,9 @@ test:
 all: clean
 	bash convert_all.sh world/
 
+lint:
+	black --check .
+	flake8 .
+
 .PHONY:
 	all clean test

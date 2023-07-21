@@ -73,7 +73,7 @@ def parse_mob(text):
     d['xp'] = int(xp)
     d['position'] = {
         'load': lookup_value_to_dict(int(load_position), MOB_POSITION),
-        'default': lookup_value_to_dict(int(load_position), MOB_POSITION)
+        'default': lookup_value_to_dict(int(load_position), MOB_POSITION),
     }
     d['gender'] = lookup_value_to_dict(int(gender), MOB_GENDER)
 

@@ -45,12 +45,15 @@ def buy_type_to_dict(line):
 
 
 def raw_messages_to_dict(messages):
-    keys = ['buy_fails_object_does_not_exist',
-            'sell_fails_object_does_not_exist',
-            'sell_fails_shop_does_not_buy_object',
-            'sell_fails_shop_cannot_afford_object',
-            'buy_fails_player_cannot_afford_object',
-            'buy_succeeds', 'sell_succeeds']
+    keys = [
+        'buy_fails_object_does_not_exist',
+        'sell_fails_object_does_not_exist',
+        'sell_fails_shop_does_not_buy_object',
+        'sell_fails_shop_cannot_afford_object',
+        'buy_fails_player_cannot_afford_object',
+        'buy_succeeds',
+        'sell_succeeds',
+    ]
     messages = [m.lstrip('%s ').rstrip('~') for m in messages]
     return dict(zip(keys, messages))
 
@@ -99,7 +102,7 @@ def parse_shop(text):
     rooms_start, rooms_stop = messages_stop + 4, delimiters[2]
     d['rooms'] = [int(r) for r in fields[rooms_start:rooms_stop]]
 
-    times = [int(t) for t in fields[rooms_stop + 1:]]
+    times = [int(t) for t in fields[rooms_stop + 1 :]]
     d['times'] = times_to_dict(times)
 
     return d

@@ -16,7 +16,6 @@ def parse_extra_descs(extra_fields):
             new = next(extra_iterator)
 
             if new == 'E':
-
                 keywords = next(extra_iterator).rstrip('~').split()
                 new = next(extra_iterator)
 
