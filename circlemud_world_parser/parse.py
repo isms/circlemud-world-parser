@@ -16,11 +16,11 @@ from .utils import split_on_vnums
 app = typer.Typer()
 
 PARSER_LOOKUP = {
-    'mob': (Mobile.from_text, split_on_vnums, None),
-    'obj': (Object.from_text, split_on_vnums, None),
-    'wld': (Room.from_text, split_on_vnums, None),
-    'shp': (Shop.from_text, split_on_vnums, None),
-    'zon': (Zone.from_text, split_on_vnums, None),
+    'mob': (Mobile.from_text, split_on_vnums),
+    'obj': (Object.from_text, split_on_vnums),
+    'wld': (Room.from_text, split_on_vnums),
+    'shp': (Shop.from_text, split_on_vnums),
+    'zon': (Zone.from_text, split_on_vnums),
 }
 
 

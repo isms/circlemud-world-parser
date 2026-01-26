@@ -54,8 +54,8 @@ def generate_test_ids():
 @pytest.mark.parametrize("file_type,filepath", get_all_test_files(), ids=generate_test_ids())
 def test_parse_individual_file(file_type, filepath):
     """Parse each tinyworld file individually and verify no unexpected errors."""
-    parser_func, splitter, extra = parse.PARSER_LOOKUP[file_type]
-    payload, errors = parse_from_file(filepath, parser_func, splitter, extra)
+    parser_func, splitter = parse.PARSER_LOOKUP[file_type]
+    payload, errors = parse_from_file(filepath, parser_func, splitter)
 
     filename = Path(filepath).name
     if filename == '0.obj':
@@ -79,8 +79,8 @@ def test_parse_all_files_of_type(file_type, assets_dir):
 
     total_parsed = 0
     for filepath in filenames:
-        parser_func, splitter, extra = parse.PARSER_LOOKUP[file_type]
-        payload, errors = parse_from_file(filepath, parser_func, splitter, extra)
+        parser_func, splitter = parse.PARSER_LOOKUP[file_type]
+        payload, errors = parse_from_file(filepath, parser_func, splitter)
         total_parsed += len(payload)
 
     assert total_parsed > 0, f"No items parsed for type {file_type}"
