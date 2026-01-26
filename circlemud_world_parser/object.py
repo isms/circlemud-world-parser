@@ -18,7 +18,7 @@ class Affect(BaseModel):
     value: int = Field(..., description="Modifier value")
 
     @classmethod
-    def parse_from_fields(cls, extra_fields: list[str]) -> list["Affect"]:
+    def from_fields(cls, extra_fields: list[str]) -> list["Affect"]:
         """Parse affects from the 'A' blocks in object data."""
         results = []
         for i, field in enumerate(extra_fields):
@@ -99,7 +99,7 @@ class Object(BaseModel):
         extra_descs = []
         if len(fields) > 8:
             extra_fields = fields[8:]
-            affects = Affect.parse_from_fields(extra_fields)
+            affects = Affect.from_fields(extra_fields)
             extra_descs = parse_extra_descriptions_from_fields(extra_fields)
 
         return cls(

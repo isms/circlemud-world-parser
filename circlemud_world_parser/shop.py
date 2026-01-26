@@ -25,7 +25,7 @@ class BuyType(BaseModel):
     namelist: list[str] | None = Field(None, description="Optional keywords filter")
 
     @classmethod
-    def parse_from_line(cls, line: str) -> "BuyType":
+    def from_line(cls, line: str) -> "BuyType":
         """Parse a buy type from a single line."""
         # at some point (2.x-3.x) the codebase went from `LIQ CONTAINER`` to `DRINKCON`
         # but some shops were not fixed; there are still many references on the web
@@ -60,7 +60,7 @@ class ShopMessages(BaseModel):
     sell_succeeds: str = Field(..., description="Successful sale message")
 
     @classmethod
-    def parse_from_list(cls, messages: list[str]) -> "ShopMessages":
+    def from_list(cls, messages: list[str]) -> "ShopMessages":
         """Parse shop messages from raw message lines."""
         keys = [
             'buy_fails_object_does_not_exist',
@@ -113,10 +113,10 @@ class Shop(BaseModel):
         buy_rate = float(fields[objects_stop + 2])
 
         types_start, types_stop = objects_stop + 3, delimiters[1]
-        buy_types = [BuyType.parse_from_line(t) for t in fields[types_start:types_stop]]
+        buy_types = [BuyType.from_line(t) for t in fields[types_start:types_stop]]
 
         messages_start, messages_stop = delimiters[1] + 1, delimiters[1] + 8
-        messages = ShopMessages.parse_from_list(fields[messages_start:messages_stop])
+        messages = ShopMessages.from_list(fields[messages_start:messages_stop])
 
         temper = int(fields[messages_stop])
 

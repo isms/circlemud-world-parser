@@ -35,7 +35,7 @@ class Exit(BaseModel):
     door_flag: Flag = Field(..., description="Door type (none, door, pickproof)")
 
     @classmethod
-    def parse_from_text(cls, text: str) -> list["Exit"]:
+    def from_text(cls, text: str) -> list["Exit"]:
         """Parse exits from room bottom matter text."""
         exits = []
         matches = EXIT_PATTERN.findall(text)
@@ -94,7 +94,7 @@ class Room(BaseModel):
         sector_type = Flag(**sector_dict)
 
         bottom_matter = '~'.join(parts[2:])
-        exits = Exit.parse_from_text(bottom_matter)
+        exits = Exit.from_text(bottom_matter)
         extra_descs = parse_extra_descriptions_from_text(bottom_matter)
 
         return cls(

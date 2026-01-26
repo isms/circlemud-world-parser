@@ -20,7 +20,7 @@ class DiceRoll(BaseModel):
     bonus: int = Field(..., description="Flat bonus added to roll")
 
     @classmethod
-    def parse_from_string(cls, roll_string: str) -> "DiceRoll":
+    def from_string(cls, roll_string: str) -> "DiceRoll":
         """Parse a dice roll string like '4d6+20' or '2d6-5' into a DiceRoll."""
         match = re.match(r"(\d+)d(\d+)([+-]\d+)", roll_string)
         if not match:
@@ -119,8 +119,8 @@ class Mobile(BaseModel):
             level=int(level),
             thac0=int(thac0),
             armor_class=int(ac),
-            max_hit_points=DiceRoll.parse_from_string(max_hp),
-            bare_hand_damage=DiceRoll.parse_from_string(bare_hand_dmg),
+            max_hit_points=DiceRoll.from_string(max_hp),
+            bare_hand_damage=DiceRoll.from_string(bare_hand_dmg),
             gold=int(gold),
             xp=int(xp),
             position=position,
