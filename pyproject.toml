@@ -1,11 +1,21 @@
+[project]
+name = "circlemud-world-parser"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pydantic>=2.12.5",
+    "pytest>=9.0.2",
+    "typer>=0.21.1",
+]
+
 [tool.ruff]
 line-length = 120
 
-[tool.black]
-line-length = 120
-skip-string-normalization = true
-extend-exclude = '''
-(
-  tests.py    # exclude a file named foo.py in the root of the project
-)
-'''
+[dependency-groups]
+dev = [
+    "flake8>=7.3.0",
+    "ruff>=0.14.14",
+    "ty>=0.0.13",
+]
