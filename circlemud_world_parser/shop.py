@@ -13,6 +13,9 @@ from .models import Flag
 from .utils import bitvector_to_flags
 from .utils import clean_bitvector
 
+# Reverse lookup for object type names to values (cached at module level)
+OBJECT_TYPE_BY_NAME = {v: k for k, v in OBJECT_TYPE_FLAGS.items()}
+
 
 class BuyType(BaseModel):
     """A type of item the shop will buy."""
@@ -40,8 +43,7 @@ class BuyType(BaseModel):
             namelist = [token.lower() for token in tokens[1:]]
 
         # lookup the bitvector value from the flag for standardization
-        reverse = {v: k for k, v in OBJECT_TYPE_FLAGS.items()}
-        value = reverse.get(item_type, None)
+        value = OBJECT_TYPE_BY_NAME.get(item_type, None)
 
         return cls(value=value, note=item_type, namelist=namelist)
 
