@@ -6,9 +6,9 @@ from .constants import ROOM_DOOR_FLAGS
 from .constants import ROOM_FLAGS
 from .constants import ROOM_SECTOR_TYPES
 from .models import ExtraDescription, Flag
-from .utils import bitvector_to_flags
 from .utils import clean_bitvector
 from .utils import lookup_value_to_dict
+from .utils import parse_flags
 
 EXIT_RE = r"""D(\d+)
 (.*?)~
@@ -56,14 +56,6 @@ class Exit(BaseModel):
         return exits
 
 
-def parse_extra_descriptions_from_text(text: str) -> list[ExtraDescription]:
-    """Parse extra descriptions from room bottom matter text."""
-    extra_descs = []
-    for keywords, desc in EXTRA_DESC_PATTERN.findall(text):
-        extra_descs.append(ExtraDescription(keywords=keywords.split(), desc=desc))
-    return extra_descs
-
-
 class Room(BaseModel):
     """A CircleMUD room definition."""
 
@@ -76,6 +68,14 @@ class Room(BaseModel):
     exits: list[Exit] = Field(default_factory=list, description="Exits to other rooms")
     extra_descs: list[ExtraDescription] = Field(default_factory=list, description="Extra descriptions")
 
+    @staticmethod
+    def parse_extra_descriptions_from_text(text: str) -> list[ExtraDescription]:
+        """Parse extra descriptions from room bottom matter text."""
+        extra_descs = []
+        for keywords, desc in EXTRA_DESC_PATTERN.findall(text):
+            extra_descs.append(ExtraDescription(keywords=keywords.split(), desc=desc))
+        return extra_descs
+
     @classmethod
     def from_text(cls, text: str) -> "Room":
         """Parse a CircleMUD room definition from raw text."""
@@ -85,17 +85,14 @@ class Room(BaseModel):
         zone, flags_raw, sector = parts[2].strip().split('\n')[0].strip().split(' ')
 
         flags_clean = clean_bitvector(flags_raw)
-        flags = []
-        if flags_clean:
-            flags_dicts = bitvector_to_flags(flags_clean, ROOM_FLAGS)
-            flags = [Flag(**f) for f in flags_dicts]
+        flags = parse_flags(flags_raw, ROOM_FLAGS) if flags_clean else []
 
         sector_dict = lookup_value_to_dict(int(sector), ROOM_SECTOR_TYPES)
         sector_type = Flag(**sector_dict)
 
         bottom_matter = '~'.join(parts[2:])
         exits = Exit.from_text(bottom_matter)
-        extra_descs = parse_extra_descriptions_from_text(bottom_matter)
+        extra_descs = cls.parse_extra_descriptions_from_text(bottom_matter)
 
         return cls(
             id=int(vnum),

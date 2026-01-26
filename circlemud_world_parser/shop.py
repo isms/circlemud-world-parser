@@ -10,8 +10,7 @@ from .constants import OBJECT_TYPE_FLAGS
 from .constants import SHOP_FLAGS
 from .constants import SHOP_TRADES_WITH
 from .models import Flag
-from .utils import bitvector_to_flags
-from .utils import clean_bitvector
+from .utils import parse_flags
 
 # Reverse lookup for object type names to values (cached at module level)
 OBJECT_TYPE_BY_NAME = {v: k for k, v in OBJECT_TYPE_FLAGS.items()}
@@ -120,15 +119,11 @@ class Shop(BaseModel):
 
         temper = int(fields[messages_stop])
 
-        shop_bitvector = clean_bitvector(fields[messages_stop + 1])
-        flags_dicts = bitvector_to_flags(shop_bitvector, SHOP_FLAGS)
-        flags = [Flag(**f) for f in flags_dicts]
+        flags = parse_flags(fields[messages_stop + 1], SHOP_FLAGS)
 
         shopkeeper = int(fields[messages_stop + 2])
 
-        trades_with_bits = clean_bitvector(fields[messages_stop + 3])
-        trades_with_dicts = bitvector_to_flags(trades_with_bits, SHOP_TRADES_WITH)
-        trades_with = [Flag(**f) for f in trades_with_dicts]
+        trades_with = parse_flags(fields[messages_stop + 3], SHOP_TRADES_WITH)
 
         rooms_start, rooms_stop = messages_stop + 4, delimiters[2]
         rooms = [int(r) for r in fields[rooms_start:rooms_stop]]

@@ -5,9 +5,8 @@ from .constants import OBJECT_EXTRA_EFFECTS_FLAGS
 from .constants import OBJECT_TYPE_FLAGS
 from .constants import OBJECT_WEAR_FLAGS
 from .models import ExtraDescription, Flag
-from .utils import bitvector_to_flags
-from .utils import clean_bitvector
 from .utils import lookup_value_to_dict
+from .utils import parse_flags
 
 
 class Affect(BaseModel):
@@ -85,13 +84,8 @@ class Object(BaseModel):
         obj_type = Flag(**type_dict)
 
         # parse the bitvectors
-        effects_bits_clean = clean_bitvector(effects_bits)
-        effects_dicts = bitvector_to_flags(effects_bits_clean, OBJECT_EXTRA_EFFECTS_FLAGS)
-        effects = [Flag(**f) for f in effects_dicts]
-
-        wear_bits = clean_bitvector(wear_bitvector)
-        wear_dicts = bitvector_to_flags(wear_bits, OBJECT_WEAR_FLAGS)
-        wear = [Flag(**f) for f in wear_dicts]
+        effects = parse_flags(effects_bits, OBJECT_EXTRA_EFFECTS_FLAGS)
+        wear = parse_flags(wear_bitvector, OBJECT_WEAR_FLAGS)
 
         action_desc = fields[4].rstrip('~') or None
 

@@ -7,9 +7,8 @@ from .constants import MOB_AFFECT_FLAGS
 from .constants import MOB_GENDER
 from .constants import MOB_POSITION
 from .models import Flag
-from .utils import bitvector_to_flags
-from .utils import clean_bitvector
 from .utils import lookup_value_to_dict
+from .utils import parse_flags
 
 
 class DiceRoll(BaseModel):
@@ -77,13 +76,8 @@ class Mobile(BaseModel):
         vector_line = bottom_fields[0]
         action, affect, alignment, mob_type = vector_line.split()
 
-        action_clean = clean_bitvector(action)
-        flags_dicts = bitvector_to_flags(action_clean, MOB_ACTION_FLAGS)
-        flags = [Flag(**f) for f in flags_dicts]
-
-        affect_clean = clean_bitvector(affect)
-        affects_dicts = bitvector_to_flags(affect_clean, MOB_AFFECT_FLAGS)
-        affects = [Flag(**f) for f in affects_dicts]
+        flags = parse_flags(action, MOB_ACTION_FLAGS)
+        affects = parse_flags(affect, MOB_AFFECT_FLAGS)
 
         level, thac0, ac, max_hp, bare_hand_dmg = bottom_fields[1].split()
         gold, xp = bottom_fields[2].split()

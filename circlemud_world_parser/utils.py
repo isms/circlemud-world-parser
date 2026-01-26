@@ -3,7 +3,10 @@ import string
 import traceback
 from collections.abc import Callable, Iterator
 from pathlib import Path
-from typing import Any, TypedDict
+from typing import TYPE_CHECKING, Any, TypedDict
+
+if TYPE_CHECKING:
+    from .models import Flag
 
 
 class FlagDict(TypedDict):
@@ -62,6 +65,18 @@ def bitvector_to_flags(bitvector: int | str, flag_dict: dict[int, str]) -> list[
         {'value': number, 'note': flag_dict.get(number, None)} for number in numbers
     ]
     return flags
+
+
+def parse_flags(raw_bitvector: str, flag_dict: dict[int, str]) -> list["Flag"]:
+    """Parse a raw bitvector string into a list of Flag objects.
+
+    Combines clean_bitvector, bitvector_to_flags, and Flag creation into one step.
+    """
+    from .models import Flag  # Import here to avoid circular imports
+
+    cleaned = clean_bitvector(raw_bitvector)
+    flag_dicts = bitvector_to_flags(cleaned, flag_dict)
+    return [Flag(**f) for f in flag_dicts]
 
 
 def lookup_value_to_dict(value: int, flag_dict: dict[int, str]) -> FlagDict:
