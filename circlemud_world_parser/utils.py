@@ -44,12 +44,6 @@ def lookup_value_to_dict(value, flag_dict):
     return dict(value=value, note=note)
 
 
-def lookup_note_to_dict(note, flag_dict):
-    reverse_dict = {v: k for k, v in flag_dict.items()}
-    value = reverse_dict.get(note, None)
-    return dict(value=value, note=note)
-
-
 def split_on_vnums(file_text):
     """
     function specifically to split the file on lines in the form
