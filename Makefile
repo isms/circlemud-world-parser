@@ -3,7 +3,7 @@ clean:
 	rm -rf _output/*
 
 test:
-	uv run pytest src/tests.py -v
+	uv run pytest -v
 
 lint:
 	uv run ruff check src
