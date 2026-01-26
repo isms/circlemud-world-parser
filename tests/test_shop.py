@@ -40,7 +40,7 @@ POTION
 0"""
 
     def test_parsing_shop(self, shop_text):
-        shop = Shop.parse_raw(shop_text)
+        shop = Shop.from_text(shop_text)
 
         # Basic shop info
         assert shop.id == 3000

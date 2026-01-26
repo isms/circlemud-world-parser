@@ -63,7 +63,7 @@ class Mobile(BaseModel):
     extra_spec: dict[str, int] = Field(default_factory=dict, description="Extended specs for E-type mobs")
 
     @classmethod
-    def parse_raw(cls, text: str) -> "Mobile":
+    def from_text(cls, text: str) -> "Mobile":
         """Parse a CircleMUD mobile definition from raw text."""
         fields = [line.rstrip() for line in text.strip().split('\n')]
 

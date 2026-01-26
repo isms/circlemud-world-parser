@@ -39,7 +39,7 @@ A
 19 2
 $
 """
-        objs, errors = parse_from_string(text, Object.parse_raw, split_on_vnums)
+        objs, errors = parse_from_string(text, Object.from_text, split_on_vnums)
         assert len(objs) == 2
 
         # First object: Jupiter's Thunderbolt
@@ -120,7 +120,7 @@ A thing is here.~
 22 100000 25000
 $
 """
-        objs, errors = parse_from_string(text, Object.parse_raw, split_on_vnums)
+        objs, errors = parse_from_string(text, Object.from_text, split_on_vnums)
         thing = objs.pop()
 
         assert len(thing.effects) == 4

@@ -24,7 +24,7 @@ ablno d 900 S
 8 8 1"""
 
     def test_parsing_type_s_mob(self, mob_text):
-        mobs, errors = parse_from_string(mob_text, Mobile.parse_raw, split_on_vnums)
+        mobs, errors = parse_from_string(mob_text, Mobile.from_text, split_on_vnums)
         mob = mobs.pop()
 
         assert mob.id == 3000
@@ -78,7 +78,7 @@ ablno d 900 S
     def test_parsing_type_e_mob(self, mob_text):
         e_type = mob_text.replace('ablno d 900 S', 'ablno d 900 E')
         e_type += '\nBareHandAttack: 4\nInt: 25\nE'
-        mobs, errors = parse_from_string(e_type, Mobile.parse_raw, split_on_vnums)
+        mobs, errors = parse_from_string(e_type, Mobile.from_text, split_on_vnums)
         mob = mobs[0]
 
         assert mob.extra_spec == {"BareHandAttack": 4, "Int": 25}

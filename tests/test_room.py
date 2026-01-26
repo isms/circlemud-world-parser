@@ -53,7 +53,7 @@ impossible to climb back up.
 0 -1 7043
 S
 """
-        rooms, errors = parse_from_string(text, Room.parse_raw, split_on_vnums)
+        rooms, errors = parse_from_string(text, Room.from_text, split_on_vnums)
         assert len(rooms) == 2
 
         # First room: The Thieves' Bar
@@ -150,5 +150,5 @@ D4
 ~
 0 -1 3373
 S"""
-        room = Room.parse_raw(text)
+        room = Room.from_text(text)
         assert len(room.exits) == 2

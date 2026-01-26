@@ -27,7 +27,7 @@ D 0 6010 2 1
 *
 S"""
 
-        zone = Zone.parse_raw(text)
+        zone = Zone.from_text(text)
 
         # Basic zone info
         assert zone.id == 60

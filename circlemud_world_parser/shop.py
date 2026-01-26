@@ -104,7 +104,7 @@ class Shop(BaseModel):
     times: list[OpeningHours] = Field(..., description="Opening hours (two periods)")
 
     @classmethod
-    def parse_raw(cls, text: str) -> "Shop":
+    def from_text(cls, text: str) -> "Shop":
         """Parse a CircleMUD shop definition from raw text."""
         fields = [line.rstrip() for line in text.strip().split('\n')]
         delimiters = [i for i, field in enumerate(fields) if field == '-1']

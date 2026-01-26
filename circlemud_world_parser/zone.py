@@ -84,7 +84,7 @@ class Zone(BaseModel):
     remove_objects: list[RemoveObject] = Field(default_factory=list, description="Objects to remove")
 
     @classmethod
-    def parse_raw(cls, text: str) -> "Zone":
+    def from_text(cls, text: str) -> "Zone":
         """Parse a CircleMUD zone definition from raw text."""
         fields = [line.rstrip() for line in text.strip().split('\n')]
 

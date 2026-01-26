@@ -80,7 +80,7 @@ class Object(BaseModel):
     extra_descs: list[ExtraDescription] = Field(default_factory=list, description="Extra descriptions")
 
     @classmethod
-    def parse_raw(cls, text: str) -> "Object":
+    def from_text(cls, text: str) -> "Object":
         """Parse a CircleMUD object definition from raw text."""
         fields = [line.rstrip() for line in text.strip().split('\n')]
 

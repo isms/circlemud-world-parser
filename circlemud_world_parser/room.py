@@ -91,7 +91,7 @@ class Room(BaseModel):
     extra_descs: list[ExtraDescription] = Field(default_factory=list, description="Extra descriptions")
 
     @classmethod
-    def parse_raw(cls, text: str) -> "Room":
+    def from_text(cls, text: str) -> "Room":
         """Parse a CircleMUD room definition from raw text."""
         parts = text.split('~')
         vnum, name = parts[0].split('\n')
