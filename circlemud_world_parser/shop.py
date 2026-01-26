@@ -1,4 +1,3 @@
-# coding: utf-8
 """
 Shops must be in CircleMUD v3.0 format. See "The CircleMUD
 Builder's Manual" by Jeremy Elson, Section 7, for an

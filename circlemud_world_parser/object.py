@@ -1,4 +1,3 @@
-# coding: utf-8
 from pydantic import BaseModel, Field
 
 from .constants import OBJECT_AFFECT_LOCATION_FLAGS

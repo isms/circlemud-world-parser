@@ -1,4 +1,3 @@
-# coding: utf-8
 """Shared models used across multiple parser modules."""
 from pydantic import BaseModel, Field
 

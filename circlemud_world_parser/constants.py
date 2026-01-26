@@ -1,6 +1,3 @@
-# coding: utf-8
-
-
 OBJECT_TYPE_FLAGS = {
     1: 'LIGHT',  # Item is a light source.
     2: 'SCROLL',  # Item is a magical scroll.
