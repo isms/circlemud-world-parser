@@ -93,7 +93,7 @@ class Mobile(BaseModel):
         load_position, default_position, gender = bottom_fields[3].split()
 
         load_dict = lookup_value_to_dict(int(load_position), MOB_POSITION)
-        default_dict = lookup_value_to_dict(int(load_position), MOB_POSITION)
+        default_dict = lookup_value_to_dict(int(default_position), MOB_POSITION)
         position = Position(load=Flag(**load_dict), default=Flag(**default_dict))
 
         gender_dict = lookup_value_to_dict(int(gender), MOB_GENDER)
