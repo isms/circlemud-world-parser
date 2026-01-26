@@ -7,7 +7,7 @@ from typing import Optional
 import typer
 
 from mobile import parse_mob
-from object import parse_object
+from object import Object
 from room import parse_room
 from shop import parse_shop
 from zone import parse_zone
@@ -18,7 +18,7 @@ app = typer.Typer()
 
 PARSER_LOOKUP = {
     'mob': (parse_mob, split_on_vnums, None),
-    'obj': (parse_object, split_on_vnums, None),
+    'obj': (Object.parse_raw, split_on_vnums, None),
     'wld': (parse_room, split_on_vnums, None),
     'shp': (parse_shop, split_on_vnums, None),
     'zon': (parse_zone, split_on_vnums, None),

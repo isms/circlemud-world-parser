@@ -6,7 +6,7 @@ import pytest
 
 import parse
 from mobile import parse_mob
-from object import parse_object
+from object import Object
 from room import parse_room
 from shop import parse_shop
 from zone import parse_zone
@@ -205,7 +205,7 @@ $
             }
         ]
 
-        objs, errors = parse_from_string(text, parse_object, split_on_vnums)
+        objs, errors = parse_from_string(text, Object.parse_raw, split_on_vnums)
         assert [obj.model_dump(exclude_none=True) for obj in objs] == expected
 
     def test_parsing_object_with_non_stock_flag(self):
@@ -219,7 +219,7 @@ A thing is here.~
 22 100000 25000
 $
 """
-        objs, errors = parse_from_string(text, parse_object, split_on_vnums)
+        objs, errors = parse_from_string(text, Object.parse_raw, split_on_vnums)
         thing = objs.pop()
 
         assert len(thing.effects) == 4

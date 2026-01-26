@@ -1,4 +1,8 @@
 # coding: utf-8
+from typing import Optional
+
+from pydantic import BaseModel, Field
+
 from constants import OBJECT_AFFECT_LOCATION_FLAGS
 from constants import OBJECT_EXTRA_EFFECTS_FLAGS
 from constants import OBJECT_TYPE_FLAGS
@@ -8,84 +12,143 @@ from utils import clean_bitvector
 from utils import lookup_value_to_dict
 
 
-def parse_extra_descs(extra_fields):
-    extra_iterator = iter(extra_fields)
+class Flag(BaseModel):
+    """A flag with a numeric value and optional descriptive note."""
 
-    while True:
-        try:
-            new = next(extra_iterator)
+    value: int = Field(..., description="Numeric flag value")
+    note: Optional[str] = Field(None, description="Human-readable flag name")
 
-            if new == 'E':
-                keywords = next(extra_iterator).rstrip('~').split()
+
+class Affect(BaseModel):
+    """An affect that modifies a character attribute."""
+
+    location: int = Field(..., description="Affect location code")
+    note: Optional[str] = Field(None, description="Human-readable location name")
+    value: int = Field(..., description="Modifier value")
+
+    @classmethod
+    def parse_from_fields(cls, extra_fields: list[str]) -> list["Affect"]:
+        """Parse affects from the 'A' blocks in object data."""
+        extra_iterator = iter(extra_fields)
+        results = []
+
+        while True:
+            try:
                 new = next(extra_iterator)
 
-                desc_lines = []
-                while new not in ('~', '$'):
-                    desc_lines.append(new)
+                if new == 'A':
+                    loc, value = [int(v) for v in next(extra_iterator).split()]
+                    note = OBJECT_AFFECT_LOCATION_FLAGS.get(loc, None)
+                    results.append(cls(location=loc, note=note, value=value))
+
+            except StopIteration:
+                break
+
+        return results
+
+
+class ExtraDescription(BaseModel):
+    """An extra description triggered by examining keywords."""
+
+    keywords: list[str] = Field(..., description="Keywords that trigger this description")
+    desc: str = Field(..., description="Description text")
+
+    @classmethod
+    def parse_from_fields(cls, extra_fields: list[str]) -> list["ExtraDescription"]:
+        """Parse extra descriptions from the 'E' blocks in object data."""
+        extra_iterator = iter(extra_fields)
+        results = []
+
+        while True:
+            try:
+                new = next(extra_iterator)
+
+                if new == 'E':
+                    keywords = next(extra_iterator).rstrip('~').split()
                     new = next(extra_iterator)
-                desc = '\n'.join(desc_lines)
 
-                yield dict(keywords=keywords, desc=desc)
+                    desc_lines = []
+                    while new not in ('~', '$'):
+                        desc_lines.append(new)
+                        new = next(extra_iterator)
+                    desc = '\n'.join(desc_lines)
 
-        except StopIteration:
-            break
+                    results.append(cls(keywords=keywords, desc=desc))
 
+            except StopIteration:
+                break
 
-def parse_affects(extra_fields):
-    extra_iterator = iter(extra_fields)
-
-    while True:
-        try:
-            new = next(extra_iterator)
-
-            if new == 'A':
-                loc, value = [int(v) for v in next(extra_iterator).split()]
-                note = OBJECT_AFFECT_LOCATION_FLAGS.get(loc, None)
-                yield dict(location=loc, note=note, value=value)
-
-        except StopIteration:
-            break
+        return results
 
 
-def parse_object(text):
-    fields = [line.rstrip() for line in text.strip().split('\n')]
+class Object(BaseModel):
+    """A CircleMUD object definition."""
 
-    d = dict()
+    id: int = Field(..., description="Virtual number (VNUM)")
+    aliases: list[str] = Field(..., description="Keywords for targeting the object")
+    short_desc: str = Field(..., description="Name shown in inventory and actions")
+    long_desc: str = Field(..., description="Description when object is on the ground")
+    action_desc: Optional[str] = Field(None, description="Description when used")
+    type: Flag = Field(..., description="Object type (weapon, armor, etc.)")
+    effects: list[Flag] = Field(default_factory=list, description="Extra effects (glow, hum, etc.)")
+    wear: list[Flag] = Field(default_factory=list, description="Wear positions")
+    values: list[int] = Field(..., description="Type-specific values")
+    weight: int = Field(..., description="Object weight")
+    cost: int = Field(..., description="Value in gold")
+    rent: int = Field(..., description="Daily rent cost")
+    affects: list[Affect] = Field(default_factory=list, description="Stat modifiers when worn")
+    extra_descs: list[ExtraDescription] = Field(default_factory=list, description="Extra descriptions")
 
-    # easy fields
-    d['id'] = int(fields[0])
-    d['aliases'] = fields[1].rstrip('~').split()
-    d['short_desc'] = fields[2].rstrip('~')
-    d['long_desc'] = fields[3].rstrip('~')
-    d['values'] = [int(v) for v in fields[6].split()]
-    weight, cost, rent = [int(v) for v in fields[7].split()]
-    d['weight'] = weight
-    d['cost'] = cost
-    d['rent'] = rent
+    @classmethod
+    def parse_raw(cls, text: str) -> "Object":
+        """Parse a CircleMUD object definition from raw text."""
+        fields = [line.rstrip() for line in text.strip().split('\n')]
 
-    type_flag, effects_bits, wear_bitvector = fields[5].split()
+        # easy fields
+        obj_id = int(fields[0])
+        aliases = fields[1].rstrip('~').split()
+        short_desc = fields[2].rstrip('~')
+        long_desc = fields[3].rstrip('~')
+        values = [int(v) for v in fields[6].split()]
+        weight, cost, rent = [int(v) for v in fields[7].split()]
 
-    # type flag is always an int
-    d['type'] = lookup_value_to_dict(int(type_flag), OBJECT_TYPE_FLAGS)
+        type_flag, effects_bits, wear_bitvector = fields[5].split()
 
-    # parse the bitvectors
-    effects_bits = clean_bitvector(effects_bits)
-    effects = bitvector_to_flags(effects_bits, OBJECT_EXTRA_EFFECTS_FLAGS)
-    d['effects'] = effects
+        # type flag is always an int
+        type_dict = lookup_value_to_dict(int(type_flag), OBJECT_TYPE_FLAGS)
+        obj_type = Flag(**type_dict)
 
-    wear_bitvector = clean_bitvector(wear_bitvector)
-    d['wear'] = bitvector_to_flags(wear_bitvector, OBJECT_WEAR_FLAGS)
+        # parse the bitvectors
+        effects_bits = clean_bitvector(effects_bits)
+        effects_dicts = bitvector_to_flags(effects_bits, OBJECT_EXTRA_EFFECTS_FLAGS)
+        effects = [Flag(**f) for f in effects_dicts]
 
-    action_desc = fields[4].rstrip('~')
-    if action_desc:
-        d['action_desc'] = action_desc
+        wear_bitvector = clean_bitvector(wear_bitvector)
+        wear_dicts = bitvector_to_flags(wear_bitvector, OBJECT_WEAR_FLAGS)
+        wear = [Flag(**f) for f in wear_dicts]
 
-    d['affects'] = []
-    d['extra_descs'] = []
-    if len(fields) > 8:
-        extra_fields = fields[8:]
+        action_desc = fields[4].rstrip('~') or None
 
-        d['affects'] = list(parse_affects(extra_fields))
-        d['extra_descs'] = list(parse_extra_descs(extra_fields))
+        affects = []
+        extra_descs = []
+        if len(fields) > 8:
+            extra_fields = fields[8:]
+            affects = Affect.parse_from_fields(extra_fields)
+            extra_descs = ExtraDescription.parse_from_fields(extra_fields)
 
-    return d
+        return cls(
+            id=obj_id,
+            aliases=aliases,
+            short_desc=short_desc,
+            long_desc=long_desc,
+            action_desc=action_desc,
+            type=obj_type,
+            effects=effects,
+            wear=wear,
+            values=values,
+            weight=weight,
+            cost=cost,
+            rent=rent,
+            affects=affects,
+            extra_descs=extra_descs,
+        )
