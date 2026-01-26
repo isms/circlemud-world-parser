@@ -1,4 +1,6 @@
 # coding: utf-8
+import re
+
 from pydantic import BaseModel, Field
 
 from .constants import MOB_ACTION_FLAGS
@@ -26,9 +28,11 @@ class DiceRoll(BaseModel):
 
     @classmethod
     def parse_from_string(cls, roll_string: str) -> "DiceRoll":
-        """Parse a dice roll string like '4d6+20' into a DiceRoll."""
-        dice_part, bonus = roll_string.split('+')
-        dice, sides = dice_part.split('d')
+        """Parse a dice roll string like '4d6+20' or '2d6-5' into a DiceRoll."""
+        match = re.match(r"(\d+)d(\d+)([+-]\d+)", roll_string)
+        if not match:
+            raise ValueError(f"Invalid dice roll string: {roll_string}")
+        dice, sides, bonus = match.groups()
         return cls(dice=int(dice), sides=int(sides), bonus=int(bonus))
 
 
