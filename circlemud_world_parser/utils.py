@@ -1,50 +1,76 @@
 import re
 import string
 import traceback
+from collections.abc import Callable, Iterator
+from pathlib import Path
+from typing import Any, TypedDict
 
 
-def clean_bitvector(bitvector):
+class FlagDict(TypedDict):
+    """Dictionary representing a parsed flag."""
+
+    value: int
+    note: str | None
+
+
+class ErrorDict(TypedDict):
+    """Dictionary representing a parsing error."""
+
+    text: str
+    trace: str
+
+
+def clean_bitvector(bitvector: str) -> int | str:
+    """Convert bitvector to int if numeric, otherwise return as-is."""
     try:
         return int(bitvector)
     except ValueError:
         return bitvector
 
 
-def bitvector_letter_to_number(letter):
+def bitvector_letter_to_number(letter: str) -> int:
+    """Convert a bitvector letter (a-zA-Z) to its numeric value."""
     index = string.ascii_letters.index(letter)
     return 2**index
 
 
-def bitvector_letters_to_numbers(letters):
+def bitvector_letters_to_numbers(letters: str) -> Iterator[int]:
+    """Convert bitvector letters to their numeric values."""
     for letter in letters:
         yield bitvector_letter_to_number(letter)
 
 
-def bitvector_number_to_numbers(value):
+def bitvector_number_to_numbers(value: int) -> Iterator[int]:
+    """Decompose a bitvector number into its component powers of 2."""
     bin_string = bin(value)[2:]  # e.g.: 129 -> '10000001'
     for i, v in enumerate(reversed(bin_string)):
         if v == '1':
             yield 2**i
 
 
-def bitvector_to_numbers(value):
+def bitvector_to_numbers(value: int | str) -> list[int]:
+    """Convert a bitvector (numeric or letter-based) to list of flag values."""
     if isinstance(value, int):
         return list(bitvector_number_to_numbers(value))
     return list(bitvector_letters_to_numbers(value))
 
 
-def bitvector_to_flags(bitvector, flag_dict):
+def bitvector_to_flags(bitvector: int | str, flag_dict: dict[int, str]) -> list[FlagDict]:
+    """Convert a bitvector to a list of flag dictionaries with values and notes."""
     numbers = bitvector_to_numbers(bitvector)
-    flags = [{'value': number, 'note': flag_dict.get(number, None)} for number in numbers]
+    flags: list[FlagDict] = [
+        {'value': number, 'note': flag_dict.get(number, None)} for number in numbers
+    ]
     return flags
 
 
-def lookup_value_to_dict(value, flag_dict):
+def lookup_value_to_dict(value: int, flag_dict: dict[int, str]) -> FlagDict:
+    """Look up a single value in a flag dictionary and return as FlagDict."""
     note = flag_dict.get(value, None)
-    return dict(value=value, note=note)
+    return {'value': value, 'note': note}
 
 
-def split_on_vnums(file_text):
+def split_on_vnums(file_text: str) -> Iterator[str]:
     """
     Split the file on lines in the form of a vnum (e.g. '#1234').
 
@@ -56,18 +82,20 @@ def split_on_vnums(file_text):
         yield vnum + text
 
 
-def parse_from_string(file_text, parse_function, splitter):
+def parse_from_string(
+    file_text: str,
+    parse_function: Callable[[str], Any],
+    splitter: Callable[[str], Iterator[str]],
+) -> tuple[list[Any], list[ErrorDict]]:
     """
-    given the text of a file, split it up into individual entries using
-    the passed splitting function, then feed each piece into the
-    individual entry parser, accumulating all results into an array.
+    Split file text into entries and parse each one.
 
-    returns the resulting array of dictionaries.
+    Returns a tuple of (parsed_items, errors).
     """
     texts = splitter(file_text)
 
-    dicts = []
-    errors = []
+    dicts: list[Any] = []
+    errors: list[ErrorDict] = []
 
     for text in texts:
         try:
@@ -75,16 +103,22 @@ def parse_from_string(file_text, parse_function, splitter):
             dicts.append(d)
         except Exception:  # intentionally broad
             trace = traceback.format_exc()
-            error = dict(text=text, trace=trace)
+            error: ErrorDict = {'text': text, 'trace': trace}
             errors.append(error)
 
     return dicts, errors
 
 
-def parse_from_file(filename, parser, splitter=split_on_vnums, validate=None):
+def parse_from_file(
+    filename: str | Path,
+    parser: Callable[[str], Any],
+    splitter: Callable[[str], Iterator[str]] = split_on_vnums,
+    validate: Callable[[str], None] | None = None,
+) -> tuple[list[Any], list[ErrorDict]]:
     """
-    given a filename and an individual item parsing function, read the
-    file contents and pass to the string parser.
+    Parse a CircleMUD world file.
+
+    Reads the file, optionally validates it, and parses entries.
     """
     with open(filename) as f:
         file_text = f.read()

@@ -53,8 +53,8 @@ def parse_based_on_filepath(filepath):
         fmt = 'No parser found for file type: "{}"'
         raise RuntimeError(fmt.format(file_type))
 
-    args = PARSER_LOOKUP[file_type]
-    payload, errors = parse_from_file(filepath, *args)
+    parser, splitter = PARSER_LOOKUP[file_type]
+    payload, errors = parse_from_file(filepath, parser, splitter)
 
     return payload, errors
 
