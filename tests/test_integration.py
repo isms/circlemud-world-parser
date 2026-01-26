@@ -1,9 +1,8 @@
 # coding: utf-8
-import glob
 import json
-import os
 import shutil
 import tempfile
+from pathlib import Path
 
 import pytest
 from typer.testing import CliRunner
@@ -13,7 +12,7 @@ from circlemud_world_parser.parse import app
 from circlemud_world_parser.utils import parse_from_file
 
 
-ASSETS_DIR = os.path.join(os.path.abspath('.'), 'assets')
+ASSETS_DIR = Path('assets').resolve()
 
 
 @pytest.fixture
@@ -31,9 +30,9 @@ def cli_runner():
 @pytest.fixture
 def temp_assets_dir():
     """Fixture that copies all assets to a temp directory for CLI testing."""
-    temp_dir = tempfile.mkdtemp()
-    shutil.copytree(ASSETS_DIR, os.path.join(temp_dir, 'assets'))
-    yield os.path.join(temp_dir, 'assets')
+    temp_dir = Path(tempfile.mkdtemp())
+    shutil.copytree(ASSETS_DIR, temp_dir / 'assets')
+    yield temp_dir / 'assets'
     shutil.rmtree(temp_dir)
 
 
@@ -41,8 +40,7 @@ def get_all_test_files():
     """Collect all test files grouped by type for parametrization."""
     test_files = []
     for file_type in parse.PARSER_LOOKUP:
-        pattern = os.path.join(ASSETS_DIR, file_type, f'*.{file_type}')
-        for filepath in glob.glob(pattern):
+        for filepath in (ASSETS_DIR / file_type).glob(f'*.{file_type}'):
             test_files.append((file_type, filepath))
     return test_files
 
@@ -50,7 +48,7 @@ def get_all_test_files():
 def generate_test_ids():
     """Generate readable test IDs from file paths."""
     test_files = get_all_test_files()
-    return [f"{file_type}/{os.path.basename(filepath)}" for file_type, filepath in test_files]
+    return [f"{file_type}/{Path(filepath).name}" for file_type, filepath in test_files]
 
 
 @pytest.mark.parametrize("file_type,filepath", get_all_test_files(), ids=generate_test_ids())
@@ -59,7 +57,7 @@ def test_parse_individual_file(file_type, filepath):
     parser_func, splitter, extra = parse.PARSER_LOOKUP[file_type]
     payload, errors = parse_from_file(filepath, parser_func, splitter, extra)
 
-    filename = os.path.basename(filepath)
+    filename = Path(filepath).name
     if filename == '0.obj':
         # This file has a known intentional error (bug object)
         assert len(errors) == 1
@@ -75,8 +73,7 @@ def test_parse_individual_file(file_type, filepath):
 @pytest.mark.parametrize("file_type", list(parse.PARSER_LOOKUP.keys()))
 def test_parse_all_files_of_type(file_type, assets_dir):
     """Parse all files of a given type and verify aggregate behavior."""
-    pattern = os.path.join(assets_dir, file_type, f'*.{file_type}')
-    filenames = glob.glob(pattern)
+    filenames = list((assets_dir / file_type).glob(f'*.{file_type}'))
 
     assert len(filenames) > 0, f"No files found for type {file_type}"
 
@@ -94,8 +91,8 @@ class TestCLIIntegration:
 
     def test_cli_parse_mob_file(self, cli_runner, temp_assets_dir):
         """Test CLI parsing of a mob file outputs valid JSON."""
-        mob_file = os.path.join(temp_assets_dir, 'mob', '30.mob')
-        result = cli_runner.invoke(app, [mob_file])
+        mob_file = temp_assets_dir / 'mob' / '30.mob'
+        result = cli_runner.invoke(app, [str(mob_file)])
 
         assert result.exit_code == 0, f"CLI failed: {result.output}"
 
@@ -111,8 +108,8 @@ class TestCLIIntegration:
 
     def test_cli_parse_obj_file(self, cli_runner, temp_assets_dir):
         """Test CLI parsing of an object file outputs valid JSON."""
-        obj_file = os.path.join(temp_assets_dir, 'obj', '30.obj')
-        result = cli_runner.invoke(app, [obj_file])
+        obj_file = temp_assets_dir / 'obj' / '30.obj'
+        result = cli_runner.invoke(app, [str(obj_file)])
 
         assert result.exit_code == 0, f"CLI failed: {result.output}"
 
@@ -122,8 +119,8 @@ class TestCLIIntegration:
 
     def test_cli_parse_wld_file(self, cli_runner, temp_assets_dir):
         """Test CLI parsing of a world file outputs valid JSON."""
-        wld_file = os.path.join(temp_assets_dir, 'wld', '30.wld')
-        result = cli_runner.invoke(app, [wld_file])
+        wld_file = temp_assets_dir / 'wld' / '30.wld'
+        result = cli_runner.invoke(app, [str(wld_file)])
 
         assert result.exit_code == 0, f"CLI failed: {result.output}"
 
@@ -133,8 +130,8 @@ class TestCLIIntegration:
 
     def test_cli_parse_shp_file(self, cli_runner, temp_assets_dir):
         """Test CLI parsing of a shop file outputs valid JSON."""
-        shp_file = os.path.join(temp_assets_dir, 'shp', '30.shp')
-        result = cli_runner.invoke(app, [shp_file])
+        shp_file = temp_assets_dir / 'shp' / '30.shp'
+        result = cli_runner.invoke(app, [str(shp_file)])
 
         assert result.exit_code == 0, f"CLI failed: {result.output}"
 
@@ -144,8 +141,8 @@ class TestCLIIntegration:
 
     def test_cli_parse_zon_file(self, cli_runner, temp_assets_dir):
         """Test CLI parsing of a zone file outputs valid JSON."""
-        zon_file = os.path.join(temp_assets_dir, 'zon', '30.zon')
-        result = cli_runner.invoke(app, [zon_file])
+        zon_file = temp_assets_dir / 'zon' / '30.zon'
+        result = cli_runner.invoke(app, [str(zon_file)])
 
         assert result.exit_code == 0, f"CLI failed: {result.output}"
 
@@ -155,15 +152,15 @@ class TestCLIIntegration:
 
     def test_cli_output_to_file(self, cli_runner, temp_assets_dir):
         """Test CLI can write output to a file."""
-        mob_file = os.path.join(temp_assets_dir, 'mob', '30.mob')
-        output_file = os.path.join(temp_assets_dir, 'output.json')
+        mob_file = temp_assets_dir / 'mob' / '30.mob'
+        output_file = temp_assets_dir / 'output.json'
 
-        result = cli_runner.invoke(app, [mob_file, '--dest', output_file])
+        result = cli_runner.invoke(app, [str(mob_file), '--dest', str(output_file)])
 
         assert result.exit_code == 0, f"CLI failed: {result.output}"
 
         # Verify file was created and contains valid JSON
-        assert os.path.exists(output_file)
+        assert output_file.exists()
         with open(output_file) as f:
             output_data = json.load(f)
         assert isinstance(output_data, list)
@@ -172,28 +169,26 @@ class TestCLIIntegration:
     def test_cli_invalid_file_type(self, cli_runner, temp_assets_dir):
         """Test CLI handles unknown file types gracefully."""
         # Create a file with unknown extension
-        bad_file = os.path.join(temp_assets_dir, 'test.xyz')
-        with open(bad_file, 'w') as f:
-            f.write('test content')
+        bad_file = temp_assets_dir / 'test.xyz'
+        bad_file.write_text('test content')
 
-        result = cli_runner.invoke(app, [bad_file])
+        result = cli_runner.invoke(app, [str(bad_file)])
 
         assert result.exit_code != 0
 
     @pytest.mark.parametrize("file_type", list(parse.PARSER_LOOKUP.keys()))
     def test_cli_parse_all_files_of_type(self, cli_runner, temp_assets_dir, file_type):
         """Test CLI can parse all files of each type."""
-        pattern = os.path.join(temp_assets_dir, file_type, f'*.{file_type}')
-        filenames = glob.glob(pattern)
+        filenames = list((temp_assets_dir / file_type).glob(f'*.{file_type}'))
 
         for filepath in filenames:
-            filename = os.path.basename(filepath)
+            filename = filepath.name
 
             # Skip the known bad file
             if filename == '0.obj':
                 continue
 
-            result = cli_runner.invoke(app, [filepath])
+            result = cli_runner.invoke(app, [str(filepath)])
 
             assert result.exit_code == 0, f"CLI failed for {filepath}: {result.output}"
 

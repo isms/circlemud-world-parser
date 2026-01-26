@@ -1,7 +1,7 @@
 # coding: utf-8
 import json
 import logging
-import os
+from pathlib import Path
 from typing import Optional
 
 import typer
@@ -43,9 +43,7 @@ def log_errors(errors):
 
 
 def get_file_type(filepath):
-    _, filename = os.path.split(filepath)
-    _, file_type = filename.split('.')
-    return file_type
+    return Path(filepath).suffix.lstrip('.')
 
 
 def parse_based_on_filepath(filepath):
