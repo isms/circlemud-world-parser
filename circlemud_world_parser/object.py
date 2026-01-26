@@ -4,7 +4,7 @@ from .constants import OBJECT_AFFECT_LOCATION_FLAGS
 from .constants import OBJECT_EXTRA_EFFECTS_FLAGS
 from .constants import OBJECT_TYPE_FLAGS
 from .constants import OBJECT_WEAR_FLAGS
-from .models import Flag
+from .models import ExtraDescription, Flag
 from .utils import bitvector_to_flags
 from .utils import clean_bitvector
 from .utils import lookup_value_to_dict
@@ -29,29 +29,22 @@ class Affect(BaseModel):
         return results
 
 
-class ExtraDescription(BaseModel):
-    """An extra description triggered by examining keywords."""
-
-    keywords: list[str] = Field(..., description="Keywords that trigger this description")
-    desc: str = Field(..., description="Description text")
-
-    @classmethod
-    def parse_from_fields(cls, extra_fields: list[str]) -> list["ExtraDescription"]:
-        """Parse extra descriptions from the 'E' blocks in object data."""
-        results = []
-        i = 0
-        while i < len(extra_fields):
-            if extra_fields[i] == 'E':
-                i += 1
-                keywords = extra_fields[i].rstrip('~').split()
-                i += 1
-                desc_lines = []
-                while i < len(extra_fields) and extra_fields[i] not in ('~', '$'):
-                    desc_lines.append(extra_fields[i])
-                    i += 1
-                results.append(cls(keywords=keywords, desc='\n'.join(desc_lines)))
+def parse_extra_descriptions_from_fields(extra_fields: list[str]) -> list[ExtraDescription]:
+    """Parse extra descriptions from the 'E' blocks in object data."""
+    results = []
+    i = 0
+    while i < len(extra_fields):
+        if extra_fields[i] == 'E':
             i += 1
-        return results
+            keywords = extra_fields[i].rstrip('~').split()
+            i += 1
+            desc_lines = []
+            while i < len(extra_fields) and extra_fields[i] not in ('~', '$'):
+                desc_lines.append(extra_fields[i])
+                i += 1
+            results.append(ExtraDescription(keywords=keywords, desc='\n'.join(desc_lines)))
+        i += 1
+    return results
 
 
 class Object(BaseModel):
@@ -107,7 +100,7 @@ class Object(BaseModel):
         if len(fields) > 8:
             extra_fields = fields[8:]
             affects = Affect.parse_from_fields(extra_fields)
-            extra_descs = ExtraDescription.parse_from_fields(extra_fields)
+            extra_descs = parse_extra_descriptions_from_fields(extra_fields)
 
         return cls(
             id=obj_id,

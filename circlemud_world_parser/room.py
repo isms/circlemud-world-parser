@@ -5,7 +5,7 @@ from pydantic import BaseModel, Field
 from .constants import ROOM_DOOR_FLAGS
 from .constants import ROOM_FLAGS
 from .constants import ROOM_SECTOR_TYPES
-from .models import Flag
+from .models import ExtraDescription, Flag
 from .utils import bitvector_to_flags
 from .utils import clean_bitvector
 from .utils import lookup_value_to_dict
@@ -56,19 +56,12 @@ class Exit(BaseModel):
         return exits
 
 
-class ExtraDescription(BaseModel):
-    """An extra description triggered by examining keywords."""
-
-    keywords: list[str] = Field(..., description="Keywords that trigger this description")
-    desc: str = Field(..., description="Description text")
-
-    @classmethod
-    def parse_from_text(cls, text: str) -> list["ExtraDescription"]:
-        """Parse extra descriptions from room bottom matter text."""
-        extra_descs = []
-        for keywords, desc in EXTRA_DESC_PATTERN.findall(text):
-            extra_descs.append(cls(keywords=keywords.split(), desc=desc))
-        return extra_descs
+def parse_extra_descriptions_from_text(text: str) -> list[ExtraDescription]:
+    """Parse extra descriptions from room bottom matter text."""
+    extra_descs = []
+    for keywords, desc in EXTRA_DESC_PATTERN.findall(text):
+        extra_descs.append(ExtraDescription(keywords=keywords.split(), desc=desc))
+    return extra_descs
 
 
 class Room(BaseModel):
@@ -102,7 +95,7 @@ class Room(BaseModel):
 
         bottom_matter = '~'.join(parts[2:])
         exits = Exit.parse_from_text(bottom_matter)
-        extra_descs = ExtraDescription.parse_from_text(bottom_matter)
+        extra_descs = parse_extra_descriptions_from_text(bottom_matter)
 
         return cls(
             id=int(vnum),
