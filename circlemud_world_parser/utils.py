@@ -46,26 +46,14 @@ def lookup_value_to_dict(value, flag_dict):
 
 def split_on_vnums(file_text):
     """
-    function specifically to split the file on lines in the form
-    of a vnum (e.g. the entire line is something like '#1234'). this is
-    important because lines within entries can (and do) start with '#'
+    Split the file on lines in the form of a vnum (e.g. '#1234').
+
+    This is important because lines within entries can (and do) start with '#'.
     """
-    split_re = r"""^\#(\d+)"""
-    split_pattern = re.compile(split_re, re.MULTILINE)
-    pieces = split_pattern.split(file_text)
-    if not pieces:
-        return
-
-    pieces_iter = iter(pieces)
-    next(pieces_iter)  # burn the next one, we won't use it
-
-    while True:
-        try:
-            vnum = next(pieces_iter)
-            text = next(pieces_iter)
-            yield ''.join((vnum, text))
-        except StopIteration:
-            return
+    pattern = re.compile(r'^#(\d+)', re.MULTILINE)
+    pieces = pattern.split(file_text)
+    for vnum, text in zip(pieces[1::2], pieces[2::2]):
+        yield vnum + text
 
 
 def parse_from_string(file_text, parse_function, splitter):
