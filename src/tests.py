@@ -1,7 +1,8 @@
 # coding: utf-8
 import glob
 import os
-import unittest
+
+import pytest
 
 import parse
 from mobile import parse_mob
@@ -18,24 +19,24 @@ from utils import parse_from_string
 from utils import split_on_vnums
 
 
-class BitvectorParsingTests(unittest.TestCase):
+class TestBitvectorParsing:
     def test_bitvector_number_to_numbers(self):
         bitvector = 8193
         expected = [1, 8192]
         actual = list(bitvector_number_to_numbers(8193))
-        self.assertListEqual(actual, expected)
+        assert actual == expected
 
         actual = list(bitvector_to_numbers(bitvector))
-        self.assertListEqual(actual, expected)
+        assert actual == expected
 
     def test_bitvector_letters_to_numbers(self):
         bitvector = 'adjmnoq'
         expected = [1, 8, 512, 4096, 8192, 16384, 65536]
         actual = list(bitvector_letters_to_numbers(bitvector))
-        self.assertListEqual(actual, expected)
+        assert actual == expected
 
         actual = list(bitvector_to_numbers(bitvector))
-        self.assertListEqual(actual, expected)
+        assert actual == expected
 
     def test_bitvector_to_flags(self):
         test_flags = {
@@ -51,12 +52,10 @@ class BitvectorParsingTests(unittest.TestCase):
             {"note": "OOZING", "value": 4}
         ]
         actual = bitvector_to_flags(bitvector, test_flags)
-        self.assertListEqual(actual, expected)
+        assert actual == expected
 
 
-class ObjectParsingTests(unittest.TestCase):
-    maxDiff = None
-
+class TestObjectParsing:
     def test_parsing_objects(self):
         text = """#12020
 thunderbolt jupiter~
@@ -207,7 +206,7 @@ $
         ]
 
         objs, errors = parse_from_string(text, parse_object, split_on_vnums)
-        self.assertEqual(objs, expected)
+        assert [obj.model_dump(exclude_none=True) for obj in objs] == expected
 
     def test_parsing_object_with_non_stock_flag(self):
         text = """#42
@@ -223,18 +222,17 @@ $
         objs, errors = parse_from_string(text, parse_object, split_on_vnums)
         thing = objs.pop()
 
-        self.assertEqual(len(thing['effects']), 4)
+        assert len(thing.effects) == 4
 
         expected = {
             'value': 274877906944,
             'note': None
         }
-        self.assertIn(expected, thing['effects'])
+        effects_as_dicts = [e.model_dump() for e in thing.effects]
+        assert expected in effects_as_dicts
 
 
-class RoomParsingTests(unittest.TestCase):
-    maxDiff = None
-
+class TestRoomParsing:
     def test_parsing_rooms(self):
         text = """#3028
 The Thieves' Bar~
@@ -394,7 +392,7 @@ S
         ]
 
         rooms, errors = parse_from_string(text, parse_room, split_on_vnums)
-        self.assertListEqual(rooms, expected)
+        assert rooms == expected
 
     def test_room_with_no_exit_description(self):
         text = """3374
@@ -418,14 +416,13 @@ D4
 0 -1 3373
 S"""
         room = parse_room(text)
-        self.assertEqual(len(room['exits']), 2)
+        assert len(room['exits']) == 2
 
 
-class MobParsingTests(unittest.TestCase):
-    maxDiff = None
-
-    def setUp(self):
-        self.text = """#3000
+class TestMobParsing:
+    @pytest.fixture
+    def mob_text(self):
+        return """#3000
 wizard~
 the wizard~
 A wizard walks around behind the counter, talking to himself.
@@ -439,8 +436,8 @@ ablno d 900 S
 30000 160000
 8 8 1"""
 
-    def test_parsing_type_s_mob(self):
-        mobs, errors = parse_from_string(self.text, parse_mob, split_on_vnums)
+    def test_parsing_type_s_mob(self, mob_text):
+        mobs, errors = parse_from_string(mob_text, parse_mob, split_on_vnums)
         mob = mobs.pop()
 
         expected = {
@@ -512,19 +509,17 @@ ablno d 900 S
             },
             "short_desc": "the wizard"
         }
-        self.assertEqual(mob, expected)
+        assert mob == expected
 
-    def test_parsing_type_e_mob(self):
-        e_type = self.text.replace('ablno d 900 S', 'ablno d 900 E')
+    def test_parsing_type_e_mob(self, mob_text):
+        e_type = mob_text.replace('ablno d 900 S', 'ablno d 900 E')
         e_type += '\nBareHandAttack: 4\nInt: 25\nE'
         mobs, errors = parse_from_string(e_type, parse_mob, split_on_vnums)
         expected = dict(BareHandAttack=4, Int=25)
-        self.assertDictEqual(mobs[0]['extra_spec'], expected)
+        assert mobs[0]['extra_spec'] == expected
 
 
-class ZoneParsingTests(unittest.TestCase):
-    maxDiff = None
-
+class TestZoneParsing:
     def test_parsing_zone(self):
         text = """60
 Haon-Dor, Light Forest~
@@ -594,7 +589,7 @@ S"""
                 'equipped': [],
             }
         ]
-        self.assertListEqual(zone['mobs'], expected_mobs)
+        assert zone['mobs'] == expected_mobs
 
         expected_objects = [
             {
@@ -621,7 +616,7 @@ S"""
                 ],
             },
         ]
-        self.assertListEqual(zone['objects'], expected_objects)
+        assert zone['objects'] == expected_objects
 
         expected_doors = [
             {
@@ -635,7 +630,7 @@ S"""
                 'state': 1,
             }
         ]
-        self.assertListEqual(zone['doors'], expected_doors)
+        assert zone['doors'] == expected_doors
 
         expected_removals = [
             {
@@ -643,13 +638,13 @@ S"""
                 'id': 6011,
             }
         ]
-        self.assertListEqual(zone['remove_objects'], expected_removals)
+        assert zone['remove_objects'] == expected_removals
 
 
-class ShopParsingTests(unittest.TestCase):
-    def setUp(self):
-        self.maxDiff = None
-        self.text = """#3000~
+class TestShopParsing:
+    @pytest.fixture
+    def shop_text(self):
+        return """#3000~
 3050
 3051
 3052
@@ -681,7 +676,7 @@ POTION
 0
 0"""
 
-    def test_parsing_zone(self):
+    def test_parsing_zone(self, shop_text):
         expected = {
             'id': 3000,
             'objects': [3050, 3051, 3052, 3053, 3054],
@@ -691,7 +686,7 @@ POTION
                 {
                     'note': 'WEAPON',
                     'value': 5,
-                    'namelist': '[sword & long | short | warhammer | ^golden & bow] & magic'
+                    'namelist': ['[sword', '&', 'long', '|', 'short', '|', 'warhammer', '|', '^golden', '&', 'bow]', '&', 'magic']
                 },
                 {'note': 'WAND', 'value': 3, 'namelist': None},
                 {'note': 'STAFF', 'value': 4, 'namelist': None},
@@ -732,11 +727,11 @@ POTION
                 }
             ]
         }
-        shop = parse_shop(self.text)
-        self.assertDictEqual(shop, expected)
+        shop = parse_shop(shop_text)
+        assert shop == expected
 
 
-class TestParsingActualTinyworldFiles(unittest.TestCase):
+class TestParsingActualTinyworldFiles:
     def get_all_filenames(self, file_type):
         if file_type not in parse.PARSER_LOOKUP:
             raise KeyError('No parser found for file type: "{}"'.format(file_type))
@@ -758,12 +753,8 @@ class TestParsingActualTinyworldFiles(unittest.TestCase):
                 payload, errors = parse_from_file(filename, *args)
 
                 if os.path.split(filename)[1] == '0.obj':
-                    self.assertEqual(len(errors), 1)
+                    assert len(errors) == 1
                     expected = '0\nbug~\na bug~\nThis object is BAD!'
-                    self.assertIn(expected, errors[0]['text'])
+                    assert expected in errors[0]['text']
                 else:
-                    self.assertListEqual(errors, [])
-
-
-if __name__ == '__main__':
-    unittest.main()
+                    assert errors == []
