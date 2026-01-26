@@ -2,8 +2,8 @@
 import glob
 import os
 
-import parse
-from utils import parse_from_file
+from circlemud_world_parser import parse
+from circlemud_world_parser.utils import parse_from_file
 
 
 class TestParsingActualTinyworldFiles:
@@ -11,7 +11,7 @@ class TestParsingActualTinyworldFiles:
         if file_type not in parse.PARSER_LOOKUP:
             raise KeyError('No parser found for file type: "{}"'.format(file_type))
 
-        caw_path = os.path.join(os.path.abspath('.'), 'world')
+        caw_path = os.path.join(os.path.abspath('.'), 'assets')
         pattern = os.path.join(caw_path, file_type, '*.' + file_type)
         filenames = glob.glob(pattern)
 

@@ -1,3 +1,7 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [project]
 name = "circlemud-world-parser"
 version = "0.1.0"
@@ -9,6 +13,9 @@ dependencies = [
     "pytest>=9.0.2",
     "typer>=0.21.1",
 ]
+
+[project.scripts]
+circlemud-parse = "circlemud_world_parser.parse:app"
 
 [tool.ruff]
 line-length = 120

@@ -1,8 +1,8 @@
 # coding: utf-8
-from utils import bitvector_to_numbers
-from utils import bitvector_letters_to_numbers
-from utils import bitvector_number_to_numbers
-from utils import bitvector_to_flags
+from circlemud_world_parser.utils import bitvector_to_numbers
+from circlemud_world_parser.utils import bitvector_letters_to_numbers
+from circlemud_world_parser.utils import bitvector_number_to_numbers
+from circlemud_world_parser.utils import bitvector_to_flags
 
 
 class TestBitvectorParsing:

@@ -1,5 +1,5 @@
 # coding: utf-8
-from zone import parse_zone
+from circlemud_world_parser.zone import parse_zone
 
 
 class TestZoneParsing:

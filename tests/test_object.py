@@ -1,7 +1,7 @@
 # coding: utf-8
-from object import Object
-from utils import parse_from_string
-from utils import split_on_vnums
+from circlemud_world_parser.object import Object
+from circlemud_world_parser.utils import parse_from_string
+from circlemud_world_parser.utils import split_on_vnums
 
 
 class TestObjectParsing:

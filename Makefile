@@ -6,11 +6,11 @@ test:
 	uv run pytest -v
 
 lint:
-	uv run ruff check src
+	uv run ruff check circlemud_world_parser
 	uv run ty check
 
 all: clean
-	bash convert_all.sh world/
+	bash convert_all.sh assets/
 
 .PHONY:
 	all clean test lint

@@ -1,9 +1,9 @@
 # coding: utf-8
 import pytest
 
-from mobile import parse_mob
-from utils import parse_from_string
-from utils import split_on_vnums
+from circlemud_world_parser.mobile import parse_mob
+from circlemud_world_parser.utils import parse_from_string
+from circlemud_world_parser.utils import split_on_vnums
 
 
 class TestMobParsing:

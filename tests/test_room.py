@@ -1,7 +1,7 @@
 # coding: utf-8
-from room import parse_room
-from utils import parse_from_string
-from utils import split_on_vnums
+from circlemud_world_parser.room import parse_room
+from circlemud_world_parser.utils import parse_from_string
+from circlemud_world_parser.utils import split_on_vnums
 
 
 class TestRoomParsing:

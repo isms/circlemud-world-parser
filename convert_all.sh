@@ -13,6 +13,6 @@ for type in "mob" "obj" "shp" "wld" "zon"; do
         number=${filename%%.*}
         output="_output/$type/$number.json"
         echo parsing $file to $output
-        python src/parse.py --dest $output $file
+        uv run circlemud-parse --dest $output $file
     done
 done

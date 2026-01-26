@@ -1,7 +1,7 @@
 # coding: utf-8
 import pytest
 
-from shop import parse_shop
+from circlemud_world_parser.shop import parse_shop
 
 
 class TestShopParsing:

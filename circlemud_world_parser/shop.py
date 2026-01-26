@@ -7,11 +7,11 @@ older Diku-format shops to Circle v3.0.
 """
 from pydantic import BaseModel, Field
 
-from constants import OBJECT_TYPE_FLAGS
-from constants import SHOP_FLAGS
-from constants import SHOP_TRADES_WITH
-from utils import bitvector_to_flags
-from utils import clean_bitvector
+from .constants import OBJECT_TYPE_FLAGS
+from .constants import SHOP_FLAGS
+from .constants import SHOP_TRADES_WITH
+from .utils import bitvector_to_flags
+from .utils import clean_bitvector
 
 
 class Flag(BaseModel):

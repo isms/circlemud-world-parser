@@ -1,13 +1,13 @@
 # coding: utf-8
 from pydantic import BaseModel, Field
 
-from constants import MOB_ACTION_FLAGS
-from constants import MOB_AFFECT_FLAGS
-from constants import MOB_GENDER
-from constants import MOB_POSITION
-from utils import bitvector_to_flags
-from utils import clean_bitvector
-from utils import lookup_value_to_dict
+from .constants import MOB_ACTION_FLAGS
+from .constants import MOB_AFFECT_FLAGS
+from .constants import MOB_GENDER
+from .constants import MOB_POSITION
+from .utils import bitvector_to_flags
+from .utils import clean_bitvector
+from .utils import lookup_value_to_dict
 
 
 class Flag(BaseModel):

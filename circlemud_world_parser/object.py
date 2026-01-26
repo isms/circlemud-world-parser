@@ -1,13 +1,13 @@
 # coding: utf-8
 from pydantic import BaseModel, Field
 
-from constants import OBJECT_AFFECT_LOCATION_FLAGS
-from constants import OBJECT_EXTRA_EFFECTS_FLAGS
-from constants import OBJECT_TYPE_FLAGS
-from constants import OBJECT_WEAR_FLAGS
-from utils import bitvector_to_flags
-from utils import clean_bitvector
-from utils import lookup_value_to_dict
+from .constants import OBJECT_AFFECT_LOCATION_FLAGS
+from .constants import OBJECT_EXTRA_EFFECTS_FLAGS
+from .constants import OBJECT_TYPE_FLAGS
+from .constants import OBJECT_WEAR_FLAGS
+from .utils import bitvector_to_flags
+from .utils import clean_bitvector
+from .utils import lookup_value_to_dict
 
 
 class Flag(BaseModel):

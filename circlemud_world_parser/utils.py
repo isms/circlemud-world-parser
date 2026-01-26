@@ -29,7 +29,7 @@ def bitvector_number_to_numbers(value):
 
 
 def bitvector_to_numbers(value):
-    if type(value) == int:
+    if isinstance(value, int):
         return list(bitvector_number_to_numbers(value))
     return list(bitvector_letters_to_numbers(value))
 

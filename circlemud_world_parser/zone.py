@@ -3,7 +3,7 @@ import re
 
 from pydantic import BaseModel, Field
 
-from constants import MOB_EQUIP
+from .constants import MOB_EQUIP
 
 COMMAND_RE = r'(\d+)'
 COMMAND_PATTERN = re.compile(COMMAND_RE)

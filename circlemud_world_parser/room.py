@@ -3,12 +3,12 @@ import re
 
 from pydantic import BaseModel, Field
 
-from constants import ROOM_DOOR_FLAGS
-from constants import ROOM_FLAGS
-from constants import ROOM_SECTOR_TYPES
-from utils import bitvector_to_flags
-from utils import clean_bitvector
-from utils import lookup_value_to_dict
+from .constants import ROOM_DOOR_FLAGS
+from .constants import ROOM_FLAGS
+from .constants import ROOM_SECTOR_TYPES
+from .utils import bitvector_to_flags
+from .utils import clean_bitvector
+from .utils import lookup_value_to_dict
 
 EXIT_RE = r"""D(\d+)
 (.*?)~

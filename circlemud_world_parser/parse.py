@@ -6,13 +6,13 @@ from typing import Optional
 
 import typer
 
-from mobile import parse_mob
-from object import Object
-from room import parse_room
-from shop import parse_shop
-from zone import parse_zone
-from utils import parse_from_file
-from utils import split_on_vnums
+from .mobile import parse_mob
+from .object import Object
+from .room import parse_room
+from .shop import parse_shop
+from .zone import parse_zone
+from .utils import parse_from_file
+from .utils import split_on_vnums
 
 app = typer.Typer()
 
