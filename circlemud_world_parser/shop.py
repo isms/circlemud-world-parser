@@ -10,15 +10,9 @@ from pydantic import BaseModel, Field
 from .constants import OBJECT_TYPE_FLAGS
 from .constants import SHOP_FLAGS
 from .constants import SHOP_TRADES_WITH
+from .models import Flag
 from .utils import bitvector_to_flags
 from .utils import clean_bitvector
-
-
-class Flag(BaseModel):
-    """A flag with a numeric value and optional descriptive note."""
-
-    value: int = Field(..., description="Numeric flag value")
-    note: str | None = Field(None, description="Human-readable flag name")
 
 
 class BuyType(BaseModel):

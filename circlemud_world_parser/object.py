@@ -5,16 +5,10 @@ from .constants import OBJECT_AFFECT_LOCATION_FLAGS
 from .constants import OBJECT_EXTRA_EFFECTS_FLAGS
 from .constants import OBJECT_TYPE_FLAGS
 from .constants import OBJECT_WEAR_FLAGS
+from .models import Flag
 from .utils import bitvector_to_flags
 from .utils import clean_bitvector
 from .utils import lookup_value_to_dict
-
-
-class Flag(BaseModel):
-    """A flag with a numeric value and optional descriptive note."""
-
-    value: int = Field(..., description="Numeric flag value")
-    note: str | None = Field(None, description="Human-readable flag name")
 
 
 class Affect(BaseModel):

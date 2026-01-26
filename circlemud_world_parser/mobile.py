@@ -7,16 +7,10 @@ from .constants import MOB_ACTION_FLAGS
 from .constants import MOB_AFFECT_FLAGS
 from .constants import MOB_GENDER
 from .constants import MOB_POSITION
+from .models import Flag
 from .utils import bitvector_to_flags
 from .utils import clean_bitvector
 from .utils import lookup_value_to_dict
-
-
-class Flag(BaseModel):
-    """A flag with a numeric value and optional descriptive note."""
-
-    value: int = Field(..., description="Numeric flag value")
-    note: str | None = Field(None, description="Human-readable flag name")
 
 
 class DiceRoll(BaseModel):
