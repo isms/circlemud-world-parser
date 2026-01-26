@@ -2,8 +2,9 @@
 import json
 import logging
 import os
+from typing import Optional
 
-import click
+import typer
 
 from mobile import parse_mob
 from object import parse_object
@@ -12,6 +13,8 @@ from shop import parse_shop
 from zone import parse_zone
 from utils import parse_from_file
 from utils import split_on_vnums
+
+app = typer.Typer()
 
 PARSER_LOOKUP = {
     'mob': (parse_mob, split_on_vnums, None),
@@ -59,10 +62,11 @@ def parse_based_on_filepath(filepath):
     return payload, errors
 
 
-@click.command()
-@click.option('--dest', default=None, help='output to file')
-@click.argument('src')
-def parse(src, dest):
+@app.command()
+def parse(
+    src: str = typer.Argument(..., help="source file to parse"),
+    dest: Optional[str] = typer.Option(None, help="output to file"),
+):
     payload, errors = parse_based_on_filepath(src)
     log_errors(errors)
 
@@ -72,8 +76,8 @@ def parse(src, dest):
         with open(dest, 'w') as f:
             f.write(payload_json)
     else:
-        click.echo(payload_json)
+        print(payload_json)
 
 
 if __name__ == '__main__':
-    parse()
+    app()
