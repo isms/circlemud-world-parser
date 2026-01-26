@@ -1,7 +1,7 @@
 # coding: utf-8
 import pytest
 
-from circlemud_world_parser.shop import parse_shop
+from circlemud_world_parser.shop import Shop
 
 
 class TestShopParsing:
@@ -90,5 +90,5 @@ POTION
                 }
             ]
         }
-        shop = parse_shop(shop_text)
+        shop = Shop.parse_raw(shop_text).model_dump()
         assert shop == expected

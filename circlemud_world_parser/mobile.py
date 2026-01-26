@@ -130,9 +130,3 @@ class Mobile(BaseModel):
             gender=Flag(**gender_dict),
             extra_spec=extra_spec,
         )
-
-
-def parse_mob(text):
-    """Legacy function for backwards compatibility."""
-    mob = Mobile.parse_raw(text)
-    return mob.model_dump()

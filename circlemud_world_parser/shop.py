@@ -160,9 +160,3 @@ class Shop(BaseModel):
             rooms=rooms,
             times=times,
         )
-
-
-def parse_shop(text):
-    """Legacy function for backwards compatibility."""
-    shop = Shop.parse_raw(text)
-    return shop.model_dump()

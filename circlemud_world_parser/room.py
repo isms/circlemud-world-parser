@@ -121,9 +121,3 @@ class Room(BaseModel):
             exits=exits,
             extra_descs=extra_descs,
         )
-
-
-def parse_room(text):
-    """Legacy function for backwards compatibility."""
-    room = Room.parse_raw(text)
-    return room.model_dump()

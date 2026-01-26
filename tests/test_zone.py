@@ -1,5 +1,5 @@
 # coding: utf-8
-from circlemud_world_parser.zone import parse_zone
+from circlemud_world_parser.zone import Zone
 
 
 class TestZoneParsing:
@@ -27,7 +27,7 @@ D 0 6010 2 1
 *
 S"""
 
-        zone = parse_zone(text)
+        zone = Zone.parse_raw(text).model_dump()
 
         expected_mobs = [
             {

@@ -174,9 +174,3 @@ class Zone(BaseModel):
                 remove_objects.append(RemoveObject(room=room, id=obj))
 
         return mobs, objects, doors, remove_objects
-
-
-def parse_zone(text):
-    """Legacy function for backwards compatibility."""
-    zone = Zone.parse_raw(text)
-    return zone.model_dump()

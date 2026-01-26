@@ -6,22 +6,22 @@ from typing import Optional
 
 import typer
 
-from .mobile import parse_mob
+from .mobile import Mobile
 from .object import Object
-from .room import parse_room
-from .shop import parse_shop
-from .zone import parse_zone
+from .room import Room
+from .shop import Shop
+from .zone import Zone
 from .utils import parse_from_file
 from .utils import split_on_vnums
 
 app = typer.Typer()
 
 PARSER_LOOKUP = {
-    'mob': (parse_mob, split_on_vnums, None),
+    'mob': (Mobile.parse_raw, split_on_vnums, None),
     'obj': (Object.parse_raw, split_on_vnums, None),
-    'wld': (parse_room, split_on_vnums, None),
-    'shp': (parse_shop, split_on_vnums, None),
-    'zon': (parse_zone, split_on_vnums, None),
+    'wld': (Room.parse_raw, split_on_vnums, None),
+    'shp': (Shop.parse_raw, split_on_vnums, None),
+    'zon': (Zone.parse_raw, split_on_vnums, None),
 }
 
 
@@ -70,7 +70,8 @@ def parse(
     payload, errors = parse_based_on_filepath(src)
     log_errors(errors)
 
-    payload_json = json.dumps(payload, indent=2, sort_keys=True)
+    payload_dicts = [item.model_dump() for item in payload]
+    payload_json = json.dumps(payload_dicts, indent=2, sort_keys=True)
 
     if dest:
         with open(dest, 'w') as f:

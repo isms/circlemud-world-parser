@@ -1,5 +1,5 @@
 # coding: utf-8
-from circlemud_world_parser.room import parse_room
+from circlemud_world_parser.room import Room
 from circlemud_world_parser.utils import parse_from_string
 from circlemud_world_parser.utils import split_on_vnums
 
@@ -163,8 +163,8 @@ S
             }
         ]
 
-        rooms, errors = parse_from_string(text, parse_room, split_on_vnums)
-        assert rooms == expected
+        rooms, errors = parse_from_string(text, Room.parse_raw, split_on_vnums)
+        assert [r.model_dump() for r in rooms] == expected
 
     def test_room_with_no_exit_description(self):
         text = """3374
@@ -187,5 +187,5 @@ D4
 ~
 0 -1 3373
 S"""
-        room = parse_room(text)
-        assert len(room['exits']) == 2
+        room = Room.parse_raw(text)
+        assert len(room.exits) == 2
