@@ -1,6 +1,4 @@
 # coding: utf-8
-from typing import Optional
-
 from pydantic import BaseModel, Field
 
 from constants import OBJECT_AFFECT_LOCATION_FLAGS
@@ -16,34 +14,25 @@ class Flag(BaseModel):
     """A flag with a numeric value and optional descriptive note."""
 
     value: int = Field(..., description="Numeric flag value")
-    note: Optional[str] = Field(None, description="Human-readable flag name")
+    note: str | None = Field(None, description="Human-readable flag name")
 
 
 class Affect(BaseModel):
     """An affect that modifies a character attribute."""
 
     location: int = Field(..., description="Affect location code")
-    note: Optional[str] = Field(None, description="Human-readable location name")
+    note: str | None = Field(None, description="Human-readable location name")
     value: int = Field(..., description="Modifier value")
 
     @classmethod
     def parse_from_fields(cls, extra_fields: list[str]) -> list["Affect"]:
         """Parse affects from the 'A' blocks in object data."""
-        extra_iterator = iter(extra_fields)
         results = []
-
-        while True:
-            try:
-                new = next(extra_iterator)
-
-                if new == 'A':
-                    loc, value = [int(v) for v in next(extra_iterator).split()]
-                    note = OBJECT_AFFECT_LOCATION_FLAGS.get(loc, None)
-                    results.append(cls(location=loc, note=note, value=value))
-
-            except StopIteration:
-                break
-
+        for i, field in enumerate(extra_fields):
+            if field == 'A':
+                loc, value = (int(v) for v in extra_fields[i + 1].split())
+                note = OBJECT_AFFECT_LOCATION_FLAGS.get(loc, None)
+                results.append(cls(location=loc, note=note, value=value))
         return results
 
 
@@ -56,28 +45,19 @@ class ExtraDescription(BaseModel):
     @classmethod
     def parse_from_fields(cls, extra_fields: list[str]) -> list["ExtraDescription"]:
         """Parse extra descriptions from the 'E' blocks in object data."""
-        extra_iterator = iter(extra_fields)
         results = []
-
-        while True:
-            try:
-                new = next(extra_iterator)
-
-                if new == 'E':
-                    keywords = next(extra_iterator).rstrip('~').split()
-                    new = next(extra_iterator)
-
-                    desc_lines = []
-                    while new not in ('~', '$'):
-                        desc_lines.append(new)
-                        new = next(extra_iterator)
-                    desc = '\n'.join(desc_lines)
-
-                    results.append(cls(keywords=keywords, desc=desc))
-
-            except StopIteration:
-                break
-
+        i = 0
+        while i < len(extra_fields):
+            if extra_fields[i] == 'E':
+                i += 1
+                keywords = extra_fields[i].rstrip('~').split()
+                i += 1
+                desc_lines = []
+                while i < len(extra_fields) and extra_fields[i] not in ('~', '$'):
+                    desc_lines.append(extra_fields[i])
+                    i += 1
+                results.append(cls(keywords=keywords, desc='\n'.join(desc_lines)))
+            i += 1
         return results
 
 
@@ -88,7 +68,7 @@ class Object(BaseModel):
     aliases: list[str] = Field(..., description="Keywords for targeting the object")
     short_desc: str = Field(..., description="Name shown in inventory and actions")
     long_desc: str = Field(..., description="Description when object is on the ground")
-    action_desc: Optional[str] = Field(None, description="Description when used")
+    action_desc: str | None = Field(None, description="Description when used")
     type: Flag = Field(..., description="Object type (weapon, armor, etc.)")
     effects: list[Flag] = Field(default_factory=list, description="Extra effects (glow, hum, etc.)")
     wear: list[Flag] = Field(default_factory=list, description="Wear positions")
@@ -110,7 +90,7 @@ class Object(BaseModel):
         short_desc = fields[2].rstrip('~')
         long_desc = fields[3].rstrip('~')
         values = [int(v) for v in fields[6].split()]
-        weight, cost, rent = [int(v) for v in fields[7].split()]
+        weight, cost, rent = (int(v) for v in fields[7].split())
 
         type_flag, effects_bits, wear_bitvector = fields[5].split()
 
@@ -119,12 +99,12 @@ class Object(BaseModel):
         obj_type = Flag(**type_dict)
 
         # parse the bitvectors
-        effects_bits = clean_bitvector(effects_bits)
-        effects_dicts = bitvector_to_flags(effects_bits, OBJECT_EXTRA_EFFECTS_FLAGS)
+        effects_bits_clean = clean_bitvector(effects_bits)
+        effects_dicts = bitvector_to_flags(effects_bits_clean, OBJECT_EXTRA_EFFECTS_FLAGS)
         effects = [Flag(**f) for f in effects_dicts]
 
-        wear_bitvector = clean_bitvector(wear_bitvector)
-        wear_dicts = bitvector_to_flags(wear_bitvector, OBJECT_WEAR_FLAGS)
+        wear_bits = clean_bitvector(wear_bitvector)
+        wear_dicts = bitvector_to_flags(wear_bits, OBJECT_WEAR_FLAGS)
         wear = [Flag(**f) for f in wear_dicts]
 
         action_desc = fields[4].rstrip('~') or None
