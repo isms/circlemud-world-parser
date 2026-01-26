@@ -3,15 +3,14 @@ clean:
 	rm -rf _output/*
 
 test:
-	flake8 src/
-	python src/tests.py
+	uv run pytest src/tests.py -v
+
+lint:
+	uv run ruff check src
+	uv run ty check
 
 all: clean
 	bash convert_all.sh world/
 
-lint:
-	black --check .
-	flake8 .
-
 .PHONY:
-	all clean test
+	all clean test lint
