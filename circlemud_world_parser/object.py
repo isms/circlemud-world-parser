@@ -1,12 +1,10 @@
 from pydantic import BaseModel, Field
 
-from .constants import OBJECT_AFFECT_LOCATION_FLAGS
-from .constants import OBJECT_EXTRA_EFFECTS_FLAGS
-from .constants import OBJECT_TYPE_FLAGS
-from .constants import OBJECT_WEAR_FLAGS
+from .constants import (OBJECT_AFFECT_LOCATION_FLAGS,
+                        OBJECT_EXTRA_EFFECTS_FLAGS, OBJECT_TYPE_FLAGS,
+                        OBJECT_WEAR_FLAGS)
 from .models import ExtraDescription, Flag
-from .utils import lookup_value_to_dict
-from .utils import parse_flags
+from .utils import lookup_value_to_dict, parse_flags
 
 
 class Affect(BaseModel):

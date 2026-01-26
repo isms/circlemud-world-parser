@@ -1,14 +1,14 @@
 import re
+from typing import Literal, cast
 
 from pydantic import BaseModel, Field
 
-from .constants import MOB_ACTION_FLAGS
-from .constants import MOB_AFFECT_FLAGS
-from .constants import MOB_GENDER
-from .constants import MOB_POSITION
+from .constants import (MOB_ACTION_FLAGS, MOB_AFFECT_FLAGS, MOB_GENDER,
+                        MOB_POSITION)
 from .models import Flag
-from .utils import lookup_value_to_dict
-from .utils import parse_flags
+from .utils import lookup_value_to_dict, parse_flags
+
+MobType = Literal["S", "E"]
 
 
 class DiceRoll(BaseModel):
@@ -43,7 +43,7 @@ class Mobile(BaseModel):
     short_desc: str = Field(..., description="Name shown in actions")
     long_desc: str = Field(..., description="Description in room")
     detail_desc: str = Field(..., description="Description when examined")
-    mob_type: str = Field(..., description="Mobile type (S=simple, E=extended)")
+    mob_type: MobType = Field(..., description="Mobile type (S=simple, E=extended)")
     alignment: int = Field(..., description="Alignment (-1000 to 1000)")
     flags: list[Flag] = Field(default_factory=list, description="Action flags")
     affects: list[Flag] = Field(default_factory=list, description="Affect flags")
@@ -106,7 +106,7 @@ class Mobile(BaseModel):
             short_desc=short_desc,
             long_desc=long_desc,
             detail_desc=detail_desc,
-            mob_type=mob_type,
+            mob_type=cast(MobType, mob_type),
             alignment=int(alignment),
             flags=flags,
             affects=affects,

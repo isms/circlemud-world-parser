@@ -9,9 +9,8 @@ from .mobile import Mobile
 from .object import Object
 from .room import Room
 from .shop import Shop
+from .utils import parse_from_file, split_on_vnums
 from .zone import Zone
-from .utils import parse_from_file
-from .utils import split_on_vnums
 
 app = typer.Typer()
 
