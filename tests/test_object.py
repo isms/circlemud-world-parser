@@ -39,123 +39,75 @@ A
 19 2
 $
 """
-        expected = [
-            {
-                "weight": 22,
-                "wear": [
-                    {
-                        "value": 1,
-                        "note": "WEAR_TAKE"
-                    },
-                    {
-                        "value": 8192,
-                        "note": "WEAR_WIELD"
-                    }
-                ],
-                "id": 12020,
-                "values": [
-                    0,
-                    4,
-                    6,
-                    6
-                ],
-                "type": {
-                    "value": 5,
-                    "note": "WEAPON"
-                },
-                "affects": [
-                    {
-                        "value": 3,
-                        "note": "HITROLL",
-                        "location": 18
-                    },
-                    {
-                        "value": 3,
-                        "note": "DAMROLL",
-                        "location": 19
-                    }
-                ],
-                "aliases": [
-                    "thunderbolt",
-                    "jupiter"
-                ],
-                "cost": 100000,
-                "extra_descs": [],
-                "effects": [
-                    {
-                        "value": 2,
-                        "note": "HUM"
-                    },
-                    {
-                        "value": 64,
-                        "note": "MAGIC"
-                    },
-                    {
-                        "value": 1024,
-                        "note": "ANTI_EVIL"
-                    },
-                    {
-                        "value": 4096,
-                        "note": "ANTI_MAGIC_USER"
-                    },
-                    {
-                        "value": 8192,
-                        "note": "ANTI_CLERIC"
-                    }
-                ],
-                "long_desc": "Jupiter's Thunderbolt has been left here.",
-                "rent": 25000,
-                "short_desc": "Jupiter's Thunderbolt"
-            },
-            {
-                "weight": 0,
-                "wear": [],
-                "id": 15005,
-                "values": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "type": {
-                    "value": 12,
-                    "note": "OTHER"
-                },
-                "affects": [
-                    {
-                        "value": 2,
-                        "note": "HITROLL",
-                        "location": 18
-                    },
-                    {
-                        "value": 2,
-                        "note": "DAMROLL",
-                        "location": 19
-                    }
-                ],
-                "aliases": [
-                    "telescope",
-                    "scope"
-                ],
-                "cost": 0,
-                "extra_descs": [
-                    {
-                        "keywords": [
-                            "telescope",
-                            "scope"
-                        ],
-                        "desc": "A small sign says:\n\nMade in Siberia.\n"
-                    }
-                ],
-                "effects": [],
-                "long_desc": "There is a large telescope here, pointing at the sky.",
-                "rent": 0,
-                "short_desc": "a large telescope"
-            }
-        ]
-
         objs, errors = parse_from_string(text, Object.parse_raw, split_on_vnums)
-        assert [obj.model_dump(exclude_none=True) for obj in objs] == expected
+        assert len(objs) == 2
+
+        # First object: Jupiter's Thunderbolt
+        thunderbolt = objs[0]
+        assert thunderbolt.id == 12020
+        assert thunderbolt.aliases == ["thunderbolt", "jupiter"]
+        assert thunderbolt.short_desc == "Jupiter's Thunderbolt"
+        assert thunderbolt.long_desc == "Jupiter's Thunderbolt has been left here."
+        assert thunderbolt.weight == 22
+        assert thunderbolt.cost == 100000
+        assert thunderbolt.rent == 25000
+        assert thunderbolt.values == [0, 4, 6, 6]
+
+        assert thunderbolt.type.value == 5
+        assert thunderbolt.type.note == "WEAPON"
+
+        assert len(thunderbolt.wear) == 2
+        assert thunderbolt.wear[0].value == 1
+        assert thunderbolt.wear[0].note == "WEAR_TAKE"
+        assert thunderbolt.wear[1].value == 8192
+        assert thunderbolt.wear[1].note == "WEAR_WIELD"
+
+        assert len(thunderbolt.effects) == 5
+        effect_values = [(e.value, e.note) for e in thunderbolt.effects]
+        assert (2, "HUM") in effect_values
+        assert (64, "MAGIC") in effect_values
+        assert (1024, "ANTI_EVIL") in effect_values
+        assert (4096, "ANTI_MAGIC_USER") in effect_values
+        assert (8192, "ANTI_CLERIC") in effect_values
+
+        assert len(thunderbolt.affects) == 2
+        assert thunderbolt.affects[0].location == 18
+        assert thunderbolt.affects[0].note == "HITROLL"
+        assert thunderbolt.affects[0].value == 3
+        assert thunderbolt.affects[1].location == 19
+        assert thunderbolt.affects[1].note == "DAMROLL"
+        assert thunderbolt.affects[1].value == 3
+
+        assert thunderbolt.extra_descs == []
+
+        # Second object: telescope
+        telescope = objs[1]
+        assert telescope.id == 15005
+        assert telescope.aliases == ["telescope", "scope"]
+        assert telescope.short_desc == "a large telescope"
+        assert telescope.long_desc == "There is a large telescope here, pointing at the sky."
+        assert telescope.weight == 0
+        assert telescope.cost == 0
+        assert telescope.rent == 0
+        assert telescope.values == [0, 0, 0, 0]
+
+        assert telescope.type.value == 12
+        assert telescope.type.note == "OTHER"
+
+        assert telescope.wear == []
+        assert telescope.effects == []
+
+        assert len(telescope.affects) == 2
+        assert telescope.affects[0].location == 18
+        assert telescope.affects[0].note == "HITROLL"
+        assert telescope.affects[0].value == 2
+        assert telescope.affects[1].location == 19
+        assert telescope.affects[1].note == "DAMROLL"
+        assert telescope.affects[1].value == 2
+
+        assert len(telescope.extra_descs) == 1
+        assert telescope.extra_descs[0].keywords == ["telescope", "scope"]
+        assert telescope.extra_descs[0].desc == "A small sign says:\n\nMade in Siberia.\n"
 
     def test_parsing_object_with_non_stock_flag(self):
         text = """#42
@@ -173,9 +125,10 @@ $
 
         assert len(thing.effects) == 4
 
-        expected = {
-            'value': 274877906944,
-            'note': None
-        }
-        effects_as_dicts = [e.model_dump() for e in thing.effects]
-        assert expected in effects_as_dicts
+        # Check that one of the effects has the non-stock flag value
+        effect_values = [e.value for e in thing.effects]
+        assert 274877906944 in effect_values
+
+        # The non-stock flag should have note=None
+        non_stock = [e for e in thing.effects if e.value == 274877906944][0]
+        assert non_stock.note is None
