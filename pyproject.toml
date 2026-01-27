@@ -23,6 +23,7 @@ line-length = 120
 [dependency-groups]
 dev = [
     "flake8>=7.3.0",
+    "isort>=7.0.0",
     "ruff>=0.14.14",
     "ty>=0.0.13",
 ]

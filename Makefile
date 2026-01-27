@@ -6,6 +6,7 @@ test:
 	uv run pytest -v
 
 lint:
+	uv run isort --check-only circlemud_world_parser
 	uv run ruff check circlemud_world_parser
 	uv run ty check
 
