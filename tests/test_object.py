@@ -1,4 +1,3 @@
-# coding: utf-8
 from circlemud_world_parser.object import Object
 from circlemud_world_parser.utils import parse_from_string
 from circlemud_world_parser.utils import split_on_vnums

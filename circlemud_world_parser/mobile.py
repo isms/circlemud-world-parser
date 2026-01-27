@@ -3,8 +3,7 @@ from typing import Literal, cast
 
 from pydantic import BaseModel, Field
 
-from .constants import (MOB_ACTION_FLAGS, MOB_AFFECT_FLAGS, MOB_GENDER,
-                        MOB_POSITION)
+from .constants import MobAction, MobAffect, MobGender, MobPosition
 from .models import Flag
 from .utils import lookup_value_to_dict, parse_flags
 
@@ -76,18 +75,18 @@ class Mobile(BaseModel):
         vector_line = bottom_fields[0]
         action, affect, alignment, mob_type = vector_line.split()
 
-        flags = parse_flags(action, MOB_ACTION_FLAGS)
-        affects = parse_flags(affect, MOB_AFFECT_FLAGS)
+        flags = parse_flags(action, MobAction)
+        affects = parse_flags(affect, MobAffect)
 
         level, thac0, ac, max_hp, bare_hand_dmg = bottom_fields[1].split()
         gold, xp = bottom_fields[2].split()
         load_position, default_position, gender = bottom_fields[3].split()
 
-        load_dict = lookup_value_to_dict(int(load_position), MOB_POSITION)
-        default_dict = lookup_value_to_dict(int(default_position), MOB_POSITION)
+        load_dict = lookup_value_to_dict(int(load_position), MobPosition)
+        default_dict = lookup_value_to_dict(int(default_position), MobPosition)
         position = Position(load=Flag(**load_dict), default=Flag(**default_dict))
 
-        gender_dict = lookup_value_to_dict(int(gender), MOB_GENDER)
+        gender_dict = lookup_value_to_dict(int(gender), MobGender)
 
         extra_spec = {}
         if len(bottom_fields) > 4:

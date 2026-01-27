@@ -1,4 +1,5 @@
-# coding: utf-8
+from enum import IntFlag
+
 from circlemud_world_parser.utils import bitvector_to_numbers
 from circlemud_world_parser.utils import bitvector_letters_to_numbers
 from circlemud_world_parser.utils import bitvector_number_to_numbers
@@ -25,17 +26,16 @@ class TestBitvectorParsing:
         assert actual == expected
 
     def test_bitvector_to_flags(self):
-        test_flags = {
-            1: 'GLOWING',
-            2: 'BUZZING',
-            4: 'OOZING',
-            8: 'BUBBLING'
-        }
+        class TestFlags(IntFlag):
+            GLOWING = 1
+            BUZZING = 2
+            OOZING = 4
+            BUBBLING = 8
 
         bitvector = 6
         expected = [
             {"note": "BUZZING", "value": 2},
             {"note": "OOZING", "value": 4}
         ]
-        actual = bitvector_to_flags(bitvector, test_flags)
+        actual = bitvector_to_flags(bitvector, TestFlags)
         assert actual == expected

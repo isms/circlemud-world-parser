@@ -2,6 +2,7 @@ import re
 import string
 import traceback
 from collections.abc import Callable, Iterator
+from enum import IntEnum, IntFlag
 from pathlib import Path
 from typing import TYPE_CHECKING, Any, TypedDict
 
@@ -14,6 +15,9 @@ class FlagDict(TypedDict):
 
     value: int
     note: str | None
+
+
+type FlagEnum = type[IntEnum] | type[IntFlag]
 
 
 class ErrorDict(TypedDict):
@@ -58,16 +62,24 @@ def bitvector_to_numbers(value: int | str) -> list[int]:
     return list(bitvector_letters_to_numbers(value))
 
 
-def bitvector_to_flags(bitvector: int | str, flag_dict: dict[int, str]) -> list[FlagDict]:
+def _lookup_enum(value: int, enum_cls: FlagEnum) -> str | None:
+    """Look up a value in an IntEnum/IntFlag class, returning its name or None."""
+    try:
+        return enum_cls(value).name
+    except ValueError:
+        return None
+
+
+def bitvector_to_flags(bitvector: int | str, enum_cls: FlagEnum) -> list[FlagDict]:
     """Convert a bitvector to a list of flag dictionaries with values and notes."""
     numbers = bitvector_to_numbers(bitvector)
     flags: list[FlagDict] = [
-        {'value': number, 'note': flag_dict.get(number, None)} for number in numbers
+        {'value': number, 'note': _lookup_enum(number, enum_cls)} for number in numbers
     ]
     return flags
 
 
-def parse_flags(raw_bitvector: str, flag_dict: dict[int, str]) -> list["Flag"]:
+def parse_flags(raw_bitvector: str, enum_cls: FlagEnum) -> list["Flag"]:
     """Parse a raw bitvector string into a list of Flag objects.
 
     Combines clean_bitvector, bitvector_to_flags, and Flag creation into one step.
@@ -75,13 +87,13 @@ def parse_flags(raw_bitvector: str, flag_dict: dict[int, str]) -> list["Flag"]:
     from .models import Flag  # Import here to avoid circular imports
 
     cleaned = clean_bitvector(raw_bitvector)
-    flag_dicts = bitvector_to_flags(cleaned, flag_dict)
+    flag_dicts = bitvector_to_flags(cleaned, enum_cls)
     return [Flag(**f) for f in flag_dicts]
 
 
-def lookup_value_to_dict(value: int, flag_dict: dict[int, str]) -> FlagDict:
-    """Look up a single value in a flag dictionary and return as FlagDict."""
-    note = flag_dict.get(value, None)
+def lookup_value_to_dict(value: int, enum_cls: FlagEnum) -> FlagDict:
+    """Look up a single value in an enum class and return as FlagDict."""
+    note = _lookup_enum(value, enum_cls)
     return {'value': value, 'note': note}
 
 

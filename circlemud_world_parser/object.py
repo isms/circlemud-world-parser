@@ -1,10 +1,9 @@
 from pydantic import BaseModel, Field
 
-from .constants import (OBJECT_AFFECT_LOCATION_FLAGS,
-                        OBJECT_EXTRA_EFFECTS_FLAGS, OBJECT_TYPE_FLAGS,
-                        OBJECT_WEAR_FLAGS)
+from .constants import (ObjectAffectLocation, ObjectExtraEffect, ObjectType,
+                        ObjectWear)
 from .models import ExtraDescription, Flag
-from .utils import lookup_value_to_dict, parse_flags
+from .utils import _lookup_enum, lookup_value_to_dict, parse_flags
 
 
 class Affect(BaseModel):
@@ -21,7 +20,7 @@ class Affect(BaseModel):
         for i, field in enumerate(extra_fields):
             if field == 'A':
                 loc, value = (int(v) for v in extra_fields[i + 1].split())
-                note = OBJECT_AFFECT_LOCATION_FLAGS.get(loc, None)
+                note = _lookup_enum(loc, ObjectAffectLocation)
                 results.append(cls(location=loc, note=note, value=value))
         return results
 
@@ -78,12 +77,12 @@ class Object(BaseModel):
         type_flag, effects_bits, wear_bitvector = fields[5].split()
 
         # type flag is always an int
-        type_dict = lookup_value_to_dict(int(type_flag), OBJECT_TYPE_FLAGS)
+        type_dict = lookup_value_to_dict(int(type_flag), ObjectType)
         obj_type = Flag(**type_dict)
 
         # parse the bitvectors
-        effects = parse_flags(effects_bits, OBJECT_EXTRA_EFFECTS_FLAGS)
-        wear = parse_flags(wear_bitvector, OBJECT_WEAR_FLAGS)
+        effects = parse_flags(effects_bits, ObjectExtraEffect)
+        wear = parse_flags(wear_bitvector, ObjectWear)
 
         action_desc = fields[4].rstrip('~') or None
 

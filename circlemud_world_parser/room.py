@@ -2,9 +2,10 @@ import re
 
 from pydantic import BaseModel, Field
 
-from .constants import ROOM_DOOR_FLAGS, ROOM_FLAGS, ROOM_SECTOR_TYPES
+from .constants import RoomDoorFlag, RoomFlag, RoomSectorType
 from .models import ExtraDescription, Flag
-from .utils import clean_bitvector, lookup_value_to_dict, parse_flags
+from .utils import (_lookup_enum, clean_bitvector, lookup_value_to_dict,
+                    parse_flags)
 
 EXIT_RE = r"""D(\d+)
 (.*?)~
@@ -40,7 +41,7 @@ class Exit(BaseModel):
             desc = desc.rstrip('\n')
             flag, key_num, to = other.strip().split()
 
-            door_flag = Flag(value=int(flag), note=ROOM_DOOR_FLAGS.get(int(flag), None))
+            door_flag = Flag(value=int(flag), note=_lookup_enum(int(flag), RoomDoorFlag))
             exits.append(cls(
                 dir=int(direction),
                 desc=desc,
@@ -81,9 +82,9 @@ class Room(BaseModel):
         zone, flags_raw, sector = parts[2].strip().split('\n')[0].strip().split(' ')
 
         flags_clean = clean_bitvector(flags_raw)
-        flags = parse_flags(flags_raw, ROOM_FLAGS) if flags_clean else []
+        flags = parse_flags(flags_raw, RoomFlag) if flags_clean else []
 
-        sector_dict = lookup_value_to_dict(int(sector), ROOM_SECTOR_TYPES)
+        sector_dict = lookup_value_to_dict(int(sector), RoomSectorType)
         sector_type = Flag(**sector_dict)
 
         bottom_matter = '~'.join(parts[2:])

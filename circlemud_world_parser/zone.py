@@ -2,7 +2,8 @@ import re
 
 from pydantic import BaseModel, Field
 
-from .constants import MOB_EQUIP
+from .constants import MobEquipSlot
+from .utils import _lookup_enum
 
 COMMAND_RE = r'(\d+)'
 COMMAND_PATTERN = re.compile(COMMAND_RE)
@@ -148,7 +149,7 @@ class Zone(BaseModel):
 
             elif curr.startswith('E'):
                 _, obj, max_count, location = cls._get_command_fields(curr)
-                note = MOB_EQUIP.get(location, None)
+                note = _lookup_enum(location, MobEquipSlot)
                 contents = cls._get_contents(commands, i, obj)
                 mobs[-1].equipped.append(EquippedObject(
                     location=location, max=max_count, id=obj, note=note, contents=contents

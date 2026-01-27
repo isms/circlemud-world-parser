@@ -1,4 +1,3 @@
-# coding: utf-8
 from circlemud_world_parser.zone import Zone
 
 

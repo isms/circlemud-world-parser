@@ -1,4 +1,3 @@
-# coding: utf-8
 import pytest
 
 from circlemud_world_parser.mobile import Mobile

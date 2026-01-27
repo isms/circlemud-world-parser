@@ -6,12 +6,12 @@ older Diku-format shops to Circle v3.0.
 """
 from pydantic import BaseModel, Field
 
-from .constants import OBJECT_TYPE_FLAGS, SHOP_FLAGS, SHOP_TRADES_WITH
+from .constants import ObjectType, ShopFlag, ShopTradesWith
 from .models import Flag
 from .utils import parse_flags
 
 # Reverse lookup for object type names to values (cached at module level)
-OBJECT_TYPE_BY_NAME = {v: k for k, v in OBJECT_TYPE_FLAGS.items()}
+OBJECT_TYPE_BY_NAME = {member.name: member.value for member in ObjectType}
 
 
 class BuyType(BaseModel):
@@ -117,11 +117,11 @@ class Shop(BaseModel):
 
         temper = int(fields[messages_stop])
 
-        flags = parse_flags(fields[messages_stop + 1], SHOP_FLAGS)
+        flags = parse_flags(fields[messages_stop + 1], ShopFlag)
 
         shopkeeper = int(fields[messages_stop + 2])
 
-        trades_with = parse_flags(fields[messages_stop + 3], SHOP_TRADES_WITH)
+        trades_with = parse_flags(fields[messages_stop + 3], ShopTradesWith)
 
         rooms_start, rooms_stop = messages_stop + 4, delimiters[2]
         rooms = [int(r) for r in fields[rooms_start:rooms_stop]]
